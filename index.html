@@ -1,0 +1,1492 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nuri Laboratory - K-Medical Food & Wellness</title>
+  <!-- Google Fonts: Inter & Outfit & Noto Sans KR -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="gateway-active">
+<!-- Google Translate Bar (KO, EN, JA, AR support) -->
+<div id="google_translate_bar" style="position: fixed; top: 0; left: 0; width: 100%; z-index: 10000; background: rgba(15, 23, 42, 0.75); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid rgba(255,255,255,0.06); padding: 6px 20px; display: flex; align-items: center; justify-content: flex-end; gap: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);">
+    <span style="font-size: 0.78rem; color: #94a3b8; font-weight: 500; font-family: 'Inter', sans-serif;"><i class="fa-solid fa-globe" style="margin-right: 5px; color: var(--primary);"></i> Language:</span>
+    <div id="google_translate_element"></div>
+</div>
+
+<!-- Shift gateway content slightly down for the translation bar -->
+<style>
+  #gateway-screen, .dashboard-layout {
+    margin-top: 40px !important;
+  }
+</style>
+
+  
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+
+  <!-- ─── 1. Welcome Gateway Screen ─── -->
+  <div id="gateway-screen" class="gateway-layout">
+    <div class="gateway-grid-container">
+      
+      <!-- Left Column: Branding & Scientific Authority -->
+      <div class="gateway-brand-section">
+        <div class="brand-logo-large"><img src="logo.png" alt="Nuri Laboratory Logo"></div>
+        <h1 class="gateway-title">Nuri Laboratory</h1>
+        <p class="gateway-slogan">"Wellness Energy is ON"</p>
+        <p class="gateway-subtitle">전통 동양의학 문헌과 현대 생리학 기전의 국가 표준 데이터 기반 과학적 디지털 융합 R&D 플랫폼</p>
+        
+        <!-- Authority Sources (Compact List) -->
+        <div class="authority-list">
+          <div class="authority-item" onclick="showGuide('neiging')" style="cursor: pointer;" title="클릭하시면 황제내경 상세 정보 및 플랫폼 연계 기능을 확인합니다">
+            <span class="auth-icon"><i class="fa-solid fa-yin-yang"></i></span>
+            <div class="auth-text">
+              <h4>황제내경 (黃帝內經) <span style="font-size:0.7rem; color:var(--primary); font-weight:normal; margin-left:4px;"><i class="fa-solid fa-circle-info"></i> 안내</span></h4>
+              <p>인체 생리 체계의 근본 원리 및 음양오행·사상 계통 제공</p>
+            </div>
+          </div>
+          <div class="authority-item" onclick="showGuide('bogam')" style="cursor: pointer;" title="클릭하시면 동의보감 상세 정보 및 플랫폼 연계 기능을 확인합니다">
+            <span class="auth-icon"><i class="fa-solid fa-book-medical"></i></span>
+            <div class="auth-text">
+              <h4>동의보감 (東醫寶鑑) <span style="font-size:0.7rem; color:var(--primary); font-weight:normal; margin-left:4px;"><i class="fa-solid fa-circle-info"></i> 안내</span></h4>
+              <p>군신좌사 배합 비율 및 상극·시너지(칠정배합) 처방 알고리즘</p>
+            </div>
+          </div>
+          <div class="authority-item" onclick="showGuide('bongcho')" style="cursor: pointer;" title="클릭하시면 본초강목 상세 정보 및 플랫폼 연계 기능을 확인합니다">
+            <span class="auth-icon"><i class="fa-solid fa-mortar-pestle"></i></span>
+            <div class="auth-text">
+              <h4>본초강목 (本草綱目) <span style="font-size:0.7rem; color:var(--primary); font-weight:normal; margin-left:4px;"><i class="fa-solid fa-circle-info"></i> 안내</span></h4>
+              <p>수천 종 천연물의 고유 성미와 한방 효능 명세 구축</p>
+            </div>
+          </div>
+          <div class="authority-item" onclick="showGuide('korea')" style="cursor: pointer;" title="클릭하시면 국가 표준 데이터 상세 정보 및 플랫폼 연계 기능을 확인합니다">
+            <span class="auth-icon"><i class="fa-solid fa-microscope"></i></span>
+            <div class="auth-text">
+              <h4>한국한의학연구원 국가표준 <span style="font-size:0.7rem; color:var(--primary); font-weight:normal; margin-left:4px;"><i class="fa-solid fa-circle-info"></i> 안내</span></h4>
+              <p>과학적 정량 분석 식품 성분표 기반의 체계적 정규화 데이터</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Subscription Form -->
+      <div class="gateway-form-section">
+        <div class="glass-panel subscription-card-panel" id="gateway-subscription-section" style="background:rgba(15, 23, 42, 0.75); border:1px solid var(--border-glass); border-radius:20px; box-shadow:0 15px 35px rgba(0,0,0,0.6); backdrop-filter:blur(20px); -webkit-backdrop-filter:blur(20px);">
+          <!-- Premium Marketing CTA Banner inside Form -->
+          <div class="event-pill">
+            <i class="fa-solid fa-gift"></i> Launch Special Event
+          </div>
+          
+          <div class="sub-form-header" style="margin-top: 10px; margin-bottom: 20px;">
+            <span class="pass-badge" style="font-size:0.7rem; font-weight:700; color:var(--primary); background:rgba(16,185,129,0.08); border:1px solid rgba(16,185,129,0.2); padding:3px 8px; border-radius:4px; text-transform:uppercase; display:inline-block; margin-bottom:8px;"><i class="fa-solid fa-id-card-clip"></i> K-Medical Food Free Pass</span>
+            <h2 style="font-family:'Outfit', sans-serif; font-size:1.35rem; color:#fff; font-weight:700; margin:0 0 6px;">Mila & Nuri Lab 프리미엄 무료 구독 신청</h2>
+            <p class="sub-form-desc" style="font-size:0.82rem; color:var(--text-muted); line-height:1.5; margin:0;">
+              10초 만에 이메일을 등록하고, <strong>나만의 사상 체질 맞춤형 7-AXIS 약선 리포트</strong>와 <strong>B2B 식단 R&D 설계기 무료 사용권</strong>을 즉시 획득하세요!
+            </p>
+          </div>
+          
+          <form id="subscribe-form" onsubmit="handleSubscribeSubmit(event)">
+            <div class="sub-form-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:14px;">
+              <div class="control-group" style="display:flex; flex-direction:column; gap:5px;">
+                <label for="sub-name" style="font-size:0.78rem; font-weight:600; color:var(--text-secondary);"><i class="fa-solid fa-user"></i> 이름 (실명)</label>
+                <input type="text" id="sub-name" placeholder="홍길동" required style="width:100%; padding:9px 12px; background:rgba(0,0,0,0.3); border:1px solid var(--border-glass); border-radius:8px; color:#fff; outline:none; font-size:0.82rem;">
+              </div>
+              <div class="control-group" style="display:flex; flex-direction:column; gap:5px;">
+                <label for="sub-email" style="font-size:0.78rem; font-weight:600; color:var(--text-secondary);"><i class="fa-solid fa-envelope"></i> 이메일 주소</label>
+                <input type="email" id="sub-email" placeholder="example@gmail.com" required style="width:100%; padding:9px 12px; background:rgba(0,0,0,0.3); border:1px solid var(--border-glass); border-radius:8px; color:#fff; outline:none; font-size:0.82rem;">
+              </div>
+              <div class="control-group" style="display:flex; flex-direction:column; gap:5px;">
+                <label for="sub-role" style="font-size:0.78rem; font-weight:600; color:var(--text-secondary);"><i class="fa-solid fa-briefcase"></i> 비즈니스 역할군</label>
+                <select id="sub-role" style="width:100%; padding:9px 12px; background:rgba(0,0,0,0.3); border:1px solid var(--border-glass); border-radius:8px; color:#fff; outline:none; font-size:0.82rem; cursor:pointer;">
+                  <option value="general">일반 사용자 (가정식 웰빙 케어)</option>
+                  <option value="founder">프랜차이즈 예비 창업자 (메뉴 기획)</option>
+                  <option value="researcher">전문 요리 연구가 (한식 약선 R&D)</option>
+                  <option value="medical">의료인 및 한의학 전문가 (학술 임상)</option>
+                </select>
+              </div>
+              <div class="control-group" style="display:flex; flex-direction:column; gap:5px;">
+                <label for="sub-constitution" style="font-size:0.78rem; font-weight:600; color:var(--text-secondary);"><i class="fa-solid fa-yin-yang"></i> 나의 사상 체질</label>
+                <select id="sub-constitution" style="width:100%; padding:9px 12px; background:rgba(0,0,0,0.3); border:1px solid var(--border-glass); border-radius:8px; color:#fff; outline:none; font-size:0.82rem; cursor:pointer;">
+                  <option value="일반">일반 / 모름 (General)</option>
+                  <option value="소음인">소음인 (체온 저하, 위장 기능 취약)</option>
+                  <option value="소양인">소양인 (신장 허약, 상체 위주 열 축적)</option>
+                  <option value="태음인">태음인 (진액 순환 정체, 기관지 호흡기 약화)</option>
+                  <option value="태양인">태양인 (기운 상승 정체, 하체 기력 저하)</option>
+                </select>
+              </div>
+              <div class="control-group" style="grid-column: span 2; display:flex; flex-direction:column; gap:5px;">
+                <label for="sub-concern" style="font-size:0.78rem; font-weight:600; color:var(--text-secondary);"><i class="fa-solid fa-heart-pulse"></i> 개선하고 싶은 최우선 건강 관심사</label>
+                <select id="sub-concern" style="width:100%; padding:9px 12px; background:rgba(0,0,0,0.3); border:1px solid var(--border-glass); border-radius:8px; color:#fff; outline:none; font-size:0.82rem; cursor:pointer;">
+                  <option value="기력 보충">만성 피로 해소 및 전신 기력 보충 (보기/보혈)</option>
+                  <option value="수족냉증">수족냉증 및 전신 시린 시림 증상 완화 (온열/활혈)</option>
+                  <option value="소화 촉진">식욕 부진 및 만성 위장 소화불량 개선 (건비/비위)</option>
+                  <option value="마른 기침">환절기 마른 기침 및 목 건조증 해소 (윤폐/지해)</option>
+                  <option value="관절통">풍한습으로 인한 관절 통증 및 허리 요통 완화 (강근골)</option>
+                  <option value="숙취 해소">음주 후 숙취, 간독소 배출 및 간기능 보호 (청열해독)</option>
+                </select>
+              </div>
+            </div>
+            
+            <div class="sub-form-consent" style="margin-top: 14px; display:flex; align-items:center; gap:8px;">
+              <input type="checkbox" id="sub-consent" required style="width:15px; height:15px; accent-color:var(--primary); cursor:pointer;">
+              <label for="sub-consent" style="font-size:0.75rem; color:var(--text-muted); cursor:pointer;">
+                [필수] 개인정보 수집 이용 동의 및 웰니스 리포트 메일 수신에 동의합니다.
+              </label>
+            </div>
+    
+            <button type="submit" class="btn btn-primary btn-large" style="width:100%; margin-top:18px; font-weight:700;">
+              <i class="fa-solid fa-id-card-clip"></i> 무료 구독 신청 및 회원 PASS 즉시 발급
+            </button>
+          </form>
+        </div>
+      </div>
+      
+    </div>
+  
+    <!-- Split Gateway Options with Lock Overlay -->
+    <div class="gateway-options-wrapper" style="position:relative; width:100%; max-width: 950px; margin-top: 10px;">
+      <!-- Lock Overlay -->
+      <div class="gateway-options-lock" id="gateway-lock-overlay" style="position:absolute; top:0; left:0; right:0; bottom:0; background:rgba(10,15,28,0.75); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); z-index:10; display:flex; flex-direction:column; align-items:center; justify-content:center; border-radius:20px; text-align:center; padding:20px; border:1px dashed rgba(255,255,255,0.15);">
+        <div class="lock-body">
+          <i class="fa-solid fa-lock" style="font-size:2.3rem; color:var(--primary); margin-bottom:12px; filter:drop-shadow(0 0 10px var(--primary-glow));"></i>
+          <h3 style="font-family:'Outfit', sans-serif; font-size:1.2rem; color:#fff; font-weight:700; margin-bottom:8px;">구독 회원 PASS 발급 후 플랫폼 입장이 가능합니다</h3>
+          <p style="font-size:0.82rem; color:var(--text-muted); max-width:500px; margin:0 auto 20px; line-height:1.5;">
+            상단의 무료 구독 신청서를 작성하시면 <strong>Mila 웰니스 회원 PASS</strong> 발급장과 함께 하단의 레시피실 및 워크스페이스 입장 버튼이 즉시 활성화됩니다.
+          </p>
+          <!-- 관리자 전용 입장 버튼 -->
+          <button class="admin-entry-btn" onclick="openAdminModal()" title="관리자 전용 입장">
+            <i class="fa-solid fa-user-shield"></i> 관리자 입장
+          </button>
+        </div>
+      </div>
+      
+      <!-- Option Cards -->
+      <div class="gateway-options" id="gateway-options-container" style="filter: blur(4px); pointer-events: none; opacity: 0.5; transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); display: grid; grid-template-columns: 1fr 1fr; gap: 24px; width: 100%;">
+        <div class="gateway-option-card opt-general" onclick="enterPlatform('recipe')">
+          <div class="opt-overlay"></div>
+          <div class="opt-body">
+            <h2>Mila 웰빙 레시피실</h2>
+            <p>내 체질과 현재 절기에 맞는 건강 보양 처방식 및 친숙한 한글 식재료 요리 가이드를 탐색합니다.</p>
+            <span class="btn btn-primary" style="margin-top:10px;"><i class="fa-solid fa-heart"></i> 무료 진입하기</span>
+          </div>
+        </div>
+  
+        <div class="gateway-option-card opt-expert" onclick="enterPlatform('workspace')">
+          <div class="opt-overlay"></div>
+          <div class="opt-body">
+            <h2>Nuri Lab R&D 워크스페이스</h2>
+            <p>생리 활성 및 기전(Mechanism) 1:N 매핑 분석, 맛 프로필 설계, 프랜차이즈 창업용 원료 명세서 데이터(JSON/CSV)를 연구합니다.</p>
+            <span class="btn btn-accent" style="margin-top:10px;"><i class="fa-solid fa-laptop-medical"></i> 전문가 등급 진입</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- ─── 2. Main Platform Application Screen (Hidden by Default) ─── -->
+  <div id="main-app-screen" class="app-layout" style="display: none;">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="brand-section" onclick="returnToGateway()" style="cursor: pointer;" title="클릭 시 웰컴 초기 화면으로 이동합니다">
+        <div class="brand-logo"><img src="logo.png" alt="Nuri Lab Logo"></div>
+        <div class="brand-text">
+          <h2>Nuri Lab</h2>
+          <p id="platform-subtitle-text">Wellness Energy is ON</p>
+        </div>
+      </div>
+
+      <!-- Persona Tag (General vs Expert) -->
+      <div class="persona-tag" id="app-persona-badge" onclick="togglePersona()" style="cursor: pointer;" title="클릭 시 일반/전문가 모드로 전환합니다">
+        일반 사용자 모드
+      </div>
+      
+      <nav class="nav-menu">
+        <button class="nav-item active" onclick="switchTab('tab-dashboard')">
+          <i class="fa-solid fa-chart-line"></i> <span class="nav-txt">대시보드</span>
+        </button>
+        <button class="nav-item" onclick="switchTab('tab-query')">
+          <i class="fa-solid fa-wand-magic-sparkles"></i> <span class="nav-txt" id="menu-query-txt">AI 약선 처방실</span>
+        </button>
+        <button class="nav-item" onclick="switchTab('tab-browser')">
+          <i class="fa-solid fa-database"></i> <span class="nav-txt" id="menu-browser-txt">마스터 DB 브라우저</span>
+        </button>
+        <button class="nav-item" onclick="switchTab('tab-recipes-wiki')">
+          <i class="fa-solid fa-book-open"></i> <span class="nav-txt">약선 요리 비법서</span>
+        </button>
+        <button class="nav-item" onclick="switchTab('tab-culture-wiki')">
+          <i class="fa-solid fa-calendar-days"></i> <span class="nav-txt">약선 문화원</span>
+        </button>
+        <button class="nav-item expert-only" onclick="switchTab('tab-index')">
+          <i class="fa-solid fa-list-check"></i> <span>표준기능 & 7축 분류</span>
+        </button>
+        <button class="nav-item expert-only" onclick="switchTab('tab-rules')">
+          <i class="fa-solid fa-shuffle"></i> <span>정규화 & 예외 사전</span>
+        </button>
+        <button class="nav-item expert-only" onclick="switchTab('tab-flow')">
+          <i class="fa-solid fa-diagram-project"></i> <span>매핑 프로세스 뷰어</span>
+        </button>
+        <button class="nav-item expert-only" onclick="switchTab('tab-recipes-rnd')">
+          <i class="fa-solid fa-flask-vial"></i> <span>약선 R&D 설계기</span>
+        </button>
+        <button class="nav-item expert-only" onclick="switchTab('tab-subscribers')">
+          <i class="fa-solid fa-users-gear"></i> <span class="nav-txt">구독자 & CRM 센터</span>
+        </button>
+        <button class="nav-item expert-only" onclick="switchTab('tab-ecosystem')" id="nav-ecosystem-btn">
+          <i class="fa-solid fa-network-wired"></i> <span class="nav-txt">R&D 협력 & 비즈니스</span>
+        </button>
+        <button class="nav-item" onclick="switchTab('tab-shop')" id="nav-shop-btn">
+          <i class="fa-solid fa-shop"></i> <span class="nav-txt">Mila 프리미엄 숍</span>
+        </button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <button class="btn btn-outline" style="width:100%; margin-bottom: 12px; font-size:0.75rem;" onclick="returnToGateway()">
+          <i class="fa-solid fa-house"></i> 웰컴 초기 화면으로
+        </button>
+        <div class="db-counter-card">
+          <i class="fa-solid fa-server"></i>
+          <div>
+            <div class="counter-val" id="cnt-master">1,793</div>
+            <div class="counter-lbl">온톨로지 데이터</div>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Workspace -->
+    <main class="workspace">
+      
+      <!-- Tab 1: Dashboard -->
+      <section id="tab-dashboard" class="tab-content active">
+        <div class="page-header">
+          <h1 id="dashboard-title-text">웰빙 건강 대시보드</h1>
+          <p id="dashboard-desc-text">전통 문헌(황제내경, 동의보감, 본초강목)과 한국한의학연구원 데이터를 기반으로 한 신체 밸런스 체계</p>
+        </div>
+
+        <div class="metrics-grid">
+          <div class="metric-card" onclick="switchTab('tab-browser')" title="클릭 시 마스터 DB 브라우저로 이동합니다" style="cursor: pointer;">
+            <div class="metric-icon"><i class="fa-solid fa-book-medical"></i></div>
+            <div class="metric-info">
+              <h3>안정화된 고유 천연물 원료</h3>
+              <p class="value" id="stat-master-rows">0 행</p>
+            </div>
+          </div>
+          <div class="metric-card" onclick="switchTab('tab-index')" title="클릭 시 표준기능 & 7축 분류 페이지로 이동합니다" style="cursor: pointer;">
+            <div class="metric-icon"><i class="fa-solid fa-compass"></i></div>
+            <div class="metric-info">
+              <h3>신체 표준 조절 작용</h3>
+              <p class="value" id="stat-functions">0 종</p>
+            </div>
+          </div>
+          <div class="metric-card" onclick="switchTab('tab-rules')" title="클릭 시 정규화 & 예외 사전 페이지로 이동합니다" style="cursor: pointer;">
+            <div class="metric-icon"><i class="fa-solid fa-language"></i></div>
+            <div class="metric-info">
+              <h3>전통 효능 매핑 규칙</h3>
+              <p class="value" id="stat-normalization">0 개</p>
+            </div>
+          </div>
+          <div class="metric-card" onclick="switchTab('tab-rules')" title="클릭 시 정규화 & 예외 사전 페이지로 이동합니다" style="cursor: pointer;">
+            <div class="metric-icon"><i class="fa-solid fa-circle-exclamation"></i></div>
+            <div class="metric-info">
+              <h3 id="stat-exceptions-lbl">상극 안전 예외 가드</h3>
+              <p class="value" id="stat-exceptions">0 건</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ─── RDA 벤치마킹 통합 센터 (RDA Benchmark Hub) ─── -->
+        <div class="rda-benchmark-section" style="margin-top: 30px; margin-bottom: 30px;">
+          <h2 style="font-family:'Outfit', sans-serif; font-size:1.4rem; color:var(--primary); margin-bottom:12px; display:flex; align-items:center; gap:8px;">
+            <i class="fa-solid fa-square-poll-horizontal"></i> 국가 표준 RDA 농식품올바로 벤치마크 허브
+          </h2>
+          <p style="font-size:0.9rem; color:var(--text-muted); margin-bottom: 20px; line-height: 1.5;">
+            농촌진흥청 '농식품올바로'의 국가 표준 분류 체계를 Nuri Lab & Mila 플랫폼의 인터랙티브 기능과 1:1 결합 매핑한 통합 서비스 센터입니다.
+          </p>
+          <div class="rda-grid">
+            
+            <!-- 카드 1: 전통발효식품 -->
+            <div class="glass-panel rda-card">
+              <div class="rda-card-header">
+                <span class="rda-emoji">🦠</span>
+                <div>
+                  <h4 class="rda-title">전통발효식품</h4>
+                  <span class="rda-sub">Traditional Fermented Foods</span>
+                </div>
+              </div>
+              <div class="rda-links-list">
+                <button class="rda-link-btn" onclick="triggerRdaAction('microbes')">
+                  <span>발효미생물 정보</span> <i class="fa-solid fa-chevron-right"></i>
+                </button>
+                <button class="rda-link-btn" onclick="triggerRdaAction('local-food')">
+                  <span>전통향토음식 검색</span> <i class="fa-solid fa-chevron-right"></i>
+                </button>
+                <button class="rda-link-btn" onclick="triggerRdaAction('jongga')">
+                  <span>종가음식 비법서</span> <i class="fa-solid fa-chevron-right"></i>
+                </button>
+                <button class="rda-link-btn" onclick="triggerRdaAction('sauce')">
+                  <span>한식양념장 R&D</span> <i class="fa-solid fa-chevron-right"></i>
+                </button>
+                <button class="rda-link-btn" onclick="triggerRdaAction('kimchi')">
+                  <span>별미김치 탐색</span> <i class="fa-solid fa-chevron-right"></i>
+                </button>
+                <button class="rda-link-btn" onclick="triggerRdaAction('liquor')">
+                  <span>전통주(우리술) 매칭</span> <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- 카드 2: 식품영양·기능성정보 -->
+            <div class="glass-panel rda-card">
+              <div class="rda-card-header">
+                <span class="rda-emoji">📊</span>
+                <div>
+                  <h4 class="rda-title">식품영양·기능성정보</h4>
+                  <span class="rda-sub">Nutrition & Bioactive Info</span>
+                </div>
+              </div>
+              <div class="rda-links-list">
+                <button class="rda-link-btn" onclick="triggerRdaAction('standard-db')">
+                  <span>국가표준식품성분표 (10판)</span> <i class="fa-solid fa-chevron-right"></i>
+                </button>
+                <button class="rda-link-btn" onclick="triggerRdaAction('bioactive')">
+                  <span>기능성성분 상세 검색</span> <i class="fa-solid fa-chevron-right"></i>
+                </button>
+                <button class="rda-link-btn" onclick="triggerRdaAction('benefits')">
+                  <span>농산물 효능 사전</span> <i class="fa-solid fa-chevron-right"></i>
+                </button>
+                <button class="rda-link-btn" onclick="triggerRdaAction('afaci')">
+                  <span>AFACI 아시아 식품성분 DB</span> <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- 카드 3: 건강식단관리 -->
+            <div class="glass-panel rda-card">
+              <div class="rda-card-header">
+                <span class="rda-emoji">🥗</span>
+                <div>
+                  <h4 class="rda-title">건강식단관리</h4>
+                  <span class="rda-sub">Diet & Lifestyle Control</span>
+                </div>
+              </div>
+              <div class="rda-links-list">
+                <button class="rda-link-btn" onclick="triggerRdaAction('diet-eval')">
+                  <span>식생활 체질 평가</span> <i class="fa-solid fa-chevron-right"></i>
+                </button>
+                <button class="rda-link-btn" onclick="triggerRdaAction('menugen')">
+                  <span>식단작성 (메뉴젠 R&D)</span> <i class="fa-solid fa-chevron-right"></i>
+                </button>
+                <button class="rda-link-btn" onclick="triggerRdaAction('custom-diet')">
+                  <span>건강맞춤식단 따라하기</span> <i class="fa-solid fa-chevron-right"></i>
+                </button>
+                <button class="rda-link-btn" onclick="triggerRdaAction('monthly-ing')">
+                  <span>이달의 추천 절기 식재료</span> <i class="fa-solid fa-chevron-right"></i>
+                </button>
+                <button class="rda-link-btn" onclick="triggerRdaAction('sikpumbogam')">
+                  <span>약선재료 (식품보감 51종)</span> <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- 7-Axis Distribution Panel -->
+        <div class="dashboard-details">
+          <div class="glass-panel">
+            <h3><i class="fa-solid fa-yin-yang"></i> <span id="axis-title-lbl">몸을 이롭게 하는 7대 건강 계열</span></h3>
+            <p style="font-size:0.9rem; color:var(--text-muted); margin-bottom: 20px; line-height: 1.5;" id="axis-desc-lbl">
+              인체의 건강 상태를 조율하고 활력을 돕기 위해 계통화된 7대 신체 반응 축입니다.
+            </p>
+            <div class="axis-bars-container" id="axis-chart-container">
+              <!-- JS-generated bar meters -->
+            </div>
+          </div>
+          
+          <div class="glass-panel">
+            <h3><i class="fa-solid fa-shield-halved"></i> 칠정배합 안전 가드 현황</h3>
+            <p style="font-size:0.9rem; color:var(--text-muted); margin-bottom: 15px; line-height: 1.5;">
+              약리 유효 성분의 생물학적 충돌 및 한의학 배합 금기 법칙(상반/상오)에 따라 자동 연산되는 세이프티 시스템 규칙입니다.
+            </p>
+            <ul class="safeguard-rules-list">
+              <li>
+                <span class="badge badge-warning">상반(相反) - 금기 조합</span>
+                <strong>인삼 + 여로, 감 + 꽃게, 꿀 + 파</strong>
+                <p>독성을 유발하거나 약효를 억제하여 섭취를 금하는 궁합 (검출 시 우회 성분 자동 대체 가동)</p>
+              </li>
+              <li>
+                <span class="badge badge-synergy">상사(相使) / 상수(相須) - 시너지 조합</span>
+                <strong>인삼 + 대추, 은이버섯 + 백합, 상기생 + 쑥, 생강 + 양고기</strong>
+                <p>약리 효능의 신체 흡수율을 촉진하고 생체 활성을 도우며 시너지를 극대화하는 조합</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab 2: AI 약선 처방실 -->
+      <section id="tab-query" class="tab-content">
+        <div class="page-header">
+          <h1 id="query-title-text">맞춤형 건강 약선 처방실</h1>
+          <p id="query-desc-text">황제내경, 동의보감, 본초강목 및 농진청 데이터를 기반으로 환자 상태에 맞는 최적의 보양식 처방을 창안합니다.</p>
+        </div>
+
+        <div class="query-panel-layout">
+          <!-- Control Panel -->
+          <div class="glass-panel form-card">
+            <div class="control-group">
+              <label for="symptom-select"><i class="fa-solid fa-stethoscope"></i> 불편한 몸의 증상 / 건강 개선 목표</label>
+              <select id="symptom-select" onchange="toggleCustomInput()">
+                <option value="수족냉증">수족냉증 (손발이 몹시 차가움)</option>
+                <option value="마른 기침">마른 기침 (호흡기 건조 및 통증)</option>
+                <option value="숙취 해소">숙취 해소 (음주 후 피로 및 위장 손상)</option>
+                <option value="관절통">관절 및 척추 요통 통증</option>
+                <option value="소화 촉진">소화 불량 및 위장 보호</option>
+                <option value="기력 보충">만성 기력 저하 및 활력 고갈</option>
+                <option value="CUSTOM">직접 입력...</option>
+              </select>
+              <input type="text" id="custom-symptom" placeholder="불편한 증상 키워드 직접 입력" style="display:none; margin-top:10px;">
+            </div>
+
+            <div class="control-group">
+              <label for="constitution-select"><i class="fa-solid fa-yin-yang"></i> 나의 사상 체질 (알고 있다면 선택)</label>
+              <select id="constitution-select">
+                <option value="일반">일반 체질 / 잘 모름 (General)</option>
+                <option value="소음인">소음인 (체온 저하가 잦고 비위 소화기가 약함)</option>
+                <option value="소양인">소양인 (열감이 많고 신장/정혈이 부족함)</option>
+                <option value="태음인">태음인 (체내 진액이 뭉치기 쉽고 호흡기가 약함)</option>
+                <option value="태양인">태양인 (기운이 위로 솟구치기 쉬운 체질)</option>
+              </select>
+            </div>
+
+            <div class="control-group">
+              <label for="season-select"><i class="fa-solid fa-calendar-check"></i> 현재 시기 / 계절 절기</label>
+              <select id="season-select">
+                <option value="General">사계절 공통 (General)</option>
+                <option value="경칩">경칩 (초봄, 춘곤증 예방 및 간 기운 보충)</option>
+                <option value="청명">청명 (늦봄, 피로 회복 및 양생 조절)</option>
+                <option value="하지">하지 (초여름, 속열 완화 및 갈증 해소)</option>
+                <option value="대서">대서 (한여름, 폭염 대비 원기 회복 및 수분 섭취)</option>
+                <option value="백로">백로 (초가을, 기관지 점막 보습 필요)</option>
+                <option value="상강">상강 (늦가을, 면역력 급감 시기)</option>
+                <option value="동지">동지 (한겨울, 보양 및 양기 증진 필요)</option>
+              </select>
+            </div>
+
+            <button class="btn btn-primary btn-large" onclick="runInference()">
+              <i class="fa-solid fa-gears"></i> 맞춤 보양 레시피 창안
+            </button>
+            
+            <div class="engine-log-box" id="engine-console">
+              추론 시스템 준비 완료. 증상을 입력해주세요.
+            </div>
+          </div>
+
+          <!-- Result Panel -->
+          <div class="query-result-panel">
+            <div class="empty-result" id="query-empty">
+              <i class="fa-solid fa-laptop-medical"></i>
+              <h3 id="query-empty-lbl">맞춤 약선 추천 결과</h3>
+              <p>진단 조건을 지정하고 <strong>'맞춤 보양 레시피 창안'</strong> 버튼을 클릭하세요.</p>
+            </div>
+
+            <div class="result-display-wrapper" id="query-result" style="display:none;">
+              <div class="result-header">
+                <div>
+                  <h2 id="res-recipe-name">처방 요리명</h2>
+                  <span id="res-heritage" class="subtext">문헌 근거: 동의보감 기반</span>
+                </div>
+                <div class="badge-mode" id="res-badge-lbl">WELLBEING ACTIVE</div>
+              </div>
+
+              <!-- Export Tools (Expert Only) -->
+              <div class="expert-only export-control-panel">
+                <h4><i class="fa-solid fa-download"></i> R&D 개발자용 배합 데이터 내보내기 (Export)</h4>
+                <div style="display: flex; gap: 10px; margin-top:8px;">
+                  <button class="btn btn-outline btn-small" onclick="exportFormula('csv')"><i class="fa-solid fa-file-csv"></i> CSV 배합표 복사</button>
+                  <button class="btn btn-outline btn-small" onclick="exportFormula('json')"><i class="fa-solid fa-file-code"></i> JSON 명세서 복사</button>
+                </div>
+              </div>
+
+              <!-- Composition Grid -->
+              <div class="composition-block">
+                <h3 id="formulation-role-lbl"><i class="fa-solid fa-mortar-pestle"></i> 약리 배합 설계 (군신좌사 역할비율)</h3>
+                <div class="comp-grid" id="res-comp-grid">
+                  <!-- Dynamic formulation cards -->
+                </div>
+              </div>
+
+              <!-- Compounding Safety -->
+              <div class="safeguard-block">
+                <h3><i class="fa-solid fa-shield-virus"></i> 화학적 상호작용 검사 결과</h3>
+                <div id="res-safe-container">
+                  <!-- Warnings / Synergies -->
+                </div>
+              </div>
+
+              <!-- Cooking Steps -->
+              <div class="cooking-block">
+                <h3 id="cooking-steps-lbl"><i class="fa-solid fa-fire-burner"></i> 보양식 조리 순서 가이드</h3>
+                <ol class="cooking-timeline" id="res-cooking-steps">
+                  <!-- Steps -->
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab 3: Master DB Browser -->
+      <section id="tab-browser" class="tab-content">
+        <div class="page-header">
+          <h1 id="browser-title-text">천연 식재료 백과사전</h1>
+          <p id="browser-desc-text">안정화된 식재료 및 약재 데이터에 대한 유효 정보 검색 및 속성 상세 보기</p>
+        </div>
+
+        <div class="glass-panel browser-controls">
+          <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="browser-search-input" placeholder="식재료명, 효능, 연결질환명 검색..." oninput="handleSearch()">
+          </div>
+          <div class="dropdown-filters">
+            <select id="filter-standard-func" onchange="handleSearch()">
+              <option value="">기능 분류 전체</option>
+            </select>
+          </div>
+          <!-- CSV Export Button for Experts -->
+          <div class="expert-only" style="margin-left:auto;">
+            <button class="btn btn-accent btn-small" onclick="exportBrowserTable()"><i class="fa-solid fa-file-excel"></i> 조회 결과 CSV 다운로드</button>
+          </div>
+        </div>
+
+        <!-- DB Datagrid -->
+        <div class="datagrid-card">
+          <div class="table-wrapper">
+            <table class="datagrid">
+              <thead>
+                <tr>
+                  <th>식재료/약재</th>
+                  <th>원본 한방효능</th>
+                  <th>표준기능</th>
+                  <th class="expert-only">생리작용 (Scientific)</th>
+                  <th class="expert-only">작용기전 (Mechanism)</th>
+                  <th>주요 연결질환</th>
+                  <th>조리/복용 가이드</th>
+                </tr>
+              </thead>
+              <tbody id="browser-table-body">
+                <!-- Rows -->
+              </tbody>
+            </table>
+          </div>
+          
+          <div class="datagrid-footer">
+            <div class="records-count" id="browser-records-count">총 0건 조회됨</div>
+            <div class="pagination" id="browser-pagination">
+              <!-- Pages -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab 4: Standard Functions & 7-Axis Map -->
+      <section id="tab-index" class="tab-content">
+        <div class="page-header">
+          <h1>표준기능 & 7대 축 명세서</h1>
+          <p>한방 고전 원본 약리 지식을 현대 생리학과 기전 단위로 융합하고 매핑하기 위한 25종의 표준기능 정의서</p>
+        </div>
+
+        <div class="axis-explorer-layout">
+          <!-- Left: 7 Axis Buttons -->
+          <div class="axis-buttons-panel" id="axis-nav-panel">
+            <!-- Axis buttons -->
+          </div>
+
+          <!-- Right: Standard Functions Card List -->
+          <div class="functions-list-panel">
+            <h2 id="axis-detail-title">선택된 축 명칭</h2>
+            <div class="functions-list-grid" id="axis-functions-grid">
+              <!-- Functions -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab 5: Normalization & Exceptions -->
+      <section id="tab-rules" class="tab-content">
+        <div class="page-header">
+          <h1>정규화 사전 & 다중 매핑 예외 규칙</h1>
+          <p>한의서 원본의 파편화된 원본 효능어(93종)를 단일 및 다중 표준 계통 기능으로 통일하는 매핑 규칙</p>
+        </div>
+
+        <div class="rules-twin-layout">
+          <div class="glass-panel">
+            <h3><i class="fa-solid fa-language"></i> 93종 효능 정규화 사전 (Normalization)</h3>
+            <p class="subtext">원본효능 단어를 고정된 표준 기능 및 7대 축으로 사상하는 고유 키 매핑 규칙입니다.</p>
+            <div class="rule-search-wrap">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" id="norm-search" placeholder="원본 효능어 또는 표준기능 검색..." oninput="filterNormalization()">
+            </div>
+            <div class="rules-table-wrapper">
+              <table class="rules-table">
+                <thead>
+                  <tr>
+                    <th>원본 한방효능어</th>
+                    <th>정규화 표준기능</th>
+                    <th>소속 7대 축</th>
+                  </tr>
+                </thead>
+                <tbody id="norm-table-body">
+                  <!-- Normalization rows -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="glass-panel">
+            <h3><i class="fa-solid fa-shuffle"></i> 13종 다중매핑 예외 규칙 (Exceptions)</h3>
+            <p class="subtext">한 단어가 여러 생리 기능을 동시에 내포하는 경우(예: 청열해독 -> 항염 & 해독)의 분기 처리 규칙입니다.</p>
+            <div class="rules-table-wrapper" style="max-height: 480px;">
+              <table class="rules-table">
+                <thead>
+                  <tr>
+                    <th>한방 예외 효능어</th>
+                    <th>표준 기능 1</th>
+                    <th>표준 기능 2</th>
+                    <th>처리 구분</th>
+                  </tr>
+                </thead>
+                <tbody id="exception-table-body">
+                  <!-- Exception rows -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab 6: Mapping Process Flow -->
+      <section id="tab-flow" class="tab-content">
+        <div class="page-header">
+          <h1>매핑 프로세스 뷰어 (Phase 2)</h1>
+          <p>물리적 신체 상태에서 한방 약용 식재료 매핑에 이르는 다차원 온톨로지 연산 추론의 단계를 시각화합니다.</p>
+        </div>
+
+        <!-- 병증 선택형 단계별 추적 관리 바 -->
+        <div id="flow-tracker-bar" class="flow-tracker-bar" style="display:none; justify-content:space-between; align-items:center; background:rgba(16,185,129,0.05); border:1px solid rgba(16,185,129,0.2); border-radius:12px; padding:12px 20px; margin-bottom:20px; animation: fadeIn 0.3s ease;">
+          <div style="display:flex; align-items:center; gap:8px;">
+            <span style="font-size:0.9rem; font-weight:600; color:var(--text-muted);"><i class="fa-solid fa-crosshairs" style="color:var(--primary);"></i> 현재 추적 병증:</span>
+            <span id="flow-tracked-disease-name" class="badge badge-synergy" style="font-size:0.85rem; padding:4px 12px; font-weight:700;">-</span>
+          </div>
+          <div style="display:flex; gap:10px;">
+            <button class="btn btn-primary" style="padding:6px 12px; font-size:0.8rem; font-weight:700;" onclick="viewCurrentFlowDetail()"><i class="fa-solid fa-file-invoice"></i> 추론 명세서 전체보기</button>
+            <button class="btn btn-outline" style="padding:6px 12px; font-size:0.8rem; font-weight:700;" onclick="clearFlowTracking()"><i class="fa-solid fa-xmark"></i> 추적 해제</button>
+          </div>
+        </div>
+
+        <div class="glass-panel flow-container">
+          <div class="flow-stepper">
+            <div class="flow-step" onclick="selectFlowStep(1)" id="step1">
+              <span class="num">1</span>
+              <span class="lbl">신체 상태 (State)</span>
+            </div>
+            <div class="flow-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+            <div class="flow-step" onclick="selectFlowStep(2)" id="step2">
+              <span class="num">2</span>
+              <span class="lbl">근본 원인 (Cause)</span>
+            </div>
+            <div class="flow-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+            <div class="flow-step" onclick="selectFlowStep(3)" id="step3">
+              <span class="num">3</span>
+              <span class="lbl">처방 역할 (Role)</span>
+            </div>
+            <div class="flow-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+            <div class="flow-step" onclick="selectFlowStep(4)" id="step4">
+              <span class="num">4</span>
+              <span class="lbl">표준 기능 (Function)</span>
+            </div>
+            <div class="flow-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+            <div class="flow-step" onclick="selectFlowStep(5)" id="step5">
+              <span class="num">5</span>
+              <span class="lbl">약재 매핑 (Herb)</span>
+            </div>
+          </div>
+
+          <div class="flow-details-card" id="flow-card-display">
+            <!-- Dynamic flow diagram content -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab 7: 약선 R&D 설계기 (전문가 / 요리연구가 / 창업자용) -->
+      <section id="tab-recipes-rnd" class="tab-content">
+        <div class="page-header">
+          <h1>약선 신메뉴 R&D 설계기 (Yakseon Blender)</h1>
+          <p>천연 식재료 1,793행 마스터 DB를 기반으로 재료를 배합하여, 실시간 칠정배합(상극) 검사, 오행 성미귀경 분석, 7축 기대 효과 예측, 그리고 대량 생산 비율 및 마케팅 문구(Claims)를 시뮬레이션합니다.</p>
+        </div>
+
+        <div class="rnd-twin-layout">
+          <!-- Left: 배합 구성 및 가공 조절 -->
+          <div class="glass-panel rnd-left-panel">
+            <div class="rnd-dish-category-wrap" style="margin-bottom: 16px; border-bottom: 1px solid var(--border-glass); padding-bottom: 16px;">
+              <label style="display:block; margin-bottom:8px; font-weight:700;"><i class="fa-solid fa-utensils"></i> R&D 타겟 요리 종류 (Dish Category)</label>
+              <select id="rnd-dish-category" onchange="updateRndAnalysis()" style="width:100%; padding:8px; background:rgba(0,0,0,0.3); border:1px solid var(--border-glass); border-radius:6px; color:#fff; outline:none;">
+                <option value="주식_일반">주식 (일반 밥류)</option>
+                <option value="주식_복합">주식 (약선 보양 복합밥류)</option>
+                <option value="주식_죽면">주식 (죽 / 미음 / 면 / 수제비 / 만두)</option>
+                <option value="국물_메인">국물 (메인 보양 탕 / 백숙 / 전골류)</option>
+                <option value="국물_일반">국물 (일반 국 / 찌개류)</option>
+                <option value="반찬">반찬 (나물 / 생채 / 무침 / 장아찌 / 일반조림류)</option>
+                <option value="부식">부식 (전 / 구이 / 튀김 / 주요 육류·어류 요리)</option>
+                <option value="양념">양념 (조미료 / 전통 음청 / 후식 디저트류)</option>
+                <option value="기타">기타</option>
+              </select>
+            </div>
+            
+            <div class="rnd-serving-format-wrap" style="margin-bottom: 16px; border-bottom: 1px solid var(--border-glass); padding-bottom: 16px;">
+              <label style="display:block; margin-bottom:8px; font-weight:700;"><i class="fa-solid fa-layer-group"></i> R&D 식사 구성 형태 (Serving Format)</label>
+              <select id="rnd-serving-format" onchange="handleServingFormatChange()" style="width:100%; padding:8px; background:rgba(0,0,0,0.3); border:1px solid var(--border-glass); border-radius:6px; color:#fff; outline:none;">
+                <option value="single">단품 요리 개발 (Single Dish)</option>
+                <option value="bansang_5">5첩 반상 차림 (5-Cheop Bansang)</option>
+                <option value="bansang_7">7첩 반상 차림 (7-Cheop Bansang)</option>
+                <option value="bansang_10">10첩 반상 차림 (10-Cheop Bansang)</option>
+                <option value="bansang_15">15첩 대형 반상 차림 (15-Cheop Bansang)</option>
+                <option value="bansang_20">20첩 명품 수라상 (20-Cheop Bansang)</option>
+                <option value="course_hanjeong">한정식 코스 요리 구성 (Hanjeongsik Course)</option>
+              </select>
+            </div>
+
+            <div id="rnd-multi-dish-planner" class="glass-panel" style="display:none; margin-bottom:20px; background:rgba(255,255,255,0.02); border:1px dashed var(--primary); padding:15px; border-radius:8px;">
+              <h4 id="planner-title" style="margin-top:0; color:var(--primary); font-size:0.95rem; margin-bottom:6px;"><i class="fa-solid fa-folder-tree"></i> 식단 구성 요리 배치 (Dish Planner)</h4>
+              <p id="planner-desc" class="subtext" style="margin-bottom:12px;">선택한 식사 구성 형태에 따라 개별 약선 레시피들을 배치하고, 결합된 전체 식단의 약성 효과를 분석합니다.</p>
+              <div id="planner-slots-container" style="display:flex; flex-direction:column; gap:10px;">
+                <!-- 슬롯들이 동적으로 생성됨 -->
+              </div>
+              <button class="btn btn-accent btn-small" id="btn-print-diagnosis" style="width:100%; margin-top:12px; font-weight:700;" onclick="openDiagnosisModal()">
+                <i class="fa-solid fa-file-prescription"></i> 식단 통합 영양/약리 진단서 발행
+              </button>
+            </div>
+
+            <div class="rnd-search-box-wrap" id="rnd-search-box-wrap" style="margin-bottom: 20px;">
+              <label style="display:block; margin-bottom:8px; font-weight:700;"><i class="fa-solid fa-circle-plus"></i> R&D 배합에 추가할 원료 검색</label>
+              <div style="display:flex; gap:10px; position:relative;">
+                <input type="text" id="rnd-search-input" placeholder="추가할 식재료명 입력 (예: 인삼, 황기, 대추, 맥문동...)" oninput="handleRndSearch()" style="flex:1; width:100%;">
+                <div id="rnd-search-results" class="search-dropdown-menu" style="display:none;"></div>
+              </div>
+            </div>
+
+            <div class="table-wrapper">
+              <table class="rnd-table">
+                <thead>
+                  <tr>
+                    <th>식재료명</th>
+                    <th>군신좌사 역할</th>
+                    <th id="rnd-weight-header">배합 중량(1인분)</th>
+                    <th>단가 메모 (원/g)</th>
+                    <th>작업</th>
+                  </tr>
+                </thead>
+                <tbody id="rnd-ingredients-tbody">
+                  <!-- 배합된 식재료 행들이 동적으로 렌더링됨 -->
+                </tbody>
+              </table>
+            </div>
+
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-top:15px;">
+              <button class="btn btn-outline btn-small" onclick="clearRndFormula()"><i class="fa-solid fa-trash-can"></i> 배합 전체 초기화</button>
+              <div class="batch-scale-wrapper" style="display:flex; align-items:center; gap:8px;">
+                <span style="font-size:0.85rem; font-weight:600;">조리 배율:</span>
+                <button class="btn btn-outline btn-xsmall active" id="btn-scale-1" onclick="changeRndScale(1)">1x</button>
+                <button class="btn btn-outline btn-xsmall" id="btn-scale-10" onclick="changeRndScale(10)">10x</button>
+                <button class="btn btn-outline btn-xsmall" id="btn-scale-50" onclick="changeRndScale(50)">50x</button>
+                <button class="btn btn-outline btn-xsmall" id="btn-scale-100" onclick="changeRndScale(100)">100x</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: 실시간 한방/과학적 다차원 분석 및 마케팅 컨셉 -->
+          <div class="rnd-right-panel" style="display:flex; flex-direction:column; gap:20px;">
+            <!-- 1. 약성 향상 시너지 부스터 추천 피드 -->
+            <div class="glass-panel">
+              <h3 style="color:var(--primary);"><i class="fa-solid fa-wand-magic-sparkles"></i> AI 약성 향상 시너지 부스터 (Synergy Booster)</h3>
+              <p class="subtext">현재 배합 구성을 기반으로 한방 효능 증대를 위해 추가로 넣으면 좋을 보완재 추천 피드입니다.</p>
+              <div id="rnd-booster-container" class="booster-feed-box">
+                <!-- 동적 시너지 보조제 추천 목록 -->
+                <p style="font-size:0.82rem; color:var(--text-muted); text-align:center; margin: 10px 0;">원재료를 1개 이상 배합표에 추가하면 약성 향상 제안이 활성화됩니다.</p>
+              </div>
+            </div>
+
+            <!-- 2. 칠정배합 안전 가드 -->
+            <div class="glass-panel">
+              <h3><i class="fa-solid fa-shield-halved"></i> 칠정배합 상극 & 시너지 가드</h3>
+              <div id="rnd-safe-container" class="safe-feed-box">
+                <p style="font-size:0.82rem; color:var(--text-muted); text-align:center; margin: 10px 0;">실시간 상극 독성 및 궁합 반응 모니터링 중...</p>
+              </div>
+            </div>
+
+            <!-- 3. 성미귀경 오행 밸런스 -->
+            <div class="glass-panel">
+              <h3><i class="fa-solid fa-scale-balanced"></i> 성미귀경(性味歸經) 오행 분석</h3>
+              <div class="balance-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:10px;">
+                <div>
+                  <h4 style="font-size:0.85rem; margin-bottom:8px; color:var(--sa-color);"><i class="fa-solid fa-sun"></i> 사기(四氣) 분포</h4>
+                  <div id="rnd-nature-balance" class="balance-progress-container"></div>
+                </div>
+                <div>
+                  <h4 style="font-size:0.85rem; margin-bottom:8px; color:var(--primary);"><i class="fa-solid fa-bowl-food"></i> 오미(五味) 분포</h4>
+                  <div id="rnd-taste-balance" class="balance-progress-container"></div>
+                </div>
+              </div>
+              <div style="margin-top:15px;">
+                <h4 style="font-size:0.85rem; margin-bottom:8px; color:var(--accent);"><i class="fa-solid fa-route"></i> 귀경(歸經) 분포</h4>
+                <div id="rnd-meridian-balance" class="meridian-tags-container" style="display:flex; flex-wrap:wrap; gap:6px; margin-top:8px;"></div>
+              </div>
+            </div>
+
+            <!-- 4. 기대 생리 활성 및 7대 축 기여도 -->
+            <div class="glass-panel">
+              <h3><i class="fa-solid fa-heart-pulse"></i> 기대 생리활성 및 7대 반응 축(7-AXIS) 예측</h3>
+              <p class="subtext">선택된 원료들이 표출하는 7대 생리 작용 분포 예측치입니다.</p>
+              <div id="rnd-axis-progress-container" style="display:flex; flex-direction:column; gap:10px; margin-top:10px;"></div>
+            </div>
+
+            <!-- 4-2. 현대 과학 영양 및 생리활성 성분 분석 (RDA 벤치마킹) -->
+            <div class="glass-panel">
+              <h3><i class="fa-solid fa-calculator"></i> 현대 영양 성분 & 생리활성 물질 분석</h3>
+              <p class="subtext">농식품올바로 국가표준식품성분 DB를 기반으로 한 실시간 1인분 영양소 및 항산화 화합물 분석입니다.</p>
+              
+              <div class="nutrition-summary-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:10px; border-bottom: 1px solid var(--border-glass); padding-bottom:12px;">
+                <div>
+                  <span style="font-size:0.8rem; color:var(--text-muted);">총 칼로리 (Estimated Calories)</span>
+                  <div style="font-size:1.4rem; font-weight:800; color:#fff; margin-top:2px;"><span id="rnd-nutri-calories">0</span> <span style="font-size:0.9rem; font-weight:500;">kcal</span></div>
+                </div>
+                <div>
+                  <span style="font-size:0.8rem; color:var(--text-muted);">총 나트륨 (Estimated Sodium)</span>
+                  <div style="font-size:1.4rem; font-weight:800; color:#fff; margin-top:2px;"><span id="rnd-nutri-sodium">0</span> <span style="font-size:0.9rem; font-weight:500;">mg</span></div>
+                </div>
+              </div>
+
+              <div style="margin-top:12px;">
+                <h4 style="font-size:0.82rem; margin-bottom:6px; color:#fff;"><i class="fa-solid fa-chart-pie"></i> 3대 영양소 비율 (탄수화물 / 단백질 / 지방)</h4>
+                <div class="nutri-bar-wrapper" style="width:100%; height:18px; display:flex; border-radius:9px; overflow:hidden; background:rgba(255,255,255,0.05); margin-bottom:8px;">
+                  <div id="rnd-nutri-bar-carbs" style="height:100%; background:#f59e0b; width:33.3%; transition: width 0.3s ease;" title="탄수화물"></div>
+                  <div id="rnd-nutri-bar-protein" style="height:100%; background:#10b981; width:33.3%; transition: width 0.3s ease;" title="단백질"></div>
+                  <div id="rnd-nutri-bar-fat" style="height:100%; background:#ef4444; width:33.3%; transition: width 0.3s ease;" title="지방"></div>
+                </div>
+                <div style="display:flex; justify-content:space-between; font-size:0.75rem; color:var(--text-muted); flex-wrap:wrap; gap:10px;">
+                  <span><i class="fa-solid fa-circle" style="color:#f59e0b; font-size:0.6rem; margin-right:4px;"></i> 탄수화물: <span id="rnd-nutri-val-carbs">0</span>g (<span id="rnd-nutri-pct-carbs">0</span>%)</span>
+                  <span><i class="fa-solid fa-circle" style="color:#10b981; font-size:0.6rem; margin-right:4px;"></i> 단백질: <span id="rnd-nutri-val-protein">0</span>g (<span id="rnd-nutri-pct-protein">0</span>%)</span>
+                  <span><i class="fa-solid fa-circle" style="color:#ef4444; font-size:0.6rem; margin-right:4px;"></i> 지방: <span id="rnd-nutri-val-fat">0</span>g (<span id="rnd-nutri-pct-fat">0</span>%)</span>
+                </div>
+                <div style="font-size:0.75rem; color:var(--text-muted); margin-top:8px;">
+                  <span><i class="fa-solid fa-circle" style="color:#3b82f6; font-size:0.6rem; margin-right:4px;"></i> 식이섬유: <span id="rnd-nutri-val-fiber">0</span>g</span>
+                </div>
+              </div>
+
+              <div style="margin-top:16px; border-top:1px solid var(--border-glass); padding-top:12px;">
+                <h4 style="font-size:0.82rem; margin-bottom:8px; color:var(--accent);"><i class="fa-solid fa-leaf"></i> 천연 식물성 활성 물질 (Bioactive Tags)</h4>
+                <p class="subtext" style="margin-bottom:8px;">배합 원료에 포함된 기능성 성분입니다. 클릭 시 과학적 효능을 확인합니다.</p>
+                <div id="rnd-bioactive-container" class="bioactive-tag-grid" style="display:flex; flex-wrap:wrap; gap:6px;">
+                  <span style="font-size:0.82rem; color:var(--text-muted); padding:4px 0;">원료를 1개 이상 추가 시 활성 물질 목록이 계산됩니다.</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4-3. 전통 발효주 & 음청류 페어링 추천 -->
+            <div class="glass-panel" style="border: 1px dashed rgba(16, 185, 129, 0.4);">
+              <h3 style="color:var(--primary);"><i class="fa-solid fa-wine-glass"></i> 전통 발효주 & 약선 차 페어링</h3>
+              <p class="subtext">메뉴의 한방 기미 성질과 소화를 극대화하는 최적의 Mila 숍 발효 주류 및 꽃차 매칭입니다.</p>
+              <div id="rnd-pairing-container" style="background:rgba(0,0,0,0.15); border-radius:8px; padding:10px 14px; display:flex; align-items:center; gap:12px;">
+                <p style="font-size:0.82rem; color:var(--text-muted); margin:0;">원재료를 추가하여 배합 설계를 진행하면, 페어링이 추천됩니다.</p>
+              </div>
+            </div>
+
+            <!-- 5. 프랜차이즈 창업용 약선 마케팅 컨셉 (Claims) -->
+            <div class="glass-panel" style="border: 1px solid rgba(212, 175, 55, 0.4);">
+              <h3 style="color:var(--primary);"><i class="fa-solid fa-store"></i> 프랜차이즈 창업용 약선 마케팅 컨셉 (Claims)</h3>
+              <p class="subtext">메뉴판이나 포장재에 그대로 인용할 수 있는 한방/과학 융합 스토리텔링 문구입니다.</p>
+              <div class="marketing-output-box" id="rnd-marketing-output" style="background:rgba(0,0,0,0.2); border:1px solid var(--border-glass); border-radius:8px; padding:12px; font-size:0.85rem; line-height:1.5; color:var(--text-main); min-height:80px; font-style:italic;">
+                원재료를 추가하여 배합 설계를 진행하면, 스토리가 자동으로 조립됩니다.
+              </div>
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-top:12px;">
+                <div style="font-size:0.85rem; font-weight:700;">
+                  <span id="rnd-cost-lbl">1인분 추정 원가:</span> <span id="rnd-total-cost" style="color:var(--sa-color); font-size:1.05rem; font-weight:800;">0</span>원
+                </div>
+                <button class="btn btn-accent btn-small" onclick="copyMarketingClaim()"><i class="fa-solid fa-copy"></i> 마케팅 문구 복사</button>
+              </div>
+            </div>
+
+            <!-- Export -->
+            <div class="glass-panel" style="display:flex; justify-content:space-between; align-items:center; padding:15px;">
+              <span style="font-size:0.85rem; font-weight:600;"><i class="fa-solid fa-file-export"></i> R&D 설계서 데이터 내보내기</span>
+              <div style="display:flex; gap:10px;">
+                <button class="btn btn-outline btn-small" onclick="exportRndData('csv')"><i class="fa-solid fa-file-csv"></i> CSV 배합표</button>
+                <button class="btn btn-outline btn-small" onclick="exportRndData('json')"><i class="fa-solid fa-file-code"></i> JSON 명세</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab 8: 약선 요리 비법서 -->
+      <section id="tab-recipes-wiki" class="tab-content">
+        <div class="page-header">
+          <h1>약선 요리 비법서 (레시피)</h1>
+          <p>전통 약선 조리 연구가와 일반 사용자 모두를 위한 총 105종의 기능별 약선 레시피 컬렉션</p>
+        </div>
+        <div class="glass-panel" style="margin-bottom: 24px; display:flex; flex-direction:column; gap:12px;">
+          <input type="text" id="recipe-wiki-search" placeholder="요리명, 주재료, 효능 검색..." oninput="filterRecipesWiki()" style="width: 100%;">
+          <div class="wiki-category-filter-bar" style="display:flex; flex-wrap:wrap; gap:8px;">
+            <button class="btn btn-outline btn-small active" onclick="filterRecipesByCategory('ALL', this)">전체 요리</button>
+            <button class="btn btn-outline btn-small" onclick="filterRecipesByCategory('주식', this)">주식 (밥/죽/면)</button>
+            <button class="btn btn-outline btn-small" onclick="filterRecipesByCategory('부식', this)">부식 (전/구이/튀김/메인류)</button>
+            <button class="btn btn-outline btn-small" onclick="filterRecipesByCategory('국물', this)">국물 (탕/국/전골)</button>
+            <button class="btn btn-outline btn-small" onclick="filterRecipesByCategory('반찬', this)">반찬 (나물/장아찌/조림)</button>
+            <button class="btn btn-outline btn-small" onclick="filterRecipesByCategory('양념', this)">양념 (양념/음청/디저트)</button>
+          </div>
+        </div>
+        <div class="recipes-grid-wrapper" id="recipes-wiki-container">
+          <!-- Dynamic Recipe Cards -->
+        </div>
+      </section>
+
+      <!-- Tab 8: 약선 문화원 -->
+      <section id="tab-culture-wiki" class="tab-content">
+        <div class="page-header">
+          <h1>약선 문화원 (명절 & 절기)</h1>
+          <p>동양 의학적 24절기 양생법과 음력 세시 명절의 전통 절식(節食) 아카이브</p>
+        </div>
+        <div class="culture-twin-layout">
+          <!-- Left: 24 Terms -->
+          <div class="glass-panel">
+            <h3><i class="fa-solid fa-cloud-sun"></i> 24절기별 건강 양생 가이드</h3>
+            <div class="culture-scroll-list" id="culture-seasons-container">
+              <!-- Seasons dynamic -->
+            </div>
+          </div>
+          <!-- Right: Holidays -->
+          <div class="glass-panel">
+            <h3><i class="fa-solid fa-calendar-heart"></i> 전통 음력 명절 & 절식 풍속</h3>
+            <div class="culture-scroll-list" id="culture-holidays-container">
+              <!-- Holidays dynamic -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab 9: 구독자 & CRM 센터 (전문가 전용) -->
+      <section id="tab-subscribers" class="tab-content expert-only">
+        <div class="page-header">
+          <h1>구독자 & CRM 센터 (Nuri Lab CRM)</h1>
+          <p>Mila 레시피와 Nuri Laboratory 포털 가입자들의 웰니스 프로필 데이터를 요약하고 분석합니다.</p>
+        </div>
+
+        <!-- CRM Metrics Grid -->
+        <div class="metrics-grid" style="margin-bottom: 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
+          <div class="metric-card" style="border-left: 4px solid var(--primary); display: flex; align-items: center; gap: 15px; background: var(--panel-bg); border-radius: 12px; padding: 20px; cursor: default;">
+            <div class="metric-icon" style="color:var(--primary); font-size: 2rem;"><i class="fa-solid fa-users"></i></div>
+            <div class="metric-info">
+              <h3 style="font-size:0.85rem; color:var(--text-muted); margin:0;">총 구독 가입자 수</h3>
+              <p class="value" id="crm-total-subscribers" style="font-size:1.8rem; font-weight:800; color:#fff; margin:4px 0 0;">0 명</p>
+            </div>
+          </div>
+          <div class="metric-card" style="border-left: 4px solid var(--accent); display: flex; align-items: center; gap: 15px; background: var(--panel-bg); border-radius: 12px; padding: 20px; cursor: default;">
+            <div class="metric-icon" style="color:var(--accent); font-size: 2rem;"><i class="fa-solid fa-business-time"></i></div>
+            <div class="metric-info">
+              <h3 style="font-size:0.85rem; color:var(--text-muted); margin:0;">B2B 사업 타깃 비율</h3>
+              <p class="value" id="crm-target-ratio" style="font-size:1.8rem; font-weight:800; color:#fff; margin:4px 0 0;">0 %</p>
+            </div>
+          </div>
+          <div class="metric-card" style="border-left: 4px solid #f43f5e; display: flex; align-items: center; gap: 15px; background: var(--panel-bg); border-radius: 12px; padding: 20px; cursor: default;">
+            <div class="metric-icon" style="color:#f43f5e; font-size: 2rem;"><i class="fa-solid fa-heart-pulse"></i></div>
+            <div class="metric-info">
+              <h3 style="font-size:0.85rem; color:var(--text-muted); margin:0;">최다 건강 관심분야</h3>
+              <p class="value" id="crm-top-concern" style="font-size:1.15rem; font-weight:800; color:#fff; margin:4px 0 0; line-height: 1.3;">-</p>
+            </div>
+          </div>
+          <div class="metric-card" style="border-left: 4px solid #3b82f6; display: flex; align-items: center; gap: 15px; background: var(--panel-bg); border-radius: 12px; padding: 20px; cursor: default;">
+            <div class="metric-icon" style="color:#3b82f6; font-size: 2rem;"><i class="fa-solid fa-yin-yang"></i></div>
+            <div class="metric-info">
+              <h3 style="font-size:0.85rem; color:var(--text-muted); margin:0;">최다 가입 사상 체질</h3>
+              <p class="value" id="crm-top-constitution" style="font-size:1.15rem; font-weight:800; color:#fff; margin:4px 0 0; line-height: 1.3;">-</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- CRM Controls -->
+        <div class="glass-panel" style="margin-bottom: 20px; display:flex; justify-content:space-between; align-items:center; padding: 15px; background: var(--panel-bg); border-radius: 12px; border: 1px solid var(--border-glass);">
+          <div class="search-box" style="flex:1; max-width:400px; display:flex; align-items:center; background:rgba(0,0,0,0.2); border:1px solid var(--border-glass); border-radius:8px; padding:0 12px;">
+            <i class="fa-solid fa-magnifying-glass" style="margin-right:8px; color:var(--text-muted); font-size:0.85rem;"></i>
+            <input type="text" id="crm-search-input" placeholder="가입자 이름, 이메일, 관심사 검색..." oninput="handleCrmSearch()" style="background:transparent; border:none; color:#fff; width:100%; padding:8px 0; outline:none; font-size:0.85rem;">
+          </div>
+          <div style="display:flex; gap:10px;">
+            <button class="btn btn-accent btn-small" onclick="exportCrmData('csv')"><i class="fa-solid fa-file-csv"></i> CSV 내보내기</button>
+            <button class="btn btn-outline btn-small" onclick="exportCrmData('json')"><i class="fa-solid fa-file-code"></i> JSON 내보내기</button>
+          </div>
+        </div>
+
+        <!-- CRM Table -->
+        <div class="datagrid-card" style="background: var(--panel-bg); border-radius: 12px; border: 1px solid var(--border-glass); overflow: hidden;">
+          <div class="table-wrapper" style="overflow-x: auto;">
+            <table class="datagrid" style="width: 100%; border-collapse: collapse;">
+              <thead>
+                <tr style="background: rgba(0,0,0,0.3); border-bottom: 1px solid var(--border-glass); text-align: left;">
+                  <th style="padding:12px 16px; font-size:0.85rem; color:var(--primary); font-weight:600;">가입 일시</th>
+                  <th style="padding:12px 16px; font-size:0.85rem; color:var(--primary); font-weight:600;">고유 번호</th>
+                  <th style="padding:12px 16px; font-size:0.85rem; color:var(--primary); font-weight:600;">이름</th>
+                  <th style="padding:12px 16px; font-size:0.85rem; color:var(--primary); font-weight:600;">이메일</th>
+                  <th style="padding:12px 16px; font-size:0.85rem; color:var(--primary); font-weight:600;">역할군</th>
+                  <th style="padding:12px 16px; font-size:0.85rem; color:var(--primary); font-weight:600;">사상 체질</th>
+                  <th style="padding:12px 16px; font-size:0.85rem; color:var(--primary); font-weight:600;">건강 관심사</th>
+                  <th style="padding:12px 16px; font-size:0.85rem; color:var(--primary); font-weight:600; text-align:center;">관리</th>
+                </tr>
+              </thead>
+              <tbody id="crm-table-body">
+                <!-- 구독자 목록이 동적으로 삽입됨 -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── R&D 협력 & 비즈니스 탭 ─── -->
+      <section id="tab-ecosystem" class="tab-content expert-only">
+        <div class="page-header">
+          <h1>💼 Nuri Lab & Mila R&D 협력 및 비즈니스 모델</h1>
+          <p>플랫폼의 학술/연구 파트너십망, 원재료 공급 인프라 및 다차원 수익 창출 모델을 모니터링합니다.</p>
+        </div>
+
+        <!-- Ecosystem Metrics Grid -->
+        <div class="metrics-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 24px;">
+          <div class="metric-card" style="border-left: 4px solid var(--accent); cursor: default;">
+            <div class="metric-num" style="font-size: 1.6rem; font-weight: 800; color: #fff;">KIOM / 대학</div>
+            <div class="metric-lbl" style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 4px;">4대 학술 및 임상 연구 파트너십</div>
+          </div>
+          <div class="metric-card" style="border-left: 4px solid var(--primary); cursor: default;">
+            <div class="metric-num" style="font-size: 1.6rem; font-weight: 800; color: #fff;">12개소 / 8개소</div>
+            <div class="metric-lbl" style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 4px;">지자체 작목반 & GMP 가공망</div>
+          </div>
+          <div class="metric-card" style="border-left: 4px solid #f59e0b; cursor: default;">
+            <div class="metric-num" style="font-size: 1.6rem; font-weight: 800; color: #fff;">24개 브랜드</div>
+            <div class="metric-lbl" style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 4px;">Mila F&B 프랜차이즈 가맹망</div>
+          </div>
+          <div class="metric-card" style="border-left: 4px solid var(--primary); cursor: default;">
+            <div class="metric-num" style="font-size: 1.6rem; font-weight: 800; color: #fff;">4대 채널</div>
+            <div class="metric-lbl" style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 4px;">SaaS / 유통 / IP / 컨설팅 수익원</div>
+          </div>
+        </div>
+
+        <!-- Two Column Layout: Partner & Revenue -->
+        <div class="grid-2-col" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px; margin-bottom: 24px;">
+          <!-- Left: Partnership -->
+          <div class="panel glass-panel" style="margin: 0; padding: 20px; background: rgba(255,255,255,0.01); border: 1px solid rgba(255,255,255,0.06); border-radius: 12px;">
+            <h2 class="panel-title" style="color:var(--accent); font-size: 1.1rem; font-weight: 700; margin: 0 0 15px; display: flex; align-items: center; gap: 8px;"><i class="fa-solid fa-handshake"></i> 학술 & 원료 공급 협력 네트워크</h2>
+            <div style="display:flex; flex-direction:column; gap:16px;">
+              <div style="background:rgba(255,255,255,0.02); padding:15px; border-radius:10px; border:1px solid rgba(255,255,255,0.05);">
+                <strong style="color:#fff; font-size:0.95rem;">🔬 학술 & 임상 검증 연구 (Academia)</strong>
+                <p style="color:var(--text-secondary); font-size:0.82rem; margin-top:6px; line-height:1.5;">
+                  경희대학교 한의과대학 및 한국한의학연구원(KIOM)과의 공동 연구를 통해, 동의보감과 본초강목 등 정통 문헌 데이터베이스를 표준화하고 한방 기미(氣味)의 생리활성 기전 매핑을 과학적으로 증명합니다.
+                </p>
+              </div>
+              <div style="background:rgba(255,255,255,0.02); padding:15px; border-radius:10px; border:1px solid rgba(255,255,255,0.05);">
+                <strong style="color:#fff; font-size:0.95rem;">🌾 청정 원물 산지 직송망 & 자연산 채취 협력망 (Sourcing & Foraging)</strong>
+                <p style="color:var(--text-secondary); font-size:0.82rem; margin-top:6px; line-height:1.5;">
+                  의성 유기농 홍화, 풍기 인삼 등 전국 12개 청정 산지 지자체 농가와의 직송망을 구축하여 최고 품질의 천연 농산물을 수급하고, 깊은 산속에서 무공해 야생 본초를 채취하는 전통 채취인(심마니) 공동체와의 협력망을 통해 고가치의 희귀 약용 원재료를 안정적으로 확보합니다.
+                </p>
+              </div>
+              <div style="background:rgba(255,255,255,0.02); padding:15px; border-radius:10px; border:1px solid rgba(255,255,255,0.05);">
+                <strong style="color:#fff; font-size:0.95rem;">🏭 의약품 등급 제조 인프라 (GMP / HACCP)</strong>
+                <p style="color:var(--text-secondary); font-size:0.82rem; margin-top:6px; line-height:1.5;">
+                  공급받은 약초와 천연물을 8개 협력 GMP/HACCP 인증 제약·한방 가공 시설에서 가공하여, 기밀성 성분 추출 및 잔류농약/중금속 무검출의 초고품질 원재료/완제품을 생산 및 이력 추적합니다.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Revenue Model -->
+          <div class="panel glass-panel" style="margin: 0; padding: 20px; background: rgba(255,255,255,0.01); border: 1px solid rgba(255,255,255,0.06); border-radius: 12px;">
+            <h2 class="panel-title" style="color:var(--primary); font-size: 1.1rem; font-weight: 700; margin: 0 0 15px; display: flex; align-items: center; gap: 8px;"><i class="fa-solid fa-coins"></i> 플랫폼 수익 창출 모델 (Revenue Model)</h2>
+            <div style="display:flex; flex-direction:column; gap:16px;">
+              <div style="background:rgba(255,255,255,0.02); padding:15px; border-radius:10px; border:1px solid rgba(255,255,255,0.05); display:flex; justify-content:space-between; align-items:flex-start;">
+                <div style="flex:1; padding-right:10px;">
+                  <strong style="color:#fff; font-size:0.95rem;">💻 B2B SaaS 구독 모델 (R&D API License)</strong>
+                  <p style="color:var(--text-secondary); font-size:0.82rem; margin-top:6px; line-height:1.5;">
+                    한식 프랜차이즈, 밀키트 제조 기업 대상 R&D 배합 설계기 및 오행 기미 분석 알고리즘 엔진 API 사용료 청구.
+                  </p>
+                </div>
+                <span class="badge" style="background:rgba(245,158,11,0.1); color:var(--primary); border:1px solid var(--primary); padding:3px 8px; border-radius:4px; font-size:0.75rem; white-space:nowrap; font-weight:700;">월 120만~350만</span>
+              </div>
+              <div style="background:rgba(255,255,255,0.02); padding:15px; border-radius:10px; border:1px solid rgba(255,255,255,0.05); display:flex; justify-content:space-between; align-items:flex-start;">
+                <div style="flex:1; padding-right:10px;">
+                  <strong style="color:#fff; font-size:0.95rem;">🛒 B2C 커머스 입점 유통 수수료 (Mila Shop)</strong>
+                  <p style="color:var(--text-secondary); font-size:0.82rem; margin-top:6px; line-height:1.5;">
+                    Mila 프리미엄 숍에 입점하여 제품을 직접 판매하는 지자체 농가 및 웰니스 제조사 브랜드 대상 거래 중개 수수료.
+                  </p>
+                </div>
+                <span class="badge" style="background:rgba(16,185,129,0.1); color:#10b981; border:1px solid #10b981; padding:3px 8px; border-radius:4px; font-size:0.75rem; white-space:nowrap; font-weight:700;">수수료 15~20%</span>
+              </div>
+              <div style="background:rgba(255,255,255,0.02); padding:15px; border-radius:10px; border:1px solid rgba(255,255,255,0.05); display:flex; justify-content:space-between; align-items:flex-start;">
+                <div style="flex:1; padding-right:10px;">
+                  <strong style="color:#fff; font-size:0.95rem;">🔑 IP 및 원천 특허 기술 로열티 (Patent Licensing)</strong>
+                  <p style="color:var(--text-secondary); font-size:0.82rem; margin-top:6px; line-height:1.5;">
+                    오행 성미귀경 정량 분석 및 7축 기반 맞춤 레시피 추천 기술 이전에 따른 특허 로열티 계약에 따른 기술료.
+                  </p>
+                </div>
+                <span class="badge" style="background:rgba(139,92,246,0.1); color:#a78bfa; border:1px solid #a78bfa; padding:3px 8px; border-radius:4px; font-size:0.75rem; white-space:nowrap; font-weight:700;">연 매출 2~5%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ecosystem Map section -->
+        <div class="panel glass-panel" style="margin: 0 0 24px; padding: 24px; background: rgba(255,255,255,0.01); border: 1px solid rgba(255,255,255,0.06); border-radius: 12px;">
+          <h2 class="panel-title" style="color:var(--primary); text-align:center; margin-bottom:10px; font-size: 1.15rem; font-weight:700;">
+            🧬 Nuri Lab & Mila 플랫폼 다자간 상생 생태계 관계도
+          </h2>
+          <p style="text-align:center; color:var(--text-secondary); font-size:0.82rem; margin-bottom:25px; line-height:1.5;">
+            각 노드를 클릭하면 플랫폼 내 실제 매핑 및 가치 창출 흐름(B2B2C Value Flow)의 상세 명세를 확인할 수 있습니다.
+          </p>
+
+          <!-- Interactive Network Diagram -->
+          <div class="ecosystem-map-container" style="display:flex; justify-content:center; align-items:center; gap:20px; margin-bottom:20px; flex-wrap:wrap;">
+            <div class="eco-node" onclick="showEcosystemDetails('eco-academia')" style="background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.08); padding:15px; border-radius:12px; width:220px; text-align:center; cursor:pointer; transition:all 0.25s ease;">
+              <div class="eco-icon" style="font-size:1.8rem; margin-bottom:6px;">🔬</div>
+              <div class="eco-name" style="font-weight:700; color:#fff; font-size:0.9rem;">학술 & 임상 연구망</div>
+              <div class="eco-desc" style="font-size:0.75rem; color:var(--text-secondary); margin-top:2px;">경희대 / KIOM / 대한약선학회</div>
+            </div>
+            <div class="eco-arrow" style="color:var(--text-muted); font-size:1.2rem;"><i class="fa-solid fa-arrows-left-right"></i></div>
+            
+            <div class="eco-node active-node" onclick="showEcosystemDetails('eco-platform')" style="background:rgba(16,185,129,0.03); border:1px solid var(--primary); padding:15px; border-radius:12px; width:220px; text-align:center; cursor:pointer; transition:all 0.25s ease;">
+              <div class="eco-icon" style="font-size:1.8rem; margin-bottom:6px;">🧬</div>
+              <div class="eco-name" style="font-weight:700; color:#fff; font-size:0.9rem;">Nuri Lab 추론 엔진</div>
+              <div class="eco-desc" style="font-size:0.75rem; color:var(--text-secondary); margin-top:2px;">오행성미·7축·칠정배합 분석</div>
+            </div>
+            <div class="eco-arrow" style="color:var(--text-muted); font-size:1.2rem;"><i class="fa-solid fa-arrows-left-right"></i></div>
+
+            <div class="eco-node" onclick="showEcosystemDetails('eco-supply')" style="background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.08); padding:15px; border-radius:12px; width:220px; text-align:center; cursor:pointer; transition:all 0.25s ease;">
+              <div class="eco-icon" style="font-size:1.8rem; margin-bottom:6px;">🏭</div>
+              <div class="eco-name" style="font-weight:700; color:#fff; font-size:0.9rem;">산지 공급 & GMP 가공</div>
+              <div class="eco-desc" style="font-size:0.75rem; color:var(--text-secondary); margin-top:2px;">12대 산지 농가 / 가공 인프라</div>
+            </div>
+          </div>
+
+          <div class="ecosystem-map-container" style="display:flex; justify-content:center; align-items:center; gap:20px; margin-bottom:20px;">
+            <div class="eco-arrow-down" style="width:220px; text-align:center; font-size:1.2rem; color:var(--text-muted);"><i class="fa-solid fa-arrow-down-long"></i></div>
+            <div style="width: 250px;"></div>
+            <div class="eco-arrow-down" style="width:220px; text-align:center; font-size:1.2rem; color:var(--text-muted);"><i class="fa-solid fa-arrow-down-long"></i></div>
+          </div>
+
+          <div class="ecosystem-map-container" style="display:flex; justify-content:center; align-items:center; gap:20px; flex-wrap:wrap;">
+            <div class="eco-node" onclick="showEcosystemDetails('eco-b2c')" style="background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.08); padding:15px; border-radius:12px; width:220px; text-align:center; cursor:pointer; transition:all 0.25s ease;">
+              <div class="eco-icon" style="font-size:1.8rem; margin-bottom:6px;">🛒</div>
+              <div class="eco-name" style="font-weight:700; color:#fff; font-size:0.9rem;">Mila Premium Shop</div>
+              <div class="eco-desc" style="font-size:0.75rem; color:var(--text-secondary); margin-top:2px;">체질 큐레이션 B2C 스토어</div>
+            </div>
+            <div class="eco-arrow" style="color:var(--text-muted); font-size:1.2rem;"><i class="fa-solid fa-arrows-left-right"></i></div>
+
+            <div class="eco-node" onclick="showEcosystemDetails('eco-b2b')" style="background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.08); padding:15px; border-radius:12px; width:220px; text-align:center; cursor:pointer; transition:all 0.25s ease;">
+              <div class="eco-icon" style="font-size:1.8rem; margin-bottom:6px;">💼</div>
+              <div class="eco-name" style="font-weight:700; color:#fff; font-size:0.9rem;">B2B 프랜차이즈 망</div>
+              <div class="eco-desc" style="font-size:0.75rem; color:var(--text-secondary); margin-top:2px;">메뉴 개발 및 조리 표준 가맹망</div>
+            </div>
+          </div>
+
+          <!-- Detail Panel inside Ecosystem Tab -->
+          <div id="eco-detail-panel" style="margin-top:25px; padding:20px; border-radius:12px; background:rgba(255,255,255,0.02); border:1px dashed rgba(255,255,255,0.15); display:none;">
+            <!-- Click details go here -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── Mila 프리미엄 숍 탭 ─── -->
+      <section id="tab-shop" class="tab-content">
+        <div class="page-header" style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:12px;">
+          <div>
+            <h1>🛍️ Mila 프리미엄 K-Food 숍</h1>
+            <p>전통 명품 식재료, 수제 발효 식품, 약선 음료 — 사상 체질 기반 큐레이션 쇼핑몰</p>
+          </div>
+          <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+            <!-- 체질 추천 필터 토글 -->
+            <label class="constitution-toggle" id="constitution-toggle-wrap" style="display:none;">
+              <input type="checkbox" id="constitution-filter-toggle" onchange="renderShopProducts()">
+              <span class="toggle-track">
+                <span class="toggle-thumb"></span>
+              </span>
+              <span class="toggle-label"><i class="fa-solid fa-yin-yang"></i> 내 체질 맞춤만 보기</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- 카테고리 필터 필스 -->
+        <div class="shop-filter-bar" id="shop-filter-bar">
+          <button class="shop-filter-pill active" data-cat="all" onclick="setShopCategory(this, 'all')">
+            <i class="fa-solid fa-border-all"></i> 전체 상품
+          </button>
+          <button class="shop-filter-pill" data-cat="grain-bean" onclick="setShopCategory(this, 'grain-bean')">
+            🌾 곡류 & 두류
+          </button>
+          <button class="shop-filter-pill" data-cat="herb-veg" onclick="setShopCategory(this, 'herb-veg')">
+            🌿 약초 & 채소/버섯류
+          </button>
+          <button class="shop-filter-pill" data-cat="tea-drink" onclick="setShopCategory(this, 'tea-drink')">
+            🍵 전통차 & 음료류
+          </button>
+          <button class="shop-filter-pill" data-cat="yakseon-liquor" onclick="setShopCategory(this, 'yakseon-liquor')">
+            🍶 전통 약선 주류
+          </button>
+          <button class="shop-filter-pill" data-cat="paste-condiment" onclick="setShopCategory(this, 'paste-condiment')">
+            🏺 발효 & 조미료
+          </button>
+          <button class="shop-filter-pill" data-cat="prepared-meal" onclick="setShopCategory(this, 'prepared-meal')">
+            🥗 약선 조리식품
+          </button>
+        </div>
+
+        <!-- 상품 그리드 -->
+        <div id="shop-product-grid" class="shop-product-grid">
+          <!-- 상품 카드는 app.js renderShopProducts()가 동적으로 주입 -->
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Detailed Modal -->
+  <div class="modal-overlay" id="detail-modal" onclick="closeModal()">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <h2 id="modal-title">약재 상세 정보</h2>
+        <button class="btn-close" onclick="closeModal()">&times;</button>
+      </div>
+      <div class="modal-body" id="modal-body">
+        <!-- Details dynamically loaded -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Mila Premium Product Detail Modal -->
+  <div class="modal-overlay" id="product-detail-modal" onclick="closeProductDetailModal()">
+    <div class="modal-content" onclick="event.stopPropagation()" style="width: 100%; max-width: 850px; background: rgba(10, 16, 28, 0.98); border: 2px solid var(--primary); box-shadow: 0 0 35px var(--primary-glow); border-radius: 20px;">
+      <div class="modal-header" style="border-bottom: 1px solid rgba(255,255,255,0.05); padding: 15px 20px; display:flex; justify-content:space-between; align-items:center;">
+        <h2 style="font-family:'Outfit', sans-serif; font-size:1.2rem; color:var(--primary); margin:0; display:flex; align-items:center; gap:8px;">
+          <i class="fa-solid fa-circle-info"></i> Mila Premium 상품 상세 정보
+        </h2>
+        <button class="btn-close" onclick="closeProductDetailModal()" style="font-size:1.5rem; line-height:1; background:transparent; border:none; color:#fff; cursor:pointer;">&times;</button>
+      </div>
+      <div class="modal-body" id="product-detail-body" style="padding:24px; max-height: 75vh; overflow-y: auto; color:#fff; font-size:0.88rem; line-height:1.6;">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 식단 통합 영양/약리 진단서 모달 -->
+  <div class="modal-overlay" id="diagnosis-modal" onclick="closeDiagnosisModal()">
+    <div class="modal-content" onclick="event.stopPropagation()" style="width: 100%; max-width: 650px; background: rgba(10, 16, 28, 0.98); border: 2px solid var(--primary); box-shadow: 0 0 35px var(--primary-glow); border-radius: 20px;">
+      <div class="modal-header" style="border-bottom: 1px solid rgba(255,255,255,0.05); padding: 15px 20px; display:flex; justify-content:space-between; align-items:center;">
+        <h2 style="font-family:'Outfit', sans-serif; font-size:1.2rem; color:var(--primary); margin:0; display:flex; align-items:center; gap:8px;">
+          <i class="fa-solid fa-file-prescription"></i> 식단 통합 영양/약리 진단 리포트 (MenuGen)
+        </h2>
+        <button class="btn-close" onclick="closeDiagnosisModal()" style="font-size:1.5rem; line-height:1; background:transparent; border:none; color:#fff; cursor:pointer;">&times;</button>
+      </div>
+      <div class="modal-body" id="diagnosis-modal-body" style="padding:24px; max-height: 70vh; overflow-y: auto; color:#fff; font-size:0.88rem; line-height:1.6;">
+        <!-- 여기에 식단 취합 결과가 렌더링됨 -->
+      </div>
+      <div class="modal-footer" style="border-top: 1px solid rgba(255,255,255,0.05); padding: 15px 24px; display:flex; justify-content:flex-end; gap:10px;">
+        <button class="btn btn-outline" onclick="closeDiagnosisModal()">닫기</button>
+        <button class="btn btn-accent" onclick="downloadDiagnosisFile()"><i class="fa-solid fa-download"></i> 진단서 파일 저장 (.txt)</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mila Wellness Pass Modal -->
+  <div class="modal-overlay" id="pass-modal" onclick="closePassModal()">
+    <div class="modal-content pass-modal-content" onclick="event.stopPropagation()" style="width: 100%; max-width: 450px; background: rgba(12, 18, 32, 0.98); border: 2px solid var(--primary); box-shadow: 0 0 35px var(--primary-glow); border-radius: 20px;">
+      <div class="modal-header" style="border-bottom: 1px solid rgba(255,255,255,0.05); padding: 15px 20px;">
+        <h2 style="font-family:'Outfit', sans-serif; font-size:1.15rem; color:var(--primary); margin:0; display:flex; align-items:center; gap:8px;"><i class="fa-solid fa-id-card-clip"></i> Mila Premium Wellness PASS</h2>
+        <button class="btn-close" onclick="closePassModal()" style="font-size:1.5rem; line-height:1;">&times;</button>
+      </div>
+      <div class="modal-body" style="padding:24px; display:flex; flex-direction:column; gap:20px; align-items:center; justify-content:center;">
+        
+        <!-- Pass Card Graphic -->
+        <div class="wellness-pass-card" id="wellness-pass-card" style="width:100%; max-width:360px; height:220px; background: linear-gradient(135deg, #0e1e38 0%, #064e3b 50%, #78350f 100%); border:2px solid var(--primary); border-radius:16px; padding:18px; display:flex; flex-direction:column; justify-content:space-between; position:relative; overflow:hidden; box-shadow:0 10px 25px rgba(0,0,0,0.5);">
+          <!-- Hologram effect overlay -->
+          <div class="pass-hologram-overlay" style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(125deg, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0) 40%, rgba(255,255,255,0.1) 60%, rgba(255,255,255,0) 100%); pointer-events:none; z-index:1;"></div>
+          
+          <div class="pass-card-header" style="display:flex; justify-content:space-between; align-items:center; z-index:2; position:relative;">
+            <div class="pass-logo" style="font-family:'Outfit', sans-serif; font-size:1.25rem; font-weight:800; color:#fff; display:flex; align-items:center; gap:8px;"><img src="logo.png" alt="Logo" style="width:24px; height:24px; object-fit:contain; border-radius:6px;"> Mila</div>
+            <div class="pass-status" style="font-size:0.65rem; font-weight:700; color:var(--primary); border:1px solid var(--primary); padding:2px 8px; border-radius:4px; letter-spacing:1px; background:rgba(245,158,11,0.08);">PREMIUM MEMBER</div>
+          </div>
+          
+          <div class="pass-card-body" style="z-index:2; position:relative; margin: 15px 0;">
+            <div class="pass-member-name" id="pass-name-display" style="font-size:1.4rem; font-weight:800; color:#fff; margin-bottom:4px;">김약선 님</div>
+            <div class="pass-member-no" id="pass-no-display" style="font-family:'Outfit', sans-serif; font-size:0.75rem; color:var(--text-muted); letter-spacing:0.5px;">NURI-2026-00001</div>
+            
+            <div class="pass-details-grid" style="display:grid; grid-template-columns:1fr 1.2fr; gap:8px; margin-top:14px; border-top:1px solid rgba(255,255,255,0.1); padding-top:10px;">
+              <div class="pass-detail-item" style="display:flex; flex-direction:column; gap:2px;">
+                <span class="pass-lbl" style="font-size:0.6rem; color:var(--text-muted); font-weight:600;">ROLE</span>
+                <span class="pass-val" id="pass-role-display" style="font-size:0.75rem; color:#fff; font-weight:700;">요리 연구가</span>
+              </div>
+              <div class="pass-detail-item" style="display:flex; flex-direction:column; gap:2px;">
+                <span class="pass-lbl" style="font-size:0.6rem; color:var(--text-muted); font-weight:600;">CONSTITUTION</span>
+                <span class="pass-val" id="pass-const-display" style="font-size:0.75rem; color:#fff; font-weight:700;">소음인</span>
+              </div>
+              <div class="pass-detail-item" style="grid-column: span 2; display:flex; flex-direction:column; gap:2px;">
+                <span class="pass-lbl" style="font-size:0.6rem; color:var(--text-muted); font-weight:600;">HEALTH FOCUS</span>
+                <span class="pass-val" id="pass-concern-display" style="font-size:0.75rem; color:var(--primary); font-weight:700; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">수족냉증 (온열/활혈)</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="pass-card-footer" style="display:flex; justify-content:space-between; align-items:center; z-index:2; position:relative; border-top:1px dashed rgba(255,255,255,0.1); padding-top:6px; font-size:0.65rem; color:var(--text-muted);">
+            <span class="pass-footer-slogan" style="font-style:italic;">Wellness Energy is ON</span>
+            <span class="pass-footer-date" id="pass-date-display">2026-06-06</span>
+          </div>
+        </div>
+
+        <div style="text-align:center; width:100%;">
+          <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.5; margin:0 0 15px;">
+            🎉 구독 신청이 완료되었으며 웰니스 패스가 활성화되었습니다.<br>
+            Mila 약선 식단실 및 Nuri Lab 플랫폼의 모든 기능이 즉시 잠금 해제되었습니다.
+          </p>
+          <button class="btn btn-primary btn-large" style="width:100%; font-weight:700; padding:12px; font-size:0.95rem;" onclick="enterPlatformWithPass()">
+            <i class="fa-solid fa-arrow-right-to-bracket"></i> 플랫폼 입장하기
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── Mila Premium Shop Tab ─── -->
+  <!-- (injected dynamically into workspace; see HTML below) -->
+
+  <!-- ─── Cart Floating Button ─── -->
+  <div id="cart-fab" class="cart-fab" onclick="toggleCartDrawer()" style="display:none;">
+    <i class="fa-solid fa-cart-shopping"></i>
+    <span class="cart-fab-badge" id="cart-fab-badge">0</span>
+  </div>
+
+  <!-- ─── Cart Drawer (슬라이딩 우측 패널) ─── -->
+  <div id="cart-drawer-overlay" class="cart-drawer-overlay" onclick="toggleCartDrawer()"></div>
+  <div id="cart-drawer" class="cart-drawer">
+    <div class="cart-drawer-header">
+      <h3><i class="fa-solid fa-cart-shopping"></i> 장바구니</h3>
+      <button class="btn-close" onclick="toggleCartDrawer()" style="font-size:1.4rem;">&#x2715;</button>
+    </div>
+    <div class="cart-drawer-body" id="cart-drawer-body">
+      <div class="cart-empty-state" id="cart-empty-msg">
+        <i class="fa-solid fa-basket-shopping" style="font-size:2.5rem; color:var(--text-muted); margin-bottom:12px;"></i>
+        <p>장바구니가 비어 있습니다.</p>
+      </div>
+      <div id="cart-items-list"></div>
+    </div>
+    <div class="cart-drawer-footer" id="cart-footer" style="display:none;">
+      <div class="cart-summary">
+        <div class="cart-row">
+          <span>상품 합계</span>
+          <span id="cart-subtotal">₩0</span>
+        </div>
+        <div class="cart-row membership-row" id="cart-discount-row" style="display:none;">
+          <span><i class="fa-solid fa-tag"></i> 멤버십 10% 할인</span>
+          <span id="cart-discount" style="color:#10b981;">-₩0</span>
+        </div>
+        <div class="cart-row cart-total">
+          <span>최종 결제금액</span>
+          <span id="cart-total">₩0</span>
+        </div>
+      </div>
+      <button class="btn btn-primary" style="width:100%; padding:14px; font-size:1rem; font-weight:700; margin-top:16px;" onclick="openCheckoutModal()">
+        <i class="fa-solid fa-credit-card"></i> 주문하기
+      </button>
+    </div>
+  </div>
+
+  <!-- ─── Checkout Modal ─── -->
+  <div class="modal-overlay" id="checkout-modal" onclick="closeCheckoutModal()">
+    <div class="modal-content checkout-modal-content" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <h2><i class="fa-solid fa-receipt"></i> 주문 확인 및 결제</h2>
+        <button class="btn-close" onclick="closeCheckoutModal()" style="font-size:1.4rem;">&#x2715;</button>
+      </div>
+      <div class="modal-body" id="checkout-modal-body" style="padding:24px;">
+        <!-- 주문서 또는 영수증이 동적으로 렌더링됩니다 -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Core Scripts -->
+  <script src="engine.js"></script>
+  <script src="app.js"></script>
+
+  <!-- Guide Modal -->
+  <div class="modal-overlay" id="guide-modal" onclick="closeGuideModal()">
+    <div class="modal-content" onclick="event.stopPropagation()" style="width: 100%; max-width: 600px; background: rgba(12, 18, 32, 0.98); border: 2px solid var(--primary); box-shadow: 0 0 35px var(--primary-glow); border-radius: 20px;">
+      <div class="modal-header" style="border-bottom: 1px solid rgba(255,255,255,0.05); padding: 15px 20px;">
+        <h2 id="guide-modal-title" style="font-family:'Outfit', sans-serif; font-size:1.25rem; color:var(--primary); margin:0; display:flex; align-items:center; gap:8px;">
+          <i class="fa-solid fa-circle-info"></i> 문헌 안내 및 플랫폼 연계 기능
+        </h2>
+        <button class="btn-close" onclick="closeGuideModal()" style="font-size:1.5rem; line-height:1;">&times;</button>
+      </div>
+      <div class="modal-body" id="guide-modal-body" style="padding:24px; color:var(--text-main); line-height:1.6; font-size:0.92rem; max-height:60vh; overflow-y:auto;">
+        <!-- Inject dynamic content -->
+      </div>
+      <div class="modal-footer" style="padding:15px 24px; border-top:1px solid rgba(255,255,255,0.05); text-align:right; display:flex; justify-content:flex-end;">
+        <button class="btn btn-primary" onclick="closeGuideModal()" style="font-weight:600; padding:8px 20px;">닫기</button>
+      </div>
+    </div>
+  </div>
+  <!-- ─── 관리자 입장 모달 ─── -->
+  <div class="modal-overlay" id="admin-modal" onclick="closeAdminModal()">
+    <div class="modal-content" onclick="event.stopPropagation()" style="width:100%; max-width:400px; background:rgba(10,16,30,0.98); border:2px solid rgba(245,158,11,0.5); box-shadow:0 0 40px rgba(245,158,11,0.2); border-radius:20px;">
+      <div class="modal-header" style="border-bottom:1px solid rgba(255,255,255,0.06); padding:18px 22px;">
+        <h2 style="font-family:'Outfit',sans-serif; font-size:1.1rem; color:var(--accent); margin:0; display:flex; align-items:center; gap:8px;">
+          <i class="fa-solid fa-user-shield"></i> 관리자 인증
+        </h2>
+        <button class="btn-close" onclick="closeAdminModal()" style="font-size:1.4rem;">&#x2715;</button>
+      </div>
+      <div class="modal-body" style="padding:28px 24px;">
+        <div style="text-align:center; margin-bottom:22px;">
+          <div style="width:60px; height:60px; border-radius:50%; background:rgba(245,158,11,0.12); border:2px solid rgba(245,158,11,0.35); display:flex; align-items:center; justify-content:center; margin:0 auto 14px; font-size:1.8rem;">🔐</div>
+          <p style="font-size:0.85rem; color:var(--text-muted); line-height:1.6; margin:0;">관리자 비밀번호를 입력하시면<br>구독 절차 없이 즉시 입장합니다.</p>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:12px;">
+          <input type="password" id="admin-pw-input"
+            placeholder="관리자 비밀번호 입력"
+            onkeydown="if(event.key==='Enter') submitAdminLogin()"
+            style="width:100%; padding:13px 16px; background:rgba(0,0,0,0.35); border:1px solid var(--border-glass); border-radius:10px; color:#fff; font-size:0.95rem; outline:none; box-sizing:border-box; letter-spacing:3px; text-align:center;">
+          <p id="admin-pw-error" style="color:#f87171; font-size:0.78rem; text-align:center; margin:0; display:none;">
+            <i class="fa-solid fa-circle-exclamation"></i> 비밀번호가 올바르지 않습니다.
+          </p>
+          <button class="btn btn-accent" style="width:100%; padding:14px; font-size:1rem; font-weight:700; margin-top:4px;" onclick="submitAdminLogin()">
+            <i class="fa-solid fa-arrow-right-to-bracket"></i> 관리자로 입장
+          </button>
+          <button class="btn btn-outline" style="width:100%; padding:10px; font-size:0.82rem;" onclick="closeAdminModal()">
+            취소
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- Google Translate Script -->
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'ko',
+    includedLanguages: 'en,ja,ar,zh-CN,es,fr,de,ru,vi,th',
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+    autoDisplay: false
+  }, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>
