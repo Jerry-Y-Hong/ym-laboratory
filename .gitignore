@@ -19,3 +19,8 @@ npm-debug.log*
 # Temp
 *.tmp
 *.temp
+
+# Dev scratch / debug files
+scratch/
+app_check.js
+app.js.bak

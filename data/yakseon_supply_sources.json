@@ -1,0 +1,92 @@
+[
+  {
+    "id": "SUP-0001",
+    "name": "의성 유기농 홍화 작목반",
+    "category": "ingredients",
+    "contact": "김태식 반장 (054-832-1049)",
+    "region": "경상북도 의성군",
+    "description": "국내 최고 수준의 친환경 홍화씨 및 홍화꽃잎 가공 공급. HACCP 인증 시설 연계.",
+    "certification": "유기농인증 / HACCP",
+    "capacity": "연간 5톤 수급 가능"
+  },
+  {
+    "id": "SUP-0002",
+    "name": "지리산 산야초 협동조합",
+    "category": "ingredients",
+    "contact": "최길수 조합장 (055-973-2038)",
+    "region": "경상남도 산청군",
+    "description": "지리산 일대 야생 구기자, 초피, 방풍, 삼칠 등 자연산 본초 채취 및 건조 가공 전문.",
+    "certification": "무농약인증 / 지리산지리적표시제",
+    "capacity": "품목별 연간 500kg ~ 2톤"
+  },
+  {
+    "id": "SUP-0003",
+    "name": "풍기 고려인삼 농업협동조합",
+    "category": "ingredients",
+    "contact": "원료사업본부 (054-636-2711)",
+    "region": "경상북도 영주시 풍기읍",
+    "description": "우수농산물관리제도(GAP) 기반 풍기 건삼 및 홍삼 농축액 의약품/기능식품 등급 가공.",
+    "certification": "GMP / GAP / 우수농산물인증",
+    "capacity": "연간 10톤 이상 대량 벌크 조달"
+  },
+  {
+    "id": "SUP-0004",
+    "name": "Mila F&B 웰니스 센트럴키친",
+    "category": "mealkit",
+    "contact": "F&B 사업실 (02-588-4609)",
+    "region": "경기도 이천시",
+    "description": "사상 체질 큐레이션 기반의 전통 약선 HMR 밀키트 및 약선 보양 탕류 파우치 대량 위탁 제조.",
+    "certification": "HACCP / ISO22000",
+    "capacity": "일간 5,000팩 생산 인프라 보유"
+  },
+  {
+    "id": "SUP-0005",
+    "name": "한식 메디푸드 HMR 테크",
+    "category": "mealkit",
+    "contact": "생산관리팀 (031-778-9840)",
+    "region": "충청북도 오송생명과학단지",
+    "description": "고령친화우수식품 지정을 받은 소화 기능 보조용 영양 죽류, 미음 및 약선 반찬 세트 OEM/ODM 전문.",
+    "certification": "HACCP / 고령친화우수식품지정",
+    "capacity": "월간 10만 세트 위탁생산 CAPA"
+  },
+  {
+    "id": "SUP-0006",
+    "name": "Nuri Lab AI 엔진 기술연구소",
+    "category": "technology",
+    "contact": "기술라이선싱팀 (02-958-7012)",
+    "region": "서울특별시 동대문구",
+    "description": "7-AXIS 한방 기미 추론 엔진 및 칠정배합 상극 예외 연산 알고리즘 모듈 API 라이선스 제공.",
+    "certification": "원천특허출원필 / SW품질인증",
+    "capacity": "API 서버 트래픽 무제한 대응 가능"
+  },
+  {
+    "id": "SUP-0007",
+    "name": "Bio-Genomics 유전자 검사원",
+    "category": "technology",
+    "contact": "연구진단실 (1588-4903)",
+    "region": "대전 유성구 대덕연구단지",
+    "description": "비접촉 타액 검사 기반 사상 체질 판정 유전자 분석 키트 및 개인 바이오 데이터 매핑 연동 솔루션.",
+    "certification": "KOLAS공인시험기관 / 보건신기술인증",
+    "capacity": "주간 10,000건 분석 스크리닝"
+  },
+  {
+    "id": "SUP-0008",
+    "name": "대한약선요리 가치원",
+    "category": "education",
+    "contact": "교육원 사무국 (02-730-8022)",
+    "region": "서울특별시 종로구",
+    "description": "약선 요리 연구가, 웰니스 한식 셰프 민간 자격 검정 및 한방 조리 고증 클래스 평생교육기관.",
+    "certification": "한국직업능력연구원 등록자격",
+    "capacity": "기수별 50명, 연간 400명 수료생 배출"
+  },
+  {
+    "id": "SUP-0009",
+    "name": "경희 동양의학 융합교육원",
+    "category": "education",
+    "contact": "교학팀 (02-961-0114)",
+    "region": "서울특별시 동대문구",
+    "description": "일반인 및 식품업계 예비 창업자 대상 사상의학 양생법, 한방 식치(食治) 이론 단기 최고위 과정 개설.",
+    "certification": "경희대학교 총장명의수료증",
+    "capacity": "학기별 120명 상설 강좌 운영"
+  }
+]

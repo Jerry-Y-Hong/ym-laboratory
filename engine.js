@@ -201,7 +201,7 @@ class MatrixEngine {
             }
 
             // 약선 본초 상세 정보가 있는 핵심 식재료인 경우 추가 점수 (+15점)
-            const herbologyInfo = this.modules.ingredientsHerbology.find(h => h.식재료명 === ingName);
+            const herbologyInfo = this.modules.ingredientsHerbology.find(h => h.식재료명 === ingName || (h["이명/한약명"] && h["이명/한약명"].includes(ingName)));
             if (herbologyInfo) {
                 score += 15;
             }
