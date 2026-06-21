@@ -3190,7 +3190,8 @@ function localizePersonaUi() {
 async function loadPortalData() {
   try {
     const fetchJson = async (url) => {
-      const res = await fetch(`./data/${url}?t=${Date.now()}`);
+      const separator = url.includes('?') ? '&' : '?';
+      const res = await fetch(`./data/${url}${separator}t=${Date.now()}`);
       if (!res.ok) throw new Error(`Fetch error: ${res.status}`);
       return await res.json();
     };
@@ -3205,8 +3206,12 @@ async function loadPortalData() {
     recipesDbLocalized = await fetchJson('yakseon_recipes_localized.json').catch(() => ({}));
     traditionalDbLocalized = await fetchJson('yakseon_traditional_encyclopedia_localized.json').catch(() => ({}));
     
-    // 신규 자료 로드
-    recipesDb = await fetchJson('yakseon_recipes.json').catch(() => []);
+    // 신규 자료 로드 (엔진에 이미 적재된 것이 있다면 재사용, 없으면 fetch)
+    const baseRecipes = (engine && engine.modules && engine.modules.recipes) 
+      ? engine.modules.recipes 
+      : await fetchJson('yakseon_recipes.json').catch(() => []);
+    
+    recipesDb = [...baseRecipes];
     
     // 기능주 및 입가심 차/숭늉 가상 데이터 추가 주입
     const virtualRecipes = [
@@ -3284,9 +3289,19 @@ async function loadPortalData() {
     });
 
     holidaysDb = await fetchJson('yakseon_holidays.json').catch(() => []);
-    seasonalDb = await fetchJson('yakseon_seasonal_24terms.json').catch(() => []);
-    diseasesDb = await fetchJson('yakseon_disease_mapping.json').catch(() => []);
-    window.ingredientsHerbologyList = await fetchJson('yakseon_ingredients_herbology.json').catch(() => []);
+    
+    seasonalDb = (engine && engine.modules && engine.modules.seasonal24Terms) 
+      ? [...engine.modules.seasonal24Terms] 
+      : await fetchJson('yakseon_seasonal_24terms.json').catch(() => []);
+      
+    diseasesDb = (engine && engine.modules && engine.modules.diseaseMapping) 
+      ? [...engine.modules.diseaseMapping] 
+      : await fetchJson('yakseon_disease_mapping.json').catch(() => []);
+      
+    window.ingredientsHerbologyList = (engine && engine.modules && engine.modules.ingredientsHerbology) 
+      ? [...engine.modules.ingredientsHerbology] 
+      : await fetchJson('yakseon_ingredients_herbology.json').catch(() => []);
+      
     window.ingredientsNutritionMap = await fetchJson('yakseon_ingredients_nutrition.json').catch(() => ({}));
     window.bioactiveBenefits = await fetchJson('yakseon_bioactive_benefits.json').catch(() => ({}));
     window.traditionalDb = await fetchJson('yakseon_traditional_encyclopedia.json').catch(() => []);
@@ -3295,7 +3310,14 @@ async function loadPortalData() {
     supplySourcesDb = await fetchJson('yakseon_supply_sources.json').catch(() => []);
     
     const defaultSuggestions = await fetchJson('yakseon_visitor_suggestions.json').catch(() => []);
-    const localSuggestions = JSON.parse(localStorage.getItem('nuri_visitor_suggestions') || '[]');
+    
+    let localSuggestions = [];
+    try {
+      localSuggestions = JSON.parse(localStorage.getItem('nuri_visitor_suggestions') || '[]');
+    } catch(e) {
+      console.warn("Failed to parse visitor suggestions from localStorage:", e);
+    }
+    
     visitorSuggestionsDb = [...defaultSuggestions];
     localSuggestions.forEach(ls => {
       if (!visitorSuggestionsDb.some(s => s.id === ls.id)) {
@@ -3305,7 +3327,14 @@ async function loadPortalData() {
     localStorage.setItem('nuri_visitor_suggestions', JSON.stringify(visitorSuggestionsDb));
 
     const defaultPosts = await fetchJson('yakseon_community_posts.json').catch(() => []);
-    const localPosts = JSON.parse(localStorage.getItem('nuri_community_posts') || '[]');
+    
+    let localPosts = [];
+    try {
+      localPosts = JSON.parse(localStorage.getItem('nuri_community_posts') || '[]');
+    } catch(e) {
+      console.warn("Failed to parse community posts from localStorage:", e);
+    }
+    
     communityPostsDb = [...defaultPosts];
     localPosts.forEach(lp => {
       if (!communityPostsDb.some(p => p.id === lp.id)) {
@@ -3603,24 +3632,39 @@ function runTodayRecommendation() {
 
   // recipesDb에서 요리 조회 (로컬라이즈 및 한국어 매핑 양방향 지원)
   let recipe = recipesDb.find(r => r.요리명 === recipeName);
+  
   if (!recipe) {
+    // 1. 한국어 원본 DB에서 인덱스 조회 후 로컬라이즈 DB 매핑
     const idx = recipesDbKo.findIndex(r => r.요리명 === recipeName);
-    if (idx !== -1) {
+    if (idx !== -1 && recipesDb[idx]) {
       recipe = recipesDb[idx];
-    } else {
-      const partialMatch = recipesDb.find(r => r.요리명.includes(recipeName) || recipeName.includes(r.요리명));
-      if (partialMatch) {
-        recipe = partialMatch;
-      } else {
-        const pIdx = recipesDbKo.findIndex(r => r.요리명.includes(recipeName) || recipeName.includes(r.요리명));
-        if (pIdx !== -1) {
-          recipe = recipesDb[pIdx];
-        } else {
-          alert(`요리 데이터베이스에서 "${recipeName}"을 찾을 수 없습니다.`);
-          return;
-        }
-      }
     }
+  }
+
+  if (!recipe) {
+    // 2. 요리명을 번역 딕셔너리로 번역 후 로컬라이즈 DB에서 매칭
+    const translatedName = getTranslation(recipeName, lang);
+    if (translatedName && translatedName !== recipeName) {
+      recipe = recipesDb.find(r => r.요리명 === translatedName || (r.요리명 && r.요리명.includes(translatedName)));
+    }
+  }
+
+  if (!recipe) {
+    // 3. 부분 검색 (로컬라이즈 DB)
+    recipe = recipesDb.find(r => r.요리명 && (r.요리명.includes(recipeName) || recipeName.includes(r.요리명)));
+  }
+
+  if (!recipe) {
+    // 4. 부분 검색 (한국어 원본 DB 인덱스 조회 후 매핑)
+    const pIdx = recipesDbKo.findIndex(r => r.요리명 && (r.요리명.includes(recipeName) || recipeName.includes(r.요리명)));
+    if (pIdx !== -1 && recipesDb[pIdx]) {
+      recipe = recipesDb[pIdx];
+    }
+  }
+
+  if (!recipe) {
+    alert(`요리 데이터베이스에서 "${recipeName}"을 찾을 수 없습니다.`);
+    return;
   }
 
   lastRecommendedRecipe = { recipeName, season, weather };
@@ -5379,9 +5423,18 @@ function loadRecipeToRnd(recipeName) {
   let recipe = recipesDb.find(r => r.요리명 === recipeName);
   if (!recipe) {
     const idx = recipesDbKo.findIndex(r => r.요리명 === recipeName);
-    if (idx !== -1) {
+    if (idx !== -1 && recipesDb[idx]) {
       recipe = recipesDb[idx];
     }
+  }
+  if (!recipe) {
+    const translatedName = getTranslation(recipeName, currentLanguage);
+    if (translatedName && translatedName !== recipeName) {
+      recipe = recipesDb.find(r => r.요리명 === translatedName || (r.요리명 && r.요리명.includes(translatedName)));
+    }
+  }
+  if (!recipe) {
+    recipe = recipesDb.find(r => r.요리명 && (r.요리명.includes(recipeName) || recipeName.includes(r.요리명)));
   }
   if (!recipe) {
     alert("레시피 데이터를 찾을 수 없습니다.");
@@ -5884,9 +5937,18 @@ function loadPlannerRecipesToBlender() {
         let recipe = recipesDb.find(r => r.요리명 === recipeName);
         if (!recipe) {
           const idx = recipesDbKo.findIndex(r => r.요리명 === recipeName);
-          if (idx !== -1) {
+          if (idx !== -1 && recipesDb[idx]) {
             recipe = recipesDb[idx];
           }
+        }
+        if (!recipe) {
+          const translatedName = getTranslation(recipeName, currentLanguage);
+          if (translatedName && translatedName !== recipeName) {
+            recipe = recipesDb.find(r => r.요리명 === translatedName || (r.요리명 && r.요리명.includes(translatedName)));
+          }
+        }
+        if (!recipe) {
+          recipe = recipesDb.find(r => r.요리명 && (r.요리명.includes(recipeName) || recipeName.includes(r.요리명)));
         }
         if (recipe) {
           parseRecipeIngredientsToTemp(recipe);
