@@ -1550,6 +1550,25 @@ function getTranslation(key, lang) {
   }
   
   if (!translationDictionary) return key;
+
+  // 1. Direct root key lookup (for globally registered UI labels)
+  if (translationDictionary[key] && !key.startsWith('category_') && key !== 'meta') {
+    const item = translationDictionary[key];
+    if (targetLang === 'ko') {
+      return item.ko || key;
+    }
+    if (targetLang === 'en') {
+      const persona = currentPersona || 'recipe';
+      if (persona === 'workspace' && item.en_academic) {
+        return item.en_academic;
+      }
+      if (persona === 'recipe' && item.en_consumer) {
+        return item.en_consumer;
+      }
+      return item.en || item.en_academic || item.en_consumer || item.ko || key;
+    }
+    return item[targetLang] || item.ko || key;
+  }
   
   for (const catName in translationDictionary) {
     if (catName.startsWith('category_')) {
@@ -1560,7 +1579,7 @@ function getTranslation(key, lang) {
           return item.ko || key;
         }
         if (targetLang === 'en') {
-          const persona = currentPersona;
+          const persona = currentPersona || 'recipe';
           if (persona === 'workspace' && item.en_academic) {
             return item.en_academic;
           }
