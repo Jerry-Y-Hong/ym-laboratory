@@ -15225,5 +15225,80 @@
     "en": "Festival information is being prepared.",
     "ja": "祝日情報を準備中です。",
     "ar": "جاري إعداد معلومات المهرجان."
+  },
+  "category_8_diseases": {
+    "_label": "병증 한방 원인 및 주의사항 (Diseases TCM Cause & Cautions)",
+    "수족냉증": {
+      "ko": "수족냉증",
+      "en": "Cold Hands & Feet",
+      "desc_ko": "양기 허약(추위, 복부 통증, 묽은 변), 비장과 신장의 양기 부족, 또는 한사 정체(혈액순환 장애, 어두운 피부색, 관절통)로 인해 속이 차고 손발이 시린 증상.",
+      "desc_en": "Coldness in the abdomen and limbs due to Yang deficiency (intolerance to cold, abdominal pain, loose stools), spleen and kidney Yang deficiency, or stagnation of Cold pathogens (poor circulation, dark complexion, joint pain).",
+      "desc_ja": "陽気虚弱（冷え、腹痛、軟便）、脾臓・腎臓의 陽気不足、または寒邪滞留（血行障害、くすんだ肌色、関節痛）によって内臓が冷えて手足が凍える症状。",
+      "desc_ar": "برودة في البطن والأطراف بسبب نقص يانغ (عدم تحمل البرد، ألم البطن، البراز الرخو)، نقص يانغ الطحال والكلى، أو 정체 한사 (ضعف الدورة الدموية، شحوب البشرة، ألم المفاصل).",
+      "warn_ko": "몸에 화가 있거나 음허화왕(속열)인 사람, 출혈 증상이나 종기가 있는 사람, 임산부는 주의. 증상 개선 후 장복 금지. 삼계탕 조리 시 마늘과 생강을 함께 넣어 온중(속을 따뜻하게 함) 효과를 높이는 것이 좋습니다.",
+      "warn_en": "Use caution if you have excess heat in the body, Yin deficiency with effulgent fire (internal heat), bleeding symptoms, boils, or are pregnant. Avoid long-term use after symptoms improve.",
+      "warn_ja": "体内に熱がある方、陰虚火旺（のぼせ・ほてり）のある方、出血症状や腫れ物がある方、妊婦は注意。症状改善後は長期服用を避けてください。",
+      "warn_ar": "يجب الحذر في حال وجود حرارة زائدة في الجسم، نقص يين مع نار متوهجة (حرارة داخلية)، أعراض نزيف، دمامل، أو للمرأة الحامل. تجنب الاستخدام طويل الأمد بعد تحسن الأعراض."
+    },
+    "마른 기침": {
+      "ko": "마른 기침",
+      "en": "Dry Cough",
+      "desc_ko": "폐열로 인한 음분 손상, 건조한 기운(조사)의 침범, 만성 기관지염 후의 폐 건조, 또는 노인 및 허약자의 기혈 부족으로 발생하는 기침.",
+      "desc_en": "Cough caused by injury to Yin due to lung heat, invasion of dry pathogens, dryness of the lungs after chronic bronchitis, or deficiency of Qi and Blood in the elderly and weak.",
+      "desc_ja": "肺熱による陰分損傷、乾燥した気邪（燥邪）の侵入、慢性気管支炎後の肺の乾燥、または高齢者や虚弱者の気血不足によって生じる咳。",
+      "desc_ar": "سعال ناتج عن إصابة يين بسبب حرارة الرئة، غزو مسببات الجفاف، جفاف الرئتين بعد التهاب الشعب الهوائية المزمن، أو نقص تشي والدم لدى كبار السن والضعفاء.",
+      "warn_ko": "증상이 심할 경우 약물 치료 병행 필요. 맥문동 사용 시 반드시 심지를 제거한 '거심 맥문동'을 사용할 것.",
+      "warn_en": "If symptoms are severe, medical treatment must be combined. When using Liriope tuber (Mai Dong), ensure the core is removed.",
+      "warn_ja": "症状が重い場合は薬物治療を並行すること。麦門冬を使用する際は、必ず芯を除去した「去心麦門冬」を使用すること。",
+      "warn_ar": "إذا كانت الأعراض شديدة، يجب الجمع بين العلاج الطبي. عند استخدام درنات ليريوبي (ماي دونغ)، تأكد من إزالة اللب."
+    },
+    "숙취 해소": {
+      "ko": "숙취 해소",
+      "en": "Hangover Relief",
+      "desc_ko": "음주 후 아세트알데히드로 인한 숙취, 간의 해독 필요 및 수분 정체로 인한 부종.",
+      "desc_en": "Hangover caused by acetaldehyde after drinking, requiring liver detoxification and causing edema due to water retention.",
+      "desc_ja": "飲酒後のアセトアルデヒドによる二日酔い、肝臓の解毒の必要성, 및 水分滞留による浮腫。",
+      "desc_ar": "مخلفات الكحول الناتجة عن الأسيتالدهيد بعد الشرب، مما يتطلب إزالة سموم الكبد ويسبب وذمة بسبب احتباس الماء.",
+      "warn_ko": "복어의 독성(간, 난소, 피 등)을 전문 조리사가 완전히 제거해야 함. 형개, 국화, 길경, 감초, 부자와는 함께 섭취하지 말 것.",
+      "warn_en": "Toxicity of puffer fish (liver, ovaries, blood, etc.) must be completely removed by a professional chef. Do not consume with Schizonepeta, chrysanthemum, Platycodon, licorice, or Aconite.",
+      "warn_ja": "フグの毒性（肝臓、卵巣、血など）は専門の調理師が完全に除去しなければならない。ケイガイ、菊、キキョウ、甘草、ブシとは一緒に摂取しないこと。",
+      "warn_ar": "يجب إزالة سمية السمكة المنتفخة (الكبد، المبايض، الدم، إلخ) تماماً بواسطة طاهٍ محترف. لا تستهلك مع الشيزونبيتا، أو الأقحوان، أو البلاتيكودون، أو العرقسوس، أو البيش."
+    },
+    "관절통": {
+      "ko": "관절통",
+      "en": "Joint Pain",
+      "desc_ko": "관절막 연골 손상, 척추 디스크 압박, 풍한습(風寒濕) 사기 침범으로 인한 무릎, 허리, 어깨 관절의 만성 통증 및 척추 요통.",
+      "desc_en": "Chronic pain in knee, waist, and shoulder joints and spinal backache due to joint cartilage damage, spinal disc compression, or invasion of Wind-Cold-Dampness pathogens.",
+      "desc_ja": "関節膜軟骨の損傷、脊椎ディスク圧迫、風寒湿の邪気侵入による膝、腰、肩関節の慢性的な痛みおよび脊椎腰痛。",
+      "desc_ar": "ألم مزمن في مفاصل الركبة والخصر والكتف وآلام الظهر العمود الفقري بسبب تلف غضروف المفصل، ضغط ديسك العمود الفقري، أو غزو مسببات الرياح والبرد والرطوبة.",
+      "warn_ko": "관절 부위가 붉고 열감이 있는 급성 염증기(열비)에는 성질이 따뜻한 엄나무나 오가피보다는 서늘한 성질의 율무 등을 배합할 것.",
+      "warn_en": "During acute inflammatory phases with redness and heat in joints, combine cool-natured Job's tears (Adlay) rather than warm-natured Kalopanax or Eleuthero.",
+      "warn_ja": "関節部が赤く熱感がある急性炎症期には、性質が温かいハリギリやエ조ウコギよりは、涼しい性質のハトムギなどを配合すること。",
+      "warn_ar": "خلال مراحل الالتهاب الحادة مع احمرار وحرارة في المفاصل، ادمج دموع أيوب (الشعير) ذات الطبيعة الباردة بدلاً من الكلوباناكس أو الإليوثيرو ذات الطبيعة الدافئة."
+    },
+    "소화 촉진": {
+      "ko": "소화 촉진",
+      "en": "Promote Digestion",
+      "desc_ko": "비위 기허(소화력 저하, 식욕 부진), 위 한랭(속이 차서 오는 통증, 설사), 혹은 위장 점막 손상으로 인한 소화 불량 및 위장 장애.",
+      "desc_en": "Indigestion and gastric disorders due to Spleen and Stomach Qi deficiency (reduced digestive power, poor appetite), Stomach cold (pain from coldness, diarrhea), or gastric mucosal damage.",
+      "desc_ja": "脾胃気虚（消化力低下、食欲不振）、胃寒冷（冷えによる痛み、下痢）、または胃粘膜損傷による消化不良および胃腸障害。",
+      "desc_ar": "عسر الهضم واضطرابات المعدة بسبب نقص تشي في الطحال والمعدة (ضعف القوة الهضمية، ضعف الشهية)، برد المعدة (ألم ناتج عن البرودة، الإسهال), أو تلف الغشاء المخاطي للمعدة.",
+      "warn_ko": "위산 과다로 인한 속쓰림이 심할 경우 산사가 든 신맛 요리는 피하고, 산약이나 백출 위주로 섭취할 것.",
+      "warn_en": "If heartburn due to gastric hyperacidity is severe, avoid sour dishes containing Hawthorn fruit (Shan Zha), and consume mainly Chinese Yam (Shan Yao) or Atractylodes.",
+      "warn_ja": "胃酸過多による胸焼けがひどい場合は、山査子入りの酸味のある料理は避け、山薬や白朮を中心に摂取すること。",
+      "warn_ar": "إذا كانت حموضة المعدة الناتجة عن فرط الحموضة شديدة، تجنب الأطباق الحامضة التي تحتوي على ثمار الزعرور، واستهلك بشكل أساسي اليام الصيني أو الأتراكتيلودس."
+    },
+    "기력 보충": {
+      "ko": "기력 보충",
+      "en": "Stamina Boost",
+      "desc_ko": "만성 피로, 면역 기능 저하, 큰 병을 앓은 후의 기혈 부족 및 장기적인 에너지 고갈 상태.",
+      "desc_en": "Chronic fatigue, decreased immune function, Qi and Blood deficiency after major illness, and long-term energy depletion.",
+      "desc_ja": "慢性疲労、免疫機能低下、大病後の気血不足、および長期的なエネルギー枯渇状態。",
+      "desc_ar": "التعب المزمن، انخفاض وظيفة المناعة، نقص تشي والدم بعد مرض عضال، واستنفاد الطاقة على المدى الطويل.",
+      "warn_ko": "고열이 나거나 염증이 심할 때는 인삼이나 황기 등 뜨거운 성질의 보양 약재 사용을 피할 것.",
+      "warn_en": "When high fever is present or inflammation is severe, avoid using warm tonic herbs such as Ginseng or Astragalus.",
+      "warn_ja": "高熱が出たり炎症がひどい時は、高麗人参や黄耆など温かい性質の滋養強壮生薬の使用を避けること。",
+      "warn_ar": "عند وجود حمى عالية أو التهاب شديد، تجنب استخدام الأعشاب المقوية الدافئة مثل الجينسنغ أو القتاد."
+    }
   }
 }
