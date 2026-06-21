@@ -4968,7 +4968,7 @@ function renderRecipesWiki(query = '') {
     if (lr.ancient_context) {
       contextHtml = `
         <div style="font-size:0.75rem; color:var(--text-secondary); background:rgba(245, 158, 11, 0.03); border-left: 2px solid var(--sa-color); padding: 6px 10px; border-radius: 0 6px 6px 0; margin-bottom: 12px; font-style: italic;">
-          <strong>전통 문헌 고증:</strong> ${lr.ancient_context}
+          <strong>${getTranslation('전통 문헌 고증', currentLanguage)}:</strong> ${lr.ancient_context}
         </div>
       `;
     }
@@ -4978,7 +4978,7 @@ function renderRecipesWiki(query = '') {
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
           <h3 style="margin:0; font-size:1.15rem; color:var(--primary); font-family:'Outfit',sans-serif;">${lr.요리명}</h3>
           <div>
-            <span class="badge badge-synergy" style="font-size:0.65rem;">보양 메뉴</span>
+            <span class="badge badge-synergy" style="font-size:0.65rem;">${getTranslation('보양 메뉴', currentLanguage)}</span>
             ${citationBadge}
           </div>
         </div>
@@ -4986,16 +4986,16 @@ function renderRecipesWiki(query = '') {
         ${contextHtml}
         
         <div style="font-size:0.78rem; color:var(--text-muted); margin-bottom:6px;">
-          <strong>주재료:</strong> <span style="color:var(--text-main);">${lr.주재료}</span>
+          <strong>${getTranslation('주재료', currentLanguage)}:</strong> <span style="color:var(--text-main);">${lr.주재료}</span>
         </div>
         <div style="font-size:0.78rem; color:var(--text-muted); margin-bottom:12px;">
-          <strong>부재료 및 한약재:</strong> <span style="color:var(--text-main);">${lr["부재료 및 약재"] || lr["부재료"] || "-"}</span>
+          <strong>${getTranslation('부재료 및 한약재', currentLanguage)}:</strong> <span style="color:var(--text-main);">${lr["부재료 및 약재"] || lr["부재료"] || "-"}</span>
         </div>
       </div>
       
       <div>
         <div class="recipe-cooking-summary" style="background:rgba(0,0,0,0.18); padding:10px; border-radius:8px; border: 1px solid var(--border-glass);">
-          <small style="font-weight:700; color:var(--sa-color); display:block; margin-bottom:4px;"><i class="fa-solid fa-kitchen-set"></i> 전통 조리 시퀀스</small>
+          <small style="font-weight:700; color:var(--sa-color); display:block; margin-bottom:4px;"><i class="fa-solid fa-kitchen-set"></i> ${getTranslation('전통 조리 시퀀스', currentLanguage)}</small>
           <p style="font-size:0.75rem; line-height:1.4; color:var(--text-main);">${lr["조리 방법 요약"] || lr["조리방법"] || ""}</p>
         </div>
         ${proSection}

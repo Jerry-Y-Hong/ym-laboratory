@@ -15165,5 +15165,29 @@
     "en": "Search by ingredient, dish name, or probiotic strain...",
     "ja": "食材・料理名・乳酸菌名で検索...",
     "ar": "ابحث باسم المكون أو الطبق أو سلالة البروبيوتيك..."
+  },
+  "전통 문헌 고증": {
+    "ko": "전통 문헌 고증",
+    "en": "Historical Source Verification",
+    "ja": "古典文献考証",
+    "ar": "التحقق من المصادر التاريخية"
+  },
+  "전통 조리 시퀀스": {
+    "ko": "전통 조리 시퀀스",
+    "en": "Traditional Cooking Steps",
+    "ja": "伝統調理シーケンス",
+    "ar": "خطوات الطهي التقليدية"
+  },
+  "보양 메뉴": {
+    "ko": "보양 메뉴",
+    "en": "Wellness Dish",
+    "ja": "養生メニュー",
+    "ar": "طبق صحي"
+  },
+  "부재료 및 한약재": {
+    "ko": "부재료 및 한약재",
+    "en": "Sub-ingredients & Herbal Medicine",
+    "ja": "副材料・漢方薬材",
+    "ar": "مكونات ثانوية وأعشاب طبية"
   }
 }
