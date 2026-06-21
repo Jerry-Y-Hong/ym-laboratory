@@ -14,7 +14,8 @@
       ],
       "sasang_relation": "Very beneficial for Soyang-type and Taeeum-type",
       "wellness_tip": "Supports intestinal tract movement and controls heat toxins for Soyang-type who have active digestion but excess internal heat, which easily causes dryness in the large intestine or constipation.",
-      "bio_synergy": "Improves gut beneficial bacteria occupancy by over 40%, promoting the production of viewtarete (lactose-derived substances), and helping to alleviate symptoms of irritable bowel syndrome (IBS)."
+      "bio_synergy": "Improves gut beneficial bacteria occupancy by over 40%, promoting the production of viewtarete (lactose-derived substances), and helping to alleviate symptoms of irritable bowel syndrome (IBS).",
+      "ko_category": "발효미생물"
     },
     {
       "id": "trad-02",
@@ -30,7 +31,8 @@
       ],
       "sasang_relation": "Extremely beneficial for Soeum-type",
       "wellness_tip": "Warms and revitalizes the spleen and stomach, and supports large intestine immunity for Soeum-type who experience cold stomach energy, indigestion, and frequent gas bloating.",
-      "bio_synergy": "It promotes synthesis of natural organic acids and vitamin B groups from strong acid and bile in the stomach, without being destroyed by them."
+      "bio_synergy": "It promotes synthesis of natural organic acids and vitamin B groups from strong acid and bile in the stomach, without being destroyed by them.",
+      "ko_category": "발효미생물"
     },
     {
       "id": "trad-03",
@@ -46,7 +48,8 @@
       ],
       "sasang_relation": "Suitable for Taeeum-type and Soeum-type",
       "wellness_tip": "Enhances peripheral circulation to aid in maintaining body temperature and stimulates appetite.",
-      "bio_synergy": "Vitamin B1, B2, and B6 are highly abundant, helping to remove stress substances such as ketones from the body and promoting the production of cellular energy metabolism."
+      "bio_synergy": "Vitamin B1, B2, and B6 are highly abundant, helping to remove stress substances such as ketones from the body and promoting the production of cellular energy metabolism.",
+      "ko_category": "발효미생물"
     },
     {
       "id": "trad-03-2",
@@ -62,7 +65,8 @@
       ],
       "sasang_relation": "All Body Type Balance Possible",
       "wellness_tip": "Pre-digested food structure to facilitate early breakdown, thereby promoting smooth absorption in individuals with insufficient digestive enzymes or elderly patients.",
-      "bio_synergy": "It modulates intestinal pH and provides a supportive effect on the inhibition of Helicobacter pylori, thereby promoting positive effects on protein hydrolysis by natural proteolysis peptides and organic acids."
+      "bio_synergy": "It modulates intestinal pH and provides a supportive effect on the inhibition of Helicobacter pylori, thereby promoting positive effects on protein hydrolysis by natural proteolysis peptides and organic acids.",
+      "ko_category": "발효미생물"
     },
     {
       "id": "trad-04",
@@ -79,7 +83,8 @@
       ],
       "sasang_relation": "Recommended for Soyang-type and Taeeum-type",
       "wellness_tip": "The cool and refreshing properties of Maesaengi lower the internal heat of Soyang-type and calm the spirit, while the rich zinc content of oysters boosts vitality.",
-      "bio_synergy": "The taurine and calcium/magnesium combination in the oyster's and shrimp's hemoglobin helps clean out blood vessels, enhancing heart and circulatory system immunity during winter."
+      "bio_synergy": "The taurine and calcium/magnesium combination in the oyster's and shrimp's hemoglobin helps clean out blood vessels, enhancing heart and circulatory system immunity during winter.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-05",
@@ -96,7 +101,8 @@
       ],
       "sasang_relation": "Optimal tonic for Soeum-type",
       "wellness_tip": "The strong tonifying effect of the blood nourishing action of Angelica sinensis leaves and its warming nature helps to improve circulation in those prone to cold extremities due to anemia.",
-      "bio_synergy": "The extract of Rehmannia glutinosa (Schrad.) Hong (Rehmannia root), which contains the Decursin component, has remarkable effects in preventing aging and purifying blood circulation."
+      "bio_synergy": "The extract of Rehmannia glutinosa (Schrad.) Hong (Rehmannia root), which contains the Decursin component, has remarkable effects in preventing aging and purifying blood circulation.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06",
@@ -113,7 +119,8 @@
       ],
       "sasang_relation": "Recommended for Taeeum-type and Taeyang-type",
       "wellness_tip": "Prevents mucus in the throat due to poor breathing caused by dust and haze, and prevents inflammation of the respiratory organs.",
-      "bio_synergy": "The coumarin content in Bangpungnamul enhances viral resistance in respiratory mucosa and aids anti-coagulation."
+      "bio_synergy": "The coumarin content in Bangpungnamul enhances viral resistance in respiratory mucosa and aids anti-coagulation.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-2",
@@ -130,7 +137,8 @@
       ],
       "sasang_relation": "Particularly beneficial for Soyang-type",
       "wellness_tip": "The properties are strong, and its diuretic effect is remarkable. It assists in regulating the qi of the heart and lungs while facilitating urine excretion.",
-      "bio_synergy": "The high content of flavonoids (vitexin, isovitexin) in mung beans inhibits free radicals and induces anti-inflammatory synergies."
+      "bio_synergy": "The high content of flavonoids (vitexin, isovitexin) in mung beans inhibits free radicals and induces anti-inflammatory synergies.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-3",
@@ -146,7 +154,8 @@
       ],
       "sasang_relation": "Excellent respiratory medicine for Taeeum-type",
       "wellness_tip": "This remedy helps protect and soothe the breathing passages of individuals with weak lung qi, especially during transitional seasons when they are prone to colds, asthma, or shortness of breath.",
-      "bio_synergy": "The combination of platycodin sapogenin from bellflower root and glycyrrhizin from licorice promotes mucus secretion in the respiratory tract and calms the phlegm-producing center."
+      "bio_synergy": "The combination of platycodin sapogenin from bellflower root and glycyrrhizin from licorice promotes mucus secretion in the respiratory tract and calms the phlegm-producing center.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-07",
@@ -163,7 +172,8 @@
       ],
       "sasang_relation": "Tonic for Taeeum-type and Soeum-type",
       "wellness_tip": "The deep 'sui-ganjang' fermentation amino acids in the Yean-Yi clan's aged soy sauce help enhance protein digestion, aiding in the absorption of proteins for both weak Yin types and strong Yang types.",
-      "bio_synergy": "The rich melatonin content from fermented soy sauce has been shown to prevent fat oxidation in pork fats while regulating insulin sensitivity."
+      "bio_synergy": "The rich melatonin content from fermented soy sauce has been shown to prevent fat oxidation in pork fats while regulating insulin sensitivity.",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-08",
@@ -190,7 +200,8 @@
       ],
       "sasang_relation": "Excellent for Soyang-type and Soeum-type",
       "wellness_tip": "Avoid spicy seasonings such as garlic and chili peppers to soothe your stomach and prevent acid reflux in Lesser Yang Type individuals.",
-      "bio_synergy": "The natural fiber of vegetables and high-quality protein from fish belly combine to increase the time for bowel movements, preventing sudden blood sugar spikes."
+      "bio_synergy": "The natural fiber of vegetables and high-quality protein from fish belly combine to increase the time for bowel movements, preventing sudden blood sugar spikes.",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-08-2",
@@ -207,7 +218,8 @@
       ],
       "sasang_relation": "Powerful energy boost for Taeeum-type",
       "wellness_tip": "This dish helps strengthen weak heart energy, particularly for those with a large frame who have weak blood circulation.",
-      "bio_synergy": "The high-quality protein from pork belly and potassium from tangerine peel help improve kidney function and support cardiac muscle contraction."
+      "bio_synergy": "The high-quality protein from pork belly and potassium from tangerine peel help improve kidney function and support cardiac muscle contraction.",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-08-3",
@@ -224,7 +236,8 @@
       ],
       "sasang_relation": "Extremely beneficial for Soeum-type",
       "wellness_tip": "The gentle nature of chicken meat helps warm the body, protect the intestinal wall, and enhance digestion in individuals with a sensitive constitution.",
-      "bio_synergy": "The combination of unsaturated fatty acids from chicken meat and ginger juice extract's anti-inflammatory components reduces inflammatory cytokines in the body, supporting joint health."
+      "bio_synergy": "The combination of unsaturated fatty acids from chicken meat and ginger juice extract's anti-inflammatory components reduces inflammatory cytokines in the body, supporting joint health.",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-09",
@@ -247,7 +260,8 @@
       ],
       "sasang_relation": "Most ideal for Taeeum-type",
       "wellness_tip": "This doenjang paste soup is particularly beneficial for individuals with Greater Yin Type, enhancing their immune system and respiratory health by strengthening their defenses against dry lungs and frequent coughing during autumn or winter.",
-      "bio_synergy": "Maekmundong saponin (opiporogin) remains intact even after heating in cooking, stimulating the secretion of mucus in the bronchial glands and alleviating symptoms of spasmodic coughs."
+      "bio_synergy": "Maekmundong saponin (opiporogin) remains intact even after heating in cooking, stimulating the secretion of mucus in the bronchial glands and alleviating symptoms of spasmodic coughs.",
+      "ko_category": "한식양념장"
     },
     {
       "id": "trad-09-2",
@@ -263,7 +277,8 @@
       ],
       "sasang_relation": "Digestive tonic for Soyang-type and Soeum-type",
       "wellness_tip": "This is a perfect dish to aid in digestion for those with excessive heat in their bowels or digestive issues, as well as regulating appetite.",
-      "bio_synergy": "The organic acids (rutin and malic acid) from the mountain yam leaves and the pectin content of maesil help detoxify the liver and inhibit harmful bacteria such as food poisoning pathogens."
+      "bio_synergy": "The organic acids (rutin and malic acid) from the mountain yam leaves and the pectin content of maesil help detoxify the liver and inhibit harmful bacteria such as food poisoning pathogens.",
+      "ko_category": "한식양념장"
     },
     {
       "id": "trad-09-3",
@@ -280,7 +295,8 @@
       ],
       "sasang_relation": "Specialized remedy for Soeum-type",
       "wellness_tip": "Enhances circulation and blood nourishment for individuals with stagnant blood flow. Reduces cold hands and feet in individuals with pale skin.",
-      "bio_synergy": "Samulnotta's medicinal ingredients interact with the tyrosine in the seasoning, promoting red blood cell production and preventing anemia in women by improving uterine blood circulation."
+      "bio_synergy": "Samulnotta's medicinal ingredients interact with the tyrosine in the seasoning, promoting red blood cell production and preventing anemia in women by improving uterine blood circulation.",
+      "ko_category": "한식양념장"
     },
     {
       "id": "trad-10",
@@ -297,7 +313,8 @@
       ],
       "sasang_relation": "Medicinal liquor for Soyang-type and Taeeum-type",
       "wellness_tip": "The synergistic effects of Guji's strengthening of the kidney qi and Maekmundong's lung-soothing properties help balance the energy levels in Lesser Yang individuals, aiding in the regulation of Qi deficiency and blood stasis.",
-      "bio_synergy": "The alcohol extraction process allows for the incorporation of beta-amyloid (Betaine) from Guji and rutin from Daqiu into the digestive system, promoting protection of liver cells and strengthening of capillary walls."
+      "bio_synergy": "The alcohol extraction process allows for the incorporation of beta-amyloid (Betaine) from Guji and rutin from Daqiu into the digestive system, promoting protection of liver cells and strengthening of capillary walls.",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-2",
@@ -314,7 +331,8 @@
       ],
       "sasang_relation": "Beneficial for Taeeum-type and Soeum-type",
       "wellness_tip": "Helps lymphatic circulation in individuals prone to lymph node congestion due to slow body moisture metabolism.",
-      "bio_synergy": "The Pachyman (Pachyman) glycoconjugates of the black fungus powder and the beneficial by-products from the fermentation process synergistically enhance the function of the kidneys, promoting the elimination of waste products and stimulating the production of immune cells."
+      "bio_synergy": "The Pachyman (Pachyman) glycoconjugates of the black fungus powder and the beneficial by-products from the fermentation process synergistically enhance the function of the kidneys, promoting the elimination of waste products and stimulating the production of immune cells.",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-3",
@@ -330,7 +348,8 @@
       ],
       "sasang_relation": "Irreplaceable special medicine for Soeum-type",
       "wellness_tip": "This is an exceptional remedy for those with low Yang Qi, experiencing cold hands and feet, poor digestion, and pale complexion due to insufficient blood flow.",
-      "bio_synergy": "The Ginseng's Jinseonisoide (Rg1, Rb1, Rg3) components enhance the cell permeability of alcohol fermentation solution, thereby improving the speed of primary circulation."
+      "bio_synergy": "The Ginseng's Jinseonisoide (Rg1, Rb1, Rg3) components enhance the cell permeability of alcohol fermentation solution, thereby improving the speed of primary circulation.",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-4",
@@ -347,7 +366,8 @@
       ],
       "sasang_relation": "Excellent for Taeyang-type and Soyang-type",
       "wellness_tip": "It helps reduce excessive heat and energy flow upwards towards the upper body of people with an overactive Yang constitution, preventing their lower bodies from drying out easily and reducing irritability.",
-      "bio_synergy": "The Schizandrin component in green tea and the terpenes component in chestnut leaves work together to regulate neurotransmitters in the brain and increase the production of enzymes that inhibit liver damage."
+      "bio_synergy": "The Schizandrin component in green tea and the terpenes component in chestnut leaves work together to regulate neurotransmitters in the brain and increase the production of enzymes that inhibit liver damage.",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-12",
@@ -370,7 +390,8 @@
       ],
       "sasang_relation": "Vitality boost for Soeum-type and Taeeum-type",
       "wellness_tip": "The spicy nature of the daejeon helps regulate gas in the digestive system, while the omega-3 fatty acids from sesame oil and amino acids from soy sauce help strengthen the qi of Lesser Yin Type individuals.",
-      "bio_synergy": "The alliin compounds in dajeon interact with the peptides in traditional soy sauce to help stabilize blood pressure and improve the elasticity of small blood vessels."
+      "bio_synergy": "The alliin compounds in dajeon interact with the peptides in traditional soy sauce to help stabilize blood pressure and improve the elasticity of small blood vessels.",
+      "ko_category": "한식양념장"
     },
     {
       "id": "kimchi-01",
@@ -387,7 +408,8 @@
       ],
       "sasang_relation": "Beneficial for Soyang-type and Taeeum-type",
       "wellness_tip": "The minerals-rich gamtae helps lower the yang type's blood pressure, while aiding in the circulation of blood and energy flow in the weak yin body.",
-      "bio_synergy": "The alginic acid fiber from the gamtae protects the intestinal mucosa, inhibits harmful bacterial absorption, and enhances the barrier protection effect of the gut by combining with probiotics."
+      "bio_synergy": "The alginic acid fiber from the gamtae protects the intestinal mucosa, inhibits harmful bacterial absorption, and enhances the barrier protection effect of the gut by combining with probiotics.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-02",
@@ -404,7 +426,8 @@
       ],
       "sasang_relation": "Recommended for Soeum-type and Taeeum-type",
       "wellness_tip": "Red cabbage's warm nature protects the weak stomach of Lesser Yin Type, while promoting lung function in Greater Yin Type.",
-      "bio_synergy": "The anthocyanins from red cabbage and fermented by-products promote the anti-oxidative activity of epithelial cells and induce the production of immune-active factors."
+      "bio_synergy": "The anthocyanins from red cabbage and fermented by-products promote the anti-oxidative activity of epithelial cells and induce the production of immune-active factors.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-03",
@@ -421,7 +444,8 @@
       ],
       "sasang_relation": "Balanced",
       "wellness_tip": "The abundant taurine and amino acids from sea cucumber and dried shiitake mushrooms help strengthen the qi of individuals prone to weakness due to seasonal changes.",
-      "bio_synergy": "The rich nucleotides and essential amino acids in seafood promote the proliferation of beneficial gut flora, increasing the diversity index (Diversity Index) of intestinal microorganisms."
+      "bio_synergy": "The rich nucleotides and essential amino acids in seafood promote the proliferation of beneficial gut flora, increasing the diversity index (Diversity Index) of intestinal microorganisms.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-04",
@@ -438,7 +462,8 @@
       ],
       "sasang_relation": "Recommended for Taeeum-type and Soyang-type",
       "wellness_tip": "The detoxifying properties of aged turnip and the lubricating effect on the Great Yin type, as well as the softening effect on the lesser yang type.",
-      "bio_synergy": "During fermentation, the toluol glucosides in eel skin or small fish skin combine with the metabolic products of beneficial bacteria in the gut, enhancing the activity of immune cells."
+      "bio_synergy": "During fermentation, the toluol glucosides in eel skin or small fish skin combine with the metabolic products of beneficial bacteria in the gut, enhancing the activity of immune cells.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-05",
@@ -455,7 +480,8 @@
       ],
       "sasang_relation": "Benefits Soyang-type and Taeeum-type",
       "wellness_tip": "The combination of high fiber content from sweet potato stems and warm properties from green onions helps prevent constipation in individuals with Yin deficiency, promoting healthy digestion.",
-      "bio_synergy": "The non-sticky cell wall fibers found in the sweet potato stem cells create a great environment for beneficial bacteria (prebiotics) to thrive, which is excellent for gut health."
+      "bio_synergy": "The non-sticky cell wall fibers found in the sweet potato stem cells create a great environment for beneficial bacteria (prebiotics) to thrive, which is excellent for gut health.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-06",
@@ -472,7 +498,8 @@
       ],
       "sasang_relation": "Beneficial for Soyang-type",
       "wellness_tip": "The spicy taste of the Korean lettuce helps to relieve stress by clearing away heat from the heart and lungs.",
-      "bio_synergy": "Inulin, a natural polysaccharide found in the root, helps regulate blood sugar levels and strengthens intestinal walls, aiding in the relief of chronic digestive symptoms."
+      "bio_synergy": "Inulin, a natural polysaccharide found in the root, helps regulate blood sugar levels and strengthens intestinal walls, aiding in the relief of chronic digestive symptoms.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-07",
@@ -489,7 +516,8 @@
       ],
       "sasang_relation": "Beneficial to Soeum-type and Taeeum-type",
       "wellness_tip": "The high iodine and calcium content in the tender sea lettuce helps protect the mucous membranes of the lower digestive tract for Lesser Yin Type individuals, while cleansing cholesterol levels and preventing heart disease for Greater Yin Type individuals.",
-      "bio_synergy": "Seaweeds' carotenoids and anchovy fermentation acids regulate the pH balance of gut bacteria, inhibiting the growth of pathogenic harmful bacteria such as well-organized beneficial bacteria."
+      "bio_synergy": "Seaweeds' carotenoids and anchovy fermentation acids regulate the pH balance of gut bacteria, inhibiting the growth of pathogenic harmful bacteria such as well-organized beneficial bacteria.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-08",
@@ -506,7 +534,8 @@
       ],
       "sasang_relation": "Suitable for Soeum-type",
       "wellness_tip": "The warm, fragrant perilla leaf characteristic phenylethanol content helps to soothe the stomach and improve digestion in individuals with insufficient qi.",
-      "bio_synergy": "It also contains rosmarinic acid, a type of antioxidant polyphenol that inhibits inflammation-causing cytokines in the intestinal lining, helping to alleviate symptoms of irritable bowel syndrome (IBS)."
+      "bio_synergy": "It also contains rosmarinic acid, a type of antioxidant polyphenol that inhibits inflammation-causing cytokines in the intestinal lining, helping to alleviate symptoms of irritable bowel syndrome (IBS).",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-09",
@@ -523,7 +552,8 @@
       ],
       "sasang_relation": "Recommended for Taeeum-type and Soeum-type",
       "wellness_tip": "The abundant tyramine and digestive enzymes in octopus, combined with the beneficial enzymes in radish, help improve blood circulation and digestion in individuals with weak heart function.",
-      "bio_synergy": "The digestible proteins in octopus are broken down into natural active peptides by gut bacteria, leading to a synergistic effect on blood pressure regulation and protection of blood vessel walls."
+      "bio_synergy": "The digestible proteins in octopus are broken down into natural active peptides by gut bacteria, leading to a synergistic effect on blood pressure regulation and protection of blood vessel walls.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-10",
@@ -540,7 +570,8 @@
       ],
       "sasang_relation": "Beneficial for Lesser Yin Type (Soojung) and Greater Yin Type (Taejung)",
       "wellness_tip": "This pheasant meat kimchi is beneficial for those with a high Yang Qi and low fat content, helping to clear the lower abdomen of Lesser Yin Type individuals while strengthening their vitality.",
-      "bio_synergy": "The combination of animal-derived low-fat collagen and lactobacillus fermentation products helps repair the tight junctions in the intestinal epithelium (Tight Junction) and supports the synthesis of immune globulin."
+      "bio_synergy": "The combination of animal-derived low-fat collagen and lactobacillus fermentation products helps repair the tight junctions in the intestinal epithelium (Tight Junction) and supports the synthesis of immune globulin.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-11",
@@ -557,7 +588,8 @@
       ],
       "sasang_relation": "Recommended for Lesser Yang Type (Soybean) and Greater Yin Type (Ginger) individuals",
       "wellness_tip": "The strong diuretic effect of aged pumpkin helps regulate the condition of Lesser Yang Type, while ginger in the spicy seasoning supports the relief of cold symptoms in Greater Yin Type.",
-      "bio_synergy": "The carotenoids in the pumpkin combine with beneficial probiotics to induce vitamin A synthesis on the intestinal mucosa and enhance immune defense against cancer."
+      "bio_synergy": "The carotenoids in the pumpkin combine with beneficial probiotics to induce vitamin A synthesis on the intestinal mucosa and enhance immune defense against cancer.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-12",
@@ -574,7 +606,8 @@
       ],
       "sasang_relation": "Beneficial for Lesser Yin Type",
       "wellness_tip": "The unique warm and spicy taste of wild garlic, which is beneficial for those with a lesser yin constitution due to their weak digestive capacity, poor blood circulation, and tendency towards cold hands and feet.",
-      "bio_synergy": "Wild garlic's allicin component helps regulate bloating in the stomach by inhibiting harmful gas-producing bacteria in the large intestine, supporting the growth of beneficial gut flora."
+      "bio_synergy": "Wild garlic's allicin component helps regulate bloating in the stomach by inhibiting harmful gas-producing bacteria in the large intestine, supporting the growth of beneficial gut flora.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-13",
@@ -591,7 +624,8 @@
       ],
       "sasang_relation": "Recommended for Lesser Yang Type (Sasang) and Greater Yin Type (Tasang)",
       "wellness_tip": "The bitter taste of butterbur helps regulate the yang qi in the lesser yang type, while it soothes the dry throat caused by the dryness of the greater yin type.",
-      "bio_synergy": "The antioxidant polyphenols found in butterbur and the beneficial lactobacillus strains from fermentation help control inflammation in the gut and alleviate symptoms of irritable bowel syndrome."
+      "bio_synergy": "The antioxidant polyphenols found in butterbur and the beneficial lactobacillus strains from fermentation help control inflammation in the gut and alleviate symptoms of irritable bowel syndrome.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-14",
@@ -608,7 +642,8 @@
       ],
       "sasang_relation": "Suitable for Lesser Yin Type",
       "wellness_tip": "The strong digestive action of green onions helps stimulate the secretion of stomach acid in the case of individuals with a lesser yin constitution, improving digestion and strengthening qi.",
-      "bio_synergy": "Rich natural anthocyanins perform probiotic roles to maximize the production of beneficial gut flora, thereby enhancing immunity."
+      "bio_synergy": "Rich natural anthocyanins perform probiotic roles to maximize the production of beneficial gut flora, thereby enhancing immunity.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-15",
@@ -625,7 +660,8 @@
       ],
       "sasang_relation": "Recommended for Lesser Yang Type – Active & Energetic Body Type",
       "wellness_tip": "The combination of cold eggplant and hot ginger juice helps regulate heat in the upper body, alleviating symptoms such as chest discomfort or thirst.",
-      "bio_synergy": "The nasin component found in eggplants enhances the growth of beneficial bacteria in the gut, reducing blood vessel oxidative stress and improving circulation."
+      "bio_synergy": "The nasin component found in eggplants enhances the growth of beneficial bacteria in the gut, reducing blood vessel oxidative stress and improving circulation.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-16",
@@ -642,7 +678,8 @@
       ],
       "sasang_relation": "Beneficial for both Lesser Yang Type (Soybean) and Greater Yin Type (Ginger) individuals",
       "wellness_tip": "The sea squirts' cool, soothing nature helps regulate the heat of the Lesser Yang type while preventing headaches and dry eyes. The abundant tryptophan in the sea squirts benefits the Greater Yin type by alleviating liver fatigue.",
-      "bio_synergy": "The unique tryptophan and boron content in sea squirts combine with probiotics to stabilize blood sugar levels and improve insulin sensitivity."
+      "bio_synergy": "The unique tryptophan and boron content in sea squirts combine with probiotics to stabilize blood sugar levels and improve insulin sensitivity.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-17",
@@ -659,7 +696,8 @@
       ],
       "sasang_relation": "Beneficial for Lesser Yin Type and Greater Yin Type",
       "wellness_tip": "The rich vitamin B group in garlic and warm properties of radish's seasoning help to soften the stomach, improve digestion efficiency, and aid in recovery from fatigue.",
-      "bio_synergy": "Protein is completely converted into amino acids during fermentation, which helps facilitate the absorption of nutrients by digestive organs and boosts the immune system of intestinal bacteria."
+      "bio_synergy": "Protein is completely converted into amino acids during fermentation, which helps facilitate the absorption of nutrients by digestive organs and boosts the immune system of intestinal bacteria.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-18",
@@ -676,7 +714,8 @@
       ],
       "sasang_relation": "suitable for all constitutions (general)",
       "wellness_tip": "This is the safest type of kimchi for people who cannot eat spicy kimchi due to acid reflux or weakened stomach lining, as it eliminates excessive garlic flavor and combines the rich glutamic acid from beef broth with the beneficial properties of ginger.",
-      "bio_synergy": "The amino acids in the beef stock water help promote the growth of Lactococcus (Leuconostoc) bacteria that produce lactic acid, strengthening cell wall protein bonds."
+      "bio_synergy": "The amino acids in the beef stock water help promote the growth of Lactococcus (Leuconostoc) bacteria that produce lactic acid, strengthening cell wall protein bonds.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-19",
@@ -691,7 +730,8 @@
       ],
       "sasang_relation": "Recommended for Lesser Yang Type (Soybean) and Greater Yin Type (Ginger) individuals",
       "wellness_tip": "The warm, fresh aroma of radish and water dropwort helps balance the qi of the lesser yang type and greater yin type organs by moistening the lungs and clearing phlegm in the chest.",
-      "bio_synergy": "The abundant isothiocyanate content in pomegranate-shaped kimchi aids in detoxifying harmful substances in cells, especially those that are carcinogenic."
+      "bio_synergy": "The abundant isothiocyanate content in pomegranate-shaped kimchi aids in detoxifying harmful substances in cells, especially those that are carcinogenic.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-20",
@@ -707,7 +747,8 @@
       ],
       "sasang_relation": "Beneficial for Yin/Yang types",
       "wellness_tip": "This small size helps maximize contact area between digestive enzymes and the stomach acid of Yin/Yang types who have weak digestion or a tendency to feel bloated.",
-      "bio_synergy": "The activity of amylase enzyme is enhanced by fermentation, shortening the time for carbohydrate digestion and contributing to blood sugar stability."
+      "bio_synergy": "The activity of amylase enzyme is enhanced by fermentation, shortening the time for carbohydrate digestion and contributing to blood sugar stability.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-21",
@@ -724,7 +765,8 @@
       ],
       "sasang_relation": "Suitable for Lesser Yin Type Individuals and Elderly People",
       "wellness_tip": "It can prevent excessive gas production due to weak intestinal health of those with a lesser yin type constitution. It also helps in softening the breakdown of carbohydrates.",
-      "bio_synergy": "By heat treatment, we soften the rigid pectin bonds in radishes before they are fully oxidized, preventing irritation of the digestive tract and facilitating the absorption of beneficial probiotics."
+      "bio_synergy": "By heat treatment, we soften the rigid pectin bonds in radishes before they are fully oxidized, preventing irritation of the digestive tract and facilitating the absorption of beneficial probiotics.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-22",
@@ -741,7 +783,8 @@
       ],
       "sasang_relation": "Beneficial for Yin/Yang types",
       "wellness_tip": "The refreshing and cold qi of the radish helps form a moisturizing fluid in the lungs of Yang types, preventing dry coughing during transitional seasons and promoting the expulsion of bodily waste.",
-      "bio_synergy": "The combination of cabbage's and radish's complex cellulose fibers from the digestive tract wall can physically stimulate the release of fat-inducing intestinal bacteria, thereby inhibiting the growth of harmful gut flora."
+      "bio_synergy": "The combination of cabbage's and radish's complex cellulose fibers from the digestive tract wall can physically stimulate the release of fat-inducing intestinal bacteria, thereby inhibiting the growth of harmful gut flora.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-23",
@@ -758,7 +801,8 @@
       ],
       "sasang_relation": "Suitable for Lesser Yin Type – Thoughtful & Sensitive Body Type and Greater Yin Type – Strong & Enduring Body Type",
       "wellness_tip": "The unique spicy aroma of radishes and the strong taste of fresh ginger help to warm up the cold body type, while bone marrow broth helps strengthen bones without causing joint problems.",
-      "bio_synergy": "The isothiocyanate component in radish and the peptidase content in bone marrow enhance the efficiency of detoxification (Phase II) by interacting with gut flora."
+      "bio_synergy": "The isothiocyanate component in radish and the peptidase content in bone marrow enhance the efficiency of detoxification (Phase II) by interacting with gut flora.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-24",
@@ -775,7 +819,8 @@
       ],
       "sasang_relation": "Strong & Enduring Body Type",
       "wellness_tip": "The strong and enduring body type benefits the most from Deodeok's ability to moisturize dry lungs and reduce coughing, phlegm, and asthma.",
-      "bio_synergy": "Deodeok contains abundant isoflavones and saponins that directly stimulate the activity of immune cells in the blood vessels, significantly improving the activity of white blood cells."
+      "bio_synergy": "Deodeok contains abundant isoflavones and saponins that directly stimulate the activity of immune cells in the blood vessels, significantly improving the activity of white blood cells.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-25",
@@ -792,7 +837,8 @@
       ],
       "sasang_relation": "Suitable for Lesser Yin Type – Thoughtful & Sensitive Body Type",
       "wellness_tip": "The ginseng aroma in this soup is particularly beneficial for those with a lesser yin constitution, as it helps to improve digestion, strengthen immunity, and reduce fatigue.",
-      "bio_synergy": "The bioactive saponins (spermidine) from the rehmannia enhances the permeability of gut microorganisms, increasing blood circulation in the capillaries."
+      "bio_synergy": "The bioactive saponins (spermidine) from the rehmannia enhances the permeability of gut microorganisms, increasing blood circulation in the capillaries.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-26",
@@ -809,7 +855,8 @@
       ],
       "sasang_relation": "Beneficial for both Lesser Yin Type (Soy Sound) and Greater Yin Type (Strong Enduring) individuals.",
       "wellness_tip": "The spicy and tangy taste of the garlic chive leaves and radish sprouts helps support the weak lower body of a Lesser Yin type individual, while stimulating appetite in a Greater Yin type individual to enhance vitality.",
-      "bio_synergy": "Rich in carotenoids and vitamin C, these ingredients stimulate beneficial probiotic cell production within the large intestine and help neutralize harmful active oxygen radicals."
+      "bio_synergy": "Rich in carotenoids and vitamin C, these ingredients stimulate beneficial probiotic cell production within the large intestine and help neutralize harmful active oxygen radicals.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-27",
@@ -825,7 +872,8 @@
       ],
       "sasang_relation": "Beneficial for Lesser Yang Type",
       "wellness_tip": "The cooling nature of water dropwort and its strong detoxifying effects help clear heat in the blood, which is common in individuals with lesser yang type.",
-      "bio_synergy": "Quercetin (a flavonoid) from water dropwort helps regulate the immune receptors on the intestinal wall, contributing to the reduction of inflammation in the large intestine and aiding in the recovery of the intestinal lining."
+      "bio_synergy": "Quercetin (a flavonoid) from water dropwort helps regulate the immune receptors on the intestinal wall, contributing to the reduction of inflammation in the large intestine and aiding in the recovery of the intestinal lining.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-28",
@@ -842,7 +890,8 @@
       ],
       "sasang_relation": "Recommended for Lesser Yin Type",
       "wellness_tip": "This is the best tonic for women with deficient yang qi who experience cold limbs, lower abdomen discomfort, or uterine cold syndrome.",
-      "bio_synergy": "The natural aryl propionic acid components in chives form a protective barrier against overgrowth of harmful bacteria such as E. coli in the large intestine."
+      "bio_synergy": "The natural aryl propionic acid components in chives form a protective barrier against overgrowth of harmful bacteria such as E. coli in the large intestine.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-29",
@@ -859,7 +908,8 @@
       ],
       "sasang_relation": "Beneficial for Yin Yang types",
       "wellness_tip": "This kimchi is particularly beneficial for individuals with weak kidney function, as it helps improve urination and regulate blood pressure.",
-      "bio_synergy": "The unique iritine (Inulin) and prebiotic fibers in burdock root promote the growth of beneficial lactobacillus bacteria in the large intestine."
+      "bio_synergy": "The unique iritine (Inulin) and prebiotic fibers in burdock root promote the growth of beneficial lactobacillus bacteria in the large intestine.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-30",
@@ -876,7 +926,8 @@
       ],
       "sasang_relation": "Beneficial for those with lesser yin type constitution who have weakened digestion",
       "wellness_tip": "The spicy nature of wild deer (Kkwong) helps to strengthen the stomach of those with lesser yin type constitution, while the warm and moist properties of marmot (Manong) help to clear stagnant qi in those with greater yin type constitution.",
-      "bio_synergy": "A substance similar to allantoin, which is a derivative of amino acids, reduces inflammation markers on the intestinal barrier and enhances overall vitality throughout the body."
+      "bio_synergy": "A substance similar to allantoin, which is a derivative of amino acids, reduces inflammation markers on the intestinal barrier and enhances overall vitality throughout the body.",
+      "ko_category": "별미김치"
     },
     {
       "id": "trad-03-3",
@@ -893,7 +944,8 @@
       ],
       "sasang_relation": "Beneficial for both Greater Yin Type and Lesser Yang Type individuals",
       "wellness_tip": "The strong survival ability of plant-derived probiotics helps cleanse harmful substances in the large intestine, while also alleviating heat sensitivity in the lesser yang type's stomach.",
-      "bio_synergy": "It produces significant amounts of lactic acid and acetic acid in the colon, strengthening the intestinal barrier and directly defending against pathogenic enteric bacteria."
+      "bio_synergy": "It produces significant amounts of lactic acid and acetic acid in the colon, strengthening the intestinal barrier and directly defending against pathogenic enteric bacteria.",
+      "ko_category": "발효미생물"
     },
     {
       "id": "trad-03-4",
@@ -910,7 +962,8 @@
       ],
       "sasang_relation": "beneficial to those with lesser Yin type",
       "wellness_tip": "strengthening the vitality of the digestive system, which is weakened in individuals with chronic constipation and diarrhea, it enhances the large intestine's immune response and keeps the stomach warm.",
-      "bio_synergy": "stabilizes the epithelial cells lining the large intestine, activating the production of immunoglobulin A (IgA) and preventing viral gastroenteritis."
+      "bio_synergy": "stabilizes the epithelial cells lining the large intestine, activating the production of immunoglobulin A (IgA) and preventing viral gastroenteritis.",
+      "ko_category": "발효미생물"
     },
     {
       "id": "trad-03-5",
@@ -927,7 +980,8 @@
       ],
       "sasang_relation": "Recommended for Yin/Yang types",
       "wellness_tip": "Helps neutralize harmful amines produced when consuming pickled or fermented foods to benefit Yin and Yang individuals.",
-      "bio_synergy": "Protects against foodborne pathogens by breaking down the protective barrier of Clostridium, Listeria, and Streptococcus species that thrive in low-temperature, high-salt environments."
+      "bio_synergy": "Protects against foodborne pathogens by breaking down the protective barrier of Clostridium, Listeria, and Streptococcus species that thrive in low-temperature, high-salt environments.",
+      "ko_category": "발효미생물"
     },
     {
       "id": "trad-03-6",
@@ -944,7 +998,8 @@
       ],
       "sasang_relation": "Most effective for those with Greater Yin Type",
       "wellness_tip": "It significantly contributes to weight loss in individuals prone to obesity due to reduced fat metabolism efficiency.",
-      "bio_synergy": "Blocks the absorption of fatty acids and induces their excretion through the digestive tract, strongly stimulating the inhibition pathway of white adipose tissue in the intestinal microflora."
+      "bio_synergy": "Blocks the absorption of fatty acids and induces their excretion through the digestive tract, strongly stimulating the inhibition pathway of white adipose tissue in the intestinal microflora.",
+      "ko_category": "발효미생물"
     },
     {
       "id": "setting-01",
@@ -961,7 +1016,8 @@
       ],
       "sasang_relation": "Suitable for all constitutions (normal)",
       "wellness_tip": "This meal is designed to help people with digestive issues such as lesser Yin types and greater Yang types. It provides a gentle way to improve digestion.",
-      "bio_synergy": "The fermentation of soybean sprouts (soy sauce) and kimchi rich in micro-nutrients stimulate the production of short-chain fatty acids (SCFA) in the large intestine, which is beneficial for maintaining gut health."
+      "bio_synergy": "The fermentation of soybean sprouts (soy sauce) and kimchi rich in micro-nutrients stimulate the production of short-chain fatty acids (SCFA) in the large intestine, which is beneficial for maintaining gut health.",
+      "ko_category": "전통음식 상차림"
     },
     {
       "id": "setting-02",
@@ -978,7 +1034,8 @@
       ],
       "sasang_relation": "Recommend for Yin/Yang types",
       "wellness_tip": "This set is recommended for those with weak bones and blood vessels, as it contains calcium-rich eel and high-protein eggs that help maintain healthy digestion.",
-      "bio_synergy": "The complete combination of animal protein from meat sources and plant-based dietary fiber from vegetables helps improve the efficiency of digestive system absorption while preventing excessive insulin secretion."
+      "bio_synergy": "The complete combination of animal protein from meat sources and plant-based dietary fiber from vegetables helps improve the efficiency of digestive system absorption while preventing excessive insulin secretion.",
+      "ko_category": "전통음식 상차림"
     },
     {
       "id": "setting-03",
@@ -1007,7 +1064,8 @@
       ],
       "sasang_relation": "Beneficial for both Lesser Yang Type (Sour) and Greater Yin Type (Strong)",
       "wellness_tip": "The abundant amino acids in braised pork ribs benefit the functions of the greater yang type, while the refreshing soybean paste helps cool down the heat-sensitive lesser yang type.",
-      "bio_synergy": "The combination of traditional fermented vegetables and radish condiments activates the action of major organs, inhibiting inflammatory reactions caused by saturated fatty acid-induced oxidation in the stomach lining."
+      "bio_synergy": "The combination of traditional fermented vegetables and radish condiments activates the action of major organs, inhibiting inflammatory reactions caused by saturated fatty acid-induced oxidation in the stomach lining.",
+      "ko_category": "전통음식 상차림"
     },
     {
       "id": "setting-04",
@@ -1039,7 +1097,8 @@
       ],
       "sasang_relation": "Best for Lesser Yin Type (Soojung) and Greater Yin Type (Taejung) individuals",
       "wellness_tip": "The warm brown rice porridge, pork ribs, and eel's qi help strengthen the vitality of Lesser Yin Type individuals. The taurine in salmon roe and eel broth helps detoxify the liver of Greater Yin Type individuals.",
-      "bio_synergy": "A balanced combination of abundant seafood (eel, salmon) and high-quality protein (pork ribs, eel) promotes cellular communication and strengthens blood vessel wall elasticity."
+      "bio_synergy": "A balanced combination of abundant seafood (eel, salmon) and high-quality protein (pork ribs, eel) promotes cellular communication and strengthens blood vessel wall elasticity.",
+      "ko_category": "전통음식 상차림"
     },
     {
       "id": "setting-05",
@@ -1065,7 +1124,8 @@
       ],
       "sasang_relation": "Enhance Blood & Energy Flow",
       "wellness_tip": "The combination of energy from red glutinous rice and fermented soybean soup, radish sprouts, and kimchi helps to strengthen the body's blood circulation and balance yin and yang.",
-      "bio_synergy": "A perfect synergy between miso soup (dried beans), seaweed calcium (fish maw), and natural dietary minerals from radish and pickled vegetables removes stress-inducing factors that can lead to chronic fatigue."
+      "bio_synergy": "A perfect synergy between miso soup (dried beans), seaweed calcium (fish maw), and natural dietary minerals from radish and pickled vegetables removes stress-inducing factors that can lead to chronic fatigue.",
+      "ko_category": "전통음식 상차림"
     },
     {
       "id": "setting-06",
@@ -1082,7 +1142,8 @@
       ],
       "sasang_relation": "Beneficial for Yin and Yang types",
       "wellness_tip": "The detoxifying properties of water dropwort combined with low-fat protein from garlic helps prevent excessive alcohol breakdown in Yin-type guests, while also preventing rapid alcohol metabolism in Yang-type guests.",
-      "bio_synergy": "The abundant tryptophan in fatty meat (fish head, eel cake) and the essential amino acids in fresh fish help enhance the activity of enzymes that break down alcohol by about 2 times."
+      "bio_synergy": "The abundant tryptophan in fatty meat (fish head, eel cake) and the essential amino acids in fresh fish help enhance the activity of enzymes that break down alcohol by about 2 times.",
+      "ko_category": "전통음식 상차림"
     },
     {
       "id": "setting-07",
@@ -1099,7 +1160,8 @@
       ],
       "sasang_relation": "Beneficial for those with Lesser Yin Type (Thoughtful & Sensitive Body Type) and Lesser Yang Type (Active & Energetic Body Type)",
       "wellness_tip": "Green tea or ginger tea, which are warm and spicy, can protect the lower abdomen of people with lesser yin type from diarrhea. The black sesame seeds/lotus root three-color salad helps to smooth out the skin and kidney functions in those with lesser yang type.",
-      "bio_synergy": "The dietary fiber components in the three-colored salad and the catechin compounds in green tea or ginger tea have a synergistic effect of strengthening blood vessels, reducing arterial plaque, and enhancing natural anti-inflammatory effects."
+      "bio_synergy": "The dietary fiber components in the three-colored salad and the catechin compounds in green tea or ginger tea have a synergistic effect of strengthening blood vessels, reducing arterial plaque, and enhancing natural anti-inflammatory effects.",
+      "ko_category": "전통음식 상차림"
     },
     {
       "id": "setting-08",
@@ -1116,7 +1178,8 @@
       ],
       "sasang_relation": "Beneficial for Lesser Yang Type (Soothe Mind & Body) and Greater Yin Type (Strong & Enduring)",
       "wellness_tip": "The cooling nature of buckwheat helps to relieve heat in Lesser Yang types, while the high protein content of chicken and duck meat seasoning benefits Greater Yin types by facilitating the smooth flow of sweat after sweating.",
-      "bio_synergy": "The rutin (rutin) component in buckwheat and amino acids from the broth help to maximize blood vessel dilation and induce a stable blood pressure effect."
+      "bio_synergy": "The rutin (rutin) component in buckwheat and amino acids from the broth help to maximize blood vessel dilation and induce a stable blood pressure effect.",
+      "ko_category": "전통음식 상차림"
     },
     {
       "id": "trad-06-4",
@@ -1133,7 +1196,8 @@
       ],
       "sasang_relation": "suitable for all constitutions (general)",
       "wellness_tip": "The high content of vegetable minerals and amino acids in various vegetables and lean meat helps to quickly restore balance between strength and stamina, especially beneficial for those with weak immunity or reduced energy.",
-      "bio_synergy": "The color pigments from fermented black beans and the insoluble fiber from the vegetables in the bibimbap help protect the intestinal wall by blocking the activity of harmful bacteria's digestive enzymes."
+      "bio_synergy": "The color pigments from fermented black beans and the insoluble fiber from the vegetables in the bibimbap help protect the intestinal wall by blocking the activity of harmful bacteria's digestive enzymes.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-5",
@@ -1149,7 +1213,8 @@
       ],
       "sasang_relation": "Beneficial for Lesser Yin Type (Soeumin) and Strong & Enduring Type (Taeeumin) individuals",
       "wellness_tip": "The combination of tender chicken, garlic, and green onions helps to warm the body and improve digestion in individuals with a sensitive constitution or weak digestive function.",
-      "bio_synergy": "The high-quality protein from chicken and resistant starches from carrots interact with fermented soup seasoning, delaying gastric mucosa absorption speed and preventing blood sugar spikes."
+      "bio_synergy": "The high-quality protein from chicken and resistant starches from carrots interact with fermented soup seasoning, delaying gastric mucosa absorption speed and preventing blood sugar spikes.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-6",
@@ -1166,7 +1231,8 @@
       ],
       "sasang_relation": "For Lesser Yang Type (Soy) and Greater Yin Type (Ginger) individuals",
       "wellness_tip": "The high digestibility and abundant calcium and unsaturated fatty acids in sea bass help to supplement the nutritional needs of those with a greater concern for their health, while also improving blood vessel flow in those who are more concerned about their cardiovascular system.",
-      "bio_synergy": "The omega-3 (EPA/DHA) components in sea bass combine with the natural digestive enzymes from ginger and radish, enhancing fat metabolism efficiency and reducing the burden on digestion and absorption."
+      "bio_synergy": "The omega-3 (EPA/DHA) components in sea bass combine with the natural digestive enzymes from ginger and radish, enhancing fat metabolism efficiency and reducing the burden on digestion and absorption.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-7",
@@ -1191,7 +1257,8 @@
       ],
       "sasang_relation": "Suitable for all body types (medication)",
       "wellness_tip": "The high concentration of amino acids and arginine in sea cucumber intestines helps regulate cold symptoms and weak stomach, while also enhancing the strength of those with Yang deficiency or heat after illness.",
-      "bio_synergy": "The natural marine polyunsaturated fatty acids in the intestines help prevent acid reflux by moistening the mucous membranes of the esophagus and large intestine and enhance the adherence of beneficial bacteria to the intestinal walls."
+      "bio_synergy": "The natural marine polyunsaturated fatty acids in the intestines help prevent acid reflux by moistening the mucous membranes of the esophagus and large intestine and enhance the adherence of beneficial bacteria to the intestinal walls.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-8",
@@ -1208,7 +1275,8 @@
       ],
       "sasang_relation": "Recommended for those with Greater Yin Type",
       "wellness_tip": "This dish is highly effective in strengthening muscle strength and preventing anemia, as it provides a rich source of blood-boosting nutrients.",
-      "bio_synergy": "The natural enzymes (protease) found in pear juice help break down high-protein meat into peptides for better absorption by the bloodstream while reducing the burden on the digestive system."
+      "bio_synergy": "The natural enzymes (protease) found in pear juice help break down high-protein meat into peptides for better absorption by the bloodstream while reducing the burden on the digestive system.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-9",
@@ -1235,7 +1303,8 @@
       ],
       "sasang_relation": "Recommended for Yin/Yang types",
       "wellness_tip": "The crab meat's high keratin content helps to regulate cholesterol levels and weight in Yang types while providing a cooling sensation suitable for Yin types.",
-      "bio_synergy": "The abundant acetylglucosamine on the crab shell promotes the growth of beneficial bacteria in the large intestine, stimulates the production of mucus on the intestinal wall, and inhibits inflammation."
+      "bio_synergy": "The abundant acetylglucosamine on the crab shell promotes the growth of beneficial bacteria in the large intestine, stimulates the production of mucus on the intestinal wall, and inhibits inflammation.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-10",
@@ -1252,7 +1321,8 @@
       ],
       "sasang_relation": "Beneficial for those with Lesser Yin Type",
       "wellness_tip": "The spicy and sour nature of the chicken and garlic helps stimulate blood circulation in the lower abdomen and digestive system, which is beneficial for people with a lesser yin constitution.",
-      "bio_synergy": "The sulforaphane component found in napa cabbage and the coumestan compound in chili paste work together to inhibit Helicobacter pylori growth in the stomach lining and alleviate symptoms of gastritis."
+      "bio_synergy": "The sulforaphane component found in napa cabbage and the coumestan compound in chili paste work together to inhibit Helicobacter pylori growth in the stomach lining and alleviate symptoms of gastritis.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-11",
@@ -1268,7 +1338,8 @@
       ],
       "sasang_relation": "beneficial for Yin Yang and Qi types",
       "wellness_tip": "The nourishing properties of the pork belly's Yin Yang quality help strengthen the blood in Yin Yang types, improving digestive efficiency.",
-      "bio_synergy": "The strong protease enzyme in shrimp paste helps break down the abundant fat and protein in the pork, enhancing intestinal absorption speed."
+      "bio_synergy": "The strong protease enzyme in shrimp paste helps break down the abundant fat and protein in the pork, enhancing intestinal absorption speed.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-12",
@@ -1285,7 +1356,8 @@
       ],
       "sasang_relation": "Beneficial for both Lesser Yang Type and Greater Yin Type individuals",
       "wellness_tip": "The high digestive efficiency of beans with over 95% protein content helps prevent constipation in the active and energetic body type, while reducing cholesterol levels in the strong and enduring body type.",
-      "bio_synergy": "The isoflavones found in black beans combined with minerals from sea water (magnesium) help activate bone cells and control the chronic oxidation of the intestinal wall."
+      "bio_synergy": "The isoflavones found in black beans combined with minerals from sea water (magnesium) help activate bone cells and control the chronic oxidation of the intestinal wall.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-13",
@@ -1302,7 +1374,8 @@
       ],
       "sasang_relation": "Best for those with Greater Yin Type",
       "wellness_tip": "This is the best food for people with weak lungs and slow metabolism who want to strengthen their muscles and improve immunity.",
-      "bio_synergy": "The high concentration of amino acids (glutamine, etc.) in pork belly directly nourishes the cells lining the respiratory tract and helps muscle growth. It also has a synergistic effect on relieving symptoms of chronic diarrhea and boosting immunity."
+      "bio_synergy": "The high concentration of amino acids (glutamine, etc.) in pork belly directly nourishes the cells lining the respiratory tract and helps muscle growth. It also has a synergistic effect on relieving symptoms of chronic diarrhea and boosting immunity.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-08-4",
@@ -1319,7 +1392,8 @@
       ],
       "sasang_relation": "Beneficial for both Greater Yin Type (Strong & Enduring Body Type) and Lesser Yin Type (Thoughtful & Sensitive Body Type)",
       "wellness_tip": "The strong nutrition of lean meat helps prevent chronic fatigue in Greater Yin Type individuals, while the extremely soft texture is beneficial for those with lesser sensitivity who have weak digestive strength.",
-      "bio_synergy": "This low-temperature rapid contact cooking method promotes the conversion of protein fibers in pork, enhancing the efficiency of delivering essential amino acids to cells and preventing blood vessel occlusion."
+      "bio_synergy": "This low-temperature rapid contact cooking method promotes the conversion of protein fibers in pork, enhancing the efficiency of delivering essential amino acids to cells and preventing blood vessel occlusion.",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-08-5",
@@ -1336,7 +1410,8 @@
       ],
       "sasang_relation": "Enhances vitality for Lesser Yin Type (Soojung) and Strong Enduring Type (Taejung)",
       "wellness_tip": "The soft and sweet soup with porridge, yam, shiitake mushrooms, and pork belly helps soothe the weak stomach of Lesser Yin Type, while the pork belly slices help stabilize the center of Strong Enduring Type.",
-      "bio_synergy": "The combination of soy sauce broth's gelatinous form and persimmon's oligopeptide components promotes intestinal coordination and prevents chronic irritable bowel syndrome."
+      "bio_synergy": "The combination of soy sauce broth's gelatinous form and persimmon's oligopeptide components promotes intestinal coordination and prevents chronic irritable bowel syndrome.",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-08-6",
@@ -1353,7 +1428,8 @@
       ],
       "sasang_relation": "Beneficial for both Greater Yin Type and Lesser Yang Type",
       "wellness_tip": "The medicinal herbs in this cake help regulate the heat and waste products of the Greater Yin type's large intestine, while also promoting the function of the Lesser Yang type's kidneys.",
-      "bio_synergy": "The abundant natural plant chemical antioxidants in lotus root enhance insulin sensitivity in the digestive tract by delaying the rapid absorption of glucose from rice flour."
+      "bio_synergy": "The abundant natural plant chemical antioxidants in lotus root enhance insulin sensitivity in the digestive tract by delaying the rapid absorption of glucose from rice flour.",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-08-7",
@@ -1370,7 +1446,8 @@
       ],
       "sasang_relation": "Beneficial for those with Lesser Yin Type and Strong & Enduring Body Type",
       "wellness_tip": "The warm and moisturizing properties of the red dates are beneficial for people with weak or depleted vital energy, as they can help improve overall vitality.",
-      "bio_synergy": "The abundant proanthocyanidin polyphenols in glutinous rice flour from Haepyeong Gil family helps to buffer the effects of digestive enzymes on starches and enhance the protective activity of the intestinal mucosa."
+      "bio_synergy": "The abundant proanthocyanidin polyphenols in glutinous rice flour from Haepyeong Gil family helps to buffer the effects of digestive enzymes on starches and enhance the protective activity of the intestinal mucosa.",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-08-8",
@@ -1387,7 +1464,8 @@
       ],
       "sasang_relation": "Beneficial for Lesser Yang Type (Soybean) and Greater Yin Type (Ginseng)",
       "wellness_tip": "The detoxifying effects of the smooth, clear anchovy mushrooms help to regulate the qi in Lesser Yang Type's chest and protect high blood pressure and cardiovascular flow in Greater Yin Type.",
-      "bio_synergy": "The polysaccharides in the anchovy mushroom act as food for beneficial bacteria in the large intestine, indirectly activating immune cells and improving blood circulation."
+      "bio_synergy": "The polysaccharides in the anchovy mushroom act as food for beneficial bacteria in the large intestine, indirectly activating immune cells and improving blood circulation.",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-08-9",
@@ -1404,7 +1482,8 @@
       ],
       "sasang_relation": "Beneficial for those of Lesser Yang Type – Active & Energetic Body Type",
       "wellness_tip": "The cold nature of pork helps strengthen the kidneys and alleviate excess heat in the chest area. The cinnamon and ginger aroma completely remove the residue.",
-      "bio_synergy": "During the compression process, excessive saturated fatty acids are removed to maximize collagen amino acid content and enhance the activity of amino acid transporters in the small intestine."
+      "bio_synergy": "During the compression process, excessive saturated fatty acids are removed to maximize collagen amino acid content and enhance the activity of amino acid transporters in the small intestine.",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-12-2",
@@ -1429,7 +1508,8 @@
       ],
       "sasang_relation": "Suitable for Lesser Yin Type – Thoughtful & Sensitive Body Type",
       "wellness_tip": "The combination of warming properties from ground beef, honey, and garlic, along with the capsaicin-like compounds found in chili peppers, helps to stimulate digestion and improve overall vitality.",
-      "bio_synergy": "The interaction between ground beef peptides and fermented lactobacillus strains in soy sauce enhances the stimulation of immune response molecules on intestinal epithelial cells."
+      "bio_synergy": "The interaction between ground beef peptides and fermented lactobacillus strains in soy sauce enhances the stimulation of immune response molecules on intestinal epithelial cells.",
+      "ko_category": "한식양념장"
     },
     {
       "id": "trad-12-3",
@@ -1446,7 +1526,8 @@
       ],
       "sasang_relation": "Thoughtful & Sensitive Body Type",
       "wellness_tip": "This soy sauce is highly beneficial for those with lesser yin type. Its warming properties stimulate the flow of qi in the small arteries, helping to alleviate symptoms of cold hands and feet.",
-      "bio_synergy": "The natural compounds from wild chives and amino acids from traditional soy sauce work together to enhance the breakdown of the first step of liver function and improve blood circulation."
+      "bio_synergy": "The natural compounds from wild chives and amino acids from traditional soy sauce work together to enhance the breakdown of the first step of liver function and improve blood circulation.",
+      "ko_category": "한식양념장"
     },
     {
       "id": "trad-12-4",
@@ -1471,7 +1552,8 @@
       ],
       "sasang_relation": "Recommended for those with Lesser Yin Type (Soy Sound) and Greater Yin Type (Strong Enduring)",
       "wellness_tip": "The sinigrin (green mustard's active ingredient) from the spicy taste of green mustard can stimulate the secretion of digestive juices, helping to alleviate symptoms in individuals with lesser yin type. It also helps prevent coughing by reducing inflammation in the lower respiratory tract.",
-      "bio_synergy": "Green mustard contains natural antibacterial components that destroy harmful bacteria on the intestinal wall, preventing flatulence caused by excessive dampness."
+      "bio_synergy": "Green mustard contains natural antibacterial components that destroy harmful bacteria on the intestinal wall, preventing flatulence caused by excessive dampness.",
+      "ko_category": "한식양념장"
     },
     {
       "id": "trad-12-5",
@@ -1488,7 +1570,8 @@
       ],
       "sasang_relation": "Enhances circulation in Lesser Yang Type (Soybean Flour) and Strong & Enduring Body Type (Barley Flour)",
       "wellness_tip": "The high fiber content of barley and soybeans helps the flow of blood and energy for individuals with a stronger constitution, while the low-sodium doenjang blend supports healthy blood pressure in those with weaker constitutions.",
-      "bio_synergy": "Beta-glucan (beta-glucan) soluble dietary fibers from barley help enhance the growth of beneficial bacteria in the gut by providing nutrients to probiotic strains."
+      "bio_synergy": "Beta-glucan (beta-glucan) soluble dietary fibers from barley help enhance the growth of beneficial bacteria in the gut by providing nutrients to probiotic strains.",
+      "ko_category": "한식양념장"
     },
     {
       "id": "trad-12-6",
@@ -1510,7 +1593,8 @@
       ],
       "sasang_relation": "Suitable for all body types (protecting the intestinal wall)",
       "wellness_tip": "The initial components of natural fruit vinegar and ginger juice interact to stimulate digestive enzymes, preventing post-meal bloating when consuming fried rice or pan-fried dishes.",
-      "bio_synergy": "The organic acids in natural fruit vinegar fine-tune the pH balance of intestinal cells, enhancing the absorption rate of calcium and iron minerals in the body."
+      "bio_synergy": "The organic acids in natural fruit vinegar fine-tune the pH balance of intestinal cells, enhancing the absorption rate of calcium and iron minerals in the body.",
+      "ko_category": "한식양념장"
     },
     {
       "id": "trad-12-7",
@@ -1527,7 +1611,8 @@
       ],
       "sasang_relation": "Beneficial for Yin-Yang types",
       "wellness_tip": "The beneficial bacteria produced by the fermentation of soybeans and the capsaicin-like substances in chili peppers can prevent blood flow disorders caused by Yang deficiency in Yin-Yang types, while sesame oil helps to lubricate the large intestine.",
-      "bio_synergy": "The isoflavones from fermented soybean and capsaicin-like substances in chili peppers inhibit ACE enzymes that cause blood pressure elevation."
+      "bio_synergy": "The isoflavones from fermented soybean and capsaicin-like substances in chili peppers inhibit ACE enzymes that cause blood pressure elevation.",
+      "ko_category": "한식양념장"
     },
     {
       "id": "trad-10-5",
@@ -1544,7 +1629,8 @@
       ],
       "sasang_relation": "Beneficial for both Greater Yin Type and Lesser Yang Type",
       "wellness_tip": "The cooling properties of the finger millet and millet help alleviate blood vessel narrowing in individuals with weak Qi, while also soothing the heart fire stress in those with strong Qi.",
-      "bio_synergy": "During distillation process, the concentration ratio of organic ester compounds such as ethyl acetate is adjusted to increase antioxidant levels and prevent body fat accumulation."
+      "bio_synergy": "During distillation process, the concentration ratio of organic ester compounds such as ethyl acetate is adjusted to increase antioxidant levels and prevent body fat accumulation.",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-6",
@@ -1561,7 +1647,8 @@
       ],
       "sasang_relation": "Best for those with Lesser Yin Type (Soeumin) and Strong & Enduring Body Type (Taeeumin)",
       "wellness_tip": "The strong warming properties of ginger and cinnamon bark help warm the cold stomach of those with Lesser Yin Type, while the honey and cinnamon leaf in high-quality medicinal herbs benefit the liver detoxification and blood circulation improvement for those with Strong & Enduring Body Type.",
-      "bio_synergy": "The curcumin (Curcumin) from turmeric and the sesaminaldehyde (cinamaldehyde) components of cinnamon bark react with alcohol in sake, enhancing the activity of plaque dissolution in the bloodstream."
+      "bio_synergy": "The curcumin (Curcumin) from turmeric and the sesaminaldehyde (cinamaldehyde) components of cinnamon bark react with alcohol in sake, enhancing the activity of plaque dissolution in the bloodstream.",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-7",
@@ -1578,7 +1665,8 @@
       ],
       "sasang_relation": "Recommended for Lesser Yin Type",
       "wellness_tip": "The combination of lesser yin type, ginger, cinnamon, clove, tangerine peel, licorice, honey, and sugar provides strong therapeutic effects in restoring qi to those with depleted yang qi and dry intestinal issues due to the rapid depletion of yang qi.",
-      "bio_synergy": "The Eugenol component of ginger and the polyphenols of cinnamon control harmful oxidative reactions in cell membranes, thereby regulating the death of senescent cells."
+      "bio_synergy": "The Eugenol component of ginger and the polyphenols of cinnamon control harmful oxidative reactions in cell membranes, thereby regulating the death of senescent cells.",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-8",
@@ -1595,7 +1683,8 @@
       ],
       "sasang_relation": "Beneficial to Lesser Yang Type – Active & Energetic Body Type and Greater Yin Type – Strong & Enduring Body Type",
       "wellness_tip": "The effects of the calming properties of cassia, cinnamon, and mugwort help cleanse the brain circulation in individuals with a strong constitution (sasang) who are prone to blood flow issues. It also helps clear phlegm in those with weak constitutions (sasang).",
-      "bio_synergy": "The flavonoids from the bamboo leaf extract and asarone from cinnamon help control alcohol barrier permeability, preventing hangover and headache symptoms."
+      "bio_synergy": "The flavonoids from the bamboo leaf extract and asarone from cinnamon help control alcohol barrier permeability, preventing hangover and headache symptoms.",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-9",
@@ -1612,7 +1701,8 @@
       ],
       "sasang_relation": "Beneficial to those with Lesser Yin Type and Lesser Yang Type",
       "wellness_tip": "The lotus root's lotus flower fragrance can prevent heat and dry eye problems in those with Greater Yin type, while the glutinous rice's soluble fiber helps warm up and soothe the lower abdomen of those with Lesser Yang type.",
-      "bio_synergy": "The daidzein from soybeans and the organic acids produced by low-temperature fermentation promote a gentle stabilization of the nervous system (ENS), aiding in the relaxation of intestinal fluid."
+      "bio_synergy": "The daidzein from soybeans and the organic acids produced by low-temperature fermentation promote a gentle stabilization of the nervous system (ENS), aiding in the relaxation of intestinal fluid.",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-10",
@@ -1629,7 +1719,8 @@
       ],
       "sasang_relation": "Suitable for all constitutions (Spleen)",
       "wellness_tip": "The sweetness of pure glutinous rice porridge and the fermentation esters in alcohol help regulate qi deficiency, promote smooth digestion, and alleviate blood vessel obstruction.",
-      "bio_synergy": "A compound of glycosaminoglycans and yeast lactose produced by fermentation suppresses harmful allergic reactions from invading the intestinal mucosa."
+      "bio_synergy": "A compound of glycosaminoglycans and yeast lactose produced by fermentation suppresses harmful allergic reactions from invading the intestinal mucosa.",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-11",
@@ -1646,7 +1737,8 @@
       ],
       "sasang_relation": "Most suitable for those with Greater Yin Type",
       "wellness_tip": "Alcohol content high, smooth in nature, helps the heart and blood vessel walls of individuals with weak constitutions to break down plaque.",
-      "bio_synergy": "The alcohol ester components from grain distillation help reduce insulin sensitivity without stimulating the liver's amino acid metabolism cycle, aiding in toxin elimination."
+      "bio_synergy": "The alcohol ester components from grain distillation help reduce insulin sensitivity without stimulating the liver's amino acid metabolism cycle, aiding in toxin elimination.",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-12",
@@ -1669,7 +1761,8 @@
       ],
       "sasang_relation": "Beneficial for those with Lesser Yin Type (Sono Yin) and Strong & Enduring Body Type (Taeno Yin)",
       "wellness_tip": "Ginger, cinnamon, and licorice have strong detoxifying effects on the stomach and intestines, effectively relieving symptoms of nausea and indigestion in individuals with a weak digestive system.",
-      "bio_synergy": "The fermentation byproducts from sake and puerarin (a component of kudzu root) help to immediately soothe the lining of the esophagus and aid in reducing blood levels of acetylaldehyde, which is beneficial for those who frequently experience nausea or indigestion due to a weak digestive system."
+      "bio_synergy": "The fermentation byproducts from sake and puerarin (a component of kudzu root) help to immediately soothe the lining of the esophagus and aid in reducing blood levels of acetylaldehyde, which is beneficial for those who frequently experience nausea or indigestion due to a weak digestive system.",
+      "ko_category": "전통주"
     }
   ],
   "ja": [
@@ -1687,7 +1780,8 @@
       ],
       "sasang_relation": "少陽人及太陰人に非常に有利",
       "wellness_tip": "消化力が良く、体熱が多いため、大腸の乾燥や便秘が生じやすい少陽人の腸を助けるとともに、熱を制御します。",
-      "bio_synergy": "腸内有益菌の占有率を40%以上改善し、ビタミンE産生促進により、過敏性腸症候群(IBS)の緩和に寄与します。"
+      "bio_synergy": "腸内有益菌の占有率を40%以上改善し、ビタミンE産生促進により、過敏性腸症候群(IBS)の緩和に寄与します。",
+      "ko_category": "발효미생물"
     },
     {
       "id": "trad-02",
@@ -1703,7 +1797,8 @@
       ],
       "sasang_relation": "少陰人に大大有益",
       "wellness_tip": "胃腸の気運が冷え消化不良、ガス真の頻繁な少阴人的胃火旺盛を祛除し、大腸の免疫力を増強します。",
-      "bio_synergy": "強力な胃酸と胆汁酸からも 破坏されず、腸まで達し、天然有機酸とビタミンB群合成を 阻止します。"
+      "bio_synergy": "強力な胃酸と胆汁酸からも 破坏されず、腸まで達し、天然有機酸とビタミンB群合成を 阻止します。",
+      "ko_category": "발효미생물"
     },
     {
       "id": "trad-03",
@@ -1719,7 +1814,8 @@
       ],
       "sasang_relation": "太陰人と少陰人に適しています",
       "wellness_tip": "血流が遅く、手足が冷えている太陰人や少陰人の末梢循環を刺激し、体温の維持と食欲の増進に役立ちます。",
-      "bio_synergy": "ビタミンB1、B2、B6が非常に豊富で、疲労物質であるクレアチンを除去し、細胞内のエネルギー生成を促進します。"
+      "bio_synergy": "ビタミンB1、B2、B6が非常に豊富で、疲労物質であるクレアチンを除去し、細胞内のエネルギー生成を促進します。",
+      "ko_category": "발효미생물"
     },
     {
       "id": "trad-03-2",
@@ -1735,7 +1831,8 @@
       ],
       "sasang_relation": "すべての体質調和可能",
       "wellness_tip": "食品の弱い栄養構造を早めに分解し、消化酵素が不足している虚弱者や高齢者の体内吸収を容易に導きます。",
-      "bio_synergy": "天然タンパク質分解ペプチドと有機酸を誘発して腸内代謝を調整し、ヘルシーロバクトリアン菌の抑制補助的な効果があります。"
+      "bio_synergy": "天然タンパク質分解ペプチドと有機酸を誘発して腸内代謝を調整し、ヘルシーロバクトリアン菌の抑制補助的な効果があります。",
+      "ko_category": "발효미생물"
     },
     {
       "id": "trad-04",
@@ -1752,7 +1849,8 @@
       ],
       "sasang_relation": "養子縁組や太陰人におすすめ",
       "wellness_tip": "梅生まれの涼しく涼しい性質が素養人の耐熱を下げ、気をじっくり沈め、牡蠣の豊富な亜鉛が気力を見せます。",
-      "bio_synergy": "牡蠣のタウリンと梅の生き物の鉄分/カルシウム結合で血管をきれいにきれいにし、冬場の心血管免疫力を増大させます。"
+      "bio_synergy": "牡蠣のタウリンと梅の生き物の鉄分/カルシウム結合で血管をきれいにきれいにし、冬場の心血管免疫力を増大させます。",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-05",
@@ -1769,7 +1867,8 @@
       ],
       "sasang_relation": "騒音に最適な保薬",
       "wellness_tip": "糖耳の葉の強力な補血（血を見せる）作用と暖かい性質が水族冷症や貧血を患いやすい騒音の血行を改善します。",
-      "bio_synergy": "真の耳のデクルシン（Decursin）成分が脳細胞保護や抗炎症作用をして老化防止と血液清浄に優れています。"
+      "bio_synergy": "真の耳のデクルシン（Decursin）成分が脳細胞保護や抗炎症作用をして老化防止と血液清浄に優れています。",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06",
@@ -1786,7 +1885,8 @@
       ],
       "sasang_relation": "太陰人及び太陽人に推奨",
       "wellness_tip": "太陰人の肺気の不調や炎症を和らげ、呼吸器系の感染症予防に役立ちます。",
-      "bio_synergy": "방풍엽의 쿠마린(Coumarin) 성분은 폐의 점막의 바이러스 저항력을 높여 혈중의 항산화 작용을 돕는 것으로 알려져 있습니다."
+      "bio_synergy": "방풍엽의 쿠마린(Coumarin) 성분은 폐의 점막의 바이러스 저항력을 높여 혈중의 항산화 작용을 돕는 것으로 알려져 있습니다.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-2",
@@ -1803,7 +1903,8 @@
       ],
       "sasang_relation": "素人に特にお得",
       "wellness_tip": "性質が冷たく、解毒作用に優れた緑豆が、小養人の胸の中の火器と熱毒を治め、尿の排出を助けます。",
-      "bio_synergy": "緑豆に多量のフラボノイド（ビテキシン、イソビテキシン）成分が体内の活性酸素を抑制し、炎症緩和シナジーを誘導します。"
+      "bio_synergy": "緑豆に多量のフラボノイド（ビテキシン、イソビテキシン）成分が体内の活性酸素を抑制し、炎症緩和シナジーを誘導します。",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-3",
@@ -1820,7 +1921,8 @@
       ],
       "sasang_relation": "テウムに優れた呼吸器保育",
       "wellness_tip": "肺気運が弱いため、季節の風邪、喘息、喉の休みが頻繁に発生した胎音の祈りを潤滑に保護し、痰の排出を誘導します。",
-      "bio_synergy": "ドラジのプラチコジンサポニンと甘草のグリシリジンが会って気管支粘膜のムチン分泌を促進し、咳中枢を安定させます。"
+      "bio_synergy": "ドラジのプラチコジンサポニンと甘草のグリシリジンが会って気管支粘膜のムチン分泌を促進し、咳中枢を安定させます。",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-07",
@@ -1837,7 +1939,8 @@
       ],
       "sasang_relation": "太陰人と騒音人に保養",
       "wellness_tip": "終値の深い種醤油発酵アミノ酸が肉蛋白質を軟化させ、鼻尖が弱い騒音人と胎音人の蛋白質吸収を助け、元気を満たします。",
-      "bio_synergy": "長年発酵された醤油の豊富なメラノイジン成分が豚肉脂肪酸の酸化を防ぎ、インスリン分泌感受性を調整します。"
+      "bio_synergy": "長年発酵された醤油の豊富なメラノイジン成分が豚肉脂肪酸の酸化を防ぎ、インスリン分泌感受性を調整します。",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-08",
@@ -1854,7 +1957,8 @@
       ],
       "sasang_relation": "少陽人及少陰人之佳",
       "wellness_tip": "排除刺激性香料(如生姜类)以舒缓肠胃，有助于阴虚阳亢者调理胃火。",
-      "bio_synergy": "蔬菜中的天然膳食纤维与鸡肉的优质蛋白质结合，促进肠道蠕动，防止血糖急升。"
+      "bio_synergy": "蔬菜中的天然膳食纤维与鸡肉的优质蛋白质结合，促进肠道蠕动，防止血糖急升。",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-08-2",
@@ -1871,7 +1975,8 @@
       ],
       "sasang_relation": "太陰人に強力な元気補充",
       "wellness_tip": "体格に比べて心肺血液循環が弱く、骨格が太い胎音人の骨格を補強し、胸の血を突き刺すのに役立ちます。",
-      "bio_synergy": "牛肉タンパク質の必須アミノ酸とトランのカリウムは腎臓の代謝を活性化し、心筋の収縮力を助けます。"
+      "bio_synergy": "牛肉タンパク質の必須アミノ酸とトランのカリウムは腎臓の代謝を活性化し、心筋の収縮力を助けます。",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-08-3",
@@ -1888,7 +1993,8 @@
       ],
       "sasang_relation": "少陰人に大大好",
       "wellness_tip": "鶏肉の穏やかな性質が体を温め、胃腸管壁を保護してくれ、騒音の体温補強に非常に適しています。",
-      "bio_synergy": "鶏肉の不飽和脂肪酸とジンジャージュースのジンジャーロール成分が結合して体内の炎症性サイトカイン物質を下げて関節の健康を補助します。"
+      "bio_synergy": "鶏肉の不飽和脂肪酸とジンジャージュースのジンジャーロール成分が結合して体内の炎症性サイトカイン物質を下げて関節の健康を補助します。",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-09",
@@ -1905,7 +2011,8 @@
       ],
       "sasang_relation": "太陰人（テウムイン）に最適",
       "wellness_tip": "This Maekmundong Doenjang Paste helps strengthen the immune system of people with dry lungs and frequent coughing during autumn/winter, while enhancing the synergistic effect between fermented soybean powder (Maekmundong) and honeysuckle (Maekmundong).",
-      "bio_synergy": "The Maekmundong powder (Maekmundong) in this soup does not break down easily when heated during cooking and stimulates the secretion of mucus in the bronchial glands, helping to alleviate coughing spasms."
+      "bio_synergy": "The Maekmundong powder (Maekmundong) in this soup does not break down easily when heated during cooking and stimulates the secretion of mucus in the bronchial glands, helping to alleviate coughing spasms.",
+      "ko_category": "한식양념장"
     },
     {
       "id": "trad-09-2",
@@ -1921,7 +2028,8 @@
       ],
       "sasang_relation": "消養人と騒音人の消化保障",
       "wellness_tip": "胃腸に熱が多く消化障害で神物が上がったり、ガスがよく冷やす素養人と騒音人のスーツ消化を助けて食欲を調節してくれます。",
-      "bio_synergy": "サンザシの実の有機酸（クエン酸、リンゴ酸）と梅のピクリン酸成分が肝臓の解毒を助け、食中毒菌など有害菌の増殖を抑制します。"
+      "bio_synergy": "サンザシの実の有機酸（クエン酸、リンゴ酸）と梅のピクリン酸成分が肝臓の解毒を助け、食中毒菌など有害菌の増殖を抑制します。",
+      "ko_category": "한식양념장"
     },
     {
       "id": "trad-09-3",
@@ -1937,7 +2045,8 @@
       ],
       "sasang_relation": "少陰人に特化の药膳",
       "wellness_tip": "血行が停滞し、手足が冷たくて肌が白い少陰人の血管を清潔に通じさせ、心機能を暖めてくれます。",
-      "bio_synergy": "サムタン薬用多糖体が箸のタウリンと出会い、赤血球の生成を誘導し、女性の貧血予防と子宮の血流障壁の改善を支援します。"
+      "bio_synergy": "サムタン薬用多糖体が箸のタウリンと出会い、赤血球の生成を誘導し、女性の貧血予防と子宮の血流障壁の改善を支援します。",
+      "ko_category": "한식양념장"
     },
     {
       "id": "trad-10",
@@ -1954,7 +2063,8 @@
       ],
       "sasang_relation": "少阳人及太阴人的养生药",
       "wellness_tip": "枸杞子补肾经、麦门冬润肺的功效与大黄和山药结合，有助于调理小阳人的体质，使其精力充沛。",
-      "bio_synergy": "通过酒精提取物，枸杞子的β-胡萝卜素（Betaine）成分和大黄的芦丁成分在肠道中形成保护作用，增强血管弹性。"
+      "bio_synergy": "通过酒精提取物，枸杞子的β-胡萝卜素（Betaine）成分和大黄的芦丁成分在肠道中形成保护作用，增强血管弹性。",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-2",
@@ -1971,7 +2081,8 @@
       ],
       "sasang_relation": "太陰人及少陰人有益",
       "wellness_tip": "帮助淋巴循环，缓解因体液代谢缓慢和下肢水肿而引起的淋巴系统功能障碍，使心情变得平和。",
-      "bio_synergy": "茯苓的Pachyman多糖与益生菌代谢产物相互作用，增强肾脏排泄废物的功能并促进免疫细胞生成。"
+      "bio_synergy": "茯苓的Pachyman多糖与益生菌代谢产物相互作用，增强肾脏排泄废物的功能并促进免疫细胞生成。",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-3",
@@ -1988,7 +2099,8 @@
       ],
       "sasang_relation": "少陰人(少陰人)無法替代的 為人 品質優良 的 草藥膳(薬膳)",
       "wellness_tip": "對於 水血不足、手足發冷、消化力弱、面色蒼白的小陰人，黑參能改善 血脈流通，提升 全身氣血，並強化 精神與體質。",
-      "bio_synergy": "黑參的 赤葯素(Rg1, Rb1, Rg3) 成分，在 醉酒發酵後，提高細胞通透性，加速末梢 血液循環，提升血液流速。"
+      "bio_synergy": "黑參的 赤葯素(Rg1, Rb1, Rg3) 成分，在 醉酒發酵後，提高細胞通透性，加速末梢 血液循環，提升血液流速。",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-4",
@@ -2005,7 +2117,8 @@
       ],
       "sasang_relation": "太陽と素人に優秀",
       "wellness_tip": "上半身に向かって熱とオーラが過度に上昇し、下半身が乾きやすく、怒りの調整が頻繁な太陽人の不要な熱を下降させます。",
-      "bio_synergy": "オミザのシザンドリン（Schizandrin）成分と松葉のテルペン成分が出会い、大脳神経伝達物質を調整し、肝内疲労抑制因子を増大させます。"
+      "bio_synergy": "オミザのシザンドリン（Schizandrin）成分と松葉のテルペン成分が出会い、大脳神経伝達物質を調整し、肝内疲労抑制因子を増大させます。",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-12",
@@ -2021,7 +2134,8 @@
       ],
       "sasang_relation": "騒音と太陰人に活力",
       "wellness_tip": "スパイシーな性質のなだらけが鼻胃腸管のガスを制御し、麦油のオメガ3と醤油アミノ酸が騒音のオーラを補強してくれます。",
-      "bio_synergy": "なだめるようなアリシン成分は伝統的な肝臓のペプチドと出会い、血圧を安定させ、毛細血管の弾力性を高めるのに貢献します。"
+      "bio_synergy": "なだめるようなアリシン成分は伝統的な肝臓のペプチドと出会い、血圧を安定させ、毛細血管の弾力性を高めるのに貢献します。",
+      "ko_category": "한식양념장"
     },
     {
       "id": "kimchi-01",
@@ -2038,7 +2152,8 @@
       ],
       "sasang_relation": "養子縁組と太陰人に有利",
       "wellness_tip": "性質が冷たく、ミネラルが豊富な減態が素養人の速熱を下げ、血行が鈍化しやすい胎音人の全身血液循環を助けます。",
-      "bio_synergy": "減態のアルギン酸食物繊維が腸粘膜を包み、有害菌の吸収を遮断し、発酵乳酸菌と融合して腸内障壁保護効果を大きく向上させます。"
+      "bio_synergy": "減態のアルギン酸食物繊維が腸粘膜を包み、有害菌の吸収を遮断し、発酵乳酸菌と融合して腸内障壁保護効果を大きく向上させます。",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-02",
@@ -2055,7 +2170,8 @@
       ],
       "sasang_relation": "騒音人と太陰人におすすめ",
       "wellness_tip": "新鮮な暖かい性質は、騒音の冷たい空気を暖かく保護し、呼吸器系が弱く乾いた咳を頻繁にする胎音人の肺機能を活性化します。",
-      "bio_synergy": "赤の新鮮なアントシアニン色素と発酵乳酸菌が会って胃腸上皮細胞の抗酸化作用を助け、免疫活性因子の産生を誘導します。"
+      "bio_synergy": "赤の新鮮なアントシアニン色素と発酵乳酸菌が会って胃腸上皮細胞の抗酸化作用を助け、免疫活性因子の産生を誘導します。",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-03",
@@ -2072,7 +2188,8 @@
       ],
       "sasang_relation": "全体質調和可能（平成）",
       "wellness_tip": "タコとアワビのタウリンやアミノ酸が豊富に調和し、季節変化で気が弱くなりやすい全体質の気力を補強します。",
-      "bio_synergy": "魚介類の豊富な核酸と必須アミノ酸が乳酸菌発酵を促進し、腸内微生物の多様性指数を大きく引き上げます。"
+      "bio_synergy": "魚介類の豊富な核酸と必須アミノ酸が乳酸菌発酵を促進し、腸内微生物の多様性指数を大きく引き上げます。",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-04",
@@ -2089,7 +2206,8 @@
       ],
       "sasang_relation": "テウムインとソヤンインにおすすめ",
       "wellness_tip": "古いカボチャの解毒/利尿性質が素養人の腫れを下げ、カニのキトサンが胎音人の湿潤（老廃物）排出をスムーズに導きます。",
-      "bio_synergy": "発酵の過程で、カニ殻のキトオリゴ糖が腸内乳酸菌の代謝産物と結合して免疫マクロファージを活性化する強い刺激剤として作用します。"
+      "bio_synergy": "発酵の過程で、カニ殻のキトオリゴ糖が腸内乳酸菌の代謝産物と結合して免疫マクロファージを活性化する強い刺激剤として作用します。",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-05",
@@ -2106,7 +2224,8 @@
       ],
       "sasang_relation": "養子縁組と太陰人への活力",
       "wellness_tip": "繊維が非常に豊富なサツマイモの茎と暖かい性質のネギが結合し、速熱で腸管乾燥を経験しやすい素養人や血行がダディンテウムインの便秘予防と腸の健康を守ります。",
-      "bio_synergy": "サツマイモの茎細胞壁の不溶性繊維が腸内ビフィドバクテリウム（Bifidobacterium）の優れた餌（Prebiotics）となり、有益菌の優位環境を作り出します。"
+      "bio_synergy": "サツマイモの茎細胞壁の不溶性繊維が腸内ビフィドバクテリウム（Bifidobacterium）の優れた餌（Prebiotics）となり、有益菌の優位環境を作り出します。",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-06",
@@ -2123,7 +2242,8 @@
       ],
       "sasang_relation": "素人に特効薬",
       "wellness_tip": "コドロ抜きの強い安っぽい味が心臓や腎臓に追いやされやすい素養人の胸の中の火毒を冷やして治めてストレスを和らげます。",
-      "bio_synergy": "根に満ちたイヌリン天然多糖類が血糖の急激な上昇を防ぎ、障壁をしっかり固め、慢性腸炎の症状の緩和を助けます。"
+      "bio_synergy": "根に満ちたイヌリン天然多糖類が血糖の急激な上昇を防ぎ、障壁をしっかり固め、慢性腸炎の症状の緩和を助けます。",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-07",
@@ -2140,7 +2260,8 @@
       ],
       "sasang_relation": "テウムインとサイレンサーに有利",
       "wellness_tip": "ヨウ素とカルシウムが濃縮された口腔胎が騒音の胃腸粘膜をしっとり保護し、胎音の高脂血症など心血管の流れを清浄に浄化します。",
-      "bio_synergy": "海藻多糖体とアンチョビ発酵有機酸が腸内細菌銃の酸性度を酸性に調整し、ウェルシ菌など病原性有害菌の繁殖を抑制します。"
+      "bio_synergy": "海藻多糖体とアンチョビ発酵有機酸が腸内細菌銃の酸性度を酸性に調整し、ウェルシ菌など病原性有害菌の繁殖を抑制します。",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-08",
@@ -2157,7 +2278,8 @@
       ],
       "sasang_relation": "騒音に最適",
       "wellness_tip": "カトラリーならではの温かく香りのよいペリラアルデヒド成分が、両者が不足して胃が容易に冷え、ガスが冷える騒音人の石鹸を温めて消化を導きます。",
-      "bio_synergy": "ローズマリン酸（Rosmarinic acid）などの抗酸化ポリフェノールが腸粘膜の炎症性サイトカインを抑制し、腸漏水症候群（LGS）の緩和に役立ちます。"
+      "bio_synergy": "ローズマリン酸（Rosmarinic acid）などの抗酸化ポリフェノールが腸粘膜の炎症性サイトカインを抑制し、腸漏水症候群（LGS）の緩和に役立ちます。",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-09",
@@ -2174,7 +2296,8 @@
       ],
       "sasang_relation": "太陰人や騒音人におすすめ",
       "wellness_tip": "羽根器に含まれる豊富なタウリンと大根の消化酵素（アミラーゼ）が結合し、心肺機能が鈍く消化がしやすい胎音の全身血行と消化を助けます。",
-      "bio_synergy": "頭蓋の水溶性タンパク質は、乳酸菌代謝の過程で天然活性ペプチドに分割され、血圧安定性および血管壁保護相乗作用を誘導する。"
+      "bio_synergy": "頭蓋の水溶性タンパク質は、乳酸菌代謝の過程で天然活性ペプチドに分割され、血圧安定性および血管壁保護相乗作用を誘導する。",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-10",
@@ -2191,7 +2314,8 @@
       ],
       "sasang_relation": "騒音人と太陰人に補約",
       "wellness_tip": "陽気が非常に高く、脂肪の少ない淡白なキジ肉が騒音の下腹部漢毒を倒して気力を満たし、体の水分（鎮液）を治めます。",
-      "bio_synergy": "動物性低脂肪コラーゲンとラクトバチルス発酵乳酸菌が会って腸上皮細胞（Tight Junction）の回復を助け、免疫グロブリン合成を補助します。"
+      "bio_synergy": "動物性低脂肪コラーゲンとラクトバチルス発酵乳酸菌が会って腸上皮細胞（Tight Junction）の回復を助け、免疫グロブリン合成を補助します。",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-11",
@@ -2208,7 +2332,8 @@
       ],
       "sasang_relation": "養子縁組や太陰人におすすめ",
       "wellness_tip": "古いカボチャの強力な利尿作用は、素人の浮腫と腎臓の疲労を制御し、暖かいアンチョビの塩成分が、太陰人の冷えを解消するのを助けます。",
-      "bio_synergy": "カボチャのカロテノイド成分が有益な乳酸菌分泌物と結合し、小腸粘膜のビタミンA合成を誘導し、抗がん免疫力を高めます。"
+      "bio_synergy": "カボチャのカロテノイド成分が有益な乳酸菌分泌物と結合し、小腸粘膜のビタミンA合成を誘導し、抗がん免疫力を高めます。",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-12",
@@ -2225,7 +2350,8 @@
       ],
       "sasang_relation": "騒音に大変お得",
       "wellness_tip": "なだらかな固有の温性酸味と辛味が消化能力が弱く血液循環ができず、水族冷症が頻繁な騒音の体温補強に非常に優れた貢献をします。",
-      "bio_synergy": "なだめるようなスパイシーなアリシン成分が腸管の有害ガス誘発細菌を抑制し、腹部膨満感を制御し、腸の有益菌増殖を補助します。"
+      "bio_synergy": "なだめるようなスパイシーなアリシン成分が腸管の有害ガス誘発細菌を抑制し、腹部膨満感を制御し、腸の有益菌増殖を補助します。",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-13",
@@ -2242,7 +2368,8 @@
       ],
       "sasang_relation": "養子縁組と太陰人にお勧め",
       "wellness_tip": "マウィの喧嘩した苦味が素養人の胸撃に集まった火気を下に下げ、胎音人の肺粘膜乾燥による咳を落ち着かせます。",
-      "bio_synergy": "マーウィの抗酸化ポリフェノール化合物と発酵乳酸菌は腸細胞炎症活性を抑制し,過敏性腸症候群の制御に優れている。"
+      "bio_synergy": "マーウィの抗酸化ポリフェノール化合物と発酵乳酸菌は腸細胞炎症活性を抑制し,過敏性腸症候群の制御に優れている。",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-14",
@@ -2259,7 +2386,8 @@
       ],
       "sasang_relation": "騒音に最適な保薬",
       "wellness_tip": "フットニンニクの強力な胃腸温暖化作用が下腹が茶消化不良を患う騒音人の消化液分泌を促進し、オーラを補強します。",
-      "bio_synergy": "豊富な天然硫黄成分がプレバイオティクスの役割を果たし、結腸内の有益常株の乳酸分泌を最大化し、免疫力を高める。"
+      "bio_synergy": "豊富な天然硫黄成分がプレバイオティクスの役割を果たし、結腸内の有益常株の乳酸分泌を最大化し、免疫力を高める。",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-15",
@@ -2276,7 +2404,8 @@
       ],
       "sasang_relation": "素人に強力おすすめ",
       "wellness_tip": "性質が非常に涼しい枝と涼しいエビ煮が結合し、夏の上半身の上方に熱が上がり、胸の痛みや渇きを訴える素人の速熱を制御します。",
-      "bio_synergy": "ナスニン成分が乳酸発酵乳酸菌と相乗作用をし、血管内の酸化ストレスをなくし、血流障害の改善を誘導します。"
+      "bio_synergy": "ナスニン成分が乳酸発酵乳酸菌と相乗作用をし、血管内の酸化ストレスをなくし、血流障害の改善を誘導します。",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-16",
@@ -2293,7 +2422,8 @@
       ],
       "sasang_relation": "養子縁組と太陰人に優秀",
       "wellness_tip": "あざの涼しく涼しい性質が素養人の耐熱を下げて頭痛や眼の乾燥を防ぎ、豊かなタウリンが太陰人の肝疲労解消を補強します。",
-      "bio_synergy": "あざ固有のタウリンとバナジウム成分が乳酸菌生理活性物質と結合して血糖を安定させ、インスリン感受性を向上させます。"
+      "bio_synergy": "あざ固有のタウリンとバナジウム成分が乳酸菌生理活性物質と結合して血糖を安定させ、インスリン感受性を向上させます。",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-17",
@@ -2310,7 +2440,8 @@
       ],
       "sasang_relation": "騒音と太陰人に優秀",
       "wellness_tip": "明太子の豊富なビタミンB群と暖かい性質の無味味が結合し、体が冷たくて、胃の消化効率が低下した騒音であるものの暑さを暖めて疲労回復を助けます。",
-      "bio_synergy": "タンパク質はアミノ酸で完全に発酵熟成し、消化器官の栄養素の吸収を円滑に誘導し、腸粘膜細菌銃の免疫を増大させます。"
+      "bio_synergy": "タンパク質はアミノ酸で完全に発酵熟成し、消化器官の栄養素の吸収を円滑に誘導し、腸粘膜細菌銃の免疫を増大させます。",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-18",
@@ -2327,7 +2458,8 @@
       ],
       "sasang_relation": "全体質調和可能（平成）",
       "wellness_tip": "小麦粉の過度の刺激が排除され、牛肉の豊富なグルタミン酸が浸透し、普段胃炎や逆流性食道炎で辛いキムチを食べられない胃腸弱化者に最も安全な保養キムチです。",
-      "bio_synergy": "スープアミノ酸が乳酸産生株であるロイコノストックの大量増殖を助け、バリア細胞のタンパク質結合を強化します。"
+      "bio_synergy": "スープアミノ酸が乳酸産生株であるロイコノストックの大量増殖を助け、バリア細胞のタンパク質結合を強化します。",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-19",
@@ -2344,7 +2476,8 @@
       ],
       "sasang_relation": "養子縁組や太陰人におすすめ",
       "wellness_tip": "梨と大根の涼しい声の性質は、素人と太陰人の気管支熱を冷やし、胸の痰を削り、気を下に優しく沈めます。",
-      "bio_synergy": "大根の豊富なイソチオシアネート抗がん成分が乳酸菌排出物質と融合し、腸管細胞の毒性物質の浄化を助けます。"
+      "bio_synergy": "大根の豊富なイソチオシアネート抗がん成分が乳酸菌排出物質と融合し、腸管細胞の毒性物質の浄化を助けます。",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-20",
@@ -2361,7 +2494,8 @@
       ],
       "sasang_relation": "テウムとソヤンに優秀",
       "wellness_tip": "小サイズで浸液消化酵素との接触面積を最大化し、鼻咽喉機能が低下し、膨満感に苦しみのある胎音人と素養人の胃運動を促進します。",
-      "bio_synergy": "アミラーゼ酵素活性は発酵乳酸と相乗効果をもたらし、炭水化物の消化時間を短縮し、血糖の安定化に寄与する。"
+      "bio_synergy": "アミラーゼ酵素活性は発酵乳酸と相乗効果をもたらし、炭水化物の消化時間を短縮し、血糖の安定化に寄与する。",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-21",
@@ -2378,7 +2512,8 @@
       ],
       "sasang_relation": "騒音や高齢者に最適",
       "wellness_tip": "胃と腸の両器が著しく落ちて生野菜（大根）を食べると、ガスが冷たくて中が溜まった騒音の蒸気を予防し、柔らかい澱粉分解を助けます。",
-      "bio_synergy": "熱処理により、大根のアクセンペクチン結合を予め軟化させ、消化管刺激を源泉に防ぎ、有益な乳酸菌の結腸吸収を円滑に助けます。"
+      "bio_synergy": "熱処理により、大根のアクセンペクチン結合を予め軟化させ、消化管刺激を源泉に防ぎ、有益な乳酸菌の結腸吸収を円滑に助けます。",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-22",
@@ -2395,7 +2530,8 @@
       ],
       "sasang_relation": "太陰人と騒音人に保養",
       "wellness_tip": "大根の清涼で冷たいオーラが、胎音人の肺に保湿鎮液を形成し、季節の乾いた咳を防ぎ、体内老廃物の排出を促進します。",
-      "bio_synergy": "白菜と大根の複合不溶性植物細胞フィブリンは結腸腸膜の連動を物理的に導き、肥満を引き起こす腸内パーミキュテス株を抑制する"
+      "bio_synergy": "白菜と大根の複合不溶性植物細胞フィブリンは結腸腸膜の連動を物理的に導き、肥満を引き起こす腸内パーミキュテス株を抑制する",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-23",
@@ -2412,7 +2548,8 @@
       ],
       "sasang_relation": "騒音と太陰人への保養",
       "wellness_tip": "カブの独特のマスタードとスパイシーなオーラが冷たい騒音の障壁を温め、バンデイのカルシウム成分が骨格が太いが関節が弱くなりやすいテウムインを助けます。",
-      "bio_synergy": "カブのイソチオシアネート硫黄成分とバンデニのペプチドが発酵乳酸菌と出会いの間の解毒代謝（Phase II）効率を大きく高めます。"
+      "bio_synergy": "カブのイソチオシアネート硫黄成分とバンデニのペプチドが発酵乳酸菌と出会いの間の解毒代謝（Phase II）効率を大きく高めます。",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-24",
@@ -2429,7 +2566,8 @@
       ],
       "sasang_relation": "テウムに最適",
       "wellness_tip": "ダドクの冷えながら保湿効果を出す性質が肺がいつも乾燥して咳や痰、気管支喘息に苦しんだ胎音人の免疫力を増強します。",
-      "bio_synergy": "ダドクの豊富なイヌリンとサポニン成分が腸管の免疫細胞活性を直接刺激し、血液中の白血球活性を大幅に改善します。"
+      "bio_synergy": "ダドクの豊富なイヌリンとサポニン成分が腸管の免疫細胞活性を直接刺激し、血液中の白血球活性を大幅に改善します。",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-25",
@@ -2446,7 +2584,8 @@
       ],
       "sasang_relation": "騒音に無条件に最適",
       "wellness_tip": "保養最高峰の高麗人参（水参）の性質が体の深いところまで冷え、消化が常に鈍く疲労が激しい騒音の体温補強と免疫力の増進に絶対的な助けを与えます。",
-      "bio_synergy": "水参のサポニン（ジンセノサイド）成分が乳酸発酵中に融合し、微生物細胞内透過性を改善し、活性物質の腸管内の気血連通速度を大幅に増大させます。"
+      "bio_synergy": "水参のサポニン（ジンセノサイド）成分が乳酸発酵中に融合し、微生物細胞内透過性を改善し、活性物質の腸管内の気血連通速度を大幅に増大させます。",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-26",
@@ -2463,7 +2602,8 @@
       ],
       "sasang_relation": "騒音と太陰人に活力",
       "wellness_tip": "辛い性質のコチョウ葉とムマランが冷たい騒音の下腹を支えてくれ、気力が落ちやすいテウムインの食欲を引き立てて活力を補強します。",
-      "bio_synergy": "豊富なクロロフィルとビタミンC成分は、結腸内の有益な発酵菌の細胞産生を助け、有害な活性酸素をブロックする抗酸化機構を刺激します。"
+      "bio_synergy": "豊富なクロロフィルとビタミンC成分は、結腸内の有益な発酵菌の細胞産生を助け、有害な活性酸素をブロックする抗酸化機構を刺激します。",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-27",
@@ -2480,7 +2620,8 @@
       ],
       "sasang_relation": "素人に優秀な約束",
       "wellness_tip": "セリの涼しく涼しい性質と強い解毒作用が体と肝臓に熱が過度に冷えやすい素養人の血液を取り除き、疲労回復を助けます。",
-      "bio_synergy": "ミナリのケルセチンフラボノイドが結腸障壁の免疫受容体を調整し、結腸炎症の緩和と腸粘膜修復相乗効果を誘導します。"
+      "bio_synergy": "ミナリのケルセチンフラボノイドが結腸障壁の免疫受容体を調整し、結腸炎症の緩和と腸粘膜修復相乗効果を誘導します。",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-28",
@@ -2497,7 +2638,8 @@
       ],
       "sasang_relation": "騒音に無条件におすすめ",
       "wellness_tip": "陽気が非常に不足して手足と腹がシリョ子宮冷症や冷たい下を経験しやすい騒音の下腹を暖かく温めてくれる最高の保養薬船です。",
-      "bio_synergy": "ネギの天然アリールスルフィド成分が強力な抗菌作用をして大腸内有害腐敗細菌である大腸菌（E. coli）の過剰増殖を遮断する防御膜を形成します。"
+      "bio_synergy": "ネギの天然アリールスルフィド成分が強力な抗菌作用をして大腸内有害腐敗細菌である大腸菌（E. coli）の過剰増殖を遮断する防御膜を形成します。",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-29",
@@ -2514,7 +2656,8 @@
       ],
       "sasang_relation": "テウムとソヤンに優秀",
       "wellness_tip": "腎機能が許して下半身に水分代謝が遅く浮腫が頻繁に発生する素養人や体格が大きく、血液循環が鈍い胎音人の利尿や血圧調節を補助します。",
-      "bio_synergy": "ゴボウ固有のイヌリンとプレバイオティックフィブリンが大腸内の有益常株菌であるラクトバチルス種の優位増殖を爆発的に導きます。"
+      "bio_synergy": "ゴボウ固有のイヌリンとプレバイオティックフィブリンが大腸内の有益常株菌であるラクトバチルス種の優位増殖を爆発的に導きます。",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-30",
@@ -2531,7 +2674,8 @@
       ],
       "sasang_relation": "騒音と太陰人に有利",
       "wellness_tip": "済州の野生のなだめるような性格が騒音の末梢循環を助け、太陰人の沈んだオーラを覚醒させ、胸の苦しみや寒さの症状を防ぎます。",
-      "bio_synergy": "アリシン様硫黄化合物は乳酸菌代謝を介して結腸腸膜炎症指標を下げ、全身の活力を促進します。"
+      "bio_synergy": "アリシン様硫黄化合物は乳酸菌代謝を介して結腸腸膜炎症指標を下げ、全身の活力を促進します。",
+      "ko_category": "별미김치"
     },
     {
       "id": "trad-03-3",
@@ -2548,7 +2692,8 @@
       ],
       "sasang_relation": "テウムインとソヤンインに優れています",
       "wellness_tip": "植物由来乳酸菌の強い生存力が消火器の熱が多く、湿気が蹴りやすい胎音人の長官毒素を浄化し、養子縁組の猛威熱を下げます。",
-      "bio_synergy": "大腸から乳酸と酢酸を大量に生成し、障壁を緊密に守り、有害な病原性大腸菌の浸透を直接防御します。"
+      "bio_synergy": "大腸から乳酸と酢酸を大量に生成し、障壁を緊密に守り、有害な病原性大腸菌の浸透を直接防御します。",
+      "ko_category": "발효미생물"
     },
     {
       "id": "trad-03-4",
@@ -2565,7 +2710,8 @@
       ],
       "sasang_relation": "騒音に非常に有利",
       "wellness_tip": "消化管の活力が落ち、慢性の膨満感や下痢/便秘が頻繁な騒音の大腸免疫反応を補強し、中を暖かく支えてくれます。",
-      "bio_synergy": "腸管内粘膜上皮細胞にしっかりと付着し、免疫グロブリンA（IgA）の分泌を活性化し、ウイルス性腸疾患を予防します。"
+      "bio_synergy": "腸管内粘膜上皮細胞にしっかりと付着し、免疫グロブリンA（IgA）の分泌を活性化し、ウイルス性腸疾患を予防します。",
+      "ko_category": "발효미생물"
     },
     {
       "id": "trad-03-5",
@@ -2582,7 +2728,8 @@
       ],
       "sasang_relation": "テウムインとソヤンインにおすすめ",
       "wellness_tip": "塩辛や長類など塩辛い食べ物を摂取するときに発生する可能性のある有毒なアミン類の代謝産物を分解し、体がよく注ぐテウムインと耐熱のある素養人を助けます。",
-      "bio_synergy": "リステリア、黄色ブドウ球菌など低温・高炎状態で増殖する食中毒菌の膜を貫通して死滅させる天然抗菌保護膜の役割を果たします。"
+      "bio_synergy": "リステリア、黄色ブドウ球菌など低温・高炎状態で増殖する食中毒菌の膜を貫通して死滅させる天然抗菌保護膜の役割を果たします。",
+      "ko_category": "발효미생물"
     },
     {
       "id": "trad-03-6",
@@ -2599,7 +2746,8 @@
       ],
       "sasang_relation": "テウムに最も特効",
       "wellness_tip": "炭水化物代謝効率が低く、全身肥満や高血圧、糖尿など代謝症候群を経験しやすい胎音人の内臓脂肪の蓄積を抑制することに大きな貢献をします。",
-      "bio_synergy": "脂肪酸の吸収を遮断し、糞便に排出を誘導し、腸内微生物銃の白色脂肪抑制経路を強く刺激します。"
+      "bio_synergy": "脂肪酸の吸収を遮断し、糞便に排出を誘導し、腸内微生物銃の白色脂肪抑制経路を強く刺激します。",
+      "ko_category": "발효미생물"
     },
     {
       "id": "setting-01",
@@ -2616,7 +2764,8 @@
       ],
       "sasang_relation": "すべての体質適合（平性）",
       "wellness_tip": "油脂が少なく、食物繊維が豊富な野菜と魚中心で構成され、石鹸の消化能力が鈍い騒音人から熱の多い養子縁組まで快適な消化を助けます。",
-      "bio_synergy": "大豆発酵長類（味噌）と乳酸菌キムチが微量のハーブ食物繊維と組み合わせて、大腸粘膜の短鎖脂肪酸（SCFA）生成を刺激する基礎を提供します。"
+      "bio_synergy": "大豆発酵長類（味噌）と乳酸菌キムチが微量のハーブ食物繊維と組み合わせて、大腸粘膜の短鎖脂肪酸（SCFA）生成を刺激する基礎を提供します。",
+      "ko_category": "전통음식 상차림"
     },
     {
       "id": "setting-02",
@@ -2633,7 +2782,8 @@
       ],
       "sasang_relation": "太陰人や騒音にお勧め",
       "wellness_tip": "カルシウムが豊富なアンチョビとタンパク質が含まれた卵、食物繊維が豊富な武国がまんべんなく混ざり、骨と血管が弱くなりやすい胎音人や胃腸が冷たい騒音人を見ます。",
-      "bio_synergy": "動物性タンパク質と植物性食物繊維が5大栄養素比で完全配合され、小腸の消化吸収率を高め、不要な急激なインスリン分泌を防ぎます。"
+      "bio_synergy": "動物性タンパク質と植物性食物繊維が5大栄養素比で完全配合され、小腸の消化吸収率を高め、不要な急激なインスリン分泌を防ぎます。",
+      "ko_category": "전통음식 상차림"
     },
     {
       "id": "setting-03",
@@ -2650,7 +2800,8 @@
       ],
       "sasang_relation": "養子縁組と太陰人への活力",
       "wellness_tip": "牛肉のカルビチムの豊富なアミノ酸が、太陰人の肺機能と筋力を満たし、清涼な同チミが上体に熱が集まりやすい素養人の熱を涼しく下げます。",
-      "bio_synergy": "漢方鉗子と武装アーチの組み合わせが腸管代謝作用を活性化し、肉の飽和脂肪酸が腸粘膜に及ぼす炎症性酸化誘発反応を抑制します。"
+      "bio_synergy": "漢方鉗子と武装アーチの組み合わせが腸管代謝作用を活性化し、肉の飽和脂肪酸が腸粘膜に及ぼす炎症性酸化誘発反応を抑制します。",
+      "ko_category": "전통음식 상차림"
     },
     {
       "id": "setting-04",
@@ -2667,7 +2818,8 @@
       ],
       "sasang_relation": "騒音人と太陰人に最適な保養",
       "wellness_tip": "暖かいオゴクバプと牛肉鍋、そしてナビアニのオーラが騒音の気力を急激に引き上げ、タコとアワビのタウリンがテウムインの肝臓の解毒を助けます。",
-      "bio_synergy": "豊富なシーフード（タコ、アワビ）と高品質のタンパク質（肉会、幅なし）がバランスよく融合し、体内の同化作用を助け、血管壁の弾力性を強化します。"
+      "bio_synergy": "豊富なシーフード（タコ、アワビ）と高品質のタンパク質（肉会、幅なし）がバランスよく融合し、体内の同化作用を助け、血管壁の弾力性を強化します。",
+      "ko_category": "전통음식 상차림"
     },
     {
       "id": "setting-05",
@@ -2684,7 +2836,8 @@
       ],
       "sasang_relation": "すべての体質最高の気力強化",
       "wellness_tip": "小豆スラとワカメ、ダドクバン、松茸のオーラが調和し、全体質の気血循環を助け、体の陰陽バランスを完全に完全に握ってくれます。",
-      "bio_synergy": "大豆の茎（土腸処置）、海のカルシウム（絹肥）、天然の食餌硫黄（ダドク、松）の完璧な融合が腸内微生物のバランスを最大化し、慢性疲労誘発因子を除去します。"
+      "bio_synergy": "大豆の茎（土腸処置）、海のカルシウム（絹肥）、天然の食餌硫黄（ダドク、松）の完璧な融合が腸内微生物のバランスを最大化し、慢性疲労誘発因子を除去します。",
+      "ko_category": "전통음식 상차림"
     },
     {
       "id": "setting-06",
@@ -2701,7 +2854,8 @@
       ],
       "sasang_relation": "太陰人と養子縁組に有益",
       "wellness_tip": "ミナリの解毒成分と魚菜の低脂肪タンパク質が結合し、肝機能が停滞しやすい胎音人や胃に熱が多く、アルコール分解が急激に進行する素養人の二日酔いを防ぎます。",
-      "bio_synergy": "タウリンが豊富な魚の魚菜と新鮮な六回の必須アミノ酸が体内アルコール分解酵素（ADH/ALDH）活性を約2倍以上促進します。"
+      "bio_synergy": "タウリンが豊富な魚の魚菜と新鮮な六回の必須アミノ酸が体内アルコール分解酵素（ADH/ALDH）活性を約2倍以上促進します。",
+      "ko_category": "전통음식 상차림"
     },
     {
       "id": "setting-07",
@@ -2718,7 +2872,8 @@
       ],
       "sasang_relation": "騒音と素人に優秀",
       "wellness_tip": "暖かくてスパイシーな生姜茶が下腹が下がって下痢を頻繁にする騒音を保護し、黒妊娠/松花多食が乾燥した素人の肌と腎臓の機能を滑らかに潤滑に助けます。",
-      "bio_synergy": "多食のゴマリグナン成分と漢方茶のカテキン成分が血管壁に吸収され、強力な天然抗炎作用と動脈硬化抑制相乗効果を発揮します。"
+      "bio_synergy": "多食のゴマリグナン成分と漢方茶のカテキン成分が血管壁に吸収され、強力な天然抗炎作用と動脈硬化抑制相乗効果を発揮します。",
+      "ko_category": "전통음식 상차림"
     },
     {
       "id": "setting-08",
@@ -2735,7 +2890,8 @@
       ],
       "sasang_relation": "養子縁組と太陰人への活力",
       "wellness_tip": "そばの冷たい性質が素人の耐熱と頭痛をもたらし、鶏肉とキジの高タンパクのスープが、太陰人の汗排出後に気力充填をスムーズに導きます。",
-      "bio_synergy": "そばのルーチン成分と肉スープのアミノ酸が相乗効果を起こし、脳血管の弾力を最大化し、血圧安定効果を誘導します。"
+      "bio_synergy": "そばのルーチン成分と肉スープのアミノ酸が相乗効果を起こし、脳血管の弾力を最大化し、血圧安定効果を誘導します。",
+      "ko_category": "전통음식 상차림"
     },
     {
       "id": "trad-06-4",
@@ -2752,7 +2908,8 @@
       ],
       "sasang_relation": "全体質調和可能（平成）",
       "wellness_tip": "各種野菜のミネラルと牛肉のアミノ酸が豊富で、免疫力低下や気力減退を受けやすい全体質の気力バランスを即座に取り戻します。",
-      "bio_synergy": "黄斑のクチナシ色とビビンバ野菜の不溶性繊維質が大腸有害菌の代謝酵素活性を遮断し、大腸粘膜を丈夫に保存します。"
+      "bio_synergy": "黄斑のクチナシ色とビビンバ野菜の不溶性繊維質が大腸有害菌の代謝酵素活性を遮断し、大腸粘膜を丈夫に保存します。",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-5",
@@ -2769,7 +2926,8 @@
       ],
       "sasang_relation": "騒音と太陰人への栄養補給",
       "wellness_tip": "暖かい性質の鶏肉とニンニク、乾唐辛子が結合し、普段手足が冷たくなり、胃の血行が停滞しやすい騒音人や消化機能が鈍い太陰人の温もりを助けます。",
-      "bio_synergy": "チキンの高品質の必須タンパク質とジャガイモの抵抗性デンプンが発酵腸の味付けと反応し、胃腸粘膜の吸収速度を遅らせ、血糖スパイクを防ぎます。"
+      "bio_synergy": "チキンの高品質の必須タンパク質とジャガイモの抵抗性デンプンが発酵腸の味付けと反応し、胃腸粘膜の吸収速度を遅らせ、血糖スパイクを防ぎます。",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-6",
@@ -2786,7 +2944,8 @@
       ],
       "sasang_relation": "養子縁組と太陰人への栄養食",
       "wellness_tip": "消化がよく、カルシウムと不飽和脂肪酸が豊富な渇きが速熱が多く、肉料理が負担のある素養人の栄養を満たし、テウムインの血管の流れを清潔に補強します。",
-      "bio_synergy": "ガルチのオメガ-3(EPA/DHA)成分が大根の天然ジアスタアーゼ消化酵素と出会い、脂質代謝効率を改善し、消化吸収の負担を軽減します。"
+      "bio_synergy": "ガルチのオメガ-3(EPA/DHA)成分が大根の天然ジアスタアーゼ消化酵素と出会い、脂質代謝効率を改善し、消化吸収の負担を軽減します。",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-7",
@@ -2803,7 +2962,8 @@
       ],
       "sasang_relation": "全ての体質適合(保薬)",
       "wellness_tip": "アミノ酸とアルギニンが濃縮されたアワビ内臓が騒音人の冷えや胃腸衰弱を治め、素養人と胎音人の消耗性熱病後気力補強に最高の効能を発揮します。",
-      "bio_synergy": "内臓中の天然海藻多糖体は胃と結腸の粘膜細胞をしっかりと包み、胃酸逆流症状を予防し、有益菌の粘膜密着力を最大化します。"
+      "bio_synergy": "内臓中の天然海藻多糖体は胃と結腸の粘膜細胞をしっかりと包み、胃酸逆流症状を予防し、有益菌の粘膜密着力を最大化します。",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-8",
@@ -2820,7 +2980,8 @@
       ],
       "sasang_relation": "テウムに強くお勧め",
       "wellness_tip": "筋骨が丈夫ですが、タンパク質の消費が多く、代謝の流れが鈍化しやすい胎音人の筋力形成と貧血防止に優れた血液補充効能を与えます。",
-      "bio_synergy": "果汁の天然の軟育酵素（プロテアーゼ）が肉タンパク質をペプチドに分けて血管吸収率を高め、胃腸の消化負担を解消します。"
+      "bio_synergy": "果汁の天然の軟育酵素（プロテアーゼ）が肉タンパク質をペプチドに分けて血管吸収率を高め、胃腸の消化負担を解消します。",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-9",
@@ -2837,7 +2998,8 @@
       ],
       "sasang_relation": "テウムインとソヤンインにおすすめ",
       "wellness_tip": "カニよりも肉が硬いドルゲのキトサン成分が、太陰人のコレステロール排出と体重調節を助け、体の熱を下げる涼しさが素人によく合います。",
-      "bio_synergy": "カニ殻の豊富なアセチルグルコサミンが腸管内ビフィズス有益菌の増殖を助け、障壁の粘液質合成を促進して腸炎症を抑制します。"
+      "bio_synergy": "カニ殻の豊富なアセチルグルコサミンが腸管内ビフィズス有益菌の増殖を助け、障壁の粘液質合成を促進して腸炎症を抑制します。",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-10",
@@ -2854,7 +3016,8 @@
       ],
       "sasang_relation": "騒音にとても優秀",
       "wellness_tip": "チキンとコチュジャンの暑い性質が下腹と消火器が常時冷たくてガスが冷える騒音の障壁気血循環を刺激し、消化機能を大幅に向上させます。",
-      "bio_synergy": "キャベツのスルフォラファン成分とカレーのクルクミンが結合し、胃粘膜のヘリコバクター菌の増殖を抑制し、胃炎緩和シナジーを作り出します。"
+      "bio_synergy": "キャベツのスルフォラファン成分とカレーのクルクミンが結合し、胃粘膜のヘリコバクター菌の増殖を抑制し、胃炎緩和シナジーを作り出します。",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-11",
@@ -2871,7 +3034,8 @@
       ],
       "sasang_relation": "養子縁組と太陰人への栄養補償",
       "wellness_tip": "豚肉の涼しく濃い補音（補陰）性質が腎臓の気運が停滞し、速熱で真液が乾きやすい素養人の真液を満たし、代謝効率を補強します。",
-      "bio_synergy": "エビの強力なタンパク質分解酵素であるプロテアーゼとリパーゼが豚肉の豊富な脂肪とタンパク質を割り、腸内吸収速度を改善します。"
+      "bio_synergy": "エビの強力なタンパク質分解酵素であるプロテアーゼとリパーゼが豚肉の豊富な脂肪とタンパク質を割り、腸内吸収速度を改善します。",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-12",
@@ -2888,7 +3052,8 @@
       ],
       "sasang_relation": "養子縁組と太陰人に優秀",
       "wellness_tip": "消化率が95％以上で高い大豆タンパク質が体内熱が多く便秘が生じやすい素養人の排便を助け、コレステロールの高い胎音人の血管をきれいに保ちます。",
-      "bio_synergy": "大豆イソフラボンと海水中の有機マグネシウムミネラルが結合して骨芽細胞を活性化し、障壁の慢性酸化老化現象を制御する"
+      "bio_synergy": "大豆イソフラボンと海水中の有機マグネシウムミネラルが結合して骨芽細胞を活性化し、障壁の慢性酸化老化現象を制御する",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-13",
@@ -2905,7 +3070,8 @@
       ],
       "sasang_relation": "テウムに最適",
       "wellness_tip": "肺や気管支が弱く、代謝速度が遅い、太陰人の呼吸器粘膜鎮液を支え、筋肉量の増強をスムーズに助ける最高のたんぱく質保養澄んだお湯料理です。",
-      "bio_synergy": "牛肉の高濃度アミノ酸（グルタミンなど）が大腸腸膜細胞のエネルギー源として直接書かれ、腸漏水症候群緩和および免疫力強化シナジーを作り出します。"
+      "bio_synergy": "牛肉の高濃度アミノ酸（グルタミンなど）が大腸腸膜細胞のエネルギー源として直接書かれ、腸漏水症候群緩和および免疫力強化シナジーを作り出します。",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-08-4",
@@ -2922,7 +3088,8 @@
       ],
       "sasang_relation": "太陰人と騒音人に大保養",
       "wellness_tip": "牛肉の強い栄養が、太陰人の慢性疲労や筋力低下を防ぎ、極度の柔らかい食感が胃腸が弱く消化力が落ちる騒音を快適に助けます。",
-      "bio_synergy": "低温急激な接触調理工法が肉タンパク質の変性を誘導し、必須アミノ酸の体内細胞伝達効率を高め、血管渋滞現象を防止します。"
+      "bio_synergy": "低温急激な接触調理工法が肉タンパク質の変性を誘導し、必須アミノ酸の体内細胞伝達効率を高め、血管渋滞現象を防止します。",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-08-5",
@@ -2939,7 +3106,8 @@
       ],
       "sasang_relation": "騒音と太陰人に活力",
       "wellness_tip": "デポリとアールの淡白さが騒音の弱い石鹸に快適に触れ、牛肉の地元の有名さがオーラが使いやすくなるような、太陰人の中心をとります。",
-      "bio_synergy": "麺澱粉の贅沢形態と漢方スープのオリゴペプチド成分が融合し、腸内蠕動運動を誘導し、慢性過敏性下痢を予防する。"
+      "bio_synergy": "麺澱粉の贅沢形態と漢方スープのオリゴペプチド成分が融合し、腸内蠕動運動を誘導し、慢性過敏性下痢を予防する。",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-08-6",
@@ -2956,7 +3124,8 @@
       ],
       "sasang_relation": "テウムとソヤンに優秀",
       "wellness_tip": "繊維質とカルシウムが非常に強い修理臭が、太陰人の腸内湿熱老廃物を排出し、素養人の腎臓代謝能力を促進して浮腫を制御します。",
-      "bio_synergy": "修復の豊富な天然フィトケミカル抗酸化成分は、もち米でんぷんの急激な血糖吸収を遅らせ、腸内インスリン感受性を向上させます。"
+      "bio_synergy": "修復の豊富な天然フィトケミカル抗酸化成分は、もち米でんぷんの急激な血糖吸収を遅らせ、腸内インスリン感受性を向上させます。",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-08-7",
@@ -2973,7 +3142,8 @@
       ],
       "sasang_relation": "騒音と太陰人に活力",
       "wellness_tip": "水痘と小豆の暖かく利尿を助ける薬性が下腹部が冷やし、新陳代謝が低下し、全身無気力を経験しやすい騒音人や胎音人に最適です。",
-      "bio_synergy": "カルシウムの豊富なプロアントシアニジンポリフェノールは、消化液中の炭水化物酵素作用を緩衝し、結腸粘膜保護活性を大幅に向上させる"
+      "bio_synergy": "カルシウムの豊富なプロアントシアニジンポリフェノールは、消化液中の炭水化物酵素作用を緩衝し、結腸粘膜保護活性を大幅に向上させる",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-08-8",
@@ -2990,7 +3160,8 @@
       ],
       "sasang_relation": "養子縁組と太陰人への約束",
       "wellness_tip": "性質が平らで澄んだ石茸の解毒効能が素養人の胸の中の火気を消し、胎音人の高血圧など心血管の流れを清潔に保護します。",
-      "bio_synergy": "石茸の多糖類成分が大腸内常駐有益菌の餌となり、免疫マクロファージを間接活性化し、血液循環を改善します。"
+      "bio_synergy": "石茸の多糖類成分が大腸内常駐有益菌の餌となり、免疫マクロファージを間接活性化し、血液循環を改善します。",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-08-9",
@@ -3007,7 +3178,8 @@
       ],
       "sasang_relation": "素人に最適な栄養",
       "wellness_tip": "豚肉の冷たいオーラが腎臓が弱く、速熱が上体に集中しやすい素養人の鎮液をやさしく支えてくれ、超皮とシナモンの香りが雑魚を完全に除去してくれます。",
-      "bio_synergy": "圧搾中に過剰な飽和脂肪を除去し、コラーゲンアミノ酸含有量を最大化し、小腸のアミノ酸輸送体活性を最大化する。"
+      "bio_synergy": "圧搾中に過剰な飽和脂肪を除去し、コラーゲンアミノ酸含有量を最大化し、小腸のアミノ酸輸送体活性を最大化する。",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-12-2",
@@ -3024,7 +3196,8 @@
       ],
       "sasang_relation": "騒音人と台音人に最適",
       "wellness_tip": "温かい性質の牛肉と蜂蜜、コチュジャンのカプサイシンが結合し、体が冷たくて胃の消化能力が鈍い騒音人と体質的に循環がうまくいかない太陰人の食欲をそそります。",
-      "bio_synergy": "牛肉ペプチドと唐辛子発酵乳酸菌は相互作用を起こし、胃腸管上皮細胞の免疫グロブリン活性を刺激します。"
+      "bio_synergy": "牛肉ペプチドと唐辛子発酵乳酸菌は相互作用を起こし、胃腸管上皮細胞の免疫グロブリン活性を刺激します。",
+      "ko_category": "한식양념장"
     },
     {
       "id": "trad-12-3",
@@ -3041,7 +3214,8 @@
       ],
       "sasang_relation": "騒音にとても優秀",
       "wellness_tip": "なだめるような独特のスパイシーで暖かい性質が、騒音の末梢血管の流れを刺激し、水族冷症の緩和に優れた効能を提供します。",
-      "bio_synergy": "なだめるような天然硫黄化合物と伝統的な肝臓のアミノ酸が融合し、肝代謝の第一段階の解毒活性を強化し、代謝を改善します。"
+      "bio_synergy": "なだめるような天然硫黄化合物と伝統的な肝臓のアミノ酸が融合し、肝代謝の第一段階の解毒活性を強化し、代謝を改善します。",
+      "ko_category": "한식양념장"
     },
     {
       "id": "trad-12-4",
@@ -3058,7 +3232,8 @@
       ],
       "sasang_relation": "騒音人と太陰人におすすめ",
       "wellness_tip": "トクソはマスタードのシニグリン成分が胃壁を刺激して胃酸の分泌を促進するので、騒音の消化不良を解消し、太陰の咳を止めるのに役立ちます。",
-      "bio_synergy": "マスタードの天然殺菌活性成分は、結腸壁の病原性微生物膜を破壊し、下腹部の冷たいオーラによって引き起こされる胚を予防します。"
+      "bio_synergy": "マスタードの天然殺菌活性成分は、結腸壁の病原性微生物膜を破壊し、下腹部の冷たいオーラによって引き起こされる胚を予防します。",
+      "ko_category": "한식양념장"
     },
     {
       "id": "trad-12-5",
@@ -3075,7 +3250,8 @@
       ],
       "sasang_relation": "養子縁組と太陰人への活力",
       "wellness_tip": "食物繊維が豊富なオオムギとクルミの成分が素養人の排便循環を助け、低塩化された味噌配合が血圧調節が緊急な胎音人の血管健康を守ります。",
-      "bio_synergy": "大麦のベータグルカン水溶性繊維質は腸内発酵株の基質として機能し、ビフィズス有益菌の増殖を最大化します。"
+      "bio_synergy": "大麦のベータグルカン水溶性繊維質は腸内発酵株の基質として機能し、ビフィズス有益菌の増殖を最大化します。",
+      "ko_category": "한식양념장"
     },
     {
       "id": "trad-12-6",
@@ -3092,7 +3268,8 @@
       ],
       "sasang_relation": "すべての体質適合（胃壁保護）",
       "wellness_tip": "酢の酢酸成分とショウガ汁のジンジャーロールが出会い、前やブチ料理を摂取する際に消化酵素の活性を刺激し、食後の膨満感を予防します。",
-      "bio_synergy": "天然酢有機酸は胃腸細胞の酸性度を微調整し、カルシウムとリンなどの骨健康ミネラルの体内の小腸吸収速度を促進します。"
+      "bio_synergy": "天然酢有機酸は胃腸細胞の酸性度を微調整し、カルシウムとリンなどの骨健康ミネラルの体内の小腸吸収速度を促進します。",
+      "ko_category": "한식양념장"
     },
     {
       "id": "trad-12-7",
@@ -3109,7 +3286,8 @@
       ],
       "sasang_relation": "太陰人と騒音人に保養",
       "wellness_tip": "チョングクジャンのバチ​​ルス菌株が分泌する強力な天然血栓分解酵素が血管代謝が鈍い胎音人の血流障害を予防し、野菜油成分が騒音の大腸潤滑を助けます。",
-      "bio_synergy": "発酵大豆のイソフラボンと唐辛子のカプサイシン成分が微生物プロテアーゼと会い、血圧上昇誘発酵素（ACE）の活性を抑制します。"
+      "bio_synergy": "発酵大豆のイソフラボンと唐辛子のカプサイシン成分が微生物プロテアーゼと会い、血圧上昇誘発酵素（ACE）の活性を抑制します。",
+      "ko_category": "한식양념장"
     },
     {
       "id": "trad-10-5",
@@ -3126,7 +3304,8 @@
       ],
       "sasang_relation": "テウムとソヤンに優秀",
       "wellness_tip": "蜜柑とそばの冷たい浄化性質が体内湿潤がたまりやすい胎音人の血管閉塞を解消し、素人の心火ストレスをやさしく落ち着かせます。",
-      "bio_synergy": "蒸留過程で有機エステル化合物である酢酸エチル濃度が調整され、抗酸化数値を高め、体内疲労の蓄積を防止します。"
+      "bio_synergy": "蒸留過程で有機エステル化合物である酢酸エチル濃度が調整され、抗酸化数値を高め、体内疲労の蓄積を防止します。",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-6",
@@ -3143,7 +3322,8 @@
       ],
       "sasang_relation": "騒音人と胎音人に最高の気力薬",
       "wellness_tip": "生姜とシナモンの強力な温熱性が、腹と水族が冷えて冷毒を経験する騒音の場を熱し、鬱金と果汁が胎音人の肝臓の解毒と血行改善を大きく導きます。",
-      "bio_synergy": "ウールメタルクルクミン（Curcumin）とシナモンのシナムアルデヒド成分が焼酎アルコールと反応し、血液中老廃物であるプラーク溶解作用を活性化します。"
+      "bio_synergy": "ウールメタルクルクミン（Curcumin）とシナモンのシナムアルデヒド成分が焼酎アルコールと反応し、血液中老廃物であるプラーク溶解作用を活性化します。",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-7",
@@ -3160,7 +3340,8 @@
       ],
       "sasang_relation": "騒音に無条件におすすめ",
       "wellness_tip": "高揚器の性質を持つクローブ、シナモン、甘草などが結合し、全身量が急激に消耗し、下腹部胃腸乾燥症を患う騒音の元気回復に強力な治療効果を提供します。",
-      "bio_synergy": "クローブのエウジェノール成分とシナモンポリフェノールが細胞膜の有害な酸化反応を制御して老化細胞の死を制御する役割を果たします。"
+      "bio_synergy": "クローブのエウジェノール成分とシナモンポリフェノールが細胞膜の有害な酸化反応を制御して老化細胞の死を制御する役割を果たします。",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-8",
@@ -3177,7 +3358,8 @@
       ],
       "sasang_relation": "養子縁組と太陰人への活力",
       "wellness_tip": "性質がガレージの芯をほぐす死力とペパーミント性質が上体上方に火気やストレスが集中しやすい素養人の脳血流をすぐに浄化し、胎音人の痰を落ち着かせます。",
-      "bio_synergy": "竹葉の鎮静液中のフラボノイド成分と石膏胞アサロン成分がアルコールバリアの通過率を制御して二日酔いの頭痛の症状を遮断する"
+      "bio_synergy": "竹葉の鎮静液中のフラボノイド成分と石膏胞アサロン成分がアルコールバリアの通過率を制御して二日酔いの頭痛の症状を遮断する",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-9",
@@ -3194,7 +3376,8 @@
       ],
       "sasang_relation": "騒音と素人に優秀",
       "wellness_tip": "野菊の菊香が素養人の頭に結ばれた熱や眼球の乾燥を防ぎ、もち米の澱粉糖成分が、羊が衰弱した騒音の下腹を温かく支えてくれます。",
-      "bio_synergy": "メジュコンの大豆ペプチドと低温臓器熟成乳酸菌有機酸が腸管神経系（ENS）をスムーズに安定させ、腸漏れ緩和を誘導します。"
+      "bio_synergy": "メジュコンの大豆ペプチドと低温臓器熟成乳酸菌有機酸が腸管神経系（ENS）をスムーズに安定させ、腸漏れ緩和を誘導します。",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-10",
@@ -3211,7 +3394,8 @@
       ],
       "sasang_relation": "すべての体質適合（平性）",
       "wellness_tip": "純粋なもち米の高豆ご飯の甘みと発酵エステルが全体質の気力を調整し、消化を円滑にし、血管循環障害を解消します。",
-      "bio_synergy": "純粋糖化グルコサミンと酵母乳酸の化合物が小腸の絨毛粘膜をしっかりして有害アレルギー誘発因子の侵入を抑制します。"
+      "bio_synergy": "純粋糖化グルコサミンと酵母乳酸の化合物が小腸の絨毛粘膜をしっかりして有害アレルギー誘発因子の侵入を抑制します。",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-11",
@@ -3228,7 +3412,8 @@
       ],
       "sasang_relation": "テウムに最適",
       "wellness_tip": "アルコール度数が高く、性質が澄んで、全身血液や体液が停滞しやすい胎音人の心血管壁老廃物分解作用を助け、全身温かみを刺激します。",
-      "bio_synergy": "穀類蒸留エステル成分がインスリン感受性を阻害することなく肝臓のアミノ酸代謝サイクルを弱く刺激し、老廃物の解毒を導く。"
+      "bio_synergy": "穀類蒸留エステル成分がインスリン感受性を阻害することなく肝臓のアミノ酸代謝サイクルを弱く刺激し、老廃物の解毒を導く。",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-12",
@@ -3245,7 +3430,8 @@
       ],
       "sasang_relation": "騒音人と胎音人に優れた解腸薬",
       "wellness_tip": "シナモン、ガルグン、ショウガの強力な二日酔い解毒と胃腸温暖化作用が下腹と消化機能が鈍い二日酔い頭痛に苦しんでいる騒音人と胎音人の頭痛や胃炎緩和に絶対的です。",
-      "bio_synergy": "マッコリ乳酸菌代謝物質と葛筋のプエラリン（Puerarin）成分が相乗作用をして胃壁を直ちに鎮静させ、血中アセトアルデヒド排出を補助します。"
+      "bio_synergy": "マッコリ乳酸菌代謝物質と葛筋のプエラリン（Puerarin）成分が相乗作用をして胃壁を直ちに鎮静させ、血中アセトアルデヒド排出を補助します。",
+      "ko_category": "전통주"
     }
   ],
   "ar": [
@@ -3263,7 +3449,8 @@
       ],
       "sasang_relation": "مفيد جدًا لشعب سويانج وشعب تاييوم",
       "wellness_tip": "وعلى الرغم من أنه يتمتع بعملية هضم جيدة إلا أنه يولد الكثير من الحرارة الداخلية ويساعد على حركية الأمعاء للأشخاص الذين يعانون من الأمعاء الغليظة والمعرضين لجفاف القولون أو الإمساك ويعالج التسمم الحراري.",
-      "bio_synergy": "فهو يحسن نسبة البكتيريا المفيدة في الأمعاء بنسبة تزيد عن 40% ويعزز إنتاج الزبدات (حمض اللاكتيك)، مما يساعد على تخفيف أعراض القولون العصبي (IBS)."
+      "bio_synergy": "فهو يحسن نسبة البكتيريا المفيدة في الأمعاء بنسبة تزيد عن 40% ويعزز إنتاج الزبدات (حمض اللاكتيك)، مما يساعد على تخفيف أعراض القولون العصبي (IBS).",
+      "ko_category": "발효미생물"
     },
     {
       "id": "trad-02",
@@ -3279,7 +3466,8 @@
       ],
       "sasang_relation": "مفيدة جدا لشعب Soeumin",
       "wellness_tip": "يعمل على تدفئة طاقة المعدة لدى الأشخاص الصوم الذين يعانون من عسر الهضم ومشاكل الجهاز الهضمي بسبب طاقة المعدة الباردة ويساعد في مناعة القولون.",
-      "bio_synergy": "لا يموت حتى في أحماض المعدة القوية والأحماض الصفراوية، ولكنه يصل إلى الأمعاء ويعزز تخليق الأحماض العضوية الطبيعية وفيتامينات ب."
+      "bio_synergy": "لا يموت حتى في أحماض المعدة القوية والأحماض الصفراوية، ولكنه يصل إلى الأمعاء ويعزز تخليق الأحماض العضوية الطبيعية وفيتامينات ب.",
+      "ko_category": "발효미생물"
     },
     {
       "id": "trad-03",
@@ -3295,7 +3483,8 @@
       ],
       "sasang_relation": "مناسبة لتايومين وسويومينين",
       "wellness_tip": "إنه يحفز الدورة الدموية الطرفية للتايومين والسومينين مع بطء الدورة الدموية وبرودة اليدين والقدمين، ويساعد في الحفاظ على درجة حرارة الجسم ويحفز الشهية.",
-      "bio_synergy": "إنه غني جدًا بالفيتامينات B1 وB2 وB6، التي تزيل حمض اللاكتيك، وهو مادة التعب، وتعزز إنتاج استقلاب الطاقة داخل الخلايا."
+      "bio_synergy": "إنه غني جدًا بالفيتامينات B1 وB2 وB6، التي تزيل حمض اللاكتيك، وهو مادة التعب، وتعزز إنتاج استقلاب الطاقة داخل الخلايا.",
+      "ko_category": "발효미생물"
     },
     {
       "id": "trad-03-2",
@@ -3311,7 +3500,8 @@
       ],
       "sasang_relation": "متوافق مع جميع أنواع الجسم",
       "wellness_tip": "من خلال تحطيم البنية الغذائية القاسية للطعام مسبقًا، فإنه يعزز الامتصاص السلس في جسم الضعفاء وكبار السن الذين يفتقرون إلى الإنزيمات الهاضمة.",
-      "bio_synergy": "عن طريق تحفيز الببتيدات المحللة للبروتين الطبيعية والأحماض العضوية، فإنه ينظم حموضة الأمعاء وله تأثير إيجابي على قمع هيليكوباكتر بيلوري."
+      "bio_synergy": "عن طريق تحفيز الببتيدات المحللة للبروتين الطبيعية والأحماض العضوية، فإنه ينظم حموضة الأمعاء وله تأثير إيجابي على قمع هيليكوباكتر بيلوري.",
+      "ko_category": "발효미생물"
     },
     {
       "id": "trad-04",
@@ -3328,7 +3518,8 @@
       ],
       "sasang_relation": "موصى به لشعب سويانج وشعب تاييوم",
       "wellness_tip": "تعمل الطبيعة الباردة والمنعشة للمايسانجي على خفض حرارة الجسم الداخلية وتهدئة طاقة الجسم، بينما يعمل الزنك الغني الموجود في المحار على استعادة الطاقة.",
-      "bio_synergy": "مزيج التورين من المحار والحديد / الكالسيوم من الأعشاب البحرية ينظف الأوعية الدموية ويزيد من مناعة القلب والأوعية الدموية في الشتاء."
+      "bio_synergy": "مزيج التورين من المحار والحديد / الكالسيوم من الأعشاب البحرية ينظف الأوعية الدموية ويزيد من مناعة القلب والأوعية الدموية في الشتاء.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-05",
@@ -3345,7 +3536,8 @@
       ],
       "sasang_relation": "أفضل دواء لشعب السومين",
       "wellness_tip": "يعمل التأثير القوي لتجديد الدم والخصائص الدافئة لأوراق حشيشة الملاك على تحسين الدورة الدموية لدى الأشخاص الذين يعانون من برودة اليدين والقدمين وفقر الدم.",
-      "bio_synergy": "يحمي مكون الدكورسين الموجود في جذر حشيشة الملاك خلايا الدماغ وله تأثيرات مضادة للالتهابات، مما يجعله ممتازًا لمنع الشيخوخة وتنقية الدم."
+      "bio_synergy": "يحمي مكون الدكورسين الموجود في جذر حشيشة الملاك خلايا الدماغ وله تأثيرات مضادة للالتهابات، مما يجعله ممتازًا لمنع الشيخوخة وتنقية الدم.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06",
@@ -3362,7 +3554,8 @@
       ],
       "sasang_relation": "موصى به لتايومين وتايانجين",
       "wellness_tip": "ينقي طاقة الرئة من التايومين، الذي يصبح جهازه التنفسي جافًا وراكدًا بسهولة بسبب الغبار الناعم أو الغبار الأصفر، ويمنع التهاب الشعب الهوائية.",
-      "bio_synergy": "يزيد مكون الكومارين الموجود في مصدات الرياح من مقاومة الفيروسات في الغشاء المخاطي للجهاز التنفسي ويساعد في منع تخثر الدم."
+      "bio_synergy": "يزيد مكون الكومارين الموجود في مصدات الرياح من مقاومة الفيروسات في الغشاء المخاطي للجهاز التنفسي ويساعد في منع تخثر الدم.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-2",
@@ -3379,7 +3572,8 @@
       ],
       "sasang_relation": "مفيدة بشكل خاص للأشخاص ذوي الإعاقة",
       "wellness_tip": "حبوب المونج، وهي باردة بطبيعتها ولها خصائص ممتازة لإزالة السموم، تخفف النار والسموم الحرارية في صدور شعب سويانغ وتساعد على إفراز البول.",
-      "bio_synergy": "الفلافونويدات (فيتكسين، إيزوفيتكسين) الموجودة بكميات كبيرة في حبوب المونج تمنع الجذور الحرة في الجسم وتحفز التآزر في تخفيف الالتهاب."
+      "bio_synergy": "الفلافونويدات (فيتكسين، إيزوفيتكسين) الموجودة بكميات كبيرة في حبوب المونج تمنع الجذور الحرة في الجسم وتحفز التآزر في تخفيف الالتهاب.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-3",
@@ -3396,7 +3590,8 @@
       ],
       "sasang_relation": "منشط ممتاز للجهاز التنفسي للتايومين",
       "wellness_tip": "يرطب ويحمي الشعب الهوائية عند التايومين، الذي غالباً ما يعاني من نزلات البرد والربو وبحة في الصوت أثناء التغيرات الموسمية بسبب ضعف طاقة الرئة، ويحفز إفراز البلغم.",
-      "bio_synergy": "مزيج من البلاتيكودين السابونين من جذر زهرة الجريس والجليسيرهيزين من عرق السوس يعزز إفراز الميوسين من الغشاء المخاطي للقصبات الهوائية ويثبت مركز السعال."
+      "bio_synergy": "مزيج من البلاتيكودين السابونين من جذر زهرة الجريس والجليسيرهيزين من عرق السوس يعزز إفراز الميوسين من الغشاء المخاطي للقصبات الهوائية ويثبت مركز السعال.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-07",
@@ -3413,7 +3608,8 @@
       ],
       "sasang_relation": "مغذية لتايومين وسويومين",
       "wellness_tip": "تعمل الأحماض الأمينية لصلصة الصويا المتخمرة بعمق في جونغا على تليين بروتين اللحوم، مما يساعد سويومين وتايومين ذوي المعدة الضعيفة على امتصاص البروتين وملء طاقتهم.",
-      "bio_synergy": "إن محتوى الميلانويدين الغني في صلصة الصويا التي تم تخميرها لفترة طويلة يمنع أكسدة الأحماض الدهنية في لحم الخنزير ويضبط حساسية إفراز الأنسولين."
+      "bio_synergy": "إن محتوى الميلانويدين الغني في صلصة الصويا التي تم تخميرها لفترة طويلة يمنع أكسدة الأحماض الدهنية في لحم الخنزير ويضبط حساسية إفراز الأنسولين.",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-08",
@@ -3430,7 +3626,8 @@
       ],
       "sasang_relation": "ممتاز للأشخاص الصغار والمتوسطة",
       "wellness_tip": "من خلال استبعاد التوابل المهيجة مثل الثوم والفلفل (سلسلة Ohsinchae)، فإنه يحفز الراحة في المعدة ويخفف الحرارة الداخلية لدى أشخاص سويانغ المصابين بالتهاب المعدة أو التهاب المريء الارتجاعي.",
-      "bio_synergy": "إن الجمع بين الألياف الغذائية الطبيعية من الخضر والبروتين المبكر عالي الجودة يزيد من وقت إفراغ المعدة ويمنع الارتفاع السريع في نسبة السكر في الدم."
+      "bio_synergy": "إن الجمع بين الألياف الغذائية الطبيعية من الخضر والبروتين المبكر عالي الجودة يزيد من وقت إفراغ المعدة ويمنع الارتفاع السريع في نسبة السكر في الدم.",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-08-2",
@@ -3447,7 +3644,8 @@
       ],
       "sasang_relation": "تجديد قوي للطاقة لتايومين",
       "wellness_tip": "يقوي الهيكل العظمي لتيومين الذي يتمتع بعظام سميكة وضعف الدورة الدموية القلبية الرئوية مقارنة بحجمه، كما يساعد على فك انسداد الدم في الصدر.",
-      "bio_synergy": "تعمل الأحماض الأمينية الأساسية الموجودة في بروتين اللحم البقري والبوتاسيوم الموجود في سيقان القلقاس على تنشيط عملية التمثيل الغذائي في الكلى وتساعد على انقباض عضلة القلب."
+      "bio_synergy": "تعمل الأحماض الأمينية الأساسية الموجودة في بروتين اللحم البقري والبوتاسيوم الموجود في سيقان القلقاس على تنشيط عملية التمثيل الغذائي في الكلى وتساعد على انقباض عضلة القلب.",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-08-3",
@@ -3464,7 +3662,8 @@
       ],
       "sasang_relation": "مفيدة جدا لشعب Soeumin",
       "wellness_tip": "إن طبيعة الدجاج المعتدلة تدفئ الجسم وتحمي جدران الجهاز الهضمي، مما يجعله مناسباً جداً لتقوية درجة حرارة الجسم للأشخاص الذين يعانون من ضعف القدرة الهضمية.",
-      "bio_synergy": "يجتمع الحمض الدهني غير المشبع الموجود في الدجاج ومكون الزنجبيل في عصير الزنجبيل لدعم صحة المفاصل عن طريق خفض السيتوكينات الالتهابية في الجسم."
+      "bio_synergy": "يجتمع الحمض الدهني غير المشبع الموجود في الدجاج ومكون الزنجبيل في عصير الزنجبيل لدعم صحة المفاصل عن طريق خفض السيتوكينات الالتهابية في الجسم.",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-09",
@@ -3481,7 +3680,8 @@
       ],
       "sasang_relation": "مثالي لتايومين",
       "wellness_tip": "إنه يقوي الحاجز المناعي لتايومين، الذي يعاني من جفاف الرئتين والسعال المتكرر في الخريف والشتاء، ويحفز التآزر بين الايسوفلافون الموجود في معجون فول الصويا والصابونين الموجود في ماكموندونج.",
-      "bio_synergy": "لا يتم تدمير السابونين Macunal (الأفيوبوجونين) حتى عند تسخينه وطهيه، ولكنه يتم إطلاقه ويعزز إفراز مخاط القصبات الهوائية ويهدئ نوبات السعال."
+      "bio_synergy": "لا يتم تدمير السابونين Macunal (الأفيوبوجونين) حتى عند تسخينه وطهيه، ولكنه يتم إطلاقه ويعزز إفراز مخاط القصبات الهوائية ويهدئ نوبات السعال.",
+      "ko_category": "한식양념장"
     },
     {
       "id": "trad-09-2",
@@ -3497,7 +3697,8 @@
       ],
       "sasang_relation": "دواء الجهاز الهضمي لشعب سويانجين وسومين",
       "wellness_tip": "يساعد على هضم الأمعاء ويتحكم في الشهية لدى الأشخاص الذين يعانون من حرارة شديدة في المعدة ويعانون من القروح أو الغازات بسهولة بسبب مشاكل في الجهاز الهضمي.",
-      "bio_synergy": "تساعد الأحماض العضوية (حمض الستريك وحمض الماليك) الموجودة في فاكهة الزعرور وحمض البكريك الموجود في البرقوق على إزالة السموم من الكبد وتمنع نمو البكتيريا الضارة مثل بكتيريا التسمم الغذائي."
+      "bio_synergy": "تساعد الأحماض العضوية (حمض الستريك وحمض الماليك) الموجودة في فاكهة الزعرور وحمض البكريك الموجود في البرقوق على إزالة السموم من الكبد وتمنع نمو البكتيريا الضارة مثل بكتيريا التسمم الغذائي.",
+      "ko_category": "한식양념장"
     },
     {
       "id": "trad-09-3",
@@ -3513,7 +3714,8 @@
       ],
       "sasang_relation": "الطب الطبي المتخصص لشعب السومين",
       "wellness_tip": "ينظف الأوعية الدموية ويدفئ وظيفة المعدة لدى الأشخاص المعرضين للخدر والشحوب في أيديهم وأقدامهم بسبب ركود تدفق الدم.",
-      "bio_synergy": "يتحد عديد السكاريد الطبي Samultang مع التورين الموجود في الأسماك المملحة للحث على إنتاج خلايا الدم الحمراء ويساعد على منع فقر الدم لدى النساء وتحسين حاجز تدفق الدم في الرحم."
+      "bio_synergy": "يتحد عديد السكاريد الطبي Samultang مع التورين الموجود في الأسماك المملحة للحث على إنتاج خلايا الدم الحمراء ويساعد على منع فقر الدم لدى النساء وتحسين حاجز تدفق الدم في الرحم.",
+      "ko_category": "한식양념장"
     },
     {
       "id": "trad-10",
@@ -3530,7 +3732,8 @@
       ],
       "sasang_relation": "طب الأعشاب سويانجين وتايومين",
       "wellness_tip": "يساعد الجمع بين خصائص تقوية طاقة يين الكلى الموجودة في السنفورينة الغربية والتأثير المنقي للين لمايكموندونج على تنظيم طاقة سكان سويانغ الذين يفتقرون إلى الدم ويميلون إلى أن يكون لديهم جوهر جاف.",
-      "bio_synergy": "من خلال استخلاص الكحول، يتم مضاعفة مكون البيتين الموجود في توت الغوجي ومكون الروتين الموجود في العناب، مما يؤدي إلى تأثيرات حماية خلايا الكبد وتقوية الشعيرات الدموية."
+      "bio_synergy": "من خلال استخلاص الكحول، يتم مضاعفة مكون البيتين الموجود في توت الغوجي ومكون الروتين الموجود في العناب، مما يؤدي إلى تأثيرات حماية خلايا الكبد وتقوية الشعيرات الدموية.",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-2",
@@ -3547,7 +3750,8 @@
       ],
       "sasang_relation": "مفيد لتايومين وسويومين",
       "wellness_tip": "فهو يساعد تايومين، الذي يعاني من بطء استقلاب الماء في الجسم ويعاني في كثير من الأحيان من تورم الجزء السفلي من الجسم، من خلال المساعدة في الدورة الدموية الليمفاوية واسترخاء العقل.",
-      "bio_synergy": "تندمج مستقلبات السكاريد Pachyman من Bokryeong مع مستقلبات بكتيريا حمض اللاكتيك لتنشيط وظيفة إفراز الفضلات في الكلى وتعزيز إنتاج الخلايا المناعية."
+      "bio_synergy": "تندمج مستقلبات السكاريد Pachyman من Bokryeong مع مستقلبات بكتيريا حمض اللاكتيك لتنشيط وظيفة إفراز الفضلات في الكلى وتعزيز إنتاج الخلايا المناعية.",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-3",
@@ -3564,7 +3768,8 @@
       ],
       "sasang_relation": "دواء خاص لا يمكن الاستغناء عنه لشعب السومين",
       "wellness_tip": "يعمل على تدفئة الأوعية الدموية وتقوية طاقة الأشخاص ذوي البشرة الشاحبة بسبب الفقدان الشديد لطاقة اليانغ والبرودة المستمرة في اليدين والقدمين وضعف الهضم.",
-      "bio_synergy": "تعمل الجينسينوسيدات (Rg1، Rb1، Rg3) الموجودة في الجينسنغ الطازج على زيادة نفاذية الخلايا من خلال مرق التخمير الكحولي وتحسين تدفق الدم المحيطي بسرعة."
+      "bio_synergy": "تعمل الجينسينوسيدات (Rg1، Rb1، Rg3) الموجودة في الجينسنغ الطازج على زيادة نفاذية الخلايا من خلال مرق التخمير الكحولي وتحسين تدفق الدم المحيطي بسرعة.",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-4",
@@ -3581,7 +3786,8 @@
       ],
       "sasang_relation": "ممتاز لشعب Taeyang وشعب Soyang",
       "wellness_tip": "يساعد هذا في تقليل الحرارة غير الضرورية لدى أشخاص Taeyang، الذين لديهم حرارة وطاقة زائدة في الجزء العلوي من الجسم، مما يتسبب في جفاف الجزء السفلي من الجسم بسهولة والذين غالبًا ما يعانون من مشكلات في التحكم في الغضب.",
-      "bio_synergy": "يجتمع مكون شيزاندرين في شيساندرا تشينينسيس ومكون التربين في إبر الصنوبر لتنظيم الناقلات العصبية الدماغية وزيادة عوامل قمع التعب في الكبد."
+      "bio_synergy": "يجتمع مكون شيزاندرين في شيساندرا تشينينسيس ومكون التربين في إبر الصنوبر لتنظيم الناقلات العصبية الدماغية وزيادة عوامل قمع التعب في الكبد.",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-12",
@@ -3597,7 +3803,8 @@
       ],
       "sasang_relation": "حيوية لسومين وتايومين",
       "wellness_tip": "يتحكم الثوم المعمر الحار في الغازات في القناة الأنفية المعوية، كما تعمل أوميغا 3 الموجودة في زيت البريلا والأحماض الأمينية لصلصة الصويا على تقوية طاقة السوم-إن.",
-      "bio_synergy": "يتحد عنصر الأليسين الموجود في الثوم المعمر البري مع الببتيدات الموجودة في صلصة الصويا التقليدية، مما يساهم في استقرار ضغط الدم وزيادة مرونة الشعيرات الدموية."
+      "bio_synergy": "يتحد عنصر الأليسين الموجود في الثوم المعمر البري مع الببتيدات الموجودة في صلصة الصويا التقليدية، مما يساهم في استقرار ضغط الدم وزيادة مرونة الشعيرات الدموية.",
+      "ko_category": "한식양념장"
     },
     {
       "id": "kimchi-01",
@@ -3614,7 +3821,8 @@
       ],
       "sasang_relation": "مفيد لشعب سويانج وشعب تاييوم",
       "wellness_tip": "Ecklonia cava، وهي باردة بطبيعتها وغنية بالمعادن، تقلل من الحمى الداخلية لدى شعب سويانغ وتساعد الدورة الدموية في الجسم بالكامل لدى شعب تاييوم الذين يميلون إلى بطء الدورة الدموية.",
-      "bio_synergy": "تغلف الألياف الغذائية التي تحتوي على حمض الألجنيك في Ecklonia cava الغشاء المخاطي المعوي، مما يمنع امتصاص البكتيريا الضارة، وتندمج مع بكتيريا حمض اللاكتيك المتخمرة لتحسين تأثير حماية حاجز الأمعاء بشكل كبير."
+      "bio_synergy": "تغلف الألياف الغذائية التي تحتوي على حمض الألجنيك في Ecklonia cava الغشاء المخاطي المعوي، مما يمنع امتصاص البكتيريا الضارة، وتندمج مع بكتيريا حمض اللاكتيك المتخمرة لتحسين تأثير حماية حاجز الأمعاء بشكل كبير.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-02",
@@ -3631,7 +3839,8 @@
       ],
       "sasang_relation": "موصى به للأشخاص Soeumin و Taeeum",
       "wellness_tip": "الطبيعة الدافئة للقبعة تدفئ وتحمي معدة سويوم-إن الباردة، وتنشط وظيفة الرئة لدى تايوم-إن الذي يعاني من ضعف الجهاز التنفسي والسعال الجاف المتكرر.",
-      "bio_synergy": "يساعد مزيج صبغة الأنثوسيانين وبكتيريا حمض اللاكتيك المتخمرة في الخردل الأحمر على عمل مضادات الأكسدة للخلايا الظهارية المعوية ويحفز إنتاج عوامل تنشيط المناعة."
+      "bio_synergy": "يساعد مزيج صبغة الأنثوسيانين وبكتيريا حمض اللاكتيك المتخمرة في الخردل الأحمر على عمل مضادات الأكسدة للخلايا الظهارية المعوية ويحفز إنتاج عوامل تنشيط المناعة.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-03",
@@ -3648,7 +3857,8 @@
       ],
       "sasang_relation": "متوافق مع جميع الدساتير (مسطحة)",
       "wellness_tip": "المزيج الغني من التورين والأحماض الأمينية من الأخطبوط وأذن البحر يقوي طاقة الجسم بأكمله، والتي تميل إلى الضعف بسبب التغيرات الموسمية.",
-      "bio_synergy": "إن وفرة الأحماض النووية والأحماض الأمينية الأساسية في المأكولات البحرية تعزز تخمر بكتيريا حمض اللاكتيك وتزيد بشكل كبير من مؤشر تنوع الكائنات الحية الدقيقة المعوية."
+      "bio_synergy": "إن وفرة الأحماض النووية والأحماض الأمينية الأساسية في المأكولات البحرية تعزز تخمر بكتيريا حمض اللاكتيك وتزيد بشكل كبير من مؤشر تنوع الكائنات الحية الدقيقة المعوية.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-04",
@@ -3665,7 +3875,8 @@
       ],
       "sasang_relation": "موصى به لتايومين وسويانجين",
       "wellness_tip": "خصائص إزالة السموم / مدر للبول من اليقطين القديم تقلل من التورم في سويانجين، والشيتوزان الموجود في السلطعون يؤدي بلطف إلى تصريف القنوات الرطبة (النفايات) في تايومين.",
-      "bio_synergy": "أثناء عملية التخمير، تتحد مركبات شيتوليجوساكاريدس الموجودة في قشرة السلطعون مع مستقلبات بكتيريا حمض اللاكتيك المعوية وتعمل كمنشط قوي لتنشيط البلاعم المناعية."
+      "bio_synergy": "أثناء عملية التخمير، تتحد مركبات شيتوليجوساكاريدس الموجودة في قشرة السلطعون مع مستقلبات بكتيريا حمض اللاكتيك المعوية وتعمل كمنشط قوي لتنشيط البلاعم المناعية.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-05",
@@ -3682,7 +3893,8 @@
       ],
       "sasang_relation": "حيوية لشعب سويانغ وشعب تاييوم",
       "wellness_tip": "مزيج سيقان البطاطا الحلوة الغنية جدًا بالألياف والثوم المعمر ذو الطبيعة الدافئة يمنع الإمساك ويحافظ على صحة الأمعاء لدى أشخاص سويانغ المعرضين لجفاف الأمعاء بسبب الحرارة الداخلية وأشخاص تاييوم الذين يعانون من بطء الدورة الدموية.",
-      "bio_synergy": "تعمل الألياف غير القابلة للذوبان الموجودة في جدران خلايا البطاطا الحلوة كغذاء ممتاز (البريبايوتكس) لبكتيريا Bifidobacterium في الأمعاء، مما يخلق بيئة تهيمن عليها البكتيريا المفيدة."
+      "bio_synergy": "تعمل الألياف غير القابلة للذوبان الموجودة في جدران خلايا البطاطا الحلوة كغذاء ممتاز (البريبايوتكس) لبكتيريا Bifidobacterium في الأمعاء، مما يخلق بيئة تهيمن عليها البكتيريا المفيدة.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-06",
@@ -3699,7 +3911,8 @@
       ],
       "sasang_relation": "دواء خاص لشعب الصويا",
       "wellness_tip": "يعمل الطعم المر القوي لـ godeulppaegi على تخفيف التوتر عن طريق تهدئة سم النار الموجود في صدور شعب سويانغ، والذي يميل إلى التركيز على القلب والكلى.",
-      "bio_synergy": "يمنع الإينولين، وهو عديد السكاريد الطبيعي الموجود في الجذور، الارتفاع السريع في مستويات السكر في الدم ويقوي جدار الأمعاء، مما يساعد على تخفيف أعراض التهاب الأمعاء المزمن."
+      "bio_synergy": "يمنع الإينولين، وهو عديد السكاريد الطبيعي الموجود في الجذور، الارتفاع السريع في مستويات السكر في الدم ويقوي جدار الأمعاء، مما يساعد على تخفيف أعراض التهاب الأمعاء المزمن.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-07",
@@ -3716,7 +3929,8 @@
       ],
       "sasang_relation": "مفيد لتايومين وسويومين",
       "wellness_tip": "شكل فموي غني باليود والكالسيوم يرطب ويحمي الغشاء المخاطي في الجهاز الهضمي من التايومين وينقي نظام القلب والأوعية الدموية، بما في ذلك فرط شحميات الدم، في التايومين.",
-      "bio_synergy": "يقوم عديد السكاريد الموجود في الأعشاب البحرية وحمض الأنشوجة العضوي المخمر بتعديل حموضة النباتات المعوية إلى حمضية، مما يمنع نمو البكتيريا المسببة للأمراض الضارة مثل البكتيريا الويلزية."
+      "bio_synergy": "يقوم عديد السكاريد الموجود في الأعشاب البحرية وحمض الأنشوجة العضوي المخمر بتعديل حموضة النباتات المعوية إلى حمضية، مما يمنع نمو البكتيريا المسببة للأمراض الضارة مثل البكتيريا الويلزية.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-08",
@@ -3733,7 +3947,8 @@
       ],
       "sasang_relation": "الأفضل للأشخاص الصغار",
       "wellness_tip": "ألدهيد البريلا، وهو مكون دافئ وعطر فريد من نوعه في أوراق البريلا، يدفئ المعدة ويعزز عملية الهضم لدى الأشخاص الذين يعانون من الغازات والبرد في المعدة بسبب نقص طاقة اليانغ.",
-      "bio_synergy": "تساعد مادة البوليفينول المضادة للأكسدة مثل حمض الروزمارينيك على تخفيف متلازمة الأمعاء المتسربة (LGS) عن طريق قمع السيتوكينات الالتهابية في الغشاء المخاطي المعوي."
+      "bio_synergy": "تساعد مادة البوليفينول المضادة للأكسدة مثل حمض الروزمارينيك على تخفيف متلازمة الأمعاء المتسربة (LGS) عن طريق قمع السيتوكينات الالتهابية في الغشاء المخاطي المعوي.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-09",
@@ -3750,7 +3965,8 @@
       ],
       "sasang_relation": "الموصى بها لتايومين وسويومينين",
       "wellness_tip": "يساعد مزيج التورين الوفير الموجود في الحبار والإنزيم الهضمي (الأميلاز) الموجود في الفجل على الدورة الدموية في الجسم بالكامل وعلى هضم التايومين، الذي يعاني من ضعف وظيفة القلب والرئة ويكون عرضة لبطء عملية الهضم.",
-      "bio_synergy": "يتم تقسيم بروتين الحبار القابل للذوبان في الماء إلى ببتيدات نشطة طبيعية أثناء عملية استقلاب بكتيريا حمض اللاكتيك، مما يؤدي إلى تأثير تآزري في استقرار ضغط الدم وحماية جدران الأوعية الدموية."
+      "bio_synergy": "يتم تقسيم بروتين الحبار القابل للذوبان في الماء إلى ببتيدات نشطة طبيعية أثناء عملية استقلاب بكتيريا حمض اللاكتيك، مما يؤدي إلى تأثير تآزري في استقرار ضغط الدم وحماية جدران الأوعية الدموية.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-10",
@@ -3767,7 +3983,8 @@
       ],
       "sasang_relation": "منشط لسويومين وتايومين",
       "wellness_tip": "لحم الدراج الخفيف، الذي يحتوي على نسبة عالية جدًا من طاقة اليانغ ومنخفض الدهون، يحارب السم في أسفل بطن السومين، ويملأ الطاقة، وينظم رطوبة الجسم.",
-      "bio_synergy": "يجتمع الكولاجين الحيواني قليل الدسم وبكتيريا حمض اللاكتيك المتخمرة Lactobacillus للمساعدة في إصلاح الخلايا الظهارية المعوية (الوصلات الضيقة) والمساعدة في تخليق الجلوبيولين المناعي."
+      "bio_synergy": "يجتمع الكولاجين الحيواني قليل الدسم وبكتيريا حمض اللاكتيك المتخمرة Lactobacillus للمساعدة في إصلاح الخلايا الظهارية المعوية (الوصلات الضيقة) والمساعدة في تخليق الجلوبيولين المناعي.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-11",
@@ -3784,7 +4001,8 @@
       ],
       "sasang_relation": "موصى به لشعب سويانج وشعب تاييوم",
       "wellness_tip": "إن التأثير القوي المدر للبول للقرع المسن يتحكم في الوذمة وإرهاق الكلى في سويانغين، كما تساعد أسماك الأنشوجة المملحة الدافئة على تخفيف برودة تايومين.",
-      "bio_synergy": "يتحد عنصر الكاروتينويد في اليقطين مع إفرازات بكتيريا حمض اللاكتيك المفيدة لتحفيز تصنيع فيتامين أ في الغشاء المخاطي للأمعاء الدقيقة وتحسين المناعة المضادة للسرطان."
+      "bio_synergy": "يتحد عنصر الكاروتينويد في اليقطين مع إفرازات بكتيريا حمض اللاكتيك المفيدة لتحفيز تصنيع فيتامين أ في الغشاء المخاطي للأمعاء الدقيقة وتحسين المناعة المضادة للسرطان.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-12",
@@ -3801,7 +4019,8 @@
       ],
       "sasang_relation": "مفيدة جدا لشعب Soeumin",
       "wellness_tip": "يساهم المذاق الدافئ والحامض والحار الفريد للثوم المعمر البري بشكل جيد للغاية في تعزيز درجة حرارة الجسم لدى شعب الصوم، الذين يعانون من ضعف القدرة الهضمية، وضعف الدورة الدموية، وبرودة الأيدي والأقدام المتكررة.",
-      "bio_synergy": "يعمل عنصر الأليسين الحار الموجود في الثوم المعمر البري على قمع البكتيريا الضارة المسببة للغازات في الأمعاء، والتحكم في انتفاخ البطن ومساعدة نمو البكتيريا المعوية المفيدة."
+      "bio_synergy": "يعمل عنصر الأليسين الحار الموجود في الثوم المعمر البري على قمع البكتيريا الضارة المسببة للغازات في الأمعاء، والتحكم في انتفاخ البطن ومساعدة نمو البكتيريا المعوية المفيدة.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-13",
@@ -3818,7 +4037,8 @@
       ],
       "sasang_relation": "موصى به لشعب سويانج وشعب تاييوم",
       "wellness_tip": "الطعم المر للزبدة يخفف النار المتراكمة في صدر سويانجين ويهدئ سعال تيومين الناجم عن جفاف الغشاء المخاطي للرئة.",
-      "bio_synergy": "تعتبر مركبات البوليفينول المضادة للأكسدة وبكتيريا حمض اللاكتيك المخمرة في الزبدة ممتازة للسيطرة على متلازمة القولون العصبي عن طريق قمع النشاط الالتهابي للخلايا المعوية."
+      "bio_synergy": "تعتبر مركبات البوليفينول المضادة للأكسدة وبكتيريا حمض اللاكتيك المخمرة في الزبدة ممتازة للسيطرة على متلازمة القولون العصبي عن طريق قمع النشاط الالتهابي للخلايا المعوية.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-14",
@@ -3835,7 +4055,8 @@
       ],
       "sasang_relation": "أفضل دواء لشعب السومين",
       "wellness_tip": "إن التأثير القوي للثوم الأخضر في تدفئة المعدة يعزز إفراز العصارات الهضمية ويقوي طاقة الأشخاص الذين يعانون من آلام المعدة وعسر الهضم.",
-      "bio_synergy": "يعمل عنصر الكبريت الطبيعي الغني بمثابة البريبايوتك ويحسن المناعة عن طريق زيادة إفراز حمض اللاكتيك من البكتيريا المفيدة التي تعيش في الأمعاء الغليظة."
+      "bio_synergy": "يعمل عنصر الكبريت الطبيعي الغني بمثابة البريبايوتك ويحسن المناعة عن طريق زيادة إفراز حمض اللاكتيك من البكتيريا المفيدة التي تعيش في الأمعاء الغليظة.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-15",
@@ -3852,7 +4073,8 @@
       ],
       "sasang_relation": "موصى به للغاية للمتطورين",
       "wellness_tip": "يساعد مزيج الباذنجان البارد جدًا والروبيان المملح البارد على التحكم في الحرارة الداخلية لدى سكان سويانغ الذين يشكون من ضيق الصدر أو العطش مع ارتفاع الحرارة إلى الجزء العلوي من الجسم في الصيف.",
-      "bio_synergy": "يعمل عنصر النسنين في الباذنجان بشكل تآزري مع بكتيريا حمض اللاكتيك التي تخمر حمض اللاكتيك للقضاء على الإجهاد التأكسدي داخل الأوعية الدموية وتحسين اضطرابات تدفق الدم."
+      "bio_synergy": "يعمل عنصر النسنين في الباذنجان بشكل تآزري مع بكتيريا حمض اللاكتيك التي تخمر حمض اللاكتيك للقضاء على الإجهاد التأكسدي داخل الأوعية الدموية وتحسين اضطرابات تدفق الدم.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-16",
@@ -3869,7 +4091,8 @@
       ],
       "sasang_relation": "ممتاز لشعب سويانج وشعب تاييوم",
       "wellness_tip": "الطبيعة الباردة والهادئة لبخاخ البحر تقلل من مقاومة سويانجين للحرارة، مما يمنع الصداع وجفاف العيون، ويساعد التورين الغني في تخفيف إرهاق كبد تايومين.",
-      "bio_synergy": "تتحد مكونات التوراين والفاناديوم الفريدة من نوعها في Sea Squirt مع المواد النشطة بيولوجيًا لبكتيريا حمض اللاكتيك لتثبيت نسبة السكر في الدم وتحسين حساسية الأنسولين."
+      "bio_synergy": "تتحد مكونات التوراين والفاناديوم الفريدة من نوعها في Sea Squirt مع المواد النشطة بيولوجيًا لبكتيريا حمض اللاكتيك لتثبيت نسبة السكر في الدم وتحسين حساسية الأنسولين.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-17",
@@ -3886,7 +4109,8 @@
       ],
       "sasang_relation": "ممتاز لشعب Soeumin وTaeeum",
       "wellness_tip": "مزيج فيتامينات ب الغنية الموجودة في بطارخ البلوق وتوابل الفجل الدافئ يدفئ المعدة ويساعد على التعافي من التعب لدى الأشخاص الذين يعانون من برودة الجسم وانخفاض كفاءة الجهاز الهضمي.",
-      "bio_synergy": "يتم تخمير البروتينات بالكامل ونضجها إلى أحماض أمينية، مما يؤدي إلى امتصاص العناصر الغذائية بشكل سلس في الجهاز الهضمي وزيادة مناعة النباتات المخاطية المعوية."
+      "bio_synergy": "يتم تخمير البروتينات بالكامل ونضجها إلى أحماض أمينية، مما يؤدي إلى امتصاص العناصر الغذائية بشكل سلس في الجهاز الهضمي وزيادة مناعة النباتات المخاطية المعوية.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-18",
@@ -3903,7 +4127,8 @@
       ],
       "sasang_relation": "متوافق مع جميع الدساتير (مسطحة)",
       "wellness_tip": "إنه الكيمتشي الصحي الأكثر أمانًا للأشخاص الذين يعانون من ضعف المعدة والذين لا يستطيعون تناول الكيمتشي الحار بسبب التهاب المعدة أو التهاب المريء الارتجاعي، لأنه يستبعد التحفيز المفرط لمسحوق الفلفل الأحمر ويتم غرسه بحمض الجلوتاميك الغني الموجود في لحم صدر البقر.",
-      "bio_synergy": "تساعد الأحماض الأمينية الموجودة في المرق على التكاثر الشامل لليوكونوستوك، وهو سلالة تنتج حمض اللاكتيك، وتقوي ارتباط البروتين في الخلايا العازلة."
+      "bio_synergy": "تساعد الأحماض الأمينية الموجودة في المرق على التكاثر الشامل لليوكونوستوك، وهو سلالة تنتج حمض اللاكتيك، وتقوي ارتباط البروتين في الخلايا العازلة.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-19",
@@ -3920,7 +4145,8 @@
       ],
       "sasang_relation": "موصى به لشعب سويانج وشعب تاييوم",
       "wellness_tip": "تعمل الخصائص الصوتية الرائعة للكمثرى والفجل على تبريد حرارة الشعب الهوائية في سويانج-إن وتايوم-إن، وإزالة البلغم من الصدر، وخفض الطاقة بلطف.",
-      "bio_synergy": "تندمج خصائص الفجل الغنية بالإيزوثيوسيانات المضادة للسرطان مع المواد التي تفرزها بكتيريا حمض اللاكتيك للمساعدة في تنقية المواد السامة في الخلايا المعوية."
+      "bio_synergy": "تندمج خصائص الفجل الغنية بالإيزوثيوسيانات المضادة للسرطان مع المواد التي تفرزها بكتيريا حمض اللاكتيك للمساعدة في تنقية المواد السامة في الخلايا المعوية.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-20",
@@ -3937,7 +4163,8 @@
       ],
       "sasang_relation": "ممتاز لتايومين وسويانجين",
       "wellness_tip": "حجمه الصغير يزيد من مساحة التلامس مع الإنزيمات الهضمية اللعابية ويعزز حركة المعدة لدى التايومين والسويانغين، المعرضين للانتفاخ بسبب انخفاض وظيفة الأنف المعدي.",
-      "bio_synergy": "يعمل نشاط إنزيم الأميليز بالتآزر مع حمض اللاكتيك المخمر لتقصير وقت هضم الكربوهيدرات والمساهمة في استقرار نسبة السكر في الدم."
+      "bio_synergy": "يعمل نشاط إنزيم الأميليز بالتآزر مع حمض اللاكتيك المخمر لتقصير وقت هضم الكربوهيدرات والمساهمة في استقرار نسبة السكر في الدم.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-21",
@@ -3954,7 +4181,8 @@
       ],
       "sasang_relation": "الأفضل للصغار وكبار السن",
       "wellness_tip": "عندما تنخفض طاقة اليانغ في المعدة والأمعاء بشكل كبير، فإن تناول الخضار النيئة (الفجل) يمنع التعرق لدى الأشخاص الذين يعانون من الغازات والمعدة الباردة، ويساعد على تكسير النشا الناعم.",
-      "bio_synergy": "من خلال المعالجة الحرارية، يتم تليين روابط البكتين القوية في الفجل مسبقًا، مما يمنع تهيج الجهاز الهضمي ويساعد على الامتصاص السلس لبكتيريا حمض اللاكتيك المفيدة في الأمعاء الغليظة."
+      "bio_synergy": "من خلال المعالجة الحرارية، يتم تليين روابط البكتين القوية في الفجل مسبقًا، مما يمنع تهيج الجهاز الهضمي ويساعد على الامتصاص السلس لبكتيريا حمض اللاكتيك المفيدة في الأمعاء الغليظة.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-22",
@@ -3971,7 +4199,8 @@
       ],
       "sasang_relation": "مغذية لتايومين وسويومين",
       "wellness_tip": "تشكل طاقة الفجل المنعشة والباردة سائلاً مرطباً في رئتي التايومين، مما يمنع السعال الجاف أثناء التغيرات الموسمية ويعزز تصريف الفضلات من الجسم.",
-      "bio_synergy": "تعمل ألياف الخلايا النباتية المعقدة غير القابلة للذوبان من الملفوف الصيني والفجل على تحفيز تمعج غشاء القولون وتمنع سلالات Firmicutes المعوية التي تسبب السمنة."
+      "bio_synergy": "تعمل ألياف الخلايا النباتية المعقدة غير القابلة للذوبان من الملفوف الصيني والفجل على تحفيز تمعج غشاء القولون وتمنع سلالات Firmicutes المعوية التي تسبب السمنة.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-23",
@@ -3988,7 +4217,8 @@
       ],
       "sasang_relation": "مغذي لسومين وتايومين",
       "wellness_tip": "تعمل رائحة الخردل الفريدة والطاقة الحارة لللفت على تدفئة جدران Soeum-in الباردة، كما يساعد محتوى الكالسيوم الموجود في Bandaengi Taeum-in الذي لديه عظام سميكة ولكنه يميل إلى أن يكون لديه مفاصل ضعيفة.",
-      "bio_synergy": "يتحد مكون الكبريت الإيزوثيوسيانات الموجود في اللفت وببتيد الباندانجي مع بكتيريا حمض اللاكتيك المتخمرة لزيادة كفاءة عملية التمثيل الغذائي لإزالة السموم من الكبد (المرحلة الثانية) بشكل كبير."
+      "bio_synergy": "يتحد مكون الكبريت الإيزوثيوسيانات الموجود في اللفت وببتيد الباندانجي مع بكتيريا حمض اللاكتيك المتخمرة لزيادة كفاءة عملية التمثيل الغذائي لإزالة السموم من الكبد (المرحلة الثانية) بشكل كبير.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-24",
@@ -4005,7 +4235,8 @@
       ],
       "sasang_relation": "مثالي لتايومين",
       "wellness_tip": "تعمل خصائص ديوديوك الرائعة والمرطبة على تقوية مناعة تايومين، الذي يكون عرضة للسعال والبلغم والربو القصبي بسبب جفاف الرئتين باستمرار.",
-      "bio_synergy": "تعمل مكونات الإينولين والسابونين الغنية في الديوديوك على تحفيز نشاط الخلايا المناعية في الجهاز الهضمي بشكل مباشر، مما يحسن بشكل كبير نشاط خلايا الدم البيضاء في الدم."
+      "bio_synergy": "تعمل مكونات الإينولين والسابونين الغنية في الديوديوك على تحفيز نشاط الخلايا المناعية في الجهاز الهضمي بشكل مباشر، مما يحسن بشكل كبير نشاط خلايا الدم البيضاء في الدم.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-25",
@@ -4022,7 +4253,8 @@
       ],
       "sasang_relation": "مثالي تمامًا للأشخاص ذوي مستويات الضوضاء المنخفضة",
       "wellness_tip": "طبيعة الجينسنغ (الجينسنغ الطازج)، قمة الصحة، باردة في أعماق الجسم، لذلك فهو مفيد للغاية في تقوية درجة حرارة الجسم وتحسين المناعة لدى أشخاص الصوم الذين يعانون من بطء الهضم والتعب الشديد.",
-      "bio_synergy": "يدمج مكون السابونين (جينسينوسيد) الموجود في الجينسنغ الطازج أثناء تخمير حمض اللاكتيك، مما يحسن النفاذية داخل الخلايا الميكروبية ويزيد بشكل كبير من سرعة تدفق المواد الفعالة عبر القناة المعوية."
+      "bio_synergy": "يدمج مكون السابونين (جينسينوسيد) الموجود في الجينسنغ الطازج أثناء تخمير حمض اللاكتيك، مما يحسن النفاذية داخل الخلايا الميكروبية ويزيد بشكل كبير من سرعة تدفق المواد الفعالة عبر القناة المعوية.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-26",
@@ -4039,7 +4271,8 @@
       ],
       "sasang_relation": "حيوية لسومين وتايومين",
       "wellness_tip": "تعمل أوراق الفلفل الأحمر الحار والفجل المجفف على دعم الجزء السفلي البارد من بطن Soeum-in، وتعزز حيوية Taeeum-in الذي يميل إلى فقدان الطاقة عن طريق تحفيز شهيته.",
-      "bio_synergy": "فهو غني بالكلوروفيل وفيتامين C، ويدعم إنتاج خلايا البكتيريا المفيدة المخمرة داخل الأمعاء الغليظة ويحفز آلية مضادات الأكسدة التي تمنع الجذور الحرة الضارة."
+      "bio_synergy": "فهو غني بالكلوروفيل وفيتامين C، ويدعم إنتاج خلايا البكتيريا المفيدة المخمرة داخل الأمعاء الغليظة ويحفز آلية مضادات الأكسدة التي تمنع الجذور الحرة الضارة.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-27",
@@ -4056,7 +4289,8 @@
       ],
       "sasang_relation": "دواء ممتاز لشعب الصويا",
       "wellness_tip": "تعمل خصائص البقدونس المنعشة والمبردة وتأثيرها القوي في إزالة السموم على تنقية دماء شعب الصويا المعرضين للحرارة الزائدة في الجسم والكبد وتساعدهم على التعافي من التعب.",
-      "bio_synergy": "يقوم فلافونويد كيرسيتين الموجود في البقدونس المائي بتنسيق المستقبلات المناعية في حاجز القولون، مما يخفف من التهاب القولون ويحفز التآزر في إصلاح الغشاء المخاطي في الأمعاء."
+      "bio_synergy": "يقوم فلافونويد كيرسيتين الموجود في البقدونس المائي بتنسيق المستقبلات المناعية في حاجز القولون، مما يخفف من التهاب القولون ويحفز التآزر في إصلاح الغشاء المخاطي في الأمعاء.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-28",
@@ -4073,7 +4307,8 @@
       ],
       "sasang_relation": "أوصى دون قيد أو شرط لجميع الناس",
       "wellness_tip": "إنه أفضل دواء عشبي صحي يدفئ الجزء السفلي من البطن لدى الأشخاص الذين يعانون من نقص شديد في طاقة اليانغ، ولديهم برودة في اليدين والقدمين وأسفل البطن، وهم عرضة لبرودة الرحم أو العلاج البارد.",
-      "bio_synergy": "يحتوي مكون كبريتيد الأريل الطبيعي الموجود في الثوم المعمر على تأثير قوي مضاد للجراثيم ويشكل درعًا يمنع فرط نمو الإشريكية القولونية، وهي بكتيريا ضارة متعفنة، في الأمعاء الغليظة."
+      "bio_synergy": "يحتوي مكون كبريتيد الأريل الطبيعي الموجود في الثوم المعمر على تأثير قوي مضاد للجراثيم ويشكل درعًا يمنع فرط نمو الإشريكية القولونية، وهي بكتيريا ضارة متعفنة، في الأمعاء الغليظة.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-29",
@@ -4090,7 +4325,8 @@
       ],
       "sasang_relation": "ممتاز لتايومين وسويانجين",
       "wellness_tip": "يساعد على إدرار البول والتحكم في ضغط الدم لدى الأشخاص الذين يعانون من ضعف وظائف الكلى ويعانون من بطء استقلاب الماء في الجزء السفلي من الجسم والوذمة المتكررة، وأشخاص التايومين الذين يعانون من ضخامة الحجم ولكن الدورة الدموية لديهم بطيئة.",
-      "bio_synergy": "يؤدي الإينولين الفريد وألياف البريبايوتيك الموجودة في الأرقطيون إلى النمو الهائل لبكتيريا Lactobacillus، وهي بكتيريا مقيمة مفيدة في الأمعاء الغليظة."
+      "bio_synergy": "يؤدي الإينولين الفريد وألياف البريبايوتيك الموجودة في الأرقطيون إلى النمو الهائل لبكتيريا Lactobacillus، وهي بكتيريا مقيمة مفيدة في الأمعاء الغليظة.",
+      "ko_category": "별미김치"
     },
     {
       "id": "kimchi-30",
@@ -4107,7 +4343,8 @@
       ],
       "sasang_relation": "مفيد لشعب Soeumin وTaeeum",
       "wellness_tip": "تساعد الخصائص الحارة للثوم المعمر البري في جيجو على الدورة الدموية الطرفية للسومين وتوقظ الطاقة الغارقة في التايومين، مما يمنع أعراض ضيق الصدر أو البرودة.",
-      "bio_synergy": "تعمل مركبات الكبريت الشبيهة بالأليسين على تقليل مؤشرات الالتهاب المعوي القولوني وتعزيز حيوية الجسم بالكامل من خلال استقلاب بكتيريا حمض اللاكتيك."
+      "bio_synergy": "تعمل مركبات الكبريت الشبيهة بالأليسين على تقليل مؤشرات الالتهاب المعوي القولوني وتعزيز حيوية الجسم بالكامل من خلال استقلاب بكتيريا حمض اللاكتيك.",
+      "ko_category": "별미김치"
     },
     {
       "id": "trad-03-3",
@@ -4124,7 +4361,8 @@
       ],
       "sasang_relation": "ممتاز لتايومين وسويانجين",
       "wellness_tip": "تعمل قوة البقاء القوية لبكتيريا حمض اللاكتيك المشتقة من النباتات على تنقية السموم المعوية لتايومين، الذي لديه الكثير من الحرارة الهضمية وعرضة للبلغم، ويخفف الهبات الساخنة في معدة سويانجين.",
-      "bio_synergy": "من خلال إنتاج كميات كبيرة من حمض اللاكتيك وحمض الأسيتيك في الأمعاء الغليظة، فإنه يحمي جدار الأمعاء بشكل وثيق ويمنع بشكل مباشر اختراق مسببات الأمراض الضارة الإشريكية القولونية."
+      "bio_synergy": "من خلال إنتاج كميات كبيرة من حمض اللاكتيك وحمض الأسيتيك في الأمعاء الغليظة، فإنه يحمي جدار الأمعاء بشكل وثيق ويمنع بشكل مباشر اختراق مسببات الأمراض الضارة الإشريكية القولونية.",
+      "ko_category": "발효미생물"
     },
     {
       "id": "trad-03-4",
@@ -4141,7 +4379,8 @@
       ],
       "sasang_relation": "مفيدة جدا لشعب Soeumin",
       "wellness_tip": "يقوي الاستجابة المناعية للقولون ويحافظ على دفء المعدة لدى الأشخاص الذين يعانون من الانتفاخ المزمن والإسهال/الإمساك المتكرر بسبب انخفاض حيوية الجهاز الهضمي.",
-      "bio_synergy": "وهو يلتصق بقوة بالخلايا الظهارية المخاطية في الأمعاء، وينشط إفراز الغلوبولين المناعي A (IgA) ويمنع الأمراض المعوية الفيروسية."
+      "bio_synergy": "وهو يلتصق بقوة بالخلايا الظهارية المخاطية في الأمعاء، وينشط إفراز الغلوبولين المناعي A (IgA) ويمنع الأمراض المعوية الفيروسية.",
+      "ko_category": "발효미생물"
     },
     {
       "id": "trad-03-5",
@@ -4158,7 +4397,8 @@
       ],
       "sasang_relation": "موصى به لتايومين وسويانجين",
       "wellness_tip": "ومن خلال تحطيم مستقلبات الأمينات السامة التي يمكن أن تحدث عند تناول الأطعمة المالحة مثل الأسماك المملحة أو معجون فول الصويا، فإنه يساعد تايومين، المعرض للتورم، وسويانغين، الذي لديه مقاومة للحرارة.",
-      "bio_synergy": "وهو يعمل كدرع طبيعي مضاد للجراثيم يقتل بكتيريا التسمم الغذائي مثل الليستيريا والمكورات العنقودية الذهبية التي تتكاثر في درجات الحرارة المنخفضة وظروف الملح العالية عن طريق ثقب الغشاء."
+      "bio_synergy": "وهو يعمل كدرع طبيعي مضاد للجراثيم يقتل بكتيريا التسمم الغذائي مثل الليستيريا والمكورات العنقودية الذهبية التي تتكاثر في درجات الحرارة المنخفضة وظروف الملح العالية عن طريق ثقب الغشاء.",
+      "ko_category": "발효미생물"
     },
     {
       "id": "trad-03-6",
@@ -4175,7 +4415,8 @@
       ],
       "sasang_relation": "الأكثر فعالية لتايومين",
       "wellness_tip": "يساهم بشكل كبير في قمع تراكم الدهون الحشوية لدى التايومين، المعرضين للإصابة بمتلازمة التمثيل الغذائي مثل السمنة الجهازية وارتفاع ضغط الدم والسكري بسبب انخفاض كفاءة التمثيل الغذائي للكربوهيدرات.",
-      "bio_synergy": "فهو يمنع امتصاص الأحماض الدهنية ويحفز إفرازها من خلال البراز، وبالتالي يحفز بقوة مسار قمع الدهون البيضاء في البكتيريا المعوية."
+      "bio_synergy": "فهو يمنع امتصاص الأحماض الدهنية ويحفز إفرازها من خلال البراز، وبالتالي يحفز بقوة مسار قمع الدهون البيضاء في البكتيريا المعوية.",
+      "ko_category": "발효미생물"
     },
     {
       "id": "setting-01",
@@ -4192,7 +4433,8 @@
       ],
       "sasang_relation": "مناسب لجميع أنواع الجسم (مسطح)",
       "wellness_tip": "يتكون بشكل أساسي من الخضار والأسماك قليلة الدهون وغنية بالألياف الغذائية، مما يساعد على الهضم بشكل مريح للأشخاص الذين يعانون من بطء المعدة إلى أولئك الذين يعانون من ارتفاع في درجة الحرارة.",
-      "bio_synergy": "يتحد معجون فول الصويا المخمر (معجون فول الصويا) وبكتيريا حمض اللاكتيك الكيمتشي مع كميات ضئيلة من الألياف الغذائية النباتية لتوفير أساس لتحفيز إنتاج الأحماض الدهنية قصيرة السلسلة (SCFA) في الغشاء المخاطي للقولون."
+      "bio_synergy": "يتحد معجون فول الصويا المخمر (معجون فول الصويا) وبكتيريا حمض اللاكتيك الكيمتشي مع كميات ضئيلة من الألياف الغذائية النباتية لتوفير أساس لتحفيز إنتاج الأحماض الدهنية قصيرة السلسلة (SCFA) في الغشاء المخاطي للقولون.",
+      "ko_category": "전통음식 상차림"
     },
     {
       "id": "setting-02",
@@ -4209,7 +4451,8 @@
       ],
       "sasang_relation": "الموصى بها لتايومين وسويومينين",
       "wellness_tip": "يتم خلط الأنشوجة الغنية بالكالسيوم والبيض الغني بالبروتين وحساء الفجل الغني بالألياف الغذائية بالتساوي لدعم تيومين، الذي تكون عظامه وأوعيته الدموية عرضة للضعف، وسومين، الذي يعاني من برودة المعدة.",
-      "bio_synergy": "يتم خلط البروتين الحيواني والألياف الغذائية النباتية بشكل مثالي في نسبة العناصر الغذائية الخمسة الرئيسية لزيادة عملية الهضم والامتصاص في الأمعاء الدقيقة ومنع إفراز الأنسولين السريع غير الضروري."
+      "bio_synergy": "يتم خلط البروتين الحيواني والألياف الغذائية النباتية بشكل مثالي في نسبة العناصر الغذائية الخمسة الرئيسية لزيادة عملية الهضم والامتصاص في الأمعاء الدقيقة ومنع إفراز الأنسولين السريع غير الضروري.",
+      "ko_category": "전통음식 상차림"
     },
     {
       "id": "setting-03",
@@ -4226,7 +4469,8 @@
       ],
       "sasang_relation": "حيوية لشعب سويانغ وشعب تاييوم",
       "wellness_tip": "تعمل الأحماض الأمينية الغنية الموجودة في أضلاع اللحم البقري المطهوة ببطء على تجديد وظيفة الرئة وقوة عضلات تايومين، كما يعمل دونجتشيمي المنعش على تبريد حمى سويانجين، الذي يميل إلى السخونة في الجزء العلوي من الجسم.",
-      "bio_synergy": "مزيج من اللحوم الباردة العشبية والعجي المطهو ​​ببطء ينشط عملية التمثيل الغذائي في الأمعاء ويمنع التفاعل التأكسدي الالتهابي الذي تسببه الأحماض الدهنية المشبعة في اللحوم على الغشاء المخاطي في الأمعاء."
+      "bio_synergy": "مزيج من اللحوم الباردة العشبية والعجي المطهو ​​ببطء ينشط عملية التمثيل الغذائي في الأمعاء ويمنع التفاعل التأكسدي الالتهابي الذي تسببه الأحماض الدهنية المشبعة في اللحوم على الغشاء المخاطي في الأمعاء.",
+      "ko_category": "전통음식 상차림"
     },
     {
       "id": "setting-04",
@@ -4243,7 +4487,8 @@
       ],
       "sasang_relation": "الرعاية الصحية المثلى لشعب الصوم وشعب التايوم",
       "wellness_tip": "يعمل الأرز الدافئ ذو الخمس حبات وحساء اللحم البقري وطاقة النيوبياني على تعزيز طاقة Soeum-in بسرعة، ويساعد التوراين من الأخطبوط وأذن البحر Taeeum-in على إزالة السموم من الكبد.",
-      "bio_synergy": "المزيج المتوازن من المأكولات البحرية الوفيرة (الأخطبوط، أذن البحر) والبروتينات عالية الجودة (يوكو، نيوبياني) يساعد على استيعاب الجسم ويقوي مرونة جدران الأوعية الدموية."
+      "bio_synergy": "المزيج المتوازن من المأكولات البحرية الوفيرة (الأخطبوط، أذن البحر) والبروتينات عالية الجودة (يوكو، نيوبياني) يساعد على استيعاب الجسم ويقوي مرونة جدران الأوعية الدموية.",
+      "ko_category": "전통음식 상차림"
     },
     {
       "id": "setting-05",
@@ -4260,7 +4505,8 @@
       ],
       "sasang_relation": "تعزيز الطاقة الأفضل لجميع الدساتير",
       "wellness_tip": "يتم تنسيق طاقات حساء الفاصوليا الحمراء، وحساء الأعشاب البحرية، ودواء الديوديوك الوهمي، وإبر الصنوبر المشوية للمساعدة في توزيع الطاقة والدم في جميع أنحاء الجسم بأكمله، مما يحافظ بشكل مثالي على توازن الين واليانغ في الجسم.",
-      "bio_synergy": "إن الاندماج المثالي لمعجون فول الصويا (توجانججوتشي)، والكالسيوم البحري (جولبي)، والكبريت الغذائي الطبيعي (ديوديوك، سونجي) يزيد من توازن الكائنات الحية الدقيقة المعوية ويزيل العوامل التي تسبب التعب المزمن."
+      "bio_synergy": "إن الاندماج المثالي لمعجون فول الصويا (توجانججوتشي)، والكالسيوم البحري (جولبي)، والكبريت الغذائي الطبيعي (ديوديوك، سونجي) يزيد من توازن الكائنات الحية الدقيقة المعوية ويزيل العوامل التي تسبب التعب المزمن.",
+      "ko_category": "전통음식 상차림"
     },
     {
       "id": "setting-06",
@@ -4277,7 +4523,8 @@
       ],
       "sasang_relation": "مفيد لتايومين وسويانغين",
       "wellness_tip": "إن الجمع بين مكونات إزالة السموم الموجودة في البقدونس المائي والبروتين قليل الدسم الموجود في خضروات الأسماك يمنع حدوث مخلفات في تايومين، الذي تكون وظائف الكبد فيه عرضة للركود، وفي سويانجين، حيث يتطور تحلل الكحول بسرعة بسبب الحرارة الزائدة في المعدة.",
-      "bio_synergy": "تعمل الأحماض الأمينية الأساسية الموجودة في الأسماك الغنية بالتوراين والأسماك النيئة الطازجة على تعزيز نشاط الإنزيمات المحللة للكحول (ADH/ALDH) في الجسم بنحو مرتين."
+      "bio_synergy": "تعمل الأحماض الأمينية الأساسية الموجودة في الأسماك الغنية بالتوراين والأسماك النيئة الطازجة على تعزيز نشاط الإنزيمات المحللة للكحول (ADH/ALDH) في الجسم بنحو مرتين.",
+      "ko_category": "전통음식 상차림"
     },
     {
       "id": "setting-07",
@@ -4294,7 +4541,8 @@
       ],
       "sasang_relation": "ممتاز لشعب Soeumin-in وSoyang-in",
       "wellness_tip": "يحمي شاي الزنجبيل الدافئ والحار الأشخاص من قبيلة السومين الذين غالبًا ما يعانون من الإسهال بسبب برودة أسفل البطن، كما يساعد شاي السمسم الأسود/زهرة الأغاني على تنعيم وترطيب البشرة ووظائف الكلى لدى الأشخاص من قبيلة سويانغ الذين يعانون من جفاف الجلد.",
-      "bio_synergy": "يتم امتصاص مكون السمسم الليجنان الموجود في الداسيك ومكون الكاتشين الموجود في شاي الأعشاب الشرقي في جدران الأوعية الدموية، مما يدل على تأثير طبيعي قوي مضاد للالتهابات وتأثير تآزري في قمع تصلب الشرايين."
+      "bio_synergy": "يتم امتصاص مكون السمسم الليجنان الموجود في الداسيك ومكون الكاتشين الموجود في شاي الأعشاب الشرقي في جدران الأوعية الدموية، مما يدل على تأثير طبيعي قوي مضاد للالتهابات وتأثير تآزري في قمع تصلب الشرايين.",
+      "ko_category": "전통음식 상차림"
     },
     {
       "id": "setting-08",
@@ -4311,7 +4559,8 @@
       ],
       "sasang_relation": "حيوية لشعب سويانغ وشعب تاييوم",
       "wellness_tip": "الطبيعة الباردة للحنطة السوداء تقلل من مقاومة سويانجين للحرارة والصداع، كما أن مرق الدجاج ولحم الدراج عالي البروتين يساعد تايومين على إعادة شحن الطاقة بعد التعرق.",
-      "bio_synergy": "إن مكون الروتين الموجود في الحنطة السوداء والأحماض الأمينية الموجودة في مرق اللحم لهما تأثير تآزري، مما يزيد من مرونة الأوعية الدموية الدماغية ويثبت ضغط الدم."
+      "bio_synergy": "إن مكون الروتين الموجود في الحنطة السوداء والأحماض الأمينية الموجودة في مرق اللحم لهما تأثير تآزري، مما يزيد من مرونة الأوعية الدموية الدماغية ويثبت ضغط الدم.",
+      "ko_category": "전통음식 상차림"
     },
     {
       "id": "trad-06-4",
@@ -4328,7 +4577,8 @@
       ],
       "sasang_relation": "متوافق مع جميع الدساتير (مسطحة)",
       "wellness_tip": "وهو غني بالمعادن من الخضروات المختلفة والأحماض الأمينية من لحم البقر، لذلك فهو يعيد على الفور توازن الطاقة للجسم بأكمله، والذي يكون عرضة لانخفاض المناعة وفقدان الطاقة.",
-      "bio_synergy": "تعمل صبغة الغردينيا الموجودة في هلام هوانجبو والألياف غير القابلة للذوبان في خضروات البيبيمباب على منع نشاط الإنزيم الأيضي للبكتيريا القولونية الضارة وتحافظ على قوة الغشاء المخاطي للقولون."
+      "bio_synergy": "تعمل صبغة الغردينيا الموجودة في هلام هوانجبو والألياف غير القابلة للذوبان في خضروات البيبيمباب على منع نشاط الإنزيم الأيضي للبكتيريا القولونية الضارة وتحافظ على قوة الغشاء المخاطي للقولون.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-5",
@@ -4345,7 +4595,8 @@
       ],
       "sasang_relation": "المكملات الغذائية للسومين والتايومين",
       "wellness_tip": "يساعد مزيج الدجاج الدافئ والثوم والفلفل الأحمر المجفف على توفير الدفء للأشخاص الذين يعانون من برودة الأيدي والأقدام والذين يميلون إلى ركود تدفق الدم في المعدة، وللتيومين الذين يعانون من ضعف وظيفة الجهاز الهضمي.",
-      "bio_synergy": "تتفاعل البروتينات الأساسية عالية الجودة من الدجاج والنشا المقاوم من البطاطس مع توابل صلصة الصويا المخمرة لتأخير امتصاصها من قبل الغشاء المخاطي في الجهاز الهضمي، مما يمنع ارتفاع نسبة السكر في الدم."
+      "bio_synergy": "تتفاعل البروتينات الأساسية عالية الجودة من الدجاج والنشا المقاوم من البطاطس مع توابل صلصة الصويا المخمرة لتأخير امتصاصها من قبل الغشاء المخاطي في الجهاز الهضمي، مما يمنع ارتفاع نسبة السكر في الدم.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-6",
@@ -4362,7 +4613,8 @@
       ],
       "sasang_relation": "طعام مغذٍ لشعب سويانغ وشعب تاييوم",
       "wellness_tip": "يتمتع سمك الحبار، الذي يسهل هضمه وغني بالكالسيوم والأحماض الدهنية غير المشبعة، بالكثير من الحرارة الداخلية، لذا فهو يملأ تغذية شعب سويانغ الذين يجدون أطباق اللحوم مرهقة، وينقي ويقوي تدفق الأوعية الدموية لشعب تاييوم.",
-      "bio_synergy": "تتحد أوميغا 3 (EPA/DHA) من أسماك البحر مع إنزيم دياستاز الهضمي الطبيعي من الفجل لتحسين كفاءة استقلاب الدهون وتقليل عبء الهضم والامتصاص."
+      "bio_synergy": "تتحد أوميغا 3 (EPA/DHA) من أسماك البحر مع إنزيم دياستاز الهضمي الطبيعي من الفجل لتحسين كفاءة استقلاب الدهون وتقليل عبء الهضم والامتصاص.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-7",
@@ -4379,7 +4631,8 @@
       ],
       "sasang_relation": "مناسب لجميع الدساتير (منشط)",
       "wellness_tip": "تعتبر أمعاء أذن البحر المخصبة بالأحماض الأمينية والأرجينين فعالة في علاج البرودة وضعف المعدة في Soeum-in وتقوية الطاقة بعد استنفاد الحمى في Soeyang-in وTaeum-in.",
-      "bio_synergy": "يعمل عديد السكاريد الموجود في الأعشاب البحرية الطبيعية في الأمعاء على ترطيب خلايا الغشاء المخاطي للمعدة والقولون، مما يمنع أعراض ارتجاع الحمض ويزيد من التصاق البكتيريا المفيدة بالغشاء المخاطي."
+      "bio_synergy": "يعمل عديد السكاريد الموجود في الأعشاب البحرية الطبيعية في الأمعاء على ترطيب خلايا الغشاء المخاطي للمعدة والقولون، مما يمنع أعراض ارتجاع الحمض ويزيد من التصاق البكتيريا المفيدة بالغشاء المخاطي.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-8",
@@ -4396,7 +4649,8 @@
       ],
       "sasang_relation": "موصى به للغاية لشعب تيومين",
       "wellness_tip": "له تأثيرات ممتازة في تجديد الدم في بناء قوة العضلات ومنع فقر الدم لدى تايومين، الذي يمتلك عضلات قوية ولكنه يستهلك الكثير من البروتين ويكون عرضة لبطء تدفق التمثيل الغذائي.",
-      "bio_synergy": "يقوم إنزيم السوريمي الطبيعي (البروتياز) الموجود في عصير الكمثرى بتقسيم بروتينات اللحوم إلى ببتيدات، مما يزيد من امتصاص الأوعية الدموية ويخفف العبء الهضمي على المعدة."
+      "bio_synergy": "يقوم إنزيم السوريمي الطبيعي (البروتياز) الموجود في عصير الكمثرى بتقسيم بروتينات اللحوم إلى ببتيدات، مما يزيد من امتصاص الأوعية الدموية ويخفف العبء الهضمي على المعدة.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-9",
@@ -4413,7 +4667,8 @@
       ],
       "sasang_relation": "موصى به لتايومين وسويانجين",
       "wellness_tip": "يساعد مكون الشيتوزان الموجود في السرطانات الحجرية، والتي تتميز بلحمها الأكثر صلابة من السرطانات الزرقاء، على إفراز التيومين للكوليسترول والتحكم في الوزن، كما أن البرودة التي تقلل حرارة الجسم مناسبة لشعب الصويا.",
-      "bio_synergy": "يساعد وجود الأسيتيل جلوكوزامين بكثرة في قشر السلطعون على تكاثر بكتيريا البيفيدوس المفيدة في الأمعاء ويعزز تكوين المخاط في جدار الأمعاء، مما يمنع الالتهاب المعوي."
+      "bio_synergy": "يساعد وجود الأسيتيل جلوكوزامين بكثرة في قشر السلطعون على تكاثر بكتيريا البيفيدوس المفيدة في الأمعاء ويعزز تكوين المخاط في جدار الأمعاء، مما يمنع الالتهاب المعوي.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-10",
@@ -4430,7 +4685,8 @@
       ],
       "sasang_relation": "جيد جدًا للأشخاص الذين يعانون من الضوضاء",
       "wellness_tip": "تعمل الطبيعة الحارة لمعجون الدجاج والفلفل الأحمر على تحسين وظيفة الجهاز الهضمي بشكل كبير عن طريق تحفيز الدورة الدموية في جدار الأمعاء في سوم إن، الذي يكون الجزء السفلي من بطنه وجهازه الهضمي دائمًا باردًا وغازيًا.",
-      "bio_synergy": "يجتمع مكون السلفورافان الموجود في الملفوف والكركمين الموجود في الكاري لمنع نمو بكتيريا هيليكوباكتر بيلوري في الغشاء المخاطي للمعدة ويخلق تأثيرًا تآزريًا في تخفيف التهاب المعدة."
+      "bio_synergy": "يجتمع مكون السلفورافان الموجود في الملفوف والكركمين الموجود في الكاري لمنع نمو بكتيريا هيليكوباكتر بيلوري في الغشاء المخاطي للمعدة ويخلق تأثيرًا تآزريًا في تخفيف التهاب المعدة.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-11",
@@ -4447,7 +4703,8 @@
       ],
       "sasang_relation": "مكمل غذائي للسويانجين والتايومين",
       "wellness_tip": "إن خصائص لحم الخنزير الرائعة والغنية المعززة للرائحة تملأ جوهر شعب سويانغ، الذي تعاني من ركود طاقة الكلى وتميل سوائلها إلى الجفاف بسبب الحرارة الداخلية، وتعزز كفاءة التمثيل الغذائي.",
-      "bio_synergy": "البروتياز والليباز، إنزيمات قوية لتحليل البروتين في الجمبري المملح، تعمل على تكسير الدهون الغنية والبروتين في لحم الخنزير، مما يحسن سرعة الامتصاص المعوي."
+      "bio_synergy": "البروتياز والليباز، إنزيمات قوية لتحليل البروتين في الجمبري المملح، تعمل على تكسير الدهون الغنية والبروتين في لحم الخنزير، مما يحسن سرعة الامتصاص المعوي.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-12",
@@ -4464,7 +4721,8 @@
       ],
       "sasang_relation": "ممتاز لشعب سويانج وشعب تاييوم",
       "wellness_tip": "يساعد بروتين الصويا، الذي يتمتع بقابلية هضم عالية تزيد عن 95%، أفراد الصويانغ، المعرضين للإمساك بسبب ارتفاع حرارة الجسم، على حركات الأمعاء، ويحافظ على نظافة الأوعية الدموية لدى أشخاص تاييوم، الذين يعانون من ارتفاع نسبة الكوليسترول.",
-      "bio_synergy": "مزيج الايسوفلافون الصويا ومعادن المغنيسيوم العضوية في مياه البحر ينشط الخلايا العظمية ويتحكم في الشيخوخة التأكسدية المزمنة لجدار الأمعاء."
+      "bio_synergy": "مزيج الايسوفلافون الصويا ومعادن المغنيسيوم العضوية في مياه البحر ينشط الخلايا العظمية ويتحكم في الشيخوخة التأكسدية المزمنة لجدار الأمعاء.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-06-13",
@@ -4481,7 +4739,8 @@
       ],
       "sasang_relation": "الأفضل بالنسبة لتايومين",
       "wellness_tip": "وهو أفضل حساء مغذي بالبروتين ويدعم جوهر الغشاء المخاطي التنفسي للتايومين، الذي يعاني من ضعف الرئتين والشعب الهوائية ومعدل الأيض البطيء، ويساعد على زيادة الكتلة العضلية.",
-      "bio_synergy": "يتم استخدام التركيز العالي من الأحماض الأمينية (الجلوتامين، وما إلى ذلك) في لحم البقر مباشرة كمصدر للطاقة للخلايا المصلية القولونية، مما يخلق تأثيرًا تآزريًا يخفف من متلازمة الأمعاء المتسربة ويقوي المناعة."
+      "bio_synergy": "يتم استخدام التركيز العالي من الأحماض الأمينية (الجلوتامين، وما إلى ذلك) في لحم البقر مباشرة كمصدر للطاقة للخلايا المصلية القولونية، مما يخلق تأثيرًا تآزريًا يخفف من متلازمة الأمعاء المتسربة ويقوي المناعة.",
+      "ko_category": "전통향토음식"
     },
     {
       "id": "trad-08-4",
@@ -4498,7 +4757,8 @@
       ],
       "sasang_relation": "ديبويانغ لتايومين وسويومين",
       "wellness_tip": "إن التغذية القوية للحوم البقر تمنع التعب المزمن الذي يعاني منه تيومين وضعف العضلات، كما أن الملمس الناعم للغاية يساعد سومين، الذي يعاني من ضعف في المعدة ويعاني من سوء الهضم، على الشعور بالراحة.",
-      "bio_synergy": "تعمل طريقة الطهي بالتلامس السريع في درجات الحرارة المنخفضة على تحفيز تمسخ بروتينات اللحوم، مما يزيد من كفاءة توصيل الأحماض الأمينية الأساسية إلى خلايا الجسم ويمنع ركود الأوعية الدموية."
+      "bio_synergy": "تعمل طريقة الطهي بالتلامس السريع في درجات الحرارة المنخفضة على تحفيز تمسخ بروتينات اللحوم، مما يزيد من كفاءة توصيل الأحماض الأمينية الأساسية إلى خلايا الجسم ويمنع ركود الأوعية الدموية.",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-08-5",
@@ -4515,7 +4775,8 @@
       ],
       "sasang_relation": "حيوية لسومين وتايومين",
       "wellness_tip": "تعمل خفة الديبوري والسمك الحلو على تهدئة معدة سومين الضعيفة، كما تساعد مقبلات لحم الصدر البقري تيومين، الذي تنفد طاقته بسهولة، على التركيز.",
-      "bio_synergy": "يتم الجمع بين الشكل الجيلاتيني لنشا المعكرونة ومكون قليل الببتيد في مرق الأعشاب للحث على التمعج المعوي ومنع الإسهال العصبي المزمن."
+      "bio_synergy": "يتم الجمع بين الشكل الجيلاتيني لنشا المعكرونة ومكون قليل الببتيد في مرق الأعشاب للحث على التمعج المعوي ومنع الإسهال العصبي المزمن.",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-08-6",
@@ -4532,7 +4793,8 @@
       ],
       "sasang_relation": "ممتاز لتايومين وسويانجين",
       "wellness_tip": "سوريتشوي، وهو قوي جدًا بالألياف والكالسيوم، يفرز النفايات الحرارية الرطبة من أمعاء تيومين ويعزز قدرة الكلى على التمثيل الغذائي لسويانغين، والسيطرة على الوذمة.",
-      "bio_synergy": "تعمل مضادات الأكسدة النباتية الطبيعية الغنية في سوروتشوي على إبطاء الامتصاص السريع لسكر الدم من نشا الأرز اللزج وتحسين حساسية الأنسولين في الأمعاء."
+      "bio_synergy": "تعمل مضادات الأكسدة النباتية الطبيعية الغنية في سوروتشوي على إبطاء الامتصاص السريع لسكر الدم من نشا الأرز اللزج وتحسين حساسية الأنسولين في الأمعاء.",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-08-7",
@@ -4549,7 +4811,8 @@
       ],
       "sasang_relation": "حيوية لسومين وتايومين",
       "wellness_tip": "تعتبر الخصائص الدافئة والمدرة للبول للذرة الرفيعة والفاصوليا الحمراء مثالية لسويوم-إن وتايوم-إن الذين يميلون إلى المعاناة من خمول الجسم بالكامل بسبب برودة أسفل البطن وانخفاض التمثيل الغذائي.",
-      "bio_synergy": "تعمل مادة البوليفينول بروانثوسيانيدين الوفيرة الموجودة في الذرة الرفيعة على تحسين النشاط الوقائي للغشاء المخاطي للقولون بشكل كبير عن طريق تثبيط عمل إنزيمات الكربوهيدرات في العصارات الهضمية."
+      "bio_synergy": "تعمل مادة البوليفينول بروانثوسيانيدين الوفيرة الموجودة في الذرة الرفيعة على تحسين النشاط الوقائي للغشاء المخاطي للقولون بشكل كبير عن طريق تثبيط عمل إنزيمات الكربوهيدرات في العصارات الهضمية.",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-08-8",
@@ -4566,7 +4829,8 @@
       ],
       "sasang_relation": "دواء ممتاز لشعب سويانغ وشعب تاييوم",
       "wellness_tip": "إن تأثير إزالة السموم للفطر الحجري، وهو بسيط وواضح بطبيعته، يطفئ النار في صدور شعب سويانغ وينقي ويحمي نظام القلب والأوعية الدموية، بما في ذلك ارتفاع ضغط الدم، لشعب تاييوم.",
-      "bio_synergy": "يعمل مكون السكاريد الموجود في الفطر الحجري كغذاء للبكتيريا المفيدة الموجودة في الأمعاء الغليظة، مما يؤدي إلى تنشيط البلاعم المناعية بشكل غير مباشر وتحسين الدورة الدموية."
+      "bio_synergy": "يعمل مكون السكاريد الموجود في الفطر الحجري كغذاء للبكتيريا المفيدة الموجودة في الأمعاء الغليظة، مما يؤدي إلى تنشيط البلاعم المناعية بشكل غير مباشر وتحسين الدورة الدموية.",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-08-9",
@@ -4583,7 +4847,8 @@
       ],
       "sasang_relation": "التغذية الأفضل للأشخاص ذوي الإعاقة",
       "wellness_tip": "الطاقة الباردة لحم الخنزير تدعم بلطف جوهر شعب سويانغ، الذين لديهم كلى ضعيفة ويميلون إلى تركيز الحرارة الداخلية في الجزء العلوي من الجسم، ورائحة الخل والقرفة تزيل الرائحة تمامًا.",
-      "bio_synergy": "تتم إزالة الدهون المشبعة الزائدة أثناء عملية الضغط لتعظيم محتوى حمض الكولاجين الأميني وزيادة نشاط نقل الأحماض الأمينية في الأمعاء الدقيقة."
+      "bio_synergy": "تتم إزالة الدهون المشبعة الزائدة أثناء عملية الضغط لتعظيم محتوى حمض الكولاجين الأميني وزيادة نشاط نقل الأحماض الأمينية في الأمعاء الدقيقة.",
+      "ko_category": "종가음식"
     },
     {
       "id": "trad-12-2",
@@ -4600,7 +4865,8 @@
       ],
       "sasang_relation": "الأفضل لشعب Soeumin وTaeeum",
       "wellness_tip": "تتضافر الطبيعة الدافئة للحوم البقر والعسل والكابسيسين من معجون الفلفل الأحمر لتحفيز شهية الأشخاص الذين يعانون من برودة الجسم والمعدة البطيئة والقدرة الهضمية، وأشخاص الصوم الذين يعانون من ضعف الدورة الدموية من الناحية الدستورية.",
-      "bio_synergy": "تتفاعل الببتيدات البقرية ومعجون الفلفل الأحمر الذي يخمر بكتيريا حمض اللاكتيك لتحفيز نشاط الغلوبولين المناعي في الخلايا الظهارية المعوية."
+      "bio_synergy": "تتفاعل الببتيدات البقرية ومعجون الفلفل الأحمر الذي يخمر بكتيريا حمض اللاكتيك لتحفيز نشاط الغلوبولين المناعي في الخلايا الظهارية المعوية.",
+      "ko_category": "한식양념장"
     },
     {
       "id": "trad-12-3",
@@ -4617,7 +4883,8 @@
       ],
       "sasang_relation": "جيد جدًا للأشخاص الذين يعانون من الضوضاء",
       "wellness_tip": "الخصائص الفريدة الحارة والدافئة للثوم المعمر البري تحفز تدفق الأوعية الدموية الطرفية لدى شعب السومين، مما يوفر فعالية ممتازة في تخفيف برودة اليدين والقدمين.",
-      "bio_synergy": "تتحد مركبات الكبريت الطبيعية الموجودة في الثوم المعمر البري والأحماض الأمينية الموجودة في صلصة الصويا التقليدية لتعزيز نشاط إزالة السموم في المرحلة الأولى من استقلاب الكبد وتحسين عملية التمثيل الغذائي."
+      "bio_synergy": "تتحد مركبات الكبريت الطبيعية الموجودة في الثوم المعمر البري والأحماض الأمينية الموجودة في صلصة الصويا التقليدية لتعزيز نشاط إزالة السموم في المرحلة الأولى من استقلاب الكبد وتحسين عملية التمثيل الغذائي.",
+      "ko_category": "한식양념장"
     },
     {
       "id": "trad-12-4",
@@ -4634,7 +4901,8 @@
       ],
       "sasang_relation": "موصى به للأشخاص Soeumin و Taeeum",
       "wellness_tip": "يحفز مكون سينيجرين المنعش الموجود في الخردل جدار المعدة ويعزز إفراز حمض المعدة، وبالتالي يخفف من عسر الهضم في سيوم-إن ويساعد على وقف السعال في تيوم-إن.",
-      "bio_synergy": "تعمل المكونات النشطة المطهرة الطبيعية الموجودة في الخردل على تدمير الغشاء الميكروبي الممرض الموجود على جدار القولون، مما يمنع المغص الناتج عن البرودة في أسفل البطن."
+      "bio_synergy": "تعمل المكونات النشطة المطهرة الطبيعية الموجودة في الخردل على تدمير الغشاء الميكروبي الممرض الموجود على جدار القولون، مما يمنع المغص الناتج عن البرودة في أسفل البطن.",
+      "ko_category": "한식양념장"
     },
     {
       "id": "trad-12-5",
@@ -4651,7 +4919,8 @@
       ],
       "sasang_relation": "حيوية لشعب سويانغ وشعب تاييوم",
       "wellness_tip": "تساعد مكونات الشعير والجوز، الغنية بالألياف الغذائية، على الدورة الدموية في أمعاء سويانجين، كما أن مزيج معجون فول الصويا منخفض الصوديوم يحمي صحة الأوعية الدموية لتيومين، الذي يحتاج بشكل عاجل للسيطرة على ضغط الدم.",
-      "bio_synergy": "يعمل بيتا جلوكان، وهو ألياف قابلة للذوبان من الشعير، بمثابة ركيزة لبكتيريا التخمير المعوية ويزيد من تكاثر بكتيريا البيفيدوس المفيدة."
+      "bio_synergy": "يعمل بيتا جلوكان، وهو ألياف قابلة للذوبان من الشعير، بمثابة ركيزة لبكتيريا التخمير المعوية ويزيد من تكاثر بكتيريا البيفيدوس المفيدة.",
+      "ko_category": "한식양념장"
     },
     {
       "id": "trad-12-6",
@@ -4668,7 +4937,8 @@
       ],
       "sasang_relation": "مناسب لجميع أنواع الجسم (يحمي بطانة المعدة)",
       "wellness_tip": "يجتمع مكون حمض الأسيتيك الموجود في الخل مع الزنجبيل الموجود في عصير الزنجبيل لتحفيز نشاط الإنزيمات الهاضمة عند تناول الفطائر أو الفطائر، مما يمنع الانتفاخ بعد تناول الوجبة.",
-      "bio_synergy": "تعمل الأحماض العضوية الموجودة في الخل الطبيعي على ضبط حموضة خلايا الجهاز الهضمي وتحسين معدل امتصاص معادن صحة العظام مثل الكالسيوم والفوسفور في الأمعاء الدقيقة."
+      "bio_synergy": "تعمل الأحماض العضوية الموجودة في الخل الطبيعي على ضبط حموضة خلايا الجهاز الهضمي وتحسين معدل امتصاص معادن صحة العظام مثل الكالسيوم والفوسفور في الأمعاء الدقيقة.",
+      "ko_category": "한식양념장"
     },
     {
       "id": "trad-12-7",
@@ -4685,7 +4955,8 @@
       ],
       "sasang_relation": "مغذية لتايومين وسويومين",
       "wellness_tip": "يمنع الإنزيم الطبيعي القوي المتحلل للجلطات والذي تفرزه سلالة Bacillus من Cheonggukjang اضطرابات تدفق الدم في Taeeumin مع بطء التمثيل الغذائي للأوعية الدموية، ويساعد زيت البريلا على تليين الأمعاء الغليظة في Soeumin.",
-      "bio_synergy": "يتحد الايسوفلافون من فول الصويا المخمر والكابسيسين من الفلفل الأحمر مع البروتياز الميكروبي لمنع نشاط الإنزيمات التي تزيد من ضغط الدم (ACE)."
+      "bio_synergy": "يتحد الايسوفلافون من فول الصويا المخمر والكابسيسين من الفلفل الأحمر مع البروتياز الميكروبي لمنع نشاط الإنزيمات التي تزيد من ضغط الدم (ACE).",
+      "ko_category": "한식양념장"
     },
     {
       "id": "trad-10-5",
@@ -4702,7 +4973,8 @@
       ],
       "sasang_relation": "ممتاز لتايومين وسويانجين",
       "wellness_tip": "تعمل خصائص التنقية الباردة للذرة الرفيعة والحنطة السوداء على تخفيف انسداد الأوعية الدموية في التايومين، الذي يميل إلى تراكم الرطوبة في الجسم، وتهدئة الضغط العميق للسويانغين بلطف.",
-      "bio_synergy": "أثناء عملية التقطير، يتم ضبط تركيز أسيتات الإيثيل، وهو مركب إستر عضوي، لزيادة مستويات مضادات الأكسدة ومنع التعب في الجسم."
+      "bio_synergy": "أثناء عملية التقطير، يتم ضبط تركيز أسيتات الإيثيل، وهو مركب إستر عضوي، لزيادة مستويات مضادات الأكسدة ومنع التعب في الجسم.",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-6",
@@ -4719,7 +4991,8 @@
       ],
       "sasang_relation": "أفضل دواء للطاقة لشعب السويوم وشعب التايوم",
       "wellness_tip": "تعمل الخصائص الدافئة القوية للزنجبيل والقرفة على تدفئة أمعاء شعب السومين الذين يعانون من التسمم بالبرد بسبب برودة أسفل البطن والأطراف، كما يساعد عصير الكركم والكمثرى بشكل كبير على إزالة سموم الكبد وتحسين الدورة الدموية.",
-      "bio_synergy": "يتفاعل الكركمين الموجود في الكركم والسينمالدهيد الموجود في القرفة مع كحول السوجو لتنشيط تحلل البلاك، وهو منتج فضلات في الدم."
+      "bio_synergy": "يتفاعل الكركمين الموجود في الكركم والسينمالدهيد الموجود في القرفة مع كحول السوجو لتنشيط تحلل البلاك، وهو منتج فضلات في الدم.",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-7",
@@ -4736,7 +5009,8 @@
       ],
       "sasang_relation": "أوصى دون قيد أو شرط لجميع الناس",
       "wellness_tip": "مزيج القرنفل والقرفة وعرق السوس، الذي يتمتع بخصائص طاقة اليانغ العالية، يوفر تأثيرًا علاجيًا قويًا لتجديد شباب الأشخاص السومين الذين يعانون من الاستنزاف السريع لطاقة اليانغ في الجسم بالكامل وجفاف أسفل البطن والمعدة.",
-      "bio_synergy": "يلعب مكون الأوجينول الموجود في القرنفل والبوليفينول الموجود في القرفة دورًا في التحكم في موت الخلايا المتقدمة في السن عن طريق التحكم في تفاعلات الأكسدة الضارة في أغشية الخلايا."
+      "bio_synergy": "يلعب مكون الأوجينول الموجود في القرنفل والبوليفينول الموجود في القرفة دورًا في التحكم في موت الخلايا المتقدمة في السن عن طريق التحكم في تفاعلات الأكسدة الضارة في أغشية الخلايا.",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-8",
@@ -4753,7 +5027,8 @@
       ],
       "sasang_relation": "حيوية لشعب سويانغ وشعب تاييوم",
       "wellness_tip": "خصائص الخيزران والنعناع، ​​الباردة بطبيعتها وتخفف من جوهر الطاقة، تنقي على الفور تدفق الدم الدماغي لشعب سويانغ، الذي يميل غضبه وتوتره إلى التركيز في الجزء العلوي من الجسم، ويهدئ البلغم لدى شعب تاييوم.",
-      "bio_synergy": "يتحكم مكون الفلافونويد الموجود في خلاصة أوراق الخيزران ومكون السارون في Asalum vulgaris في معدل مرور حاجز الكحول ويمنع أعراض الصداع الناتج عن الكحول."
+      "bio_synergy": "يتحكم مكون الفلافونويد الموجود في خلاصة أوراق الخيزران ومكون السارون في Asalum vulgaris في معدل مرور حاجز الكحول ويمنع أعراض الصداع الناتج عن الكحول.",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-9",
@@ -4770,7 +5045,8 @@
       ],
       "sasang_relation": "ممتاز لشعب Soeumin-in وSoyang-in",
       "wellness_tip": "رائحة الأقحوان من الأقحوان البري تمنع الحرارة من رأس سويانغ وجفاف عينيه، كما أن محتوى السكر النشا في الأرز اللزج يدفئ الجزء السفلي من بطن سومين، الذي تكون طاقة اليانغ فيه ضعيفة.",
-      "bio_synergy": "ببتيدات فول الصويا من فول الصويا والأحماض العضوية بكتيريا حمض اللاكتيك المتخمرة ذات درجة الحرارة المنخفضة على المدى الطويل تعمل على تثبيت الجهاز العصبي المعوي بلطف (ENS)، وبالتالي تخفيف تسرب الأمعاء."
+      "bio_synergy": "ببتيدات فول الصويا من فول الصويا والأحماض العضوية بكتيريا حمض اللاكتيك المتخمرة ذات درجة الحرارة المنخفضة على المدى الطويل تعمل على تثبيت الجهاز العصبي المعوي بلطف (ENS)، وبالتالي تخفيف تسرب الأمعاء.",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-10",
@@ -4787,7 +5063,8 @@
       ],
       "sasang_relation": "مناسب لجميع أنواع الجسم (مسطح)",
       "wellness_tip": "تعمل الحلاوة والإسترات المتخمرة للأرز اللزج النقي غودوباب على تنظيم طاقة الجسم بأكمله، وتسهيل عملية الهضم، وتخفيف اضطرابات الدورة الدموية.",
-      "bio_synergy": "مركب من الجلوكوزامين النقي السكري وحمض اللاكتيك الخميرة يقوي الغشاء المخاطي الزغبي للأمعاء الدقيقة ويمنع غزو مسببات الحساسية الضارة."
+      "bio_synergy": "مركب من الجلوكوزامين النقي السكري وحمض اللاكتيك الخميرة يقوي الغشاء المخاطي الزغبي للأمعاء الدقيقة ويمنع غزو مسببات الحساسية الضارة.",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-11",
@@ -4804,7 +5081,8 @@
       ],
       "sasang_relation": "مثالي لتايومين",
       "wellness_tip": "نظرًا لمحتواه العالي من الكحول وطبيعته الواضحة، فهو يساعد التايومين، الذي يكون دمه وسوائل جسمه عرضة للركود، على تحلل النفايات في جدار القلب والأوعية الدموية ويحفز دفء الجسم بالكامل.",
-      "bio_synergy": "لا يعيق مكون الإستر المقطر من الحبوب حساسية الأنسولين ويحفز بشكل طفيف دورة التمثيل الغذائي للأحماض الأمينية في الكبد، مما يؤدي إلى إزالة السموم من النفايات."
+      "bio_synergy": "لا يعيق مكون الإستر المقطر من الحبوب حساسية الأنسولين ويحفز بشكل طفيف دورة التمثيل الغذائي للأحماض الأمينية في الكبد، مما يؤدي إلى إزالة السموم من النفايات.",
+      "ko_category": "전통주"
     },
     {
       "id": "trad-10-12",
@@ -4821,7 +5099,8 @@
       ],
       "sasang_relation": "دواء ممتاز للمخلفات للسويومين والتايومين",
       "wellness_tip": "تعد التأثيرات القوية لإزالة السموم من بقايا الكحول وتأثيرات تدفئة المعدة للقرفة والكودزو والزنجبيل ضرورية للغاية لتخفيف الصداع والتهاب المعدة لدى Soeum-in وTaeeum-in، اللذين يكونان عرضة للصداع الناتج عن الكحول بسبب بطء وظائف أسفل البطن والجهاز الهضمي.",
-      "bio_synergy": "تعمل مستقلبات بكتيريا حمض اللاكتيك من الماكجولي ومكون البويرارين في جذر كودزو بشكل تآزري لتهدئة بطانة المعدة على الفور والمساعدة في إفراز الأسيتالديهيد من الدم."
+      "bio_synergy": "تعمل مستقلبات بكتيريا حمض اللاكتيك من الماكجولي ومكون البويرارين في جذر كودزو بشكل تآزري لتهدئة بطانة المعدة على الفور والمساعدة في إفراز الأسيتالديهيد من الدم.",
+      "ko_category": "전통주"
     }
   ]
 }

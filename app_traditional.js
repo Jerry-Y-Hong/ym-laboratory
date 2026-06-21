@@ -35,7 +35,9 @@ function renderTraditionalList() {
   }
   
   const filtered = window.traditionalDb.filter(item => {
-    const matchesCategory = window.currentTraditionalCategory === '전체' || item.category === window.currentTraditionalCategory;
+    const matchesCategory = window.currentTraditionalCategory === '전체' || 
+                            item.category === window.currentTraditionalCategory ||
+                            item.ko_category === window.currentTraditionalCategory;
     const matchesSearch = item.name.toLowerCase().includes(searchVal) || 
                           (item.english_name && item.english_name.toLowerCase().includes(searchVal)) || 
                           item.description.toLowerCase().includes(searchVal);

@@ -2147,6 +2147,15 @@ function switchLanguage(lang) {
     }
   });
 
+  // Translate placeholder attributes (input fields)
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+    const phKey = el.getAttribute('data-i18n-placeholder');
+    const translatedPh = getTranslation(phKey, lang);
+    if (translatedPh) {
+      el.setAttribute('placeholder', translatedPh);
+    }
+  });
+
   // Translate title attributes
   document.querySelectorAll('[data-i18n-title]').forEach(el => {
     const titleKey = el.getAttribute('data-i18n-title');
@@ -4899,11 +4908,13 @@ function renderRecipesWiki(query = '') {
     const matchCategory = currentWikiCategory.toUpperCase() === "ALL" || 
                           r.category === currentWikiCategory || 
                           r.카테고리 === currentWikiCategory ||
+                          r.ko_category === currentWikiCategory ||
                           (r.category && r.category.toLowerCase() === "staple" && currentWikiCategory === "주식") ||
                           (r.카테고리 && r.카테고리 === "주식" && currentWikiCategory === "주식") ||
                           (lr && (
                             lr.category === currentWikiCategory || 
                             lr.카테고리 === currentWikiCategory ||
+                            lr.ko_category === currentWikiCategory ||
                             (lr.category && lr.category.toLowerCase() === "staple" && currentWikiCategory === "주식")
                           ));
     
@@ -4911,7 +4922,7 @@ function renderRecipesWiki(query = '') {
   });
   
   if (filtered.length === 0) {
-    container.innerHTML = `<p style="grid-column: 1/-1; text-align:center; color:var(--text-muted); padding:40px;">조회된 약선 레시피가 없습니다.</p>`;
+    container.innerHTML = `<p style="grid-column: 1/-1; text-align:center; color:var(--text-muted); padding:40px;">${getTranslation('조회된 약선 레시피가 없습니다.', currentLanguage)}</p>`;
     return;
   }
   

@@ -10,7 +10,8 @@
       "출처": 1,
       "카테고리": "Staple",
       "ancient_citation": "Gyuhap Chongseo (1809)",
-      "ancient_context": "This traditional recipe is based on the principles of balancing the body's energy and promoting overall well-being through a harmonious blend of ingredients."
+      "ancient_context": "This traditional recipe is based on the principles of balancing the body's energy and promoting overall well-being through a harmonious blend of ingredients.",
+      "ko_category": "주식"
     },
     {
       "요리명": "Mussel Spaghetti with Goji Berries",
@@ -22,7 +23,8 @@
       "출처": 2,
       "카테고리": "Main Course",
       "ancient_citation": "Donguibogam (1613), health care section",
-      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients, enhance their synergistic effects, and prevent disharmony. It embodies the principles of balance and vitality in Korean wellness cuisine."
+      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients, enhance their synergistic effects, and prevent disharmony. It embodies the principles of balance and vitality in Korean wellness cuisine.",
+      "ko_category": "주식"
     },
     {
       "요리명": "Red Bean Noodles with Yam and Poria",
@@ -34,7 +36,8 @@
       "출처": 3,
       "카테고리": "Staple",
       "ancient_citation": "Food Chanyo (Sikryo Chanyo, 1460)",
-      "ancient_context": "Based on traditional dietary therapy theories, this recipe for Ma-Bok Patkal-Guk-Su includes ingredients that promote gut health and vitality, as well as balance and harmony in the body."
+      "ancient_context": "Based on traditional dietary therapy theories, this recipe for Ma-Bok Patkal-Guk-Su includes ingredients that promote gut health and vitality, as well as balance and harmony in the body.",
+      "ko_category": "주식"
     },
     {
       "요리명": "Sagunja Ginseng and Poria Porridge",
@@ -46,7 +49,8 @@
       "출처": 4,
       "카테고리": "Staple",
       "ancient_citation": "Sikryo Chanyo (1460)",
-      "ancient_context": "This traditional adaptogenic porridge was consumed as a remedy for digestive issues and fatigue when the body's energy was depleted."
+      "ancient_context": "This traditional adaptogenic porridge was consumed as a remedy for digestive issues and fatigue when the body's energy was depleted.",
+      "ko_category": "주식"
     },
     {
       "요리명": "Astragalus Wellness Rice",
@@ -58,7 +62,8 @@
       "출처": 5,
       "카테고리": "Staple",
       "ancient_citation": "Donguibogam (1613)",
-      "ancient_context": "This autumn/winter traditional dish is designed to fortify the vital energy and strengthen the skin barrier, helping to regulate body temperature and alleviate fatigue."
+      "ancient_context": "This autumn/winter traditional dish is designed to fortify the vital energy and strengthen the skin barrier, helping to regulate body temperature and alleviate fatigue.",
+      "ko_category": "주식"
     },
     {
       "요리명": "Barley Rice with Ophiopogon",
@@ -70,7 +75,8 @@
       "출처": 6,
       "카테고리": "Staple",
       "ancient_citation": "Sikryo Chanyo (1460)",
-      "ancient_context": "This recipe is an ancient remedy for soothing the lungs and digestive system, promoting balance and harmony."
+      "ancient_context": "This recipe is an ancient remedy for soothing the lungs and digestive system, promoting balance and harmony.",
+      "ko_category": "주식"
     },
     {
       "요리명": "Chinese Yam & Job's Tears Porridge",
@@ -82,7 +88,8 @@
       "출처": 7,
       "카테고리": "Staple",
       "ancient_citation": "Donguibogam (1613)",
-      "ancient_context": "This recipe is a harmonizing dish that strengthens the spleen and lungs, relieves constipation, and soothes joint pain and discomfort."
+      "ancient_context": "This recipe is a harmonizing dish that strengthens the spleen and lungs, relieves constipation, and soothes joint pain and discomfort.",
+      "ko_category": "주식"
     },
     {
       "요리명": "Lily Bulb & Jujube Porridge",
@@ -94,7 +101,8 @@
       "출처": 8,
       "카테고리": "Staple",
       "ancient_citation": "Donguibogam (1613)",
-      "ancient_context": "This recipe calms the mind, soothes respiratory issues, and promotes relaxation, making it a natural remedy for insomnia and dry cough."
+      "ancient_context": "This recipe calms the mind, soothes respiratory issues, and promotes relaxation, making it a natural remedy for insomnia and dry cough.",
+      "ko_category": "주식"
     },
     {
       "요리명": "Ginseng and Lotus Seed Rice",
@@ -106,7 +114,8 @@
       "출처": 9,
       "카테고리": "Staple",
       "ancient_citation": "Gyuhap Chongseo (1809)",
-      "ancient_context": "This royal court recipe was enjoyed by the Korean royal family as a nourishing and balancing dish that soothes the body and spirit."
+      "ancient_context": "This royal court recipe was enjoyed by the Korean royal family as a nourishing and balancing dish that soothes the body and spirit.",
+      "ko_category": "주식"
     },
     {
       "요리명": "Cnidium & Angelica Hand-Torn Noodles",
@@ -118,7 +127,8 @@
       "출처": 10,
       "카테고리": "Staple",
       "ancient_citation": "Donguibogam (1613)",
-      "ancient_context": "This traditional recipe is a representative example of a harmonizing and vitality-boosting stew that promotes blood circulation and replenishes the body."
+      "ancient_context": "This traditional recipe is a representative example of a harmonizing and vitality-boosting stew that promotes blood circulation and replenishes the body.",
+      "ko_category": "주식"
     },
     {
       "요리명": "Poria & Jerusalem Artichoke Dumplings",
@@ -130,7 +140,8 @@
       "출처": 11,
       "카테고리": "Main Course",
       "ancient_citation": "Eumsik Dimibang (1670)",
-      "ancient_context": "This traditional mandu recipe aims to promote digestive health and balance in the body by harmonizing the spleen and preventing blood sugar imbalances."
+      "ancient_context": "This traditional mandu recipe aims to promote digestive health and balance in the body by harmonizing the spleen and preventing blood sugar imbalances.",
+      "ko_category": "주식"
     },
     {
       "요리명": "Goji Berry Brown Rice",
@@ -142,7 +153,8 @@
       "출처": 12,
       "카테고리": "Staple",
       "ancient_citation": "Donguibogam (1613)",
-      "ancient_context": "This longevity-promoting recipe balances digestive and urinary systems, clarifies eyesight, and harmonizes the waist and knees."
+      "ancient_context": "This longevity-promoting recipe balances digestive and urinary systems, clarifies eyesight, and harmonizes the waist and knees.",
+      "ko_category": "주식"
     },
     {
       "요리명": "Angelica Rice Ball Punch",
@@ -154,7 +166,8 @@
       "출처": 13,
       "카테고리": "Staple",
       "ancient_citation": "Gyuhap Chongseo (1809)",
-      "ancient_context": "This traditional tonic is designed to nourish women's blood circulation, promote heart health, and support lung function, making it a high-energy and harmonious recipe."
+      "ancient_context": "This traditional tonic is designed to nourish women's blood circulation, promote heart health, and support lung function, making it a high-energy and harmonious recipe.",
+      "ko_category": "주식"
     },
     {
       "요리명": "Notoginseng Millet Rice",
@@ -166,7 +179,8 @@
       "출처": 14,
       "카테고리": "Staple",
       "ancient_citation": "Bonchogangmok (1596)",
-      "ancient_context": "This traditional blood-balancing porridge helps to eliminate stagnant blood, prevent micro-bleeding, and aid in wound recovery."
+      "ancient_context": "This traditional blood-balancing porridge helps to eliminate stagnant blood, prevent micro-bleeding, and aid in wound recovery.",
+      "ko_category": "주식"
     },
     {
       "요리명": "Buckwheat Noodles with White Peony",
@@ -178,7 +192,8 @@
       "출처": 15,
       "카테고리": "Staple",
       "ancient_citation": "Donguibogam (1613)",
-      "ancient_context": "This traditional nourishing noodle soup harmonizes digestive energy, alleviates abdominal cramps and discomfort, and cools the body."
+      "ancient_context": "This traditional nourishing noodle soup harmonizes digestive energy, alleviates abdominal cramps and discomfort, and cools the body.",
+      "ko_category": "주식"
     },
     {
       "요리명": "Mulberry Mistletoe Sesame Porridge",
@@ -190,7 +205,8 @@
       "출처": 16,
       "카테고리": "Staple",
       "ancient_citation": "Donguibogam (1613)",
-      "ancient_context": "This longevity-promoting porridge supports bone health, nourishes the digestive system, and prevents aging."
+      "ancient_context": "This longevity-promoting porridge supports bone health, nourishes the digestive system, and prevents aging.",
+      "ko_category": "주식"
     },
     {
       "요리명": "Goji Berry & Red Bean Rice",
@@ -202,7 +218,8 @@
       "출처": 17,
       "카테고리": "Main Course",
       "ancient_citation": "Food Chanyo (Sikryo Chanyo, 1460)",
-      "ancient_context": "This traditional recipe is based on the principles of traditional medicine and emphasizes the benefits of gogiya and pat in promoting digestive health and overall well-being."
+      "ancient_context": "This traditional recipe is based on the principles of traditional medicine and emphasizes the benefits of gogiya and pat in promoting digestive health and overall well-being.",
+      "ko_category": "주식"
     },
     {
       "요리명": "Black Sesame Calm-Mind Porridge",
@@ -214,7 +231,8 @@
       "출처": 18,
       "카테고리": "Staple",
       "ancient_citation": "Food Chanyo (Sikryo Chanyo, 1460)",
-      "ancient_context": "Based on traditional dietary therapy theories, this recipe for Black Sesame Anshinjuk includes ingredients that promote gut health and vitality, as well as alleviate symptoms of insomnia and palpitations."
+      "ancient_context": "Based on traditional dietary therapy theories, this recipe for Black Sesame Anshinjuk includes ingredients that promote gut health and vitality, as well as alleviate symptoms of insomnia and palpitations.",
+      "ko_category": "주식"
     },
     {
       "요리명": "Poria & Buckwheat Hand-Torn Noodle Soup",
@@ -226,7 +244,8 @@
       "출처": 19,
       "카테고리": "Staple",
       "ancient_citation": "Food Chanyo (Sikryo Chanyo, 1460)",
-      "ancient_context": "This traditional recipe is based on the principles of traditional medicine, emphasizing the protective effects of the ingredients on the digestive system and their ability to promote vitality."
+      "ancient_context": "This traditional recipe is based on the principles of traditional medicine, emphasizing the protective effects of the ingredients on the digestive system and their ability to promote vitality.",
+      "ko_category": "주식"
     },
     {
       "요리명": "Atractylodes & Licorice Potato Ball Soup",
@@ -238,7 +257,8 @@
       "출처": 20,
       "카테고리": "Staple",
       "ancient_citation": "Food Chanyo (Sikryo Chanyo, 1460)",
-      "ancient_context": "This traditional recipe is based on the principles of traditional medicine and emphasizes the harmonizing effects of the ingredients to promote digestive health and overall well-being."
+      "ancient_context": "This traditional recipe is based on the principles of traditional medicine and emphasizes the harmonizing effects of the ingredients to promote digestive health and overall well-being.",
+      "ko_category": "주식"
     },
     {
       "요리명": "Hawthorn Wellness Bibimbap",
@@ -250,7 +270,8 @@
       "출처": 21,
       "카테고리": "Main Course",
       "ancient_citation": "Food Chanyo (Sikryo Chanyo, 1460)",
-      "ancient_context": "This traditional recipe is based on the principles of traditional medicine, emphasizing the digestive benefits and vitality-boosting properties of mountain ginseng and other botanical actives."
+      "ancient_context": "This traditional recipe is based on the principles of traditional medicine, emphasizing the digestive benefits and vitality-boosting properties of mountain ginseng and other botanical actives.",
+      "ko_category": "주식"
     },
     {
       "요리명": "Job's Tears Wellness Rice",
@@ -262,7 +283,8 @@
       "출처": 22,
       "카테고리": "Staple",
       "ancient_citation": "Food Chanyo (Sikryo Chanyo, 1460)",
-      "ancient_context": "This traditional recipe is based on the principles of traditional medicine and emphasizes the importance of balancing yin and yang energies to promote overall well-being."
+      "ancient_context": "This traditional recipe is based on the principles of traditional medicine and emphasizes the importance of balancing yin and yang energies to promote overall well-being.",
+      "ko_category": "주식"
     },
     {
       "요리명": "Chinese Yam Digestive Porridge",
@@ -274,7 +296,8 @@
       "출처": 23,
       "카테고리": "Staple",
       "ancient_citation": "Food Chanyo (Sikryo Chanyo, 1460)",
-      "ancient_context": "This traditional recipe is based on the principles of traditional medicine and emphasizes the gut-healing properties and vitality-boosting effects of the ingredients used in Mountain Harmony Stew."
+      "ancient_context": "This traditional recipe is based on the principles of traditional medicine and emphasizes the gut-healing properties and vitality-boosting effects of the ingredients used in Mountain Harmony Stew.",
+      "ko_category": "주식"
     },
     {
       "요리명": "Ophiopogon Wellness Dumplings",
@@ -286,7 +309,8 @@
       "출처": 24,
       "카테고리": "Staple",
       "ancient_citation": "Donguibogam (1613), health care section",
-      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and balance yin and yang energies, promoting overall wellness and vitality."
+      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and balance yin and yang energies, promoting overall wellness and vitality.",
+      "ko_category": "주식"
     },
     {
       "요리명": "Goji Berry Pumpkin Mash",
@@ -298,7 +322,8 @@
       "출처": 25,
       "카테고리": "Staple",
       "ancient_citation": "Donguibogam (1613), health care section",
-      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and prevent adverse reactions. It embodies the principles of balanced nutrition and vitality, aligning with the ancient concept of yangsheng."
+      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and prevent adverse reactions. It embodies the principles of balanced nutrition and vitality, aligning with the ancient concept of yangsheng.",
+      "ko_category": "주식"
     },
     {
       "요리명": "Hovenia Frozen Pollack Soup",
@@ -310,7 +335,8 @@
       "출처": 26,
       "카테고리": "Soup",
       "ancient_citation": "Local food (Jeolla-do region)",
-      "ancient_context": "This Jeolla-do traditional coastal dish utilizes Hentgae fruit to amplify detoxification and liver protection abilities, promoting overall well-being."
+      "ancient_context": "This Jeolla-do traditional coastal dish utilizes Hentgae fruit to amplify detoxification and liver protection abilities, promoting overall well-being.",
+      "ko_category": "국물"
     },
     {
       "요리명": "Rice Cake Soup with Soy Chicken",
@@ -322,7 +348,8 @@
       "출처": 27,
       "카테고리": "Soup",
       "ancient_citation": "Donguibogam (1613) Ongjeo/Tang-aek edition",
-      "ancient_context": "This harmonious soup recipe is designed to eliminate toxins from the body through urination and promote smooth blood circulation, much like a traditional Korean medicine prescription."
+      "ancient_context": "This harmonious soup recipe is designed to eliminate toxins from the body through urination and promote smooth blood circulation, much like a traditional Korean medicine prescription.",
+      "ko_category": "국물"
     },
     {
       "요리명": "Sagunja Spicy Chicken Soup",
@@ -334,7 +361,8 @@
       "출처": 28,
       "카테고리": "Soup",
       "ancient_citation": "Donguibogam (1613), health care section",
-      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients, balance yin and yang energies, and promote overall wellness."
+      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients, balance yin and yang energies, and promote overall wellness.",
+      "ko_category": "국물"
     },
     {
       "요리명": "Paljin Black Ogolgye Chicken Soup",
@@ -346,7 +374,8 @@
       "출처": 29,
       "카테고리": "Soup",
       "ancient_citation": "Donguibogam (1613) Ongjeo/Tang-aek edition",
-      "ancient_context": "This harmonious stew recipe is designed to purify the body by eliminating toxins through urination and promoting healthy blood circulation, much like a traditional Korean medicine prescription."
+      "ancient_context": "This harmonious stew recipe is designed to purify the body by eliminating toxins through urination and promoting healthy blood circulation, much like a traditional Korean medicine prescription.",
+      "ko_category": "국물"
     },
     {
       "요리명": "Kudzu Root & Bean Sprout Pollock Soup",
@@ -358,7 +387,8 @@
       "출처": 30,
       "카테고리": "Soup",
       "ancient_citation": "Donguibogam (1613) Ongjeo/Tang-aek edition",
-      "ancient_context": "This recipe is a type of nourishing soup that helps to eliminate toxins from the body and promote blood circulation, similar to a traditional Korean medicine prescription."
+      "ancient_context": "This recipe is a type of nourishing soup that helps to eliminate toxins from the body and promote blood circulation, similar to a traditional Korean medicine prescription.",
+      "ko_category": "국물"
     },
     {
       "요리명": "Pork & Radish Soup",
@@ -370,7 +400,8 @@
       "출처": 31,
       "카테고리": "Soup",
       "ancient_citation": "Donguibogam (1613) Ongjeo/Tang-aek edition",
-      "ancient_context": "This stew-like recipe is a type of nourishing food that helps eliminate toxins through urination and promotes healthy blood circulation, similar to the concept of 'Tang-yak' in traditional Korean medicine."
+      "ancient_context": "This stew-like recipe is a type of nourishing food that helps eliminate toxins through urination and promotes healthy blood circulation, similar to the concept of 'Tang-yak' in traditional Korean medicine.",
+      "ko_category": "국물"
     },
     {
       "요리명": "Seaweed Oyster Soup",
@@ -382,7 +413,8 @@
       "출처": 32,
       "카테고리": "Soup",
       "ancient_citation": "Donguibogam (1613) Ongjeo/Tang-aek edition",
-      "ancient_context": "This recipe is a type of nourishing soup that helps eliminate toxins through urination and promotes healthy blood flow, much like the traditional Korean medicine practice of 'Tang-yak'."
+      "ancient_context": "This recipe is a type of nourishing soup that helps eliminate toxins through urination and promotes healthy blood flow, much like the traditional Korean medicine practice of 'Tang-yak'.",
+      "ko_category": "국물"
     },
     {
       "요리명": "Ophiopogon Beef Short Rib Soup",
@@ -394,7 +426,8 @@
       "출처": 33,
       "카테고리": "Soup",
       "ancient_citation": "Donguibogam (1613) Ongjeo/Tang-aek edition",
-      "ancient_context": "This nourishing soup is designed to promote the elimination of bodily toxins through urination and maintain healthy blood circulation, much like a traditional Korean medicine prescription."
+      "ancient_context": "This nourishing soup is designed to promote the elimination of bodily toxins through urination and maintain healthy blood circulation, much like a traditional Korean medicine prescription.",
+      "ko_category": "국물"
     },
     {
       "요리명": "Achyranthes Ox Knee Cap Soup",
@@ -406,7 +439,8 @@
       "출처": 34,
       "카테고리": "Soup",
       "ancient_citation": "Donguibogam (1613)",
-      "ancient_context": "This traditional Korean medicine recipe is designed to strengthen knee cartilage, alleviate joint pain, and promote overall balance and harmony in the body."
+      "ancient_context": "This traditional Korean medicine recipe is designed to strengthen knee cartilage, alleviate joint pain, and promote overall balance and harmony in the body.",
+      "ko_category": "국물"
     },
     {
       "요리명": "Kalopanax Boiled Duck",
@@ -418,7 +452,8 @@
       "출처": 35,
       "카테고리": "Soup",
       "ancient_citation": "Local food (Gyeongsang-do region)",
-      "ancient_context": "This dish is a traditional remedy from the Gyeongsang-do region, designed to relieve joint pain, reduce fever, and improve overall vitality."
+      "ancient_context": "This dish is a traditional remedy from the Gyeongsang-do region, designed to relieve joint pain, reduce fever, and improve overall vitality.",
+      "ko_category": "국물"
     },
     {
       "요리명": "Angelica Ginseng Chicken Soup",
@@ -430,7 +465,8 @@
       "출처": 36,
       "카테고리": "Soup",
       "ancient_citation": "Donguibogam (1613)",
-      "ancient_context": "This traditional three-element soup harmonizes the vital energy, brightens the complexion, and improves circulation and blood flow."
+      "ancient_context": "This traditional three-element soup harmonizes the vital energy, brightens the complexion, and improves circulation and blood flow.",
+      "ko_category": "국물"
     },
     {
       "요리명": "Bupleurum Spicy Beef Soup",
@@ -442,7 +478,8 @@
       "출처": 37,
       "카테고리": "Soup",
       "ancient_citation": "Donguibogam (1613), health care section",
-      "ancient_context": "This traditional K-Food recipe is designed to enhance the synergy between ingredients and balance the body's energies according to the principles of Eastern medicine."
+      "ancient_context": "This traditional K-Food recipe is designed to enhance the synergy between ingredients and balance the body's energies according to the principles of Eastern medicine.",
+      "ko_category": "국물"
     },
     {
       "요리명": "Cod & Goji Berry Clear Soup",
@@ -454,7 +491,8 @@
       "출처": 38,
       "카테고리": "Soup",
       "ancient_citation": "Donguibogam (1613), health care section",
-      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and promote balance in the body, aligning with the principles of Eastern medicine."
+      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and promote balance in the body, aligning with the principles of Eastern medicine.",
+      "ko_category": "국물"
     },
     {
       "요리명": "Siberian Ginseng Black Goat Soup",
@@ -466,7 +504,8 @@
       "출처": 39,
       "카테고리": "Soup",
       "ancient_citation": "Donguibogam (1613) Ongjeo/Tang-aek edition",
-      "ancient_context": "This recipe is a type of nourishing soup that helps to eliminate toxins through urination and promote blood circulation, similar to the traditional method of decoction."
+      "ancient_context": "This recipe is a type of nourishing soup that helps to eliminate toxins through urination and promote blood circulation, similar to the traditional method of decoction.",
+      "ko_category": "국물"
     },
     {
       "요리명": "Cassia Seed Duck Hot Pot",
@@ -478,7 +517,8 @@
       "출처": 40,
       "카테고리": "Soup",
       "ancient_citation": "Donguibogam (1613) Ongjeo/Tang-aek edition",
-      "ancient_context": "This soup is a type of nourishing dish that helps to eliminate toxins from the body and promote smooth blood circulation, much like a traditional Korean medicine prescription."
+      "ancient_context": "This soup is a type of nourishing dish that helps to eliminate toxins from the body and promote smooth blood circulation, much like a traditional Korean medicine prescription.",
+      "ko_category": "국물"
     },
     {
       "요리명": "Job's Tears Seaweed Soup",
@@ -490,7 +530,8 @@
       "출처": 41,
       "카테고리": "Soup",
       "ancient_citation": "Donguibogam (1613) Ongjeo/Tang-aek edition",
-      "ancient_context": "This soup is a type of nourishing tonic that promotes the elimination of bodily toxins and maintains healthy blood circulation, much like a traditional Korean medicine prescription."
+      "ancient_context": "This soup is a type of nourishing tonic that promotes the elimination of bodily toxins and maintains healthy blood circulation, much like a traditional Korean medicine prescription.",
+      "ko_category": "국물"
     },
     {
       "요리명": "Samul-tang Ox Tail Soup",
@@ -502,7 +543,8 @@
       "출처": 42,
       "카테고리": "Soup",
       "ancient_citation": "Donguibogam (1613) Ongjeo/Tang-aek edition",
-      "ancient_context": "This stew is a type of nourishing recipe that helps eliminate toxins through urine and promotes smooth blood circulation, similar to the concept of 'tang-yeok' in traditional Korean medicine."
+      "ancient_context": "This stew is a type of nourishing recipe that helps eliminate toxins through urine and promotes smooth blood circulation, similar to the concept of 'tang-yeok' in traditional Korean medicine.",
+      "ko_category": "국물"
     },
     {
       "요리명": "Dandelion Detoxifying Soup",
@@ -514,7 +556,8 @@
       "출처": 43,
       "카테고리": "Soup",
       "ancient_citation": "Bonchogangmok (1596)",
-      "ancient_context": "This Balancing Harmony Tonic utilizes the potent anti-inflammatory properties of Fo Ti to soothe digestive issues and promote overall well-being."
+      "ancient_context": "This Balancing Harmony Tonic utilizes the potent anti-inflammatory properties of Fo Ti to soothe digestive issues and promote overall well-being.",
+      "ko_category": "국물"
     },
     {
       "요리명": "Citrus Peel Digestive Soup",
@@ -526,7 +569,8 @@
       "출처": 44,
       "카테고리": "Soup",
       "ancient_citation": "Sikryo Chanyo (1460)",
-      "ancient_context": "This traditional recipe helps eliminate stagnant energy in the digestive system, promoting balance and harmony."
+      "ancient_context": "This traditional recipe helps eliminate stagnant energy in the digestive system, promoting balance and harmony.",
+      "ko_category": "국물"
     },
     {
       "요리명": "Longan Beef Short Rib Soup",
@@ -538,7 +582,8 @@
       "출처": 45,
       "카테고리": "Soup",
       "ancient_citation": "Donguibogam (1613) Ongjeo/Tang-aek edition",
-      "ancient_context": "This nourishing soup recipe is designed to eliminate toxins from the body and promote healthy blood circulation, much like a traditional Korean medicine prescription."
+      "ancient_context": "This nourishing soup recipe is designed to eliminate toxins from the body and promote healthy blood circulation, much like a traditional Korean medicine prescription.",
+      "ko_category": "국물"
     },
     {
       "요리명": "Kudzu Root Hangover Soup",
@@ -550,7 +595,8 @@
       "출처": 46,
       "카테고리": "Soup",
       "ancient_citation": "Sikryo Chanyo (1460)",
-      "ancient_context": "This soothing stew combines the cooling properties of galgern with the iron-rich sesame seeds to treat digestive issues and promote overall vitality."
+      "ancient_context": "This soothing stew combines the cooling properties of galgern with the iron-rich sesame seeds to treat digestive issues and promote overall vitality.",
+      "ko_category": "국물"
     },
     {
       "요리명": "Adenophora Short Rib Stew",
@@ -562,7 +608,8 @@
       "출처": 47,
       "카테고리": "Soup",
       "ancient_citation": "Local food (Chungcheong-do region)",
-      "ancient_context": "This traditional dish from Chungcheong Province combines the immune-boosting properties of Sassam with the tenderizing effects of pork ribs, creating a harmonious balance of flavors and textures."
+      "ancient_context": "This traditional dish from Chungcheong Province combines the immune-boosting properties of Sassam with the tenderizing effects of pork ribs, creating a harmonious balance of flavors and textures.",
+      "ko_category": "국물"
     },
     {
       "요리명": "Cassia Seed Clam Soup",
@@ -574,7 +621,8 @@
       "출처": 48,
       "카테고리": "Soup",
       "ancient_citation": "Donguibogam (1613) Ongjeo/Tang-aek edition",
-      "ancient_context": "This soup recipe is inspired by traditional Korean medicine, aiming to promote overall well-being and balance through the harmonization of bodily energies."
+      "ancient_context": "This soup recipe is inspired by traditional Korean medicine, aiming to promote overall well-being and balance through the harmonization of bodily energies.",
+      "ko_category": "국물"
     },
     {
       "요리명": "Platycodon & Licorice Soup",
@@ -586,7 +634,8 @@
       "출처": 49,
       "카테고리": "Soup",
       "ancient_citation": "Donguibogam (1613) Ongjeo/Tang-aek edition",
-      "ancient_context": "This recipe is an ancient adaptation of a traditional Korean soup that aims to promote overall well-being by balancing the body's energies and promoting healthy digestion."
+      "ancient_context": "This recipe is an ancient adaptation of a traditional Korean soup that aims to promote overall well-being by balancing the body's energies and promoting healthy digestion.",
+      "ko_category": "국물"
     },
     {
       "요리명": "Plantain Seed Clam Seaweed Soup",
@@ -598,7 +647,8 @@
       "출처": 50,
       "카테고리": "Soup",
       "ancient_citation": "Donguibogam (1613) Ongjeo/Tang-aek edition",
-      "ancient_context": "This recipe is inspired by traditional Korean medicine, where a nourishing soup is prepared to promote overall well-being and balance the body's energies."
+      "ancient_context": "This recipe is inspired by traditional Korean medicine, where a nourishing soup is prepared to promote overall well-being and balance the body's energies.",
+      "ko_category": "국물"
     },
     {
       "요리명": "Seasoned Radish with Goji Berries",
@@ -610,7 +660,8 @@
       "출처": 51,
       "카테고리": "Side Dish",
       "ancient_citation": "Gyuhap Chongseo (1809) Anti-sangjo",
-      "ancient_context": "This traditional fermented side dish is based on the principles of harmony and balance in Korean medicine, aiming to enhance digestive efficiency and overall well-being."
+      "ancient_context": "This traditional fermented side dish is based on the principles of harmony and balance in Korean medicine, aiming to enhance digestive efficiency and overall well-being.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "Samul-tang Pork Trotters",
@@ -622,7 +673,8 @@
       "출처": 52,
       "카테고리": "Bone Broth",
       "ancient_citation": "Donguibogam (1613), health care section",
-      "ancient_context": "This traditional K-Food recipe is designed to enhance the synergy between ingredients and balance yin-yang energies, promoting overall wellness and vitality."
+      "ancient_context": "This traditional K-Food recipe is designed to enhance the synergy between ingredients and balance yin-yang energies, promoting overall wellness and vitality.",
+      "ko_category": "부식"
     },
     {
       "요리명": "Stewed Aged Kimchi in Doenjang",
@@ -634,7 +686,8 @@
       "출처": 53,
       "카테고리": "Banchan",
       "ancient_citation": "Gyuhap Chongseo (1809) Anti-sangjo",
-      "ancient_context": "This traditional fermented vegetable dish is based on the principles of harmonizing the five flavors and promoting digestive health through the interaction of medicinal herbs and spices."
+      "ancient_context": "This traditional fermented vegetable dish is based on the principles of harmonizing the five flavors and promoting digestive health through the interaction of medicinal herbs and spices.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "Angelica Pickled Garlic Scapes",
@@ -646,7 +699,8 @@
       "출처": 54,
       "카테고리": "Side dish",
       "ancient_citation": "Eumsik Dimibang (1670)",
-      "ancient_context": "This traditional jam combines the digestive benefits of ginger with the circulation-boosting properties of danggui, showcasing a harmonious blend of botanical actives."
+      "ancient_context": "This traditional jam combines the digestive benefits of ginger with the circulation-boosting properties of danggui, showcasing a harmonious blend of botanical actives.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "Seasoned Bitter Crepidiastrum Greens",
@@ -658,7 +712,8 @@
       "출처": 55,
       "카테고리": "Side Dish",
       "ancient_citation": "Gyuhap Chongseo (1809)",
-      "ancient_context": "A representative side dish from the southeastern region of Korea, this harmonious balance stew regulates excessive heat in the heart and increases digestive enzymes to resolve digestive stagnation and remove blood stasis, perfect for hot summer days."
+      "ancient_context": "A representative side dish from the southeastern region of Korea, this harmonious balance stew regulates excessive heat in the heart and increases digestive enzymes to resolve digestive stagnation and remove blood stasis, perfect for hot summer days.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "Hawthorn Soy-Braised Pork",
@@ -670,7 +725,8 @@
       "출처": 56,
       "카테고리": "Stew",
       "ancient_citation": "Local food (Gyeonggi-do region)",
-      "ancient_context": "This dish is a traditional Korean remedy that combines ginseng with pork to maximize protein absorption and promote digestive health."
+      "ancient_context": "This dish is a traditional Korean remedy that combines ginseng with pork to maximize protein absorption and promote digestive health.",
+      "ko_category": "부식"
     },
     {
       "요리명": "Fo-ti Root Braised Black Beans",
@@ -682,7 +738,8 @@
       "출처": 57,
       "카테고리": "Banchan",
       "ancient_citation": "Local food (Gangwon-do region)",
-      "ancient_context": "This longevity banchan from Gangwon-do province combines the pure essence of Sori-tae and Harshoo to prevent aging and maintain clear vision."
+      "ancient_context": "This longevity banchan from Gangwon-do province combines the pure essence of Sori-tae and Harshoo to prevent aging and maintain clear vision.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "Chinese Yam & Tofu Salad",
@@ -694,7 +751,8 @@
       "출처": 58,
       "카테고리": "Side Dish",
       "ancient_citation": "Gyuhap Chongseo (1809) Anti-sangjo",
-      "ancient_context": "This traditional fermented vegetable side dish is based on the principles of harmonizing the five flavors and promoting digestive health through the interaction of medicinal herbs."
+      "ancient_context": "This traditional fermented vegetable side dish is based on the principles of harmonizing the five flavors and promoting digestive health through the interaction of medicinal herbs.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "Sautéed Mistletoe & Oyster Mushrooms",
@@ -706,7 +764,8 @@
       "출처": 59,
       "카테고리": "Side dish",
       "ancient_citation": "Gyuhap Chongseo (1809) Anti-sangjo",
-      "ancient_context": "This traditional fermented side dish is based on the principles of harmonizing the five flavors and promoting digestive health."
+      "ancient_context": "This traditional fermented side dish is based on the principles of harmonizing the five flavors and promoting digestive health.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "Aralia Shoots with Scrambled Eggs",
@@ -718,7 +777,8 @@
       "출처": 60,
       "카테고리": "Side dish",
       "ancient_citation": "Gyuhap Chongseo (1809) Anti-sangjo",
-      "ancient_context": "This traditional fermented side dish is based on the harmony of the five flavors and the interaction of medicinal effects to promote digestive health and balance."
+      "ancient_context": "This traditional fermented side dish is based on the harmony of the five flavors and the interaction of medicinal effects to promote digestive health and balance.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "Wild Chives Fresh Salad",
@@ -730,7 +790,8 @@
       "출처": 61,
       "카테고리": "Side Dish",
       "ancient_citation": "Gyuhap Chongseo (1809) Anti-sangjo",
-      "ancient_context": "This traditional fermented side dish is based on the principles of harmonizing the five flavors and promoting digestive health through the interaction of medicinal properties."
+      "ancient_context": "This traditional fermented side dish is based on the principles of harmonizing the five flavors and promoting digestive health through the interaction of medicinal properties.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "Seasoned Ledebouriella Greens",
@@ -742,7 +803,8 @@
       "출처": 62,
       "카테고리": "Side dish",
       "ancient_citation": "Gyuhap Chongseo (1809)",
-      "ancient_context": "This ancient recipe book offers a harmonious and revitalizing soup that helps to purify the body by removing toxins and protecting against harmful pollutants."
+      "ancient_context": "This ancient recipe book offers a harmonious and revitalizing soup that helps to purify the body by removing toxins and protecting against harmful pollutants.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "Achyranthes Braised Lotus Root",
@@ -754,7 +816,8 @@
       "출처": 63,
       "카테고리": "Side dish",
       "ancient_citation": "Local food (Jeolla-do region)",
-      "ancient_context": "This side dish harmonizes the benefits of Yeon-geun's anti-inflammatory properties with Mugwort's bone-strengthening effects to promote overall well-being and vitality."
+      "ancient_context": "This side dish harmonizes the benefits of Yeon-geun's anti-inflammatory properties with Mugwort's bone-strengthening effects to promote overall well-being and vitality.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "Seasoned Eggplant & Bellflower",
@@ -766,7 +829,8 @@
       "출처": 64,
       "카테고리": "Side Dish",
       "ancient_citation": "Gyuhap Chongseo (1809) Anti-sangjo",
-      "ancient_context": "This traditional fermented side dish is based on the principles of harmonizing the five flavors and promoting digestive health through the interaction of various ingredients."
+      "ancient_context": "This traditional fermented side dish is based on the principles of harmonizing the five flavors and promoting digestive health through the interaction of various ingredients.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "Dandelion Salad with Doenjang Dressing",
@@ -778,7 +842,8 @@
       "출처": 65,
       "카테고리": "Banchan",
       "ancient_citation": "Gyuhap Chongseo (1809) Anti-sangjo",
-      "ancient_context": "This traditional fermented vegetable side dish is based on the principles of harmony and balance in Korean medicine. It's a carefully crafted blend of ingredients designed to promote digestive health and overall well-being."
+      "ancient_context": "This traditional fermented vegetable side dish is based on the principles of harmony and balance in Korean medicine. It's a carefully crafted blend of ingredients designed to promote digestive health and overall well-being.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "Dried Ginger Braised Potatoes",
@@ -790,7 +855,8 @@
       "출처": 66,
       "카테고리": "Side Dish",
       "ancient_citation": "Gyuhap Chongseo (1809) Anti-sangjo",
-      "ancient_context": "This traditional fermented side dish is based on the principles of harmony and balance in Korean medicine. It combines adaptogenic ingredients to promote gut health and relieve digestive discomfort."
+      "ancient_context": "This traditional fermented side dish is based on the principles of harmony and balance in Korean medicine. It combines adaptogenic ingredients to promote gut health and relieve digestive discomfort.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "Spicy Pork Stir-Fry with Bellflower Root",
@@ -802,7 +868,8 @@
       "출처": 67,
       "카테고리": "Side dish",
       "ancient_citation": "Gyuhap Chongseo (1809) Anti-sangjo",
-      "ancient_context": "This traditional fermented side dish is based on the principles of harmonizing the Five Flavors (Omi) and enhancing digestive efficiency through the synergy of ingredients."
+      "ancient_context": "This traditional fermented side dish is based on the principles of harmonizing the Five Flavors (Omi) and enhancing digestive efficiency through the synergy of ingredients.",
+      "ko_category": "부식"
     },
     {
       "요리명": "Cnidium Pickled Sesame Leaves",
@@ -814,7 +881,8 @@
       "출처": 68,
       "카테고리": "Side dish",
       "ancient_citation": "Gyuhap Chongseo (1809) Anti-sangjo",
-      "ancient_context": "This traditional fermented side dish is based on the principles of harmony and balance in Korean medicine. It's a carefully crafted blend of ingredients that promotes digestive health and overall well-being."
+      "ancient_context": "This traditional fermented side dish is based on the principles of harmony and balance in Korean medicine. It's a carefully crafted blend of ingredients that promotes digestive health and overall well-being.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "Mistletoe Stir-Fried Lamb",
@@ -826,7 +894,8 @@
       "출처": 69,
       "카테고리": "Side Dish",
       "ancient_citation": "Gyuhap Chongseo (1809) Anti-sangjo",
-      "ancient_context": "This traditional fermented side dish is based on the principles of harmonizing the five flavors and promoting digestive health through the synergy of ingredients."
+      "ancient_context": "This traditional fermented side dish is based on the principles of harmonizing the five flavors and promoting digestive health through the synergy of ingredients.",
+      "ko_category": "부식"
     },
     {
       "요리명": "Siberian Ginseng Braised Anchovies",
@@ -838,7 +907,8 @@
       "출처": 70,
       "카테고리": "Side Dish",
       "ancient_citation": "Gyuhap Chongseo (1809) Anti-sangjo",
-      "ancient_context": "This traditional fermented side dish is based on the principles of harmony and balance in Korean medicine. It is designed to enhance the effects of food and promote healthy digestion."
+      "ancient_context": "This traditional fermented side dish is based on the principles of harmony and balance in Korean medicine. It is designed to enhance the effects of food and promote healthy digestion.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "Goji Berry Braised Tofu",
@@ -850,7 +920,8 @@
       "출처": 71,
       "카테고리": "Banchan",
       "ancient_citation": "Gyuhap Chongseo (1809) Anti-sangjo",
-      "ancient_context": "This traditional fermented side dish is based on the concept of harmony among the five flavors in Korean medicine. It aims to enhance the interplay between ingredients and improve digestion."
+      "ancient_context": "This traditional fermented side dish is based on the concept of harmony among the five flavors in Korean medicine. It aims to enhance the interplay between ingredients and improve digestion.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "Notoginseng Braised Burdock Root",
@@ -862,7 +933,8 @@
       "출처": 72,
       "카테고리": "Side Dish",
       "ancient_citation": "Gyuhap Chongseo (1809) Anti-sangjo",
-      "ancient_context": "This traditional fermented side dish is based on the principles of harmony and balance in Korean medicine, aiming to enhance digestive efficiency and promote overall well-being."
+      "ancient_context": "This traditional fermented side dish is based on the principles of harmony and balance in Korean medicine, aiming to enhance digestive efficiency and promote overall well-being.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "Seasoned Chinese Yam & Garlic Scapes",
@@ -874,7 +946,8 @@
       "출처": 73,
       "카테고리": "Banchan",
       "ancient_citation": "Gyuhap Chongseo (1809) Anti-sangjo",
-      "ancient_context": "This traditional fermented radish dish is based on the concept of harmonizing the five flavors in Korean medicine and aims to enhance digestive efficiency and overall well-being."
+      "ancient_context": "This traditional fermented radish dish is based on the concept of harmonizing the five flavors in Korean medicine and aims to enhance digestive efficiency and overall well-being.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "White Peony Spicy Cucumber Salad",
@@ -886,7 +959,8 @@
       "출처": 74,
       "카테고리": "Banchan",
       "ancient_citation": "Gyuhap Chongseo (1809) Anti-sangjo",
-      "ancient_context": "This traditional fermented vegetable side dish is based on the principles of harmony and balance in Korean medicine. It enhances the interplay between ingredients and promotes digestive health."
+      "ancient_context": "This traditional fermented vegetable side dish is based on the principles of harmony and balance in Korean medicine. It enhances the interplay between ingredients and promotes digestive health.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "Angelica Seasoned Butterbur",
@@ -898,7 +972,8 @@
       "출처": 75,
       "카테고리": "Side Dish",
       "ancient_citation": "Gyuhap Chongseo (1809) Anti-sangjo",
-      "ancient_context": "This traditional fermented side dish is based on the principles of Five Flavors harmony and aims to enhance the synergistic effects of ingredients and digestive efficiency."
+      "ancient_context": "This traditional fermented side dish is based on the principles of Five Flavors harmony and aims to enhance the synergistic effects of ingredients and digestive efficiency.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "Mugwort Pancake",
@@ -910,7 +985,8 @@
       "출처": 76,
       "카테고리": "Boup",
       "ancient_citation": "Donguibogam (1613), health care section",
-      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients, balance yin and yang energies, and promote overall well-being."
+      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients, balance yin and yang energies, and promote overall well-being.",
+      "ko_category": "부식"
     },
     {
       "요리명": "Yam & Sweet Potato Fritters",
@@ -922,7 +998,8 @@
       "출처": 77,
       "카테고리": "Beverage",
       "ancient_citation": "Donguibogam (1613), health care section",
-      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and prevent adverse reactions, aligning with the principles of Eastern medicine."
+      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and prevent adverse reactions, aligning with the principles of Eastern medicine.",
+      "ko_category": "부식"
     },
     {
       "요리명": "Deep-fried Ginseng",
@@ -934,7 +1011,8 @@
       "출처": 78,
       "카테고리": "Beverage",
       "ancient_citation": "Donguibogam (1613), health care section",
-      "ancient_context": "This traditional K-Food recipe is designed to harmonize the body's energy and promote overall wellness by balancing the properties of ingredients and avoiding extreme flavors."
+      "ancient_context": "This traditional K-Food recipe is designed to harmonize the body's energy and promote overall wellness by balancing the properties of ingredients and avoiding extreme flavors.",
+      "ko_category": "부식"
     },
     {
       "요리명": "Astragalus Water Dropwort Pancake",
@@ -946,7 +1024,8 @@
       "출처": 79,
       "카테고리": "Beverage",
       "ancient_citation": "Donguibogam (1613), health care section",
-      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and balance yin-yang energies, promoting overall wellness and vitality."
+      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and balance yin-yang energies, promoting overall wellness and vitality.",
+      "ko_category": "부식"
     },
     {
       "요리명": "Lily Bulb & Lotus Root Pancake",
@@ -958,7 +1037,8 @@
       "출처": 80,
       "카테고리": "Tonic",
       "ancient_citation": "Donguibogam (1613), health care section",
-      "ancient_context": "This traditional K-Food tonic is designed to harmonize the properties of ingredients and balance yin-yang energies, promoting overall wellness and vitality."
+      "ancient_context": "This traditional K-Food tonic is designed to harmonize the properties of ingredients and balance yin-yang energies, promoting overall wellness and vitality.",
+      "ko_category": "부식"
     },
     {
       "요리명": "Mung Bean Pancake",
@@ -970,7 +1050,8 @@
       "출처": 81,
       "카테고리": "Beverage",
       "ancient_citation": "Donguibogam (1613), health care section",
-      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and prevent adverse reactions, aligning with the principles of Eastern medicine."
+      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and prevent adverse reactions, aligning with the principles of Eastern medicine.",
+      "ko_category": "부식"
     },
     {
       "요리명": "Bellflower Root & Vegetable Fritters",
@@ -982,7 +1063,8 @@
       "출처": 82,
       "카테고리": "Beverage",
       "ancient_citation": "Donguibogam (1613), health care section",
-      "ancient_context": "This traditional K-Food wellness recipe harmonizes the properties of ingredients to promote balance and vitality, aligning with ancient Eastern medical principles."
+      "ancient_context": "This traditional K-Food wellness recipe harmonizes the properties of ingredients to promote balance and vitality, aligning with ancient Eastern medical principles.",
+      "ko_category": "부식"
     },
     {
       "요리명": "Poria Mushroom Pancake",
@@ -994,7 +1076,8 @@
       "출처": 83,
       "카테고리": "Beverage",
       "ancient_citation": "Donguibogam (1613), health care section",
-      "ancient_context": "This traditional K-Food recipe is designed to harmonize the body's energies and promote overall well-being through the synergy of ingredients and cooking methods."
+      "ancient_context": "This traditional K-Food recipe is designed to harmonize the body's energies and promote overall well-being through the synergy of ingredients and cooking methods.",
+      "ko_category": "부식"
     },
     {
       "요리명": "Aralia Shoots & Tofu Pancake",
@@ -1006,7 +1089,8 @@
       "출처": 84,
       "카테고리": "Beverage",
       "ancient_citation": "Donguibogam (1613), health care section",
-      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and prevent adverse reactions, aligning with the principles of Eastern medicine."
+      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and prevent adverse reactions, aligning with the principles of Eastern medicine.",
+      "ko_category": "부식"
     },
     {
       "요리명": "Chinese Yam & Sesame Leaf Pancake",
@@ -1018,7 +1102,8 @@
       "출처": 85,
       "카테고리": "Digestive Health",
       "ancient_citation": "Donguibogam (1613), health care section",
-      "ancient_context": "This traditional K-Food recipe is designed to harmonize the energies of ingredients and balance the body's constitution, aligning with the principles of Eastern medicine."
+      "ancient_context": "This traditional K-Food recipe is designed to harmonize the energies of ingredients and balance the body's constitution, aligning with the principles of Eastern medicine.",
+      "ko_category": "부식"
     },
     {
       "요리명": "Siberian Ginseng Pan-fried Stuffed Peppers",
@@ -1030,7 +1115,8 @@
       "출처": 86,
       "카테고리": "Beverage",
       "ancient_citation": "Donguibogam (1613), health care section",
-      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and balance the body's energies, aligning with the principles of Eastern medicine."
+      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and balance the body's energies, aligning with the principles of Eastern medicine.",
+      "ko_category": "부식"
     },
     {
       "요리명": "Angelica Seafood Pancake",
@@ -1042,7 +1128,8 @@
       "출처": 87,
       "카테고리": "Beverage",
       "ancient_citation": "Donguibogam (1613), health care section",
-      "ancient_context": "This traditional K-Food recipe is designed to harmonize the body's energies and promote overall well-being by balancing the yin-yang forces."
+      "ancient_context": "This traditional K-Food recipe is designed to harmonize the body's energies and promote overall well-being by balancing the yin-yang forces.",
+      "ko_category": "부식"
     },
     {
       "요리명": "Cinnamon Sweet Potato Pancake",
@@ -1054,7 +1141,8 @@
       "출처": 88,
       "카테고리": "Digestive",
       "ancient_citation": "Donguibogam (1613), health care section",
-      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and balance yin and yang energies, promoting overall well-being."
+      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and balance yin and yang energies, promoting overall well-being.",
+      "ko_category": "부식"
     },
     {
       "요리명": "Goji Berry Zucchini Pancake",
@@ -1066,7 +1154,8 @@
       "출처": 89,
       "카테고리": "Bujik",
       "ancient_citation": "Donguibogam (1613), health care section",
-      "ancient_context": "This traditional K-Food recipe is designed to harmonize the energies of ingredients and balance the body's yin and yang, promoting overall wellness."
+      "ancient_context": "This traditional K-Food recipe is designed to harmonize the energies of ingredients and balance the body's yin and yang, promoting overall wellness.",
+      "ko_category": "부식"
     },
     {
       "요리명": "Polygonatum Chive Pancake",
@@ -1078,7 +1167,8 @@
       "출처": 90,
       "카테고리": "Soup",
       "ancient_citation": "Donguibogam (1613), health care section",
-      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and prevent adverse reactions, aligning with the principles of Eastern medicine."
+      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and prevent adverse reactions, aligning with the principles of Eastern medicine.",
+      "ko_category": "부식"
     },
     {
       "요리명": "Steamed Pear with White Wood Ear",
@@ -1090,7 +1180,8 @@
       "출처": 91,
       "카테고리": "Seasoning",
       "ancient_citation": "Donguibogam (1613), health care section",
-      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and prevent adverse interactions, aligning with the principles of Eastern medicine."
+      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and prevent adverse interactions, aligning with the principles of Eastern medicine.",
+      "ko_category": "양념"
     },
     {
       "요리명": "Goji Berry & Jujube Tea",
@@ -1102,7 +1193,8 @@
       "출처": 92,
       "카테고리": "Herbal Tea",
       "ancient_citation": "Forest Economy (Sanlim Gyeongje, 1715) Toothpaste/Sound Hearing Edition",
-      "ancient_context": "This traditional herbal tea recipe is designed to nourish the body's vital energy, regulate emotions, and promote overall well-being."
+      "ancient_context": "This traditional herbal tea recipe is designed to nourish the body's vital energy, regulate emotions, and promote overall well-being.",
+      "ko_category": "양념"
     },
     {
       "요리명": "Ginger Cinnamon Tea",
@@ -1114,7 +1206,8 @@
       "출처": 93,
       "카테고리": "Seasoning",
       "ancient_citation": "Forest Economy (Sanlim Gyeongje, 1715) Toothpaste/Sound Hearing Edition",
-      "ancient_context": "This traditional tea recipe is a harmonious blend of flower petals and herbs that balances the body's vital energy, regulating the flow of bodily fluids and emotions."
+      "ancient_context": "This traditional tea recipe is a harmonious blend of flower petals and herbs that balances the body's vital energy, regulating the flow of bodily fluids and emotions.",
+      "ko_category": "양념"
     },
     {
       "요리명": "Omija Honey Fruit Punch",
@@ -1126,7 +1219,8 @@
       "출처": 94,
       "카테고리": "Herbal Tea",
       "ancient_citation": "Forest Economy (Sanlim Gyeongje, 1715) Toothpaste/Sound Hearing Edition",
-      "ancient_context": "This traditional tea recipe is a way to balance the body's energy and regulate one's vital force by infusing flowers and herbs in a soothing brew."
+      "ancient_context": "This traditional tea recipe is a way to balance the body's energy and regulate one's vital force by infusing flowers and herbs in a soothing brew.",
+      "ko_category": "양념"
     },
     {
       "요리명": "Lily Bulb & Polygonatum Tea",
@@ -1138,7 +1232,8 @@
       "출처": 95,
       "카테고리": "Herbal Tea",
       "ancient_citation": "Forest Economy (Sanlim Gyeongje, 1715) Toothpaste/Sound Hearing Edition",
-      "ancient_context": "This traditional herbal tea recipe is a harmonious blend of flower petals and herbs that nourishes the body's fluids, regulates the flow of energy, and soothes the mind."
+      "ancient_context": "This traditional herbal tea recipe is a harmonious blend of flower petals and herbs that nourishes the body's fluids, regulates the flow of energy, and soothes the mind.",
+      "ko_category": "양념"
     },
     {
       "요리명": "Chrysanthemum Savory Crepes",
@@ -1150,7 +1245,8 @@
       "출처": 96,
       "카테고리": "Tonic",
       "ancient_citation": "Donguibogam (1613) Ongjeo/Tang-aek edition",
-      "ancient_context": "This tonic recipe is designed to purify the body by eliminating toxins through urination and promoting healthy blood circulation, much like a traditional Korean medicine prescription."
+      "ancient_context": "This tonic recipe is designed to purify the body by eliminating toxins through urination and promoting healthy blood circulation, much like a traditional Korean medicine prescription.",
+      "ko_category": "양념"
     },
     {
       "요리명": "Roasted Job's Tears Rice Cake Balls",
@@ -1162,7 +1258,8 @@
       "출처": 97,
       "카테고리": "Herbal",
       "ancient_citation": "Donguibogam (1613), health care section",
-      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients, promoting balance and vitality through a synergy of botanical actives."
+      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients, promoting balance and vitality through a synergy of botanical actives.",
+      "ko_category": "양념"
     },
     {
       "요리명": "Hawthorn Digestive Fruit Punch",
@@ -1174,7 +1271,8 @@
       "출처": 98,
       "카테고리": "Seasoning",
       "ancient_citation": "Forest Economy (Sanlim Gyeongje, 1715) Toothpaste/Sound Hearing Edition",
-      "ancient_context": "This traditional tonic recipe is a harmonious blend of herbs and flowers that nourishes the body's vital energies, promoting balance and vitality."
+      "ancient_context": "This traditional tonic recipe is a harmonious blend of herbs and flowers that nourishes the body's vital energies, promoting balance and vitality.",
+      "ko_category": "양념"
     },
     {
       "요리명": "Ophiopogon Sweet Rice Punch",
@@ -1186,7 +1284,8 @@
       "출처": 99,
       "카테고리": "Seasoning",
       "ancient_citation": "Donguibogam (1613), health care section",
-      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and prevent adverse reactions, aligning with the principles of Eastern medicine."
+      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and prevent adverse reactions, aligning with the principles of Eastern medicine.",
+      "ko_category": "양념"
     },
     {
       "요리명": "Sweetened Bellflower & Pumpkin Glaze",
@@ -1198,7 +1297,8 @@
       "출처": 100,
       "카테고리": "Seasoning",
       "ancient_citation": "Forest Economy (Sanlim Gyeongje, 1715) Toothpaste/Sound Hearing Edition",
-      "ancient_context": "This traditional recipe is a harmonious blend of flower petals and herbs that helps to balance the body's vital energy and promote overall well-being."
+      "ancient_context": "This traditional recipe is a harmonious blend of flower petals and herbs that helps to balance the body's vital energy and promote overall well-being.",
+      "ko_category": "양념"
     },
     {
       "요리명": "Calm-Mind Lotus Leaf Tea",
@@ -1210,7 +1310,8 @@
       "출처": 101,
       "카테고리": "Herbal Tea",
       "ancient_citation": "Forest Economy (Sanlim Gyeongje, 1715) Toothpaste/Sound Hearing Edition",
-      "ancient_context": "This traditional herbal tea recipe is a harmonious blend of flower petals and herbs, designed to regulate the body's vital energies and promote overall well-being."
+      "ancient_context": "This traditional herbal tea recipe is a harmonious blend of flower petals and herbs, designed to regulate the body's vital energies and promote overall well-being.",
+      "ko_category": "양념"
     },
     {
       "요리명": "Poria Red Bean Jelly",
@@ -1222,7 +1323,8 @@
       "출처": 102,
       "카테고리": "Flavor",
       "ancient_citation": "Donguibogam (1613), health care section",
-      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients, balance yin and yang energies, and promote overall well-being according to ancient Eastern medical principles."
+      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients, balance yin and yang energies, and promote overall well-being according to ancient Eastern medical principles.",
+      "ko_category": "양념"
     },
     {
       "요리명": "Chinese Yam Sweet Rice Balls",
@@ -1234,7 +1336,8 @@
       "출처": 103,
       "카테고리": "Seasoning",
       "ancient_citation": "Donguibogam (1613), health care section",
-      "ancient_context": "This traditional K-Food tonic is designed to harmonize the properties of ingredients and balance yin-yang energies, promoting overall well-being."
+      "ancient_context": "This traditional K-Food tonic is designed to harmonize the properties of ingredients and balance yin-yang energies, promoting overall well-being.",
+      "ko_category": "양념"
     },
     {
       "요리명": "Sweet Violet Herbal Punch",
@@ -1246,7 +1349,8 @@
       "출처": 104,
       "카테고리": "Seasoning",
       "ancient_citation": "Forest Economy (Sanlim Gyeongje, 1715) Toothpaste/Sound Hearing Edition",
-      "ancient_context": "This traditional tonic recipe is designed to provide clarity and balance the body's energy by combining flower petals and herbal ingredients."
+      "ancient_context": "This traditional tonic recipe is designed to provide clarity and balance the body's energy by combining flower petals and herbal ingredients.",
+      "ko_category": "양념"
     },
     {
       "요리명": "Solomon's Seal Buckwheat Wraps",
@@ -1258,7 +1362,8 @@
       "출처": 105,
       "카테고리": "Seasoned",
       "ancient_citation": "Donguibogam (1613), health care section",
-      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and balance yin and yang energies, promoting overall wellness."
+      "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and balance yin and yang energies, promoting overall wellness.",
+      "ko_category": "양념"
     },
     {
       "요리명": "Pre-Meal Safflower Rice Wine (Functional)",
@@ -1268,7 +1373,8 @@
       "기미 및 귀경": "Properties: Warm (溫性), Bitter (辛味) and Sweet (甘味). Effects: Spleen-Heart-Kidney harmonization.",
       "조리 방법 요약": "Steep Rehmannia and Angelica in traditional Korean liquor to create a functional, adaptogenic tonic.",
       "카테고리": "Seasoning",
-      "출처": 106
+      "출처": 106,
+      "ko_category": "양념"
     },
     {
       "요리명": "Safflower Digestif Tea",
@@ -1278,7 +1384,8 @@
       "기미 및 귀경": "Taste: slightly sweet and bitter. Effect: calming and soothing.",
       "조리 방법 요약": "Steep Dandelion root, Licorice root, and Platycodon leaves in warm water to create a refreshing and balancing tea.",
       "카테고리": "Herbal Tea",
-      "출처": 107
+      "출처": 107,
+      "ko_category": "양념"
     },
     {
       "요리명": "Traditional Roasted Rice Tea (Sungnyung)",
@@ -1288,7 +1395,8 @@
       "기미 및 귀경": "Properties: Warm, Sweet, and Bitter. Effects: Soothing, Harmonizing.",
       "조리 방법 요약": "Boil ginseng in water until the desired flavor is achieved, then serve.",
       "카테고리": "Seasoning",
-      "출처": 108
+      "출처": 108,
+      "ko_category": "양념"
     },
     {
       "요리명": "Astragalus Tofu Doenjang Stew",
@@ -1298,7 +1406,8 @@
       "기미 및 귀경": "Ki: Warmth (), Sweetness (), Saltness (). Gui: Earthy, Digestive.",
       "조리 방법 요약": "Brew the turmeric tea, then add the doenjang to make a savory broth, and finally add tofu, mushrooms, bitter melon, and green onion. Simmer until the flavors meld together.",
       "카테고리": "Soup",
-      "출처": 109
+      "출처": 109,
+      "ko_category": "국물"
     },
     {
       "요리명": "Hawthorn Mushroom Gochujang Stew",
@@ -1308,7 +1417,8 @@
       "기미 및 귀경": "Characteristics: Warm, sour, and sweet. Suitable for those seeking balance and harmony in their digestive system.",
       "조리 방법 요약": "Cook pork and gochujang in a pot, add ginseng broth, mushrooms, and potatoes, then simmer until the ingredients are fully cooked.",
       "카테고리": "Soup",
-      "출처": 110
+      "출처": 110,
+      "ko_category": "국물"
     },
     {
       "요리명": "Chinese Yam & Pollock Bean Curd Stew",
@@ -1318,7 +1428,8 @@
       "기미 및 귀경": "Properties: Neutral, Sweet. Nourishing, Balancing.",
       "조리 방법 요약": "Cook kimchi and cod in a pot until it's well combined, then add Korean Beech Leaves and ginseng powder to create a harmonious and nourishing stew.",
       "카테고리": "Soup",
-      "출처": 111
+      "출처": 111,
+      "ko_category": "국물"
     }
   ],
   "ja": [
@@ -1332,7 +1443,8 @@
       "출처": 1,
       "카테고리": "主食",
       "ancient_citation": "規制総書（Gyuhap Chongseo、1809）",
-      "ancient_context": "|\nこの伝統的なレシピは、体のエネルギーバランスを整え、全体的な健康を促進するための和みの組み合わせを通じて原理に基づいています。"
+      "ancient_context": "|\nこの伝統的なレシピは、体のエネルギーバランスを整え、全体的な健康を促進するための和みの組み合わせを通じて原理に基づいています。",
+      "ko_category": "주식"
     },
     {
       "요리명": "体に優しい紅 Dates Spaghetti",
@@ -1344,7 +1456,8 @@
       "출처": 2,
       "카테고리": "主食",
       "ancient_citation": "同意補感(Donguibogam, 1613) 養生編",
-      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。"
+      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。",
+      "ko_category": "주식"
     },
     {
       "요리명": "マ・福パッタルクス",
@@ -1356,7 +1469,8 @@
       "출처": 3,
       "카테고리": "主食",
       "ancient_citation": "食料賛美（Sikryo Chanyo、1460）",
-      "ancient_context": "伝統的 食治 理論に基づいて、マ・福パッタルクスに含まれる薬材の胃袋保護機能と気力回復を目指した古典食生活処方です."
+      "ancient_context": "伝統的 食治 理論に基づいて、マ・福パッタルクスに含まれる薬材の胃袋保護機能と気力回復を目指した古典食生活処方です.",
+      "ko_category": "주식"
     },
     {
       "요리명": "サグンジャ ヤクセンジュク",
@@ -1368,7 +1482,8 @@
       "출처": 4,
       "카테고리": "主食",
       "ancient_citation": "食料賛美（Sikryo Chanyo、1460）",
-      "ancient_context": "몸에 상냥한 기운이 있고, 식욕이 있으면서도 기력이 다하고 있었을 경우, 조제해 마시는 전통의 보양죽입니다."
+      "ancient_context": "몸에 상냥한 기운이 있고, 식욕이 있으면서도 기력이 다하고 있었을 경우, 조제해 마시는 전통의 보양죽입니다.",
+      "ko_category": "주식"
     },
     {
       "요리명": "体に優しい煮物",
@@ -1380,7 +1495,8 @@
       "출처": 5,
       "카테고리": "主食",
       "ancient_citation": "同意補感（Donguibogam、1613）",
-      "ancient_context": "この秋/冬の伝統的な料理は、体を強化し、皮膚のバリアを強化するのに役立ち、体温を調節し、疲労を軽減します。"
+      "ancient_context": "この秋/冬の伝統的な料理は、体を強化し、皮膚のバリアを強化するのに役立ち、体温を調節し、疲労を軽減します。",
+      "ko_category": "주식"
     },
     {
       "요리명": "麦門洞麦飯",
@@ -1392,7 +1508,8 @@
       "출처": 6,
       "카테고리": "主食",
       "ancient_citation": "食料賛美（Sikryo Chanyo、1460）",
-      "ancient_context": "몸의 열을 낮추고, 림프액을 생성하고, 갈레와 기침을 진정시키고, 신체의 조화를 유지하는 구황 요리입니다."
+      "ancient_context": "몸의 열을 낮추고, 림프액을 생성하고, 갈레와 기침을 진정시키고, 신체의 조화를 유지하는 구황 요리입니다.",
+      "ko_category": "주식"
     },
     {
       "요리명": "山藥栗粥",
@@ -1404,7 +1521,8 @@
       "출처": 7,
       "카테고리": "主食",
       "ancient_citation": "同意補感（Donguibogam、1613）",
-      "ancient_context": "간을 강하게하고 체내의 습기를 제거하여 膝関節の腫れや痛みを治す補養式です。"
+      "ancient_context": "간을 강하게하고 체내의 습기를 제거하여 膝関節の腫れや痛みを治す補養式です。",
+      "ko_category": "주식"
     },
     {
       "요리명": "白髪大豆竹",
@@ -1416,7 +1534,8 @@
       "출처": 8,
       "카테고리": "主食",
       "ancient_citation": "同意補感（Donguibogam、1613）",
-      "ancient_context": "心を安定させ、安神して不眠症や気管支乾燥を治療する子音湯法料理です。"
+      "ancient_context": "心を安定させ、安神して不眠症や気管支乾燥を治療する子音湯法料理です。",
+      "ko_category": "주식"
     },
     {
       "요리명": "人参連膽粥",
@@ -1428,7 +1547,8 @@
       "출처": 9,
       "카테고리": "主食",
       "ancient_citation": "規制総書（Gyuhap Chongseo、1809）",
-      "ancient_context": "朝鮮王室で楽しんでいたボヤンシクで、秘訣を見て心身を安心させる宮中薬船です。"
+      "ancient_context": "朝鮮王室で楽しんでいたボヤンシクで、秘訣を見て心身を安心させる宮中薬船です。",
+      "ko_category": "주식"
     },
     {
       "요리명": "天宮堂桂手作ビ",
@@ -1440,7 +1560,8 @@
       "출처": 10,
       "카테고리": "主食",
       "ancient_citation": "同意補感（Donguibogam、1613）",
-      "ancient_context": "血液循環を促進し、皮を補強する(保血活血)代表的な伝統薬理手作ビ料理です。"
+      "ancient_context": "血液循環を促進し、皮を補強する(保血活血)代表的な伝統薬理手作ビ料理です。",
+      "ko_category": "주식"
     },
     {
       "요리명": "複霊豬肉芋頭饅頭",
@@ -1452,7 +1573,8 @@
       "출처": 11,
       "카테고리": "株式",
       "ancient_citation": "フードディミバン（Eumsik Dimibang、1670）",
-      "ancient_context": "脾臓を健康にし、利尿作用を通じて体の浮腫を抜いて糖尿の予防を助ける伝統饅頭式です。"
+      "ancient_context": "脾臓を健康にし、利尿作用を通じて体の浮腫を抜いて糖尿の予防を助ける伝統饅頭式です。",
+      "ko_category": "주식"
     },
     {
       "요리명": "Kudzu and Brown Rice Porridge",
@@ -1464,7 +1586,8 @@
       "출처": 12,
       "카테고리": "Staple",
       "ancient_citation": "同意補感（Donguibogam、1613）",
-      "ancient_context": "This longevity-promoting porridge helps to regulate the liver and kidneys, and soothes the back and knees."
+      "ancient_context": "This longevity-promoting porridge helps to regulate the liver and kidneys, and soothes the back and knees.",
+      "ko_category": "주식"
     },
     {
       "요리명": "体に優しい gentle daily wellness (Desu)",
@@ -1476,7 +1599,8 @@
       "출처": 13,
       "카테고리": "主食",
       "ancient_citation": "規制総書（Gyuhap Chongseo、1809）",
-      "ancient_context": "|\n体に優しい gentle daily wellness (Desu)"
+      "ancient_context": "|\n体に優しい gentle daily wellness (Desu)",
+      "ko_category": "주식"
     },
     {
       "요리명": "三七キジャンバプ",
@@ -1488,7 +1612,8 @@
       "출처": 14,
       "카테고리": "主食",
       "ancient_citation": "ボンチョガンモク（Bonchogangmok、1596）",
-      "ancient_context": "体内の血液循環を調整し、微小出血を防止し、傷口を回復させる伝統の治療法です。"
+      "ancient_context": "体内の血液循環を調整し、微小出血を防止し、傷口を回復させる伝統の治療法です。",
+      "ko_category": "주식"
     },
     {
       "요리명": "体に優しい白牡丹そばのスープ",
@@ -1500,7 +1625,8 @@
       "출처": 15,
       "카테고리": "主食",
       "ancient_citation": "同意補感（Donguibogam、1613）",
-      "ancient_context": "伝統的な栄養豊かなそばのスープは消化器のエネルギーを和らげ、腹部の痛みや内熱を和らげます。"
+      "ancient_context": "伝統的な栄養豊かなそばのスープは消化器のエネルギーを和らげ、腹部の痛みや内熱を和らげます。",
+      "ko_category": "주식"
     },
     {
       "요리명": "体に優しい和風の総合栄養バランスのPorridgeです。身体を整え、心地よい体験をお楽しみください。\n\n(Translation: This is a harmonious vitality porridge that provides comprehensive nutrition balance for your body and mind. Enjoy a pleasant experience.)",
@@ -1512,7 +1638,8 @@
       "출처": 16,
       "카테고리": "主食",
       "ancient_citation": "同意補感（Donguibogam、1613）",
-      "ancient_context": "この長寿促進型の粥は、骨健康をサポートし、消化器を栄養豊かにします。老化を防ぎます。"
+      "ancient_context": "この長寿促進型の粥は、骨健康をサポートし、消化器を栄養豊かにします。老化を防ぎます。",
+      "ko_category": "주식"
     },
     {
       "요리명": "体に優しい、身体にやさしい、健康のためのパティバップです。",
@@ -1524,7 +1651,8 @@
       "출처": 17,
       "카테고리": "主食",
       "ancient_citation": "食料賛美（Sikryo Chanyo、1460）",
-      "ancient_context": "この伝統的なレシピは、传统医学の原理に基づいており、消化器健康と全体的な健康を向上させるためのゴジヤとパットの利点を強調しています。"
+      "ancient_context": "この伝統的なレシピは、传统医学の原理に基づいており、消化器健康と全体的な健康を向上させるためのゴジヤとパットの利点を強調しています。",
+      "ko_category": "주식"
     },
     {
       "요리명": "黑豆安心竹",
@@ -1536,7 +1664,8 @@
       "출처": 18,
       "카테고리": "主食",
       "ancient_citation": "食料賛美（Sikryo Chanyo、1460）",
-      "ancient_context": "伝統食理理論に基づいて、黑豆安心竹に含まれる薬剤の胃腸粘膜保護機能と気力回復を図った古典食生活処方です。"
+      "ancient_context": "伝統食理理論に基づいて、黑豆安心竹に含まれる薬剤の胃腸粘膜保護機能と気力回復を図った古典食生活処方です。",
+      "ko_category": "주식"
     },
     {
       "요리명": "バランスのとれた和え物菓子",
@@ -1548,7 +1677,8 @@
       "출처": 19,
       "카테고리": "主食",
       "ancient_citation": "食料賛美（Sikryo Chanyo、1460）",
-      "ancient_context": "この伝統的なレシピは、传统医学の原理に基づいており、原材料が消化器系に保護効果をもたらし、活力を促進する能力があることを強調しています。"
+      "ancient_context": "この伝統的なレシピは、传统医学の原理に基づいており、原材料が消化器系に保護効果をもたらし、活力を促進する能力があることを強調しています。",
+      "ko_category": "주식"
     },
     {
       "요리명": "白出感草翁心飯",
@@ -1560,7 +1690,8 @@
       "출처": 20,
       "카테고리": "主食",
       "ancient_citation": "食料賛美（Sikryo Chanyo、1460）",
-      "ancient_context": "伝統食理理論に基づき、白出感草翁心飯に含まれる薬剤の胃腸粘膜保護機能と気力回復を図った古典食生活処方です。"
+      "ancient_context": "伝統食理理論に基づき、白出感草翁心飯に含まれる薬剤の胃腸粘膜保護機能と気力回復を図った古典食生活処方です。",
+      "ko_category": "주식"
     },
     {
       "요리명": "サンサ薬船ビビンバ",
@@ -1572,7 +1703,8 @@
       "출처": 21,
       "카테고리": "株式",
       "ancient_citation": "食料賛美（Sikryo Chanyo、1460）",
-      "ancient_context": "伝統食理理論に基づき、産師薬船ビビンバに含まれる薬材の胃腸粘膜保護機能と気力回復を図った古典食生活処方です。"
+      "ancient_context": "伝統食理理論に基づき、産師薬船ビビンバに含まれる薬材の胃腸粘膜保護機能と気力回復を図った古典食生活処方です。",
+      "ko_category": "주식"
     },
     {
       "요리명": "のいしん ぼようばっぷ",
@@ -1584,7 +1716,8 @@
       "출처": 22,
       "카테고리": "主食",
       "ancient_citation": "食料賛美（Sikryo Chanyo、1460）",
-      "ancient_context": "伝統食理理論に基づき、のいしんぼようばっぷに含まれる薬剤の胃腸粘膜保護機能と気力回復を図った古典食生活処方です。"
+      "ancient_context": "伝統食理理論に基づき、のいしんぼようばっぷに含まれる薬剤の胃腸粘膜保護機能と気力回復を図った古典食生活処方です。",
+      "ko_category": "주식"
     },
     {
       "요리명": "山薬消化粥",
@@ -1596,7 +1729,8 @@
       "출처": 23,
       "카테고리": "主食",
       "ancient_citation": "食料賛美（Sikryo Chanyo、1460）",
-      "ancient_context": "伝統食理理論に基づき、山药消化竹に含まれる薬剤の胃腸粘膜保護機能と気力回復を図った古典食生活処方です。"
+      "ancient_context": "伝統食理理論に基づき、山药消化竹に含まれる薬剤の胃腸粘膜保護機能と気力回復を図った古典食生活処方です。",
+      "ko_category": "주식"
     },
     {
       "요리명": "マクムドン ヤクセンマンズ",
@@ -1608,7 +1742,8 @@
       "출처": 24,
       "카테고리": "主食",
       "ancient_citation": "同意補感(Donguibogam, 1613) 養生編",
-      "ancient_context": "伝統 東洋医学的調理体系に合わせて食材間の弱性シナジーを高め、相反を防ぐように設計された正統K-Food保養食です。"
+      "ancient_context": "伝統 東洋医学的調理体系に合わせて食材間の弱性シナジーを高め、相反を防ぐように設計された正統K-Food保養食です。",
+      "ko_category": "주식"
     },
     {
       "요리명": "グギザカボチャ",
@@ -1620,7 +1755,8 @@
       "출처": 25,
       "카테고리": "株式",
       "ancient_citation": "同意補感(Donguibogam, 1613) 養生編",
-      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。"
+      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。",
+      "ko_category": "주식"
     },
     {
       "요리명": "地区の東太湯",
@@ -1632,7 +1768,8 @@
       "출처": 26,
       "카테고리": "スープ",
       "ancient_citation": "郷土料理（全羅道地方）",
-      "ancient_context": "小屋実（地球者）を煎じ、二日酔い解消と主毒解毒能力を最大化した全羅道伝統海岸街の食事です。"
+      "ancient_context": "小屋実（地球者）を煎じ、二日酔い解消と主毒解毒能力を最大化した全羅道伝統海岸街の食事です。",
+      "ko_category": "국물"
     },
     {
       "요리명": "鶏脚粥",
@@ -1644,7 +1781,8 @@
       "출처": 27,
       "카테고리": "スープ",
       "ancient_citation": "ドンギボガム（Donguibogam、1613）",
-      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにゆっくり煮込んだスープ系の養生料理です。"
+      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにゆっくり煮込んだスープ系の養生料理です。",
+      "ko_category": "국물"
     },
     {
       "요리명": "サクンジャ ヤクトカ",
@@ -1656,7 +1794,8 @@
       "출처": 28,
       "카테고리": "国物",
       "ancient_citation": "同意補感(Donguibogam, 1613) 養生編",
-      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。"
+      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。",
+      "ko_category": "국물"
     },
     {
       "요리명": "八珍五味湯",
@@ -1668,7 +1807,8 @@
       "출처": 29,
       "카테고리": "スープ",
       "ancient_citation": "ドンギボガム（Donguibogam、1613）",
-      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにゆっくり煮込んだスープ系の養生料理です。"
+      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにゆっくり煮込んだスープ系の養生料理です。",
+      "ko_category": "국물"
     },
     {
       "요리명": "たてのもやし",
@@ -1680,7 +1820,8 @@
       "출처": 30,
       "카테고리": "スープ",
       "ancient_citation": "ドンギボガム（Donguibogam、1613）",
-      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにゆっくり煮込んだスープ系の養生料理です。"
+      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにゆっくり煮込んだスープ系の養生料理です。",
+      "ko_category": "국물"
     },
     {
       "요리명": "豚肉無国",
@@ -1692,7 +1833,8 @@
       "출처": 31,
       "카테고리": "スープ",
       "ancient_citation": "ドンギボガム（Donguibogam、1613）",
-      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにゆっくり煮込んだスープ系の養生料理です。"
+      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにゆっくり煮込んだスープ系の養生料理です。",
+      "ko_category": "국물"
     },
     {
       "요리명": "姉妹が屈国",
@@ -1704,7 +1846,8 @@
       "출처": 32,
       "카테고리": "スープ",
       "ancient_citation": "ドンギボガム（Donguibogam、1613）",
-      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにゆっくり煮込んだスープ系の養生料理です。"
+      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにゆっくり煮込んだスープ系の養生料理です。",
+      "ko_category": "국물"
     },
     {
       "요리명": "マクムンドン保養カルビタン",
@@ -1716,7 +1859,8 @@
       "출처": 33,
       "카테고리": "スープ",
       "ancient_citation": "ドンギボガム（Donguibogam、1613）",
-      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにゆっくり煮込んだスープ系の養生料理です。"
+      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにゆっくり煮込んだスープ系の養生料理です。",
+      "ko_category": "국물"
     },
     {
       "요리명": "ウスル トガニタン",
@@ -1728,7 +1872,8 @@
       "출처": 34,
       "카테고리": "スープ",
       "ancient_citation": "同意補感（Donguibogam、1613）",
-      "ancient_context": "膝軟骨を補強し、腰痛を治し、関節の水分代謝を助ける漢方骨粗鬆症予防湯剤です。"
+      "ancient_context": "膝軟骨を補強し、腰痛を治し、関節の水分代謝を助ける漢方骨粗鬆症予防湯剤です。",
+      "ko_category": "국물"
     },
     {
       "요리명": "オオムシのアヒル",
@@ -1740,7 +1885,8 @@
       "출처": 35,
       "카테고리": "スープ",
       "ancient_citation": "郷土料理（慶尚道地方）",
-      "ancient_context": "関節の低林を消去し、小腸の熱を下げ、慢性寒冷疲労を改善する慶尚道渓谷の保養料理です。"
+      "ancient_context": "関節の低林を消去し、小腸の熱を下げ、慢性寒冷疲労を改善する慶尚道渓谷の保養料理です。",
+      "ko_category": "국물"
     },
     {
       "요리명": "唐鬼活血サムゲタン",
@@ -1752,7 +1898,8 @@
       "출처": 36,
       "카테고리": "スープ",
       "ancient_citation": "同意補感（Donguibogam、1613）",
-      "ancient_context": "気血を双歩して顔色をきれいにし、水族冷症と血液循環不足を改善する伝統的なサムゲタンです。"
+      "ancient_context": "気血を双歩して顔色をきれいにし、水族冷症と血液循環不足を改善する伝統的なサムゲタンです。",
+      "ko_category": "국물"
     },
     {
       "요리명": "志保解熱陸開場",
@@ -1764,7 +1911,8 @@
       "출처": 37,
       "카테고리": "スープ",
       "ancient_citation": "同意補感(Donguibogam, 1613) 養生編",
-      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。"
+      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。",
+      "ko_category": "국물"
     },
     {
       "요리명": "クギジャ 名太チリ",
@@ -1776,7 +1924,8 @@
       "출처": 38,
       "카테고리": "スープ",
       "ancient_citation": "同意補感(Donguibogam, 1613) 養生編",
-      "ancient_context": "伝統 東洋医学的調理体系に合わせて食材間の弱性シナジーを高め、相反を防ぐように設計された正統K-Food保養食です。"
+      "ancient_context": "伝統 東洋医学的調理体系に合わせて食材間の弱性シナジーを高め、相反を防ぐように設計された正統K-Food保養食です。",
+      "ko_category": "국물"
     },
     {
       "요리명": "オガフィ黒塩素湯",
@@ -1788,7 +1937,8 @@
       "출처": 39,
       "카테고리": "スープ",
       "ancient_citation": "ドンギボガム（Donguibogam、1613）",
-      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにゆっくり煮込んだスープ系の養生料理です。"
+      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにゆっくり煮込んだスープ系の養生料理です。",
+      "ko_category": "국물"
     },
     {
       "요리명": "結明子オリ前拾",
@@ -1800,7 +1950,8 @@
       "출처": 40,
       "카테고리": "スープ",
       "ancient_citation": "ドンギボガム（Donguibogam、1613）",
-      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにゆっくり煮込んだスープ系の養生料理です。"
+      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにゆっくり煮込んだスープ系の養生料理です。",
+      "ko_category": "국물"
     },
     {
       "요리명": "義人のシウォン米駅",
@@ -1812,7 +1963,8 @@
       "출처": 41,
       "카테고리": "スープ",
       "ancient_citation": "ドンギボガム（Donguibogam、1613）",
-      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにゆっくり煮込んだスープ系の養生料理です。"
+      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにゆっくり煮込んだスープ系の養生料理です。",
+      "ko_category": "국물"
     },
     {
       "요리명": "モノの血まみれの尾くま湯",
@@ -1824,7 +1976,8 @@
       "출처": 42,
       "카테고리": "スープ",
       "ancient_citation": "ドンギボガム（Donguibogam、1613）",
-      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにゆっくり煮込んだスープ系の養生料理です。"
+      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにゆっくり煮込んだスープ系の養生料理です。",
+      "ko_category": "국물"
     },
     {
       "요리명": "ポゴニョン清熱解毒局",
@@ -1836,7 +1989,8 @@
       "출처": 43,
       "카테고리": "スープ",
       "ancient_citation": "ボンチョガンモク（Bonchogangmok、1596）",
-      "ancient_context": "タンポポの強力な消炎作用を活用して、肝臓と胃の炎症を治す解毒局です。"
+      "ancient_context": "タンポポの強力な消炎作用を活用して、肝臓と胃の炎症を治す解毒局です。",
+      "ko_category": "국물"
     },
     {
       "요리명": "Jinpi Sohwageun",
@@ -1848,7 +2002,8 @@
       "출처": 44,
       "카테고리": "スープ",
       "ancient_citation": "食料賛美（Sikryo Chanyo、1460）",
-      "ancient_context": "This is a traditional recipe that helps to eliminate gas and promote digestion by stimulating the intestines. It's a gentle and soothing dish for daily wellness."
+      "ancient_context": "This is a traditional recipe that helps to eliminate gas and promote digestion by stimulating the intestines. It's a gentle and soothing dish for daily wellness.",
+      "ko_category": "국물"
     },
     {
       "요리명": "龍安肉アンシンカルビタン",
@@ -1860,7 +2015,8 @@
       "출처": 45,
       "카테고리": "スープ",
       "ancient_citation": "ドンギボガム（Donguibogam、1613）",
-      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにゆっくり煮込んだスープ系の養生料理です。"
+      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにゆっくり煮込んだスープ系の養生料理です。",
+      "ko_category": "국물"
     },
     {
       "요리명": "Korean Radish and Ginseng Soup",
@@ -1872,7 +2028,8 @@
       "출처": 46,
       "카테고리": "Soup",
       "ancient_citation": "食料賛美（Sikryo Chanyo、1460）",
-      "ancient_context": "This Korean Radish and Ginseng Soup is a harmonious blend of the cooling properties of Korean radish and the iron-rich properties of Ginseng, working together to treat hangover-induced digestive issues."
+      "ancient_context": "This Korean Radish and Ginseng Soup is a harmonious blend of the cooling properties of Korean radish and the iron-rich properties of Ginseng, working together to treat hangover-induced digestive issues.",
+      "ko_category": "국물"
     },
     {
       "요리명": "ササムの牛骨汤",
@@ -1884,7 +2041,8 @@
       "출처": 47,
       "카테고리": "スープ",
       "ancient_citation": "郷土料理（忠清道地方）",
-      "ancient_context": "ササムの免疫活性成分と豚牛骨の自音成分を融合した忠清道山間の名物調理です。"
+      "ancient_context": "ササムの免疫活性成分と豚牛骨の自音成分を融合した忠清道山間の名物調理です。",
+      "ko_category": "국물"
     },
     {
       "요리명": "結明子貝湯",
@@ -1896,7 +2054,8 @@
       "출처": 48,
       "카테고리": "スープ",
       "ancient_citation": "ドンギボガム（Donguibogam、1613）",
-      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにゆっくり煮込んだスープ系の養生料理です。"
+      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにゆっくり煮込んだスープ系の養生料理です。",
+      "ko_category": "국물"
     },
     {
       "요리명": "キリョク カンショ ドラジタン",
@@ -1908,7 +2067,8 @@
       "출처": 49,
       "카테고리": "国物",
       "ancient_citation": "ドンギボガム（Donguibogam、1613）",
-      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにゆっくり煮込んだスープ系の養生料理です。"
+      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにゆっくり煮込んだスープ系の養生料理です。",
+      "ko_category": "국물"
     },
     {
       "요리명": "次の貝殻米駅",
@@ -1920,7 +2080,8 @@
       "출처": 50,
       "카테고리": "スープ",
       "ancient_citation": "ドンギボガム（Donguibogam、1613）",
-      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにゆっくり煮込んだスープ系の養生料理です。"
+      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにゆっくり煮込んだスープ系の養生料理です。",
+      "ko_category": "국물"
     },
     {
       "요리명": "Yakseon Guki-ja Muna-mul",
@@ -1932,7 +2093,8 @@
       "출처": 51,
       "카테고리": "おかず",
       "ancient_citation": "規制総書（Gyuhap Chongseo、1809）",
-      "ancient_context": "This traditional Korean side dish is based on the principles of harmony between the five flavors and the balance of yin and yang. It is a gentle and soothing food that helps to promote digestion and overall well-being."
+      "ancient_context": "This traditional Korean side dish is based on the principles of harmony between the five flavors and the balance of yin and yang. It is a gentle and soothing food that helps to promote digestion and overall well-being.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "モノのミニ足",
@@ -1944,7 +2106,8 @@
       "출처": 52,
       "카테고리": "腐食",
       "ancient_citation": "同意補感(Donguibogam, 1613) 養生編",
-      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。"
+      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。",
+      "ko_category": "부식"
     },
     {
       "요리명": "無塵地味噌の調理",
@@ -1956,7 +2119,8 @@
       "출처": 53,
       "카테고리": "反賛",
       "ancient_citation": "規制総書（Gyuhap Chongseo、1809）",
-      "ancient_context": "韓国方五味調和に基づき、半上で薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。"
+      "ancient_context": "韓国方五味調和に基づき、半上で薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。",
+      "ko_category": "반찬"
     },
     {
       "요리명": "マネールのダンジー・ジャンアッチ",
@@ -1968,7 +2132,8 @@
       "출처": 54,
       "카테고리": "反賛",
       "ancient_citation": "フードディミバン（Eumsik Dimibang、1670）",
-      "ancient_context": "マネールの胃腸保温効能とダンジーの活血効能が浸透圧漬法により融合された伝統的なうなぎです。"
+      "ancient_context": "マネールの胃腸保温効能とダンジーの活血効能が浸透圧漬法により融合された伝統的なうなぎです。",
+      "ko_category": "반찬"
     },
     {
       "요리명": "ゴール減算苦味ハーブ",
@@ -1980,7 +2145,8 @@
       "출처": 55,
       "카테고리": "おかず",
       "ancient_citation": "規制総書（Gyuhap Chongseo、1809）",
-      "ancient_context": "心臓の火気を下げて胃液の分泌を増やし、春の味を引き立てる代表的な英南地方の高調理でおかずです。"
+      "ancient_context": "心臓の火気を下げて胃液の分泌を増やし、春の味を引き立てる代表的な英南地方の高調理でおかずです。",
+      "ko_category": "반찬"
     },
     {
       "요리명": "山茶牛肉煮",
@@ -1992,7 +2158,8 @@
       "출처": 56,
       "카테고리": "腐食",
       "ancient_citation": "郷土料理（京畿道地方）",
-      "ancient_context": "肉消化剤である山茶果実を長煮に入れて、生態肉のタンパク質吸収を最大化した京畿道陪nobles'保養食です。"
+      "ancient_context": "肉消化剤である山茶果実を長煮に入れて、生態肉のタンパク質吸収を最大化した京畿道陪nobles'保養食です。",
+      "ko_category": "부식"
     },
     {
       "요리명": "ハスオコンジャバン",
@@ -2004,7 +2171,8 @@
       "출처": 57,
       "카테고리": "おかず",
       "ancient_citation": "郷土料理（江原道地方）",
-      "ancient_context": "江原道清浄霜泰太と滴下水汚れを調えて老化を防ぎ、視力を澄んで維持させる長寿のおかずです。"
+      "ancient_context": "江原道清浄霜泰太と滴下水汚れを調えて老化を防ぎ、視力を澄んで維持させる長寿のおかずです。",
+      "ko_category": "반찬"
     },
     {
       "요리명": "薬の豆腐の木の針",
@@ -2016,7 +2184,8 @@
       "출처": 58,
       "카테고리": "おかず",
       "ancient_citation": "規制総書（Gyuhap Chongseo、1809）",
-      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。"
+      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。",
+      "ko_category": "반찬"
     },
     {
       "요리명": "やっと肉の煮込み炒め",
@@ -2028,7 +2197,8 @@
       "출처": 59,
       "카테고리": "おかず",
       "ancient_citation": "規制総書（Gyuhap Chongseo、1809）",
-      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。"
+      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。",
+      "ko_category": "반찬"
     },
     {
       "요리명": "巻き卵無針",
@@ -2040,7 +2210,8 @@
       "출처": 60,
       "카테고리": "おかず",
       "ancient_citation": "規制総書（Gyuhap Chongseo、1809）",
-      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。"
+      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。",
+      "ko_category": "반찬"
     },
     {
       "요리명": "タルエ ボヒョルサンチャ",
@@ -2052,7 +2223,8 @@
       "출처": 61,
       "카테고리": "おかず",
       "ancient_citation": "規制総書（Gyuhap Chongseo、1809）",
-      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。"
+      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。",
+      "ko_category": "반찬"
     },
     {
       "요리명": "風風菜解毒無針",
@@ -2064,7 +2236,8 @@
       "출처": 62,
       "카테고리": "反賛",
       "ancient_citation": "規制総書（Gyuhap Chongseo、1809）",
-      "ancient_context": "몸에 상냥한 풍습의 독성을 배제하고, 미세 분진 등의 유해 가스를 방호하는 고급 조리서에 수록된 웰빙 나물입니다."
+      "ancient_context": "몸에 상냥한 풍습의 독성을 배제하고, 미세 분진 등의 유해 가스를 방호하는 고급 조리서에 수록된 웰빙 나물입니다.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "ウスルレンコン煮",
@@ -2076,7 +2249,8 @@
       "출처": 63,
       "카테고리": "おかず",
       "ancient_citation": "郷土料理（全羅道地方）",
-      "ancient_context": "蓮根の止血効果と牛の下半身強化作用を融合して骨の健康をしっか​​りと治す湖南半分のおかずです。"
+      "ancient_context": "蓮根の止血効果と牛の下半身強化作用を融合して骨の健康をしっか​​りと治す湖南半分のおかずです。",
+      "ko_category": "반찬"
     },
     {
       "요리명": "Kari Dora Jina-mul",
@@ -2088,7 +2262,8 @@
       "출처": 64,
       "카테고리": "おかず",
       "ancient_citation": "規制総書（Gyuhap Chongseo、1809）",
-      "ancient_context": "This traditional preserved vegetable dish is based on the harmony of the five flavors in Korean medicine and aims to enhance the effects of ingredients and improve digestion."
+      "ancient_context": "This traditional preserved vegetable dish is based on the harmony of the five flavors in Korean medicine and aims to enhance the effects of ingredients and improve digestion.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "タンポポ味噌生菜",
@@ -2100,7 +2275,8 @@
       "출처": 65,
       "카테고리": "おかず",
       "ancient_citation": "規制総書（Gyuhap Chongseo、1809）",
-      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。"
+      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。",
+      "ko_category": "반찬"
     },
     {
       "요리명": "健康なジャガイモの煮物",
@@ -2112,7 +2288,8 @@
       "출처": 66,
       "카테고리": "おかず",
       "ancient_citation": "規制総書（Gyuhap Chongseo、1809）",
-      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。"
+      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。",
+      "ko_category": "반찬"
     },
     {
       "요리명": "キキョウ育て炒め",
@@ -2124,7 +2301,8 @@
       "출처": 67,
       "카테고리": "腐食",
       "ancient_citation": "規制総書（Gyuhap Chongseo、1809）",
-      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。"
+      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。",
+      "ko_category": "부식"
     },
     {
       "요리명": "天弓のかき葉うなぎ",
@@ -2136,7 +2314,8 @@
       "출처": 68,
       "카테고리": "おかず",
       "ancient_citation": "規制総書（Gyuhap Chongseo、1809）",
-      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。"
+      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。",
+      "ko_category": "반찬"
     },
     {
       "요리명": "生の子羊の炒め",
@@ -2148,7 +2327,8 @@
       "출처": 69,
       "카테고리": "腐食",
       "ancient_citation": "規制総書（Gyuhap Chongseo、1809）",
-      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。"
+      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。",
+      "ko_category": "부식"
     },
     {
       "요리명": "オガピ メルチジョリム",
@@ -2160,7 +2340,8 @@
       "출처": 70,
       "카테고리": "反賛",
       "ancient_citation": "規制総書（Gyuhap Chongseo、1809）",
-      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。"
+      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。",
+      "ko_category": "반찬"
     },
     {
       "요리명": "クギジャ ドゥブジョリム",
@@ -2172,7 +2353,8 @@
       "출처": 71,
       "카테고리": "反賛",
       "ancient_citation": "規制総書（Gyuhap Chongseo、1809）",
-      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。"
+      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。",
+      "ko_category": "반찬"
     },
     {
       "요리명": "サムチル ウエンジョリム",
@@ -2184,7 +2366,8 @@
       "출처": 72,
       "카테고리": "反賛",
       "ancient_citation": "規制総書（Gyuhap Chongseo、1809）",
-      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。"
+      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。",
+      "ko_category": "반찬"
     },
     {
       "요리명": "艶出しニンニク",
@@ -2196,7 +2379,8 @@
       "출처": 73,
       "카테고리": "おかず",
       "ancient_citation": "規制総書（Gyuhap Chongseo、1809）",
-      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。"
+      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。",
+      "ko_category": "반찬"
     },
     {
       "요리명": "白鶴藥キュウム針",
@@ -2208,7 +2392,8 @@
       "출처": 74,
       "카테고리": "おかず",
       "ancient_citation": "規制総書（Gyuhap Chongseo、1809）",
-      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。"
+      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。",
+      "ko_category": "반찬"
     },
     {
       "요리명": "唐辛子無針",
@@ -2220,7 +2405,8 @@
       "출처": 75,
       "카테고리": "おかず",
       "ancient_citation": "規制総書（Gyuhap Chongseo、1809）",
-      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。"
+      "ancient_context": "漢方の味味五味調和に基づき、半上から薬効の相互作用と消化率を高めるように加工した伝統的な保存式ハーブのおかずです。",
+      "ko_category": "반찬"
     },
     {
       "요리명": "よもぎチケット",
@@ -2232,7 +2418,8 @@
       "출처": 76,
       "카테고리": "腐食",
       "ancient_citation": "同意補感(Donguibogam, 1613) 養生編",
-      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。"
+      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。",
+      "ko_category": "부식"
     },
     {
       "요리명": "麻・さつまいも揚げ",
@@ -2244,7 +2431,8 @@
       "출처": 77,
       "카테고리": "腐食",
       "ancient_citation": "同意補感(Donguibogam, 1613) 養生編",
-      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。"
+      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。",
+      "ko_category": "부식"
     },
     {
       "요리명": "人参揚げ",
@@ -2256,7 +2444,8 @@
       "출처": 78,
       "카테고리": "腐食",
       "ancient_citation": "同意補感(Donguibogam, 1613) 養生編",
-      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。"
+      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。",
+      "ko_category": "부식"
     },
     {
       "요리명": "ファンギミナリジョン",
@@ -2268,7 +2457,8 @@
       "출처": 79,
       "카테고리": "腐食",
       "ancient_citation": "同意補感(Donguibogam, 1613) 養生編",
-      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。"
+      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。",
+      "ko_category": "부식"
     },
     {
       "요리명": "白髪燕根湯",
@@ -2280,7 +2470,8 @@
       "출처": 80,
       "카테고리": "腐食",
       "ancient_citation": "同意補感(Donguibogam, 1613) 養生編",
-      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。"
+      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。",
+      "ko_category": "부식"
     },
     {
       "요리명": "緑豆ビンデトック",
@@ -2292,7 +2483,8 @@
       "출처": 81,
       "카테고리": "腐食",
       "ancient_citation": "同意補感(Donguibogam, 1613) 養生編",
-      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。"
+      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。",
+      "ko_category": "부식"
     },
     {
       "요리명": "キリョン野菜揚げ",
@@ -2304,7 +2496,8 @@
       "출처": 82,
       "카테고리": "腐食",
       "ancient_citation": "同意補感(Donguibogam, 1613) 養生編",
-      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。"
+      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。",
+      "ko_category": "부식"
     },
     {
       "요리명": "福陵キノコ煮",
@@ -2316,7 +2509,8 @@
       "출처": 83,
       "카테고리": "腐食",
       "ancient_citation": "同意補感(Donguibogam, 1613) 養生編",
-      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。"
+      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。",
+      "ko_category": "부식"
     },
     {
       "요리명": "ドゥル豆腐戦",
@@ -2328,7 +2522,8 @@
       "출처": 84,
       "카테고리": "腐食",
       "ancient_citation": "同意補感(Donguibogam, 1613) 養生編",
-      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。"
+      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。",
+      "ko_category": "부식"
     },
     {
       "요리명": "茎薬のかき葉",
@@ -2340,7 +2535,8 @@
       "출처": 85,
       "카테고리": "腐食",
       "ancient_citation": "同意補感(Donguibogam, 1613) 養生編",
-      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。"
+      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。",
+      "ko_category": "부식"
     },
     {
       "요리명": "オガピ コチュジュン",
@@ -2352,7 +2548,8 @@
       "출처": 86,
       "카테고리": "ブシキ",
       "ancient_citation": "同意補感(Donguibogam, 1613) 養生編",
-      "ancient_context": "伝統的な東洋医学的調理システムに合わせて、食材間の弱さの相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。"
+      "ancient_context": "伝統的な東洋医学的調理システムに合わせて、食材間の弱さの相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。",
+      "ko_category": "부식"
     },
     {
       "요리명": "ドンギシーフード破戦",
@@ -2364,7 +2561,8 @@
       "출처": 87,
       "카테고리": "腐食",
       "ancient_citation": "同意補感(Donguibogam, 1613) 養生編",
-      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。"
+      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。",
+      "ko_category": "부식"
     },
     {
       "요리명": "シナモンサツマイモ",
@@ -2376,7 +2574,8 @@
       "출처": 88,
       "카테고리": "腐食",
       "ancient_citation": "同意補感(Donguibogam, 1613) 養生編",
-      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。"
+      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。",
+      "ko_category": "부식"
     },
     {
       "요리명": "クギジャ アエホバクトン",
@@ -2388,7 +2587,8 @@
       "출처": 89,
       "카테고리": "ブシキ",
       "ancient_citation": "同意補感(Donguibogam, 1613) 養生編",
-      "ancient_context": "伝統的なドヤン医学的調理体系に合わせて食材間のやくせんシナジーを高め上極を防ぎながら正統なK-Food保養食です。"
+      "ancient_context": "伝統的なドヤン医学的調理体系に合わせて食材間のやくせんシナジーを高め上極を防ぎながら正統なK-Food保養食です。",
+      "ko_category": "부식"
     },
     {
       "요리명": "ファンジョンブチュジョン",
@@ -2400,7 +2600,8 @@
       "출처": 90,
       "카테고리": "腐食",
       "ancient_citation": "同意補感(Donguibogam, 1613) 養生編",
-      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。"
+      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。",
+      "ko_category": "부식"
     },
     {
       "요리명": "銀製のベスクギャング",
@@ -2412,7 +2613,8 @@
       "출처": 91,
       "카테고리": "味付け",
       "ancient_citation": "同意補感(Donguibogam, 1613) 養生編",
-      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。"
+      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。",
+      "ko_category": "양념"
     },
     {
       "요리명": "グギザ大推車",
@@ -2424,7 +2626,8 @@
       "출처": 92,
       "카테고리": "味付け",
       "ancient_citation": "森林経済（Sanlim Gyeongje、1715）歯磨き粉/飲み物",
-      "ancient_context": "体内の真液を澄んで供給し、オーラの上りをじっくり調節するために、花びらや薬材を煎じて飲んだ伝統的な飲み物料理です。"
+      "ancient_context": "体内の真液を澄んで供給し、オーラの上りをじっくり調節するために、花びらや薬材を煎じて飲んだ伝統的な飲み物料理です。",
+      "ko_category": "양념"
     },
     {
       "요리명": "生姜カイヒチャ",
@@ -2436,7 +2639,8 @@
       "출처": 93,
       "카테고리": "味付け",
       "ancient_citation": "森林経済（Sanlim Gyeongje、1715）歯磨き粉/飲み物",
-      "ancient_context": "内臓の清流を保つため、花葉や薬草を加えて飲む伝統的な音調料理です。"
+      "ancient_context": "内臓の清流を保つため、花葉や薬草を加えて飲む伝統的な音調料理です。",
+      "ko_category": "양념"
     },
     {
       "요리명": "オイマジャ クリルファチャ",
@@ -2448,7 +2652,8 @@
       "출처": 94,
       "카테고리": "ようねん",
       "ancient_citation": "森林経済（Sanlim Gyeongje、1715）歯磨き粉/飲み物",
-      "ancient_context": "体内の浄化を目指し、気運の上下を調節するために花葉や薬材を加えて飲む伝統的な音調料理です。"
+      "ancient_context": "体内の浄化を目指し、気運の上下を調節するために花葉や薬材を加えて飲む伝統的な音調料理です。",
+      "ko_category": "양념"
     },
     {
       "요리명": "白髪黄庭茶",
@@ -2460,7 +2665,8 @@
       "출처": 95,
       "카테고리": "味付け",
       "ancient_citation": "森林経済（Sanlim Gyeongje、1715）歯磨き粉/飲み物",
-      "ancient_context": "体内の津液を澄んで供給し、オーラの上りをじっくり調節するために花びらや薬材を煎じて飲んでいた伝統的な飲み物料理です。"
+      "ancient_context": "体内の津液を澄んで供給し、オーラの上りをじっくり調節するために花びらや薬材を煎じて飲んでいた伝統的な飲み物料理です。",
+      "ko_category": "양념"
     },
     {
       "요리명": "国華 薏線 蔵",
@@ -2472,7 +2678,8 @@
       "출처": 96,
       "카테고리": "味付け",
       "ancient_citation": "ドンギボガム（Donguibogam、1613）",
-      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにすっかり煮込んだ味付け系の養生料理です。"
+      "ancient_context": "体内の毒素を尿で排出し、血行をスムーズに治めるために湯薬月のようにすっかり煮込んだ味付け系の養生料理です。",
+      "ko_category": "양념"
     },
     {
       "요리명": "安心悠務単子",
@@ -2484,7 +2691,8 @@
       "출처": 97,
       "카테고리": "味付け",
       "ancient_citation": "同意補感(Donguibogam, 1613) 養生編",
-      "ancient_context": "伝統的な東洋医学的調理システムに合わせて食材間の弱性シナジーを高め、相反を防ぐように設計された本格的なK-Food保養食です。"
+      "ancient_context": "伝統的な東洋医学的調理システムに合わせて食材間の弱性シナジーを高め、相反を防ぐように設計された本格的なK-Food保養食です。",
+      "ko_category": "양념"
     },
     {
       "요리명": "山茶消化楽菓子",
@@ -2496,7 +2704,8 @@
       "출처": 98,
       "카테고리": "味付け",
       "ancient_citation": "森林経済（Sanlim Gyeongje、1715）歯磨き粉/飲み物",
-      "ancient_context": "体内の真液を澄んで供給し、オーラの上りをじっくり調節するために、花びらや薬材を煎じて飲んだ伝統的な飲み物料理です。"
+      "ancient_context": "体内の真液を澄んで供給し、オーラの上りをじっくり調節するために、花びらや薬材を煎じて飲んだ伝統的な飲み物料理です。",
+      "ko_category": "양념"
     },
     {
       "요리명": "マクムンドン薬局",
@@ -2508,7 +2717,8 @@
       "출처": 99,
       "카테고리": "味付け",
       "ancient_citation": "同意補感(Donguibogam, 1613) 養生編",
-      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。"
+      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。",
+      "ko_category": "양념"
     },
     {
       "요리명": "ギルギョンカボチャチョン科",
@@ -2520,7 +2730,8 @@
       "출처": 100,
       "카테고리": "味付け",
       "ancient_citation": "森林経済（Sanlim Gyeongje、1715）歯磨き粉/飲み物",
-      "ancient_context": "体内の真液を澄んで供給し、オーラの上りをじっくり調節するために、花びらや薬材を煎じて飲んだ伝統的な飲み物料理です。"
+      "ancient_context": "体内の真液を澄んで供給し、オーラの上りをじっくり調節するために、花びらや薬材を煎じて飲んだ伝統的な飲み物料理です。",
+      "ko_category": "양념"
     },
     {
       "요리명": "安心の香りの蓮の紅茶",
@@ -2532,7 +2743,8 @@
       "출처": 101,
       "카테고리": "味付け",
       "ancient_citation": "森林経済（Sanlim Gyeongje、1715）歯磨き粉/飲み物",
-      "ancient_context": "体内の真液を澄んで供給し、オーラの上りをじっくり調節するために、花びらや薬材を煎じて飲んだ伝統的な飲み物料理です。"
+      "ancient_context": "体内の真液を澄んで供給し、オーラの上りをじっくり調節するために、花びらや薬材を煎じて飲んだ伝統的な飲み物料理です。",
+      "ko_category": "양념"
     },
     {
       "요리명": "ボクリョンダンパニャン",
@@ -2544,7 +2756,8 @@
       "출처": 102,
       "카테고리": "味付け",
       "ancient_citation": "同意補感(Donguibogam, 1613) 養生編",
-      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。"
+      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。",
+      "ko_category": "양념"
     },
     {
       "요리명": "山藥補養經蛋",
@@ -2556,7 +2769,8 @@
       "출처": 103,
       "카테고리": "味付け",
       "ancient_citation": "同意補感(Donguibogam, 1613) 養生編",
-      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。"
+      "ancient_context": "伝統的な東洋医学調理システムに合わせて食材間の弱さ相乗効果を高め、相極を防ぐように設計された本格的なK-Food保養食です。",
+      "ko_category": "양념"
     },
     {
       "요리명": "ツバメ花漢方花菜",
@@ -2568,7 +2782,8 @@
       "출처": 104,
       "카테고리": "味付け",
       "ancient_citation": "森林経済（Sanlim Gyeongje、1715）歯磨き粉/飲み物",
-      "ancient_context": "体内の真液を澄んで供給し、オーラの上りをじっくり調節するために、花びらや薬材を煎じて飲んだ伝統的な飲み物料理です。"
+      "ancient_context": "体内の真液を澄んで供給し、オーラの上りをじっくり調節するために、花びらや薬材を煎じて飲んだ伝統的な飲み物料理です。",
+      "ko_category": "양념"
     },
     {
       "요리명": "ドングルレ メミル ミッツァム",
@@ -2580,7 +2795,8 @@
       "출처": 105,
       "카테고리": "ようねん",
       "ancient_citation": "同意補感(Donguibogam, 1613) 養生編",
-      "ancient_context": "じょうとう どうやんの いあくにあついて、しょくりょうの やくせん しゅんねんをあがって、しょうじょう K-Food ぼようしきです."
+      "ancient_context": "じょうとう どうやんの いあくにあついて、しょくりょうの やくせん しゅんねんをあがって、しょうじょう K-Food ぼようしきです.",
+      "ko_category": "양념"
     },
     {
       "요리명": "食前 ヤクセン ホンホウジュ(機能酒)",
@@ -2590,7 +2806,8 @@
       "기미 및 귀경": "シミ:温性、辛味、甘味。耳鏡：心鏡、肝硬、胃鏡。",
       "조리 방법 요약": "伝統曲酒にホンホウとダングギを浸出して連ねて機能性薬用酒を作る.",
       "카테고리": "味付け",
-      "출처": 106
+      "출처": 106,
+      "ko_category": "양념"
     },
     {
       "요리명": "入気清浄紅花茶",
@@ -2600,7 +2817,8 @@
       "기미 및 귀경": "シミ: 平性か少し涼しさ、苦味および甘味。耳鏡：心鏡、肝硬。",
       "조리 방법 요약": "暖かい水に紅花と甘草、ミントの葉を軽く温め、開運に懸念入気清浄用に出す。",
       "카테고리": "味付け",
-      "출처": 107
+      "출처": 107,
+      "ko_category": "양념"
     },
     {
       "요리명": "伝統のグスンション",
@@ -2610,7 +2828,8 @@
       "기미 및 귀경": "気味：温性、甘味及び淡味。 耳鏡：非経、肝経。",
       "조리 방법 요약": "ヌルングジにみずを注いでグスンションの味が浮き上がるまで煮詰める。",
       "카테고리": "味付け",
-      "출처": 108
+      "출처": 108,
+      "ko_category": "양념"
     },
     {
       "요리명": "ファンギ豆腐味噌チゲ",
@@ -2620,7 +2839,8 @@
       "기미 및 귀경": "シミ: 温性(溫性)、甘味(甘味)、塩味(鹹味)耳鏡：秘経、胃鏡。",
       "조리 방법 요약": "ファンギを煮て薬水を出して、その薬水に味噌を解き、豆腐とキノコ、カボチャを入れて自作にチゲを煮る。",
       "카테고리": "スープ",
-      "출처": 109
+      "출처": 109,
+      "ko_category": "국물"
     },
     {
       "요리명": "山茶 バスケット ゴチュジャンチゲ",
@@ -2630,7 +2850,8 @@
       "기미 및 귀경": "シミ: 温性(溫性)、酸味(酸味)および辛く甘味。胃鏡、肝硬。",
       "조리 방법 요약": "鍋にドジャギョギとゴチュジャンを炒め、山茶薬水を入れてカンザとバスケットを入れてじっくり煮る。",
       "카테고리": "スープ",
-      "출처": 110
+      "출처": 110,
+      "ko_category": "국물"
     },
     {
       "요리명": "山藥同泰ビジチケ",
@@ -2640,7 +2861,8 @@
       "기미 및 귀경": "シミ: 平性、甘味。神経、非経口。",
       "조리 방법 요약": "トクベギにキムチと同泰を炒め、ビジと山藥粉を混ぜて自作する。",
       "카테고리": "スープ",
-      "출처": 111
+      "출처": 111,
+      "ko_category": "국물"
     }
   ],
   "ar": [
@@ -2654,7 +2876,8 @@
       "출처": 1,
       "카테고리": "مخزون",
       "ancient_citation": "غيوهاب تشونغسيو (1809)",
-      "ancient_context": "إنها تقنية طاولة طب الأعشاب التقليدية في جوجوريو التي تغذي سائل يين في الكبد والكليتين وتجعل الشعر داكنًا."
+      "ancient_context": "إنها تقنية طاولة طب الأعشاب التقليدية في جوجوريو التي تغذي سائل يين في الكبد والكليتين وتجعل الشعر داكنًا.",
+      "ko_category": "주식"
     },
     {
       "요리명": "معكرونة بلح البحر",
@@ -2666,7 +2889,8 @@
       "출처": 2,
       "카테고리": "مخزون",
       "ancient_citation": "دونغيبوجام (1613)، قسم الرعاية الصحية",
-      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي."
+      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي.",
+      "ko_category": "주식"
     },
     {
       "요리명": "ماء وبرك بات كال كون سو",
@@ -2678,7 +2902,8 @@
       "출처": 3,
       "카테고리": "مخزون",
       "ancient_citation": "طعام تشانيو (سيكريو تشانيو، 1460)",
-      "ancient_context": "على أساس النظرية التقليدية لطب الأكل، فإن ماء وبرك بات كال كون سو يحتوي على مكونات طبيعية تمنح الحماية للقناة الهضمية وتعزيز القوة."
+      "ancient_context": "على أساس النظرية التقليدية لطب الأكل، فإن ماء وبرك بات كال كون سو يحتوي على مكونات طبيعية تمنح الحماية للقناة الهضمية وتعزيز القوة.",
+      "ko_category": "주식"
     },
     {
       "요리명": "أربعة سادة عصيدة الأعشاب",
@@ -2690,7 +2915,8 @@
       "출처": 4,
       "카테고리": "مخزون",
       "ancient_citation": "سيكريو تشانيو (1460)",
-      "ancient_context": "إنها عصيدة صحية تقليدية في غوهوانغ يتم تخميرها وشربها عندما تكون المعدة ضعيفة، وتنعدم الشهية وتنضب الطاقة."
+      "ancient_context": "إنها عصيدة صحية تقليدية في غوهوانغ يتم تخميرها وشربها عندما تكون المعدة ضعيفة، وتنعدم الشهية وتنضب الطاقة.",
+      "ko_category": "주식"
     },
     {
       "요리명": "استراغالوس الأرز الصحي",
@@ -2702,7 +2928,8 @@
       "출처": 5,
       "카테고리": "مخزون",
       "ancient_citation": "دونغيبوجام (1613)",
-      "ancient_context": "هذه وجبة خريف وشتاء تقليدية تقوي الحيوية وتقوي حاجز الجلد وتوقف التعرق البارد."
+      "ancient_context": "هذه وجبة خريف وشتاء تقليدية تقوي الحيوية وتقوي حاجز الجلد وتوقف التعرق البارد.",
+      "ko_category": "주식"
     },
     {
       "요리명": "أرز ماكموندونج بالشعير",
@@ -2714,7 +2941,8 @@
       "출처": 6,
       "카테고리": "مخزون",
       "ancient_citation": "سيكريو تشانيو (1460)",
-      "ancient_context": "وهو طبق عشبي طبي من تسعة هوانج يخفف الحرارة في الرئتين والمعدة وينتج سائلًا لتهدئة البلغم والسعال."
+      "ancient_context": "وهو طبق عشبي طبي من تسعة هوانج يخفف الحرارة في الرئتين والمعدة وينتج سائلًا لتهدئة البلغم والسعال.",
+      "ko_category": "주식"
     },
     {
       "요리명": "عصيدة سانياك كويكس",
@@ -2726,7 +2954,8 @@
       "출처": 7,
       "카테고리": "مخزون",
       "ancient_citation": "دونغيبوجام (1613)",
-      "ancient_context": "وهو غذاء صحي يقوي الطحال ويزيل الرطوبة من الجسم لتخفيف التورم والألم في مفصل الركبة."
+      "ancient_context": "وهو غذاء صحي يقوي الطحال ويزيل الرطوبة من الجسم لتخفيف التورم والألم في مفصل الركبة.",
+      "ko_category": "주식"
     },
     {
       "요리명": "عصيدة زنبق العناب",
@@ -2738,7 +2967,8 @@
       "출처": 8,
       "카테고리": "مخزون",
       "ancient_citation": "دونغيبوجام (1613)",
-      "ancient_context": "وهو طبق Jaeumyunpye الذي يهدئ العقل ويهدئ العقل، وبالتالي يعالج الأرق وجفاف الشعب الهوائية."
+      "ancient_context": "وهو طبق Jaeumyunpye الذي يهدئ العقل ويهدئ العقل، وبالتالي يعالج الأرق وجفاف الشعب الهوائية.",
+      "ko_category": "주식"
     },
     {
       "요리명": "الجينسنغ يونجيوميوكباب",
@@ -2750,7 +2980,8 @@
       "출처": 9,
       "카테고리": "مخزون",
       "ancient_citation": "غيوهاب تشونغسيو (1809)",
-      "ancient_context": "وهو غذاء صحي تتمتع به عائلة جوسون الملكية وهو دواء عشبي ملكي يهدئ المعدة ويهدئ العقل والجسم."
+      "ancient_context": "وهو غذاء صحي تتمتع به عائلة جوسون الملكية وهو دواء عشبي ملكي يهدئ المعدة ويهدئ العقل والجسم.",
+      "ko_category": "주식"
     },
     {
       "요리명": "تشيونجونج أنجليكا سوجيبي",
@@ -2762,7 +2993,8 @@
       "출처": 10,
       "카테고리": "مخزون",
       "ancient_citation": "دونغيبوجام (1613)",
-      "ancient_context": "إنه طبق سوجيبي دوائي تقليدي تمثيلي يعزز دوران الطاقة والدم ويجدد الدم (تجديد الدم)."
+      "ancient_context": "إنه طبق سوجيبي دوائي تقليدي تمثيلي يعزز دوران الطاقة والدم ويجدد الدم (تجديد الدم).",
+      "ko_category": "주식"
     },
     {
       "요리명": "فطائر البطاطس بلحم الخنزير بوكريونج",
@@ -2774,7 +3006,8 @@
       "출처": 11,
       "카테고리": "مخزون",
       "ancient_citation": "يومسيك ديميبانغ (1670)",
-      "ancient_context": "إنها وجبة زلابية تقليدية تحافظ على صحة الطحال، وتقلل من تورم الجسم من خلال عمل مدر للبول، وتساعد على الوقاية من مرض السكري."
+      "ancient_context": "إنها وجبة زلابية تقليدية تحافظ على صحة الطحال، وتقلل من تورم الجسم من خلال عمل مدر للبول، وتساعد على الوقاية من مرض السكري.",
+      "ko_category": "주식"
     },
     {
       "요리명": "غوجي بيري الأرز البني",
@@ -2786,7 +3019,8 @@
       "출처": 12,
       "카테고리": "مخزون",
       "ancient_citation": "دونغيبوجام (1613)",
-      "ancient_context": "وهي وجبة مغذية طويلة الأمد، تقوي الكبد والكليتين، وتنظف العينين، وتدفئ الخصر والركبتين."
+      "ancient_context": "وهي وجبة مغذية طويلة الأمد، تقوي الكبد والكليتين، وتنظف العينين، وتدفئ الخصر والركبتين.",
+      "ko_category": "주식"
     },
     {
       "요리명": "انجليكا جمشت السودان",
@@ -2798,7 +3032,8 @@
       "출처": 13,
       "카테고리": "مخزون",
       "ancient_citation": "غيوهاب تشونغسيو (1809)",
-      "ancient_context": "إنها وجبة صيام تقليدية أنيقة تعمل على تجديد طاقة تشي ودم المرأة، وتساعد الدورة الدموية في القلب، وتزود جوهر الأمعاء الخمسة."
+      "ancient_context": "إنها وجبة صيام تقليدية أنيقة تعمل على تجديد طاقة تشي ودم المرأة، وتساعد الدورة الدموية في القلب، وتزود جوهر الأمعاء الخمسة.",
+      "ko_category": "주식"
     },
     {
       "요리명": "أرز الدخن سامشيل",
@@ -2810,7 +3045,8 @@
       "출처": 14,
       "카테고리": "مخزون",
       "ancient_citation": "بونتشوغانغموك (1596)",
-      "ancient_context": "وهي وجبة تقليدية تعمل على التخلص من جلطات الدم، وتمنع النزيف الدقيق في جميع أنحاء الجسم، وتساعد على التعافي من الكدمات."
+      "ancient_context": "وهي وجبة تقليدية تعمل على التخلص من جلطات الدم، وتمنع النزيف الدقيق في جميع أنحاء الجسم، وتساعد على التعافي من الكدمات.",
+      "ko_category": "주식"
     },
     {
       "요리명": "نودلز الحنطة السوداء بالفاوانيا البيضاء",
@@ -2822,7 +3058,8 @@
       "출처": 15,
       "카테고리": "مخزون",
       "ancient_citation": "دونغيبوجام (1613)",
-      "ancient_context": "وهو حساء صحي تقليدي منعش يخفف احتقان الكبد ويخفف آلام تقلصات البطن."
+      "ancient_context": "وهو حساء صحي تقليدي منعش يخفف احتقان الكبد ويخفف آلام تقلصات البطن.",
+      "ko_category": "주식"
     },
     {
       "요리명": "سانجي سينج عصيدة السمسم",
@@ -2834,7 +3071,8 @@
       "출처": 16,
       "카테고리": "مخزون",
       "ancient_citation": "دونغيبوجام (1613)",
-      "ancient_context": "إنها عصيدة عشبية تدوم طويلاً ومفيدة في الوقاية من الشيخوخة عن طريق تقوية الكبد والكلى وتقوية العظام وترطيب الأمعاء."
+      "ancient_context": "إنها عصيدة عشبية تدوم طويلاً ومفيدة في الوقاية من الشيخوخة عن طريق تقوية الكبد والكلى وتقوية العظام وترطيب الأمعاء.",
+      "ko_category": "주식"
     },
     {
       "요리명": "غوجي بيري أرز الفاصوليا الحمراء",
@@ -2846,7 +3084,8 @@
       "출처": 17,
       "카테고리": "مخزون",
       "ancient_citation": "طعام تشانيو (سيكريو تشانيو، 1460)",
-      "ancient_context": "استنادًا إلى نظرية النظام الغذائي التقليدية، فهذه وصفة غذائية كلاسيكية تعزز وظيفة حماية الغشاء المخاطي المعوي واستعادة الطاقة للمكونات الطبية الموجودة في أرز الفاصوليا الحمراء بتوت غوجي."
+      "ancient_context": "استنادًا إلى نظرية النظام الغذائي التقليدية، فهذه وصفة غذائية كلاسيكية تعزز وظيفة حماية الغشاء المخاطي المعوي واستعادة الطاقة للمكونات الطبية الموجودة في أرز الفاصوليا الحمراء بتوت غوجي.",
+      "ko_category": "주식"
     },
     {
       "요리명": "السمسم الأسود أنسينجوك",
@@ -2858,7 +3097,8 @@
       "출처": 18,
       "카테고리": "مخزون",
       "ancient_citation": "طعام تشانيو (سيكريو تشانيو، 1460)",
-      "ancient_context": "استنادًا إلى نظرية النظام الغذائي التقليدية، فهي وصفة غذائية كلاسيكية تعزز وظيفة حماية الغشاء المخاطي في الجهاز الهضمي واستعادة الطاقة للمكونات الطبية الموجودة في السمسم الأسود أنسينجوك."
+      "ancient_context": "استنادًا إلى نظرية النظام الغذائي التقليدية، فهي وصفة غذائية كلاسيكية تعزز وظيفة حماية الغشاء المخاطي في الجهاز الهضمي واستعادة الطاقة للمكونات الطبية الموجودة في السمسم الأسود أنسينجوك.",
+      "ko_category": "주식"
     },
     {
       "요리명": "بوكريونج الحنطة السوداء سوجيبي",
@@ -2870,7 +3110,8 @@
       "출처": 19,
       "카테고리": "مخزون",
       "ancient_citation": "طعام تشانيو (سيكريو تشانيو، 1460)",
-      "ancient_context": "استنادًا إلى نظرية النظام الغذائي التقليدي، فهي وصفة غذائية كلاسيكية تعزز وظيفة حماية الغشاء المخاطي المعوي واستعادة الطاقة للمكونات الطبية الموجودة في Bokryeong Buckwheat Sujebi."
+      "ancient_context": "استنادًا إلى نظرية النظام الغذائي التقليدي، فهي وصفة غذائية كلاسيكية تعزز وظيفة حماية الغشاء المخاطي المعوي واستعادة الطاقة للمكونات الطبية الموجودة في Bokryeong Buckwheat Sujebi.",
+      "ko_category": "주식"
     },
     {
       "요리명": "بيكشول، عرق السوس، أرز أونغسيمي",
@@ -2882,7 +3123,8 @@
       "출처": 20,
       "카테고리": "مخزون",
       "ancient_citation": "طعام تشانيو (سيكريو تشانيو، 1460)",
-      "ancient_context": "استنادًا إلى نظرية النظام الغذائي التقليدي، فهي وصفة غذائية كلاسيكية تعزز وظيفة حماية الغشاء المخاطي المعوي واستعادة الطاقة للمكونات الطبية الموجودة في أرز بيكشول وعرق السوس أونغشيمي."
+      "ancient_context": "استنادًا إلى نظرية النظام الغذائي التقليدي، فهي وصفة غذائية كلاسيكية تعزز وظيفة حماية الغشاء المخاطي المعوي واستعادة الطاقة للمكونات الطبية الموجودة في أرز بيكشول وعرق السوس أونغشيمي.",
+      "ko_category": "주식"
     },
     {
       "요리명": "سانسا ياكسون بيبيمباب",
@@ -2894,7 +3136,8 @@
       "출처": 21,
       "카테고리": "مخزون",
       "ancient_citation": "طعام تشانيو (سيكريو تشانيو، 1460)",
-      "ancient_context": "استنادًا إلى نظرية النظام الغذائي التقليدي، فهي وصفة غذائية كلاسيكية تعزز الوظيفة الوقائية للغشاء المخاطي المعوي واستعادة الطاقة من المكونات الطبية الموجودة في سانسا ياكسون بيبيمباب."
+      "ancient_context": "استنادًا إلى نظرية النظام الغذائي التقليدي، فهي وصفة غذائية كلاسيكية تعزز الوظيفة الوقائية للغشاء المخاطي المعوي واستعادة الطاقة من المكونات الطبية الموجودة في سانسا ياكسون بيبيمباب.",
+      "ko_category": "주식"
     },
     {
       "요리명": "Uiin أرز صحي",
@@ -2906,7 +3149,8 @@
       "출처": 22,
       "카테고리": "مخزون",
       "ancient_citation": "طعام تشانيو (سيكريو تشانيو، 1460)",
-      "ancient_context": "استنادًا إلى نظرية النظام الغذائي التقليدية، فهي وصفة غذائية كلاسيكية تعزز الوظيفة الوقائية للغشاء المخاطي المعوي واستعادة الطاقة من المكونات الطبية الموجودة في أرز Uiyin الصحي."
+      "ancient_context": "استنادًا إلى نظرية النظام الغذائي التقليدية، فهي وصفة غذائية كلاسيكية تعزز الوظيفة الوقائية للغشاء المخاطي المعوي واستعادة الطاقة من المكونات الطبية الموجودة في أرز Uiyin الصحي.",
+      "ko_category": "주식"
     },
     {
       "요리명": "سانياك عصيدة مهضومة",
@@ -2918,7 +3162,8 @@
       "출처": 23,
       "카테고리": "مخزون",
       "ancient_citation": "طعام تشانيو (سيكريو تشانيو، 1460)",
-      "ancient_context": "استنادًا إلى النظرية التقليدية للمدخول الغذائي، فهي وصفة غذائية كلاسيكية تعزز وظيفة حماية الغشاء المخاطي المعوي واستعادة الطاقة للمكونات الطبية الموجودة في عصيدة سانياك الهضمية."
+      "ancient_context": "استنادًا إلى النظرية التقليدية للمدخول الغذائي، فهي وصفة غذائية كلاسيكية تعزز وظيفة حماية الغشاء المخاطي المعوي واستعادة الطاقة للمكونات الطبية الموجودة في عصيدة سانياك الهضمية.",
+      "ko_category": "주식"
     },
     {
       "요리명": "الزلابية الطبية Maekmun-dong",
@@ -2930,7 +3175,8 @@
       "출처": 24,
       "카테고리": "مخزون",
       "ancient_citation": "دونغيبوجام (1613)، قسم الرعاية الصحية",
-      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي."
+      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي.",
+      "ko_category": "주식"
     },
     {
       "요리명": "غوجي بيري حشوة اليقطين",
@@ -2942,7 +3188,8 @@
       "출처": 25,
       "카테고리": "مخزون",
       "ancient_citation": "دونغيبوجام (1613)، قسم الرعاية الصحية",
-      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي."
+      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي.",
+      "ko_category": "주식"
     },
     {
       "요리명": "دونغتايتانغ على شكل الأرض",
@@ -2954,7 +3201,8 @@
       "출처": 26,
       "카테고리": "حساء",
       "ancient_citation": "الأطعمة المحلية (منطقة جولا دو)",
-      "ancient_context": "هذا نظام غذائي ساحلي تقليدي من جولا دو يتم إعداده عن طريق غلي فاكهة هوجاي (جيجوجا) لتخفيف آثار الكحول وزيادة القدرة على إزالة سموم الكحول."
+      "ancient_context": "هذا نظام غذائي ساحلي تقليدي من جولا دو يتم إعداده عن طريق غلي فاكهة هوجاي (جيجوجا) لتخفيف آثار الكحول وزيادة القدرة على إزالة سموم الكحول.",
+      "ko_category": "국물"
     },
     {
       "요리명": "شوربة كعكة الأرز بالدجاج",
@@ -2966,7 +3214,8 @@
       "출처": 27,
       "카테고리": "حساء",
       "ancient_citation": "دونغيبوجام (1613) طبعة أونججيو/تانغ-إيك",
-      "ancient_context": "وهو طبق صحي يعتمد على الحساء ويتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة."
+      "ancient_context": "وهو طبق صحي يعتمد على الحساء ويتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة.",
+      "ko_category": "국물"
     },
     {
       "요리명": "أربعة دجاج جونجا جايجانج",
@@ -2978,7 +3227,8 @@
       "출처": 28,
       "카테고리": "حساء",
       "ancient_citation": "دونغيبوجام (1613)، قسم الرعاية الصحية",
-      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي."
+      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي.",
+      "ko_category": "국물"
     },
     {
       "요리명": "بالجين أوجولجيتانج",
@@ -2990,7 +3240,8 @@
       "출처": 29,
       "카테고리": "حساء",
       "ancient_citation": "دونغيبوجام (1613) طبعة أونججيو/تانغ-إيك",
-      "ancient_context": "وهو طبق صحي يعتمد على الحساء ويتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة."
+      "ancient_context": "وهو طبق صحي يعتمد على الحساء ويتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة.",
+      "ko_category": "국물"
     },
     {
       "요리명": "حساء الفاصوليا جالجي بولاك",
@@ -3002,7 +3253,8 @@
       "출처": 30,
       "카테고리": "حساء",
       "ancient_citation": "دونغيبوجام (1613) طبعة أونججيو/تانغ-إيك",
-      "ancient_context": "وهو طبق صحي يعتمد على الحساء ويتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة."
+      "ancient_context": "وهو طبق صحي يعتمد على الحساء ويتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة.",
+      "ko_category": "국물"
     },
     {
       "요리명": "حساء لحم الخنزير الفجل",
@@ -3014,7 +3266,8 @@
       "출처": 31,
       "카테고리": "حساء",
       "ancient_citation": "دونغيبوجام (1613) طبعة أونججيو/تانغ-إيك",
-      "ancient_context": "وهو طبق صحي يعتمد على الحساء ويتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة."
+      "ancient_context": "وهو طبق صحي يعتمد على الحساء ويتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة.",
+      "ko_category": "국물"
     },
     {
       "요리명": "حساء المحار مايسينجي",
@@ -3026,7 +3279,8 @@
       "출처": 32,
       "카테고리": "حساء",
       "ancient_citation": "دونغيبوجام (1613) طبعة أونججيو/تانغ-إيك",
-      "ancient_context": "وهو طبق صحي يعتمد على الحساء ويتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة."
+      "ancient_context": "وهو طبق صحي يعتمد على الحساء ويتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة.",
+      "ko_category": "국물"
     },
     {
       "요리명": "ماكيمون دونج بويانج جالبيتانج",
@@ -3038,7 +3292,8 @@
       "출처": 33,
       "카테고리": "حساء",
       "ancient_citation": "دونغيبوجام (1613) طبعة أونججيو/تانغ-إيك",
-      "ancient_context": "وهو طبق صحي يعتمد على الحساء ويتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة."
+      "ancient_context": "وهو طبق صحي يعتمد على الحساء ويتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة.",
+      "ko_category": "국물"
     },
     {
       "요리명": "حساء أوسيول دوجاني",
@@ -3050,7 +3305,8 @@
       "출처": 34,
       "카테고리": "حساء",
       "ancient_citation": "دونغيبوجام (1613)",
-      "ancient_context": "وهو مغلي عشبي للوقاية من هشاشة العظام، فهو يقوي غضروف الركبة، ويخفف آلام الظهر، ويساعد على استقلاب الرطوبة في المفاصل."
+      "ancient_context": "وهو مغلي عشبي للوقاية من هشاشة العظام، فهو يقوي غضروف الركبة، ويخفف آلام الظهر، ويساعد على استقلاب الرطوبة في المفاصل.",
+      "ko_category": "국물"
     },
     {
       "요리명": "بط مسلوق مع براعم الخيزران",
@@ -3062,7 +3318,8 @@
       "출처": 35,
       "카테고리": "حساء",
       "ancient_citation": "الأطعمة المحلية (منطقة جيونج سانج دو)",
-      "ancient_context": "وهو غذاء صحي من وادي مقاطعة كيونغسانغ يخفف من تنميل المفاصل، ويخفض حرارة الأعضاء الداخلية، ويحسن التعب المزمن الناتج عن البرد."
+      "ancient_context": "وهو غذاء صحي من وادي مقاطعة كيونغسانغ يخفف من تنميل المفاصل، ويخفض حرارة الأعضاء الداخلية، ويحسن التعب المزمن الناتج عن البرد.",
+      "ko_category": "국물"
     },
     {
       "요리명": "Donggui Live Blood Samgyetang",
@@ -3074,7 +3331,8 @@
       "출처": 36,
       "카테고리": "حساء",
       "ancient_citation": "دونغيبوجام (1613)",
-      "ancient_context": "هذا هو سامجيتانج التقليدي الذي ينقي البشرة عن طريق تجديد الطاقة والدم، ويحسن برودة اليدين والقدمين وضعف الدورة الدموية."
+      "ancient_context": "هذا هو سامجيتانج التقليدي الذي ينقي البشرة عن طريق تجديد الطاقة والدم، ويحسن برودة اليدين والقدمين وضعف الدورة الدموية.",
+      "ko_category": "국물"
     },
     {
       "요리명": "شيهو هاييول يوكجايجانج",
@@ -3086,7 +3344,8 @@
       "출처": 37,
       "카테고리": "حساء",
       "ancient_citation": "دونغيبوجام (1613)، قسم الرعاية الصحية",
-      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي."
+      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي.",
+      "ko_category": "국물"
     },
     {
       "요리명": "جغرافية غوجي بيري بولاك",
@@ -3098,7 +3357,8 @@
       "출처": 38,
       "카테고리": "حساء",
       "ancient_citation": "دونغيبوجام (1613)، قسم الرعاية الصحية",
-      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي."
+      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي.",
+      "ko_category": "국물"
     },
     {
       "요리명": "حساء الماعز الأسود أوجابي",
@@ -3110,7 +3370,8 @@
       "출처": 39,
       "카테고리": "حساء",
       "ancient_citation": "دونغيبوجام (1613) طبعة أونججيو/تانغ-إيك",
-      "ancient_context": "وهو طبق صحي يعتمد على الحساء ويتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة."
+      "ancient_context": "وهو طبق صحي يعتمد على الحساء ويتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة.",
+      "ko_category": "국물"
     },
     {
       "요리명": "وعاء جيونجميونججا للبط الساخن",
@@ -3122,7 +3383,8 @@
       "출처": 40,
       "카테고리": "حساء",
       "ancient_citation": "دونغيبوجام (1613) طبعة أونججيو/تانغ-إيك",
-      "ancient_context": "وهو طبق صحي يعتمد على الحساء ويتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة."
+      "ancient_context": "وهو طبق صحي يعتمد على الحساء ويتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة.",
+      "ko_category": "국물"
     },
     {
       "요리명": "يوين شيون حساء الأعشاب البحرية",
@@ -3134,7 +3396,8 @@
       "출처": 41,
       "카테고리": "حساء",
       "ancient_citation": "دونغيبوجام (1613) طبعة أونججيو/تانغ-إيك",
-      "ancient_context": "وهو طبق صحي يعتمد على الحساء ويتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة."
+      "ancient_context": "وهو طبق صحي يعتمد على الحساء ويتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة.",
+      "ko_category": "국물"
     },
     {
       "요리명": "كائن ذيل الدم جومتانج",
@@ -3146,7 +3409,8 @@
       "출처": 42,
       "카테고리": "حساء",
       "ancient_citation": "دونغيبوجام (1613) طبعة أونججيو/تانغ-إيك",
-      "ancient_context": "وهو طبق صحي يعتمد على الحساء ويتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة."
+      "ancient_context": "وهو طبق صحي يعتمد على الحساء ويتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة.",
+      "ko_category": "국물"
     },
     {
       "요리명": "Pogongyeong تطهير حمى التخلص من السموم",
@@ -3158,7 +3422,8 @@
       "출처": 43,
       "카테고리": "حساء",
       "ancient_citation": "بونتشوغانغموك (1596)",
-      "ancient_context": "هذا هو حساء التخلص من السموم الذي يعالج حمى الكبد والتهاب المعدة عن طريق الاستفادة من التأثير القوي المضاد للالتهابات في الهندباء (بوغونج يونج)."
+      "ancient_context": "هذا هو حساء التخلص من السموم الذي يعالج حمى الكبد والتهاب المعدة عن طريق الاستفادة من التأثير القوي المضاد للالتهابات في الهندباء (بوغونج يونج).",
+      "ko_category": "국물"
     },
     {
       "요리명": "حساء الهضم الأدمة",
@@ -3170,7 +3435,8 @@
       "출처": 44,
       "카테고리": "حساء",
       "ancient_citation": "سيكريو تشانيو (1460)",
-      "ancient_context": "هذا حساء أمعاء دقيقة أصيل يعزز عملية الهضم عن طريق طرد الغازات من الجهاز الهضمي والقضاء على الانتفاخ."
+      "ancient_context": "هذا حساء أمعاء دقيقة أصيل يعزز عملية الهضم عن طريق طرد الغازات من الجهاز الهضمي والقضاء على الانتفاخ.",
+      "ko_category": "국물"
     },
     {
       "요리명": "يونغان يوك أنسين جالبيتانج",
@@ -3182,7 +3448,8 @@
       "출처": 45,
       "카테고리": "حساء",
       "ancient_citation": "دونغيبوجام (1613) طبعة أونججيو/تانغ-إيك",
-      "ancient_context": "وهو طبق صحي يعتمد على الحساء ويتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة."
+      "ancient_context": "وهو طبق صحي يعتمد على الحساء ويتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة.",
+      "ko_category": "국물"
     },
     {
       "요리명": "جالجون جودوك هايجانجوك",
@@ -3194,7 +3461,8 @@
       "출처": 46,
       "카테고리": "حساء",
       "ancient_citation": "سيكريو تشانيو (1460)",
-      "ancient_context": "إنه حساء مخلفات يجمع بين التأثير الخافض للحرارة لجذر الأروروت ومحتوى الحديد في سيونجي لعلاج العطش وتلف المعدة الناجم عن التسمم بالكحول."
+      "ancient_context": "إنه حساء مخلفات يجمع بين التأثير الخافض للحرارة لجذر الأروروت ومحتوى الحديد في سيونجي لعلاج العطش وتلف المعدة الناجم عن التسمم بالكحول.",
+      "ko_category": "국물"
     },
     {
       "요리명": "ساسام يونبي جالبي يخنة",
@@ -3206,7 +3474,8 @@
       "출처": 47,
       "카테고리": "حساء",
       "ancient_citation": "الأطعمة المحلية (منطقة تشانج تشونج دو)",
-      "ancient_context": "هذا طبق جوتشي شهير من جبال مقاطعة تشانج تشونج يجمع بين سابونين الديوديوك (سامسونج) المنشط للمناعة والمكون الساكن لأضلاع لحم الخنزير."
+      "ancient_context": "هذا طبق جوتشي شهير من جبال مقاطعة تشانج تشونج يجمع بين سابونين الديوديوك (سامسونج) المنشط للمناعة والمكون الساكن لأضلاع لحم الخنزير.",
+      "ko_category": "국물"
     },
     {
       "요리명": "يخنة البطلينوس جيولميونججا",
@@ -3218,7 +3487,8 @@
       "출처": 48,
       "카테고리": "حساء",
       "ancient_citation": "دونغيبوجام (1613) طبعة أونججيو/تانغ-إيك",
-      "ancient_context": "وهو طبق صحي يعتمد على الحساء ويتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة."
+      "ancient_context": "وهو طبق صحي يعتمد على الحساء ويتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة.",
+      "ko_category": "국물"
     },
     {
       "요리명": "جيلجيونج حساء عرق السوس",
@@ -3230,7 +3500,8 @@
       "출처": 49,
       "카테고리": "حساء",
       "ancient_citation": "دونغيبوجام (1613) طبعة أونججيو/تانغ-إيك",
-      "ancient_context": "وهو طبق صحي يعتمد على الحساء ويتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة."
+      "ancient_context": "وهو طبق صحي يعتمد على الحساء ويتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة.",
+      "ko_category": "국물"
     },
     {
       "요리명": "البطلينوس سيلليوم وحساء الأعشاب البحرية",
@@ -3242,7 +3513,8 @@
       "출처": 50,
       "카테고리": "حساء",
       "ancient_citation": "دونغيبوجام (1613) طبعة أونججيو/تانغ-إيك",
-      "ancient_context": "وهو طبق صحي يعتمد على الحساء ويتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة."
+      "ancient_context": "وهو طبق صحي يعتمد على الحساء ويتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة.",
+      "ko_category": "국물"
     },
     {
       "요리명": "الطب العشبي الطبي غوجي التوت الفجل الخضر",
@@ -3254,7 +3526,8 @@
       "출처": 51,
       "카테고리": "طبق جانبي",
       "ancient_citation": "غيوهاب تشونغسيو (1809) مضاد سانجو",
-      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي."
+      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "كائن أقدام خنزير صغير",
@@ -3266,7 +3539,8 @@
       "출처": 52,
       "카테고리": "تآكل",
       "ancient_citation": "دونغيبوجام (1613)، قسم الرعاية الصحية",
-      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي."
+      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي.",
+      "ko_category": "부식"
     },
     {
       "요리명": "يخنة معجون فول الصويا مع الكيمتشي القديم",
@@ -3278,7 +3552,8 @@
       "출처": 53,
       "카테고리": "طبق جانبي",
       "ancient_citation": "غيوهاب تشونغسيو (1809) مضاد سانجو",
-      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي."
+      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "جذر حشيشة الملاك المخلل مع بذور الثوم",
@@ -3290,7 +3565,8 @@
       "출처": 54,
       "카테고리": "طبق جانبي",
       "ancient_citation": "يومسيك ديميبانغ (1670)",
-      "ancient_context": "إنها خضروات مخللة تقليدية تجمع بين تأثير تدفئة المعدة لأنواع الثوم وتأثير تعزيز الدم لجذر حشيشة الملاك من خلال طريقة تخليل الضغط الأسموزي."
+      "ancient_context": "إنها خضروات مخللة تقليدية تجمع بين تأثير تدفئة المعدة لأنواع الثوم وتأثير تعزيز الدم لجذر حشيشة الملاك من خلال طريقة تخليل الضغط الأسموزي.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "Godeulppaegi الخضر المرة",
@@ -3302,7 +3578,8 @@
       "출처": 55,
       "카테고리": "طبق جانبي",
       "ancient_citation": "غيوهاب تشونغسيو (1809)",
-      "ancient_context": "وهو طبق جانبي تمثيلي من منطقة يونغنام يخفف النار في القلب ويزيد من إفراز عصير المعدة لإثارة الشهية في الربيع."
+      "ancient_context": "وهو طبق جانبي تمثيلي من منطقة يونغنام يخفف النار في القلب ويزيد من إفراز عصير المعدة لإثارة الشهية في الربيع.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "يخنة لحم الخنزير سانسا",
@@ -3314,7 +3591,8 @@
       "출처": 56,
       "카테고리": "تآكل",
       "ancient_citation": "الأطعمة المحلية (منطقة جيونج جي دو)",
-      "ancient_context": "يعد هذا طعامًا صحيًا للأرستقراطيين في منطقة جيونج جي، حيث يعمل على زيادة امتصاص البروتين من اللحوم المملحة عن طريق إضافة فاكهة الزعرور، وهي مادة هضمية للحوم، إلى معجون فول الصويا المخمر."
+      "ancient_context": "يعد هذا طعامًا صحيًا للأرستقراطيين في منطقة جيونج جي، حيث يعمل على زيادة امتصاص البروتين من اللحوم المملحة عن طريق إضافة فاكهة الزعرور، وهي مادة هضمية للحوم، إلى معجون فول الصويا المخمر.",
+      "ko_category": "부식"
     },
     {
       "요리명": "وعاء فول هاسو",
@@ -3326,7 +3604,8 @@
       "출처": 57,
       "카테고리": "طبق جانبي",
       "ancient_citation": "الأطعمة المحلية (منطقة جانج وون دو)",
-      "ancient_context": "إنه طبق جانبي طويل الأمد يتم تحضيره عن طريق غلي أعشاب جانج وون دو البحرية النظيفة ومياه الصرف الصحي الحمراء لمنع الشيخوخة والحفاظ على وضوح البصر."
+      "ancient_context": "إنه طبق جانبي طويل الأمد يتم تحضيره عن طريق غلي أعشاب جانج وون دو البحرية النظيفة ومياه الصرف الصحي الحمراء لمنع الشيخوخة والحفاظ على وضوح البصر.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "توفو سانياك متبل بالخضار",
@@ -3338,7 +3617,8 @@
       "출처": 58,
       "카테고리": "طبق جانبي",
       "ancient_citation": "غيوهاب تشونغسيو (1809) مضاد سانجو",
-      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي."
+      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "الهدال المقلي والمحار",
@@ -3350,7 +3630,8 @@
       "출처": 59,
       "카테고리": "طبق جانبي",
       "ancient_citation": "غيوهاب تشونغسيو (1809) مضاد سانجو",
-      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي."
+      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "سلطة أراليا مع البيض",
@@ -3362,7 +3643,8 @@
       "출처": 60,
       "카테고리": "طبق جانبي",
       "ancient_citation": "غيوهاب تشونغسيو (1809) مضاد سانجو",
-      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي."
+      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "دالاي بوهيولساينجتشاي",
@@ -3374,7 +3656,8 @@
       "출처": 61,
       "카테고리": "طبق جانبي",
       "ancient_citation": "غيوهاب تشونغسيو (1809) مضاد سانجو",
-      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي."
+      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "سلطة Bangpungnamul للتخلص من السموم",
@@ -3386,7 +3669,8 @@
       "출처": 62,
       "카테고리": "طبق جانبي",
       "ancient_citation": "غيوهاب تشونغسيو (1809)",
-      "ancient_context": "وهي عشبة مفيدة تدخل في الطبخ عالي الجودة وتساعد على طرد سموم الرياح والرطوبة من الجسم ومنع الغازات الضارة مثل الغبار الناعم."
+      "ancient_context": "وهي عشبة مفيدة تدخل في الطبخ عالي الجودة وتساعد على طرد سموم الرياح والرطوبة من الجسم ومنع الغازات الضارة مثل الغبار الناعم.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "جذر اللوتس مطهي",
@@ -3398,7 +3682,8 @@
       "출처": 63,
       "카테고리": "طبق جانبي",
       "ancient_citation": "الأطعمة المحلية (منطقة جولا دو)",
-      "ancient_context": "هذا طبق جانبي من هونام يعمل على تقوية صحة العظام من خلال الجمع بين التأثير المرقئ لجذر اللوتس وتأثير تقوية الجزء السفلي من الجسم لجذر اللوتس."
+      "ancient_context": "هذا طبق جانبي من هونام يعمل على تقوية صحة العظام من خلال الجمع بين التأثير المرقئ لجذر اللوتس وتأثير تقوية الجزء السفلي من الجسم لجذر اللوتس.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "الباذنجان الجريس الخضر",
@@ -3410,7 +3695,8 @@
       "출처": 64,
       "카테고리": "طبق جانبي",
       "ancient_citation": "غيوهاب تشونغسيو (1809) مضاد سانجو",
-      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي."
+      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "سلطة الهندباء ومعجون فول الصويا",
@@ -3422,7 +3708,8 @@
       "출처": 65,
       "카테고리": "طبق جانبي",
       "ancient_citation": "غيوهاب تشونغسيو (1809) مضاد سانجو",
-      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي."
+      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "بطاطس مطهية صحية",
@@ -3434,7 +3721,8 @@
       "출처": 66,
       "카테고리": "طبق جانبي",
       "ancient_citation": "غيوهاب تشونغسيو (1809) مضاد سانجو",
-      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي."
+      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "بيل فلاور جيوك مقلي",
@@ -3446,7 +3734,8 @@
       "출처": 67,
       "카테고리": "تآكل",
       "ancient_citation": "غيوهاب تشونغسيو (1809) مضاد سانجو",
-      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي."
+      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي.",
+      "ko_category": "부식"
     },
     {
       "요리명": "مخلل أوراق تشيونجونج بريلا",
@@ -3458,7 +3747,8 @@
       "출처": 68,
       "카테고리": "طبق جانبي",
       "ancient_citation": "غيوهاب تشونغسيو (1809) مضاد سانجو",
-      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي."
+      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "لحم ضأن طازج مقلي",
@@ -3470,7 +3760,8 @@
       "출처": 69,
       "카테고리": "تآكل",
       "ancient_citation": "غيوهاب تشونغسيو (1809) مضاد سانجو",
-      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي."
+      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي.",
+      "ko_category": "부식"
     },
     {
       "요리명": "أوجابي أنشوجة مطهية",
@@ -3482,7 +3773,8 @@
       "출처": 70,
       "카테고리": "طبق جانبي",
       "ancient_citation": "غيوهاب تشونغسيو (1809) مضاد سانجو",
-      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي."
+      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "توفو غوجي مطهي",
@@ -3494,7 +3786,8 @@
       "출처": 71,
       "카테고리": "طبق جانبي",
       "ancient_citation": "غيوهاب تشونغسيو (1809) مضاد سانجو",
-      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي."
+      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "الأرقطيون سامشيل مطهو ببطء",
@@ -3506,7 +3799,8 @@
       "출처": 72,
       "카테고리": "طبق جانبي",
       "ancient_citation": "غيوهاب تشونغسيو (1809) مضاد سانجو",
-      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي."
+      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "سانياك الثوم المعمر المتبل",
@@ -3518,7 +3812,8 @@
       "출처": 73,
       "카테고리": "طبق جانبي",
       "ancient_citation": "غيوهاب تشونغسيو (1809) مضاد سانجو",
-      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي."
+      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "سلطة الفاوانيا البيضاء والخيار",
@@ -3530,7 +3825,8 @@
       "출처": 74,
       "카테고리": "طبق جانبي",
       "ancient_citation": "غيوهاب تشونغسيو (1809) مضاد سانجو",
-      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي."
+      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "سلطة جذر حشيشة الملاك والزبدة",
@@ -3542,7 +3838,8 @@
       "출처": 75,
       "카테고리": "طبق جانبي",
       "ancient_citation": "غيوهاب تشونغسيو (1809) مضاد سانجو",
-      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي."
+      "ancient_context": "إنه طبق جانبي نباتي محفوظ تقليدي تمت معالجته لزيادة تفاعل التأثيرات الطبية وسهولة الهضم على المائدة بناءً على تناغم النكهات الخمس للطب الشرقي.",
+      "ko_category": "반찬"
     },
     {
       "요리명": "فطيرة mugwort",
@@ -3554,7 +3851,8 @@
       "출처": 76,
       "카테고리": "تآكل",
       "ancient_citation": "دونغيبوجام (1613)، قسم الرعاية الصحية",
-      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي."
+      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي.",
+      "ko_category": "부식"
     },
     {
       "요리명": "اليام المقلي والبطاطا الحلوة",
@@ -3566,7 +3864,8 @@
       "출처": 77,
       "카테고리": "تآكل",
       "ancient_citation": "دونغيبوجام (1613)، قسم الرعاية الصحية",
-      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي."
+      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي.",
+      "ko_category": "부식"
     },
     {
       "요리명": "الجينسنغ المقلي",
@@ -3578,7 +3877,8 @@
       "출처": 78,
       "카테고리": "تآكل",
       "ancient_citation": "دونغيبوجام (1613)، قسم الرعاية الصحية",
-      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي."
+      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي.",
+      "ko_category": "부식"
     },
     {
       "요리명": "فطيرة البقدونس المائية",
@@ -3590,7 +3890,8 @@
       "출처": 79,
       "카테고리": "تآكل",
       "ancient_citation": "دونغيبوجام (1613)، قسم الرعاية الصحية",
-      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي."
+      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي.",
+      "ko_category": "부식"
     },
     {
       "요리명": "فطيرة جذر اللوتس والزنبق",
@@ -3602,7 +3903,8 @@
       "출처": 80,
       "카테고리": "تآكل",
       "ancient_citation": "دونغيبوجام (1613)، قسم الرعاية الصحية",
-      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي."
+      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي.",
+      "ko_category": "부식"
     },
     {
       "요리명": "مونج فول بيندايتوك",
@@ -3614,7 +3916,8 @@
       "출처": 81,
       "카테고리": "تآكل",
       "ancient_citation": "دونغيبوجام (1613)، قسم الرعاية الصحية",
-      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي."
+      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي.",
+      "ko_category": "부식"
     },
     {
       "요리명": "جيلجيونج تمبورا الخضار",
@@ -3626,7 +3929,8 @@
       "출처": 82,
       "카테고리": "تآكل",
       "ancient_citation": "دونغيبوجام (1613)، قسم الرعاية الصحية",
-      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي."
+      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي.",
+      "ko_category": "부식"
     },
     {
       "요리명": "فطيرة بوكريونج بالفطر",
@@ -3638,7 +3942,8 @@
       "출처": 83,
       "카테고리": "تآكل",
       "ancient_citation": "دونغيبوجام (1613)، قسم الرعاية الصحية",
-      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي."
+      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي.",
+      "ko_category": "부식"
     },
     {
       "요리명": "فطيرة أراليا التوفو",
@@ -3650,7 +3955,8 @@
       "출처": 84,
       "카테고리": "تآكل",
       "ancient_citation": "دونغيبوجام (1613)، قسم الرعاية الصحية",
-      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي."
+      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي.",
+      "ko_category": "부식"
     },
     {
       "요리명": "فطيرة أوراق سانياك بريلا",
@@ -3662,7 +3968,8 @@
       "출처": 85,
       "카테고리": "تآكل",
       "ancient_citation": "دونغيبوجام (1613)، قسم الرعاية الصحية",
-      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي."
+      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي.",
+      "ko_category": "부식"
     },
     {
       "요리명": "فطيرة أوجابي بالفلفل الأحمر",
@@ -3674,7 +3981,8 @@
       "출처": 86,
       "카테고리": "تآكل",
       "ancient_citation": "دونغيبوجام (1613)، قسم الرعاية الصحية",
-      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي."
+      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي.",
+      "ko_category": "부식"
     },
     {
       "요리명": "فطيرة دونجوي للمأكولات البحرية والبصل الأخضر",
@@ -3686,7 +3994,8 @@
       "출처": 87,
       "카테고리": "تآكل",
       "ancient_citation": "دونغيبوجام (1613)، قسم الرعاية الصحية",
-      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي."
+      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي.",
+      "ko_category": "부식"
     },
     {
       "요리명": "فطائر البطاطا الحلوة بالقرفة",
@@ -3698,7 +4007,8 @@
       "출처": 88,
       "카테고리": "تآكل",
       "ancient_citation": "دونغيبوجام (1613)، قسم الرعاية الصحية",
-      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي."
+      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي.",
+      "ko_category": "부식"
     },
     {
       "요리명": "فطيرة غوجي التوت والكوسة",
@@ -3710,7 +4020,8 @@
       "출처": 89,
       "카테고리": "تآكل",
       "ancient_citation": "دونغيبوجام (1613)، قسم الرعاية الصحية",
-      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي."
+      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي.",
+      "ko_category": "부식"
     },
     {
       "요리명": "فطيرة هوانججيونج بالثوم المعمر",
@@ -3722,7 +4033,8 @@
       "출처": 90,
       "카테고리": "تآكل",
       "ancient_citation": "دونغيبوجام (1613)، قسم الرعاية الصحية",
-      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي."
+      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي.",
+      "ko_category": "부식"
     },
     {
       "요리명": "إيون آي باي سوك جاينج",
@@ -3734,7 +4046,8 @@
       "출처": 91,
       "카테고리": "توابل",
       "ancient_citation": "دونغيبوجام (1613)، قسم الرعاية الصحية",
-      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي."
+      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي.",
+      "ko_category": "양념"
     },
     {
       "요리명": "شاي عناب غوجي بيري",
@@ -3746,7 +4059,8 @@
       "출처": 92,
       "카테고리": "توابل",
       "ancient_citation": "اقتصاد الغابات (سانليم جيونج جي، 1715) معجون الأسنان/إصدار السمع الصوتي",
-      "ancient_context": "إنه طبق أومتشيونج-ريو التقليدي الذي يتم إعداده عن طريق غلي بتلات الزهور والأعشاب الطبية لتنقية سوائل الجسم والتحكم بهدوء في صعود وهبوط الطاقة."
+      "ancient_context": "إنه طبق أومتشيونج-ريو التقليدي الذي يتم إعداده عن طريق غلي بتلات الزهور والأعشاب الطبية لتنقية سوائل الجسم والتحكم بهدوء في صعود وهبوط الطاقة.",
+      "ko_category": "양념"
     },
     {
       "요리명": "شاي الزنجبيل والقرفة",
@@ -3758,7 +4072,8 @@
       "출처": 93,
       "카테고리": "توابل",
       "ancient_citation": "اقتصاد الغابات (سانليم جيونج جي، 1715) معجون الأسنان/إصدار السمع الصوتي",
-      "ancient_context": "إنه طبق أومتشيونج-ريو التقليدي الذي يتم إعداده عن طريق غلي بتلات الزهور والأعشاب الطبية لتنقية سوائل الجسم والتحكم بهدوء في صعود وهبوط الطاقة."
+      "ancient_context": "إنه طبق أومتشيونج-ريو التقليدي الذي يتم إعداده عن طريق غلي بتلات الزهور والأعشاب الطبية لتنقية سوائل الجسم والتحكم بهدوء في صعود وهبوط الطاقة.",
+      "ko_category": "양념"
     },
     {
       "요리명": "شيساندرا تشينينسيس هواتشاي",
@@ -3770,7 +4085,8 @@
       "출처": 94,
       "카테고리": "توابل",
       "ancient_citation": "اقتصاد الغابات (سانليم جيونج جي، 1715) معجون الأسنان/إصدار السمع الصوتي",
-      "ancient_context": "إنه طبق أومتشيونج-ريو التقليدي الذي يتم إعداده عن طريق غلي بتلات الزهور والأعشاب الطبية لتنقية سوائل الجسم والتحكم بهدوء في صعود وهبوط الطاقة."
+      "ancient_context": "إنه طبق أومتشيونج-ريو التقليدي الذي يتم إعداده عن طريق غلي بتلات الزهور والأعشاب الطبية لتنقية سوائل الجسم والتحكم بهدوء في صعود وهبوط الطاقة.",
+      "ko_category": "양념"
     },
     {
       "요리명": "شاي ليلي هوانججيونج",
@@ -3782,7 +4098,8 @@
       "출처": 95,
       "카테고리": "توابل",
       "ancient_citation": "اقتصاد الغابات (سانليم جيونج جي، 1715) معجون الأسنان/إصدار السمع الصوتي",
-      "ancient_context": "إنه طبق أومتشيونج-ريو التقليدي الذي يتم إعداده عن طريق غلي بتلات الزهور والأعشاب الطبية لتنقية سوائل الجسم والتحكم بهدوء في صعود وهبوط الطاقة."
+      "ancient_context": "إنه طبق أومتشيونج-ريو التقليدي الذي يتم إعداده عن طريق غلي بتلات الزهور والأعشاب الطبية لتنقية سوائل الجسم والتحكم بهدوء في صعود وهبوط الطاقة.",
+      "ko_category": "양념"
     },
     {
       "요리명": "فطيرة القمح بالأقحوان العشبية",
@@ -3794,7 +4111,8 @@
       "출처": 96,
       "카테고리": "توابل",
       "ancient_citation": "دونغيبوجام (1613) طبعة أونججيو/تانغ-إيك",
-      "ancient_context": "وهو طعام صحي متبل يتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة."
+      "ancient_context": "وهو طعام صحي متبل يتم غليه مثل المغلي لإخراج السموم من الجسم عن طريق البول وتنظيم الدورة الدموية بسلاسة.",
+      "ko_category": "양념"
     },
     {
       "요리명": "محطة أنسين كويكس",
@@ -3806,7 +4124,8 @@
       "출처": 97,
       "카테고리": "توابل",
       "ancient_citation": "دونغيبوجام (1613)، قسم الرعاية الصحية",
-      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي."
+      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي.",
+      "ko_category": "양념"
     },
     {
       "요리명": "سانسا سوهواراك هواتشاي",
@@ -3818,7 +4137,8 @@
       "출처": 98,
       "카테고리": "توابل",
       "ancient_citation": "اقتصاد الغابات (سانليم جيونج جي، 1715) معجون الأسنان/إصدار السمع الصوتي",
-      "ancient_context": "إنه طبق أومتشيونج-ريو التقليدي الذي يتم إعداده عن طريق غلي بتلات الزهور والأعشاب الطبية لتنقية سوائل الجسم والتحكم بهدوء في صعود وهبوط الطاقة."
+      "ancient_context": "إنه طبق أومتشيونج-ريو التقليدي الذي يتم إعداده عن طريق غلي بتلات الزهور والأعشاب الطبية لتنقية سوائل الجسم والتحكم بهدوء في صعود وهبوط الطاقة.",
+      "ko_category": "양념"
     },
     {
       "요리명": "ماكيمون دونغ ياكسون سيخي",
@@ -3830,7 +4150,8 @@
       "출처": 99,
       "카테고리": "توابل",
       "ancient_citation": "دونغيبوجام (1613)، قسم الرعاية الصحية",
-      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي."
+      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي.",
+      "ko_category": "양념"
     },
     {
       "요리명": "جيلجيونج اليقطين جيونجوا",
@@ -3842,7 +4163,8 @@
       "출처": 100,
       "카테고리": "توابل",
       "ancient_citation": "اقتصاد الغابات (سانليم جيونج جي، 1715) معجون الأسنان/إصدار السمع الصوتي",
-      "ancient_context": "إنه طبق أومتشيونج-ريو التقليدي الذي يتم إعداده عن طريق غلي بتلات الزهور والأعشاب الطبية لتنقية سوائل الجسم والتحكم بهدوء في صعود وهبوط الطاقة."
+      "ancient_context": "إنه طبق أومتشيونج-ريو التقليدي الذي يتم إعداده عن طريق غلي بتلات الزهور والأعشاب الطبية لتنقية سوائل الجسم والتحكم بهدوء في صعود وهبوط الطاقة.",
+      "ko_category": "양념"
     },
     {
       "요리명": "أنسين العطر لوتس ليف الشاي",
@@ -3854,7 +4176,8 @@
       "출처": 101,
       "카테고리": "توابل",
       "ancient_citation": "اقتصاد الغابات (سانليم جيونج جي، 1715) معجون الأسنان/إصدار السمع الصوتي",
-      "ancient_context": "إنه طبق أومتشيونج-ريو التقليدي الذي يتم إعداده عن طريق غلي بتلات الزهور والأعشاب الطبية لتنقية سوائل الجسم والتحكم بهدوء في صعود وهبوط الطاقة."
+      "ancient_context": "إنه طبق أومتشيونج-ريو التقليدي الذي يتم إعداده عن طريق غلي بتلات الزهور والأعشاب الطبية لتنقية سوائل الجسم والتحكم بهدوء في صعود وهبوط الطاقة.",
+      "ko_category": "양념"
     },
     {
       "요리명": "بوكريونج هلام الفاصوليا الحمراء",
@@ -3866,7 +4189,8 @@
       "출처": 102,
       "카테고리": "توابل",
       "ancient_citation": "دونغيبوجام (1613)، قسم الرعاية الصحية",
-      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي."
+      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي.",
+      "ko_category": "양념"
     },
     {
       "요리명": "سانياك بويانج دانجودان",
@@ -3878,7 +4202,8 @@
       "출처": 103,
       "카테고리": "توابل",
       "ancient_citation": "دونغيبوجام (1613)، قسم الرعاية الصحية",
-      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي."
+      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي.",
+      "ko_category": "양념"
     },
     {
       "요리명": "سلطة زهرة البنفسج العشبية",
@@ -3890,7 +4215,8 @@
       "출처": 104,
       "카테고리": "توابل",
       "ancient_citation": "اقتصاد الغابات (سانليم جيونج جي، 1715) معجون الأسنان/إصدار السمع الصوتي",
-      "ancient_context": "إنه طبق أومتشيونج-ريو التقليدي الذي يتم إعداده عن طريق غلي بتلات الزهور والأعشاب الطبية لتنقية سوائل الجسم والتحكم بهدوء في صعود وهبوط الطاقة."
+      "ancient_context": "إنه طبق أومتشيونج-ريو التقليدي الذي يتم إعداده عن طريق غلي بتلات الزهور والأعشاب الطبية لتنقية سوائل الجسم والتحكم بهدوء في صعود وهبوط الطاقة.",
+      "ko_category": "양념"
     },
     {
       "요리명": "لفائف القمح بالحنطة السوداء",
@@ -3902,7 +4228,8 @@
       "출처": 105,
       "카테고리": "توابل",
       "ancient_citation": "دونغيبوجام (1613)، قسم الرعاية الصحية",
-      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي."
+      "ancient_context": "إنه طعام صحي أصيل من K-Food مصمم لزيادة التآزر الطبي بين المكونات ومنع التعارض وفقًا لنظام الطبخ الطبي الشرقي التقليدي.",
+      "ko_category": "양념"
     },
     {
       "요리명": "طب الأعشاب قبل الوجبة هونغهواجو (المشروبات الكحولية الوظيفية)",
@@ -3912,7 +4239,8 @@
       "기미 및 귀경": "النكهات: الدفء والحموضة والحلاوة. خطوط الطول الأذن: خط الطول القلب، خط الطول الكبد، خط الطول المعدة.",
       "조리 방법 요약": "سائل طبي وظيفي مصنوع عن طريق ترشيح القرطم وجذور حشيشة الملاك في سائل الحبوب التقليدي.",
       "카테고리": "توابل",
-      "출처": 106
+      "출처": 106,
+      "ko_category": "양념"
     },
     {
       "요리명": "شاي القرطم لتطهير الحنك",
@@ -3922,7 +4250,8 @@
       "기미 및 귀경": "النكهة: مسطحة أو باردة قليلاً، مريرة وحلوة. خطوط الطول الأذن: خط الطول القلب، خط الطول الكبد.",
       "조리 방법 요약": "انقعي أوراق القرطم وعرق السوس والنعناع قليلاً في ماء دافئ للحصول على مشروب منعش وتقديمه كمشروب منعش.",
       "카테고리": "توابل",
-      "출처": 107
+      "출처": 107,
+      "ko_category": "양념"
     },
     {
       "요리명": "جوسو سونجنيونج التقليدي",
@@ -3932,7 +4261,8 @@
       "기미 및 귀경": "النكهات: الدفء والحلاوة والحلاوة. خط الطول الأذن: خط الطول الأنفي، خط الطول المعدة.",
       "조리 방법 요약": "يُسكب الماء في الأرز المحروق في قاع القدر ويُغلى حتى تخرج النكهة اللذيذة.",
       "카테고리": "توابل",
-      "출처": 108
+      "출처": 108,
+      "ko_category": "양념"
     },
     {
       "요리명": "استراغالوس التوفو معجون فول الصويا الحساء",
@@ -3942,7 +4272,8 @@
       "기미 및 귀경": "النكهات: الدفء والحلاوة والملوحة. خط الطول الأذن: خط الطول الأنفي، خط الطول المعدة.",
       "조리 방법 요약": "قم بغلي القتاد للحصول على مياه معدنية، وقم بإذابة معجون فول الصويا في المياه المعدنية، وأضف التوفو، والفطر، واليقطين، واصنع الحساء الخاص بك.",
       "카테고리": "حساء",
-      "출처": 109
+      "출처": 109,
+      "ko_category": "국물"
     },
     {
       "요리명": "يخنة معجون الفلفل الأحمر بالفطر سانسا",
@@ -3952,7 +4283,8 @@
       "기미 및 귀경": "النكهات: الدفء والحموضة والحار والحلو. تليف المعدة، تليف الكبد.",
       "조리 방법 요약": "يُقلى لحم الخنزير ومعجون الفلفل الأحمر في قدر، ويُسكب في المياه المعدنية للمعبد الجبلي، ويُضاف البطاطس والفطر، ويُغلى جيدًا.",
       "카테고리": "حساء",
-      "출처": 110
+      "출처": 110,
+      "ko_category": "국물"
     },
     {
       "요리명": "سانياك دونتاي بيجي جيجيجاي",
@@ -3962,7 +4294,8 @@
       "기미 및 귀경": "النكهة: مسطحة، حلوة. الأعصاب والأعصاب الأنفية.",
       "조리 방법 요약": "يقلى الكيمتشي ولفائف الشتاء في وعاء فخاري، ثم يقلى مع خليط من مسحوق البامية واليام.",
       "카테고리": "حساء",
-      "출처": 111
+      "출처": 111,
+      "ko_category": "국물"
     }
   ]
 }
