@@ -5027,29 +5027,45 @@ window.filterRecipesByCategory = filterRecipesByCategory;
 
 // ─── Tab 8: 약선 문화원 (명절 & 24절기 아카이브) ───
 function initCultureWiki() {
+  const lang = currentLanguage || 'ko';
+  const isKo = lang === 'ko';
+
+  const lbl = {
+    seasonal_food: getTranslation('제철 보양 음식', lang),
+    wellness:      getTranslation('양생(養生) 건강수칙', lang),
+    festival_food: getTranslation('대표 세시 절식', lang),
+    customs:       getTranslation('명절 풍속', lang),
+    loading_s:     getTranslation('절기 정보가 준비 중입니다.', lang),
+    loading_h:     getTranslation('명절 정보가 준비 중입니다.', lang),
+  };
+
   // 1. 24절기 양생 가이드 렌더링
   const seasonsContainer = document.getElementById('culture-seasons-container');
   if (seasonsContainer) {
     seasonsContainer.innerHTML = '';
     if (seasonalDb.length === 0) {
-      seasonsContainer.innerHTML = `<p style="color:var(--text-muted); font-size:0.85rem;">절기 정보가 준비 중입니다.</p>`;
+      seasonsContainer.innerHTML = `<p style="color:var(--text-muted); font-size:0.85rem;">${lbl.loading_s}</p>`;
     } else {
       seasonalDb.forEach(s => {
-        // 음식명을 콤마 단위로 분할하여 링크 스팬으로 조립
-        const foodList = (s["제철 음식 및 약선 요리"] || "").split(',').map(f => {
+        const name     = isKo ? s.절기 : (s.name_en || s.절기);
+        const climate  = isKo ? (s["기후 및 자연 현상"] || '') : (s.climate_en || s["기후 및 자연 현상"] || '');
+        const foodRaw  = isKo ? (s["제철 음식 및 약선 요리"] || '') : (s.food_en || s["제철 음식 및 약선 요리"] || '');
+        const wellness = isKo ? (s["계절별 양생법 (건강 관리)"] || '') : (s.wellness_en || s["계절별 양생법 (건강 관리)"] || '');
+
+        const foodList = foodRaw.split(',').map(f => {
           const clean = f.trim();
-          if (!clean) return "";
-          return `<span class="culture-food-link" onclick="event.stopPropagation(); routeToRecipeWiki('${clean.replace(/'/g, "\\\\'")}')" title="요리 비법서에서 [${clean}] 검색">${clean}</span>`;
+          if (!clean) return '';
+          return `<span class="culture-food-link" onclick="event.stopPropagation(); routeToRecipeWiki('${clean.replace(/'/g, "\\'")}')">${clean}</span>`;
         }).filter(Boolean).join(', ');
 
         seasonsContainer.innerHTML += `
-          <div class="culture-item-box" style="background:rgba(255,255,255,0.01); border:1px solid var(--border-glass); border-radius:10px; padding:15px; margin-bottom:12px; cursor:pointer;" onclick="routeToPrescribeeWithSeason('${s.절기}')" title="클릭 시 AI 처방실 절기 [${s.절기}] 조건 동기화 및 이동">
+          <div class="culture-item-box" style="background:rgba(255,255,255,0.01); border:1px solid var(--border-glass); border-radius:10px; padding:15px; margin-bottom:12px; cursor:pointer;" onclick="routeToPrescribeeWithSeason('${s.절기}')">
             <div style="display:flex; justify-content:space-between; margin-bottom:8px;">
-              <strong style="color:var(--primary); font-size:1.05rem;">🍂 ${s.절기}</strong>
-              <small style="color:var(--text-muted);">${s["기후 및 자연 현상"] || ""}</small>
+              <strong style="color:var(--primary); font-size:1.05rem;">🍂 ${name}</strong>
+              <small style="color:var(--text-muted);">${climate}</small>
             </div>
-            <p style="font-size:0.8rem; line-height:1.5; color:var(--text-main); margin-bottom:6px;"><strong>제철 보양 음식:</strong> ${foodList || "-"}</p>
-            <p style="font-size:0.78rem; line-height:1.5; color:var(--text-muted);"><strong>양생(養生) 건강수칙:</strong> ${s["계절별 양생법 (건강 관리)"]}</p>
+            <p style="font-size:0.8rem; line-height:1.5; color:var(--text-main); margin-bottom:6px;"><strong>${lbl.seasonal_food}:</strong> ${foodList || '-'}</p>
+            <p style="font-size:0.78rem; line-height:1.5; color:var(--text-muted);"><strong>${lbl.wellness}:</strong> ${wellness}</p>
           </div>
         `;
       });
@@ -5061,24 +5077,29 @@ function initCultureWiki() {
   if (holidaysContainer) {
     holidaysContainer.innerHTML = '';
     if (holidaysDb.length === 0) {
-      holidaysContainer.innerHTML = `<p style="color:var(--text-muted); font-size:0.85rem;">명절 정보가 준비 중입니다.</p>`;
+      holidaysContainer.innerHTML = `<p style="color:var(--text-muted); font-size:0.85rem;">${lbl.loading_h}</p>`;
     } else {
       holidaysDb.forEach(h => {
-        // 음식명을 콤마 단위로 분할하여 링크 스팬으로 조립
-        const holidayFoodList = (h["대표 음식"] || "").split(',').map(f => {
+        const name    = isKo ? h["명절 이름"] : (h.name_en || h["명절 이름"]);
+        const date    = isKo ? h["날짜 (음력)"] : (h.date_en || h["날짜 (음력)"]);
+        const proverb = isKo ? (h["관련 속담 및 설화"] || '') : (h.proverb_en || h["관련 속담 및 설화"] || '');
+        const foodRaw = isKo ? (h["대표 음식"] || '') : (h.food_en || h["대표 음식"] || '');
+        const customs = isKo ? (h["민속 놀이 및 풍습"] || '') : (h.customs_en || h["민속 놀이 및 풍습"] || '');
+
+        const holidayFoodList = foodRaw.split(',').map(f => {
           const clean = f.trim();
-          if (!clean) return "";
-          return `<span class="culture-food-link" onclick="event.stopPropagation(); routeToRecipeWiki('${clean.replace(/'/g, "\\\\'")}')" title="요리 비법서에서 [${clean}] 검색">${clean}</span>`;
+          if (!clean) return '';
+          return `<span class="culture-food-link" onclick="event.stopPropagation(); routeToRecipeWiki('${clean.replace(/'/g, "\\'")}')">${clean}</span>`;
         }).filter(Boolean).join(', ');
 
         holidaysContainer.innerHTML += `
           <div class="culture-item-box" style="background:rgba(255,255,255,0.01); border:1px solid var(--border-glass); border-radius:10px; padding:15px; margin-bottom:12px;">
             <div style="display:flex; justify-content:space-between; margin-bottom:8px;">
-              <strong style="color:var(--sa-color); font-size:1.05rem;">🏮 ${h["명절 이름"]} (${h["날짜 (음력)"]})</strong>
-              <small style="color:var(--text-muted);">${h["관련 속담 및 설화"] ? h["관련 속담 및 설화"].split(',')[0] : ""}</small>
+              <strong style="color:var(--sa-color); font-size:1.05rem;">🏮 ${name} (${date})</strong>
+              <small style="color:var(--text-muted);">${proverb ? proverb.split(',')[0] : ''}</small>
             </div>
-            <p style="font-size:0.8rem; line-height:1.5; color:var(--text-main); margin-bottom:6px;"><strong>대표 세시 절식:</strong> ${holidayFoodList || "-"}</p>
-            <p style="font-size:0.78rem; line-height:1.5; color:var(--text-muted);"><strong>명절 풍속:</strong> ${h["민속 놀이 및 풍습"]}</p>
+            <p style="font-size:0.8rem; line-height:1.5; color:var(--text-main); margin-bottom:6px;"><strong>${lbl.festival_food}:</strong> ${holidayFoodList || '-'}</p>
+            <p style="font-size:0.78rem; line-height:1.5; color:var(--text-muted);"><strong>${lbl.customs}:</strong> ${customs}</p>
           </div>
         `;
       });

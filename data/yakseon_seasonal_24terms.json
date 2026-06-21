@@ -5,7 +5,11 @@
     "제철 음식 및 약선 요리": "새싹 채소, 오신채",
     "계절별 양생법 (건강 관리)": "양기 보존, 가벼운 산책",
     "풍속 및 전통 행사": "입춘대길 첩 붙이기",
-    "출처": 1
+    "출처": 1,
+    "name_en": "Ipchun (Start of Spring)",
+    "climate_en": "Beginning of spring",
+    "food_en": "Sprouted vegetables, Five pungent vegetables (Oshinchae)",
+    "wellness_en": "Preserve yang energy; take light walks outdoors"
   },
   {
     "절기": "우수",
@@ -13,7 +17,11 @@
     "제철 음식 및 약선 요리": "봄동, 취나물, 달래",
     "계절별 양생법 (건강 관리)": "간 기능 강화, 피로 회복",
     "풍속 및 전통 행사": "논밭 갈이 준비",
-    "출처": 2
+    "출처": 2,
+    "name_en": "Usu (Rain Water)",
+    "climate_en": "Snow melts and turns to rain",
+    "food_en": "Spring cabbage (Bongdong), wild greens, wild chive",
+    "wellness_en": "Strengthen liver function; recover from fatigue"
   },
   {
     "절기": "경칩",
@@ -21,7 +29,11 @@
     "제철 음식 및 약선 요리": "고로쇠 수액, 냉이, 달래, 쑥, 미나리, 도다리",
     "계절별 양생법 (건강 관리)": "춘곤증 예방을 위해 비타민이 풍부한 봄나물 섭취. 간의 기운을 보충",
     "풍속 및 전통 행사": "보리 싹으로 풍흉 점치기, 흙일하기",
-    "출처": 3
+    "출처": 3,
+    "name_en": "Gyeongchip (Awakening of Insects)",
+    "climate_en": "Hibernating frogs awaken; temperature rises quickly",
+    "food_en": "Maple sap, shepherd's purse, wild chive, mugwort, water parsley, flounder",
+    "wellness_en": "Eat vitamin-rich spring greens to prevent spring fatigue; replenish liver energy"
   },
   {
     "절기": "춘분",
@@ -29,7 +41,11 @@
     "제철 음식 및 약선 요리": "쑥, 냉이, 주꾸미, 바지락",
     "계절별 양생법 (건강 관리)": "춘곤증 예방, 비타민 보충",
     "풍속 및 전통 행사": "사직제, 나이떡 먹기",
-    "출처": 4
+    "출처": 4,
+    "name_en": "Chunbun (Spring Equinox)",
+    "climate_en": "Day and night are of equal length",
+    "food_en": "Mugwort, shepherd's purse, spicy webfoot octopus, short-neck clam",
+    "wellness_en": "Prevent spring fatigue; supplement vitamins"
   },
   {
     "절기": "청명",
@@ -37,7 +53,11 @@
     "제철 음식 및 약선 요리": "진달래 화전, 두릅, 참죽나무순",
     "계절별 양생법 (건강 관리)": "야외 활동, 눈의 피로 회복",
     "풍속 및 전통 행사": "성묘, 식목, 불씨 나누기",
-    "출처": 5
+    "출처": 5,
+    "name_en": "Cheongmyeong (Clear and Bright)",
+    "climate_en": "Skies clear; spring colors fully bloom",
+    "food_en": "Azalea flower pancake (Jindallae hwajeon), aralia shoots, cedrela sprouts",
+    "wellness_en": "Outdoor activity; relieve eye fatigue"
   },
   {
     "절기": "곡우",
@@ -45,7 +65,11 @@
     "제철 음식 및 약선 요리": "곡우물(고로쇠수액), 조기, 녹차(우전)",
     "계절별 양생법 (건강 관리)": "수분 보충, 신장 기능 보호",
     "풍속 및 전통 행사": "볍씨 담그기",
-    "출처": 6
+    "출처": 6,
+    "name_en": "Gogu (Grain Rain)",
+    "climate_en": "Rain falls to nourish the crops",
+    "food_en": "Spring rain maple sap, yellow croaker, early green tea (Ujeon)",
+    "wellness_en": "Replenish fluids; protect kidney function"
   },
   {
     "절기": "입하",
@@ -53,7 +77,11 @@
     "제철 음식 및 약선 요리": "쑥떡, 앵두, 죽순, 장어",
     "계절별 양생법 (건강 관리)": "심장 기능 강화, 더위 대비",
     "풍속 및 전통 행사": "차 잎 따기, 모내기 시작",
-    "출처": 7
+    "출처": 7,
+    "name_en": "Ipha (Start of Summer)",
+    "climate_en": "Beginning of summer",
+    "food_en": "Mugwort rice cake, cherries, bamboo shoots, eel",
+    "wellness_en": "Strengthen heart function; prepare for heat"
   },
   {
     "절기": "소만",
@@ -61,7 +89,11 @@
     "제철 음식 및 약선 요리": "냉국, 씀바귀, 매실, 갑오징어",
     "계절별 양생법 (건강 관리)": "소화 기능 강화, 식중독 예방",
     "풍속 및 전통 행사": "보리 베기, 잡초 뽑기",
-    "출처": 8
+    "출처": 8,
+    "name_en": "Soman (Grain Buds)",
+    "climate_en": "Full-scale farming begins; plants grow vigorously",
+    "food_en": "Cold soup, sow-thistle, green plum, cuttlefish",
+    "wellness_en": "Strengthen digestion; prevent food poisoning"
   },
   {
     "절기": "망종",
@@ -69,7 +101,11 @@
     "제철 음식 및 약선 요리": "보리밥, 매실, 장어, 감자",
     "계절별 양생법 (건강 관리)": "기력 보충, 수분 보충",
     "풍속 및 전통 행사": "보리 베고 모내기",
-    "출처": 9
+    "출처": 9,
+    "name_en": "Mangjong (Grain in Ear)",
+    "climate_en": "Best time to sow seeds; barley harvest begins",
+    "food_en": "Barley rice, green plum, eel, potato",
+    "wellness_en": "Replenish energy and fluids"
   },
   {
     "절기": "하지",
@@ -77,7 +113,11 @@
     "제철 음식 및 약선 요리": "감자, 마늘, 오이, 삼계탕",
     "계절별 양생법 (건강 관리)": "열 내리기, 갈증 해소, 원기 회복",
     "풍속 및 전통 행사": "기우제, 감자 수확",
-    "출처": 10
+    "출처": 10,
+    "name_en": "Haji (Summer Solstice)",
+    "climate_en": "Longest day of the year",
+    "food_en": "Potato, garlic, cucumber, ginseng chicken soup (Samgyetang)",
+    "wellness_en": "Cool down; quench thirst; restore vitality"
   },
   {
     "절기": "소서",
@@ -85,7 +125,11 @@
     "제철 음식 및 약선 요리": "밀국수, 수제비, 애호박, 민어",
     "계절별 양생법 (건강 관리)": "이열치열, 냉방병 주의",
     "풍속 및 전통 행사": "여름 과일 수확, 김매기",
-    "출처": 11
+    "출처": 11,
+    "name_en": "Soseo (Minor Heat)",
+    "climate_en": "Beginning of the heat season",
+    "food_en": "Wheat noodle soup, sujebi (hand-torn noodles), zucchini, croaker",
+    "wellness_en": "Fight heat with heat; beware of air-conditioning illness"
   },
   {
     "절기": "대서",
@@ -93,7 +137,11 @@
     "제철 음식 및 약선 요리": "수박, 참외, 콩국수, 삼계탕",
     "계절별 양생법 (건강 관리)": "온열 질환 주의, 충분한 수분 섭취",
     "풍속 및 전통 행사": "탁족(계곡에서 발 씻기), 여름 휴가",
-    "출처": 12
+    "출처": 12,
+    "name_en": "Daeseo (Major Heat)",
+    "climate_en": "Hottest period of the year",
+    "food_en": "Watermelon, melon, cold soybean noodles, ginseng chicken soup",
+    "wellness_en": "Beware of heat-related illness; drink plenty of fluids"
   },
   {
     "절기": "입추",
@@ -101,7 +149,11 @@
     "제철 음식 및 약선 요리": "전어, 옥수수, 복숭아, 토란",
     "계절별 양생법 (건강 관리)": "호흡기 보호, 일교차 주의",
     "풍속 및 전통 행사": "가을 준비, 김장 배추 심기",
-    "출처": 13
+    "출처": 13,
+    "name_en": "Ipchu (Start of Autumn)",
+    "climate_en": "Beginning of autumn",
+    "food_en": "Gizzard shad, corn, peach, taro",
+    "wellness_en": "Protect respiratory system; be careful of temperature variations"
   },
   {
     "절기": "처서",
@@ -109,7 +161,11 @@
     "제철 음식 및 약선 요리": "추어탕, 칼국수, 고추, 포도",
     "계절별 양생법 (건강 관리)": "면역력 강화, 찬바람 주의",
     "풍속 및 전통 행사": "벌초, 여름옷 보관",
-    "출처": 14
+    "출처": 14,
+    "name_en": "Cheoseo (End of Heat)",
+    "climate_en": "The heat subsides",
+    "food_en": "Loach soup (Chueo-tang), kalguksu noodles, red pepper, grape",
+    "wellness_en": "Boost immunity; guard against cold winds"
   },
   {
     "절기": "백로",
@@ -117,7 +173,11 @@
     "제철 음식 및 약선 요리": "포도, 전어, 대하, 녹두, 구기자 대추차",
     "계절별 양생법 (건강 관리)": "건조해지는 시기이므로 폐를 보충하기 위해 맥문동, 도라지 등을 섭취",
     "풍속 및 전통 행사": "추석을 앞두고 조상의 묘를 벌초함. 백로보기.",
-    "출처": 15
+    "출처": 15,
+    "name_en": "Baengno (White Dew)",
+    "climate_en": "Night temperatures drop below dew point; clear autumn weather",
+    "food_en": "Grape, gizzard shad, large prawns, mung bean, wolfberry-jujube tea",
+    "wellness_en": "As air dries, consume ophiopogon and balloon flower to nourish the lungs"
   },
   {
     "절기": "추분",
@@ -125,7 +185,11 @@
     "제철 음식 및 약선 요리": "버섯, 햅쌀, 햅쌀떡, 토란국",
     "계절별 양생법 (건강 관리)": "우울감 예방, 충분한 수면",
     "풍속 및 전통 행사": "가을걷이, 노인 공경",
-    "출처": 16
+    "출처": 16,
+    "name_en": "Chubun (Autumn Equinox)",
+    "climate_en": "Nights begin to lengthen",
+    "food_en": "Mushrooms, new-harvest rice, new-harvest rice cake, taro soup",
+    "wellness_en": "Prevent depression; get sufficient sleep"
   },
   {
     "절기": "한로",
@@ -133,7 +197,11 @@
     "제철 음식 및 약선 요리": "추어탕, 고구마, 밤, 대추",
     "계절별 양생법 (건강 관리)": "관절 보온, 소화기 보호",
     "풍속 및 전통 행사": "국화전 부치기, 단풍 놀이",
-    "출처": 17
+    "출처": 17,
+    "name_en": "Hallo (Cold Dew)",
+    "climate_en": "Cold dew falls",
+    "food_en": "Loach soup, sweet potato, chestnut, jujube",
+    "wellness_en": "Keep joints warm; protect digestive system"
   },
   {
     "절기": "상강",
@@ -141,7 +209,11 @@
     "제철 음식 및 약선 요리": "햅쌀밥, 수수부꾸미, 홍시, 밤, 국화전, 국화주",
     "계절별 양생법 (건강 관리)": "보온에 각별히 주의하여 감기, 관절염 예방. 혈관 수축에 주의",
     "풍속 및 전통 행사": "가을걷이 마무리, 단풍 구경, 국화 축제",
-    "출처": 18
+    "출처": 18,
+    "name_en": "Sanggang (Frost's Descent)",
+    "climate_en": "Cold dew turns to frost; temperatures drop sharply; autumn foliage peaks",
+    "food_en": "New-harvest rice, sorghum pancakes, persimmon, chestnut, chrysanthemum pancake, chrysanthemum wine",
+    "wellness_en": "Dress warmly to prevent colds and arthritis; be mindful of blood vessel constriction"
   },
   {
     "절기": "입동",
@@ -149,7 +221,11 @@
     "제철 음식 및 약선 요리": "김장 김치, 시래기, 무, 배추",
     "계절별 양생법 (건강 관리)": "체온 유지, 면역력 강화",
     "풍속 및 전통 행사": "김장, 겨울 채비",
-    "출처": 19
+    "출처": 19,
+    "name_en": "Ipdong (Start of Winter)",
+    "climate_en": "Beginning of winter",
+    "food_en": "Kimchi, dried radish greens (Sirae-gi), radish, cabbage",
+    "wellness_en": "Maintain body temperature; strengthen immunity"
   },
   {
     "절기": "소설",
@@ -157,7 +233,11 @@
     "제철 음식 및 약선 요리": "귤, 시래기국, 팥죽",
     "계절별 양생법 (건강 관리)": "감기 예방, 따뜻한 차 섭취",
     "풍속 및 전통 행사": "무말랭이 만들기, 곶감 말리기",
-    "출처": 20
+    "출처": 20,
+    "name_en": "Soseol (Minor Snow)",
+    "climate_en": "First freeze; first snowfall",
+    "food_en": "Mandarin orange, sirae-gi soup, red bean porridge",
+    "wellness_en": "Prevent colds; drink warm herbal teas"
   },
   {
     "절기": "대설",
@@ -165,7 +245,11 @@
     "제철 음식 및 약선 요리": "귤, 유자차, 호떡, 군고구마",
     "계절별 양생법 (건강 관리)": "혈관 건강 주의, 낙상 주의",
     "풍속 및 전통 행사": "메주 쑤기, 눈 치우기",
-    "출처": 21
+    "출처": 21,
+    "name_en": "Daeseol (Major Snow)",
+    "climate_en": "Heavy snowfall",
+    "food_en": "Mandarin orange, citron tea, hotteok pancakes, roasted sweet potato",
+    "wellness_en": "Protect vascular health; be careful of slipping on ice"
   },
   {
     "절기": "동지",
@@ -173,7 +257,11 @@
     "제철 음식 및 약선 요리": "동지팥죽, 팥시루떡, 수정과, 귤, 동치미",
     "계절별 양생법 (건강 관리)": "양기를 보호하기 위해 몸을 따뜻하게 하고 충분한 수면 권장",
     "풍속 및 전통 행사": "팥죽 쑤기, 하선동력(달력 나누기), 부적 붙이기",
-    "출처": 22
+    "출처": 22,
+    "name_en": "Dongji (Winter Solstice)",
+    "climate_en": "Longest night of the year; yin energy peaks; days begin to lengthen",
+    "food_en": "Winter solstice red bean porridge (Dongji-patjuk), red bean rice cake, persimmon punch, mandarin orange, nabak kimchi",
+    "wellness_en": "Stay warm to protect yang energy; get plenty of sleep"
   },
   {
     "절기": "소한",
@@ -181,7 +269,11 @@
     "제철 음식 및 약선 요리": "쌀밥, 꿩 요리, 청국장, 동치미와 고구마, 식혜",
     "계절별 양생법 (건강 관리)": "신장과 비장의 기능을 튼튼히 하고 열량 있는 음식 섭취. 족욕이나 생강차 섭취",
     "풍속 및 전통 행사": "정초 한파, 새끼줄 꼬기, 설 찬거리 준비",
-    "출처": 23
+    "출처": 23,
+    "name_en": "Sohan (Minor Cold)",
+    "climate_en": "Coldest period of the year; heavy snow falls frequently",
+    "food_en": "Rice, pheasant dish, cheonggukjang (fermented soybean), nabak kimchi with sweet potato, sikhye",
+    "wellness_en": "Strengthen kidney and spleen; eat calorie-rich foods; soak feet in warm water; drink ginger tea"
   },
   {
     "절기": "대한",
@@ -189,6 +281,10 @@
     "제철 음식 및 약선 요리": "동치미, 시래기, 매생이, 굴",
     "계절별 양생법 (건강 관리)": "체온 유지, 실내 환기",
     "풍속 및 전통 행사": "콩 볶기, 입춘 준비",
-    "출처": 24
+    "출처": 24,
+    "name_en": "Daehan (Major Cold)",
+    "climate_en": "Deep winter cold",
+    "food_en": "Nabak kimchi, dried radish greens, sea lettuce, oyster",
+    "wellness_en": "Maintain body temperature; ventilate indoor spaces"
   }
 ]
