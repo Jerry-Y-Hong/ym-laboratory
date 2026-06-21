@@ -24,3 +24,5 @@ npm-debug.log*
 scratch/
 app_check.js
 app.js.bak
+
+.vercel

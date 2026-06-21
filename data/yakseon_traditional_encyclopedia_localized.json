@@ -3,7 +3,7 @@
     {
       "id": "trad-01",
       "category": "Lactic Acid Bacteria",
-      "name": "Lycnoxotox Mesiterioides",
+      "name": "Leuconostoc mesenteroides",
       "english_name": "Leuconostoc mesenteroides",
       "description": "The representative probiotic that led the initial fermentation of traditional kimchi, producing a large amount of organic acid to provide refreshing carbonation and taste. It exhibits remarkable effects in inhibiting harmful bacteria in the body and regulating immunity.",
       "ingredients": "K-fermentation environment (optimal pH 1.5~2.5%, low temperature fermentation 5~10°C)",
@@ -12,14 +12,14 @@
         "Prevents harmful bacterial growth and releases Dextran, a prebiotic fiber substance that protects the intestinal wall.",
         "The fermentation gases, specifically carbon dioxide, contribute to the kimchi's characteristic tangy freshness."
       ],
-      "sasang_relation": "Soybeans and mung beans are very beneficial to you.",
-      "wellness_tip": "A food that enhances digestive power but has a high amount of mucus, which can lead to dryness in the large intestine and constipation, is recommended for those with a sallow complexion.",
+      "sasang_relation": "Very beneficial for Soyang-type and Taeeum-type",
+      "wellness_tip": "Supports intestinal tract movement and controls heat toxins for Soyang-type who have active digestion but excess internal heat, which easily causes dryness in the large intestine or constipation.",
       "bio_synergy": "Improves gut beneficial bacteria occupancy by over 40%, promoting the production of viewtarete (lactose-derived substances), and helping to alleviate symptoms of irritable bowel syndrome (IBS)."
     },
     {
       "id": "trad-02",
       "category": "Lactic Acid Bacteria",
-      "name": "Bacillus subtilis (Clostridium sporogenes)",
+      "name": "Bacillus subtilis (Hay Bacillus)",
       "english_name": "Bacillus subtilis",
       "description": "A strain of gut microbiota with high activity of amylase and protease, which helps in the fermentation of traditional Korean kimchi and doenjang, significantly enhances the absorption rate of protein from soybean proteins in the human body.",
       "ingredients": "Soybean paste, cooked soybeans, optimal fermentation temperature (37-42°C)",
@@ -28,14 +28,14 @@
         "During fermentation, a large amount of poly-gamma-glutamic acid (poly-Glu) is formed.",
         "Enhanced digestive enzyme and fibrin solubilizing enzyme (Nattokinase) production due to the action of probiotics."
       ],
-      "sasang_relation": "Beneficial to those with sensitivity.",
-      "wellness_tip": "Warm energy warms up cold stomach qi and promotes healthy digestion while soothing the liver and gallbladder to enhance the immune system of the large intestine.",
+      "sasang_relation": "Extremely beneficial for Soeum-type",
+      "wellness_tip": "Warms and revitalizes the spleen and stomach, and supports large intestine immunity for Soeum-type who experience cold stomach energy, indigestion, and frequent gas bloating.",
       "bio_synergy": "It promotes synthesis of natural organic acids and vitamin B groups from strong acid and bile in the stomach, without being destroyed by them."
     },
     {
       "id": "trad-03",
       "category": "Lactic Acid Bacteria",
-      "name": "Sakaromase-selebi (nukari aso moe)",
+      "name": "Saccharomyces cerevisiae (Koji Yeast)",
       "english_name": "Saccharomyces cerevisiae",
       "description": "A representative ascomycete that oversees the fermentation of traditional sake and tonkotsu alcohol through traditional methods. It produces a wide variety of vitamins B groups and essential amino acids, as well as aroma organic compounds during the fermentation process.",
       "ingredients": "Traditional fermented rice cake, boiled rice balls, clear water, fermentation temperature (20-25°C)",
@@ -44,14 +44,14 @@
         "Synthesized with ethyl ester of traditional Korean liquor, which imparts a unique fruit fragrance and floral scent reminiscent of traditional Korean spirits.",
         "Through fermentation and filtration with koji, it completes the flavor of sake and tonkatsu."
       ],
-      "sasang_relation": "适宜胎黄和疳黄人群",
+      "sasang_relation": "Suitable for Taeeum-type and Soeum-type",
       "wellness_tip": "Enhances peripheral circulation to aid in maintaining body temperature and stimulates appetite.",
       "bio_synergy": "Vitamin B1, B2, and B6 are highly abundant, helping to remove stress substances such as ketones from the body and promoting the production of cellular energy metabolism."
     },
     {
       "id": "trad-03-2",
       "category": "Lactic Acid Bacteria",
-      "name": "Aspirin Oleoresin (Hwang Guk-Heon)",
+      "name": "Aspergillus oryzae (Hwang-guk-gyun)",
       "english_name": "Aspergillus oryzae",
       "description": "This traditional fermentation and soybean product converts mulberries into amino acids, enhancing the primary substance (myoferment). It activates prebiotics that aid digestion and create a pleasant taste.",
       "ingredients": "Kombucha, rice, optimal cultivation humidity and temperature (28-32°C)",
@@ -67,7 +67,7 @@
     {
       "id": "trad-04",
       "category": "Traditional Folk Cuisine",
-      "name": "Salmon roe",
+      "name": "Seaweed Oyster Soup (Maesaengi Gulguk)",
       "english_name": "Maesaengi Gulguk",
       "description": "A traditional Korean dish from the southern part of Jeollanam-do during winter, a nourishing soup made with tender sea urchin and jelly-like seafood broth from the clean South Sea, is used to replenish energy.",
       "ingredients": "Korean Ginseng: 300 grams  \nGoji Berries: 150 grams  \nCelery Root: 20 grams  \nChopped Garlic: 10 grams  \nSoy Sauce: 1 large tablespoon  \nOlive Oil: 1 small tablespoon  \nFish Soup Base (Salmon or Dashi)",
@@ -77,14 +77,14 @@
         "Place the anchovy paste in hot water until it boils, then turn off the heat and add the marinate.",
         "After thoroughly mixing and heating until it thickens into a porridge-like consistency, it is then served as a stewed soup."
       ],
-      "sasang_relation": "Recommended for those with soy sauce and tamari consumption.",
-      "wellness_tip": "The cool and refreshing nature of the mirabilis reduces the heat of sulfuric acid, calms the spirit, and enhances the power of earthworms.",
+      "sasang_relation": "Recommended for Soyang-type and Taeeum-type",
+      "wellness_tip": "The cool and refreshing properties of Maesaengi lower the internal heat of Soyang-type and calm the spirit, while the rich zinc content of oysters boosts vitality.",
       "bio_synergy": "The taurine and calcium/magnesium combination in the oyster's and shrimp's hemoglobin helps clean out blood vessels, enhancing heart and circulatory system immunity during winter."
     },
     {
       "id": "trad-05",
       "category": "Traditional Folk Food",
-      "name": "当归海参汤",
+      "name": "Danggui Haemul Pajeon (Angelica Seafood Pancake)",
       "english_name": "Danggui Haemul Pajeon",
       "description": "This fragrant medicinal herb from the mountainous areas of Gangwon-do, paired with abundant oysters and clams, creates a crispy earthy wellness food.",
       "ingredients": "Five-Ingredient Ginseng Leaf 50g, Side Greens 150g, Oyster Extract 1 fish, Squid Tail 50g, Flour 1 cup, Crushed Wheat Flakes 2 large spoons, Egg 1, Salad Oil/Table Spread",
@@ -94,14 +94,14 @@
         "Place the pancake batter evenly over a mixture of grated lotus root and ginger leaves, then sprinkle with sesame oil.",
         "Place eggs on top and let the bottom become crispy. Turn it over to coat with oil from the edge, then shake it like a jar."
       ],
-      "sasang_relation": "The optimal remedy for those with excessive noise.",
+      "sasang_relation": "Optimal tonic for Soeum-type",
       "wellness_tip": "The strong tonifying effect of the blood nourishing action of Angelica sinensis leaves and its warming nature helps to improve circulation in those prone to cold extremities due to anemia.",
       "bio_synergy": "The extract of Rehmannia glutinosa (Schrad.) Hong (Rehmannia root), which contains the Decursin component, has remarkable effects in preventing aging and purifying blood circulation."
     },
     {
       "id": "trad-06",
       "category": "Traditional乡土料理",
-      "name": "Fungus Agaricus Decoloratus Soup",
+      "name": "Bangpungnamul Haedok Muchim (Wind-dispelling Herb Salad)",
       "english_name": "Bangpungnamul Haedok Muchim",
       "description": "This spring tonic medicinal food, made by blending the leaves of a wind-protecting herb to which the wind has been blocked, is seasoned with fermented soybean paste and wrapped in bamboo leaves.",
       "ingredients": "Green Tea Shoots 200g, Traditional Soy Sauce 1.5 large tablespoons, Hawthorn Berry 1 large tablespoon, Finely Chopped Garlic 1 small tablespoon, Sesame Oil 1 large tablespoon, Stir-Fried Bean Curd 1 small tablespoon",
@@ -111,14 +111,14 @@
         "Mix traditional soybean paste with melon juice and finely chopped garlic to make a marinade.",
         "It is stir-fried with radish sprouts and soy sauce, then sprinkled with sesame oil and crushed tofu."
       ],
-      "sasang_relation": "Recommendations for those with Taeyongin and Taesunjin",
+      "sasang_relation": "Recommended for Taeeum-type and Taeyang-type",
       "wellness_tip": "Prevents mucus in the throat due to poor breathing caused by dust and haze, and prevents inflammation of the respiratory organs.",
-      "bio_synergy": "The camphor content in Perilla leaf enhances the barrier against viruses on respiratory mucosa and aids in blood circulation's anti-inflammatory effects."
+      "bio_synergy": "The coumarin content in Bangpungnamul enhances viral resistance in respiratory mucosa and aids anti-coagulation."
     },
     {
       "id": "trad-06-2",
       "category": "Traditional Folk Food",
-      "name": "Green tea flourless pancake",
+      "name": "Nokdu Bindaetteok (Mung Bean Pancake)",
       "english_name": "Nokdu Bindaetteok",
       "description": "This is a traditional Korean dish from the Gangwon Province that helps with digestion and energy enhancement by combining fermented soybeans, pork belly, water chestnuts, and shrimp in a spicy stir-fry with sesame oil and peanut sauce.",
       "ingredients": "Green Tea 2 cups, Millet Porridge 2 large servings, Pork Belly 100g, Napa Cabbage Kimchi 80g, Radish Greens 80g, Shredded Garlic 1 large serving, Sesame Oil 1 large serving, Sesame Oil",
@@ -128,9 +128,9 @@
         "Mixed with ground pork, kimchi, and pickled garlic, it is served in a spicy sauce.",
         "Mix the seasoned filling with the fried green beans paste, then spread it evenly on a pan coated generously in oil."
       ],
-      "sasang_relation": "For those consuming soybeans.",
+      "sasang_relation": "Particularly beneficial for Soyang-type",
       "wellness_tip": "The properties are strong, and its diuretic effect is remarkable. It assists in regulating the qi of the heart and lungs while facilitating urine excretion.",
-      "bio_synergy": "The high content of polyphenols (procyanidins and isoprocyanidins) in green tea inhibits intracellular active oxygen and induces synergistic anti-inflammatory effects."
+      "bio_synergy": "The high content of flavonoids (vitexin, isovitexin) in mung beans inhibits free radicals and induces anti-inflammatory synergies."
     },
     {
       "id": "trad-06-3",
@@ -144,7 +144,7 @@
         "Add 1L of water to a pot, then add the bellflower root, licorice, and jujube. Bring to a boil, then reduce heat and simmer for 1 hour until the water is reduced by half.",
         "Strain the soup through a fine cloth or cheesecloth into a bowl. Serve warm once per day in three servings."
       ],
-      "sasang_relation": "Great Yin Type – Strong & Enduring Body Type",
+      "sasang_relation": "Excellent respiratory medicine for Taeeum-type",
       "wellness_tip": "This remedy helps protect and soothe the breathing passages of individuals with weak lung qi, especially during transitional seasons when they are prone to colds, asthma, or shortness of breath.",
       "bio_synergy": "The combination of platycodin sapogenin from bellflower root and glycyrrhizin from licorice promotes mucus secretion in the respiratory tract and calms the phlegm-producing center."
     },
@@ -161,7 +161,7 @@
         "Add the pork when it's boiling; cook over low heat until tender, then cover and simmer on low heat for another 40 minutes.",
         "When the pork is shredded easily with a fork, remove it from the pot and slice thinly."
       ],
-      "sasang_relation": "Beneficial to both Greater Yin Type (Strong & Enduring Body Type) and Lesser Yin Type (Thoughtful & Sensitive Body Type)",
+      "sasang_relation": "Tonic for Taeeum-type and Soeum-type",
       "wellness_tip": "The deep 'sui-ganjang' fermentation amino acids in the Yean-Yi clan's aged soy sauce help enhance protein digestion, aiding in the absorption of proteins for both weak Yin types and strong Yang types.",
       "bio_synergy": "The rich melatonin content from fermented soy sauce has been shown to prevent fat oxidation in pork fats while regulating insulin sensitivity."
     },
@@ -188,7 +188,7 @@
         "Place the prepared rice in a bowl, add the three vegetables and seasoned fish belly, then garnish with sesame seeds.",
         "Mix the fermented black bean seasoning without oil, add sesame seeds, and pour over the rice."
       ],
-      "sasang_relation": "Beneficial for Lesser Yang Type & Lesser Yin Type",
+      "sasang_relation": "Excellent for Soyang-type and Soeum-type",
       "wellness_tip": "Avoid spicy seasonings such as garlic and chili peppers to soothe your stomach and prevent acid reflux in Lesser Yang Type individuals.",
       "bio_synergy": "The natural fiber of vegetables and high-quality protein from fish belly combine to increase the time for bowel movements, preventing sudden blood sugar spikes."
     },
@@ -205,7 +205,7 @@
         "Add the seasoned vegetables to the simmering broth and cook for 30 minutes over low heat.",
         "Chop the onions finely and add them to the soup along with garlic oil and fermented black beans. Simmer until it thickens slightly."
       ],
-      "sasang_relation": "Enhances vitality in individuals of the Greater Yin Type",
+      "sasang_relation": "Powerful energy boost for Taeeum-type",
       "wellness_tip": "This dish helps strengthen weak heart energy, particularly for those with a large frame who have weak blood circulation.",
       "bio_synergy": "The high-quality protein from pork belly and potassium from tangerine peel help improve kidney function and support cardiac muscle contraction."
     },
@@ -222,14 +222,14 @@
         "Shape the batter into thin, round patties and place them on an iron pot or frying pan.",
         "Cook over low heat until the oil is absorbed and the edges do not burn."
       ],
-      "sasang_relation": "Beneficial for those with Lesser Yin Type",
+      "sasang_relation": "Extremely beneficial for Soeum-type",
       "wellness_tip": "The gentle nature of chicken meat helps warm the body, protect the intestinal wall, and enhance digestion in individuals with a sensitive constitution.",
       "bio_synergy": "The combination of unsaturated fatty acids from chicken meat and ginger juice extract's anti-inflammatory components reduces inflammatory cytokines in the body, supporting joint health."
     },
     {
       "id": "trad-09",
       "category": "Korean Spicy Bean Paste Soup",
-      "name": "Maekmundong Doenjang Paste",
+      "name": "Maekmundong Doenjang Paste (Liriope Tuber Bean Paste)",
       "english_name": "Maekmundong Doenjang Paste",
       "description": "This Korean spicy bean paste soup is a blend of traditional fermented soybean paste and doenjang, enhanced with medicinal ingredients such as maekmundong (麦门冬), to create a base broth that reduces the acidity level during cooking while enhancing respiratory health.",
       "ingredients": [
@@ -245,14 +245,14 @@
         "Add honey to add moisture and control the amount of spices.",
         "Pour into a jar or sealed container and let it ferment at room temperature for 2 weeks in an environment with low heat. Use this as the base broth for soups."
       ],
-      "sasang_relation": "Most suitable for those with Greater Yin Type",
+      "sasang_relation": "Most ideal for Taeeum-type",
       "wellness_tip": "This doenjang paste soup is particularly beneficial for individuals with Greater Yin Type, enhancing their immune system and respiratory health by strengthening their defenses against dry lungs and frequent coughing during autumn or winter.",
       "bio_synergy": "Maekmundong saponin (opiporogin) remains intact even after heating in cooking, stimulating the secretion of mucus in the bronchial glands and alleviating symptoms of spasmodic coughs."
     },
     {
       "id": "trad-09-2",
       "category": "Korean Spicy Soybean Paste Soup",
-      "name": "Sansa Maesil Cho-Gochujang",
+      "name": "Sansa Maesil Cho-Gochujang (Hawthorn Plum Sweet Chili Paste)",
       "english_name": "Sansa Maesil Cho-Gochujang",
       "description": "This premium functional soy sauce is made by blending traditional Korean chili paste with dried mountain yam, honey, and natural sweet tea. It helps digest meat and fish while enhancing the flavor.",
       "ingredients": "Traditional chili paste 4 tablespoons, maesil (dried mountain yam) powder 2 tablespoons, honey 2 tablespoons, natural sweet tea 1.5 tablespoons, minced garlic 1 tablespoon, honey 1 tablespoon",
@@ -261,7 +261,7 @@
         "Mix with chili paste, maesil powder, and natural sweet tea, then stir until it thickens.",
         "Add minced garlic and honey, then let sit at room temperature for one day before using."
       ],
-      "sasang_relation": "Beneficial for the digestion of those who are Yin or Yang deficient",
+      "sasang_relation": "Digestive tonic for Soyang-type and Soeum-type",
       "wellness_tip": "This is a perfect dish to aid in digestion for those with excessive heat in their bowels or digestive issues, as well as regulating appetite.",
       "bio_synergy": "The organic acids (rutin and malic acid) from the mountain yam leaves and the pectin content of maesil help detoxify the liver and inhibit harmful bacteria such as food poisoning pathogens."
     },
@@ -278,7 +278,7 @@
         "Prepare the Samulnotta seasoning with Angelica Root, Thousand Gold, Mugwort, and Mountain Yam. Mix minced fish paste (eel paste), eel broth, Samulnotta dressing liquid, chopped green onion, ground ginger, and chili pepper powder.",
         "Mix minced garlic, shallots, green onions, and chili peppers to enhance the aroma of the seasoning."
       ],
-      "sasang_relation": "Lesser Yin Type",
+      "sasang_relation": "Specialized remedy for Soeum-type",
       "wellness_tip": "Enhances circulation and blood nourishment for individuals with stagnant blood flow. Reduces cold hands and feet in individuals with pale skin.",
       "bio_synergy": "Samulnotta's medicinal ingredients interact with the tyrosine in the seasoning, promoting red blood cell production and preventing anemia in women by improving uterine blood circulation."
     },
@@ -295,7 +295,7 @@
         "Combine the steamed glutinous rice, koji, and prepared Maekmundong, Guji, Daqiu, and Radix Isatidis into an earthenware jar and mix thoroughly.",
         "Allow the mixture to ferment at 22-25°C for approximately 3 weeks before straining off the clear liquid layer."
       ],
-      "sasang_relation": "Lesser Yang Type Herbal Medicine",
+      "sasang_relation": "Medicinal liquor for Soyang-type and Taeeum-type",
       "wellness_tip": "The synergistic effects of Guji's strengthening of the kidney qi and Maekmundong's lung-soothing properties help balance the energy levels in Lesser Yang individuals, aiding in the regulation of Qi deficiency and blood stasis.",
       "bio_synergy": "The alcohol extraction process allows for the incorporation of beta-amyloid (Betaine) from Guji and rutin from Daqiu into the digestive system, promoting protection of liver cells and strengthening of capillary walls."
     },
@@ -312,14 +312,14 @@
         "Pour in 4L of clean water and mix thoroughly. Seal the jar opening with a cloth bag.",
         "Let it ferment at room temperature (20-24°C) for 10 days, then strain out rice gruel and slightly dilute with water before drinking."
       ],
-      "sasang_relation": "Beneficial to both Greater Yin Type and Lesser Yin Type individuals",
+      "sasang_relation": "Beneficial for Taeeum-type and Soeum-type",
       "wellness_tip": "Helps lymphatic circulation in individuals prone to lymph node congestion due to slow body moisture metabolism.",
       "bio_synergy": "The Pachyman (Pachyman) glycoconjugates of the black fungus powder and the beneficial by-products from the fermentation process synergistically enhance the function of the kidneys, promoting the elimination of waste products and stimulating the production of immune cells."
     },
     {
       "id": "trad-10-3",
       "category": "Traditional Liquor",
-      "name": "Ginseng Hwalhyeol Liquor",
+      "name": "Ginseng Hwalhyeol Liquor (Ginseng Circulation Wine)",
       "english_name": "Ginseng Circulation Booster",
       "description": "A premium Yakseon liquor made by combining high-quality Ginseng and Jujube, to promote blood circulation and enhance gut health. This winter remedy is specifically designed for those with Cold Hands & Feet.",
       "ingredients": "6-year-old Ginseng root 2 roots, 20g of Kimchi seasoning, 10 large jujubes, 1 kg of millet rice porridge, 2L clear water, 300g salted soybean powder",
@@ -328,24 +328,24 @@
         "Mix the sliced Ginseng root with seasoned Millet Rice Porridge, Jujube, Salted Soybean Powder, and Kimchi Seasoning in warm water.",
         "Stir into a pot for 2 weeks at room temperature or slightly warmer (24-26°C) to allow fermentation. "
       ],
-      "sasang_relation": "Lesser Yin Type – Thoughtful & Sensitive Body Type",
+      "sasang_relation": "Irreplaceable special medicine for Soeum-type",
       "wellness_tip": "This is an exceptional remedy for those with low Yang Qi, experiencing cold hands and feet, poor digestion, and pale complexion due to insufficient blood flow.",
       "bio_synergy": "The Ginseng's Jinseonisoide (Rg1, Rb1, Rg3) components enhance the cell permeability of alcohol fermentation solution, thereby improving the speed of primary circulation."
     },
     {
       "id": "trad-10-4",
       "category": "Traditional Wine",
-      "name": "Omija Pine-needle Makgeolli",
+      "name": "Omija Sol잎 Control Sweet Makgeolli (Omija Pine-needle Sweet Makgeolli)",
       "english_name": "Omija Pine-needle Makgeolli",
       "description": "This sparkling traditional spumoni wine is made by combining five flavors of fermented glutinous rice with natural solvents to absorb the energy that dissipates, and adding chestnut leaves to smooth out the head. It is a healthy traditional sparkling wine.",
-      "ingredients": "2 kg glutinous rice, 80g green tea, 50g chestnut leaves, 400g traditional koji, 3 L clear water",
+      "ingredients": "2 kg glutinous rice, 80g Omija (Schisandra), 50g pine needles, 400g traditional koji, 3 L clear water",
       "steps": [
         "Rinse and dry the chestnut leaves, then soak them in cold water overnight to extract the pigments.",
         "Soak glutinous rice balls in hot water until they are soft. Add chestnut leaf juice, green tea, and koji powder to a bowl and mix thoroughly.",
         "Mix the ingredients for 12 days at room temperature (20-22°C) in an airtight container.",
         "After removing the sediment, cool it down by placing it in a refrigerator to maintain its refreshing quality."
       ],
-      "sasang_relation": "Beneficial for Yang and Lesser Yang types",
+      "sasang_relation": "Excellent for Taeyang-type and Soyang-type",
       "wellness_tip": "It helps reduce excessive heat and energy flow upwards towards the upper body of people with an overactive Yang constitution, preventing their lower bodies from drying out easily and reducing irritability.",
       "bio_synergy": "The Schizandrin component in green tea and the terpenes component in chestnut leaves work together to regulate neurotransmitters in the brain and increase the production of enzymes that inhibit liver damage."
     },
@@ -368,7 +368,7 @@
         "Add the sliced daejeon to the mixture and stir well.",
         "Just before serving, sprinkle with sesame oil and chopped green onions."
       ],
-      "sasang_relation": "Enhances vitality for Lesser Yin Type (Soeumin) and Greater Yin Type (Taeeumin) individuals",
+      "sasang_relation": "Vitality boost for Soeum-type and Taeeum-type",
       "wellness_tip": "The spicy nature of the daejeon helps regulate gas in the digestive system, while the omega-3 fatty acids from sesame oil and amino acids from soy sauce help strengthen the qi of Lesser Yin Type individuals.",
       "bio_synergy": "The alliin compounds in dajeon interact with the peptides in traditional soy sauce to help stabilize blood pressure and improve the elasticity of small blood vessels."
     },
@@ -385,7 +385,7 @@
         "Mix minced fish sauce, ground red pepper, finely chopped garlic, and ginger with the kimchi seasoning.",
         "Add the gamtae to the seasoned mixture, knead gently until it is evenly mixed without sticking together. "
       ],
-      "sasang_relation": "Beneficial for Lesser Yang Type (Sasang) and Greater Yin Type (Sasang)",
+      "sasang_relation": "Beneficial for Soyang-type and Taeeum-type",
       "wellness_tip": "The minerals-rich gamtae helps lower the yang type's blood pressure, while aiding in the circulation of blood and energy flow in the weak yin body.",
       "bio_synergy": "The alginic acid fiber from the gamtae protects the intestinal mucosa, inhibits harmful bacterial absorption, and enhances the barrier protection effect of the gut by combining with probiotics."
     },
@@ -402,7 +402,7 @@
         "Mix glutinous rice flour and salt in a pot to make kimchi broth. Add sliced garlic and ginger, then mix well.",
         "Add seasoned red cabbage, cilantro, radish, and pear into the kimchi jar, and let it simmer at room temperature for 1 day before refrigerating."
       ],
-      "sasang_relation": "Recommended for Lesser Yin Type (Soybean) and Greater Yin Type (Radish) individuals",
+      "sasang_relation": "Recommended for Soeum-type and Taeeum-type",
       "wellness_tip": "Red cabbage's warm nature protects the weak stomach of Lesser Yin Type, while promoting lung function in Greater Yin Type.",
       "bio_synergy": "The anthocyanins from red cabbage and fermented by-products promote the anti-oxidative activity of epithelial cells and induce the production of immune-active factors."
     },
@@ -436,7 +436,7 @@
         "Mix in the chopped eel or small fish broth with the seasoned and mashed napa cabbage, radish, garlic, mountain yam soup, ground ginger, minced garlic, and mountain yam juice.",
         "Pack into a kimchi jar and let it ferment for 3-4 days before simmering in a pot to make a stew-like dish."
       ],
-      "sasang_relation": "Recommended for both Greater Yin Type (Taeeumin) and Lesser Yang Type (Soyangin)",
+      "sasang_relation": "Recommended for Taeeum-type and Soyang-type",
       "wellness_tip": "The detoxifying properties of aged turnip and the lubricating effect on the Great Yin type, as well as the softening effect on the lesser yang type.",
       "bio_synergy": "During fermentation, the toluol glucosides in eel skin or small fish skin combine with the metabolic products of beneficial bacteria in the gut, enhancing the activity of immune cells."
     },
@@ -453,7 +453,7 @@
         "Mix minced garlic, ginger, green onion, sesame oil, and soy sauce for a spicy seasoning.",
         "Combine the seasoned seasonings with shredded sweet potato stems and green onions. Mix well and let it sit in the refrigerator for one day to cool down before serving."
       ],
-      "sasang_relation": "benefits of Lesser Yang Type (Soy Sauce) and Strong & Enduring Body Type (Ginger)",
+      "sasang_relation": "Benefits Soyang-type and Taeeum-type",
       "wellness_tip": "The combination of high fiber content from sweet potato stems and warm properties from green onions helps prevent constipation in individuals with Yin deficiency, promoting healthy digestion.",
       "bio_synergy": "The non-sticky cell wall fibers found in the sweet potato stem cells create a great environment for beneficial bacteria (prebiotics) to thrive, which is excellent for gut health."
     },
@@ -470,7 +470,7 @@
         "Pour the seasoned mixture over the dried Korean lettuce and cilantro, then mix well from top to bottom.",
         "Store in a kimchi jar for 3-4 days at room temperature until it is soft and crisp. Store in a cool place after that."
       ],
-      "sasang_relation": "Beneficial for Lesser Yang Type",
+      "sasang_relation": "Beneficial for Soyang-type",
       "wellness_tip": "The spicy taste of the Korean lettuce helps to relieve stress by clearing away heat from the heart and lungs.",
       "bio_synergy": "Inulin, a natural polysaccharide found in the root, helps regulate blood sugar levels and strengthens intestinal walls, aiding in the relief of chronic digestive symptoms."
     },
@@ -487,7 +487,7 @@
         "Gently tear open the drained sea lettuce and mix it into the seasoning paste.",
         "Let sit at room temperature for two days until the kimchi is soft and has developed a subtle aroma of seaweed and unique sea vegetable flavors."
       ],
-      "sasang_relation": "beneficial to both Lesser Yin Type (Soybean Qi) and Greater Yin Type (Anchovy Qi) individuals",
+      "sasang_relation": "Beneficial to Soeum-type and Taeeum-type",
       "wellness_tip": "The high iodine and calcium content in the tender sea lettuce helps protect the mucous membranes of the lower digestive tract for Lesser Yin Type individuals, while cleansing cholesterol levels and preventing heart disease for Greater Yin Type individuals.",
       "bio_synergy": "Seaweeds' carotenoids and anchovy fermentation acids regulate the pH balance of gut bacteria, inhibiting the growth of pathogenic harmful bacteria such as well-organized beneficial bacteria."
     },
@@ -504,7 +504,7 @@
         "Mix ground pepper powder, soy sauce, sesame oil, minced garlic, and shredded vegetables to make seasoning.",
         "Fold 2 perilla leaves together and spread a little of the seasoning on top. Gradually add more seasoning until it's evenly distributed. Place in an airtight container for two days to ferment."
       ],
-      "sasang_relation": "Suitable for Lesser Yin Type",
+      "sasang_relation": "Suitable for Soeum-type",
       "wellness_tip": "The warm, fragrant perilla leaf characteristic phenylethanol content helps to soothe the stomach and improve digestion in individuals with insufficient qi.",
       "bio_synergy": "It also contains rosmarinic acid, a type of antioxidant polyphenol that inhibits inflammation-causing cytokines in the intestinal lining, helping to alleviate symptoms of irritable bowel syndrome (IBS)."
     },
@@ -521,7 +521,7 @@
         "Mix seasonings such as soy sauce, fish lees, garlic, ginger, and kimchi lees, then add the marinated octopus and radish to a pot.",
         "Add waterwort and mix well. Cook on low heat for 5-7 days until crispy and spicy."
       ],
-      "sasang_relation": "Recommended for Yin-Yang types",
+      "sasang_relation": "Recommended for Taeeum-type and Soeum-type",
       "wellness_tip": "The abundant tyramine and digestive enzymes in octopus, combined with the beneficial enzymes in radish, help improve blood circulation and digestion in individuals with weak heart function.",
       "bio_synergy": "The digestible proteins in octopus are broken down into natural active peptides by gut bacteria, leading to a synergistic effect on blood pressure regulation and protection of blood vessel walls."
     },
@@ -1724,7 +1724,7 @@
     {
       "id": "trad-03-2",
       "category": "发酵菌类",
-      "name": "アスパラギン酸オリジン (黄国根)",
+      "name": "アスペルギルス・オリゼ (黄麹菌)",
       "english_name": "Aspergillus oryzae",
       "description": "伝統的な米麹とメジュから甘酒とタンパク質を糖化し、主な菌類（麹菌）の一つである消化を助ける酵素活性化物を生成します。",
       "ingredients": "米、小麦、適切な保養湿度と温度（28~32℃）",

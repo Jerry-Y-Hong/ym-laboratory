@@ -7,15 +7,495 @@ let standardFunctions = [];
 let normalizationDict = [];
 let exceptionDict = [];
 
+const modernNamesMap = {
+  "가자": "가자",
+  "갈근": "칡뿌리",
+  "갈화": "칡꽃",
+  "감국": "감국",
+  "감송향": "감송나무 뿌리",
+  "감수": "감수 뿌리",
+  "감초": "감초",
+  "감초밀자": "감초밀자",
+  "강향": "강향단향",
+  "강활": "강활",
+  "강황": "강황(울금)",
+  "개자": "갓 씨앗",
+  "갱미": "멥쌀",
+  "건강": "말린 생강",
+  "건율": "말린 밤",
+  "건칠": "옻나무 진액",
+  "검인": "가시연꽃 씨",
+  "견우자": "나팔꽃 씨",
+  "결명자": "결명자",
+  "경천": "경천",
+  "계관화": "맨드라미 꽃",
+  "계내금": "닭 모래주머니 속껍질",
+  "계지": "계피나무 어린가지",
+  "계혈등": "밀화등",
+  "고량강": "량강",
+  "고련피": "고련피",
+  "고목": "고목",
+  "고본": "고본",
+  "고삼": "도둑놈의지팡이(고삼)",
+  "고추": "고추",
+  "곡기생": "겨우살이",
+  "곡아": "벼 싹",
+  "곡정초": "곡정초",
+  "곤포": "다시마",
+  "골담초근": "골담초 뿌리",
+  "골쇄보": "넉줄고사리 뿌리",
+  "과체": "과체",
+  "곽향": "배초향(방아잎)",
+  "관동화": "머위 꽃봉오리",
+  "관중": "관중",
+  "괄루근": "하늘타리 뿌리(천화분)",
+  "괄루인": "하늘타리 씨",
+  "광곽향": "패초향",
+  "광금전초": "광금전초",
+  "괴각": "회화나무 열매",
+  "괴화": "회화나무 꽃",
+  "교이": "조청(엿)",
+  "구기자": "구기자",
+  "구맥": "구맥",
+  "구자": "구자",
+  "구절초": "구절초",
+  "구척": "금모구척",
+  "국화": "국화",
+  "권백": "권백",
+  "권삼": "권삼",
+  "귀전우": "귀전우",
+  "귀판": "귀판",
+  "귤핵": "귤핵",
+  "금박": "금박",
+  "금앵자": "금앵자",
+  "금은화": "인동덩굴 꽃",
+  "금전초": "금전초",
+  "급성자": "급성자",
+  "길경": "도라지",
+  "길초근": "쥐오줌풀 뿌리",
+  "나도근": "나도근",
+  "낙석등": "낙석등",
+  "낭독": "낭독",
+  "내복자": "내복자",
+  "노감석": "노감석",
+  "노근": "갈대뿌리",
+  "노로통": "노로통",
+  "노봉방": "노봉방",
+  "노회": "노회",
+  "녹각": "녹각",
+  "녹각교": "녹각교",
+  "녹두": "녹두",
+  "녹반": "녹반",
+  "녹용": "녹용",
+  "녹제초": "녹제초",
+  "뇌환": "뇌환",
+  "누고": "누고",
+  "누로": "누로",
+  "능소화": "능소화",
+  "단삼": "단삼",
+  "담죽엽": "참대 잎",
+  "당귀": "당귀",
+  "당삼": "만삼",
+  "당약": "당약",
+  "대계": "엉겅퀴",
+  "대극": "대극",
+  "대두황권": "콩나물 말린 것",
+  "대복피": "빈랑나무 껍질",
+  "대산": "마늘",
+  "대자석": "대자석",
+  "대조": "대추",
+  "대청엽": "대청엽",
+  "대풍자": "대풍자",
+  "대황": "대황",
+  "대황주증": "대황주증",
+  "대황초자": "대황초자",
+  "대황초탄": "대황초탄",
+  "도인": "복숭아씨",
+  "독활": "땅두릅",
+  "동과자": "겨울수박 씨",
+  "동과피": "겨울수박 껍질",
+  "동규자": "아욱 씨",
+  "동충하초": "동충하초",
+  "두시": "약누룩(청국장)",
+  "두충": "두충나무",
+  "두충엽": "두충엽",
+  "등심초": "등심초",
+  "마발": "마발",
+  "마인": "마인",
+  "마전자": "마전자",
+  "마치현": "마치현",
+  "마편초": "마편초",
+  "마황": "마황",
+  "마황근": "마황근",
+  "만형자": "만형자",
+  "망초": "망초",
+  "매괴화": "매괴화",
+  "맥문동": "맥문동",
+  "맥아": "보리 엿기름",
+  "맹충": "맹충",
+  "면실자": "면실자",
+  "모과": "모과",
+  "모근": "모근",
+  "모려": "굴 껍질",
+  "목근피": "목근피",
+  "목단피": "모란 뿌리껍질",
+  "목별자": "목별자",
+  "목적": "목적",
+  "목통": "목통",
+  "목향": "목향",
+  "몰약": "몰약나무 진액",
+  "무이": "느릅나무 열매",
+  "문합": "문합",
+  "밀몽화": "밀몽화",
+  "밀타승": "밀타승",
+  "박하": "박하",
+  "반대해": "반대해",
+  "반묘": "반묘",
+  "반변련": "반변련",
+  "반지련": "반지련",
+  "반하": "끼무릇(반하)",
+  "반하생강백반제": "반하생강백반제",
+  "방기": "댕댕이덩굴 뿌리",
+  "방풍": "방풍나물 뿌리",
+  "백강잠": "누에 말린 것",
+  "백과": "은행",
+  "백굴채": "애기똥풀",
+  "백급": "자란 뿌리",
+  "백단향": "단향",
+  "백두구": "백두구 열매",
+  "백두옹": "할미꽃 뿌리",
+  "백렴": "백렴",
+  "백미": "백미",
+  "백반": "백반",
+  "백부근": "백부근",
+  "백부자": "백부자",
+  "백선피": "백선피",
+  "백수오": "백하수오",
+  "백자인": "측백나무 씨앗",
+  "백전": "백전",
+  "백지": "구릿대 뿌리",
+  "백초상": "백초상",
+  "백출": "삽주(백출)",
+  "백편두": "까치콩",
+  "백합": "참나리(백합)",
+  "백화사": "백화사",
+  "백화사설초": "뱀딸기풀(백운풀)",
+  "번사엽": "번사엽",
+  "번홍화": "번홍화",
+  "별갑": "자라 등껍질",
+  "보골지": "개구리발톱 씨",
+  "보두": "보두",
+  "복령": "복령버섯",
+  "복분자": "복분자",
+  "복신": "복신",
+  "봉밀": "봉밀",
+  "부소맥": "부소맥",
+  "부자": "바꽃 뿌리 가공품(부자)",
+  "부평": "부평",
+  "비자": "비자나무 열매",
+  "비파엽": "비파나무 잎",
+  "비해": "비해",
+  "빈랑자": "빈랑나무 열매",
+  "사간": "사간",
+  "사과락": "사과락",
+  "사군자": "사군자",
+  "사삼": "더덕",
+  "사상자": "사상자",
+  "사원자": "사원자",
+  "사인": "사인",
+  "사태": "사태",
+  "사향": "사향",
+  "산내": "산내",
+  "산두근": "산두근",
+  "산사": "산사나무 열매",
+  "산수유": "산수유",
+  "산약": "마",
+  "산자고": "산자고",
+  "산조인": "산조인(멧대추씨)",
+  "산초": "초피/산초",
+  "삼릉": "삼릉",
+  "삼백초": "삼백초",
+  "삼칠": "삼칠",
+  "상기생": "겨우살이",
+  "상륙": "상륙",
+  "상백피": "뽕나무 뿌리껍질",
+  "상산": "상산",
+  "상심자": "오디",
+  "상엽": "뽕잎",
+  "상지": "뽕나무 가지",
+  "상표초": "상표초",
+  "생강": "생강",
+  "생지황": "생지황",
+  "서장경": "서장경",
+  "석결명": "석결명",
+  "석고": "석고",
+  "석곡": "석곡",
+  "석류피": "석류피",
+  "석위": "석위",
+  "석유황": "석유황",
+  "석종유": "석종유",
+  "석창포": "석창포",
+  "선모": "선모",
+  "선복화": "선복화",
+  "선퇴": "선퇴",
+  "섬서": "섬서",
+  "섬수": "섬수",
+  "세신": "세신",
+  "소계": "조뱅이",
+  "소목": "소목나무",
+  "소합향": "소합향",
+  "속단": "한속단",
+  "속수자": "속수자",
+  "송화분": "송화가루",
+  "쇄양": "쇄양",
+  "수오등": "수오등",
+  "수질": "수질",
+  "숙지황": "숙지황",
+  "승마": "승마",
+  "시체": "시체",
+  "시호": "시호",
+  "신곡": "누룩",
+  "신근초": "신근초",
+  "신이": "목련 꽃봉오리",
+  "아교": "아교(당나귀가죽)",
+  "아마인": "아마인",
+  "아위": "아위",
+  "아출": "아출",
+  "안식향": "안식향",
+  "애엽": "쑥",
+  "야명사": "야명사",
+  "양제근": "소리쟁이 뿌리",
+  "어성초": "약모밀",
+  "여로": "여로",
+  "여정실": "여정실",
+  "여지핵": "여지핵",
+  "연교": "개나리 열매",
+  "연자심": "연자심",
+  "연자육": "연꽃 씨",
+  "연전초": "연전초",
+  "영양각": "영양각",
+  "영지": "영지버섯",
+  "예지자": "예지자",
+  "오가피": "오갈피",
+  "오공": "오공",
+  "오령지": "오령지",
+  "오매": "매실 그을린 것",
+  "오미자": "오미자",
+  "오배자": "붉나무 벌레집",
+  "오수유": "오수유 열매",
+  "오약": "오약 뿌리",
+  "옥죽": "둥굴레",
+  "옥촉서예": "옥촉서예",
+  "와릉자": "와릉자",
+  "와송": "와송",
+  "왕불류행": "왕불류행",
+  "요사": "요사",
+  "용골": "화석 뼈",
+  "용규": "용규",
+  "용뇌": "용뇌",
+  "용담": "용담",
+  "용아초": "용아초",
+  "용안육": "용안 열매",
+  "우담": "우담",
+  "우방자": "우방자",
+  "우슬": "쇠무릎",
+  "우절": "우절",
+  "우황": "우황",
+  "욱리인": "욱리인",
+  "운대자": "운대자",
+  "운모": "운모",
+  "울금": "강황 뿌리줄기(울금)",
+  "웅담": "웅담",
+  "원지": "원지 뿌리",
+  "원화": "원화",
+  "위령선": "으아리 뿌리",
+  "위릉채": "위릉채",
+  "유기노": "유기노",
+  "유백피": "느릅나무 뿌리껍질",
+  "유향": "유향나무 진액",
+  "육계": "계피",
+  "육두구": "육두구 씨앗",
+  "육종용": "육종용",
+  "율초": "율초",
+  "은박": "은박",
+  "은시호": "은시호",
+  "은행엽": "은행잎",
+  "음양곽": "삼지구엽초",
+  "의이인": "율무",
+  "익모초": "익모초",
+  "익지": "익지",
+  "인동": "인동덩굴 꽃(금은화)",
+  "인삼": "인삼",
+  "인진호": "사철쑥",
+  "자근": "자근",
+  "자단향": "자단향",
+  "자석": "자석",
+  "자석영": "자석영",
+  "자소엽": "차즈기 잎",
+  "자소자": "차즈기 씨앗",
+  "자연동": "자연동",
+  "자오가": "가시오갈피",
+  "자완": "자완",
+  "자충": "자충",
+  "자화지정": "자화지정",
+  "작약": "작약",
+  "잠사": "잠사",
+  "장뇌": "장뇌",
+  "저담": "저담",
+  "저령": "저령버섯",
+  "저마근": "모시풀 뿌리",
+  "저백피": "가죽나무 뿌리껍질",
+  "저실자": "꾸지나무 열매",
+  "적석지": "적석지",
+  "적소두": "붉은 팥",
+  "전갈": "전갈",
+  "전호": "바디나물 뿌리",
+  "절패모": "중국패모",
+  "접골목": "딱총나무",
+  "정공등": "정공등",
+  "정력자": "정력자",
+  "정류": "정류",
+  "정향": "정향나무 꽃봉오리",
+  "제니": "제니",
+  "제조": "제조",
+  "조각자": "조릿대 가시",
+  "조구등": "낚시돌풀 가지",
+  "조협": "조각자나무 열매",
+  "종려피": "종려피",
+  "주사": "광물 주사",
+  "죽력": "대나무 기름",
+  "죽여": "대나무 속껍질",
+  "지각": "탱자 껍질",
+  "지골피": "구기자나무 뿌리껍질",
+  "지구자": "지구자",
+  "지룡": "지렁이",
+  "지모": "지모 뿌리",
+  "지부자": "댑싸리 씨앗",
+  "지실": "어린 탱자",
+  "지유": "오이풀 뿌리",
+  "지황": "생지황",
+  "진교": "진교",
+  "진주": "진주",
+  "진피": "귤껍질",
+  "질려자": "질려자",
+  "차엽": "차엽",
+  "차전자": "질경이 씨앗",
+  "차전초": "질경이",
+  "창이자": "도꼬마리 열매",
+  "창출": "삽주(창출)",
+  "천궁": "천궁",
+  "천남성": "천남성 덩이줄기",
+  "천년건": "천년건",
+  "천련자": "천련자",
+  "천마": "천마 뿌리",
+  "천문동": "천문동 뿌리",
+  "천산갑": "천산갑",
+  "천오": "바꽃 뿌리(천오)",
+  "천초근": "천초근",
+  "천축황": "천축황",
+  "천패모": "천패모",
+  "청대": "청대",
+  "청상자": "청상자",
+  "청피": "풋귤 껍질",
+  "청호": "개똥쑥",
+  "초과": "초과 열매",
+  "초두구": "초두구 씨",
+  "초오": "투구꽃 뿌리(초오)",
+  "촉규화": "촉규화",
+  "총백": "대파 흰 뿌리",
+  "충위자": "충위자",
+  "측백엽": "측백나무 잎",
+  "치자": "치자나무 열매",
+  "침향": "침향나무 수지",
+  "택란": "쉽싸리",
+  "택사": "택사",
+  "토목향": "토목향",
+  "토복령": "청미래덩굴 뿌리",
+  "토사자": "새삼 씨",
+  "통초": "통탈목 줄기",
+  "파극천": "파극천 뿌리",
+  "파두": "파두 씨앗",
+  "판람근": "숭람 뿌리",
+  "팔각회향": "팔각향",
+  "패란": "패란",
+  "패장": "패장",
+  "편축": "편축",
+  "포공영": "민들레",
+  "포황": "포황",
+  "피마자": "피마자",
+  "필발": "필발",
+  "필징가": "필징가",
+  "하고초": "꿀풀",
+  "하수오": "적하수오",
+  "하엽": "연잎",
+  "학슬": "학슬",
+  "한련초": "한련초",
+  "한수석": "한수석",
+  "합개": "합개",
+  "합환피": "합환피",
+  "해구신": "해구신",
+  "해금사": "해금사",
+  "해동피": "해동피",
+  "해마": "해마",
+  "해방풍": "해방풍",
+  "해백": "해백",
+  "해부석": "해부석",
+  "해삼": "해삼",
+  "해조": "톳/모자반",
+  "해표초": "갑오징어 뼈",
+  "해풍등": "해풍등",
+  "행인": "살구씨",
+  "향부자": "방동사니 뿌리",
+  "향유": "향유",
+  "현삼": "현삼 뿌리",
+  "현초": "현초",
+  "현호색": "현호색",
+  "혈갈": "혈갈",
+  "형개": "형개",
+  "형개초탄": "형개초탄",
+  "호도": "호두",
+  "호동루": "호동루",
+  "호로파": "호로파 씨앗",
+  "호박": "호박/보석 호박",
+  "호이초": "호이초",
+  "호장근": "호장근 뿌리",
+  "호황련": "호황련",
+  "홍삼": "홍삼",
+  "홍화": "잇꽃",
+  "화피": "화피",
+  "활석": "활석",
+  "황금": "속썩은풀(황금)",
+  "황기": "황기",
+  "황련": "깽깽이풀(황련)",
+  "황련주자": "황련주자",
+  "황백": "황벽나무 껍질",
+  "황백염자": "황백염자",
+  "황정": "둥굴레(황정)",
+  "회향": "펜넬(회향)",
+  "후박": "후박나무 껍질",
+  "후추": "후추",
+  "흑두": "검은콩",
+  "흑지마": "검은깨",
+  "희렴": "진득찰",
+};
+
+
 // New Downloaded Library Datasets
 let recipesDb = [];
 let holidaysDb = [];
 let seasonalDb = [];
 let diseasesDb = [];
 let currentWikiCategory = "ALL";
+let isAcademicOpen = false;
+let isAudioPlaying = false;
+let audioCurrentTime = 0;
+let audioDuration = 75;
+let audioTimer = null;
+let slideInterval = null;
 
 // Multilingual i18n Localization state
 let currentLanguage = 'ko';
+let lastWeatherInfo = null; // Store last weather details to re-run on language change
 // ─── Shop & Modal UI Localizations (Antigravity AI) ────────────────
 const shopI18n = {
   cartAdd: { ko: '담기', en: 'Add', ja: '入れる', ar: 'إضافة' },
@@ -43,7 +523,8 @@ const shopI18n = {
   fat: { ko: '지질 (Fat)', en: 'Fat', ja: '脂質', ar: 'الدهون' },
   sodium: { ko: '나트륨 (Sodium)', en: 'Sodium', ja: 'ナトリウム', ar: 'الصوديوم' },
   productSummaryTitle: { ko: '📋 상품 개요', en: '📋 Product Overview', ja: '📋 商品概要', ar: '📋 نظرة عامة على المنتج' },
-  cartDrawerTitle: { ko: '🛒 장바구니', en: '🛒 Shopping Cart', ja: '🛒 ショッピングカート', ar: '🛒 سلة التسوق' }
+  cartDrawerTitle: { ko: '🛒 장바구니', en: '🛒 Shopping Cart', ja: '🛒 ショッピングカート', ar: '🛒 سلة التسوق' },
+  valueGuarantee: { ko: '⭐ MILA 프리미엄 가치 보증 (Value Guarantee)', en: '⭐ MILA Premium Value Guarantee', ja: '⭐ MILA プレミアム価値保証', ar: '⭐ ضمان ميلا للقيمة المميزة' }
 };
 
 function getShopTxt(key, lang = currentLanguage) {
@@ -862,6 +1343,75 @@ const guideI18n = {
   }
 };
 
+function getLocalizedCookingStep(step, lang) {
+  if (!lang || lang === 'ko') return step;
+  
+  if (step.includes('[준비]')) {
+    const startIdx = step.indexOf('(');
+    const endIdx = step.lastIndexOf(')');
+    let listStr = '';
+    if (startIdx !== -1 && endIdx !== -1) {
+      const listContent = step.slice(startIdx + 1, endIdx);
+      listStr = listContent.split(',').map(item => {
+        const trimmed = item.trim();
+        const lastSpaceIdx = trimmed.lastIndexOf(' ');
+        if (lastSpaceIdx === -1) {
+          return getTranslation(trimmed, lang);
+        }
+        const name = trimmed.slice(0, lastSpaceIdx).trim();
+        const weight = trimmed.slice(lastSpaceIdx + 1).trim();
+        return `${getTranslation(name, lang)} ${getTranslation(weight, lang)}`;
+      }).join(', ');
+    }
+    
+    if (lang === 'en') return `[Prep] Wash and prepare all ingredients. (${listStr})`;
+    if (lang === 'ja') return `[準備] 食材をきれいに洗って準備します。 (${listStr})`;
+    if (lang === 'ar') return `[التحضير] غسل المكونات وتحضيرها. (${listStr})`;
+  }
+  
+  if (step.includes('장시간 충분히 먼저 달여') || step.includes('먼저 달여')) {
+    let listStr = '';
+    const pattern = /중\s+(.*?)\s+은|중\s+(.*?)\s+는/;
+    const match = step.match(pattern);
+    if (match) {
+      const rawList = match[1] || match[2] || '';
+      listStr = rawList.split(',').map(name => getTranslation(name.trim(), lang)).join(', ');
+    }
+    
+    const stepNumMatch = step.match(/\[(\d+)단계\]/);
+    const stepNum = stepNumMatch ? stepNumMatch[1] : '1';
+    
+    if (lang === 'en') return `[Step ${stepNum}] Decoct ${listStr} in water over high heat first, then reduce to low heat and simmer for 40 minutes.`;
+    if (lang === 'ja') return `[${stepNum}段階] 薬材のうち ${listStr} は 水に入れて強火で沸騰させ、弱火に落として約40分間、十分に先に煎じます。`;
+    if (lang === 'ar') return `[الخطوة ${stepNum}] يُغلى ${listStr} في الماء على نار عالية أولاً، ثم تُخفض الحرارة ويُطهى لمدة 40 دقيقة.`;
+  }
+  
+  if (step.includes('추가로 끓여') || step.includes('추가로 끓여서')) {
+    let listStr = '';
+    const pattern = /식재료인\s+(.*?)\s+을|식재료인\s+(.*?)\s+를/;
+    const match = step.match(pattern);
+    if (match) {
+      const rawList = match[1] || match[2] || '';
+      listStr = rawList.split(',').map(name => getTranslation(name.trim(), lang)).join(', ');
+    }
+    
+    const stepNumMatch = step.match(/\[(\d+)단계\]/);
+    const stepNum = stepNumMatch ? stepNumMatch[1] : '2';
+    
+    if (lang === 'en') return `[Step ${stepNum}] Add the remaining ingredients (${listStr}) into the broth and boil for another 15-20 minutes.`;
+    if (lang === 'ja') return `[${stepNum}段階] 抽出されたスープに残りの食材 ${listStr} を入れて、約15〜20分間追加で煮込み、香りと効能を調和させます。`;
+    if (lang === 'ar') return `[الخطوة ${stepNum}] تُضاف المكونات المتبقية (${listStr}) إلى المرق وتُغلى لمدة 15-20 دقيقة أخرى.`;
+  }
+  
+  if (step.includes('[완성]')) {
+    if (lang === 'en') return `[Done] Serve the warm herbal tea, divided into morning and evening portions.`;
+    if (lang === 'ja') return `[完成] 完成した薬膳スープを温めて、朝・夕に分けてお召し上がりください。`;
+    if (lang === 'ar') return `[جاهز] يُقدم شاي الأعشاب الدافئ مقسماً على مرتين صباحاً ومساءً.`;
+  }
+  
+  return step;
+}
+
 let recipesDbLocalized = {};
 let traditionalDbLocalized = {};
 let recipesDbKo = [];
@@ -929,10 +1479,75 @@ function getResolved7Axis(stdFunc, originalAxis) {
   return "보호";
 }
 
+function getModernName(classicalName, lang = currentLanguage) {
+  if (!classicalName) return "";
+  const modernKo = modernNamesMap[classicalName] || classicalName;
+  if (!lang || lang === 'ko') {
+    return modernKo;
+  }
+  const translated = getTranslation(modernKo, lang);
+  if (translated !== modernKo) {
+    return translated;
+  }
+  return getTranslation(classicalName, lang);
+}
+
 // ─── 다국어 번역 및 i18n 연동 헬퍼 함수 ─────────────────────────
 function getTranslation(key, lang) {
   if (!key) return "";
   const targetLang = lang || 'ko';
+  
+  const additionalMap = {
+    "방문자": { en: "Visitor", ja: "訪問者", ar: "زائر" },
+    "웰빙 회원": { en: "Wellbeing Member", ja: "ウェلビーイング会員", ar: "عضو العافية" },
+    "일반 체질": { en: "General Constitution", ja: "一般体質", ar: "الدستور العام" },
+    "전신 건강 관리": { en: "General Health Care", ja: "全身健康管理", ar: "الرعاية الصحية العامة" },
+    "서울특별시 (기본값)": { en: "Seoul (Default)", ja: "ソウル特別市 (デフォルト)", ar: "سيول (افتراضي)" },
+    "자동 측정 위치": { en: "Auto-detected Location", ja: "自動測定位置", ar: "الموقع المكتشف تلقائيًا" },
+    "위치 미확인": { en: "Location Unverified", ja: "位置未確認", ar: "الموقع غير مؤكد" },
+    "기상 데이터 분석중...": { en: "Analyzing weather...", ja: "기상 데이터 분석중...", ar: "جاري تحليل الطقس..." },
+    "위치 정보 로드 중...": { en: "Loading location...", ja: "위치 정보 로드 중...", ar: "جاري تحميل الموقع..." },
+    "날씨": { en: "Weather", ja: "天気", ar: "الطقس" },
+    "황제내경, 동의보감, 본초강목 및 농진청 데이터를 기반으로 환자 상태에 맞는 최적의 보양식 처방을 창안합니다.": {
+      en: "Based on Huangdi Neijing, Donguibogam, Bencao Gangmu, and RDA standard food data, we formulate the optimal wellness medicinal food recipe tailored to the patient's condition.",
+      ja: "皇帝内経、東医宝鑑、本草綱目、および農村振興庁のデータを基に、患者の状態に合わせた最適な薬膳処方を作り出します。",
+      ar: "بناءً على هوانغدي نيجينغ، ودونغ أوي بو غام، وبنشاو غانغمو، وبيانات الغذاء القياسية الصادرة عن إدارة التنمية الريفية، نقوم بتركيب وصفة الطعام الطبي المثالية المصممة خصيصاً لحالة المريض."
+    },
+    "오골계": { en: "Black Chicken", ja: "烏骨鶏", ar: "دجاج أسود" },
+    "팔진탕(숙지황 10g)": { en: "Paljin-tang (with 10g Rehmannia)", ja: "八珍湯(熟地黄 10g)", ar: "بالجين تانغ (مع 10 جرام ريهمانيا)" },
+    "당귀": { en: "Angelica Root (Danggui)", ja: "当帰", ar: "دونغ كواي" },
+    "백작약": { en: "White Peony Root", ja: "白芍薬", ar: "جذر الفاوانيا البيضاء" },
+    "천궁": { en: "Chuanxiong", ja: "川芎", ar: "كوان شيونغ" },
+    "인삼": { en: "Ginseng", ja: "高麗人参", ar: "الجينسنغ" },
+    "숙지황": { en: "Rehmannia Root", ja: "熟地黄", ar: "ريهمانيا" },
+    "오골계 1마리": { en: "1 Black Chicken", ja: "烏骨鶏 1羽", ar: "دجاجة سوداء واحدة" },
+    "오골계(1마리)": { en: "Black Chicken (1 whole)", ja: "烏骨鶏(1羽)", ar: "دجاج أسود (دجاجة كاملة)" },
+    "1마리": { en: "1 whole", ja: "1羽", ar: "دجاجة كاملة" },
+    "적당량": { en: "Moderate Amount", ja: "適量", ar: "كمية معتدلة" },
+    "식료 보양": { en: "Dietary Nourishment", ja: "食療補養", ar: "التغذية الغذائية" },
+    "기본 조리법": { en: "Basic Preparation", ja: "基本調理法", ar: "طريقة التحضير الأساسية" },
+    "약선 배합": { en: "Medicinal Pairing", ja: "薬膳配合", ar: "الاقتران الدوائي" },
+    "기혈(氣血)을 쌍보하여 극도의 허약 체질을 개선하고 출산 후 보양 + 생리불순 + 빈혈 완화": {
+      en: "Nourishes both Qi & Blood, improves extreme weakness, provides postpartum recovery, regulates menstruation & relieves anemia",
+      ja: "気血を補って極度の虚弱体質を改善し、出産後の保養・月経不順・貧血を緩和します",
+      ar: "يغذي طاقة تشي والدم، ويحسن الضعف الشديد، ويساعد على التعافي بعد الولادة، وينظم الدورة الشهرية ويخفف فقر الدم"
+    }
+  };
+
+  const cleanKey = key.trim();
+  if (additionalMap[cleanKey] && additionalMap[cleanKey][targetLang]) {
+    return additionalMap[cleanKey][targetLang];
+  }
+
+  if (key === '현대명') {
+    const map = {
+      ko: '현대명',
+      en: 'Common Name',
+      ja: '現代名',
+      ar: 'الاسم الحديث'
+    };
+    return map[targetLang] || map.ko;
+  }
   
   if (!translationDictionary) return key;
   
@@ -1301,18 +1916,16 @@ function getLocalizedCookingStep(step, lang) {
   return step;
 }
 
-function updateRecipeImage(recipeName) {
-  const imgEl = document.getElementById('res-recipe-image');
-  if (!imgEl) return;
-  
+function getRecipeImage(recipeName) {
   let imgSrc = 'tea-01.png'; // default
+  if (!recipeName) return imgSrc;
   const name = recipeName.toLowerCase();
   
-  if (name.includes('막걸리') || name.includes('makgeolli')) {
+  if (name.includes('막걸리') || name.includes('makgeolli') || name.includes('omija')) {
     imgSrc = 'omija_makgeolli.png';
   } else if (name.includes('소주') || name.includes('인삼주') || name.includes('홍삼주') || name.includes('soju') || name.includes('ginseng soju')) {
     imgSrc = 'liq-03.png';
-  } else if (name.includes('주') || name.includes('술') || name.includes('약주') || name.includes('국화주') || name.includes('liq')) {
+  } else if (name.includes('주') || name.includes('술') || name.includes('약주') || name.includes('국화주') || name.includes('liq') || name.includes('wine')) {
     imgSrc = 'liq-02.png';
   } else if (name.includes('죽') || name.includes('미음') || name.includes('porridge') || name.includes('gruel')) {
     imgSrc = 'nutr-01.png';
@@ -1336,12 +1949,128 @@ function updateRecipeImage(recipeName) {
     imgSrc = 'tea-01.png';
   } else if (name.includes('황차') || name.includes('hwangcha')) {
     imgSrc = 'tea-02.png';
-  } else {
-    imgSrc = 'tea-01.png';
   }
-  
+  return imgSrc;
+}
+
+function updateRecipeImage(recipeName) {
+  const imgEl = document.getElementById('res-recipe-image');
+  if (!imgEl) return;
+  const imgSrc = getRecipeImage(recipeName);
   imgEl.style.backgroundImage = `url('./${imgSrc}')`;
 }
+
+function showRecipeDetail(recipe) {
+  const overlay = document.getElementById('detail-modal');
+  const title = document.getElementById('modal-title');
+  const body = document.getElementById('modal-body');
+  if (!overlay || !title || !body) return;
+
+  const lang = currentLanguage;
+  const lr = getLocalizedRecipe(recipe, lang);
+
+  // Localized Labels
+  const labels = {
+    title: { ko: '상세 정보', en: 'Details', ja: '詳細情報', ar: 'تفاصيل' },
+    mainIng: { ko: '주재료', en: 'Main Ingredients', ja: '主材料', ar: 'المكونات الرئيسية' },
+    subIng: { ko: '부재료 및 한약재', en: 'Sub-ingredients & Herbs', ja: '副材料および薬材', ar: 'المكونات الفرعية والأعشاب' },
+    efficacy: { ko: '주요 효능', en: 'Main Efficacy & Benefits', ja: '主な効能と効果', ar: 'الفوائد والفعالية الرئيسية' },
+    gimi: { ko: '기미 및 귀경', en: 'Properties & Meridians', ja: '기미 및 귀경 (性味と帰経)', ar: 'الطبيعة والمذاق ومسارات الطاقة' },
+    cooking: { ko: '전통 조리 시퀀스', en: 'Traditional Cooking Sequence', ja: '伝統적調理シーケンス', ar: 'خطوات الطهي التقليدي' },
+    gogeung: { ko: '전통 문헌 고증', en: 'Historical Authenticity', ja: '伝統文献の考証 (고증)', ar: 'التوثيق التاريخي للمصدر' },
+    source: { ko: '고조리서 출처', en: 'Classical Literature Source', ja: '古調理書出典', ar: 'مصدر كتب الطهي القديمة' }
+  };
+
+  const t = (lblKey) => (labels[lblKey][lang] || labels[lblKey].ko);
+
+  title.innerText = lang === 'ko' ? `📖 ${recipe.요리명} 상세 정보` : `📖 ${recipe.요리명} (${lr.요리명}) 상세 정보`;
+
+  // Image topping thumbnail logic for multilingual mode
+  let imgHtml = '';
+  if (lang !== 'ko') {
+    const imgSrc = getRecipeImage(recipe.요리명);
+    imgHtml = `
+      <div class="recipe-detail-thumb-wrapper" style="width: 100%; height: 180px; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 4px 15px rgba(0,0,0,0.4); position: relative; margin-bottom: 15px;">
+        <div style="width: 100%; height: 100%; background-image: url('./${imgSrc}'); background-size: cover; background-position: center; transition: all 0.5s ease;"></div>
+        <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(12,18,32,0.95), transparent); padding: 12px 16px; display: flex; align-items: flex-end; justify-content: space-between;">
+          <span style="font-size: 0.78rem; font-weight: 700; color: var(--primary); text-transform: uppercase; letter-spacing: 0.5px; background: rgba(0,0,0,0.4); padding: 2px 8px; border-radius: 4px; border: 1px solid var(--border-glass);">
+            ${lr.category || lr.카테고리 || 'Recipe'}
+          </span>
+        </div>
+      </div>
+    `;
+  }
+
+  // Historical citation / context card design refactoring (고증 카드 디자인 리팩토링)
+  let heritageHtml = '';
+  if (lr.ancient_citation || lr.ancient_context) {
+    const citation = lr.ancient_citation || '동의보감(Donguibogam)';
+    const context = lr.ancient_context || '';
+    
+    heritageHtml = `
+      <div class="recipe-heritage-card" style="position: relative; background: rgba(245, 158, 11, 0.03); border: 1px solid rgba(245, 158, 11, 0.25); border-radius: 12px; padding: 16px; margin-bottom: 15px; box-shadow: 0 4px 12px rgba(245, 158, 11, 0.05); overflow: hidden;">
+        <div style="position: absolute; right: 12px; top: 12px; font-size: 2.2rem; color: rgba(245, 158, 11, 0.05); pointer-events: none;">
+          <i class="fa-solid fa-scroll"></i>
+        </div>
+        <h4 style="margin-top:0; margin-bottom:8px; font-size:0.85rem; color:var(--sa-color); display:flex; align-items:center; gap:8px; text-transform: none;">
+          <i class="fa-solid fa-scroll" style="color:var(--sa-color);"></i>
+          <span>${t('gogeung')}</span>
+        </h4>
+        <p style="font-size: 0.82rem; color: var(--text-secondary); margin-bottom: 6px; font-style: italic; line-height: 1.5;">
+          "${context}"
+        </p>
+        <div style="font-size: 0.72rem; color: var(--sa-color); font-weight: 700; text-align: right; margin-top: 4px; border-top: 1px dashed rgba(245, 158, 11, 0.15); padding-top: 6px;">
+          <i class="fa-solid fa-bookmark"></i> ${t('source')}: ${citation}
+        </div>
+      </div>
+    `;
+  }
+
+  body.innerHTML = `
+    ${imgHtml}
+    
+    ${heritageHtml}
+
+    <div class="modal-section" style="margin-bottom: 15px;">
+      <h4 style="color: var(--primary);"><i class="fa-solid fa-circle-info"></i> ${t('mainIng')}</h4>
+      <p style="font-size: 0.95rem; font-weight: 600; color: #fff; background: rgba(255,255,255,0.03); padding: 8px 12px; border-radius: 8px; border: 1px solid var(--border-glass);">
+        ${lr.주재료}
+      </p>
+    </div>
+
+    <div class="modal-section" style="margin-bottom: 15px;">
+      <h4 style="color: var(--primary);"><i class="fa-solid fa-seedling"></i> ${t('subIng')}</h4>
+      <p style="font-size: 0.92rem; color: var(--text-main); background: rgba(255,255,255,0.03); padding: 8px 12px; border-radius: 8px; border: 1px solid var(--border-glass);">
+        ${lr["부재료 및 약재"] || lr["부재료"] || "-"}
+      </p>
+    </div>
+
+    <div class="modal-section" style="margin-bottom: 15px;">
+      <h4 style="color: var(--primary);"><i class="fa-solid fa-heart-pulse"></i> ${t('efficacy')}</h4>
+      <p style="font-size: 0.92rem; color: var(--text-main); line-height: 1.5;">
+        ${lr.주요효능 || lr.주요_효능 || ""}
+      </p>
+    </div>
+
+    <div class="modal-section" style="margin-bottom: 15px;">
+      <h4 style="color: var(--primary);"><i class="fa-solid fa-compass"></i> ${t('gimi')}</h4>
+      <p style="font-size: 0.92rem; color: var(--text-main); font-weight: 500;">
+        ${lr["기미 및 귀경"] || lr["기미"] || "정보 준비중"}
+      </p>
+    </div>
+
+    <div class="modal-section" style="margin-bottom: 5px;">
+      <h4 style="color: var(--sa-color);"><i class="fa-solid fa-kitchen-set"></i> ${t('cooking')}</h4>
+      <div style="background: rgba(0,0,0,0.25); border: 1px solid var(--border-glass); border-radius: 10px; padding: 14px; font-size: 0.9rem; line-height: 1.6; color: var(--text-main);">
+        ${lr["조리 방법 요약"] || lr["조리방법"] || ""}
+      </div>
+    </div>
+  `;
+
+  overlay.classList.add('open');
+}
+
+window.showRecipeDetail = showRecipeDetail;
 
 function getLocalizedRecipe(recipe, lang) {
   if (!recipe) return null;
@@ -1394,6 +2123,13 @@ function switchLanguage(lang) {
     window.traditionalDb = [...(traditionalDbLocalized[lang] || traditionalDbKo)];
   }
   
+  // category 속성이 유실되지 않도록 재주입
+  recipesDb.forEach(r => {
+    if (!r.category) {
+      r.category = r.카테고리 || getRecipeCategory(r.요리명);
+    }
+  });
+  
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.getAttribute('data-i18n');
     const translated = getTranslation(key, lang);
@@ -1426,6 +2162,10 @@ function switchLanguage(lang) {
     unlockPlatformGateway();
   }
 
+  if (lastWeatherInfo) {
+    updateWeatherWidget(lastWeatherInfo.season, lastWeatherInfo.weather, lastWeatherInfo.temp, lastWeatherInfo.location);
+  }
+
   localizePersonaUi();
   initDashboard();
   renderRecipesWiki();
@@ -1434,6 +2174,14 @@ function switchLanguage(lang) {
   renderTraditionalOverview();
   renderBrowserTable();
   renderShopProducts();
+  
+  if (typeof initBeautyTab === 'function') {
+    initBeautyTab();
+    const resultArea = document.getElementById('beauty-result-area');
+    if (resultArea && !resultArea.classList.contains('hidden')) {
+      analyzeBeauty();
+    }
+  }
   
   if (currentPersona === 'workspace') {
     updateRndAnalysis();
@@ -1564,6 +2312,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
   }
   
+  // 최초 기본 언어 번역 엔진 강제 가동 (정적 텍스트 다국어 동기화)
+  switchLanguage(currentLanguage);
+
   // URL 해시 감지 및 라우팅 작동
   handleUrlRouting();
   window.addEventListener('hashchange', handleUrlRouting);
@@ -1613,6 +2364,17 @@ function enterPlatform(persona) {
   // Update URL hash
   window.location.hash = `#${persona}`;
 }
+
+function handleWorkspaceEntry() {
+  const currentSub = JSON.parse(localStorage.getItem('nuri_current_subscriber') || 'null');
+  if (currentSub && (currentSub.role === 'admin' || currentSub.role === 'researcher' || currentSub.role === 'founder' || currentSub.role === 'medical')) {
+    enterPlatform('workspace');
+  } else {
+    // 일반 구독자이거나 비로그인 게스트인 경우 관리자 비밀번호 검증 모달 열기
+    openAdminModal();
+  }
+}
+window.handleWorkspaceEntry = handleWorkspaceEntry;
 
 function initSubscribers() {
   const stored = localStorage.getItem('nuri_subscribers');
@@ -1693,57 +2455,103 @@ function unlockPlatformGateway() {
   }
 
   // 기존 구독자가 재방문 시: 웰컴백 배너 표시
-  const currentSub = JSON.parse(localStorage.getItem('nuri_current_subscriber') || 'null');
+  let currentSub = JSON.parse(localStorage.getItem('nuri_current_subscriber') || 'null');
+  if (currentSub && currentSub.name === '관리자') {
+    currentSub.name = '방문자';
+    localStorage.setItem('nuri_current_subscriber', JSON.stringify(currentSub));
+  }
   if (currentSub) {
     const subFormHeader = document.getElementById('gateway-subscription-section');
     if (subFormHeader) {
       const lang = currentLanguage || 'ko';
       const certifiedText = getTranslation('구독 회원 인증 완료', lang);
-      
-      const localizedName = getTranslation(currentSub.name, lang);
+      let localizedName = getTranslation(currentSub.name, lang);
+      if (localizedName && localizedName.includes('관리자')) {
+        localizedName = '방문자';
+      }
       const welcomeText = getTranslation('환영합니다', lang).replace('{name}', localizedName);
-      
-      const localizedConstitution = getTranslation(currentSub.constitution, lang);
-      const subDesc = getTranslation('Mila & Nuri Lab 플랫폼의 모든 기능을 자유롭게 이용하실 수 있습니다.', lang);
-      const enterRecipe = getTranslation('Mila 웰빙 레시피실 입장', lang);
-      const enterWorkspace = getTranslation('Nuri Lab R&D 워크스페이스 입장', lang);
       const logoutReset = getTranslation('다른 계정으로 재가입', lang);
 
-      subFormHeader.innerHTML = `
-        <div style="text-align:center; padding:30px 24px;">
-          <div style="margin-bottom:16px; display:flex; justify-content:center;"><img src="logo.png" alt="Logo" style="width:60px; height:60px; object-fit:contain; border-radius:15px; filter:drop-shadow(0 0 10px var(--primary-glow));"></div>
-          <div class="event-pill" style="margin: 0 auto 16px;"><i class="fa-solid fa-circle-check"></i> ${certifiedText}</div>
-          <h2 style="font-family:'Outfit',sans-serif; font-size:1.35rem; color:#fff; font-weight:700; margin:0 0 8px;">
-            ${welcomeText}
-          </h2>
-          <p style="font-size:0.85rem; color:var(--text-muted); margin:0 0 6px;">${currentSub.id} · ${localizedConstitution}</p>
-          <p style="font-size:0.82rem; color:var(--text-secondary); margin:0 0 24px; line-height:1.5;">
-            ${subDesc}
-          </p>
-          <div style="display:flex; flex-direction:column; gap:10px;">
-            <button class="btn btn-primary btn-large" style="width:100%; font-weight:700; padding:14px;" onclick="enterPlatform('recipe')">
-              <i class="fa-solid fa-heart"></i> ${enterRecipe}
-            </button>
-            <button class="btn btn-accent" style="width:100%; font-weight:700; padding:12px;" onclick="enterPlatform('workspace')">
-              <i class="fa-solid fa-laptop-medical"></i> ${enterWorkspace}
-            </button>
-            <button class="btn btn-outline" style="width:100%; font-size:0.8rem; padding:10px; margin-top:4px;" onclick="logoutAndReset()">
-              <i class="fa-solid fa-right-from-bracket"></i> ${logoutReset}
-            </button>
-          </div>
-        </div>`;
+      // Check if user has expert rights
+      const isExpert = (currentSub.role === 'admin' || currentSub.role === 'researcher' || currentSub.role === 'founder' || currentSub.role === 'medical');
+
+      if (isExpert) {
+        // 관리자/전문가 로그인 상태: 듀얼 버튼 및 전문가 전용 배너 노출
+        const subDesc = getTranslation('Mila & Nuri Lab 플랫폼의 모든 기능을 자유롭게 이용하실 수 있습니다.', lang);
+        const enterRecipe = getTranslation('Mila 웰빙 레시피실 입장', lang);
+        const enterWorkspace = getTranslation('Nuri Lab R&D 워크스페이스 입장', lang);
+
+        subFormHeader.innerHTML = `
+          <div style="text-align:center; padding:30px 24px;">
+            <div style="margin-bottom:16px; display:flex; justify-content:center;"><img src="logo.png" alt="Logo" style="width:60px; height:60px; object-fit:contain; border-radius:15px; filter:drop-shadow(0 0 10px var(--primary-glow));"></div>
+            <div class="event-pill" style="margin: 0 auto 16px; background: rgba(245, 158, 11, 0.12); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.3); font-weight: 700;"><i class="fa-solid fa-user-shield"></i> 전문가 인증 완료</div>
+            <h2 style="font-family:'Outfit',sans-serif; font-size:1.35rem; color:#fff; font-weight:700; margin:0 0 8px;">
+              ${welcomeText}
+            </h2>
+            <p style="font-size:0.85rem; color:var(--text-muted); margin:0 0 6px;">${currentSub.id} · ${getTranslation(currentSub.role, lang)}</p>
+            <p style="font-size:0.82rem; color:var(--text-secondary); margin:0 0 24px; line-height:1.5;">
+              ${subDesc}
+            </p>
+            <div style="display:flex; flex-direction:column; gap:10px;">
+              <button class="btn btn-primary btn-large" style="width:100%; font-weight:700; padding:14px;" onclick="enterPlatform('recipe')">
+                <i class="fa-solid fa-heart"></i> ${enterRecipe}
+              </button>
+              <button class="btn btn-accent" style="width:100%; font-weight:700; padding:12px;" onclick="handleWorkspaceEntry()">
+                <i class="fa-solid fa-laptop-medical"></i> ${enterWorkspace}
+              </button>
+              <button class="btn btn-outline" style="width:100%; font-size:0.8rem; padding:10px; margin-top:4px;" onclick="logoutAndReset()">
+                <i class="fa-solid fa-right-from-bracket"></i> ${logoutReset}
+              </button>
+            </div>
+          </div>`;
+      } else {
+        // 일반 B2C 사용자 로그인 상태: R&D 버튼을 숨기고 일반 레시피실 입장 버튼만 강조하여 UI 단순화 및 혼선 방지
+        const subDesc = "내 체질과 현재 절기에 맞는 건강 보양 처방식 및 친숙한 한글 식재료 요리 가이드를 탐색합니다.";
+        const enterRecipe = getTranslation('Mila 웰빙 레시피실 입장', lang);
+
+        subFormHeader.innerHTML = `
+          <div style="text-align:center; padding:30px 24px;">
+            <div style="margin-bottom:16px; display:flex; justify-content:center;"><img src="logo.png" alt="Logo" style="width:60px; height:60px; object-fit:contain; border-radius:15px; filter:drop-shadow(0 0 10px var(--primary-glow));"></div>
+            <div class="event-pill" style="margin: 0 auto 16px;"><i class="fa-solid fa-circle-check"></i> ${certifiedText}</div>
+            <h2 style="font-family:'Outfit',sans-serif; font-size:1.35rem; color:#fff; font-weight:700; margin:0 0 8px;">
+              ${welcomeText}
+            </h2>
+            <p style="font-size:0.85rem; color:var(--text-muted); margin:0 0 6px;">${currentSub.id} · ${getTranslation(currentSub.constitution, lang)}</p>
+            <p style="font-size:0.82rem; color:var(--text-secondary); margin:0 0 24px; line-height:1.5;">
+              ${subDesc}
+            </p>
+            <div style="display:flex; flex-direction:column; gap:10px;">
+              <button class="btn btn-primary btn-large" style="width:100%; font-weight:800; padding:15px; font-size: 0.95rem; box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);" onclick="enterPlatform('recipe')">
+                <i class="fa-solid fa-heart"></i> ${enterRecipe}
+              </button>
+              <button class="btn btn-outline" style="width:100%; font-size:0.8rem; padding:10px; margin-top:4px;" onclick="logoutAndReset()">
+                <i class="fa-solid fa-right-from-bracket"></i> ${logoutReset}
+              </button>
+            </div>
+          </div>`;
+      }
     }
   }
 }
 
-function handleSubscribeSubmit(event) {
+// ─── Onboarding Wizard State & Logic ───
+let wizardState = {
+  currentStep: 1,
+  name: '',
+  email: '',
+  constitution: '일반',
+  concern: '기력 보충'
+};
+
+function handleInitialSubscribe(event) {
   event.preventDefault();
   
-  const name = document.getElementById('sub-name').value.trim();
-  const email = document.getElementById('sub-email').value.trim();
-  const role = document.getElementById('sub-role').value;
-  const constitution = document.getElementById('sub-constitution').value;
-  const concern = document.getElementById('sub-concern').value;
+  const nameInput = document.getElementById('sub-name');
+  const emailInput = document.getElementById('sub-email');
+  if (!nameInput || !emailInput) return;
+  
+  const name = nameInput.value.trim();
+  const email = emailInput.value.trim();
   
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   if (!emailRegex.test(email)) {
@@ -1753,57 +2561,193 @@ function handleSubscribeSubmit(event) {
   
   const existingSub = subscribersDb.find(sub => sub.email.toLowerCase() === email.toLowerCase());
   if (existingSub) {
-    // 이미 등록된 이메일 → 기존 계정으로 재입장 처리
+    // 이미 등록된 이메일 → 기존 계정으로 재입장 처리 (바로 플랫폼 진입)
     pendingSubscriber = existingSub;
     localStorage.setItem('nuri_current_subscriber', JSON.stringify(existingSub));
     unlockPlatformGateway();
+    enterPlatform(existingSub.role === 'general' ? 'recipe' : 'workspace');
     return;
   }
   
-  const nextNum = subscribersDb.length + 1;
-  const subId = `SUB-${String(nextNum).padStart(5, '0')}`;
-  
-  const now = new Date();
-  const signupDate = now.getFullYear() + '-' + 
-    String(now.getMonth() + 1).padStart(2, '0') + '-' + 
-    String(now.getDate()).padStart(2, '0') + ' ' + 
-    String(now.getHours()).padStart(2, '0') + ':' + 
-    String(now.getMinutes()).padStart(2, '0') + ':' + 
-    String(now.getSeconds()).padStart(2, '0');
-    
-  const newSub = {
-    id: subId,
-    name,
-    email,
-    role,
-    constitution,
-    concern,
-    signupDate
+  // 신규 가입 → 온보딩 위저드 시작
+  wizardState = {
+    currentStep: 1,
+    name: name,
+    email: email,
+    constitution: '일반',
+    concern: '기력 보충'
   };
   
-  subscribersDb.push(newSub);
-  localStorage.setItem('nuri_subscribers', JSON.stringify(subscribersDb));
-  
-  pendingSubscriber = newSub;
-  
-  document.getElementById('pass-name-display').innerText = `${name} 님`;
-  document.getElementById('pass-no-display').innerText = `NURI-${now.getFullYear()}-${String(nextNum).padStart(5, '0')}`;
-  
-  const roleLabels = {
-    'general': '일반 사용자',
-    'founder': '예비 창업자',
-    'researcher': '요리 연구가',
-    'medical': '의료/한의학 전문가'
-  };
-  document.getElementById('pass-role-display').innerText = roleLabels[role] || role;
-  document.getElementById('pass-const-display').innerText = constitution;
-  document.getElementById('pass-concern-display').innerText = concern;
-  document.getElementById('pass-date-display').innerText = signupDate.split(' ')[0];
-  
-  const passModal = document.getElementById('pass-modal');
-  if (passModal) {
-    passModal.classList.add('open');
+  const wizardNameInput = document.getElementById('wizard-name-input');
+  if (wizardNameInput) {
+    wizardNameInput.value = name;
   }
+  
+  const wizardModal = document.getElementById('wizard-modal');
+  if (wizardModal) {
+    wizardModal.style.display = 'flex';
+  }
+  showWizardStep(1);
+}
+
+function showWizardStep(step) {
+  wizardState.currentStep = step;
+  
+  // Hide all steps
+  for (let i = 1; i <= 5; i++) {
+    const stepDiv = document.getElementById(`wizard-step-${i}`);
+    if (stepDiv) {
+      stepDiv.style.display = i === step ? 'block' : 'none';
+    }
+  }
+  
+  // Progress Bar
+  const progressBar = document.getElementById('wizard-progress-bar');
+  if (progressBar) {
+    const pct = step === 1 ? 20 : step === 2 ? 40 : step === 3 ? 60 : step === 4 ? 80 : 100;
+    progressBar.style.width = `${pct}%`;
+  }
+}
+
+function nextWizardStep() {
+  const current = wizardState.currentStep;
+  if (current === 1) {
+    const nameInput = document.getElementById('wizard-name-input');
+    if (nameInput) {
+      const val = nameInput.value.trim();
+      if (!val) {
+        alert("이름을 입력해주세요.");
+        return;
+      }
+      wizardState.name = val;
+    }
+    showWizardStep(2);
+  } else if (current === 2) {
+    showWizardStep(3);
+  } else if (current === 3) {
+    showWizardStep(4);
+    runWizardScanner();
+  }
+}
+
+function prevWizardStep() {
+  const current = wizardState.currentStep;
+  if (current > 1) {
+    showWizardStep(current - 1);
+  }
+}
+
+function selectConstitution(constitution, elem) {
+  wizardState.constitution = constitution;
+  
+  // Highlight card
+  if (elem) {
+    const step2 = document.getElementById('wizard-step-2');
+    if (step2) {
+      step2.querySelectorAll('.wizard-card').forEach(card => card.classList.remove('active'));
+    }
+    elem.classList.add('active');
+  }
+}
+
+function selectConcern(concern, elem) {
+  wizardState.concern = concern;
+  
+  // Highlight card
+  if (elem) {
+    const step3 = document.getElementById('wizard-step-3');
+    if (step3) {
+      step3.querySelectorAll('.wizard-card').forEach(card => card.classList.remove('active'));
+    }
+    elem.classList.add('active');
+  }
+}
+
+function runWizardScanner() {
+  const fill = document.getElementById('scanner-progress-fill');
+  const pctText = document.getElementById('scanner-pct');
+  if (!fill || !pctText) return;
+  
+  fill.style.width = '0%';
+  pctText.innerText = '0%';
+  
+  let progress = 0;
+  const interval = setInterval(() => {
+    progress += 5;
+    if (progress > 100) progress = 100;
+    
+    fill.style.width = `${progress}%`;
+    pctText.innerText = `${progress}%`;
+    
+    if (progress >= 100) {
+      clearInterval(interval);
+      
+      // Save user to database
+      const nextNum = subscribersDb.length + 1;
+      const subId = `SUB-${String(nextNum).padStart(5, '0')}`;
+      
+      const now = new Date();
+      const signupDate = now.getFullYear() + '-' + 
+        String(now.getMonth() + 1).padStart(2, '0') + '-' + 
+        String(now.getDate()).padStart(2, '0') + ' ' + 
+        String(now.getHours()).padStart(2, '0') + ':' + 
+        String(now.getMinutes()).padStart(2, '0') + ':' + 
+        String(now.getSeconds()).padStart(2, '0');
+      
+      const newSub = {
+        id: subId,
+        name: wizardState.name,
+        email: wizardState.email,
+        role: 'general', // Default for B2C signup
+        constitution: wizardState.constitution,
+        concern: wizardState.concern,
+        signupDate: signupDate
+      };
+      
+      subscribersDb.push(newSub);
+      localStorage.setItem('nuri_subscribers', JSON.stringify(subscribersDb));
+      localStorage.setItem('mfco_constitution', wizardState.constitution);
+      pendingSubscriber = newSub;
+      
+      // Populate step 5 pass card
+      const passName = document.getElementById('wiz-pass-name');
+      const passNo = document.getElementById('wiz-pass-no');
+      const passConst = document.getElementById('wiz-pass-const');
+      const passConcern = document.getElementById('wiz-pass-concern');
+      const passDate = document.getElementById('wiz-pass-date');
+      
+      const lang = currentLanguage || 'ko';
+      if (passName) {
+        if (lang === 'en') {
+          passName.innerText = `Mr./Ms. ${wizardState.name}`;
+        } else if (lang === 'ja') {
+          passName.innerText = `${wizardState.name} 様`;
+        } else {
+          passName.innerText = `${wizardState.name} 님`;
+        }
+      }
+      if (passNo) passNo.innerText = `NURI-${now.getFullYear()}-${String(nextNum).padStart(5, '0')}`;
+      if (passConst) passConst.innerText = getTranslation(wizardState.constitution, lang);
+      if (passConcern) passConcern.innerText = getTranslation(wizardState.concern, lang);
+      if (passDate) passDate.innerText = signupDate.split(' ')[0];
+      
+      showWizardStep(5);
+    }
+  }, 100);
+}
+
+function enterPlatformFromWizard() {
+  if (pendingSubscriber) {
+    localStorage.setItem('nuri_current_subscriber', JSON.stringify(pendingSubscriber));
+  }
+  
+  const wizardModal = document.getElementById('wizard-modal');
+  if (wizardModal) {
+    wizardModal.style.display = 'none';
+  }
+  
+  unlockPlatformGateway();
+  enterPlatform('recipe');
 }
 
 function closePassModal() {
@@ -1814,24 +2758,18 @@ function closePassModal() {
 }
 
 function enterPlatformWithPass() {
-  if (pendingSubscriber) {
-    localStorage.setItem('nuri_current_subscriber', JSON.stringify(pendingSubscriber));
-  }
-  
-  unlockPlatformGateway();
-  closePassModal();
-  
-  if (pendingSubscriber) {
-    const role = pendingSubscriber.role;
-    if (role === 'general') {
-      enterPlatform('recipe');
-    } else {
-      enterPlatform('workspace');
-    }
-  } else {
-    enterPlatform('recipe');
-  }
+  enterPlatformFromWizard();
 }
+
+window.handleInitialSubscribe = handleInitialSubscribe;
+window.showWizardStep = showWizardStep;
+window.nextWizardStep = nextWizardStep;
+window.prevWizardStep = prevWizardStep;
+window.selectConstitution = selectConstitution;
+window.selectConcern = selectConcern;
+window.enterPlatformFromWizard = enterPlatformFromWizard;
+window.closePassModal = closePassModal;
+window.enterPlatformWithPass = enterPlatformWithPass;
 
 // ─── 관리자 인증 및 입장 ─────────────────────────────────────────
 const ADMIN_PASSWORD = 'nuri2026';   // ← 관리자 비밀번호 (필요시 변경)
@@ -1864,7 +2802,7 @@ function submitAdminLogin() {
   // 관리자 세션 생성
   const adminProfile = {
     id: 'ADMIN-00000',
-    name: '관리자',
+    name: '방문자',
     email: 'admin@nurilab.kr',
     role: 'admin',
     constitution: '일반',
@@ -2124,6 +3062,7 @@ function localizePersonaUi() {
     if (navDashboardTxt) navDashboardTxt.innerText = getTranslation("웰니스 홈", lang);
 
     if (typeof stopB2bTrafficSim === 'function') stopB2bTrafficSim();
+    document.querySelectorAll('.admin-only').forEach(el => el.style.display = 'none');
 
     // Populate personalized details from local storage
     const currentUser = JSON.parse(localStorage.getItem('nuri_current_subscriber') || 'null');
@@ -2132,7 +3071,21 @@ function localizePersonaUi() {
       const uConst = currentUser.constitution || "일반 체질";
       const uConcern = currentUser.concern || "전신 건강 관리";
 
-      document.getElementById('welcome-user-name').innerText = getTranslation(uName, lang);
+      let finalName = getTranslation(uName, lang);
+      if (lang === 'en') {
+        if (finalName === '방문자' || finalName.trim() === '방문자' || finalName.includes('방문자')) {
+          finalName = 'Visitor';
+        } else if (finalName === '게스트' || finalName.trim() === '게스트' || finalName.includes('게스트')) {
+          finalName = 'Guest';
+        }
+      }
+      document.getElementById('welcome-user-name').innerText = finalName;
+      
+      const greetingPrefixEl = document.getElementById('welcome-user-greeting-prefix');
+      const greetingSuffixEl = document.getElementById('welcome-user-greeting-suffix');
+      if (greetingPrefixEl) greetingPrefixEl.innerText = getTranslation('안녕하세요', lang);
+      if (greetingSuffixEl) greetingSuffixEl.innerText = getTranslation('님!', lang);
+
       document.getElementById('welcome-user-constitution').innerText = getTranslation(uConst, lang);
       document.getElementById('welcome-user-concern').innerText = getTranslation(uConcern, lang);
       
@@ -2196,6 +3149,13 @@ function localizePersonaUi() {
     if (navDashboardTxt) navDashboardTxt.innerText = getTranslation("R&D 대시보드", lang);
 
     if (typeof startB2bTrafficSim === 'function') startB2bTrafficSim();
+    
+    // 관리자(Admin) 권한 확인 후 회원 DB 메뉴 활성화
+    const currentUser = JSON.parse(localStorage.getItem('nuri_current_subscriber') || 'null');
+    const isAdmin = currentUser && currentUser.role === 'admin';
+    document.querySelectorAll('.admin-only').forEach(el => {
+      el.style.display = isAdmin ? 'block' : 'none';
+    });
   }
 }
 
@@ -2213,7 +3173,7 @@ async function loadPortalData() {
     exceptionDict = await fetchJson('mfco_exception_dictionary.json');
     
     // 다국어 i18n 번역 파일 및 로컬라이즈 데이터 패치
-    translationDictionary = await fetchJson('translation_dictionary.json').catch(() => ({}));
+    translationDictionary = await fetchJson('translation_dictionary.json?v=2.8.0').catch(() => ({}));
     recipesDbLocalized = await fetchJson('yakseon_recipes_localized.json').catch(() => ({}));
     traditionalDbLocalized = await fetchJson('yakseon_traditional_encyclopedia_localized.json').catch(() => ({}));
     
@@ -2390,6 +3350,14 @@ function getGranularCategory(recipe) {
 
 // ─── Navigation ──────────────────────────────────────────────────
 function switchTab(tabId) {
+  // 관리자(Admin) 외에는 가입자 DB 탭 진입 원천 차단
+  if (tabId === 'tab-subscribers') {
+    const currentSub = JSON.parse(localStorage.getItem('nuri_current_subscriber') || 'null');
+    if (!currentSub || currentSub.role !== 'admin') {
+      alert("이 메뉴는 최고 관리자(Admin) 전용입니다. 일반 전문가 및 파트너사는 접근하실 수 없습니다.");
+      return;
+    }
+  }
   activeTabId = tabId;
   // Hide all tabs
   document.querySelectorAll('.tab-content').forEach(el => {
@@ -2434,6 +3402,8 @@ function switchTab(tabId) {
     window.selectedTraditionalItem = null;
     renderTraditionalList();
     renderTraditionalOverview();
+  } else if (tabId === 'tab-beauty') {
+    if (typeof initBeautyTab === 'function') initBeautyTab();
   }
 }
 
@@ -2603,15 +3573,25 @@ function runTodayRecommendation() {
     return;
   }
 
-  // recipesDb에서 요리 조회
+  // recipesDb에서 요리 조회 (로컬라이즈 및 한국어 매핑 양방향 지원)
   let recipe = recipesDb.find(r => r.요리명 === recipeName);
   if (!recipe) {
-    const partialMatch = recipesDb.find(r => r.요리명.includes(recipeName) || recipeName.includes(r.요리명));
-    if (partialMatch) {
-      recipe = partialMatch;
+    const idx = recipesDbKo.findIndex(r => r.요리명 === recipeName);
+    if (idx !== -1) {
+      recipe = recipesDb[idx];
     } else {
-      alert(`요리 데이터베이스에서 "${recipeName}"을 찾을 수 없습니다.`);
-      return;
+      const partialMatch = recipesDb.find(r => r.요리명.includes(recipeName) || recipeName.includes(r.요리명));
+      if (partialMatch) {
+        recipe = partialMatch;
+      } else {
+        const pIdx = recipesDbKo.findIndex(r => r.요리명.includes(recipeName) || recipeName.includes(r.요리명));
+        if (pIdx !== -1) {
+          recipe = recipesDb[pIdx];
+        } else {
+          alert(`요리 데이터베이스에서 "${recipeName}"을 찾을 수 없습니다.`);
+          return;
+        }
+      }
     }
   }
 
@@ -3002,8 +3982,13 @@ function handleSearch() {
     const 기전str   = (row.작용기전목록 || []).join(' ');
     const 질환str   = (row.연결질환목록 || []).join(' ');
 
+    const modernName = getModernName(row["식재료/약재"], currentLanguage) || "";
+    const modernKo = getModernName(row["식재료/약재"], "ko") || "";
+
     const matchQuery =
       (row["식재료/약재"] || "").toLowerCase().includes(query) ||
+      modernName.toLowerCase().includes(query) ||
+      modernKo.toLowerCase().includes(query) ||
       효능str.toLowerCase().includes(query) ||
       기능str.toLowerCase().includes(query) ||
       생리str.toLowerCase().includes(query) ||
@@ -3028,7 +4013,7 @@ function renderBrowserTable() {
   document.getElementById('browser-records-count').innerText = `총 ${total.toLocaleString()}건 조회됨`;
 
   if (total === 0) {
-    tbody.innerHTML = '<tr><td colspan="7" style="text-align:center; color:var(--text-muted); padding:30px;">조회 결과가 없습니다.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="8" style="text-align:center; color:var(--text-muted); padding:30px;">조회 결과가 없습니다.</td></tr>';
     document.getElementById('browser-pagination').innerHTML = '';
     return;
   }
@@ -3064,6 +4049,9 @@ function renderBrowserTable() {
     tr.innerHTML = `
       <td style="font-weight:700;color:var(--primary);vertical-align:top;white-space:nowrap;">
         ${translateTerm(row["식재료/약재"], currentLanguage) || ""}
+      </td>
+      <td style="font-weight:600;color:var(--text-muted);vertical-align:top;white-space:nowrap;font-size:0.92rem;">
+        ${getModernName(row["식재료/약재"], currentLanguage) || ""}
       </td>
       <td style="vertical-align:top;">${효능Tags}</td>
       <td style="vertical-align:top;">${기능Tags}</td>
@@ -3640,6 +4628,8 @@ function showRowDetail(row) {
   const cookingDefault = { ko: '일반 탕/식재료 조리 적합', en: 'Suitable for general boiling/cooking', ja: '一般的な湯・食材調理に適する', ar: 'مناسب للغلي/الطهي العام' };
   const 조리List = [...new Set((row.조리권장목록 || []).filter(Boolean))].map(x => t(x)).join(' / ') || (cookingDefault[lang] || cookingDefault.ko);
 
+  const labelModernName = { ko: '현대명/식재료명', en: 'Modern/Common Name', ja: '現代名/食材名', ar: 'الاسم الحديث/المشترك' };
+
   const labelClass = { ko: '식재료 분류명', en: 'Ingredient Category Name', ja: '食材分類名', ar: 'اسم فئة المكونات' };
   const labelTcm = { ko: '원본 한방 효능', en: 'Original TCM Efficacy', ja: '原文漢方効能', ar: 'فعالية الطب الصيني التقليدي الأصلية' };
   const labelStandard = { ko: '표준 조절 기능', en: 'Standard Regulatory Function', ja: '標準調節機能', ar: 'الوظيفة التنظيمية القياسية' };
@@ -3649,7 +4639,12 @@ function showRowDetail(row) {
   body.innerHTML = `
     <div class="modal-section">
       <h4>${labelClass[lang] || labelClass.ko}</h4>
-      <p style="font-size:1.25rem; font-weight:700; color:var(--primary);">${t(row["식재료/약재"])}</p>
+      <p style="font-size:1.25rem; font-weight:700; color:var(--primary);">
+        ${t(row["식재료/약재"])}
+        <span style="font-size:1.0rem; font-weight:normal; color:var(--text-muted); margin-left:12px; border-left: 2px solid var(--border-glass); padding-left: 12px;">
+          <strong>${labelModernName[lang] || labelModernName.ko}:</strong> ${getModernName(row["식재료/약재"], lang)}
+        </span>
+      </p>
     </div>
     
     <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
@@ -3901,7 +4896,16 @@ function renderRecipesWiki(query = '') {
       (lr.주재료 || "").toLowerCase().includes(query) ||
       (lr.주요효능 || lr.주요_효능 || "").toLowerCase().includes(query);
       
-    const matchCategory = currentWikiCategory === "ALL" || r.category === currentWikiCategory;
+    const matchCategory = currentWikiCategory.toUpperCase() === "ALL" || 
+                          r.category === currentWikiCategory || 
+                          r.카테고리 === currentWikiCategory ||
+                          (r.category && r.category.toLowerCase() === "staple" && currentWikiCategory === "주식") ||
+                          (r.카테고리 && r.카테고리 === "주식" && currentWikiCategory === "주식") ||
+                          (lr && (
+                            lr.category === currentWikiCategory || 
+                            lr.카테고리 === currentWikiCategory ||
+                            (lr.category && lr.category.toLowerCase() === "staple" && currentWikiCategory === "주식")
+                          ));
     
     return matchQuery && matchCategory;
   });
@@ -3918,6 +4922,14 @@ function renderRecipesWiki(query = '') {
     card.style.display = 'flex';
     card.style.flexDirection = 'column';
     card.style.justifyContent = 'space-between';
+    card.style.cursor = 'pointer';
+    
+    card.addEventListener('click', (e) => {
+      if (e.target.closest('button')) {
+        return;
+      }
+      showRecipeDetail(r);
+    });
     
     // 요리연구가 모드일 때 '기미 및 귀경' 상세 데이터 및 R&D 시뮬레이터 연동 불러오기 단추 추가
     let proSection = '';
@@ -3986,6 +4998,7 @@ function filterRecipesWiki() {
   const query = document.getElementById('recipe-wiki-search').value.toLowerCase();
   renderRecipesWiki(query);
 }
+window.filterRecipesWiki = filterRecipesWiki;
 
 function filterRecipesByCategory(category, btn) {
   currentWikiCategory = category;
@@ -3999,6 +5012,7 @@ function filterRecipesByCategory(category, btn) {
   const query = document.getElementById('recipe-wiki-search').value.toLowerCase();
   renderRecipesWiki(query);
 }
+window.filterRecipesByCategory = filterRecipesByCategory;
 
 // ─── Tab 8: 약선 문화원 (명절 & 24절기 아카이브) ───
 function initCultureWiki() {
@@ -4094,8 +5108,9 @@ function exportBrowserTable() {
     return;
   }
   
-  let csvContent = "\ufeff식재료/약재,원본효능,표준기능,생리작용,작용기전,연결질환,조리권장\n";
+  let csvContent = "\ufeff식재료/약재,현대명,원본효능,표준기능,생리작용,작용기전,연결질환,조리권장\n";
   filteredMasterDb.forEach(row => {
+    const modern = getModernName(row["식재료/약재"], currentLanguage) || "";
     const 효능 = (row.효능목록 || []).join(' | ');
     const 기능 = (row.표준기능목록 || []).filter(Boolean).join(' | ');
     const 생리 = (row.생리작용목록 || []).filter(Boolean).join(' | ');
@@ -4103,7 +5118,7 @@ function exportBrowserTable() {
     const 질환 = [...new Set((row.연결질환목록 || []).filter(Boolean))].join(' | ');
     const 조리 = [...new Set((row.조리권장목록 || []).filter(Boolean))].join(' | ');
 
-    csvContent += `"${row["식재료/약재"] || ""}","${효능}","${기능}","${생리}","${기전}","${질환}","${조리}"\n`;
+    csvContent += `"${row["식재료/약재"] || ""}","${modern}","${효능}","${기능}","${생리}","${기전}","${질환}","${조리}"\n`;
   });
   
   const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
@@ -4310,7 +5325,13 @@ function splitByCommaOutsideParens(str) {
 
 // 16종 레시피를 파싱하여 R&D 시뮬레이터에 로드
 function loadRecipeToRnd(recipeName) {
-  const recipe = recipesDb.find(r => r.요리명 === recipeName);
+  let recipe = recipesDb.find(r => r.요리명 === recipeName);
+  if (!recipe) {
+    const idx = recipesDbKo.findIndex(r => r.요리명 === recipeName);
+    if (idx !== -1) {
+      recipe = recipesDb[idx];
+    }
+  }
   if (!recipe) {
     alert("레시피 데이터를 찾을 수 없습니다.");
     return;
@@ -4675,8 +5696,8 @@ function renderPlannerSlots(format) {
       const slotDiv = document.createElement('div');
       slotDiv.className = 'planner-slot-item';
       
-      // 카테고리에 속하는 레시피 필터링
-      let slotRecipes = recipesDb.filter(r => r.category === slot.category);
+      // 카테고리에 속하는 레시피 필터링 (한국어 기준으로 필터링해야 이후 한글 키워드 체크가 작동함)
+      let slotRecipes = recipesDbKo.filter(r => r.category === slot.category || r.카테고리 === slot.category);
       
       // 국물 카테고리인 경우 세부 카테고리 분기 처리 (탕, 찌개, 전골 메뉴 분리)
       if (slot.category === "국물") {
@@ -4809,7 +5830,13 @@ function loadPlannerRecipesToBlender() {
       const selectEl = document.getElementById(slot.id);
       if (selectEl && selectEl.value) {
         const recipeName = selectEl.value;
-        const recipe = recipesDb.find(r => r.요리명 === recipeName);
+        let recipe = recipesDb.find(r => r.요리명 === recipeName);
+        if (!recipe) {
+          const idx = recipesDbKo.findIndex(r => r.요리명 === recipeName);
+          if (idx !== -1) {
+            recipe = recipesDb[idx];
+          }
+        }
         if (recipe) {
           parseRecipeIngredientsToTemp(recipe);
         }
@@ -5757,202 +6784,350 @@ const SHOP_PRODUCTS = [
     id:'liq-01', category:'yakseon-liquor', categoryLabel:'전통 약선 주류', emoji:'🍶',
     name:'오미자 수제 정제 막걸리', subname:'Five-Berry Premium Makgeolli',
     desc:'강원도 산기슭 청정 오미자를 직접 누룩에 발효하여 빚은 프리미엄 탁주. 부드러운 산미와 깊은 단맛이 균형을 이루는 웰니스 막걸리.',
-    price:28000, unit:'750ml / 1병',
+    price:16000, unit:'750ml / 1병',
     constitution:['소음인','태음인'], constitutionLabel:'Warm — 소음인·태음인 체질 시너지', constitutionType:'warm',
     badge:'수제 발효', stock:48,
     image:'omija_makgeolli.png',
     nutrition: { serving: '100ml당', energy: '110 kcal', carbs: '12g', protein: '1.5g', fat: '0g', sodium: '5.0mg' },
     rdLinkage: { functions: ['SF016 진액생성 (오미자)', 'SF020 순환개선 (전통발효)'], axes: ['안정', '순환'] },
     brewingGuide: '차갑게 보관 후 가볍게 흔들어 잔에 따라 음용하십시오. (음용 권장 온도: 4~6℃)',
-    warning: '알코올 도수 8% 제품으로 과도한 음용을 피하고, 임산부 및 미성년자는 섭취할 수 없습니다.'
+    warning: '알코올 도수 8% 제품으로 과도한 음용을 피하고, 임산부 및 미성년자는 섭취할 수 없습니다.',
+    priceRationale: {
+      ko: '인공 아스파탐과 보존료를 일절 첨가하지 않고 강원 청정 오미자와 전통 누룩만으로 빚어 수제 전통 옹기에서 발효한 소량 한정 생산 수제 탁주 공임입니다.',
+      en: 'Small-batch handmade makgeolli brewed using clean Gangwon omija and traditional yeast without artificial sweeteners or preservatives.'
+    }
   },
   {
     id:'liq-02', category:'yakseon-liquor', categoryLabel:'전통 약선 주류', emoji:'🍶',
     name:'황국 전통 약주 (菊花釀)', subname:'Chrysanthemum Heritage Yakju',
     desc:'황금빛 국화꽃과 구기자를 넣어 저온 숙성한 양조식 약주. 간기능 보호와 안정 효능으로 동의보감에 수록된 처방 주류.',
-    price:45000, unit:'500ml / 1병',
+    price:28000, unit:'500ml / 1병',
     constitution:['소양인','태음인'], constitutionLabel:'Cool — 소양인·태음인 체질 시너지', constitutionType:'cool',
     badge:'동의보감 처방', stock:22,
     nutrition: { serving: '100ml당', energy: '130 kcal', carbs: '8g', protein: '0.4g', fat: '0g', sodium: '3.0mg' },
     rdLinkage: { functions: ['SF024 간보호 (국화)', 'SF023 신경안정 (구기자)'], axes: ['보호', '안정'] },
     brewingGuide: '상온이나 약간 서늘하게(10℃) 한 뒤, 국화꽃의 향을 음미하며 천천히 마십니다.',
-    warning: '꽃 알레르기가 있는 분은 섭취 전 성분을 확인하십시오.'
+    warning: '꽃 알레르기가 있는 분은 섭취 전 성분을 확인하십시오.',
+    priceRationale: {
+      ko: '건재 국화가 아닌 친환경 생국화와 지리산 구기자를 침출해 6개월간 저온 청정 숙성한 비용과 엄선된 한방 약재 원가 및 맑은 여과 수공이 포함된 가격입니다.',
+      en: 'Features clean organic yellow chrysanthemums and Jirisan goji berries, aged at low temperature for 6 months with hand-filtration.'
+    }
   },
   {
     id:'liq-03', category:'yakseon-liquor', categoryLabel:'전통 약선 주류', emoji:'🍶',
     name:'홍삼 침출 프리미엄 소주', subname:'Red Ginseng Infused Premium Soju',
     desc:'6년근 홍삼을 45일간 순쌀 소주에 침출한 한방 기운 보양 증류주. 기력 보충 및 면역 활성화에 탁월.',
-    price:62000, unit:'360ml / 1병',
+    price:38000, unit:'360ml / 1병',
     constitution:['소음인','태양인'], constitutionLabel:'Warm — 소음인·태양인 체질 시너지', constitutionType:'warm',
     badge:'6년근 홍삼', stock:15,
     nutrition: { serving: '50ml당', energy: '120 kcal', carbs: '1.2g', protein: '0g', fat: '0g', sodium: '0.5mg' },
     rdLinkage: { functions: ['SF012 보기 (원기회복)', 'SF005 면역력강화 (홍삼사포닌)'], axes: ['회복', '보호'] },
     brewingGuide: '작은 소주잔에 따라 한 번에 마시기보다 입안에 살짝 머금어 향을 느끼며 마십니다.',
-    warning: '고혈압 환자나 몸에 열이 매우 많은 분은 하루 2잔 이하 섭취를 권장합니다.'
+    warning: '고혈압 환자나 몸에 열이 매우 많은 분은 하루 2잔 이하 섭취를 권장합니다.',
+    priceRationale: {
+      ko: '희석식 화학 소주가 아닌 100% 국산 증류식 순쌀 소주에 6년근 금산 풍기 홍삼을 45일간 장기 침출해 침전물 없이 청정하게 거른 정성 공임이 반영되었습니다.',
+      en: 'Crafted by long-term infusing premium 6-year-old red ginseng in 100% domestic distilled rice spirit for 45 days, with zero artificial additives.'
+    }
   },
   // ── 고급 쌀류 ──
   {
     id:'rice-01', category:'grain-bean', categoryLabel:'곡류 & 두류', emoji:'🌾',
     name:'오대산 유기농 백미 (특등품)', subname:'Odaesan Premium Organic White Rice',
     desc:'강원도 오대산 해발 700m 이상 청정 지역 유기농 쌀. 밥맛의 찰기와 윤기가 남다르며 소화 흡수율이 높아 약선 요리의 기본재.',
-    price:38000, unit:'5kg / 1포',
+    price:24000, unit:'5kg / 1포',
     constitution:['소음인','태음인','소양인','태양인'], constitutionLabel:'전 체질 — 기본 보양 곡물', constitutionType:'neutral',
     badge:'유기농 인증', stock:80,
     nutrition: { serving: '10g (취반 전 기준)', energy: '35 kcal', carbs: '7.8g', protein: '0.6g', fat: '0.1g', sodium: '0.2mg' },
     rdLinkage: { functions: ['SF015 비위보호 (소화증진)', 'SF012 보기 (기력보강)'], axes: ['보호', '회복'] },
     brewingGuide: '깨끗이 씻은 후 물에 30분 불려 가마솥 혹은 압력솥에 밥을 지으십시오.',
-    warning: '직사광선을 피하고 통풍이 잘되는 서늘한 곳이나 냉장 보관하십시오.'
+    warning: '직사광선을 피하고 통풍이 잘되는 서늘한 곳이나 냉장 보관하십시오.',
+    priceRationale: {
+      ko: '일반 백미 대비 오대산 해발 700m 청정 구역 유기농 무농약 인증 1등급 쌀로, 농가 상생 공정 무역 기준을 적용해 원가를 1.8배 우대 수매한 고품질 쌀입니다.',
+      en: 'Certified organic grade-1 rice grown above 700m altitude in Odaesan, ensuring fair trade and eco-friendly farming standards.'
+    }
   },
   {
     id:'rice-02', category:'grain-bean', categoryLabel:'곡류 & 두류', emoji:'🌾',
     name:'적미·흑미 블렌드 잡곡세트', subname:'Red & Black Mixed Grain Set',
     desc:'항산화 안토시아닌이 풍부한 토종 적미와 흑미 황금 비율 혼합. 혈중 순환 개선과 진액 보충에 도움.',
-    price:42000, unit:'3kg / 1세트',
+    price:22000, unit:'3kg / 1세트',
     constitution:['소양인','태음인'], constitutionLabel:'Cool — 소양인·태음인 체질 시너지', constitutionType:'cool',
     badge:'토종 잡곡', stock:35,
     nutrition: { serving: '10g (취반 전 기준)', energy: '36 kcal', carbs: '7.7g', protein: '0.7g', fat: '0.2g', sodium: '0.1mg' },
     rdLinkage: { functions: ['SF020 순환개선 (안토시아닌)', 'SF016 진액생성 (영양보충)'], axes: ['순환', '정화'] },
     brewingGuide: '백미와 잡곡을 7:3의 비율로 혼합하여 밥을 지으면 찰기와 영양이 조화를 이룹니다.',
-    warning: '소화력이 극도로 떨어진 소음인은 잡곡 비율을 10% 이하로 줄여 드시는 것이 좋습니다.'
+    warning: '소화력이 극도로 떨어진 소음인은 잡곡 비율을 10% 이하로 줄여 드시는 것이 좋습니다.',
+    priceRationale: {
+      ko: '화학 비료 없이 재배한 토종 야생 적미와 흑미 원종을 수작업으로 선별하고 안토시아닌 영양 손실을 막기 위해 저온 보관해온 명품 잡곡 가격입니다.',
+      en: 'Hand-sorted native wild red and black grains harvested with zero chemical fertilizers, preserved in cold storage to maintain high anthocyanin content.'
+    }
   },
   // ── 전통 수제 장류 ──
   {
     id:'paste-01', category:'paste-condiment', categoryLabel:'발효 & 조미료', emoji:'🏺',
     name:'전통 3년 숙성 된장 (옹기 항아리)', subname:'Traditional 3-Year Aged Doenjang',
     desc:'100% 국산 대두로 메주를 빚어 전통 옹기에 3년 자연 발효한 된장. 깊은 감칠맛과 풍부한 프로바이오틱스.',
-    price:55000, unit:'500g / 1옹기',
+    price:29000, unit:'500g / 1옹기',
     constitution:['소음인','태음인'], constitutionLabel:'Warm — 소음인·태음인 체질 시너지', constitutionType:'warm',
     badge:'3년 자연 발효', stock:30,
     nutrition: { serving: '10g 기준', energy: '15 kcal', carbs: '1.6g', protein: '1.2g', fat: '0.5g', sodium: '320mg' },
     rdLinkage: { functions: ['SF015 비위보호 (유산균)', 'SF006 항산화 (대두발효성분)'], axes: ['보호', '정화'] },
     brewingGuide: '찌개나 국을 끓일 때 불을 끄기 5분 전에 된장을 풀어 끓여야 유익균 손실을 최소화합니다.',
-    warning: '염도가 있으므로 고혈압이나 신장 질환자는 과다 섭취에 주의하고 조리 시 양을 조절하십시오.'
+    warning: '염도가 있으므로 고혈압이나 신장 질환자는 과다 섭취에 주의하고 조리 시 양을 조절하십시오.',
+    priceRationale: {
+      ko: '수입 대두나 단기 인공 발효가 아닌, 100% 국산 대두와 신안 천일염을 사용하여 지리산 전통 옹기 항아리에서 3년간 사계절을 자연 숙성 보관한 관리 노고가 담겼습니다.',
+      en: 'Naturally aged for 3 years in traditional breathable earthenware jars using 100% Korean soybeans and premium sea salt.'
+    }
   },
   {
     id:'paste-02', category:'paste-condiment', categoryLabel:'발효 & 조미료', emoji:'🏺',
     name:'청양 수제 고추장 (전통 방식)', subname:'Cheongyang Hand-Made Gochujang',
     desc:'청양 고춧가루와 찹쌀 발효물로 만든 수제 고추장. 대사 활성화와 소화 촉진에 도움.',
-    price:38000, unit:'500g / 1단지',
+    price:23000, unit:'500g / 1단지',
     constitution:['소음인','태양인'], constitutionLabel:'Warm — 소음인·태양인 체질 시너지', constitutionType:'warm',
     badge:'수제 전통', stock:45,
     nutrition: { serving: '10g 기준', energy: '22 kcal', carbs: '4.8g', protein: '0.6g', fat: '0.1g', sodium: '280mg' },
     rdLinkage: { functions: ['SF015 비위보호 (소화촉진)', 'SF020 순환개선 (캡사이신)'], axes: ['순환', '정화'] },
     brewingGuide: '무침 요리나 찌개 조림의 양념 베이스로 적절히 환산하여 조리에 사용하십시오.',
-    warning: '위염, 위궤양이 있거나 소양인 체질 중 위열이 높은 분은 과다 섭취를 삼가십시오.'
+    warning: '위염, 위궤양이 있거나 소양인 체질 중 위열이 높은 분은 과다 섭취를 삼가십시오.',
+    priceRationale: {
+      ko: '방부제나 물엿을 일절 배제하고 국내산 태양초 고춧가루와 찹쌀 발효액만으로 가마솥 가열 방식으로 졸여 만든 정통 수작업 한정 고추장입니다.',
+      en: 'Handmade gochujang boiled down using Cheongyang sun-dried chili powder and sticky rice ferment without any starch syrup or preservatives.'
+    }
   },
   {
     id:'paste-03', category:'paste-condiment', categoryLabel:'발효 & 조미료', emoji:'🏺',
     name:'전통 조선 간장 (2년 저온 숙성)', subname:'Traditional Joseon Soy Sauce',
     desc:'콩 단일 원료로 2년 이상 자연 숙성. 나트륨 낮고 아미노산 풍부 — 혈압 조절과 신장 기능 보호.',
-    price:48000, unit:'500ml / 1병',
+    price:18000, unit:'500ml / 1병',
     constitution:['소양인','태음인'], constitutionLabel:'Cool — 소양인·태음인 체질 시너지', constitutionType:'cool',
     badge:'2년 저온 숙성', stock:28,
     nutrition: { serving: '10ml 기준', energy: '6 kcal', carbs: '0.8g', protein: '0.7g', fat: '0g', sodium: '680mg' },
     rdLinkage: { functions: ['SF025 신장보호 (체액조절)', 'SF020 순환개선 (혈행안정)'], axes: ['보호', '순환'] },
     brewingGuide: '국물 요리의 간을 맞추거나 나물 무침의 밑간용 조미료로 극소량 사용합니다.',
-    warning: '나트륨 함량이 높으므로 1회 조리 시 15ml(1큰술) 이내 사용을 권장합니다.'
+    warning: '나트륨 함량이 높으므로 1회 조리 시 15ml(1큰술) 이내 사용을 권장합니다.',
+    priceRationale: {
+      ko: '공장제 혼합 간장이 아닌 메주에서 직접 내린 간장 원액으로, 나트륨을 낮추는 전통 필터링 공정과 2년간의 저온 옹기 숙성 시간이 빚어낸 깊은 맛의 프리미엄 조미료입니다.',
+      en: 'Genuine soy sauce extract naturally filtered from traditional meju blocks and aged for 2 years at low temperature with reduced sodium.'
+    }
   },
   // ── 특선 약초류 ──
   {
     id:'herb-01', category:'herb-veg', categoryLabel:'약초 & 채소/버섯류', emoji:'🌿',
     name:'강원 야생 황기 (黃芪)', subname:'Premium Astragalus Root (Hwanggi)',
     desc:'해발 600m 이상 청정 지역 야생 황기. 기력 보충·면역 강화의 으뜸 약재. 삼계탕, 보양탕의 핵심 본초.',
-    price:32000, unit:'100g / 건초',
+    price:22000, unit:'100g / 건초',
     constitution:['소음인','태음인'], constitutionLabel:'Warm — 소음인·태음인 체질 시너지', constitutionType:'warm',
     badge:'야생 채취', stock:50,
     nutrition: { serving: '10g 기준', energy: '28 kcal', carbs: '6.2g', protein: '0.8g', fat: '0.1g', sodium: '1.5mg' },
     rdLinkage: { functions: ['SF012 보기 (원기충전)', 'SF005 면역력강화 (다당체)'], axes: ['회복', '보호'] },
     brewingGuide: '황기 20g에 물 1L를 붓고 약불에서 40분간 달여 차로 마시거나 삼계탕 조리 시 넣어 우려냅니다.',
-    warning: '몸에 열이 많고 얼굴이 붉은 소양인 체질이나 급성 염증성 질환자는 피하시는 것이 좋습니다.'
+    warning: '몸에 열이 많고 얼굴이 붉은 소양인 체질이나 급성 염증성 질환자는 피하시는 것이 좋습니다.',
+    priceRationale: {
+      ko: '일반 재배 황기가 아닌 강원도 산기슭 해발 600m 이상에서 야생 상태로 채취한 다년생 황기로, 진세노사이드 유사 유효 성분 함량이 최고 수준인 한정 약재입니다.',
+      en: 'Wild-harvested hwanggi root gathered at high altitudes in Gangwon province, containing peak medicinal components compared to regular farmed roots.'
+    }
   },
   {
     id:'herb-02', category:'herb-veg', categoryLabel:'약초 & 채소/버섯류', emoji:'🌿',
     name:'지리산 구기자 (枸杞子)', subname:'Jirisan Premium Goji Berry',
     desc:'지리산 청정 계곡 주변 토종 구기자. 간신 보양, 눈 기능 개선, 노화 방지에 탁월.',
-    price:28000, unit:'100g / 건조',
+    price:19000, unit:'100g / 건조',
     constitution:['소양인','태음인'], constitutionLabel:'Cool — 소양인·태음인 체질 시너지', constitutionType:'cool',
     badge:'토종 지리산', stock:60,
     nutrition: { serving: '10g 기준', energy: '32 kcal', carbs: '5.8g', protein: '1.2g', fat: '0.4g', sodium: '8.2mg' },
     rdLinkage: { functions: ['SF025 신장보호 (정액보충)', 'SF024 간보호 (피로회복)'], axes: ['보호', '회복'] },
     brewingGuide: '물 1L에 가볍게 볶은 구기자 15g을 넣고 30분간 끓여 식후 차로 음용하십시오.',
-    warning: '대변이 묽거나 설사가 잦은 분은 구기자의 서늘한 성질로 인해 설사가 심해질 수 있습니다.'
+    warning: '대변이 묽거나 설사가 잦은 분은 구기자의 서늘한 성질로 인해 설사가 심해질 수 있습니다.',
+    priceRationale: {
+      ko: '지리산 산간 청정 지대에서 농약 없이 수작업으로 채취하여 색소나 화학 보존제를 사용하지 않고 태양광으로 저온 건조하여 영양을 살린 지리산 특산품입니다.',
+      en: 'Pesticide-free wild goji berries hand-picked in Jirisan valleys and low-temperature sun-dried without any coloring or chemicals.'
+    }
   },
   // ── 국산 차류 ──
   {
     id:'tea-01', category:'tea-drink', categoryLabel:'전통차 & 음료류', emoji:'🍵',
     name:'보성 야생 녹차 (우전 등급)', subname:'Boseong Wild Green Tea — Ujeon Grade',
     desc:'전남 보성 첫물 찻잎 4월 우전 등급. 카테킨과 테아닌 함량 최고치 — 항산화와 정신 집중력 강화에 최적.',
-    price:68000, unit:'50g / 금속 캔',
+    price:38000, unit:'50g / 금속 캔',
     constitution:['소양인','태양인'], constitutionLabel:'Cool — 소양인·태양인 체질 시너지', constitutionType:'cool',
     badge:'우전 1등급', stock:20,
     nutrition: { serving: '2g (1회 우림 기준)', energy: '1 kcal', carbs: '0.2g', protein: '0.1g', fat: '0g', sodium: '0.0mg' },
     rdLinkage: { functions: ['SF006 항산화 (카테킨)', 'SF023 신경안정 (테아닌)'], axes: ['정화', '안정'] },
     brewingGuide: '70~80℃로 식힌 따뜻한 물 150ml에 녹찻잎 2g을 넣고 1분 30초간 우려내어 음용합니다.',
-    warning: '카페인 성분이 들어있으므로 불면증이 있거나 카페인에 예민한 분은 늦은 저녁 음용을 피하십시오.'
+    warning: '카페인 성분이 들어있으므로 불면증이 있거나 카페인에 예민한 분은 늦은 저녁 음용을 피하십시오.',
+    priceRationale: {
+      ko: '일반 세작이나 대작이 아닌, 4월 20일 절기 곡우 전에 손으로 한 잎씩 채취해 가마솥에서 덖어낸 최상위 등급 우전(雨前) 100% 수제 어린 잎 차입니다.',
+      en: '100% hand-picked first-flush baby tea leaves harvested before the spring rain (Ujeon grade) and roasted manually in iron cauldrons.'
+    }
   },
   {
     id:'tea-02', category:'tea-drink', categoryLabel:'전통차 & 음료류', emoji:'🍵',
     name:'황차 (黃茶) — 구증구포 제다', subname:'Korean Yellow Tea — 9x Steamed',
     desc:'전통 구증구포 방식으로 만든 황차. 소화 촉진과 혈당 조절, 위장 안정에 탁월.',
-    price:82000, unit:'50g / 전통 포장',
+    price:45000, unit:'50g / 전통 포장',
     constitution:['소음인','태음인'], constitutionLabel:'Warm — 소음인·태음인 체질 시너지', constitutionType:'warm',
     badge:'구증구포', stock:18,
     nutrition: { serving: '2g (1회 우림 기준)', energy: '2 kcal', carbs: '0.3g', protein: '0.1g', fat: '0g', sodium: '0.0mg' },
     rdLinkage: { functions: ['SF015 비위보호 (소화안정)', 'SF020 순환개선 (혈당조절)'], axes: ['보호', '순환'] },
     brewingGuide: '85~90℃의 뜨거운 물 200ml에 황차 2.5g을 넣고 2분간 우려 마십니다. 여러 번 재우림이 가능합니다.',
-    warning: '공복에 너무 많이 마시면 속이 쓰릴 수 있으니 식후 30분에 마시는 것을 권장합니다.'
+    warning: '공복에 너무 많이 마시면 속이 쓰릴 수 있으니 식후 30분에 마시는 것을 권장합니다.',
+    priceRationale: {
+      ko: '한 번에 덖지 않고 증기로 아홉 번 찌고 아홉 번 볕에 말리는 전통 구증구포(九蒸九曝) 공정을 거쳐 카페인을 낮추고 효소 발효 맛을 극대화한 명품 황차입니다.',
+      en: 'Exquisite fermented yellow tea crafted through the traditional nine-times-steamed and nine-times-dried process to reduce caffeine.'
+    }
   },
   // ── 허브·꽃차 ──
   {
     id:'htea-01', category:'tea-drink', categoryLabel:'전통차 & 음료류', emoji:'🌸',
     name:'한라산 야생 민들레 꽃차', subname:'Hallasan Wild Dandelion Flower Tea',
     desc:'청정 한라산 야생 민들레를 손으로 채취하여 저온 건조한 꽃차. 간열 해소, 이뇨 작용, 소화 개선.',
-    price:24000, unit:'30g / 한지 포장',
+    price:15000, unit:'30g / 한지 포장',
     constitution:['소양인','태양인'], constitutionLabel:'Cool — 소양인·태양인 체질 시너지', constitutionType:'cool',
     badge:'한라산 야생', stock:40,
     nutrition: { serving: '2g (1회 우림 기준)', energy: '1 kcal', carbs: '0.2g', protein: '0.0g', fat: '0.0g', sodium: '0.1mg' },
     rdLinkage: { functions: ['SF024 간보호 (열독제거)', 'SF015 비위보호 (소염작용)'], axes: ['보호', '정화'] },
     brewingGuide: '100℃의 끓는 물 150ml에 건조 꽃송이 2~3개를 띄우고 꽃이 활짝 피어날 때(3분)까지 우려 마십니다.',
-    warning: '차가운 성질이 강하므로 아랫배가 차거나 위장이 얇아 설사가 잦은 분은 장복을 피하십시오.'
+    warning: '차가운 성질이 강하므로 아랫배가 차거나 위장이 얇아 설사가 잦은 분은 장복을 피하십시오.',
+    priceRationale: {
+      ko: '오염 물질 없는 제주 한라산 중산간 지역의 깨끗한 야생 민들레 꽃송이만 엄선해 세척 후 이중 저온 건조하여 꽃 본연의 색과 비타민을 보존한 한정 수제 꽃차입니다.',
+      en: 'Eco-friendly wild dandelion blossoms hand-harvested in Hallasan clean mid-mountain fields and dried at low temperatures.'
+    }
   },
   {
     id:'htea-02', category:'tea-drink', categoryLabel:'전통차 & 음료류', emoji:'🌸',
     name:'제주 한방 쑥차 (삼년쑥)', subname:'Jeju 3-Year Aged Mugwort Tea',
     desc:'3년간 저장 숙성한 제주 쑥으로 만든 따뜻한 쑥차. 냉체질 개선, 위장 온열, 여성 생리 불순 완화.',
-    price:22000, unit:'30g / 한지 포장',
+    price:14000, unit:'30g / 한지 포장',
     constitution:['소음인','태음인'], constitutionLabel:'Warm — 소음인·태음인 체질 시너지', constitutionType:'warm',
     badge:'3년 숙성', stock:55,
     nutrition: { serving: '2g (1회 우림 기준)', energy: '2 kcal', carbs: '0.4g', protein: '0.1g', fat: '0g', sodium: '0.2mg' },
     rdLinkage: { functions: ['SF020 순환개선 (온열활혈)', 'SF015 비위보호 (위장온난)'], axes: ['순환', '회복'] },
     brewingGuide: '90℃ 온수 200ml에 건조 쑥잎 2g을 넣고 2분간 우려냅니다. 은은한 쑥 향과 쌉싸름한 맛이 특징입니다.',
-    warning: '체내에 열이 가득 차 마른기침을 하거나 얼굴 홍조가 심한 분은 주의하여 음용하십시오.'
+    warning: '체내에 열이 가득 차 마른기침을 하거나 얼굴 홍조가 심한 분은 주의하여 음용하십시오.',
+    priceRationale: {
+      ko: '해풍을 맞아 자란 제주 삼년쑥을 바닷바람에 3년간 자연 건조 숙성하여 강한 자극성 향을 없애고 위장을 따뜻하게 하는 온열 효능을 정제한 명품 한방 쑥차입니다.',
+      en: 'Formulated with ocean-breeze-aged mugwort stored for 3 years to mellow its aroma and enrich its warming properties.'
+    }
   },
   // ── 간편 영양식 ──
   {
     id:'nutr-01', category:'prepared-meal', categoryLabel:'약선 조리식품', emoji:'🥗',
     name:'약선 조식 영양 죽 세트 (5종)', subname:'Medicinal Morning Porridge Set',
     desc:'흑임자죽, 잣죽, 호박죽, 단호박죽, 팥죽 — 아침을 대신하는 프리미엄 약선 죽 5종 세트.',
-    price:52000, unit:'5종 × 2인분',
+    price:32000, unit:'5종 × 2인분',
     constitution:['소음인','태음인'], constitutionLabel:'Warm — 소음인·태음인 체질 시너지', constitutionType:'warm',
     badge:'조식 대용', stock:38,
     nutrition: { serving: '1팩 (150g 기준)', energy: '125 kcal', carbs: '25g', protein: '4.2g', fat: '1.1g', sodium: '180mg' },
     rdLinkage: { functions: ['SF015 비위보호 (장내안정)', 'SF012 보기 (기력충전)'], axes: ['보호', '회복'] },
     brewingGuide: '팩 그대로 끓는 물에 5분간 중탕하거나, 전자레인지 용기에 덜어 2분간 데워 따뜻하게 섭취하십시오.',
-    warning: '전자레인지 조리 시 봉지째 직접 가열하지 마시고 반드시 전용 용기에 덜어 조리하십시오.'
+    warning: '전자레인지 조리 시 봉지째 직접 가열하지 마시고 반드시 전용 용기에 덜어 조리하십시오.',
+    priceRationale: {
+      ko: '정제 백설탕과 화학 합성 조미료를 일절 쓰지 않고 국산 잣, 단호박, 팥, 찹쌀 등 100% 친환경 농산물 원료와 한방 성미 배합을 완비한 5가지 프리미엄 건강 조식 세트입니다.',
+      en: 'Made with 100% local organic ingredients including pine nuts, pumpkin, and red bean, without chemical flavors or refined sugars.'
+    }
   },
   {
     id:'nutr-02', category:'prepared-meal', categoryLabel:'약선 조리식품', emoji:'🥗',
     name:'독서·정신노동 집중 약선 에너지바', subname:'Cognitive Wellness Energy Bar',
     desc:'황기, 인삼, 맥문동, 오미자를 천연 견과류와 배합한 K-식물성 에너지바. 독서·정신노동 후 안정식.',
-    price:36000, unit:'6개입 / 1박스',
+    price:22000, unit:'6개입 / 1박스',
     constitution:['소양인','소음인'], constitutionLabel:'Neutral — 소음인·소양인 체질 시너지', constitutionType:'neutral',
     badge:'집중력 증진', stock:72,
     nutrition: { serving: '1개 (35g 기준)', energy: '145 kcal', carbs: '22g', protein: '3.5g', fat: '4.8g', sodium: '45mg' },
     rdLinkage: { functions: ['SF012 보기 (원기회복)', 'SF023 신경안정 (스트레스완화)'], axes: ['회복', '안정'] },
     brewingGuide: '바쁜 일상 중 간식으로, 혹은 운동 및 정신노동 전후로 1개씩 꼭꼭 씹어서 물과 함께 섭취하십시오.',
-    warning: '견과류가 함유되어 있어 견과류 알레르기가 있으신 분은 섭취에 각별한 주의가 필요합니다.'
+    warning: '견과류가 함유되어 있어 견과류 알레르기가 있으신 분은 섭취에 각별한 주의가 필요합니다.',
+    priceRationale: {
+      ko: '저렴한 밀가루나 인공 감미료 베이스가 아닌 국산 황기, 인삼, 오미자 배합 한방 추출물과 프리미엄 잣, 아몬드를 식물성 꿀로 뭉쳐 집중력 증진 연구에 근거한 기능성 건강 간식입니다.',
+      en: 'Cognitive wellness snack containing local ginseng, hwanggi, and omija extracts blended with premium nuts and organic honey.'
+    }
   },
-];
+  {
+    id:'herb-03', category:'herb-veg', categoryLabel:'약초 & 채소/버섯류', emoji:'🍄',
+    name:'친환경 건조 흰목이버섯 (백목이)', subname:'Organic Dried Tremella Mushroom',
+    desc:'피부 수분 공급과 콜라겐 합성을 돕는 한방 미용의 핵심 흰목이버섯. 팩 조리 및 약선 요리용.',
+    price:13000, unit:'80g / 건조',
+    constitution:['소음인','소양인','태음인','태양인'], constitutionLabel:'전 체질 — 보습·미용 요재', constitutionType:'neutral',
+    badge:'무농약 인증', stock:40,
+    nutrition: { serving: '10g 기준', energy: '18 kcal', carbs: '4.2g', protein: '1.2g', fat: '0.1g', sodium: '2.0mg' },
+    rdLinkage: { functions: ['SF016 진액생성 (보습)', 'SF006 항산화 (콜라겐보호)'], axes: ['보호', '정화'] },
+    priceRationale: {
+      ko: '중국 수입산이 아닌 무농약 인증 국산 건조 흰목이버섯으로, 깨끗한 참나무 톱밥 배지에서 재배하여 먼지와 불순물이 없고 피부 윤기를 돕는 점액 콜가겐 함량이 매우 높습니다.',
+      en: 'Organic domestic dried Tremella mushrooms cultivated on oak sawdust blocks, ensuring clean quality and rich plant-based collagen.'
+    }
+  },
+  {
+    id:'herb-04', category:'herb-veg', categoryLabel:'약초 & 채소/버섯류', emoji:'🌿',
+    name:'지리산 청정 건조 맥문동 (麥門冬)', subname:'Dried Liriope Platyphylla Root',
+    desc:'음기를 보하고 호흡기와 피부 기관지를 촉촉하게 적셔주는 한방 약재. 토너 우림용 및 약선차용.',
+    price:18000, unit:'150g / 건초',
+    constitution:['소양인','태음인'], constitutionLabel:'Cool — 소양인·태음인 체질 시너지', constitutionType:'cool',
+    badge:'지리산 특산', stock:30,
+    nutrition: { serving: '10g 기준', energy: '24 kcal', carbs: '5.8g', protein: '0.6g', fat: '0.0g', sodium: '1.0mg' },
+    rdLinkage: { functions: ['SF016 진액생성 (피부윤택)', 'SF025 신장보호 (음액보충)'], axes: ['보호', '안정'] },
+    priceRationale: {
+      ko: '중심부의 심(心)을 빼서 부작용(가슴 답답함 등)을 없애는 거심(去心) 법제 작업을 100% 수작업으로 마친 지리산 자생 일등 맥문동 뿌리 건초입니다.',
+      en: 'Premium dried liriope root from Jirisan, with its inner core manually removed (de-cored) to eliminate mild side effects.'
+    }
+  },
+  {
+    id:'paste-04', category:'paste-condiment', categoryLabel:'발효 & 조미료', emoji:'🫗',
+    name:'영주 전통 냉압착 참깨 오일 (참기름)', subname:'Traditional Cold-Pressed Sesame Oil',
+    desc:'저온 냉압착 방식으로 참깨 고유의 비타민E와 불포화지방산을 살린 100% 전통 참깨 오일. 피부 마사지 및 조리용.',
+    price:22000, unit:'250ml / 1병',
+    constitution:['소음인','태음인','소양인','태양인'], constitutionLabel:'전 체질 — 영양·보습 오일', constitutionType:'neutral',
+    badge:'전통 압착', stock:25,
+    nutrition: { serving: '5ml 기준', energy: '45 kcal', carbs: '0g', protein: '0g', fat: '5.0g', sodium: '0mg' },
+    rdLinkage: { functions: ['SF020 순환개선 (비타민E)', 'SF015 비위보호 (불포화지방)'], axes: ['순환', '보호'] },
+    priceRationale: {
+      ko: '고온에서 볶아 벤조피렌 발암물질 우려가 있는 시중 일반 참기름과 달리, 볶지 않고 저온에서 수차례 정밀 냉압착하여 참깨 씨앗 본연의 토코페롤 항산화 성분을 보존한 피부 마사지 겸용 명품 참깨 오일입니다.',
+      en: 'Unroasted, low-temperature cold-pressed sesame oil containing high concentrations of natural tocopherols, suitable for cosmetic use.'
+    }
+  },
+  {
+    id:'paste-05', category:'paste-condiment', categoryLabel:'발효 & 조미료', emoji:'🧴',
+    name:'제주 청정 냉압착 동백 씨앗 오일', subname:'Jeju Cold-Pressed Camellia Seed Oil',
+    desc:'제주 야생 동백 씨앗을 냉압착하여 추출한 피부 장벽 강화용 멀티 오일. 페이셜 오일 및 헤어 보습용.',
+    price:26000, unit:'50ml / 1스포이드병',
+    constitution:['소음인','소양인','태음인','태양인'], constitutionLabel:'전 체질 — 천연 보습막', constitutionType:'neutral',
+    badge:'100% 천연오일', stock:18,
+    nutrition: { serving: '1회 도포(1ml) 기준', energy: '8 kcal', carbs: '0g', protein: '0g', fat: '0.9g', sodium: '0mg' },
+    rdLinkage: { functions: ['SF006 항산화 (올레인산)', 'SF016 진액생성 (보습막형성)'], axes: ['보호', '정화'] },
+    priceRationale: {
+      ko: '제주 야생 동백나무 숲에서 떨어진 완숙 씨앗을 손으로 주워 모아 화학 정제 과정 없이 순수 압착 및 필터링만 거쳐 올레인산 함량이 85% 이상인 천연 100% 무독성 피부 영양 오일입니다.',
+      en: '100% cold-pressed organic camellia seed oil harvested in Jeju wild forests, containing over 85% oleic acid for skin barrier reinforcement.'
+    }
+  },
+  {
+    id:'herb-05', category:'herb-veg', categoryLabel:'약초 & 채소/버섯류', emoji:'🌿',
+    name:'경북 영주 야생 건조 당귀 (當歸)', subname:'Premium Dried Angelica Root',
+    desc:'여성 건강과 혈액 순환, 피부 안색 개선에 으뜸인 전통 당귀 뿌리 건초. 보혈 및 한방 팩 베이스용.',
+    price:19000, unit:'120g / 건초',
+    constitution:['소음인','태음인'], constitutionLabel:'Warm — 소음인·태음인 체질 시너지', constitutionType:'warm',
+    badge:'100% 국산', stock:35,
+    nutrition: { serving: '10g 기준', energy: '30 kcal', carbs: '6.5g', protein: '0.8g', fat: '0.2g', sodium: '1.2mg' },
+    rdLinkage: { functions: ['SF012 보기 (혈행개선)', 'SF020 순환개선 (안색개선)'], axes: ['회복', '순환'] },
+    priceRationale: {
+      ko: '중국산 및 수경재배 품종과 비교하여 유효성분인 데쿠르신(Decursin) 함량이 최대 5배 이상 높은 경북 영주산 3년근 야생 참당귀를 자연 건조한 한정 본초입니다.',
+      en: 'Certified domestic Angelica gigas root containing high decursin content for improving blood circulation and skin tone.'
+    }
+  },
+  {
+    id:'herb-06', category:'herb-veg', categoryLabel:'약초 & 채소/버섯류', emoji:'🍒',
+    name:'경산 황토대추 (특초 등급 건대추)', subname:'Gyeongsan Premium Dried Jujube (Daechu)',
+    desc:'경산 황토에서 자란 달콤하고 살이 오른 특급 건대추. 비위 기력 보강 및 독성 중화용 기본 본초.',
+    price:12000, unit:'200g / 1팩',
+    constitution:['소음인','태음인','소양인','태양인'], constitutionLabel:'전 체질 — 조화·보혈 필수곡', constitutionType:'neutral',
+    badge:'무농약 대추', stock:50,
+    nutrition: { serving: '10g 기준', energy: '26 kcal', carbs: '6.4g', protein: '0.4g', fat: '0.1g', sodium: '0.8mg' },
+    rdLinkage: { functions: ['SF015 비위보호 (소화보조)', 'SF012 보기 (기혈보충)'], axes: ['보호', '회복'] },
+    priceRationale: {
+      ko: '경산 황토림에서 수확한 무농약 인증 대추 중 크기가 가장 굵고 당도가 우수한 특초 등급만을 선별해 자연 통풍 건조하여 비타민 함량과 단맛을 최고조로 끌어올린 건대추입니다.',
+      en: 'Highest-grade dried red dates grown in rich loess soil, containing premium vitamin C and natural sweetness without preservatives.'
+    }
+  }
+]
 
 function setShopCategory(btn, cat) {
   shopCurrentCategory = cat;
@@ -5960,6 +7135,15 @@ function setShopCategory(btn, cat) {
   if (btn) btn.classList.add('active');
   renderShopProducts();
 }
+
+function filterShopProducts(keyword) {
+  const input = document.getElementById('shop-search-input');
+  if (input) {
+    input.value = keyword;
+  }
+  renderShopProducts();
+}
+window.filterShopProducts = filterShopProducts;
 
 function renderShopProducts() {
   const grid = document.getElementById('shop-product-grid');
@@ -5976,11 +7160,28 @@ function renderShopProducts() {
   }
 
   let products = SHOP_PRODUCTS;
+
+  // Category filter
   if (shopCurrentCategory !== 'all') {
     products = products.filter(p => p.category === shopCurrentCategory);
   }
+
+  // Constitution filter
   if (filterActive && userConstitution && userConstitution !== '일반') {
     products = products.filter(p => p.constitution.includes(userConstitution));
+  }
+
+  // Search filter
+  const searchInput = document.getElementById('shop-search-input');
+  const query = searchInput ? searchInput.value.trim().toLowerCase() : '';
+  if (query) {
+    products = products.filter(p => {
+      const nameMatch = p.name && p.name.toLowerCase().includes(query);
+      const subnameMatch = p.subname && p.subname.toLowerCase().includes(query);
+      const descMatch = p.desc && p.desc.toLowerCase().includes(query);
+      const rdMatch = p.rdLinkage && p.rdLinkage.functions && p.rdLinkage.functions.some(f => f.toLowerCase().includes(query));
+      return nameMatch || subnameMatch || descMatch || rdMatch;
+    });
   }
 
   if (products.length === 0) {
@@ -6763,6 +7964,7 @@ function openDiagnosisModal() {
     bioactivesHtml = `<div style="text-align:center; color:var(--text-muted); font-size:0.8rem; padding:10px 0;">배합 식재료의 영양 성분이 연산되지 않았습니다.</div>`;
   }
 
+  const totalAxisScore = Object.values(axisScores).reduce((a, b) => a + b, 0) || 1;
   let axisHtml = "";
   Object.entries(axisScores).forEach(([axis, score]) => {
     if (score > 0) {
@@ -7029,6 +8231,14 @@ function openProductDetail(productId) {
           <h4 style="margin:0 0 8px; font-size:0.8rem; color:var(--primary); font-weight:700; text-transform:uppercase; letter-spacing:0.5px;">${getTranslation('productSummaryTitle', currentLanguage)}</h4>
           <p style="color:var(--text-secondary); font-size:0.82rem; margin:0; line-height:1.5;">${getTranslation(p.desc, currentLanguage)}</p>
         </div>
+
+        <!-- Premium Value Guarantee / Price Rationale -->
+        ${p.priceRationale ? `
+        <div class="panel glass-panel" style="padding:15px; margin:0; background:rgba(245,158,11,0.02); border:1px solid rgba(245,158,11,0.15); border-left:3px solid var(--primary);">
+          <h4 style="margin:0 0 6px; font-size:0.8rem; color:var(--primary); font-weight:700; text-transform:uppercase; letter-spacing:0.5px;">${getShopTxt('valueGuarantee', currentLanguage)}</h4>
+          <p style="color:var(--text-secondary); font-size:0.8rem; margin:0; line-height:1.5; word-break:keep-all;">${p.priceRationale[currentLanguage] || p.priceRationale.ko}</p>
+        </div>
+        ` : ''}
 
         <!-- Sasang constitution match -->
         <div class="panel glass-panel" style="padding:15px; margin:0; background:rgba(255,255,255,0.01); border:1px solid rgba(255,255,255,0.05); border-left:3px solid ${p.constitutionType === 'warm' ? '#f59e0b' : p.constitutionType === 'cool' ? '#10b981' : '#a78bfa'};">
@@ -7949,6 +9159,10 @@ function updateWeatherWidget(season, weather, temp, location) {
 
   if (!iconEl || !locEl || !tempStatusEl || !foodEl || !tipEl) return;
 
+  lastWeatherInfo = { season, weather, temp, location };
+
+  const lang = currentLanguage || 'ko';
+
   // 날씨 아이콘 매핑
   const icons = {
     "맑음": "☀️",
@@ -7960,24 +9174,34 @@ function updateWeatherWidget(season, weather, temp, location) {
   };
 
   iconEl.innerText = icons[weather] || "☀️";
-  locEl.innerText = location || "위치 미확인";
+  locEl.innerText = getTranslation(location || "위치 미확인", lang);
   
-  const tempText = temp !== null ? `${temp}°C` : "기온 정보 없음";
-  tempStatusEl.innerText = `${tempText} | 날씨 [${weather}]`;
+  let tempText = temp !== null ? `${temp}°C` : "기온 정보 없음";
+  if (lang === 'en') {
+    tempText = temp !== null ? `${temp}°C` : "No temperature data";
+  } else if (lang === 'ja') {
+    tempText = temp !== null ? `${temp}°C` : "気温情報なし";
+  } else if (lang === 'ar') {
+    tempText = temp !== null ? `${temp}°C` : "لا توجد بيانات درجة الحرارة";
+  }
+  
+  const locWeatherText = getTranslation(weather, lang);
+  const weatherLabel = lang === 'en' ? 'Weather' : lang === 'ja' ? '天気' : lang === 'ar' ? 'الطقس' : '날씨';
+  tempStatusEl.innerText = `${tempText} | ${weatherLabel} [${locWeatherText}]`;
 
   // 추천 요리명 가져오기
   const foodName = todaySelectionMap[season]?.[weather] || "보리";
-  foodEl.innerText = foodName;
+  foodEl.innerText = getTranslation(foodName, lang);
 
   // 매칭 팁 커스텀 매핑
   const tips = {
     "봄": {
-      "맑음": "나른한 봄날 춘곤증을 해소하고 간 기운을 돕는 향긋한 두릅 요리입니다.",
-      "비옴": "비 오는 봄날, 몸의 무거운 습기를 해소하고 비위를 보하는 따끈한 부침개입니다.",
-      "눈옴": "꽃샘추위와 눈 속에 몸을 따뜻하게 덥혀주는 당귀와 천궁 수제비입니다.",
-      "바람/황사": "황사와 봄바람의 미세먼지를 해독하고 호흡기를 보호하는 방풍나물입니다.",
-      "추움": "꽃샘추위에 굳은 몸을 녹이고 기혈 순환을 촉진하는 따끈한 떡국입니다.",
-      "더움": "갑자기 찾아온 봄 더위에 기운을 살리고 혈액을 맑게 하는 달래 무침입니다."
+      "맑음": "기를 소통시키고 춘곤증을 해소하는 봄철 나물 요리입니다.",
+      "비옴": "습기를 물리치고 비위에 기를 소통시키는 봄철 쑥부침개입니다.",
+      "눈옴": "춘설의 갑작스러운 한기에 몸을 보하는 천궁과 당귀의 따뜻한 국물입니다.",
+      "바람/황사": "황사 바람 미세먼지를 해독하고 호흡기를 보호하는 방풍나물입니다.",
+      "추움": "꽃샘추위에 상한 위장을 데우고 기운을 보강하는 닭고기 요리입니다.",
+      "더움": "갑자기 찾아온 더위에 몸의 기를 보호하는 나물 생채입니다."
     },
     "여름": {
       "맑음": "무더운 날씨에 체내 진액을 보충하고 열을 내려주는 메밀밀쌈입니다.",
@@ -8005,7 +9229,8 @@ function updateWeatherWidget(season, weather, temp, location) {
     }
   };
 
-  tipEl.innerText = tips[season]?.[weather] || "현재 날씨 정보에 적합한 대표 식재료입니다. 클릭 시 상세 한방 효능 및 기전을 확인하실 수 있습니다.";
+  const rawTip = tips[season]?.[weather] || "현재 날씨 정보에 적합한 대표 식재료입니다. 클릭 시 상세 한방 효능 및 기전을 확인하실 수 있습니다.";
+  tipEl.innerText = getTranslation(rawTip, lang);
 }
 
 // 사상 체질 초간단 자가진단 퀴즈
@@ -8601,6 +9826,119 @@ window.toggleAudioDocent = toggleAudioDocent;
 window.playBrandVideo = playBrandVideo;
 window.toggleAcademicDetails = toggleAcademicDetails;
 window.togglePersona = togglePersona;
+
+// ─── AI Marketing Automation System ───
+function updateMarketingTargetCount() {
+  const constFilter = document.getElementById('mkt-filter-const').value;
+  const concernFilter = document.getElementById('mkt-filter-concern').value;
+  
+  let matches = subscribersDb || [];
+  if (constFilter !== 'all') {
+    matches = matches.filter(s => s.constitution.includes(constFilter));
+  }
+  if (concernFilter !== 'all') {
+    matches = matches.filter(s => s.concern.includes(concernFilter));
+  }
+  
+  const countEl = document.getElementById('mkt-target-count');
+  if (countEl) {
+    countEl.innerText = `${matches.length}명 매칭`;
+  }
+}
+
+const mktTemplates = {
+  custom: { subject: "", message: "" },
+  seasonal: {
+    subject: "[Mila 웰니스] {constitution}을 위한 절기별 맞춤 양생 식단 가이드",
+    message: "안녕하세요, {name} 님.\n\n동의보감 및 칠정배합(상극 방지) 알고리즘 분석 결과, {constitution} 체질에 최적화된 절기 맞춤형 약선 레시피 가이드가 발행되었습니다.\n\n이번 주 섭취가 권장되는 핵심 한방 약재 조리법을 확인해 보세요!"
+  },
+  recipe: {
+    subject: "[Mila R&D 신작] 특허 청구항 기반의 면역 활성 신제품 런칭 알림",
+    message: "안녕하세요, {name} 님.\n\nNuri Lab R&D실에서 동결건조 공법으로 가공한 한방 기능성 식전주 '식전 약선 홍화주'와 입가심용 홍화차가 새로 추가되었습니다.\n\n체질별 추천 식단에서 바로 연동 레시피를 확인하세요."
+  },
+  promotion: {
+    subject: "[Mila Premium] {constitution} 전용 웰니스 가이딩 무료 검진 쿠폰",
+    message: "안녕하세요, {name} 님.\n\n{constitution} 맞춤 웰니스 파트너십 스파 및 리조트에서 사용 가능한 정량 진단 및 맞춤 약선 음료 시음 쿠폰이 발급되었습니다."
+  }
+};
+
+function loadMarketingTemplate() {
+  const tempVal = document.getElementById('mkt-template').value;
+  const template = mktTemplates[tempVal] || mktTemplates.custom;
+  
+  const subEl = document.getElementById('mkt-subject');
+  const msgEl = document.getElementById('mkt-message');
+  if (subEl) subEl.value = template.subject;
+  if (msgEl) msgEl.value = template.message;
+}
+
+function runMarketingCampaign() {
+  const constFilter = document.getElementById('mkt-filter-const').value;
+  const concernFilter = document.getElementById('mkt-filter-concern').value;
+  const channel = document.getElementById('mkt-channel').value;
+  const subjectTpl = document.getElementById('mkt-subject').value;
+  const messageTpl = document.getElementById('mkt-message').value;
+  
+  const consoleLog = document.getElementById('mkt-console-log');
+  if (!consoleLog) return;
+  
+  if (!subjectTpl || !messageTpl) {
+    alert("캠페인 제목과 메시지 본문을 작성해 주세요.");
+    return;
+  }
+  
+  let matches = subscribersDb || [];
+  if (constFilter !== 'all') {
+    matches = matches.filter(s => s.constitution.includes(constFilter));
+  }
+  if (concernFilter !== 'all') {
+    matches = matches.filter(s => s.concern.includes(concernFilter));
+  }
+  
+  consoleLog.innerHTML = `[${new Date().toLocaleTimeString()}] [자동화] 캠페인 배칭 엔진 기동 중...\n`;
+  consoleLog.innerHTML += `[${new Date().toLocaleTimeString()}] [자동화] 필터 분석: 체질=[${constFilter}], 관심사=[${concernFilter}], 채널=[${channel}]\n`;
+  
+  if (matches.length === 0) {
+    consoleLog.innerHTML += `[${new Date().toLocaleTimeString()}] [경고] 매칭되는 가입자 대상이 없습니다. 필터를 조정하십시오.\n`;
+    return;
+  }
+  
+  consoleLog.innerHTML += `[${new Date().toLocaleTimeString()}] [자동화] 총 ${matches.length}명의 타깃 대상 추출 완료.\n`;
+  consoleLog.innerHTML += `[${new Date().toLocaleTimeString()}] [자동화] 대기열 적재 완료. 마케팅 메일 전송 프로세스를 시작합니다...\n`;
+  
+  let idx = 0;
+  function sendNext() {
+    if (idx < matches.length) {
+      const user = matches[idx];
+      const name = user.name;
+      const constitution = user.constitution;
+      const email = user.email;
+      
+      const personalizedSubject = subjectTpl.replace(/{name}/g, name).replace(/{constitution}/g, constitution);
+      const personalizedMessage = messageTpl.replace(/{name}/g, name).replace(/{constitution}/g, constitution);
+      
+      consoleLog.innerHTML += `[${new Date().toLocaleTimeString()}] [전송 대기] 대상자: ${name} (${email}) - ${constitution}\n`;
+      
+      setTimeout(() => {
+        consoleLog.innerHTML += `<span style="color:#10b981;">[성공] ${name} 님께 발송 성공! (${channel === 'email' ? 'Email' : channel === 'sms' ? 'SMS' : 'App Push'})\n</span>`;
+        consoleLog.scrollTop = consoleLog.scrollHeight;
+        idx++;
+        sendNext();
+      }, 600);
+    } else {
+      consoleLog.innerHTML += `\n[${new Date().toLocaleTimeString()}] [완료] 총 ${matches.length}건의 타깃 마케팅 캠페인이 성공적으로 전송 완료되었습니다!`;
+      consoleLog.scrollTop = consoleLog.scrollHeight;
+    }
+  }
+  
+  setTimeout(() => {
+    sendNext();
+  }, 500);
+}
+
+window.updateMarketingTargetCount = updateMarketingTargetCount;
+window.loadMarketingTemplate = loadMarketingTemplate;
+window.runMarketingCampaign = runMarketingCampaign;
 
 // ─── 비즈니스 대시보드 (Ecosystem) & 동적 제안서 자동 생성기 ───
 

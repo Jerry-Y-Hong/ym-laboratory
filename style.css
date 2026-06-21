@@ -120,6 +120,33 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.beauty-section {
+  padding: 30px;
+  margin-bottom: 35px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: linear-gradient(145deg, rgba(20, 30, 50, 0.6), rgba(10, 15, 30, 0.8));
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+}
+
+.beauty-section-label {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 22px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: 12px;
+}
+
+.beauty-section-hint {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-weight: 450;
+}
 .brand-text p {
   font-size: 0.72rem;
   color: var(--text-muted);
@@ -1374,10 +1401,19 @@ body.persona-pro .btn-primary:hover {
   background: transparent;
   border: 1px solid var(--border-glass);
   color: var(--text-main);
+  transition: all 0.2s ease;
 }
 .btn-outline:hover {
   background: rgba(255,255,255,0.04);
   border-color: var(--primary);
+}
+.btn-outline.active,
+.wiki-category-filter-bar button.active {
+  background: var(--primary) !important;
+  color: #000 !important;
+  border-color: var(--primary) !important;
+  font-weight: 700 !important;
+  box-shadow: 0 0 10px var(--primary-glow) !important;
 }
 .btn-small {
   padding: 6px 12px;
@@ -3104,3 +3140,1184 @@ body.persona-pro .general-only {
     border-top: 1px solid #666 !important;
   }
 }
+
+/* ─── Onboarding Wizard Styles ─── */
+.wizard-modal-content {
+  border: 2px solid var(--primary) !important;
+  box-shadow: 0 0 35px var(--primary-glow) !important;
+  transition: all 0.3s ease;
+}
+
+.wizard-card {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.02) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 12px;
+  padding: 14px;
+  text-align: center;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.wizard-card:hover {
+  background: rgba(255, 255, 255, 0.04) !important;
+  border-color: rgba(255, 255, 255, 0.2) !important;
+  transform: translateY(-2px);
+}
+
+.wizard-card.active {
+  background: rgba(16, 185, 129, 0.06) !important;
+  border-color: var(--primary) !important;
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.25) !important;
+}
+
+.wizard-card.active::after {
+  content: '✓';
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  color: var(--primary);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+/* Spinning Yin-Yang */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Scanner line animation */
+@keyframes scan-up-down {
+  0%, 100% { top: 0%; opacity: 0.3; }
+  50% { top: 96%; opacity: 1; }
+}
+
+.scanner-bar {
+  animation: scan-up-down 2s ease-in-out infinite;
+}
+
+.scanning-circle-wrapper i {
+  animation: spin 3s linear infinite;
+}
+
+
+/* ─── 피부·다이어트 탭 프리미엄 스타일 ─── */
+.beauty-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 0 60px;
+}
+
+/* 서브 프로그램 스위처 */
+.beauty-program-switcher {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-glass);
+  border-radius: 12px;
+}
+
+.beauty-program-switcher .switcher-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 20px;
+  background: transparent;
+  border: none;
+  border-radius: 8px;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.beauty-program-switcher .switcher-btn:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+/* 피부관리 모드 활성화 */
+.beauty-program-switcher .switcher-btn.skin-btn.active {
+  background: linear-gradient(135deg, rgba(244, 63, 94, 0.2), rgba(244, 63, 94, 0.05));
+  border: 1px solid rgba(244, 63, 94, 0.4) !important;
+  color: #fda4af;
+  box-shadow: 0 4px 15px rgba(244, 63, 94, 0.15);
+}
+
+/* 다이어트 모드 활성화 */
+.beauty-program-switcher .switcher-btn.diet-btn.active {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.2), rgba(16, 185, 129, 0.05));
+  border: 1px solid rgba(16, 185, 129, 0.4) !important;
+  color: #6ee7b7;
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.15);
+}
+
+.beauty-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 24px;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-glass);
+  border-radius: 16px;
+}
+
+.beauty-header-icon {
+  font-size: 2.8rem;
+  background: rgba(236, 72, 153, 0.1);
+  padding: 12px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(236, 72, 153, 0.15);
+}
+
+.beauty-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 6px;
+  background: linear-gradient(135deg, #fff 40%, var(--primary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.beauty-subtitle {
+  color: var(--text-secondary);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.beauty-constitution-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px;
+  margin-bottom: 24px;
+  border-radius: 14px;
+  transition: all 0.3s ease;
+}
+
+.beauty-constitution-banner.found {
+  border-left: 5px solid var(--primary);
+  background: rgba(16, 185, 129, 0.03);
+}
+
+.beauty-constitution-banner.not-found {
+  border-left: 5px solid #ef4444;
+  background: rgba(239, 68, 68, 0.03);
+}
+
+.constitution-banner-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.constitution-banner-icon {
+  font-size: 2rem;
+}
+
+.constitution-banner-label {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.constitution-banner-value {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #fff;
+  margin-top: 2px;
+}
+
+.constitution-banner-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.constitution-change-label {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.constitution-select {
+  padding: 8px 12px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--border-glass);
+  border-radius: 8px;
+  color: #fff;
+  font-size: 0.85rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.beauty-section {
+  padding: 24px;
+  margin-bottom: 24px;
+  border-radius: 16px;
+}
+
+.beauty-section-label {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.beauty-section-hint {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+.concern-grid, .goal-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.concern-card, .goal-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 12px;
+  padding: 22px;
+  background: rgba(255, 255, 255, 0.01);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+}
+
+.concern-card::before, .goal-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 10% 10%, rgba(255, 255, 255, 0.03) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.concern-card:hover, .goal-card:hover {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: rgba(255, 255, 255, 0.18);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Individual Concern Accents when Selected */
+.concern-card#concern-acne.selected {
+  background: rgba(239, 68, 68, 0.04);
+  border-color: rgba(239, 68, 68, 0.4);
+  box-shadow: 0 0 25px rgba(239, 68, 68, 0.15), inset 0 0 12px rgba(239, 68, 68, 0.05);
+}
+.concern-card#concern-dryness.selected {
+  background: rgba(59, 130, 246, 0.04);
+  border-color: rgba(59, 130, 246, 0.4);
+  box-shadow: 0 0 25px rgba(59, 130, 246, 0.15), inset 0 0 12px rgba(59, 130, 246, 0.05);
+}
+.concern-card#concern-pigmentation.selected {
+  background: rgba(139, 92, 246, 0.04);
+  border-color: rgba(139, 92, 246, 0.4);
+  box-shadow: 0 0 25px rgba(139, 92, 246, 0.15), inset 0 0 12px rgba(139, 92, 246, 0.05);
+}
+.concern-card#concern-aging.selected {
+  background: rgba(245, 158, 11, 0.04);
+  border-color: rgba(245, 158, 11, 0.4);
+  box-shadow: 0 0 25px rgba(245, 158, 11, 0.15), inset 0 0 12px rgba(245, 158, 11, 0.05);
+}
+.concern-card#concern-edema.selected {
+  background: rgba(20, 184, 166, 0.04);
+  border-color: rgba(20, 184, 166, 0.4);
+  box-shadow: 0 0 25px rgba(20, 184, 166, 0.15), inset 0 0 12px rgba(20, 184, 166, 0.05);
+}
+.concern-card#concern-brightening.selected {
+  background: rgba(234, 179, 8, 0.04);
+  border-color: rgba(234, 179, 8, 0.4);
+  box-shadow: 0 0 25px rgba(234, 179, 8, 0.15), inset 0 0 12px rgba(234, 179, 8, 0.05);
+}
+
+/* Individual Goal Accents when Selected */
+.goal-card#goal-weightloss.selected {
+  background: rgba(249, 115, 22, 0.04);
+  border-color: rgba(249, 115, 22, 0.4);
+  box-shadow: 0 0 25px rgba(249, 115, 22, 0.15), inset 0 0 12px rgba(249, 115, 22, 0.05);
+}
+.goal-card#goal-muscle.selected {
+  background: rgba(16, 185, 129, 0.04);
+  border-color: rgba(16, 185, 129, 0.4);
+  box-shadow: 0 0 25px rgba(16, 185, 129, 0.15), inset 0 0 12px rgba(16, 185, 129, 0.05);
+}
+.goal-card#goal-bloating.selected {
+  background: rgba(6, 182, 212, 0.04);
+  border-color: rgba(6, 182, 212, 0.4);
+  box-shadow: 0 0 25px rgba(6, 182, 212, 0.15), inset 0 0 12px rgba(6, 182, 212, 0.05);
+}
+.goal-card#goal-metabolism.selected {
+  background: rgba(239, 68, 68, 0.04);
+  border-color: rgba(239, 68, 68, 0.4);
+  box-shadow: 0 0 25px rgba(239, 68, 68, 0.15), inset 0 0 12px rgba(239, 68, 68, 0.05);
+}
+
+.concern-card.selected, .goal-card.selected {
+  color: #fff;
+}
+
+.concern-icon, .goal-icon {
+  font-size: 2rem;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 8px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.concern-card:hover .concern-icon, .goal-card:hover .goal-icon {
+  transform: scale(1.1) rotate(3deg);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* Individual Icon Glowing Backgrounds on Hover/Selection */
+.concern-card#concern-acne.selected .concern-icon { background: rgba(239, 68, 68, 0.15); border-color: rgba(239, 68, 68, 0.3); }
+.concern-card#concern-dryness.selected .concern-icon { background: rgba(59, 130, 246, 0.15); border-color: rgba(59, 130, 246, 0.3); }
+.concern-card#concern-pigmentation.selected .concern-icon { background: rgba(139, 92, 246, 0.15); border-color: rgba(139, 92, 246, 0.3); }
+.concern-card#concern-aging.selected .concern-icon { background: rgba(245, 158, 11, 0.15); border-color: rgba(245, 158, 11, 0.3); }
+.concern-card#concern-edema.selected .concern-icon { background: rgba(20, 184, 166, 0.15); border-color: rgba(20, 184, 166, 0.3); }
+.concern-card#concern-brightening.selected .concern-icon { background: rgba(234, 179, 8, 0.15); border-color: rgba(234, 179, 8, 0.3); }
+
+.goal-card#goal-weightloss.selected .goal-icon { background: rgba(249, 115, 22, 0.15); border-color: rgba(249, 115, 22, 0.3); }
+.goal-card#goal-muscle.selected .goal-icon { background: rgba(16, 185, 129, 0.15); border-color: rgba(16, 185, 129, 0.3); }
+.goal-card#goal-bloating.selected .goal-icon { background: rgba(6, 182, 212, 0.15); border-color: rgba(6, 182, 212, 0.3); }
+.goal-card#goal-metabolism.selected .goal-icon { background: rgba(239, 68, 68, 0.15); border-color: rgba(239, 68, 68, 0.3); }
+
+.card-header-beauty {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.select-indicator {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 2.5px solid rgba(255, 255, 255, 0.15);
+  position: relative;
+  transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.concern-card:hover .select-indicator, .goal-card:hover .select-indicator {
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.concern-card#concern-acne.selected .select-indicator { border-color: #ef4444; background: #ef4444; }
+.concern-card#concern-dryness.selected .select-indicator { border-color: #3b82f6; background: #3b82f6; }
+.concern-card#concern-pigmentation.selected .select-indicator { border-color: #8b5cf6; background: #8b5cf6; }
+.concern-card#concern-aging.selected .select-indicator { border-color: #f59e0b; background: #f59e0b; }
+.concern-card#concern-edema.selected .select-indicator { border-color: #14b8a6; background: #14b8a6; }
+.concern-card#concern-brightening.selected .select-indicator { border-color: #eab308; background: #eab308; }
+
+.goal-card#goal-weightloss.selected .select-indicator { border-color: #f97316; background: #f97316; }
+.goal-card#goal-muscle.selected .select-indicator { border-color: #10b981; background: #10b981; }
+.goal-card#goal-bloating.selected .select-indicator { border-color: #06b6d4; background: #06b6d4; }
+.goal-card#goal-metabolism.selected .select-indicator { border-color: #ef4444; background: #ef4444; }
+
+.concern-card.selected .select-indicator::after, .goal-card.selected .select-indicator::after {
+  content: '✓';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.card-body-beauty {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.concern-label, .goal-label {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: left;
+}
+
+.concern-desc, .goal-desc {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+  margin: 0;
+  text-align: left;
+}
+
+.beauty-action-area {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.beauty-analyze-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 40px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-glass);
+  border-radius: 30px;
+  color: var(--text-muted);
+  font-size: 1.05rem;
+  font-weight: 700;
+  cursor: not-allowed;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.beauty-analyze-btn.ready {
+  background: linear-gradient(135deg, var(--primary) 0%, #0d9488 100%);
+  color: var(--text-dark);
+  border-color: transparent;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(16, 185, 129, 0.35);
+}
+
+.beauty-analyze-btn.ready:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(16, 185, 129, 0.55);
+}
+
+/* 처방 결과 스타일 */
+.beauty-result-wrapper {
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 20px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.5);
+  animation: fadeIn 0.4s ease-out;
+}
+
+.result-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--border-glass);
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.result-header-left {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.result-header-badge {
+  display: inline-block;
+  background: rgba(16, 185, 129, 0.1);
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  padding: 4px 12px;
+  border-radius: 99px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  align-self: flex-start;
+}
+
+.result-header-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.result-header-desc {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.result-reset-btn {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-glass);
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.result-reset-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.beauty-result-block {
+  margin-bottom: 35px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.beauty-result-block:last-of-type {
+  border-bottom: none;
+  margin-bottom: 10px;
+  padding-bottom: 0;
+}
+
+.result-block-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.block-header-icon {
+  font-size: 2.2rem;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid var(--border-glass);
+}
+
+.block-header-title {
+  font-size: 1.15rem;
+  font-weight: 750;
+  color: var(--primary);
+  margin-bottom: 4px;
+}
+
+.external-block .block-header-title {
+  color: var(--accent);
+}
+
+.block-header-subtitle {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.prescription-grid-beauty {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.prescription-card {
+  padding: 24px;
+  border-radius: 16px;
+  border-left: 4px solid var(--primary);
+  background: rgba(255, 255, 255, 0.015);
+  border: 1px solid var(--border-glass);
+  border-left: 4px solid var(--primary);
+}
+
+.external-presc-card {
+  border-left-color: var(--accent);
+}
+
+.prescription-card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.prescription-icon {
+  font-size: 1.4rem;
+}
+
+.prescription-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.internal-reason {
+  display: flex;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.015);
+  border: 1px solid var(--border-glass);
+  padding: 14px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+.reason-icon {
+  font-size: 1.1rem;
+}
+
+.ingredients-section {
+  margin-bottom: 20px;
+}
+
+.section-title-small {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--primary);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+
+.ingredients-list-beauty {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+}
+
+.ingredient-badge-beauty {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-glass);
+  padding: 12px;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+}
+
+.ingredient-badge-beauty:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.ingredient-rank-beauty {
+  background: var(--primary);
+  color: var(--text-dark);
+  font-weight: 800;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.72rem;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.ingredient-info-beauty {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.ingredient-name-beauty {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ingredient-actions-beauty {
+  display: flex;
+  gap: 6px;
+}
+
+.ing-btn {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-glass);
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.68rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ing-btn:hover {
+  background: rgba(16, 185, 129, 0.15);
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.ing-btn.rnd-btn:hover {
+  background: rgba(59, 130, 246, 0.15);
+  border-color: #3b82f6;
+  color: #3b82f6;
+}
+
+.ingredient-effect-beauty {
+  font-size: 0.78rem;
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.ingredient-tip-beauty {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+.beauty-sub-card {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--border-glass);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.beauty-sub-card:last-child {
+  margin-bottom: 0;
+}
+
+.sub-card-header {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.sub-card-meta {
+  display: flex;
+  gap: 12px;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.recipe-ingredients, .tea-ingredients, .tea-method {
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
+  margin-bottom: 10px;
+}
+
+.recipe-steps {
+  padding-left: 18px;
+  margin-bottom: 12px;
+  font-size: 0.82rem;
+  line-height: 1.6;
+  color: var(--text-main);
+}
+
+.recipe-steps li {
+  margin-bottom: 6px;
+}
+
+.recipe-effect, .tea-effect {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--primary);
+  background: rgba(16, 185, 129, 0.06);
+  padding: 8px 12px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.avoid-section {
+  margin-top: 16px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.08);
+  padding-top: 14px;
+}
+
+.avoid-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #f87171;
+  margin-bottom: 8px;
+}
+
+.avoid-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.avoid-badge {
+  background: rgba(239, 68, 68, 0.08);
+  border: 1px solid rgba(239, 68, 68, 0.2);
+  color: #fca5a5;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+.diet-principle {
+  background: rgba(245, 158, 11, 0.03);
+  border: 1px solid rgba(245, 158, 11, 0.2);
+  padding: 12px 16px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  font-size: 0.85rem;
+}
+
+.diet-principle strong {
+  display: block;
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+
+.diet-principle p {
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+.meal-plan-grid-beauty {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 10px;
+}
+
+.meal-plan-item-beauty {
+  background: rgba(255, 255, 255, 0.015);
+  border: 1px solid var(--border-glass);
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.meal-time-beauty {
+  font-size: 0.75rem;
+  color: var(--primary);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.meal-menu-beauty {
+  font-size: 0.8rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.exercise-tip-section {
+  display: flex;
+  gap: 10px;
+  background: rgba(59, 130, 246, 0.05);
+  border: 1px solid rgba(59, 130, 246, 0.25);
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: #93c5fd;
+}
+
+/* 외부용 처방 특화 */
+.external-items-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.external-item-card {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--border-glass);
+  border-radius: 12px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.external-item-header-beauty {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  padding-bottom: 10px;
+}
+
+.external-item-icon-beauty {
+  font-size: 1.8rem;
+}
+
+.external-item-type-beauty {
+  font-size: 0.72rem;
+  color: var(--accent);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.external-item-name-beauty {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.external-item-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.external-text {
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: var(--text-secondary);
+}
+
+.freq-badge {
+  background: rgba(236, 72, 153, 0.08);
+  border: 1px solid rgba(236, 72, 153, 0.2);
+  color: #f472b6;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.external-item-effect {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--accent);
+  background: rgba(236, 72, 153, 0.05);
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-top: 4px;
+  display: inline-block;
+  align-self: flex-start;
+}
+
+.shop-link-area-beauty {
+  margin-top: auto;
+  padding-top: 10px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.05);
+}
+
+.shop-link-btn-beauty {
+  width: 100%;
+  padding: 8px;
+  background: rgba(236, 72, 153, 0.1);
+  border: 1px solid rgba(236, 72, 153, 0.3);
+  color: #f472b6;
+  border-radius: 8px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.shop-link-btn-beauty:hover {
+  background: var(--accent);
+  color: var(--text-dark);
+  border-color: transparent;
+  box-shadow: 0 4px 12px rgba(236, 72, 153, 0.3);
+}
+.quiz-option-btn-beauty {
+  width: 100%;
+  padding: 14px 18px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  color: var(--text-secondary);
+  text-align: left;
+  font-size: 0.88rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quiz-option-btn-beauty:hover {
+  background: rgba(59, 130, 246, 0.08);
+  border-color: rgba(59, 130, 246, 0.4);
+  color: #fff;
+  transform: translateX(4px);
+}
+
+/* --- High-end visual upgrades for Skin & Diet Tab --- */
+
+/* Clear separation and glass container styling */
+.beauty-section {
+  padding: 30px !important;
+  margin-bottom: 35px !important;
+  border-radius: 20px !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  background: linear-gradient(145deg, rgba(20, 30, 50, 0.5), rgba(10, 15, 30, 0.8)) !important;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4) !important;
+  transition: all 0.3s ease !important;
+}
+
+.beauty-section-label {
+  font-size: 1.2rem !important;
+  font-weight: 800 !important;
+  color: #fff !important;
+  margin-bottom: 24px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  padding-bottom: 14px !important;
+  letter-spacing: 0.5px;
+}
+
+.beauty-section-hint {
+  font-size: 0.82rem !important;
+  color: var(--text-muted) !important;
+  font-weight: 500 !important;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2px 8px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Clicking feedback (Micro-interactions) */
+.concern-card, .goal-card {
+  position: relative;
+  transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+}
+
+.concern-card:active, .goal-card:active {
+  transform: scale(0.95) !important;
+  filter: brightness(0.9);
+}
+
+.concern-card.selected, .goal-card.selected {
+  transform: scale(1.025);
+  border-width: 1.5px !important;
+  animation: cardSelectPulse 0.35s ease-out;
+}
+
+@keyframes cardSelectPulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1.025); }
+}
+
+/* Redesigning Ingredients cards (badge -> premium micro card) */
+.ingredients-list-beauty {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)) !important;
+  gap: 16px !important;
+}
+
+.ingredient-badge-beauty {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 14px !important;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.005) 100%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.06) !important;
+  padding: 16px !important;
+  border-radius: 14px !important;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+.ingredient-badge-beauty::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3.5px;
+  height: 100%;
+  background: linear-gradient(to bottom, var(--primary), #0d9488);
+  opacity: 0.8;
+}
+
+.ingredient-badge-beauty:hover {
+  background: rgba(255, 255, 255, 0.035) !important;
+  border-color: rgba(16, 185, 129, 0.4) !important;
+  transform: translateY(-3px) scale(1.015) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25), 0 0 15px rgba(16, 185, 129, 0.1) !important;
+}
+
+.ingredient-rank-beauty {
+  background: rgba(16, 185, 129, 0.12) !important;
+  border: 1px solid rgba(16, 185, 129, 0.3) !important;
+  color: var(--primary) !important;
+  font-weight: 800 !important;
+  width: 26px !important;
+  height: 26px !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 0.78rem !important;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+/* Dietary / Culinary subcard enhancements */
+.beauty-sub-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.015) 0%, rgba(255, 255, 255, 0.005) 100%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.05) !important;
+  border-radius: 16px !important;
+  padding: 20px !important;
+  margin-bottom: 20px !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
+  transition: all 0.3s ease;
+}
+
+.beauty-sub-card:hover {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+  background: rgba(255, 255, 255, 0.02) !important;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3) !important;
+}
+
+.sub-card-header {
+  font-size: 0.98rem !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+  padding-bottom: 8px !important;
+  font-weight: 700 !important;
+  color: #fff !important;
+}
+
+/* Avoid item tags */
+.avoid-badge {
+  background: rgba(239, 68, 68, 0.06) !important;
+  border: 1px solid rgba(239, 68, 68, 0.25) !important;
+  color: #fca5a5 !important;
+  padding: 4px 10px !important;
+  border-radius: 8px !important;
+  font-size: 0.76rem !important;
+  transition: all 0.2s !important;
+}
+
+.avoid-badge:hover {
+  background: rgba(239, 68, 68, 0.12) !important;
+  border-color: rgba(239, 68, 68, 0.4) !important;
+  transform: translateY(-1px) !important;
+}
+

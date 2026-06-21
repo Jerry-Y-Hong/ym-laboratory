@@ -695,10 +695,10 @@
       "ar": "لديك وصول حر إلى جميع ميزات منصة ميلا ونوري لاب."
     },
     "Mila 웰빙 레시피실 입장": {
-      "ko": "Mila 웰빙 레시피실 입장",
-      "en": "Enter Mila Wellness Recipe Suite",
-      "ja": "Milaウェルビーイングレシピ室へ入場",
-      "ar": "دخول جناح وصفات ميلا الصحية"
+      "ko": "Mila 웰빙 레시피실 입장 (일반 사용자용)",
+      "en": "Enter Mila Wellness Recipe Suite (General User)",
+      "ja": "Milaウェルビーイングレシピ室へ入場 (一般ユーザー向け)",
+      "ar": "دخول جناح وصفات ميلا الصحية (للمستخدمين العامين)"
     },
     "Nuri Lab R&D 워크스페이스 입장": {
       "ko": "Nuri Lab R&D 워크스페이스 입장",
@@ -971,7 +971,7 @@
       "ar": "{name}"
     },
     "관리자": {
-      "ko": "관리자",
+      "ko": "방문자",
       "en": "Admin",
       "ja": "管理者",
       "ar": "مسؤول"
@@ -1713,6 +1713,12 @@
       "en": "Main Health Concerns",
       "ja": "主な健康関心事",
       "ar": "الاهتمامات الصحية الرئيسية"
+    },
+    "오늘의 맞춤 건강 조언": {
+      "ko": "오늘의 맞춤 건강 조언",
+      "en": "Today's Personalized Health Advice",
+      "ja": "本日のパーソナライズ健康アドバイス",
+      "ar": "نصائح صحية مخصصة اليوم"
     },
     "내 몸 맞춤 추천받기": {
       "ko": "내 몸 맞춤 추천받기",
@@ -4239,6 +4245,570 @@
       "en": "Culinary & Dosage Guide",
       "ja": "調理・服用ガイド",
       "ar": "دليل الطهي والجرعة"
+    },
+    "사상체질 기반 맞춤 식단·약선 리포트를 무료로 받아보세요": {
+      "ko": "사상체질 기반 맞춤 식단·약선 리포트를 무료로 받아보세요",
+      "en": "Get Your Personalized Sasang Constitution Diet & Herbal Report for Free",
+      "ja": "四象体質ベースのパーソナライズ食生活・薬膳レポートを無料で受け取る",
+      "ar": "احصل على نظامك الغذائي المخصص بناءً على دستور الساسانغ والتقرير العشبي مجانًا"
+    },
+    "전통 한의학 데이터와 현대 성분 분석을 결합해 나에게 맞는 식재료·레시피·리포트를 제공합니다": {
+      "ko": "전통 한의학 데이터와 현대 성분 분석을 결합해 나에게 맞는 식재료·레시피·리포트를 제공합니다",
+      "en": "Combining traditional Eastern medicine data with modern nutritional analysis to provide ingredients, recipes, and reports tailored to you.",
+      "ja": "伝統東洋医学データと現代の成分分析を結合し、あなたに最適な食材・レシピ・レポートを提供します。",
+      "ar": "الجمع بين بيانات الطب الشرقي التقليدي والتحليل الغذائي الحديث لتوفير المكونات والوصفات والتقارير المصممة خصيصًا لك."
+    },
+    "베타 기간 한정 무료": {
+      "ko": "베타 기간 한정 무료",
+      "en": "Free for Beta Period Only",
+      "ja": "ベータ期間のみ無料",
+      "ar": "مجانًا خلال فترة الإصدار التجريبي فقط"
+    },
+    "10초 신청": {
+      "ko": "10초 신청",
+      "en": "10-Sec Sign-up",
+      "ja": "10秒で申込",
+      "ar": "تسجيل في 10 ثوانٍ"
+    },
+    "이메일로 결과 제공": {
+      "ko": "이메일로 결과 제공",
+      "en": "Delivered via Email",
+      "ja": "メールで結果を提供",
+      "ar": "يتم تسليمه عبر البريد الإلكتروني"
+    },
+    "독점 원천 기술 (원천 특허 15개 청구항 출원)": {
+      "ko": "독점 원천 기술 (원천 특허 15개 청구항 출원)",
+      "en": "Proprietary Core Technology (15 Patent Claims Filed)",
+      "ja": "独占적 コア技術 (特許 15の請求項出願)",
+      "ar": "التقنيات الأساسية المملوكة (تم تسجيل 15 بنداً لبراءة الاختراع)"
+    },
+    "원천 핵심 특허 포트폴리오": {
+      "ko": "핵심 특허 독점 권리 범위 (15개 청구항 출원 완료)",
+      "en": "Core Patent Exclusive Claims (15 Claims Filed)",
+      "ja": "中核特許独占的権利範囲 (15の請求項出願完了)",
+      "ar": "البنود الحصرية لبراءة الاختراع الأساسية (تم تسجيل 15 بنداً)"
+    },
+    "AI 추론에 의한 개인별 맞춤형 약선 레시피 추천 시스템 외 14개 청구항": {
+      "ko": "AI 추론에 의한 개인별 맞춤형 약선 레시피 추천 시스템 외 14개 청구항",
+      "en": "AI-Based Personalized Herbal Recipe Recommendation System and 14 Other Claims",
+      "ja": "AI推論による個人별カスタム薬膳レシピ推薦システム外14の請求項",
+      "ar": "نظام توصية الوصفات العشبية المخصص بالذكاء الاصطناعي و14 بنداً آخر"
+    },
+    "체질별 기질 매핑, 원격 비파괴 신선 품질 인증, 쓴맛 저감 향미 마스킹 설계 알고리즘 등 플랫폼 전 영역을 보호하는 장벽 구축.": {
+      "ko": "체질별 기질 매핑, 원격 비파괴 신선 품질 인증, 쓴맛 저감 향미 마스킹 설계 알고리즘 등 플랫폼 전 영역을 보호하는 장벽 구축.",
+      "en": "Establishing barriers covering all areas of the platform, including constitutional properties mapping, remote non-destructive freshness and quality certification, and flavor masking algorithms.",
+      "ja": "体質別気質マッピング、遠隔非破壊新鮮品質認証、苦味低減風味マスキング設計アルゴリズムなど、プラットフォームの全領域を保護する障壁を構築。",
+      "ar": "تأسيس حواجز تغطي جميع مجالات المنصة، بما في ذلك خرائط الخصائص الدستورية، وشهادة الجودة والنضارة غير المدمرة عن بعد، وخوارزميات إخفاء النكهة."
+    },
+    "7-AXIS 추론 엔진이 체질과 기상 가중치를 반영하여 최적의 약선 처방 배합비를 계산하고 있습니다.": {
+      "ko": "7-AXIS 추론 엔진이 체질과 기상 가중치를 반영하여 최적의 약선 처방 배합비를 계산하고 있습니다.",
+      "en": "The 7-AXIS inference engine is calculating the optimal herbal formula ratios reflecting constitution and weather weights.",
+      "ja": "7-AXIS推론엔진이 체질과 기상 가중치를 반영하여 최적의 약선 처방 배합비를 계산하고 있습니다.",
+      "ar": "يقوم محرك الاستدلال ذو المحاور السبعة بحساب النسب المثالية للتركيبة العشبية مع مراعاة دستور الجسد والطقس."
+    },
+    "B2B/전문가 워크스페이스": {
+      "ko": "B2B/전문가 워크스페이스",
+      "en": "B2B/Expert Workspace",
+      "ja": "B2B/専門家ワークスペース",
+      "ar": "مساحة عمل B2B/الخبراء"
+    },
+    "B2B/전문가 입장": {
+      "ko": "B2B/전문가 입장",
+      "en": "B2B/Expert Entry",
+      "ja": "B2B/専門家入場",
+      "ar": "دخول B2B/الخبراء"
+    },
+    "General": {
+      "ko": "일반",
+      "en": "General",
+      "ja": "一般",
+      "ar": "عام"
+    },
+    "MEMBER PASS": {
+      "ko": "회원 PASS",
+      "en": "MEMBER PASS",
+      "ja": "会員 PASS",
+      "ar": "بطاقة العضو"
+    },
+    "Mila 맞춤 식단 무료 체험 신청": {
+      "ko": "Mila 맞춤 식단 무료 체험 신청",
+      "en": "Apply for Mila Personalized Diet Free Trial",
+      "ja": "Milaカスタム食生活無料体験の申し込み",
+      "ar": "تقديم طلب تجربة مجانية لنظام ميلا الغذائي المخصص"
+    },
+    "PASS NO": {
+      "ko": "PASS 번호",
+      "en": "PASS NO",
+      "ja": "PASS 番号",
+      "ar": "رقم البطاقة"
+    },
+    "beauty_nav_label": {
+      "ko": "피부·다이어트",
+      "en": "Skin & Diet",
+      "ja": "皮膚・ダイエット",
+      "ar": "البشرة والنظام الغذائي"
+    },
+    "eco_partner_chef_desc": {
+      "ko": "맛 프로필 설계 및 대중적 글로벌 조미 분말 소스 배합을 위한 국내외 마스터 셰프 그룹",
+      "en": "Group of domestic and international master chefs designing taste profiles and global seasoning powder formulations",
+      "ja": "味のプロファイル設計および大衆的なグローバル調味料の配合のための国内外のマスターシェフグループ",
+      "ar": "مجموعة من كبار الطهاة المحليين والدوليين لتصميم نكهات وتراكيب صلصة المسحوق العالمية"
+    },
+    "eco_partner_chef_title": {
+      "ko": "요리 연구가 & 셰프 R&D망",
+      "en": "Culinary Researchers & Chefs R&D Network",
+      "ja": "料理研究家＆シェフR&Dネットワーク",
+      "ar": "شبكة البحث والتطوير لخبراء الطهي والطهاة"
+    },
+    "eco_partner_simmani_desc": {
+      "ko": "전국 야생 산지 직배송망을 통해 고순도 자연산 야생 천연 약재의 공급 이력을 추적 및 수급",
+      "en": "Tracking and sourcing high-purity wild natural herbs via a direct delivery network from clean wild mountains",
+      "ja": "全国の野生山地からのダイレクト配送網を通じ、高純度の天然野生薬用植物의 공급이력 추적 및 수급",
+      "ar": "تتبع وتوفير الأعشاب البرية عالية النقاء عبر شبكة توصيل مباشرة من الجبال البرية النظيفة"
+    },
+    "eco_partner_simmani_title": {
+      "ko": "심마니 산지 직거래 공급망",
+      "en": "Simmani SCM Sourcing Chain",
+      "ja": "シマニ産地直取引供給網",
+      "ar": "سلسلة توريد سيماني المباشرة من المصدر"
+    },
+    "eco_partner_vip_desc": {
+      "ko": "글로벌 로얄패밀리, VIP 아티스트 번아웃 및 중독 재활 프리미엄 양생 치료 클리닉 및 리조트",
+      "en": "Premium health wellness clinics and resorts serving global royal families and VIP artists suffering from burnout and addiction recovery",
+      "ja": "グローバルロイヤルファミリー、VIPアーティストのバーンアウトや依存症克服のためのプレミアム養生医療クリニック＆リゾート",
+      "ar": "عيادات ومنتجعات صحية ممتازة تخدم العائلات المالكة وكبار الفنانين للتعافي من الاحتراق النفسي والإدمان"
+    },
+    "eco_partner_vip_title": {
+      "ko": "VIP 로얄패밀리 웰니스 치료망",
+      "en": "VIP & Royal Family Wellness Network",
+      "ja": "VIPロイヤルファミリーウェルネス治療網",
+      "ar": "شبكة العافية لكبار الشخصيات والعائلات المالكة"
+    },
+    "가장 개선하고 싶은 건강 고민은 무엇인가요?": {
+      "ko": "가장 개선하고 싶은 건강 고민은 무엇인가요?",
+      "en": "What is your top health concern to improve?",
+      "ja": "最も改善したい健康의 고민은 무엇인가요?",
+      "ar": "ما هو اهتمامك الصحي ذو الأولوية القصوى لتحسينه؟"
+    },
+    "가장 관심 있는 고민 하나를 선택해주세요.": {
+      "ko": "가장 관심 있는 고민 하나를 선택해주세요.",
+      "en": "Please select one concern of most interest.",
+      "ja": "가장 관심 있는 고민 하나를 선택해주세요.",
+      "ar": "يرجى تحديد اهتمام واحد يثير اهتمامك أكثر."
+    },
+    "간독소 배출": {
+      "ko": "간독소 배출",
+      "en": "Liver Detoxification",
+      "ja": "肝毒素排出",
+      "ar": "طرد سموم الكبد"
+    },
+    "검색": {
+      "ko": "검색",
+      "en": "Search",
+      "ja": "検索",
+      "ar": "بحث"
+    },
+    "관심사": {
+      "ko": "관심사",
+      "en": "Concerns",
+      "ja": "関心事",
+      "ar": "الاهتمامات"
+    },
+    "관절 및 요통 완화": {
+      "ko": "관절 및 요통 완화",
+      "en": "Joint & Back Pain Relief",
+      "ja": "関節および腰痛の緩和",
+      "ar": "تخفيف آلام المفاصل والظهر"
+    },
+    "나의 사상 체질은 무엇인가요?": {
+      "ko": "나의 사상 체질은 무엇인가요?",
+      "en": "What is your Sasang constitutional type?",
+      "ja": "나의 사상 체질은 무엇인가요?",
+      "ar": "ما هو دستور ساسانغ الجسدي الخاص بك؟"
+    },
+    "다음 단계로": {
+      "ko": "다음 단계로",
+      "en": "Next Step",
+      "ja": "次の段階へ",
+      "ar": "الخطوة التالية"
+    },
+    "리포트 생성하기": {
+      "ko": "리포트 생성하기",
+      "en": "Generate Report",
+      "ja": "レポート生成",
+      "ar": "إنشاء التقرير"
+    },
+    "만성 소화불량 개선": {
+      "ko": "만성 소화불량 개선",
+      "en": "Improve Chronic Indigestion",
+      "ja": "慢性消化不良の改善",
+      "ar": "تحسين عسر الهضم المزمن"
+    },
+    "맞춤 회원 PASS 발급 완료!": {
+      "ko": "맞춤 회원 PASS 발급 완료!",
+      "en": "Personalized Member PASS Issued!",
+      "ja": "カスタム会員PASS発行完了！",
+      "ar": "تم إصدار بطاقة العضو المخصصة بنجاح!"
+    },
+    "맞춤형 건강 지표 분석 중...": {
+      "ko": "맞춤형 건강 지표 분석 중...",
+      "en": "Analyzing personalized health indicators...",
+      "ja": "カスタム健康指標分析中...",
+      "ar": "تحليل مؤشرات الصحة المخصصة..."
+    },
+    "목 건조증 해소": {
+      "ko": "목 건조증 해소",
+      "en": "Relieve Dry Throat",
+      "ja": "のどの乾燥解消",
+      "ar": "تخفيف جفاف الحلق"
+    },
+    "무료 체험 신청 & 10초 맞춤 설정": {
+      "ko": "무료 체험 신청 & 10초 맞춤 설정",
+      "en": "Apply for Free Trial & 10-Sec Customize",
+      "ja": "無料体験の申し込み＆10秒カスタム設定",
+      "ar": "طلب تجربة مجانية وتخصيص في 10 ثوانٍ"
+    },
+    "반갑습니다!": {
+      "ko": "반갑습니다!",
+      "en": "Welcome!",
+      "ja": "はじめまして！",
+      "ar": "مرحباً بك!"
+    },
+    "베타 회원 PASS": {
+      "ko": "베타 회원 PASS",
+      "en": "Beta Member PASS",
+      "ja": "ベータ会員 PASS",
+      "ar": "بطاقة العضو التجريبي"
+    },
+    "사용자님만의 웰니스 디지털 PASS가 발급되었습니다. 카드를 클릭하여 입장하세요.": {
+      "ko": "사용자님만의 웰니스 디지털 PASS가 발급되었습니다. 카드를 클릭하여 입장하세요.",
+      "en": "Your personalized wellness digital PASS has been issued. Click the card to enter.",
+      "ja": "あなただけのウェルネスデジタルPASSが発行されました。カードをクリックして入場してください。",
+      "ar": "تم إصدار بطاقة العافية الرقمية المخصصة لك. انقر فوق البطاقة للدخول."
+    },
+    "사용자님의 성함을 확인해주세요. 수정하실 수도 있습니다.": {
+      "ko": "사용자님의 성함을 확인해주세요. 수정하실 수도 있습니다.",
+      "en": "Please confirm your name. You can also edit it.",
+      "ja": "お名前を確認してください。修正することもできます。",
+      "ar": "يرجى تأكيد اسمك. يمكنك تعديله أيضاً."
+    },
+    "생리작용 (Scientific)": {
+      "ko": "생리작용 (Scientific)",
+      "en": "Physiological Action (Scientific)",
+      "ja": "生理作用 (Scientific)",
+      "ar": "العمل الفسيولوجي (العلمي)"
+    },
+    "소양인_desc_short": {
+      "ko": "신장 기능이 상대적으로 취약하고 비위(소화기)에 열이 많아 시원한 성미의 식재료가 적합한 체질",
+      "en": "Slightly weak kidney function but active stomach digestion with heat, suitable for cool-property ingredients.",
+      "ja": "腎臓機能が比較的弱く、胃腸に熱が多いため、冷たい性質의 식재료가 적합한 체질",
+      "ar": "ضعف نسبي في وظائف الكلى ولكن هضم نشط في المعدة مع حرارة، مناسب للمكونات ذات الخصائص الباردة."
+    },
+    "소음인_desc_short": {
+      "ko": "비위 소화기 기능이 취약하고 몸이 차갑고 소화 효소가 부족해 따뜻한 성미의 약재가 필수적인 체질",
+      "en": "Weak spleen/stomach digestion and cold body constitution, making warm-property ingredients essential.",
+      "ja": "胃腸의 소화기 기능이 취약하고 몸이 차가우며 소화 효소가 부족해 따뜻한 성미의 약재가 필수적인 체질",
+      "ar": "ضعف هضم الطحال/المعدة ودستور جسدي بارد، مما يجعل المكونات ذات الخصائص الدافئة ضرورية."
+    },
+    "시림 증상 완화": {
+      "ko": "시림 증상 완화",
+      "en": "Relieve Body Chills",
+      "ja": "冷え症状の緩和",
+      "ar": "تخفيف قشعريرة الجسم"
+    },
+    "연구원 및 파트너사 전용 입장": {
+      "ko": "연구원 및 파트너사 전용 입장",
+      "en": "Researcher & Partner Access",
+      "ja": "研究員およびパートナー社専用入場",
+      "ar": "دخول الباحثين والشركاء فقط"
+    },
+    "이름과 이메일을 등록하시면 즉시 나만의 사상 체질 맞춤형 7-AXIS 약선 리포트와 웰빙 레시피실을 무료로 체험할 수 있는 PASS를 발급합니다.": {
+      "ko": "이름과 이메일을 등록하시면 즉시 나만의 사상 체질 맞춤형 7-AXIS 약선 리포트와 웰빙 레시피실을 무료로 체험할 수 있는 PASS를 발급합니다.",
+      "en": "Register your name and email to immediately receive a PASS to experience your custom 7-AXIS Sasang constitution report and wellness recipes for free.",
+      "ja": "이름과 이메일을 등록하시면 즉시 나만의 사상 체질 맞춤형 7-AXIS 약선 리포트와 웰빙 레시피실을 무료로 체험할 수 있는 PASS를 발급합니다.",
+      "ar": "سجل اسمك وبريدك الإلكتروني لتلقي بطاقة مرور لتجربة تقرير ياكسون المخصص ذي المحاور السبعة ووصفات العافية مجانًا."
+    },
+    "이미 계정이 있으신가요? ": {
+      "ko": "이미 계정이 있으신가요? ",
+      "en": "Already have an account? ",
+      "ja": "すでにアカウントをお持ちですか？ ",
+      "ar": "هل لديك حساب بالفعل؟ "
+    },
+    "이전으로": {
+      "ko": "이전으로",
+      "en": "Back",
+      "ja": "戻る",
+      "ar": "السابق"
+    },
+    "일반 / 모름": {
+      "ko": "일반 / 모름",
+      "en": "General / Unknown",
+      "ja": "一般 / 不明",
+      "ar": "عام / غير معروف"
+    },
+    "작용기전 (Mechanism)": {
+      "ko": "작용기전 (Mechanism)",
+      "en": "Action Mechanism (Mechanism)",
+      "ja": "作用機序 (Mechanism)",
+      "ar": "آلية العمل"
+    },
+    "잘 모르신다면 '일반/모름'을 선택하고 진입 후 자가진단을 해보세요.": {
+      "ko": "잘 모르신다면 '일반/모름'을 선택하고 진입 후 자가진단을 해보세요.",
+      "en": "If unsure, choose 'General/Unknown' and complete the self-quiz after entering.",
+      "ja": "잘 모르신다면 '일반/모름'을 선택하고 진입 후 자가진단을 해보세요.",
+      "ar": "إذا لم تكن متأكدًا، فاختر 'عام/غير معروف' وأكمل الاختبار الذاتي بعد الدخول."
+    },
+    "장바구니": {
+      "ko": "장바구니",
+      "en": "Cart",
+      "ja": "カート",
+      "ar": "السلة"
+    },
+    "체질": {
+      "ko": "체질",
+      "en": "Constitution",
+      "ja": "体質",
+      "ar": "الدستور الجسدي"
+    },
+    "태양인_desc_short": {
+      "ko": "폐 기능이 강한 반면 간 기능이 약해 기운이 위로 솟구치기 쉬우므로, 맑고 담백하며 기를 내리는 성미의 식재료가 적합한 체질",
+      "en": "Strong lung function but weaker liver function, causing energy to rise easily; suitable for light and clear-property ingredients that lower qi.",
+      "ja": "폐 기능이 강한 반면 간 기능이 약해 기운이 위로 솟구치기 쉬우므로, 맑고 담백하며 기를 내리는 성미의 식재료가 적합한 체질",
+      "ar": "وظائف رئوية قوية ولكن وظائف كبد أضعف، مما يسبب صعود الطاقة بسهولة؛ مناسب للمكونات الخفيفة والواضحة التي تخفض تشي."
+    },
+    "태음인_desc_short": {
+      "ko": "간의 흡수력은 강하나 폐의 호흡/순환 및 배출 기능이 서툴러 노폐물이 축적되기 쉬우므로, 발산 및 혈류 순환을 돕는 식재료가 적합한 체질",
+      "en": "Strong liver absorption but weaker lung respiration/circulation, making ingredients that promote circulation and toxin-elimination suitable.",
+      "ja": "간의 흡수력은 강하나 폐의 호흡/순환 및 배출 기능이 서툴러 노폐물이 축적되기 쉬우므로, 발산 및 혈류 순환을 돕는 식재료가 적합한 체질",
+      "ar": "امتصاص كبد قوي ولكن تنفس ودورة رئوية أضعف، مما يجعل المكونات التي تعزز الدورة الدموية والتخلص من السموم مناسبة."
+    },
+    "beauty_program_skin": {
+      "ko": "🌸 피부 케어",
+      "en": "🌸 Skin Care",
+      "ja": "🌸 スキンケア",
+      "ar": "🌸 العناية بالبشرة"
+    },
+    "beauty_program_diet": {
+      "ko": "🏃 다이어트 케어",
+      "en": "🏃 Diet Care",
+      "ja": "🏃 ダイエットケア",
+      "ar": "🏃 رعاية الحمية"
+    },
+    "beauty_tab_title": {
+      "ko": "피부 · 다이어트 맞춤 케어",
+      "en": "Skin & Diet Tailored Care",
+      "ja": "皮膚・ダイエットカスタムケア",
+      "ar": "العناية المخصصة للبشرة والنظام الغذائي"
+    },
+    "beauty_tab_subtitle": {
+      "ko": "내 체질에 맞춤화된 내복용 처방(먹는 약선)과 외부용 처방(바르는 케어)을 원스톱으로 제공합니다.",
+      "en": "We provide one-stop internal prescriptions (medicinal foods) and external prescriptions (topicals) tailored to your Sasang constitution.",
+      "ja": "あなたの体質に合わせた内服用処方（食べる薬膳）と外用処方（塗るケア）をワンストップで提供します。",
+      "ar": "نقدم وصفات داخلية (أغذية طبية) ووصفات خارجية (مستحضرات موضعية) مخصصة لدستور جسدك دفعة واحدة."
+    },
+    "beauty_skin_concern": {
+      "ko": "피부 고민 선택",
+      "en": "Select Skin Concerns",
+      "ja": "肌の悩みを選択",
+      "ar": "تحديد اهتمامات البشرة"
+    },
+    "beauty_multiselect_hint": {
+      "ko": "(복수 선택 가능)",
+      "en": "(Multiple selection allowed)",
+      "ja": "(複数選択可)",
+      "ar": "(يمكن تحديد أكثر من خيار)"
+    },
+    "beauty_diet_goal": {
+      "ko": "다이어트 목표 선택",
+      "en": "Select Diet Goals",
+      "ja": "ダイエット目標を選択",
+      "ar": "تحديد أهداف النظام الغذائي"
+    },
+    "beauty_analyze_btn": {
+      "ko": "맞춤 처방 받기",
+      "en": "Get Tailored Prescription",
+      "ja": "カスタム処方を受ける",
+      "ar": "الحصول على الوصفة المخصصة"
+    },
+    "beauty_constitution_label": {
+      "ko": "내 체질 정보",
+      "en": "My Constitutional Type",
+      "ja": "私の体질 정보",
+      "ar": "معلومات دستوري الجسدي"
+    },
+    "beauty_change_constitution": {
+      "ko": "직접 체질 선택",
+      "en": "Manually Select",
+      "ja": "直接体質選択",
+      "ar": "تحديد الدستور يدوياً"
+    },
+    "beauty_result_title": {
+      "ko": "맞춤 처방 결과",
+      "en": "Tailored Prescription Results",
+      "ja": "カスタム処方結果",
+      "ar": "نتائج الوصفة المخصصة"
+    },
+    "beauty_reset_btn": {
+      "ko": "다시 선택하기",
+      "en": "Select Again",
+      "ja": "再選択",
+      "ar": "إعادة الاختيار"
+    },
+    "beauty_internal_title": {
+      "ko": "내복용 맞춤 처방 (먹는 약선요리 · 약선차)",
+      "en": "Internal Remedies (Medicinal Cuisine & Herbal Tea)",
+      "ja": "内服用カスタム処方（食べる薬膳料理・薬膳茶）",
+      "ar": "الوصفات الداخلية (الأطباق الطبية وشاي الأعشاب)"
+    },
+    "beauty_internal_subtitle": {
+      "ko": "체질 속 장부의 과열을 식히거나 기혈을 보해 피부 속 근본 원인을 다스립니다.",
+      "en": "Cool internal heat or replenish Qi & Blood to treat the root causes from within.",
+      "ja": "体質内の臓腑の過熱を冷ますか気血を補い、肌の中의 근본 원인을 다스립니다.",
+      "ar": "تبريد الحرارة الداخلية أو تعويض الطاقة والدم لعلاج الأسباب الجذرية من الداخل."
+    },
+    "beauty_external_title": {
+      "ko": "외부용 맞춤 처방 (바르는 한방 팩 · 토너 · 오일)",
+      "en": "External Topical Remedies (Herbal Masks, Toners, Oils)",
+      "ja": "外用カスタム処方（塗る漢方パック・トナー・オイル）",
+      "ar": "الوصفات الخارجية الموضعية (أقنعة الأعشاب، التونر، الزيوت)"
+    },
+    "beauty_external_subtitle": {
+      "ko": "피부 장벽에 직접 영양을 공급하고 순환을 도와 진정 및 탄력을 부여하는 처방입니다.",
+      "en": "Directly nourishes the skin barrier and promotes circulation to soothe and enhance elasticity.",
+      "ja": "皮膚障壁에 직접 영양을 공급하고 순환을 도와 진정 및 탄력을 부여하는 처방입니다.",
+      "ar": "يغذي حاجز البشرة مباشرة ويعزز الدورة الدموية للتهدئة وزيادة المرونة."
+    },
+    "beauty_top_ingredients_title": {
+      "ko": "추천 약선 식재료",
+      "en": "Recommended Ingredients",
+      "ja": "おすすめ薬膳食材",
+      "ar": "المكونات الموصى بها"
+    },
+    "beauty_recipe_title": {
+      "ko": "약선 레시피",
+      "en": "Medicinal Recipe",
+      "ja": "薬膳レシピ",
+      "ar": "وصفة ياكسون"
+    },
+    "beauty_recipe_ingredients": {
+      "ko": "재료",
+      "en": "Ingredients",
+      "ja": "材料",
+      "ar": "المكونات"
+    },
+    "beauty_tea_title": {
+      "ko": "약선차",
+      "en": "Herbal Tea",
+      "ja": "薬膳茶",
+      "ar": "شاي الأعشاب"
+    },
+    "beauty_tea_ingredients": {
+      "ko": "재료",
+      "en": "Ingredients",
+      "ja": "材料",
+      "ar": "المكونات"
+    },
+    "beauty_tea_method": {
+      "ko": "방법",
+      "en": "Method",
+      "ja": "方法",
+      "ar": "الطريقة"
+    },
+    "beauty_avoid_ingredients": {
+      "ko": "피해야 할 식재료",
+      "en": "Ingredients to Avoid",
+      "ja": "避けるべき食材",
+      "ar": "مكونات يجب تجنبها"
+    },
+    "beauty_diet_ingredients_title": {
+      "ko": "권장 식재료",
+      "en": "Recommended Ingredients",
+      "ja": "推奨食材",
+      "ar": "المكونات الغذائية الموصى بها"
+    },
+    "beauty_diet_principle": {
+      "ko": "핵심 원칙",
+      "en": "Key Principle",
+      "ja": "核心原則",
+      "ar": "المبدأ الرئيسي"
+    },
+    "beauty_meal_plan_title": {
+      "ko": "권장 식단 예시",
+      "en": "Recommended Meal Plan",
+      "ja": "推奨献立例",
+      "ar": "مثال على النظام الغذائي"
+    },
+    "beauty_avoid_title": {
+      "ko": "피해야 할 것",
+      "en": "Things to Avoid",
+      "ja": "避けるべきこと",
+      "ar": "أشياء يجب تجنبها"
+    },
+    "beauty_mask_label": {
+      "ko": "한방 팩 · 마스크 처방",
+      "en": "Herbal Mask & Pack",
+      "ja": "漢方パック・マスク処方",
+      "ar": "وصفة قناع الأعشاب"
+    },
+    "beauty_toner_label": {
+      "ko": "화장수 · 토너 처방",
+      "en": "Herbal Toner",
+      "ja": "化粧水・トナー処方",
+      "ar": "وصفة تونر الأعشاب"
+    },
+    "beauty_oil_label": {
+      "ko": "오일 · 크림 처방",
+      "en": "Herbal Oil & Cream",
+      "ja": "オイル・クリーム処方",
+      "ar": "وصفة زيت وكريم الأعشاب"
+    },
+    "beauty_usage_method": {
+      "ko": "사용방법",
+      "en": "Usage Method",
+      "ja": "使用方法",
+      "ar": "طريقة الاستخدام"
+    },
+    "beauty_usage_frequency": {
+      "ko": "권장빈도",
+      "en": "Recommended Frequency",
+      "ja": "推奨頻度",
+      "ar": "الوتيرة الموصى بها"
+    },
+    "K-Food 숍에서 재료 구매하기": {
+      "ko": "K-Food 숍에서 재료 구매하기",
+      "en": "Shop Ingredients on K-Food Store",
+      "ja": "K-Foodショップで材料を購入する",
+      "ar": "شراء المكونات من متجر K-Food"
+    },
+    "K-Food 숍에서 검색": {
+      "ko": "K-Food 숍에서 검색",
+      "en": "Search K-Food Store",
+      "ja": "K-Foodショップで検索",
+      "ar": "البحث في متجر K-Food"
+    },
+    "R&D 설계실로 연동": {
+      "ko": "R&D 설계실로 연동",
+      "en": "Link to R&D Blender",
+      "ja": "R&D設計室へ連동",
+      "ar": "ربط بمصمم البحث والتطوير"
+    },
+    "이 기능은 R&D 워크스페이스 권한이 있는 연구원 및 파트너사 전용입니다.": {
+      "ko": "이 기능은 R&D 워크스페이스 권한이 있는 연구원 및 파트너사 전용입니다.",
+      "en": "This feature is only for researchers and partners with R&D workspace access.",
+      "ja": "この機能は、R&Dワークスペース権限を持つ研究者およびパートナー専用です。",
+      "ar": "هذه الميزة مخصصة للباحثين والشركاء الذين لديهم صلاحية الوصول إلى مساحة البحث والتطوير فقط."
+    },
+    "먼저 체질을 선택해 주세요.": {
+      "ko": "먼저 체질을 선택해 주세요.",
+      "en": "Please select your constitution type first.",
+      "ja": "先に体質を選択してください。",
+      "ar": "يرجى تحديد نوع الدستور الجسدي أولاً."
+    },
+    "피부 고민 또는 다이어트 목표를 하나 이상 선택해 주세요.": {
+      "ko": "피부 고민 또는 다이어트 목표를 하나 이상 선택해 주세요.",
+      "en": "Please select at least one skin concern or diet goal.",
+      "ja": "肌の悩み、またはダイエット目標を1つ以上選択してください。",
+      "ar": "يرجى تحديد اهتمام واحد بالبشرة أو هدف غذائي واحد على الأقل."
     }
   },
   "category_6_shop_products": {
@@ -5111,9 +5681,9 @@
     },
     "갈근": {
       "ko": "갈근",
-      "ja": "渇望",
-      "en": "galgeun",
-      "ar": "galgeun"
+      "ja": "葛根 (갈근)",
+      "en": "Kudzu Root",
+      "ar": "جذر بواراريا"
     },
     "갈증완화": {
       "ko": "갈증완화",
@@ -5185,7 +5755,7 @@
       "ko": "감초",
       "ja": "甘草",
       "ar": "عرق السوس",
-      "en": "licorice"
+      "en": "Licorice Root"
     },
     "감초밀자": {
       "ko": "감초밀자",
@@ -5597,9 +6167,9 @@
     },
     "건강": {
       "ko": "건강",
-      "en": "health",
-      "ja": "健康",
-      "ar": "صحة"
+      "en": "Ginger (Dried)",
+      "ja": "乾姜 (건강)",
+      "ar": "زنجبيل مجفف"
     },
     "건비": {
       "ko": "건비",
@@ -5783,15 +6353,15 @@
     },
     "계내금": {
       "ko": "계내금",
-      "ja": "系内金",
-      "en": "account deposit",
-      "ar": "إيداع الحساب"
+      "ja": "鷄內金 (계내금)",
+      "en": "Chicken Gizzard Membrane",
+      "ar": "غشاء غزار الدجاج"
     },
     "계지": {
       "ko": "계지",
-      "ja": "渓谷",
-      "en": "Gyeji",
-      "ar": "جييجي"
+      "ja": "桂枝 (계지)",
+      "en": "Cinnamon Twig",
+      "ar": "غصن القرفة"
     },
     "계혈등": {
       "ko": "계혈등",
@@ -5928,7 +6498,7 @@
     "골쇄보": {
       "ko": "골쇄보",
       "ja": "骨鎖梁",
-      "en": "Golsaebo",
+      "en": "Drynaria Rhizome",
       "ar": "جولسايبو"
     },
     "골절회복": {
@@ -6053,9 +6623,9 @@
     },
     "구기자": {
       "ko": "구기자",
-      "en": "Wolfberry",
-      "ar": "الحضض",
-      "ja": "グギザ"
+      "en": "Goji Berry",
+      "ar": "ثمار الحضض",
+      "ja": "枸杞子 (구기자)"
     },
     "구맥": {
       "ko": "구맥",
@@ -6227,9 +6797,9 @@
     },
     "길경": {
       "ko": "길경",
-      "ja": "キルギョン",
-      "en": "Gilgyeong",
-      "ar": "جيلغيونغ"
+      "ja": "桔梗 (길경)",
+      "en": "Platycodon Root (Bellflower)",
+      "ar": "جذر زهرة الجرس"
     },
     "길초근": {
       "ko": "길초근",
@@ -6359,9 +6929,9 @@
     },
     "노근": {
       "ko": "노근",
-      "ja": "労働",
-      "en": "nogeun",
-      "ar": "nogeun"
+      "ja": "reed rhizome (노근)",
+      "en": "Reed Rhizome",
+      "ar": "جذر القصب"
     },
     "노로통": {
       "ko": "노로통",
@@ -6456,7 +7026,7 @@
     "당귀": {
       "ko": "당귀",
       "ja": "唐",
-      "en": "Angelica",
+      "en": "Angelica Root",
       "ar": "انجليكا"
     },
     "당삼": {
@@ -6503,9 +7073,9 @@
     },
     "대산": {
       "ko": "대산",
-      "ja": "大山",
-      "en": "Daesan",
-      "ar": "ديسان"
+      "ja": "ニンニク (대산)",
+      "en": "Garlic",
+      "ar": "ثوم"
     },
     "대자석": {
       "ko": "대자석",
@@ -6515,9 +7085,9 @@
     },
     "대조": {
       "ko": "대조",
-      "en": "contrast",
-      "ja": "対照",
-      "ar": "مقابلة"
+      "en": "Jujube (Red Date)",
+      "ja": "大棗 (대추)",
+      "ar": "تمر احمر"
     },
     "대청엽": {
       "ko": "대청엽",
@@ -6557,9 +7127,9 @@
     },
     "도인": {
       "ko": "도인",
-      "ja": "ドイン",
-      "en": "Taoist",
-      "ar": "طاوي"
+      "ja": "桃仁 (トウニン)",
+      "en": "Peach Kernel",
+      "ar": "بذور 복숭아"
     },
     "독소제거": {
       "ko": "독소제거",
@@ -6612,7 +7182,7 @@
     "두충": {
       "ko": "두충",
       "ja": "頭虫",
-      "en": "Euchung",
+      "en": "Eucommia Bark",
       "ar": "يوتشونغ"
     },
     "두충엽": {
@@ -6726,14 +7296,14 @@
     "맥문동": {
       "ko": "맥문동",
       "ja": "マクムンドン",
-      "en": "Maekmun-dong",
+      "en": "Liriope Root",
       "ar": "ميكون دونج"
     },
     "맥아": {
       "ko": "맥아",
-      "en": "malt",
-      "ja": "麦芽",
-      "ar": "الشعير"
+      "en": "Barley Malt",
+      "ja": "麦芽 (맥아)",
+      "ar": "شعير ملت"
     },
     "맹충": {
       "ko": "맹충",
@@ -6797,9 +7367,9 @@
     },
     "모려": {
       "ko": "모려",
-      "ja": "集める",
-      "ar": "كل منهم",
-      "en": "All of them"
+      "ja": "牡蛎 (모려)",
+      "ar": "صدفة المحار",
+      "en": "Oyster Shell"
     },
     "모발성장": {
       "ko": "모발성장",
@@ -6827,9 +7397,9 @@
     },
     "목단피": {
       "ko": "목단피",
-      "ja": "ネックピー",
-      "en": "Mok Danpi",
-      "ar": "موك دانبي"
+      "ja": "牡丹皮 (목단피)",
+      "en": "Moutan Bark (Peony Root Bark)",
+      "ar": "لحاء جذر الفاوانيا"
     },
     "목별자": {
       "ko": "목별자",
@@ -6918,7 +7488,7 @@
     "반하": {
       "ko": "반하",
       "ja": "バンハ",
-      "en": "Banha",
+      "en": "Pinellia Rhizome",
       "ar": "بنها"
     },
     "반하생강백반제": {
@@ -7157,9 +7727,9 @@
     },
     "백자인": {
       "ko": "백자인",
-      "en": "white person",
-      "ja": "白磁",
-      "ar": "شخص أبيض"
+      "en": "Biota Seed",
+      "ja": "柏子仁 (백자인)",
+      "ar": "بذور بيوتا"
     },
     "백전": {
       "ko": "백전",
@@ -7181,7 +7751,7 @@
     },
     "백출": {
       "ko": "백출",
-      "en": "Baekchul",
+      "en": "White Atractylodes",
       "ja": "白出",
       "ar": "بيكشول"
     },
@@ -7235,9 +7805,9 @@
     },
     "별갑": {
       "ko": "별갑",
-      "en": "turtle shell",
-      "ar": "قذيفة السلحفاة",
-      "ja": "別荘"
+      "en": "Softshell Turtle Shell",
+      "ar": "درع سلحفاة المياه العذبة",
+      "ja": "鼈甲 (별갑)"
     },
     "보간": {
       "ko": "보간",
@@ -7523,9 +8093,9 @@
     },
     "복령": {
       "ko": "복령",
-      "ja": "ボクジョン",
-      "en": "Bokryeong",
-      "ar": "بوكريونج"
+      "ja": "茯苓 (복령)",
+      "en": "Poria",
+      "ar": "فطر بوريا"
     },
     "복맥고탈": {
       "ko": "복맥고탈",
@@ -7541,9 +8111,9 @@
     },
     "복분자": {
       "ko": "복분자",
-      "en": "bokbunja",
-      "ja": "複分子",
-      "ar": "com.bokbunja"
+      "en": "Raspberry Fruit",
+      "ja": "覆盆子 (복분자)",
+      "ar": "توت العليق"
     },
     "복신": {
       "ko": "복신",
@@ -7565,9 +8135,9 @@
     },
     "부자": {
       "ko": "부자",
-      "en": "the rich",
-      "ja": "金持ち",
-      "ar": "الأغنياء"
+      "en": "Processed Aconite Root",
+      "ja": "부자 (ブシ)",
+      "ar": "جذر البيش 가공품"
     },
     "부종완화": {
       "ko": "부종완화",
@@ -7685,9 +8255,9 @@
     },
     "사삼": {
       "ko": "사삼",
-      "ja": "ササム",
-      "en": "four three",
-      "ar": "أربعة ثلاثة"
+      "ja": "沙参 (トウシャジン)",
+      "en": "Adenophora Root (Deodeok)",
+      "ar": "جذر أد인وفورا"
     },
     "사상자": {
       "ko": "사상자",
@@ -7745,7 +8315,7 @@
     },
     "사인": {
       "ko": "사인",
-      "en": "sine",
+      "en": "Cardamom Fruit",
       "ja": "サイン",
       "ar": "جيب"
     },
@@ -7896,14 +8466,14 @@
     "산수유": {
       "ko": "산수유",
       "ja": "サンシュユ",
-      "en": "Cornus officinalis",
+      "en": "Cornus Berry",
       "ar": "القرنية المخزنية"
     },
     "산약": {
       "ko": "산약",
-      "ja": "薬",
-      "en": "Sanyak",
-      "ar": "سانياك"
+      "ja": "山薬 (산약)",
+      "en": "Chinese Yam",
+      "ar": "ديوسكوريا"
     },
     "산어소종": {
       "ko": "산어소종",
@@ -7949,9 +8519,9 @@
     },
     "산조인": {
       "ko": "산조인",
-      "ja": "サンジョイン",
-      "en": "sanjoin",
-      "ar": "سانجوين"
+      "ja": "酸棗仁 (산조인)",
+      "en": "Sour Date Seed",
+      "ar": "بذور التمر الحامض"
     },
     "산초": {
       "ko": "산초",
@@ -8147,9 +8717,9 @@
     },
     "상기생": {
       "ko": "상기생",
-      "ja": "上記の生",
-      "en": "Sangsangsaeng",
-      "ar": "سانجسانجسينج"
+      "ja": "桑寄生 (상기생)",
+      "en": "Mulberry Mistletoe",
+      "ar": "هدال التوت"
     },
     "상륙": {
       "ko": "상륙",
@@ -8159,9 +8729,9 @@
     },
     "상백피": {
       "ko": "상백피",
-      "ja": "上白皮",
-      "en": "Morifolia",
-      "ar": "موريفوليا"
+      "ja": "桑白皮 (상백피)",
+      "en": "Mulberry Root Bark",
+      "ar": "لحاء جذر التوت"
     },
     "상산": {
       "ko": "상산",
@@ -8171,21 +8741,21 @@
     },
     "상심자": {
       "ko": "상심자",
-      "ja": "上心者",
-      "en": "heartbroken",
-      "ar": "حزين"
+      "ja": "桑椹子 (상심자)",
+      "en": "Mulberry Fruit (Mulberry)",
+      "ar": "ثمار التوت"
     },
     "상엽": {
       "ko": "상엽",
-      "ja": "上葉",
-      "en": "upper leaves",
-      "ar": "الأوراق العليا"
+      "ja": "桑葉 (상엽)",
+      "en": "Mulberry Leaf",
+      "ar": "أوراق التوت"
     },
     "상지": {
       "ko": "상지",
-      "en": "upper limb",
-      "ja": "上肢",
-      "ar": "الطرف العلوي"
+      "en": "Mulberry Twig",
+      "ja": "桑枝 (상지)",
+      "ar": "غصن التوت"
     },
     "상처회복": {
       "ko": "상처회복",
@@ -8207,9 +8777,9 @@
     },
     "생강": {
       "ko": "생강",
-      "en": "ginger",
-      "ja": "ジンジャー",
-      "ar": "زنجبيل"
+      "en": "Ginger",
+      "ja": "生姜 (생강)",
+      "ar": "زنجبيل طازج"
     },
     "생기염창": {
       "ko": "생기염창",
@@ -8868,7 +9438,7 @@
     "속단": {
       "ko": "속단",
       "ja": "速断",
-      "en": "Jump to conclusions",
+      "en": "Japanese Teasel Root",
       "ar": "القفز إلى الاستنتاجات"
     },
     "속수자": {
@@ -9017,9 +9587,9 @@
     },
     "숙지황": {
       "ko": "숙지황",
-      "ja": "スクジファン",
-      "en": "Rehmannia glutinosa",
-      "ar": "ريهمانيا جلوتينوزا"
+      "ja": "熟地黄 (숙지황)",
+      "en": "Processed Rehmannia Root",
+      "ar": "ريهمانيا المعدة"
     },
     "순기지통": {
       "ko": "순기지통",
@@ -9335,9 +9905,9 @@
     },
     "애엽": {
       "ko": "애엽",
-      "ja": "愛葉",
-      "ar": "حب",
-      "en": "Love"
+      "ja": "艾葉 (애엽)",
+      "ar": "أوراق الشيح",
+      "en": "Artemisia Leaf (Mugwort)"
     },
     "야명사": {
       "ko": "야명사",
@@ -9533,9 +10103,9 @@
     },
     "어성초": {
       "ko": "어성초",
-      "ja": "漁城町",
-      "en": "Houttuynia cordata",
-      "ar": "هوتوينيا كورداتا"
+      "ja": "魚腥草 (어성초)",
+      "en": "Houttuynia Herb",
+      "ar": "عشبة هوتوينيا"
     },
     "어혈제거": {
       "ko": "어혈제거",
@@ -9612,7 +10182,7 @@
     "연자육": {
       "ko": "연자육",
       "ja": "軟磁肉",
-      "en": "Yeonjayuk",
+      "en": "Lotus Seed",
       "ar": "يونجايوك"
     },
     "연전초": {
@@ -9749,9 +10319,9 @@
     },
     "오가피": {
       "ko": "오가피",
-      "ja": "オガフィ",
-      "en": "Oh Gapi",
-      "ar": "يا غابي"
+      "ja": "五加皮 (エゾウコギ)",
+      "en": "Siberian Ginseng",
+      "ar": "الجينسينغ السيبيري"
     },
     "오공": {
       "ko": "오공",
@@ -9773,9 +10343,9 @@
     },
     "오미자": {
       "ko": "오미자",
-      "ja": "おみざ",
-      "en": "Schisandra chinensis",
-      "ar": "شيساندرا تشينينسيس"
+      "ja": "五味子 (오미자)",
+      "en": "Schisandra Berry",
+      "ar": "شيساندرا"
     },
     "오배자": {
       "ko": "오배자",
@@ -9797,9 +10367,9 @@
     },
     "옥죽": {
       "ko": "옥죽",
-      "en": "Okjuk",
-      "ja": "玉竹",
-      "ar": "أوكجوك"
+      "en": "Polygonatum Rhizome",
+      "ja": "玉竹 (옥죽)",
+      "ar": "ريزوم 솔로몬"
     },
     "옥촉서예": {
       "ko": "옥촉서예",
@@ -10103,9 +10673,9 @@
     },
     "용안육": {
       "ko": "용안육",
-      "en": "Yongan meat",
-      "ja": "龍眼肉",
-      "ar": "لحم يونغان"
+      "en": "Longan Fruit",
+      "ja": "龍眼肉 (용안육)",
+      "ar": "ثمار لونغان"
     },
     "용토담연": {
       "ko": "용토담연",
@@ -10139,9 +10709,9 @@
     },
     "우슬": {
       "ko": "우슬",
-      "ja": "ウスル",
-      "en": "rain",
-      "ar": "مطر"
+      "ja": "牛膝 (ゴ시ツ)",
+      "en": "Achyranthes Root",
+      "ar": "جذر أخيرانتيس"
     },
     "우절": {
       "ko": "우절",
@@ -10318,10 +10888,10 @@
       "ar": "اللبان"
     },
     "육계": {
-      "ko": "육계",
-      "ja": "肉系",
-      "en": "broiler",
-      "ar": "اللاحم"
+      "ko": "육계(계피)",
+      "ja": "肉桂 (육계)",
+      "en": "Cinnamon Bark",
+      "ar": "لحاء القرفة"
     },
     "육두구": {
       "ko": "육두구",
@@ -10457,9 +11027,9 @@
     },
     "음양곽": {
       "ko": "음양곽",
-      "ar": "يين يانغ جواك",
-      "ja": "陰陽郭",
-      "en": "Yin Yang Gwak"
+      "ar": "عشبة إبيميديوم",
+      "ja": "淫羊藿 (음양곽)",
+      "en": "Epimedium Herb (Horny Goat Weed)"
     },
     "의식회복 + 정신각성": {
       "ko": "의식회복 + 정신각성",
@@ -10469,9 +11039,9 @@
     },
     "의이인": {
       "ko": "의이인",
-      "ja": "義人",
-      "ar": "البر",
-      "en": "righteousness"
+      "ja": "薏苡仁 (요이인)",
+      "ar": "دموع أيوب",
+      "en": "Coix Seed (Job's Tears)"
     },
     "이관절": {
       "ko": "이관절",
@@ -10679,9 +11249,9 @@
     },
     "익모초": {
       "ko": "익모초",
-      "en": "motherwort",
-      "ja": "イクモチョ",
-      "ar": "نبتة الأم"
+      "en": "Motherwort Herb",
+      "ja": "益母草 (익모초)",
+      "ar": "عشبة ذنب الأسد"
     },
     "익신": {
       "ko": "익신",
@@ -10775,21 +11345,21 @@
     },
     "인동": {
       "ko": "인동",
-      "ja": "ドンドン",
-      "en": "Indong",
-      "ar": "إندونغ"
+      "ja": "인동 (금은화)",
+      "en": "Honeysuckle Flower",
+      "ar": "زهر عسل"
     },
     "인삼": {
       "ko": "인삼",
-      "en": "ginseng",
+      "en": "Korean Ginseng",
       "ja": "高麗人参",
       "ar": "الجينسنغ"
     },
     "인진호": {
       "ko": "인진호",
-      "ja": "インジンホ",
-      "en": "Jinho In",
-      "ar": "جينهو إن"
+      "ja": "茵蔯蒿 (인진호)",
+      "en": "Artemisia Capillaris",
+      "ar": "الشيح الشعري"
     },
     "인혈하행": {
       "ko": "인혈하행",
@@ -10871,9 +11441,9 @@
     },
     "자오가": {
       "ko": "자오가",
-      "ja": "蔵王",
-      "en": "Zhaojia",
-      "ar": "تشاوجيا"
+      "ja": "刺五加 (エゾウコギ)",
+      "en": "Siberian Ginseng (Acanthopanax)",
+      "ar": "الجينسينغ السيبيري"
     },
     "자완": {
       "ko": "자완",
@@ -11519,9 +12089,9 @@
     },
     "지각": {
       "ko": "지각",
-      "en": "perception",
-      "ar": "تصور",
-      "ja": "知覚"
+      "en": "Bitter Orange Peel",
+      "ar": "قشر البرتقال المر",
+      "ja": "枳殻 (キコク)"
     },
     "지경": {
       "ko": "지경",
@@ -11561,9 +12131,9 @@
     },
     "지룡": {
       "ko": "지룡",
-      "en": "earth dragon",
-      "ja": "地竜",
-      "ar": "تنين الارض"
+      "en": "Earthworm (Jiryong)",
+      "ja": "地竜 (지렁이)",
+      "ar": "دودة الأرض"
     },
     "지리": {
       "ko": "지리",
@@ -11615,9 +12185,9 @@
     },
     "지실": {
       "ko": "지실",
-      "en": "ground room",
-      "ja": "地室",
-      "ar": "غرفة ارضية"
+      "en": "Immature Bitter Orange",
+      "ja": "枳実 (キジツ)",
+      "ar": "البرتقال المر غير الناضج"
     },
     "지양": {
       "ko": "지양",
@@ -11747,9 +12317,9 @@
     },
     "지황": {
       "ko": "지황",
-      "ja": "ジファン",
-      "ar": "ريهمانيا جلوتينوزا",
-      "en": "Rehmannia glutinosa"
+      "ja": "地黄 (지황)",
+      "ar": "ريهمانيا الخام",
+      "en": "Rehmannia Root (Raw)"
     },
     "진경안신": {
       "ko": "진경안신",
@@ -11795,9 +12365,9 @@
     },
     "진피": {
       "ko": "진피",
-      "en": "dermis",
-      "ar": "الأدمة",
-      "ja": "真皮"
+      "en": "Tangerine Peel",
+      "ar": "قشر الحمضيات المجفف",
+      "ja": "陳皮 (チンピ)"
     },
     "질려자": {
       "ko": "질려자",
@@ -11819,15 +12389,15 @@
     },
     "차전자": {
       "ko": "차전자",
-      "en": "psyllium",
-      "ja": "チャージャ",
-      "ar": "سيلليوم"
+      "en": "Plantain Seed",
+      "ja": "車前子 (차전자)",
+      "ar": "بذور بplantago"
     },
     "차전초": {
       "ko": "차전초",
-      "ja": "チャチョン",
-      "en": "Chajeoncho",
-      "ar": "تشاجونتشو"
+      "ja": "車前草 (차전초)",
+      "en": "Plantago Herb",
+      "ar": "عشبة plantago"
     },
     "창이자": {
       "ko": "창이자",
@@ -11844,7 +12414,7 @@
     "천궁": {
       "ko": "천궁",
       "ja": "天宮",
-      "en": "heavenly palace",
+      "en": "Cnidium Rhizome",
       "ar": "القصر السماوي"
     },
     "천남성": {
@@ -11885,9 +12455,9 @@
     },
     "천오": {
       "ko": "천오",
-      "ja": "千尾",
-      "en": "thousand oh",
-      "ar": "ألف اه"
+      "ja": "川烏 (천오)",
+      "en": "Aconite Root (Raw)",
+      "ar": "جذر البيش"
     },
     "천초근": {
       "ko": "천초근",
@@ -12329,9 +12899,9 @@
     },
     "초오": {
       "ko": "초오",
-      "ja": "チョオ",
-      "en": "Choo",
-      "ar": "تشو"
+      "ja": "草烏 (초오)",
+      "en": "Wild Aconite Root",
+      "ar": "جذر البيش البر이"
     },
     "촉규화": {
       "ko": "촉규화",
@@ -12341,9 +12911,9 @@
     },
     "총백": {
       "ko": "총백",
-      "ja": "総白",
-      "en": "total hundred",
-      "ar": "مجموع مائة"
+      "ja": "葱白 (네기 흰부분)",
+      "en": "Green Onion White",
+      "ar": "البصل الأخضر الأبيض"
     },
     "총이명목": {
       "ko": "총이명목",
@@ -12443,9 +13013,9 @@
     },
     "측백엽": {
       "ko": "측백엽",
-      "ja": "側白葉",
-      "en": "Arborvitae",
-      "ar": "أربورفيتاي"
+      "ja": "側柏葉 (측백엽)",
+      "en": "Biota Leaf",
+      "ar": "أوراق بيوتا"
     },
     "치아강화": {
       "ko": "치아강화",
@@ -12455,9 +13025,9 @@
     },
     "치자": {
       "ko": "치자",
-      "ja": "クチラ",
-      "en": "Gardenia",
-      "ar": "الغردينيا"
+      "ja": "梔子 (치자)",
+      "en": "Gardenia Fruit",
+      "ar": "ثمار الغردينيا"
     },
     "침향": {
       "ko": "침향",
@@ -12511,7 +13081,7 @@
       "ko": "택사",
       "ja": "テキサ",
       "ar": "ساعي",
-      "en": "courier"
+      "en": "Water Plantain Rhizome"
     },
     "토목향": {
       "ko": "토목향",
@@ -12521,9 +13091,9 @@
     },
     "토복령": {
       "ko": "토복령",
-      "en": "Tobokryeong",
-      "ja": "土福霊",
-      "ar": "توبوكريونج"
+      "en": "Smilax Glabra Rhizome",
+      "ja": "土茯苓 (토복령)",
+      "ar": "ريزوم سميلاكس"
     },
     "토사자": {
       "ko": "토사자",
@@ -12935,9 +13505,9 @@
     },
     "포공영": {
       "ko": "포공영",
-      "ja": "ポゴンヨン",
-      "en": "Pogongyoung",
-      "ar": "بوغونج يونج"
+      "ja": "蒲公英 (포공영)",
+      "en": "Dandelion",
+      "ar": "هندباء"
     },
     "포황": {
       "ko": "포황",
@@ -13559,9 +14129,9 @@
     },
     "행인": {
       "ko": "행인",
-      "ja": "行人",
-      "en": "passerby",
-      "ar": "المارة"
+      "ja": "杏仁 (キョウニン)",
+      "en": "Apricot Kernel",
+      "ar": "بذور 살구"
     },
     "행체소창": {
       "ko": "행체소창",
@@ -13589,9 +14159,9 @@
     },
     "향부자": {
       "ko": "향부자",
-      "en": "Hyangbuja",
-      "ar": "هيانجبوجا",
-      "ja": "香り"
+      "en": "Cyperus Rhizome",
+      "ar": "ريزوم سيبيروس",
+      "ja": "香附子 (향부자)"
     },
     "향유": {
       "ko": "향유",
@@ -13619,9 +14189,9 @@
     },
     "현호색": {
       "ko": "현호색",
-      "ja": "琥珀色",
-      "en": "Corydalis",
-      "ar": "كوريداليس"
+      "ja": "延胡索 (현호색)",
+      "en": "Corydalis Tuber",
+      "ar": "درنة كوريداليس"
     },
     "혈갈": {
       "ko": "혈갈",
@@ -13703,9 +14273,9 @@
     },
     "형개": {
       "ko": "형개",
-      "ja": "形",
-      "en": "Hyeonggae",
-      "ar": "هيونغاي"
+      "ja": "荊芥 (형개)",
+      "en": "Schizonepeta Herb",
+      "ar": "عشبة شيزونبيتا"
     },
     "형개초탄": {
       "ko": "형개초탄",
@@ -13787,9 +14357,9 @@
     },
     "홍화": {
       "ko": "홍화",
-      "ja": "紅花",
-      "en": "safflower",
-      "ar": "القرطم"
+      "ja": "紅花 (홍화)",
+      "en": "Safflower",
+      "ar": "عصفر"
     },
     "화담": {
       "ko": "화담",
@@ -14136,7 +14706,7 @@
     "황기": {
       "ko": "황기",
       "ja": "ファンギ",
-      "en": "Astragalus",
+      "en": "Astragalus Root",
       "ar": "قتاد"
     },
     "황달완화": {
@@ -14183,9 +14753,9 @@
     },
     "황정": {
       "ko": "황정",
-      "ja": "ファンジョン",
-      "en": "Hwangjeong",
-      "ar": "هوانججيونج"
+      "ja": "黄精 (황정)",
+      "en": "Polygonatum Root",
+      "ar": "جذر 솔로몬"
     },
     "회양구역": {
       "ko": "회양구역",
@@ -14246,6 +14816,264 @@
       "ja": "安い",
       "en": "Heereom",
       "ar": "هيروم"
+    },
+    "ROS reduction": {
+      "ko": "활성산소 감소",
+      "en": "ROS Reduction",
+      "ja": "活性酸素の減少",
+      "ar": "تقليل أنواع الأكسجين التفاعلية (ROS)"
+    },
+    "Nrf2 activation": {
+      "ko": "Nrf2 활성화",
+      "en": "Nrf2 Activation",
+      "ja": "Nrf2活性化",
+      "ar": "تنشيط Nrf2"
+    },
+    "Gut microbiome modulation": {
+      "ko": "장내 미생물 조절",
+      "en": "Gut Microbiome Modulation",
+      "ja": "腸内フローラ調節",
+      "ar": "تعديل ميكروبيوم الأمعاء"
+    },
+    "Epithelial barrier support": {
+      "ko": "장벽 상피세포 보호",
+      "en": "Epithelial Barrier Support",
+      "ja": "上皮バリアのサポート",
+      "ar": "دعم حاجز الخلايا الظهارية"
+    },
+    "Immunomodulation": {
+      "ko": "면역력 조율",
+      "en": "Immunomodulation",
+      "ja": "免疫調節",
+      "ar": "تعديل المناعة"
+    },
+    "Circulatory enhancement": {
+      "ko": "순환 촉진",
+      "en": "Circulatory Enhancement",
+      "ja": "循環促進",
+      "ar": "تعزيز الدورة الدموية"
+    },
+    "Antioxidant": {
+      "ko": "항산화 작용",
+      "en": "Antioxidant",
+      "ja": "抗酸化作用",
+      "ar": "مضاد للأكسدة"
+    },
+    "Cytokine modulation": {
+      "ko": "사이토카인 조절",
+      "en": "Cytokine Modulation",
+      "ja": "サイトカイン調節",
+      "ar": "تعديل السيتوكينات"
+    },
+    "Gut regulation": {
+      "ko": "장 기능 조절",
+      "en": "Gut Regulation",
+      "ja": "腸内환경 조절",
+      "ar": "تنظيم الأمعاء"
+    },
+    "NF-kB inhibition": {
+      "ko": "NF-kB 활성 억제",
+      "en": "NF-kB Inhibition",
+      "ja": "NF-kB活性 抑制",
+      "ar": "تثبيط NF-kB"
+    },
+    "Neuroinflammation modulation": {
+      "ko": "신경 염증 조절",
+      "en": "Neuroinflammation Modulation",
+      "ja": "神経炎症調節",
+      "ar": "تعديل الالتهاب العصبي"
+    },
+    "Mucosal protection": {
+      "ko": "점막 보호",
+      "en": "Mucosal Protection",
+      "ja": "粘膜保護",
+      "ar": "حماية المخاط"
+    },
+    "Vasodilation": {
+      "ko": "혈관 확장",
+      "en": "Vasodilation",
+      "ja": "血管拡張",
+      "ar": "توسيع الأوعية الدموية"
+    },
+    "GABA modulation": {
+      "ko": "GABA 조절",
+      "en": "GABA Modulation",
+      "ja": "GABA調節",
+      "ar": "تعديل GABA"
+    },
+    "Neural stabilization": {
+      "ko": "신경 안정",
+      "en": "Neural Stabilization",
+      "ja": "神経安定",
+      "ar": "استقرار الأعصاب"
+    },
+    "Hepatoprotective": {
+      "ko": "간 보호 작용",
+      "en": "Hepatoprotective Effect",
+      "ja": "肝保護作用",
+      "ar": "حماية الكبد"
+    },
+    "Bone metabolism support": {
+      "ko": "뼈 대사 활성 보조",
+      "en": "Bone Metabolism Support",
+      "ja": "骨代謝サポート",
+      "ar": "دعم تمثيل العظام"
+    },
+    "Anti-inflammatory": {
+      "ko": "항염증 작용",
+      "en": "Anti-inflammatory",
+      "ja": "抗炎症作用",
+      "ar": "مضاد للالتهابات"
+    },
+    "COX-2 inhibition": {
+      "ko": "COX-2 억제",
+      "en": "COX-2 Inhibition",
+      "ja": "COX-2抑制",
+      "ar": "تثبيط COX-2"
+    },
+    "Osteoblast activation": {
+      "ko": "조골세포 활성화",
+      "en": "Osteoblast Activation",
+      "ja": "骨芽細胞活性化",
+      "ar": "تنشيط الخلايا البانية للعظام"
+    },
+    "체질에 부합하는 식습관을 통해 체내 면역 밸런스를 건강하게 조율해보세요.": {
+      "ko": "체질에 부합하는 식습관을 통해 체내 면역 밸런스를 건강하게 조율해보세요.",
+      "en": "Try to healthily coordinate your internal immune balance through a diet corresponding to your constitution.",
+      "ja": "体質に適合した食習慣を通じて体内の免疫バランスを健康に整えてみてください。",
+      "ar": "حاول تنسيق توازنك المناعي الداخلي بشكل صحي من خلال نظام غذائي يتوافق مع بنيتك الجسدية."
+    },
+    "몸이 찬 기운에 노출되기 쉽고 소화기(비위) 기능이 연약하므로, 차가운 음식을 가급적 피하시고 성질이 따뜻한 <strong>인삼, 생강, 황기, 대추</strong>가 가미된 보양 음식이 몸에 매우 이롭습니다.": {
+      "ko": "몸이 찬 기운에 노출되기 쉽고 소화기(비위) 기능이 연약하므로, 차가운 음식을 가급적 피하시고 성질이 따뜻한 <strong>인삼, 생강, 황기, 대추</strong>가 가미된 보양 음식이 몸에 매우 이롭습니다.",
+      "en": "Since your body is prone to cold exposure and has weak digestive functions, avoid cold foods as much as possible. Warming foods containing <strong>Ginseng, Ginger, Milkvetch Root, and Jujube</strong> are highly beneficial.",
+      "ja": "体は冷えにさらされやすく胃腸機能が弱いため、冷たい食べ物はなるべく避け、温性の<strong>人参、生姜、黄耆、大棗</strong>を加えた保養食が体に非常に有益です。",
+      "ar": "نظرًا لأن جسمك عرضة للبرد ولديه وظائف هضمية ضعيفة، تجنب الأطعمة الباردة قدر الإمكان. الأطعمة الدافئة التي تحتوي على <strong>الجينسنغ والزنجبيل والقتاد والتمر الأحمر</strong> مفيدة للغاية."
+    },
+    "체내에 불필요한 상체 열기가 많고 상대적으로 신장 기능이 약해지기 쉬우므로, 열성을 더하는 인삼 등 더운 약재는 삼가고 몸을 시원하게 식혀주는 <strong>맥문동, 구기자, 보리차, 알로에</strong> 등이 조화롭습니다.": {
+      "ko": "체내에 불필요한 상체 열기가 많고 상대적으로 신장 기능이 약해지기 쉬우므로, 열성을 더하는 인삼 등 더운 약재는 삼가고 몸을 시원하게 식혀주는 <strong>맥문동, 구기자, 보리차, 알로에</strong> 등이 조화롭습니다.",
+      "en": "Since your upper body tends to accumulate excess heat and kidneys are relatively weak, avoid warming herbs like Ginseng. Instead, cooling herbs and foods like <strong>Liriope Root, Goji Berry, Barley Tea, and Aloe</strong> are harmonious.",
+      "ja": "体内の上部に余分な熱がこもりやすく腎臓機能が弱まりやすいため, 熱を加える人参などの温かい薬材は避け, 体を冷ましてくれる<strong>麦門冬、クコの実、麦茶、アロエ</strong>などが調和します。",
+      "ar": "نظرًا لأن جسمك العلوي يميل إلى تجميع الحرارة الزائدة والكلى ضعيفة نسبيًا، تجنب الأعشاب الدافئة مثل الجينسنغ. بدلاً من ذلك، الأعشاب والأطعمة المبردة مثل <strong>جذر الليريوب والتوت البري وشاي الشعير والألوفيرا</strong> متناغمة."
+    },
+    "진액 순환이 잘 정체되어 습담이 생기기 쉽고 기관지나 호흡기 계통이 허해지기 쉬우므로, 호흡기를 튼튼히 보하고 습을 말려주는 <strong>율무, 오미자, 칡차, 맥문동, 도라지</strong>가 훌륭한 짝입니다.": {
+      "ko": "진액 순환이 잘 정체되어 습담이 생기기 쉽고 기관지나 호흡기 계통이 허해지기 쉬우므로, 호흡기를 튼튼히 보하고 습을 말려주는 <strong>율무, 오미자, 칡차, 맥문동, 도라지</strong>가 훌륭한 짝입니다.",
+      "en": "Since body fluids tend to stagnate forming dampness, and the respiratory system is prone to weakness, ingredients that strengthen lungs and dry dampness like <strong>Coix Seed, Omija, Kudzu Tea, Liriope Root, and Bellflower Root</strong> are an excellent match.",
+      "ja": "体液の循環が滞りやすく湿痰が生じやすく、気管支や呼吸器系が弱まりやすいため、呼吸器を丈夫にし湿を乾燥させる<strong>ハトムギ、五味子、葛茶, 麦門冬、キキョウ</strong>が素晴らしいパートナーです。",
+      "ar": "نظرًا لأن سوائل الجسم تميل إلى الركود مكونة الرطوبة، والجهاز التنفسي عرضة للضعف، فإن المكونات التي تقوي الرئتين وتجفف الرطوبة مثل <strong>بذور دمع أيوب، الأوميجا، شاي الكودزو، جذر الليريوب، وجذر زهرة الجرس</strong> هي تطابق ممتاز."
+    },
+    "기운이 위로만 치솟고 밖으로 흩어지며 하체 기력이 낮아지기 쉬우므로, 솟구치는 기운을 아래로 차분히 내려주는 서늘한 성질의 <strong>오가피, 모과차, 메밀, 조개류</strong> 등이 잘 어울립니다.": {
+      "ko": "기운이 위로만 치솟고 밖으로 흩어지며 하체 기력이 낮아지기 쉬우므로, 솟구치는 기운을 아래로 차분히 내려주는 서늘한 성질의 <strong>오가피, 모과차, 메밀, 조개류</strong> 등이 잘 어울립니다.",
+      "en": "Since energy tends to rise upward and scatter, weakening lower body strength, cooling properties that calmly bring energy down, such as <strong>Siberian Ginseng, Quince Tea, Buckwheat, and Shellfish</strong>, go well with you.",
+      "ja": "気が上部に昇りやすく外に散らばり、下半身の気力が低下しやすいため、昇る気を落ち着かせる涼性の<strong>エゾウコギ、カリン茶、そば、貝類</strong>などがよく合います。",
+      "ar": "نظرًا لأن الطاقة تميل إلى الصعود إلى الأعلى والتشتت، مما يضعف قوة الجزء السفلي من الجسم، فإن الخصائص المبردة التي تخفض الطاقة بهدوء، مثل <strong>الجينسنغ السيبيري، شاي السفرجل، الحنطة السوداء، والمحار</strong>، تتناسب معك تمامًا."
     }
+  },
+  "백작약": {
+    "ko": "백작약",
+    "en": "White Peony Root",
+    "ja": "白芍薬",
+    "ar": "جذر الفاوانيا البيضاء"
+  },
+  "대추": {
+    "ko": "대추",
+    "en": "Jujube",
+    "ja": "大棗",
+    "ar": "التمر الصيني"
+  },
+  "계피": {
+    "ko": "계피",
+    "en": "Cinnamon Bark",
+    "ja": "桂皮",
+    "ar": "قشر القرفة"
+  },
+  "1. 증상 처방 알고리즘 이행 중": {
+    "ko": "1. 증상 처방 알고리즘 이행 중",
+    "en": "1. Executing symptom prescription algorithm...",
+    "ja": "1. 症状処方アルゴリズムを実行中...",
+    "ar": "1. تنفيذ خوارزمية وصف الأعراض..."
+  },
+  "1:1 맞춤 약선 처방 이행": {
+    "ko": "1:1 맞춤 약선 처방 이행",
+    "en": "1:1 Personalized Yakseon Prescription",
+    "ja": "1:1 カスタム薬膳処方",
+    "ar": "1:1 وصف يوكسيون مخصص"
+  },
+  "2. 처방 궁합 판단 중, 최적 레시피 선택": {
+    "ko": "2. 처방 궁합 판단 중, 최적 레시피 선택",
+    "en": "2. Evaluating compatibility, selecting optimal recipe...",
+    "ja": "2. 相性を評価中、最適レシピを選択...",
+    "ar": "2. تقييم التوافق، اختيار الوصفة المثلى..."
+  },
+  "3. 약 R&D 처방 구조 분석 중": {
+    "ko": "3. 약 R&D 처방 구조 분석 중",
+    "en": "3. Analyzing herbal R&D prescription structure...",
+    "ja": "3. 薬草R&D処方構造を分析中...",
+    "ar": "3. تحليل هيكل وصفة الأعشاب R&D..."
+  },
+  "약 R&D 처방 구조 분석 완료 및 결과 도출": {
+    "ko": "약 R&D 처방 구조 분석 완료 및 결과 도출",
+    "en": "Herbal R&D Prescription Analysis Complete",
+    "ja": "薬草R&D処方構造分析完了",
+    "ar": "اكتمل تحليل وصفة الأعشاب R&D"
+  },
+  "처방 적합도 판단 및 도출": {
+    "ko": "처방 적합도 판단 및 도출",
+    "en": "Prescription Suitability Assessment Complete",
+    "ja": "処方適合性評価完了",
+    "ar": "اكتمل تقييم ملاءمة الوصفة"
+  },
+  "겨울": {
+    "ko": "겨울",
+    "en": "Winter",
+    "ja": "冬",
+    "ar": "الشتاء"
+  },
+  "황사, 미세먼지, 꽃가루 등 외부 자극 물질로 가득한 환경 특성에 알맞은 메뉴 처방 창구입니다.": {
+    "ko": "황사, 미세먼지, 꽃가루 등 외부 자극 물질로 가득한 환경 특성에 알맞은 메뉴 처방 창구입니다.",
+    "en": "A prescription window tailored for environments full of external irritants such as yellow dust, fine particles, and pollen.",
+    "ja": "黄砂、微細粉塵、花粉などの外部刺激物質が多い環境特性に適したメニュー処方の窓口です。",
+    "ar": "نافذة وصفات مصممة للبيئات المليئة بالمهيجات الخارجية كالغبار الأصفر والجسيمات الدقيقة وحبوب اللقاح."
+  },
+  "소양": {
+    "ko": "소양",
+    "en": "Soyang (Hot-Dry Type)",
+    "ja": "少陽",
+    "ar": "سويانغ"
+  },
+  "태양": {
+    "ko": "태양",
+    "en": "Taeyang (Strong Yang Type)",
+    "ja": "太陽",
+    "ar": "تايانغ"
+  },
+  "약선 레시피": {
+    "ko": "약선 레시피",
+    "en": "Yakseon Recipe",
+    "ja": "薬膳レシピ",
+    "ar": "وصفة يوكسيون"
+  },
+  "약 약선 레시피 라이브러리": {
+    "ko": "약 약선 레시피 라이브러리",
+    "en": "Herbal Yakseon Recipe Library",
+    "ja": "薬草薬膳レシピライブラリ",
+    "ar": "مكتبة وصفات الأعشاب يوكسيون"
+  },
+  "침향 추출 성분": {
+    "ko": "침향 추출 성분",
+    "en": "Agarwood Extract Ingredients",
+    "ja": "沈香抽出成分",
+    "ar": "مكونات مستخلص العود"
+  },
+  "태음": {
+    "ko": "태음",
+    "en": "Taeeum (Cool-Moist Type)",
+    "ja": "太陰",
+    "ar": "تايئوم"
+  },
+  "소음": {
+    "ko": "소음",
+    "en": "Soeum (Cold-Deficient Type)",
+    "ja": "少陰",
+    "ar": "سويئوم"
   }
 }

@@ -1,7 +1,7 @@
 {
   "en": [
     {
-      "요리명": "Harmony Bowl",
+      "요리명": "Nourishing Rice with Fo-ti Root",
       "주재료": "Rice (400g)",
       "부재료 및 약재": "Dandelion root (50g), Black soybeans (30g), Schisandra berries (20g), Black sesame seeds (20g), Ginger (20g)",
       "주요 효능": "Promotes blood circulation and vitality, prevents aging, and improves hair quality. Also helps alleviate symptoms of fatigue, dry eyes, and digestive issues.",
@@ -13,7 +13,7 @@
       "ancient_context": "This traditional recipe is based on the principles of balancing the body's energy and promoting overall well-being through a harmonious blend of ingredients."
     },
     {
-      "요리명": "Red Date Spaghetti",
+      "요리명": "Mussel Spaghetti with Goji Berries",
       "주재료": "Red Dates (300g), Spaghetti (200g)",
       "부재료 및 약재": "Ginseng (20g), Shrimp (50g), Onion, Garlic, White Wine, Sour Cream, Olive Oil",
       "주요 효능": "Promotes blood circulation and overall well-being, enhancing vitality and preventing aging. Also beneficial for children's growth and development, as well as postpartum recovery.",
@@ -25,7 +25,7 @@
       "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients, enhance their synergistic effects, and prevent disharmony. It embodies the principles of balance and vitality in Korean wellness cuisine."
     },
     {
-      "요리명": "Ma-Bok Patkal-Guk-Su",
+      "요리명": "Red Bean Noodles with Yam and Poria",
       "주재료": "Pat (250g), Wheat Flour (200g)",
       "부재료 및 약재": "Maga-Ru (10g), Bok-Yeong-Ga-Ru (10g), Salt, Sugar",
       "주요 효능": "Activates bodily fluids to treat edema and stagnation. Balances the heart and removes heat.",
@@ -37,7 +37,7 @@
       "ancient_context": "Based on traditional dietary therapy theories, this recipe for Ma-Bok Patkal-Guk-Su includes ingredients that promote gut health and vitality, as well as balance and harmony in the body."
     },
     {
-      "요리명": "Sagunja Adaptogenic Porridge",
+      "요리명": "Sagunja Ginseng and Poria Porridge",
       "주재료": "Rice (150g), Glutinous Rice (50g)",
       "부재료 및 약재": "Ginseng (10g), White Poria (10g), Cnidium (10g), Licorice Root (5g), Date Fruit (10g)",
       "주요 효능": "Restores digestive balance, alleviates chronic constipation and fatigue, and enhances overall vitality.",
@@ -49,7 +49,7 @@
       "ancient_context": "This traditional adaptogenic porridge was consumed as a remedy for digestive issues and fatigue when the body's energy was depleted."
     },
     {
-      "요리명": "Harmonizing Stew",
+      "요리명": "Astragalus Wellness Rice",
       "주재료": "Rice (300g), Glutinous Rice (100g)",
       "부재료 및 약재": "Cinnamon Bark (30g), Ginseng (15g), Jujube (20g), Schisandra (15g), Date (30g)",
       "주요 효능": "This dish helps to fortify the vital energy, regulate body temperature, and strengthen the immune system, alleviating fatigue and stress.",
@@ -61,7 +61,7 @@
       "ancient_context": "This autumn/winter traditional dish is designed to fortify the vital energy and strengthen the skin barrier, helping to regulate body temperature and alleviate fatigue."
     },
     {
-      "요리명": "Mak Mundong Barley Rice",
+      "요리명": "Barley Rice with Ophiopogon",
       "주재료": "Rice (200g), Pearl Barley (200g)",
       "부재료 및 약재": "Mak Mundong (25g), Dong-gu-le (15g), Shiitake Mushroom (30g)",
       "주요 효능": "Provides vital fluids to the lungs and digestive system, soothing dry coughs, relieving heat, and promoting overall well-being.",
@@ -73,7 +73,7 @@
       "ancient_context": "This recipe is an ancient remedy for soothing the lungs and digestive system, promoting balance and harmony."
     },
     {
-      "요리명": "Mountain Ginseng and Rice Porridge",
+      "요리명": "Chinese Yam & Job's Tears Porridge",
       "주재료": "Maple rice (100g), Mountain Ginseng (50g)",
       "부재료 및 약재": "Ginseng (40g), Date (10g), Salt",
       "주요 효능": "Balances the spleen and lungs, relieves constipation, and soothes joint pain and discomfort.",
@@ -85,7 +85,7 @@
       "ancient_context": "This recipe is a harmonizing dish that strengthens the spleen and lungs, relieves constipation, and soothes joint pain and discomfort."
     },
     {
-      "요리명": "Honeyed Lotus and Date Porridge",
+      "요리명": "Lily Bulb & Jujube Porridge",
       "주재료": "Rice (150g)",
       "부재료 및 약재": "Dried Lotus (20g), Dates (15g), Honey (20g)",
       "주요 효능": "This recipe promotes relaxation, calms the mind, and soothes respiratory issues. It's beneficial for insomnia, anxiety, and dry cough.",
@@ -97,7 +97,7 @@
       "ancient_context": "This recipe calms the mind, soothes respiratory issues, and promotes relaxation, making it a natural remedy for insomnia and dry cough."
     },
     {
-      "요리명": "Ginseng and Lotus Seed Rice Porridge",
+      "요리명": "Ginseng and Lotus Seed Rice",
       "주재료": "Rice (300g), Pork Belly (150g)",
       "부재료 및 약재": "Ginseng (20g), Lotus Seed (30g), Mulberry Leaves (10g), Jujube Fruits (15g), Soy Sauce",
       "주요 효능": "Balances the body's energy, soothes the digestive system, and treats anxiety and stress.",
@@ -109,7 +109,7 @@
       "ancient_context": "This royal court recipe was enjoyed by the Korean royal family as a nourishing and balancing dish that soothes the body and spirit."
     },
     {
-      "요리명": "Heavenly Harmony Stew",
+      "요리명": "Cnidium & Angelica Hand-Torn Noodles",
       "주재료": "Flour (250g), Anchovy Broth",
       "부재료 및 약재": "Angelica (8g), Rehmannia (12g), Bok Choy, Potato, Garlic, Ginger",
       "주요 효능": "Promotes blood circulation and boosts vitality, alleviates menstrual cramps, headaches, and body fatigue.",
@@ -121,7 +121,7 @@
       "ancient_context": "This traditional recipe is a representative example of a harmonizing and vitality-boosting stew that promotes blood circulation and replenishes the body."
     },
     {
-      "요리명": "Pork and Sweet Potato Mandu",
+      "요리명": "Poria & Jerusalem Artichoke Dumplings",
       "주재료": "Mandu wrapper (flour, 20g of sweet potato powder), pork (150g)",
       "부재료 및 약재": "Sweet potato (100g), leek, tofu, soybean sprouts, garlic, ginger",
       "주요 효능": "This dish helps to harmonize the digestive system and promote balance in the body, which can aid in preventing blood sugar imbalances and inflammation.",
@@ -133,7 +133,7 @@
       "ancient_context": "This traditional mandu recipe aims to promote digestive health and balance in the body by harmonizing the spleen and preventing blood sugar imbalances."
     },
     {
-      "요리명": "Gogiya Harmony Rice",
+      "요리명": "Goji Berry Brown Rice",
       "주재료": "Brown rice (200g), White rice (100g)",
       "부재료 및 약재": "Gogi fruit (30g), Adzuki bean (20g), Jujube (15g)",
       "주요 효능": "Balances digestive and urinary systems, improves eyesight, relieves joint pain and stiffness, and promotes healthy skin.",
@@ -145,7 +145,7 @@
       "ancient_context": "This longevity-promoting recipe balances digestive and urinary systems, clarifies eyesight, and harmonizes the waist and knees."
     },
     {
-      "요리명": "Adaptogenic Harmony Tonic",
+      "요리명": "Angelica Rice Ball Punch",
       "주재료": "Rice Flour (200g)",
       "부재료 및 약재": "Danggui (15g), Oimija Extract, Jatt (5g), Honey",
       "주요 효능": "This tonic helps to balance blood flow and circulation, promoting vitality and overall well-being. It also supports the body's natural energy and harmony.",
@@ -157,7 +157,7 @@
       "ancient_context": "This traditional tonic is designed to nourish women's blood circulation, promote heart health, and support lung function, making it a high-energy and harmonious recipe."
     },
     {
-      "요리명": "Triple Harmony Rice Porridge",
+      "요리명": "Notoginseng Millet Rice",
       "주재료": "Rice (300g), Glutinous Rice (100g)",
       "부재료 및 약재": "Triphala Powder (5g), Black Soybeans (20g), Jujube (10g)",
       "주요 효능": "Balances and harmonizes blood circulation, prevents micro-bleeding, and aids in wound recovery.",
@@ -169,7 +169,7 @@
       "ancient_context": "This traditional blood-balancing porridge helps to eliminate stagnant blood, prevent micro-bleeding, and aid in wound recovery."
     },
     {
-      "요리명": "White Peony Noodle Soup",
+      "요리명": "Buckwheat Noodles with White Peony",
       "주재료": "White Peony Noodle (200g), Soy Sauce Broth",
       "부재료 및 약재": "White Peony Root (15g), Licorice Root (5g), Cucumber, Ginger Juice, Wasabi, Ginkgo Powder",
       "주요 효능": "Relaxes the digestive system and alleviates muscle cramps, pain (abdominal pain, stomach discomfort) and internal heat.",
@@ -181,7 +181,7 @@
       "ancient_context": "This traditional nourishing noodle soup harmonizes digestive energy, alleviates abdominal cramps and discomfort, and cools the body."
     },
     {
-      "요리명": "Harmonious Vitality Porridge",
+      "요리명": "Mulberry Mistletoe Sesame Porridge",
       "주재료": "Rice (100g), Black Sesame (50g)",
       "부재료 및 약재": "Ginseng (20g), Jujube (10g), Salt",
       "주요 효능": "Supports bone and joint health, promotes brain function, and prevents constipation caused by dryness.",
@@ -193,7 +193,7 @@
       "ancient_context": "This longevity-promoting porridge supports bone health, nourishes the digestive system, and prevents aging."
     },
     {
-      "요리명": "Gogiya Patbap",
+      "요리명": "Goji Berry & Red Bean Rice",
       "주재료": "Rice (300g), Pat (50g)",
       "부재료 및 약재": "Gogiya (25g), Daecheong (15g)",
       "주요 효능": "Regulates fluid balance, replenishes vital energy, and helps to prevent fatigue and puffiness.",
@@ -205,7 +205,7 @@
       "ancient_context": "This traditional recipe is based on the principles of traditional medicine and emphasizes the benefits of gogiya and pat in promoting digestive health and overall well-being."
     },
     {
-      "요리명": "Black Sesame Anshinjuk",
+      "요리명": "Black Sesame Calm-Mind Porridge",
       "주재료": "Glutinous Rice (100g), Black Sesame (50g)",
       "부재료 및 약재": "Yeonahnok (15g), White Ginseng (10g), Honey",
       "주요 효능": "Balances the heart and kidneys, alleviates insomnia, palpitations, and promotes healthy hair and gut function.",
@@ -217,7 +217,7 @@
       "ancient_context": "Based on traditional dietary therapy theories, this recipe for Black Sesame Anshinjuk includes ingredients that promote gut health and vitality, as well as alleviate symptoms of insomnia and palpitations."
     },
     {
-      "요리명": "Balancing Harmony Rice Cake",
+      "요리명": "Poria & Buckwheat Hand-Torn Noodle Soup",
       "주재료": "Millet flour (150g), Wheat flour (100g)",
       "부재료 및 약재": "Dried ginseng powder (20g), Anchovy, Dried seaweed, Potato, Pumpkin, Parsley",
       "주요 효능": "This dish helps to promote urination and bowel movement while maintaining digestive health and preventing constipation.",
@@ -229,7 +229,7 @@
       "ancient_context": "This traditional recipe is based on the principles of traditional medicine, emphasizing the protective effects of the ingredients on the digestive system and their ability to promote vitality."
     },
     {
-      "요리명": "Balance and Harmony Porridge",
+      "요리명": "Atractylodes & Licorice Potato Ball Soup",
       "주재료": "Rice (300g), Sweet Potato (150g)",
       "부재료 및 약재": "White Poria (15g), Licorice Root (5g), Ginger Powder (2g), Date (10g)",
       "주요 효능": "This dish helps to eliminate chronic fatigue and promote digestive efficiency, alleviating symptoms of chronic indigestion and bloating.",
@@ -241,7 +241,7 @@
       "ancient_context": "This traditional recipe is based on the principles of traditional medicine and emphasizes the harmonizing effects of the ingredients to promote digestive health and overall well-being."
     },
     {
-      "요리명": "Mountain Harmony Rice Bowl",
+      "요리명": "Hawthorn Wellness Bibimbap",
       "주재료": "Rice (300g), assorted mountain herbs (Gosari, Doraji, Cusnae)",
       "부재료 및 약재": "Mountain Ginseng (15g), Angelica (5g), Herbal Chili Paste, Sesame Oil",
       "주요 효능": "Promotes digestion and absorption of nutrients, regulates blood circulation, and improves overall vitality.",
@@ -253,7 +253,7 @@
       "ancient_context": "This traditional recipe is based on the principles of traditional medicine, emphasizing the digestive benefits and vitality-boosting properties of mountain ginseng and other botanical actives."
     },
     {
-      "요리명": "Vitality Nourishing Porridge",
+      "요리명": "Job's Tears Wellness Rice",
       "주재료": "Rice (300g), Ginseng (50g, of the species Panax ginseng)",
       "부재료 및 약재": "Honey (10g), Jujube (15g), Shiitake Mushroom (30g)",
       "주요 효능": "This dish helps to detoxify the body, relieve joint inflammation, and improve overall vitality by promoting balance and harmony.",
@@ -265,7 +265,7 @@
       "ancient_context": "This traditional recipe is based on the principles of traditional medicine and emphasizes the importance of balancing yin and yang energies to promote overall well-being."
     },
     {
-      "요리명": "Mountain Harmony Stew",
+      "요리명": "Chinese Yam Digestive Porridge",
       "주재료": "Rice (150g)",
       "부재료 및 약재": "Ginseng (Ma, 50g), White Poria (10g), Ginseng (5g), Salt",
       "주요 효능": "This dish helps to regulate chronic diarrhea and digestive issues, promoting a healthy gut and overall well-being.",
@@ -277,7 +277,7 @@
       "ancient_context": "This traditional recipe is based on the principles of traditional medicine and emphasizes the gut-healing properties and vitality-boosting effects of the ingredients used in Mountain Harmony Stew."
     },
     {
-      "요리명": "Macmun-dong Adaptogenic Mandu",
+      "요리명": "Ophiopogon Wellness Dumplings",
       "주재료": "Mandu wrapper (wheat flour, rice flour), finely chopped pork (150g)",
       "부재료 및 약재": "Macmun-dong (15g), Doraji (20g), Pa, Garlic, Ginger juice, Soy sauce",
       "주요 효능": "Exceptionally effective in promoting digestive harmony, alleviating dry coughs, and soothing throat discomfort.",
@@ -289,7 +289,7 @@
       "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and balance yin and yang energies, promoting overall wellness and vitality."
     },
     {
-      "요리명": "Gogiya Hobak Bokbap",
+      "요리명": "Goji Berry Pumpkin Mash",
       "주재료": "Old Pumpkin (300g), Rice Flour (50g)",
       "부재료 및 약재": "Gogiya (20g), Red Date (30g), Lotus Seed (20g), Salt, Sugar",
       "주요 효능": "This recipe helps to promote diuresis and relieve bloating, while also supporting postpartum recovery and blood circulation. It boosts vitality and overall well-being.",
@@ -301,7 +301,7 @@
       "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and prevent adverse reactions. It embodies the principles of balanced nutrition and vitality, aligning with the ancient concept of yangsheng."
     },
     {
-      "요리명": "Harmony Tonic Soup",
+      "요리명": "Hovenia Frozen Pollack Soup",
       "주재료": "Dongtae (2 pieces), Mu (150g)",
       "부재료 및 약재": "Jiguzi (Hentgae fruit, 20g), Poria (20g), Garlic, Ginger, Sesame oil",
       "주요 효능": "Exceptional detoxification and liver protection. It helps to eliminate internal heavy metals and alleviate symptoms of urinary tract discomfort.",
@@ -313,7 +313,7 @@
       "ancient_context": "This Jeolla-do traditional coastal dish utilizes Hentgae fruit to amplify detoxification and liver protection abilities, promoting overall well-being."
     },
     {
-      "요리명": "Rooster's Harmony Soup",
+      "요리명": "Rice Cake Soup with Soy Chicken",
       "주재료": "Free-range rooster (1 piece), Tteokguk rice cakes (300g)",
       "부재료 및 약재": "Ginkgo biloba leaves (30g), Angelica sinensis roots (20g), Astragalus membranaceus stems (15g), Korean leek, Korean dates (10g), Garlic, Ginger",
       "주요 효능": "Balances the stomach and kidneys, strengthens joint cartilage to prevent knee joint pain and nerve numbness, and boosts vitality.",
@@ -325,7 +325,7 @@
       "ancient_context": "This harmonious soup recipe is designed to eliminate toxins from the body through urination and promote smooth blood circulation, much like a traditional Korean medicine prescription."
     },
     {
-      "요리명": "Sagunja Chicken Stew",
+      "요리명": "Sagunja Spicy Chicken Soup",
       "주재료": "Chicken (400g), Taro root (50g)",
       "부재료 및 약재": "White Poria (10g), Licorice (5g), Ginseng (10g), Korean Ginseng (15g), Date fruit (10g), Green Onion, Garlic",
       "주요 효능": "This dish helps to warm the digestive system, increase absorption rates, and boost immunity. It also relieves chronic fatigue and improves overall vitality.",
@@ -337,7 +337,7 @@
       "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients, balance yin and yang energies, and promote overall wellness."
     },
     {
-      "요리명": "Eight-Direction Harmony Stew",
+      "요리명": "Paljin Black Ogolgye Chicken Soup",
       "주재료": "Ogolgye (1 piece)",
       "부재료 및 약재": "Paljin Tang (10g of Sukjihwang, 10g of Danggui, 8g of Baekjak-yak, 6g of Cheonggung, 10g of Insam, 10g of Baekchul, 10g of Boryeong, and 5g of Gamcho), Daechu (15g), and Ginger",
       "주요 효능": "Balances the body's vital energy and blood circulation to improve overall well-being, postpartum recovery, and menstrual irregularities.",
@@ -349,7 +349,7 @@
       "ancient_context": "This harmonious stew recipe is designed to purify the body by eliminating toxins through urination and promoting healthy blood circulation, much like a traditional Korean medicine prescription."
     },
     {
-      "요리명": "Galji Kongnamul Bukguk",
+      "요리명": "Kudzu Root & Bean Sprout Pollock Soup",
       "주재료": "Kongnamul (200g), Buk (1 piece)",
       "부재료 및 약재": "Ji-gu-ja (20g), Gal-hwa (10g), Mu, Garlic, Sesame oil",
       "주요 효능": "Rapidly eliminates accumulated acetaldehyde after drinking and protects the stomach lining.",
@@ -361,7 +361,7 @@
       "ancient_context": "This recipe is a type of nourishing soup that helps to eliminate toxins from the body and promote blood circulation, similar to a traditional Korean medicine prescription."
     },
     {
-      "요리명": "Pork and Radish Stew",
+      "요리명": "Pork & Radish Soup",
       "주재료": "Pork (200g, lean meat), Radish (100g)",
       "부재료 및 약재": "Shiitake mushrooms (30g), Ginger (5g), Garlic, Green Onion, Soy Sauce",
       "주요 효능": "Promotes urination and diuresis to relieve respiratory congestion, skin irritation, and strengthens muscles.",
@@ -373,7 +373,7 @@
       "ancient_context": "This stew-like recipe is a type of nourishing food that helps eliminate toxins through urination and promotes healthy blood circulation, similar to the concept of 'Tang-yak' in traditional Korean medicine."
     },
     {
-      "요리명": "Maebyeong Gukguk",
+      "요리명": "Seaweed Oyster Soup",
       "주재료": "Maebyeong (300g), Guk (150g)",
       "부재료 및 약재": "Gugija (15g), Muzyum, Cham-gireum, Ma-neul",
       "주요 효능": "Balances the body's energies, promotes blood circulation and overall well-being by purifying the liver and kidneys, and strengthening cardiovascular health.",
@@ -385,7 +385,7 @@
       "ancient_context": "This recipe is a type of nourishing soup that helps eliminate toxins through urination and promotes healthy blood flow, much like the traditional Korean medicine practice of 'Tang-yak'."
     },
     {
-      "요리명": "Balancing Galbi Stew",
+      "요리명": "Ophiopogon Beef Short Rib Soup",
       "주재료": "Beef bones (500g), Burdock root (150g)",
       "부재료 및 약재": "Mugwort (25g), Astragalus (10g), Jujube fruit (15g), Ginger, Garlic",
       "주요 효능": "This dish combines the revitalizing properties of beef bones with the soothing effects of mugwort to calm dry coughs and soothe a parched throat, while also replenishing bodily fluids.",
@@ -397,7 +397,7 @@
       "ancient_context": "This nourishing soup is designed to promote the elimination of bodily toxins through urination and maintain healthy blood circulation, much like a traditional Korean medicine prescription."
     },
     {
-      "요리명": "Dogaani Tang",
+      "요리명": "Achyranthes Ox Knee Cap Soup",
       "주재료": "Dogaani (Sijiu, 500g)",
       "부재료 및 약재": "Ussul (Cow's Knee, 30g), Sanggi (20g), Ogaapi (20g), Garlic, Daepa",
       "주요 효능": "Supplements joint fluid and heals cartilage damage, treating knee and hip pain, as well as symptoms of osteoarthritis.",
@@ -409,7 +409,7 @@
       "ancient_context": "This traditional Korean medicine recipe is designed to strengthen knee cartilage, alleviate joint pain, and promote overall balance and harmony in the body."
     },
     {
-      "요리명": "Yakson's Ori Back Stew",
+      "요리명": "Kalopanax Boiled Duck",
       "주재료": "Ori (1 bird)",
       "부재료 및 약재": "Yakson's bark (50g), Oga pi (30g), Huang qi (30g), Kukkia (20g), Dae choo (15g), Garlic",
       "주요 효능": "This dish helps to relieve fatigue and stress, soothes the nervous system, and promotes digestive harmony.",
@@ -421,7 +421,7 @@
       "ancient_context": "This dish is a traditional remedy from the Gyeongsang-do region, designed to relieve joint pain, reduce fever, and improve overall vitality."
     },
     {
-      "요리명": "Danggui Revitalizing Three-Element Soup",
+      "요리명": "Angelica Ginseng Chicken Soup",
       "주재료": "Young chicken (1 piece), cooked white rice (50g)",
       "부재료 및 약재": "Danggui (20g), Ginseng (15g), Date fruit (10g), Astragalus (15g), Garlic (10g)",
       "주요 효능": "Rapidly replenishes vital energy, nourishes the blood, and soothes fatigue, suitable for postpartum recovery, anemia, and pale complexion.",
@@ -433,7 +433,7 @@
       "ancient_context": "This traditional three-element soup harmonizes the vital energy, brightens the complexion, and improves circulation and blood flow."
     },
     {
-      "요리명": "Sihoe Harmony Stew",
+      "요리명": "Bupleurum Spicy Beef Soup",
       "주재료": "Beef (300g), Korean leek (100g)",
       "부재료 및 약재": "Ginseng (12g), Licorice root (5g), Ophiopogon, Soybean sprouts, Garlic, Gochugaru, Sesame oil",
       "주요 효능": "This dish helps to release pent-up energy and soothe the body's heat, alleviating chronic headaches and chest tightness.",
@@ -445,7 +445,7 @@
       "ancient_context": "This traditional K-Food recipe is designed to enhance the synergy between ingredients and balance the body's energies according to the principles of Eastern medicine."
     },
     {
-      "요리명": "Cod and Gugija Stew",
+      "요리명": "Cod & Goji Berry Clear Soup",
       "주재료": "Fresh cod (1 piece), wakame seaweed (100g)",
       "부재료 및 약재": "Gugija fruit (20g), leek, garlic, soy sauce, parsley",
       "주요 효능": "This dish helps to improve eye clarity and liver function while promoting the elimination of toxins through urination.",
@@ -457,7 +457,7 @@
       "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and promote balance in the body, aligning with the principles of Eastern medicine."
     },
     {
-      "요리명": "Oga Pi Black Deer Decoction",
+      "요리명": "Siberian Ginseng Black Goat Soup",
       "주재료": "Black Deer Meat (300g), Burdock Root (100g)",
       "부재료 및 약재": "Oga Pi (30g), Astragalus (15g), Ginger (10g), Date Fruit (15g), Sesame Powder",
       "주요 효능": "This decoction helps to balance the yang energy of the kidneys and liver, preventing symptoms such as decreased libido in men, menstrual cramps in women, and chronic joint pain.",
@@ -469,7 +469,7 @@
       "ancient_context": "This recipe is a type of nourishing soup that helps to eliminate toxins through urination and promote blood circulation, similar to the traditional method of decoction."
     },
     {
-      "요리명": "Balancing Harmony Soup",
+      "요리명": "Cassia Seed Duck Hot Pot",
       "주재료": "Yakson meat (400g), leek, onion",
       "부재료 및 약재": "Conclusion root (20g), shiitake mushroom, soy sauce, sesame powder, garlic",
       "주요 효능": "Supports liver health by regulating heat and preventing eye strain, dryness, and high blood pressure. Also helps with digestive balance and prevents constipation.",
@@ -481,7 +481,7 @@
       "ancient_context": "This soup is a type of nourishing dish that helps to eliminate toxins from the body and promote smooth blood circulation, much like a traditional Korean medicine prescription."
     },
     {
-      "요리명": "Vitality Tonic Soup",
+      "요리명": "Job's Tears Seaweed Soup",
       "주재료": "Blanched Reishi Mushroom (200g), Dried Pollock (100g)",
       "부재료 및 약재": "Ginseng (25g), Sesame Oil, Minced Garlic, Soy Sauce",
       "주요 효능": "Promotes the elimination of bodily toxins and alleviates symptoms of urinary incontinence and fluid retention, making it an excellent remedy for postpartum recovery.",
@@ -493,7 +493,7 @@
       "ancient_context": "This soup is a type of nourishing tonic that promotes the elimination of bodily toxins and maintains healthy blood circulation, much like a traditional Korean medicine prescription."
     },
     {
-      "요리명": "Balancing Vitality Stew",
+      "요리명": "Samul-tang Ox Tail Soup",
       "주재료": "Rattus norvegicus (500g)",
       "부재료 및 약재": "Angelica sinensis (15g), Cnidium officinale (15g), Paeonia suffruticosa (10g), Asarum sieboldii (8g), Ziziphus jujuba (15g)",
       "주요 효능": "When the body's vital energy is extremely weak, this stew prioritizes blood circulation to strengthen bone health and alleviate chronic fatigue and heat.",
@@ -505,7 +505,7 @@
       "ancient_context": "This stew is a type of nourishing recipe that helps eliminate toxins through urine and promotes smooth blood circulation, similar to the concept of 'tang-yeok' in traditional Korean medicine."
     },
     {
-      "요리명": "Balancing Harmony Tonic",
+      "요리명": "Dandelion Detoxifying Soup",
       "주재료": "Astragalus (150g), Shrimp (30g)",
       "부재료 및 약재": "Fo Ti (20g, containing Reishi mushroom and other botanicals), Doenjang (2 large spoons), Scallions, Garlic",
       "주요 효능": "This tonic helps to calm inflammation in the stomach and intestines, promoting overall vitality and balance.",
@@ -517,7 +517,7 @@
       "ancient_context": "This Balancing Harmony Tonic utilizes the potent anti-inflammatory properties of Fo Ti to soothe digestive issues and promote overall well-being."
     },
     {
-      "요리명": "Digestive Harmony Stew",
+      "요리명": "Citrus Peel Digestive Soup",
       "주재료": "Sierra seed (150g), Sesame powder",
       "부재료 및 약재": "Pineapple peel (15g), Doenjang (2 large spoons), Shiitake mushroom, Garlic",
       "주요 효능": "Balances digestive energy, relieves bloating and discomfort, and promotes healthy digestion.",
@@ -529,7 +529,7 @@
       "ancient_context": "This traditional recipe helps eliminate stagnant energy in the digestive system, promoting balance and harmony."
     },
     {
-      "요리명": "Yongan Pork Rib Stew",
+      "요리명": "Longan Beef Short Rib Soup",
       "주재료": "Pork Ribs (400g)",
       "부재료 및 약재": "Yongan Root (20g), Date Fruit (15g), Persimmon Fruit (10g), Green Onion, Garlic",
       "주요 효능": "Balances the heart and strengthens the digestive system to alleviate insomnia, memory loss, and stress-related palpitations.",
@@ -541,7 +541,7 @@
       "ancient_context": "This nourishing soup recipe is designed to eliminate toxins from the body and promote healthy blood circulation, much like a traditional Korean medicine prescription."
     },
     {
-      "요리명": "Galgern Soothing Stew",
+      "요리명": "Kudzu Root Hangover Soup",
       "주재료": "Sesame seeds (150g), Dried persimmon (100g)",
       "부재료 및 약재": "Galgern (30g), Garlic, Ginger, Gochujang, Doenjang",
       "주요 효능": "This recipe helps to eliminate internal heat and toxins through urination and sweating, alleviating thirst and treating digestive issues caused by excessive drinking.",
@@ -553,7 +553,7 @@
       "ancient_context": "This soothing stew combines the cooling properties of galgern with the iron-rich sesame seeds to treat digestive issues and promote overall vitality."
     },
     {
-      "요리명": "Sassam Yungpae Galbi Jjigae",
+      "요리명": "Adenophora Short Rib Stew",
       "주재료": "Pork Ribs (400g), Potato, Onion",
       "부재료 및 약재": "Sassam (Dederma, 30g), Gochugaru, Ganjang, Garlic, Ginger Juice",
       "주요 효능": "Supports respiratory health and digestion, promotes overall vitality.",
@@ -565,7 +565,7 @@
       "ancient_context": "This traditional dish from Chungcheong Province combines the immune-boosting properties of Sassam with the tenderizing effects of pork ribs, creating a harmonious balance of flavors and textures."
     },
     {
-      "요리명": "Clearing the Way Soup",
+      "요리명": "Cassia Seed Clam Soup",
       "주재료": "Mossy Abalone (300g), Leek (30g)",
       "부재료 및 약재": "Clearing the Way Herb (15g), Korean Red Pepper (1 piece), Garlic, Green Onion, Salt",
       "주요 효능": "Helps to balance digestive fire and reduce eye fatigue and dryness by promoting liver detoxification and recovery through the antioxidant properties of Abalone.",
@@ -577,7 +577,7 @@
       "ancient_context": "This soup recipe is inspired by traditional Korean medicine, aiming to promote overall well-being and balance through the harmonization of bodily energies."
     },
     {
-      "요리명": "Gilkang Adaptogenic Doraegi Soup",
+      "요리명": "Platycodon & Licorice Soup",
       "주재료": "Chicken (300g)",
       "부재료 및 약재": "Gilkang (Doraegi, 25g), Ginseng (10g), Garlic, Ginger, Salt",
       "주요 효능": "Promotes respiratory health by opening up airways and relieving coughs, while also soothing throat congestion.",
@@ -589,7 +589,7 @@
       "ancient_context": "This recipe is an ancient adaptation of a traditional Korean soup that aims to promote overall well-being by balancing the body's energies and promoting healthy digestion."
     },
     {
-      "요리명": "Balancing Harmony Soup",
+      "요리명": "Plantain Seed Clam Seaweed Soup",
       "주재료": "Mugwort (150g), Razor Clam (100g)",
       "부재료 및 약재": "Chaetonia (15g), Sesame Oil, Garlic",
       "주요 효능": "This soup helps to calm the body's heat and promote urination, relieving symptoms of edema and promoting overall vitality.",
@@ -601,7 +601,7 @@
       "ancient_context": "This recipe is inspired by traditional Korean medicine, where a nourishing soup is prepared to promote overall well-being and balance the body's energies."
     },
     {
-      "요리명": "Yakson Gugi Ja Mun",
+      "요리명": "Seasoned Radish with Goji Berries",
       "주재료": "Mung Bean (500g), Gulg (100g)",
       "부재료 및 약재": "Gugi Fruit (20g), Dashi Ma (10g), Sesame Oil, Minced Garlic, Parsley, Sesame Powder",
       "주요 효능": "Supports digestion and appetite, promotes blood circulation and harmony, and helps to balance the body's energy.",
@@ -613,7 +613,7 @@
       "ancient_context": "This traditional fermented side dish is based on the principles of harmony and balance in Korean medicine, aiming to enhance digestive efficiency and overall well-being."
     },
     {
-      "요리명": "Mini Pork Ribs",
+      "요리명": "Samul-tang Pork Trotters",
       "주재료": "Pork Mini Ribs (800g)",
       "부재료 및 약재": "Herbal Blend (15g of Rehmannia, 15g of Danggui, 10g of Baekjak, and 8g of Cheonggung), Korean Red Pepper (5g), Garlic, Soy Sauce, Sugar",
       "주요 효능": "This dish harmonizes the effects of collagen and herbal blend to strengthen skin barriers, prevent joint inflammation, and promote blood circulation.",
@@ -625,7 +625,7 @@
       "ancient_context": "This traditional K-Food recipe is designed to enhance the synergy between ingredients and balance yin-yang energies, promoting overall wellness and vitality."
     },
     {
-      "요리명": "Mung Bean Jjim",
+      "요리명": "Stewed Aged Kimchi in Doenjang",
       "주재료": "mung beans (400g), fish broth",
       "부재료 및 약재": "dried gentian root (15g), licorice (15g), jujube (10g), doenjang (1 tablespoon), sesame oil",
       "주요 효능": "promotes digestive health, boosts appetite, and removes toxins from the gut to improve overall well-being and alleviate fatigue.",
@@ -637,7 +637,7 @@
       "ancient_context": "This traditional fermented vegetable dish is based on the principles of harmonizing the five flavors and promoting digestive health through the interaction of medicinal herbs and spices."
     },
     {
-      "요리명": "Ginger and Danggui Jam",
+      "요리명": "Angelica Pickled Garlic Scapes",
       "주재료": "Ginger (200g)",
       "부재료 및 약재": "Danggui (15g), soy sauce, vinegar, sugar, water",
       "주요 효능": "Boosts circulation, relieves blood stagnation, and soothes digestive issues with the warming properties of ginger.",
@@ -649,7 +649,7 @@
       "ancient_context": "This traditional jam combines the digestive benefits of ginger with the circulation-boosting properties of danggui, showcasing a harmonious blend of botanical actives."
     },
     {
-      "요리명": "Harmonious Balance Stew",
+      "요리명": "Seasoned Bitter Crepidiastrum Greens",
       "주재료": "Godeunbokki (200g)",
       "부재료 및 약재": "Samsa (10g), Gochujang, Garlic, Vinegar, Oligodextrin, Sesame Salt",
       "주요 효능": "Regulates excessive heat in the heart and increases digestive enzymes to resolve digestive stagnation and remove blood stasis.",
@@ -661,7 +661,7 @@
       "ancient_context": "A representative side dish from the southeastern region of Korea, this harmonious balance stew regulates excessive heat in the heart and increases digestive enzymes to resolve digestive stagnation and remove blood stasis, perfect for hot summer days."
     },
     {
-      "요리명": "Mountainous Pork and Ginseng Stew",
+      "요리명": "Hawthorn Soy-Braised Pork",
       "주재료": "Pork (300g)",
       "부재료 및 약재": "Ginseng (25g), Licorice Root, Garlic, Ginger, Soy Sauce, Sugar",
       "주요 효능": "The combination of pork's protein-rich nutrients and ginseng's powerful digestive properties helps to nourish the stomach and promote blood circulation.",
@@ -673,7 +673,7 @@
       "ancient_context": "This dish is a traditional Korean remedy that combines ginseng with pork to maximize protein absorption and promote digestive health."
     },
     {
-      "요리명": "Harshoo Gungjaban",
+      "요리명": "Fo-ti Root Braised Black Beans",
       "주재료": "Sori-tae (Black Soybeans, 200g)",
       "부재료 및 약재": "Harshoo (30g), Guki-ja (15g), Ganjang, Jo-cheong, Tong-kkae",
       "주요 효능": "Supports kidney and liver function to delay aging and promote hair regrowth and bone density.",
@@ -685,7 +685,7 @@
       "ancient_context": "This longevity banchan from Gangwon-do province combines the pure essence of Sori-tae and Harshoo to prevent aging and maintain clear vision."
     },
     {
-      "요리명": "Mountain Herb Tofu and Vegetable Stir-Fry",
+      "요리명": "Chinese Yam & Tofu Salad",
       "주재료": "Tofu (1 block), Dried Lotus Root (50g)",
       "부재료 및 약재": "Mountain Herb Powder (15g), Sesame Oil, Salt, Black Sesame Seeds",
       "주요 효능": "This dish helps to fortify the digestive system, regulate bowel movements, and nourish the kidneys with its adaptogenic properties.",
@@ -697,7 +697,7 @@
       "ancient_context": "This traditional fermented vegetable side dish is based on the principles of harmonizing the five flavors and promoting digestive health through the interaction of medicinal herbs."
     },
     {
-      "요리명": "Balancing Harmony Stew",
+      "요리명": "Sautéed Mistletoe & Oyster Mushrooms",
       "주재료": "Maitake mushrooms (200g), onion",
       "부재료 및 약재": "Ginseng powder (15g), garlic, leek, sesame oil, sea salt",
       "주요 효능": "Supports overall well-being by fortifying the joints and relieving stiffness and discomfort.",
@@ -709,7 +709,7 @@
       "ancient_context": "This traditional fermented side dish is based on the principles of harmonizing the five flavors and promoting digestive health."
     },
     {
-      "요리명": "Ddeop Egg Stir-Fry",
+      "요리명": "Aralia Shoots with Scrambled Eggs",
       "주재료": "Ddeop (150g), Eggs (2)",
       "부재료 및 약재": "Guk-gi-ja-garu (5g), Sesame oil, Minced garlic, Salt",
       "주요 효능": "Supports digestive health and appetite by balancing the five flavors, increasing immune function through saponins and protein.",
@@ -721,7 +721,7 @@
       "ancient_context": "This traditional fermented side dish is based on the harmony of the five flavors and the interaction of medicinal effects to promote digestive health and balance."
     },
     {
-      "요리명": "Dalla Blood Purifying Salad",
+      "요리명": "Wild Chives Fresh Salad",
       "주재료": "Dalla (100g), Oi (50g)",
       "부재료 및 약재": "Danggui (5g), Gochugaru, Vinegar, Garlic, Sesame Seeds",
       "주요 효능": "The spicy flavor of Dalla helps to eliminate stagnation in the digestive system, while Danggui's blood-purifying properties soothe menstrual cramps and promote healthy circulation.",
@@ -733,7 +733,7 @@
       "ancient_context": "This traditional fermented side dish is based on the principles of harmonizing the five flavors and promoting digestive health through the interaction of medicinal properties."
     },
     {
-      "요리명": "Harmony Revitalizer Soup",
+      "요리명": "Seasoned Ledebouriella Greens",
       "주재료": "Pangpoundaeng (200g)",
       "부재료 및 약재": "Ginseng (5g), Doenjang, Gochujang, Sesame oil, Garlic",
       "주요 효능": "Helps to remove harmful toxins from the body and defend against external pollutants and inflammation.",
@@ -745,7 +745,7 @@
       "ancient_context": "This ancient recipe book offers a harmonious and revitalizing soup that helps to purify the body by removing toxins and protecting against harmful pollutants."
     },
     {
-      "요리명": "Yeon-geun and Mugwort Stew",
+      "요리명": "Achyranthes Braised Lotus Root",
       "주재료": "Yeon-geun (300g)",
       "부재료 및 약재": "Mugwort (20g), soy sauce, honey, garlic, sesame oil, black sesame seeds",
       "주요 효능": "This dish helps to strengthen the joints and bones, promotes blood circulation, and relieves joint pain by combining the anti-inflammatory properties of Yeon-geun with the bone-strengthening effects of Mugwort.",
@@ -757,7 +757,7 @@
       "ancient_context": "This side dish harmonizes the benefits of Yeon-geun's anti-inflammatory properties with Mugwort's bone-strengthening effects to promote overall well-being and vitality."
     },
     {
-      "요리명": "Stir-Fried Gajar and Doraji",
+      "요리명": "Seasoned Eggplant & Bellflower",
       "주재료": "Gajar (2 pieces), Doraji (Korean Mountain Ginseng, 80g)",
       "부재료 및 약재": "Jinpigaru (3g), soy sauce, garlic, ginger, sesame oil",
       "주요 효능": "The combination of Gajar's cooling properties and Doraji's digestive benefits helps to soothe the stomach and promote overall well-being.",
@@ -769,7 +769,7 @@
       "ancient_context": "This traditional fermented side dish is based on the principles of harmonizing the five flavors and promoting digestive health through the interaction of various ingredients."
     },
     {
-      "요리명": "Mindeulle Donejang Jangchae",
+      "요리명": "Dandelion Salad with Doenjang Dressing",
       "주재료": "Mindeulle Yeop (Pogung, 150g)",
       "부재료 및 약재": "Gamsok (5g), Donejang (1 large spoonful), Citric acid, Maesil-cheong, Dajin-maeneul",
       "주요 효능": "Sothes inflammation in the stomach and liver, relieves skin rashes, acne, and digestive issues by balancing yin and yang energies.",
@@ -781,7 +781,7 @@
       "ancient_context": "This traditional fermented vegetable side dish is based on the principles of harmony and balance in Korean medicine. It's a carefully crafted blend of ingredients designed to promote digestive health and overall well-being."
     },
     {
-      "요리명": "Vitality Sweet Potato Stew",
+      "요리명": "Dried Ginger Braised Potatoes",
       "주재료": "Sweet Potatoes (3 pieces)",
       "부재료 및 약재": "Adaptogenic Blend (Dried Ginger, 10g), Soy Sauce, Oligosaccharides, Garlic, Cooking Oil",
       "주요 효능": "Relieves digestive discomfort and promotes gut health by balancing the body's energy.",
@@ -793,7 +793,7 @@
       "ancient_context": "This traditional fermented side dish is based on the principles of harmony and balance in Korean medicine. It combines adaptogenic ingredients to promote gut health and relieve digestive discomfort."
     },
     {
-      "요리명": "Doraji Jeeyuk Bokkeum",
+      "요리명": "Spicy Pork Stir-Fry with Bellflower Root",
       "주재료": "Pork (300g, loin), Doraji (100g, dried)",
       "부재료 및 약재": "Ginseng (5g), Gochujang, Garlic, Sugar, Black pepper, Scallions",
       "주요 효능": "This dish combines the blood-tonifying effects of pork and the adaptogenic properties of doraji to support respiratory immunity and promote digestive harmony.",
@@ -805,7 +805,7 @@
       "ancient_context": "This traditional fermented side dish is based on the principles of harmonizing the Five Flavors (Omi) and enhancing digestive efficiency through the synergy of ingredients."
     },
     {
-      "요리명": "Heavenly Harmony Pickled Sesame Leaves",
+      "요리명": "Cnidium Pickled Sesame Leaves",
       "주재료": "Sesame leaves (50 pieces)",
       "부재료 및 약재": "Tianqi (15g), soy sauce, water, vinegar, garlic",
       "주요 효능": "Improves menstrual cramps and migraines caused by poor blood circulation, while promoting nervous system activity and reducing anxiety.",
@@ -817,7 +817,7 @@
       "ancient_context": "This traditional fermented side dish is based on the principles of harmony and balance in Korean medicine. It's a carefully crafted blend of ingredients that promotes digestive health and overall well-being."
     },
     {
-      "요리명": "Harmonious Balance Stew",
+      "요리명": "Mistletoe Stir-Fried Lamb",
       "주재료": "Grass-Fed Beef (sliced, 200g), Korean Radish",
       "부재료 및 약재": "Dried Reishi Mushroom (15g), Garlic, Ginger Juice, Soy Sauce, Black Pepper, Sesame Oil",
       "주요 효능": "The harmonizing effects of the beef's warm energy and the reishi mushroom's adaptogenic properties combine to strengthen the body's connective tissues.",
@@ -829,7 +829,7 @@
       "ancient_context": "This traditional fermented side dish is based on the principles of harmonizing the five flavors and promoting digestive health through the synergy of ingredients."
     },
     {
-      "요리명": "Oga Pi Cod Stew",
+      "요리명": "Siberian Ginseng Braised Anchovies",
       "주재료": "Cod (100g)",
       "부재료 및 약재": "Oga Pi (15g), Honeyed Vinegar, Soy Sauce, Sesame Oil, Garlic, Ginger",
       "주요 효능": "The calcium-rich cod and the bone-strengthening properties of Oga Pi work in synergy to support bone health and promote healthy growth in children.",
@@ -841,7 +841,7 @@
       "ancient_context": "This traditional fermented side dish is based on the principles of harmony and balance in Korean medicine. It is designed to enhance the effects of food and promote healthy digestion."
     },
     {
-      "요리명": "Gugiya Doobujorim",
+      "요리명": "Goji Berry Braised Tofu",
       "주재료": "Doobu (1 piece), Dae-pa",
       "부재료 및 약재": "Gugiya (15g), Ganjang, Manul, Oligodang, Gochugaru, Deulgireum",
       "주요 효능": "This recipe combines the protein-boosting properties of doobu with the liver-supportive effects of gugiya to improve skin elasticity and support eye health.",
@@ -853,7 +853,7 @@
       "ancient_context": "This traditional fermented side dish is based on the concept of harmony among the five flavors in Korean medicine. It aims to enhance the interplay between ingredients and improve digestion."
     },
     {
-      "요리명": "Triple Harmony Stewed Bok Choy",
+      "요리명": "Notoginseng Braised Burdock Root",
       "주재료": "Bok Choy (200g)",
       "부재료 및 약재": "Triphala (5g), Soy Sauce, Sugar, Vinegar, Sesame Oil",
       "주요 효능": "This dish combines the digestive benefits of Bok Choy with the blood circulation-enhancing properties of Triphala, promoting overall gut health and lymphatic circulation.",
@@ -865,7 +865,7 @@
       "ancient_context": "This traditional fermented side dish is based on the principles of harmony and balance in Korean medicine, aiming to enhance digestive efficiency and promote overall well-being."
     },
     {
-      "요리명": "Sunchong Marinated Radish",
+      "요리명": "Seasoned Chinese Yam & Garlic Scapes",
       "주재료": "Radish (150g)",
       "부재료 및 약재": "Ginseng powder (10g), Gochujang, Garlic powder, Watered honey, Sesame oil",
       "주요 효능": "Maintains digestive balance and prevents constipation by regulating the body's internal temperature and alleviating cold hands and feet.",
@@ -877,7 +877,7 @@
       "ancient_context": "This traditional fermented radish dish is based on the concept of harmonizing the five flavors in Korean medicine and aims to enhance digestive efficiency and overall well-being."
     },
     {
-      "요리명": "Bakjak-yak Oi-muchim",
+      "요리명": "White Peony Spicy Cucumber Salad",
       "주재료": "Oi (1 piece), Onion",
       "부재료 및 약재": "Bakjak-yak (10g), Salt, Vinegar, Plum extract, Minced garlic, Gochugaru powder",
       "주요 효능": "The refreshing properties of Oi help to cool the body, while Bakjak-yak prevents stomach discomfort and muscle cramps.",
@@ -889,7 +889,7 @@
       "ancient_context": "This traditional fermented vegetable side dish is based on the principles of harmony and balance in Korean medicine. It enhances the interplay between ingredients and promotes digestive health."
     },
     {
-      "요리명": "Danggwi and Mureui Stir-Fry",
+      "요리명": "Angelica Seasoned Butterbur",
       "주재료": "Mureui (200g)",
       "부재료 및 약재": "Danggwi (10g), Doenjang (1 large spoonful), Gochujang, Garlic",
       "주요 효능": "This recipe combines the anti-inflammatory properties of Mureui with the blood-boosting functions of Danggwi to promote immune function and circulation after a cold.",
@@ -901,7 +901,7 @@
       "ancient_context": "This traditional fermented side dish is based on the principles of Five Flavors harmony and aims to enhance the synergistic effects of ingredients and digestive efficiency."
     },
     {
-      "요리명": "Soot Bokkumgwa",
+      "요리명": "Mugwort Pancake",
       "주재료": "Soot (200g), Bokkumgwa powder (150g)",
       "부재료 및 약재": "Gukija (15g), Pork bone powder (20g), Maga powder (15g), Cooking oil",
       "주요 효능": "Warms the lower abdomen, treats menstrual cramps and bloating, and supports circulation and digestion.",
@@ -913,7 +913,7 @@
       "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients, balance yin and yang energies, and promote overall well-being."
     },
     {
-      "요리명": "Ma-Goguma Frying",
+      "요리명": "Yam & Sweet Potato Fritters",
       "주재료": "Ma (Sanjak, 150g), Goguma (150g)",
       "부재료 및 약재": "Bokryng-garu (15g), Dwejagam-garu (10g), Frying Powder, Cooking Oil",
       "주요 효능": "Balances digestive energy and calms the mind, assisting in regulating blood sugar levels for diabetics.",
@@ -925,7 +925,7 @@
       "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and prevent adverse reactions, aligning with the principles of Eastern medicine."
     },
     {
-      "요리명": "Ginseng Fritters",
+      "요리명": "Deep-fried Ginseng",
       "주재료": "Korean Ginseng (Panax ginseng, 5 roots)",
       "부재료 및 약재": "Frying powder, Reishi mushroom powder (10g), Cooking oil, Date syrup",
       "주요 효능": "Supports digestive health and boosts vitality by balancing the body's energy, alleviating extreme fatigue, and fortifying immune function.",
@@ -937,7 +937,7 @@
       "ancient_context": "This traditional K-Food recipe is designed to harmonize the body's energy and promote overall wellness by balancing the properties of ingredients and avoiding extreme flavors."
     },
     {
-      "요리명": "Golden Turmeric Mung Bean Soup",
+      "요리명": "Astragalus Water Dropwort Pancake",
       "주재료": "Mung beans (150g), rice flour (100g)",
       "부재료 및 약재": "Turmeric (15g), red pepper, garlic, edible oil",
       "주요 효능": "Supports liver detoxification and urinary health, regulates body temperature and boosts immunity.",
@@ -949,7 +949,7 @@
       "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and balance yin-yang energies, promoting overall wellness and vitality."
     },
     {
-      "요리명": "White Lotus and Adzuki Bean Confection",
+      "요리명": "Lily Bulb & Lotus Root Pancake",
       "주재료": "Adzuki bean (200g)",
       "부재료 및 약재": "White Lotus powder (10g), Glutinous rice flour (50g), Salt, Cooking oil",
       "주요 효능": "Helps to prevent respiratory issues and promotes mental calmness while boosting blood circulation and eliminating stagnant energy.",
@@ -961,7 +961,7 @@
       "ancient_context": "This traditional K-Food tonic is designed to harmonize the properties of ingredients and balance yin-yang energies, promoting overall wellness and vitality."
     },
     {
-      "요리명": "Green Bean and Mung Bean Pancake",
+      "요리명": "Mung Bean Pancake",
       "주재료": "Mung beans (200g), Lotus root, Soybeans",
       "부재료 및 약재": "Ginseng (5g), Pork belly (50g), Sesame oil, Cooking oil",
       "주요 효능": "This recipe helps to balance the body's energy, relieve skin irritations and thirst caused by excessive heat or stress.",
@@ -973,7 +973,7 @@
       "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and prevent adverse reactions, aligning with the principles of Eastern medicine."
     },
     {
-      "요리명": "Wellness Harmony Stir-Fry",
+      "요리명": "Bellflower Root & Vegetable Fritters",
       "주재료": "Sweet Potato (1 piece), Carrot, Onion",
       "부재료 및 약재": "Ginseng (50g, Korean Red Ginseng), Turmeric Powder (5g), Breading, Cooking Oil",
       "주요 효능": "Soothes respiratory issues, promotes digestive function, and supports overall vitality.",
@@ -985,7 +985,7 @@
       "ancient_context": "This traditional K-Food wellness recipe harmonizes the properties of ingredients to promote balance and vitality, aligning with ancient Eastern medical principles."
     },
     {
-      "요리명": "Rejuvenating Mushroom Delight",
+      "요리명": "Poria Mushroom Pancake",
       "주재료": "Porcini mushrooms (50g), Shiitake mushrooms (50g), Eggs (2)",
       "부재료 및 약재": "Ginseng powder (20g), Parsley, Garlic, Salt, Sesame oil, Cooking oil",
       "주요 효능": "Helps to promote diuresis and calm the mind, promoting heart health and digestive balance.",
@@ -997,7 +997,7 @@
       "ancient_context": "This traditional K-Food recipe is designed to harmonize the body's energies and promote overall well-being through the synergy of ingredients and cooking methods."
     },
     {
-      "요리명": "Doo-rup Doo-bu-jeon",
+      "요리명": "Aralia Shoots & Tofu Pancake",
       "주재료": "Doo-rup (100g), Doo-bu (1/2 cup)",
       "부재료 및 약재": "Sang-yak (magaru, 10g), eggs, salt, breading powder, cooking oil",
       "주요 효능": "Supports digestive balance by neutralizing stomach coldness, activating digestion and absorption, and promoting blood sugar control.",
@@ -1009,7 +1009,7 @@
       "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and prevent adverse reactions, aligning with the principles of Eastern medicine."
     },
     {
-      "요리명": "Mountain Ginseng Wrap",
+      "요리명": "Chinese Yam & Sesame Leaf Pancake",
       "주재료": "Ginseng leaves (20 pieces), ground beef (100g)",
       "부재료 및 약재": "Dried ginseng powder (15g), garlic, ginger, soy sauce, sesame oil, eggs, breadcrumbs",
       "주요 효능": "Supports gut health and energy levels, relieves constipation and appetite loss.",
@@ -1021,7 +1021,7 @@
       "ancient_context": "This traditional K-Food recipe is designed to harmonize the energies of ingredients and balance the body's constitution, aligning with the principles of Eastern medicine."
     },
     {
-      "요리명": "Ogapi Gochujang",
+      "요리명": "Siberian Ginseng Pan-fried Stuffed Peppers",
       "주재료": "Ogapi peppers (8 pieces), Pork (100g)",
       "부재료 및 약재": "Ogapi powder (10g), Garlic, Ginger, Egg, Cooking oil, Salt",
       "주요 효능": "Strengthening the skeletal system and supporting joint health, while also treating fatigue and improving overall vitality.",
@@ -1033,7 +1033,7 @@
       "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and balance the body's energies, aligning with the principles of Eastern medicine."
     },
     {
-      "요리명": "Danggui Seafood Pancake",
+      "요리명": "Angelica Seafood Pancake",
       "주재료": "Scallions (150g), Squid (100g), Shrimp",
       "부재료 및 약재": "Danggui (15g), Breading Powder, Eggs, Cooking Oil",
       "주요 효능": "Danggui's blood-balancing and circulation-boosting properties help alleviate symptoms of fatigue, anxiety, and circulatory issues.",
@@ -1045,7 +1045,7 @@
       "ancient_context": "This traditional K-Food recipe is designed to harmonize the body's energies and promote overall well-being by balancing the yin-yang forces."
     },
     {
-      "요리명": "Cinnamon Sweet Potato Tea",
+      "요리명": "Cinnamon Sweet Potato Pancake",
       "주재료": "Sweet Potatoes (2)",
       "부재료 및 약재": "Cinnamon Powder (5g), Rice Flour (30g), Sugar, Cooking Oil",
       "주요 효능": "Relieves cold and dampness in the stomach, stops diarrhea, and improves blood circulation by expanding peripheral blood vessels.",
@@ -1057,7 +1057,7 @@
       "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and balance yin and yang energies, promoting overall well-being."
     },
     {
-      "요리명": "Gogiya Ahobakjeon",
+      "요리명": "Goji Berry Zucchini Pancake",
       "주재료": "Ahobak (1 piece), Honggochu",
       "부재료 및 약재": "Gogija powder (5g), Bubchimgaru, Cooking oil, Ganjang sauce",
       "주요 효능": "The harmonizing effects of Ahobak and Gogija come together to promote digestion and eye health by balancing the body's energies.",
@@ -1069,7 +1069,7 @@
       "ancient_context": "This traditional K-Food recipe is designed to harmonize the energies of ingredients and balance the body's yin and yang, promoting overall wellness."
     },
     {
-      "요리명": "Hwangje Burdock Soup",
+      "요리명": "Polygonatum Chive Pancake",
       "주재료": "Burdock (100g), Squid (50g)",
       "부재료 및 약재": "Dong-gulgulre (Hwangje, 20g), Flour, Garlic, Cooking Oil",
       "주요 효능": "This recipe helps to alleviate chest tightness and dry mouth by replenishing the body's vital energy and promoting balance.",
@@ -1081,7 +1081,7 @@
       "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and prevent adverse reactions, aligning with the principles of Eastern medicine."
     },
     {
-      "요리명": "Eunyi Bae Sook Gang",
+      "요리명": "Steamed Pear with White Wood Ear",
       "주재료": "Pears (1 piece)",
       "부재료 및 약재": "Euni Mushroom (20g), Mak Mundong (20g), Dae Cho (10g), Honey, Potato Starch",
       "주요 효능": "Strong lung and kidney function support, alleviates dry cough and prevents throat discomfort.",
@@ -1093,7 +1093,7 @@
       "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and prevent adverse interactions, aligning with the principles of Eastern medicine."
     },
     {
-      "요리명": "Gogiya Dachucha",
+      "요리명": "Goji Berry & Jujube Tea",
       "주재료": "Water (1L)",
       "부재료 및 약재": "Gogiya (30g), Dachucha (20g), Honey",
       "주요 효능": "Supports digestive health, promotes mental clarity and calmness, and soothes the eyes. Also helps to regulate emotions and reduce stress.",
@@ -1105,7 +1105,7 @@
       "ancient_context": "This traditional herbal tea recipe is designed to nourish the body's vital energy, regulate emotions, and promote overall well-being."
     },
     {
-      "요리명": "Ginger Ziziphus Tea",
+      "요리명": "Ginger Cinnamon Tea",
       "주재료": "Water (1L)",
       "부재료 및 약재": "Ginger (30g), Ziziphus (15g), Black Sugar",
       "주요 효능": "Promotes peripheral circulation to alleviate cold extremities, soothes digestive issues, and prevents constipation.",
@@ -1117,7 +1117,7 @@
       "ancient_context": "This traditional tea recipe is a harmonious blend of flower petals and herbs that balances the body's vital energy, regulating the flow of bodily fluids and emotions."
     },
     {
-      "요리명": "Omija Honey Tea",
+      "요리명": "Omija Honey Fruit Punch",
       "주재료": "Omija (30g), Water (1L)",
       "부재료 및 약재": "Pears (1/2 piece), Jujube (5g), Honey",
       "주요 효능": "This tea helps to harmonize the body's energy, regulate sweating and coughing, and alleviate respiratory issues.",
@@ -1129,7 +1129,7 @@
       "ancient_context": "This traditional tea recipe is a way to balance the body's energy and regulate one's vital force by infusing flowers and herbs in a soothing brew."
     },
     {
-      "요리명": "White Lotus Harmony Tea",
+      "요리명": "Lily Bulb & Polygonatum Tea",
       "주재료": "Water (1L)",
       "부재료 및 약재": "Dried White Lotus (20g), Dried Yellowhorn (20g), Jujube Fruit (10g)",
       "주요 효능": "Soften and calm the dry heat in the lungs, nourish the fluids, and alleviate dry cough and stress-related inflammation.",
@@ -1141,7 +1141,7 @@
       "ancient_context": "This traditional herbal tea recipe is a harmonious blend of flower petals and herbs that nourishes the body's fluids, regulates the flow of energy, and soothes the mind."
     },
     {
-      "요리명": "Yakson Millet Tonic",
+      "요리명": "Chrysanthemum Savory Crepes",
       "주재료": "Millet flour (150g)",
       "부재료 및 약재": "Ginseng (dried, 10g), honey, salt, edible oil",
       "주요 효능": "Cools the mind and soothes dry eyes, alleviates eye strain and high blood pressure headaches.",
@@ -1153,7 +1153,7 @@
       "ancient_context": "This tonic recipe is designed to purify the body by eliminating toxins through urination and promoting healthy blood circulation, much like a traditional Korean medicine prescription."
     },
     {
-      "요리명": "Harmony Tonic Barley Tea",
+      "요리명": "Roasted Job's Tears Rice Cake Balls",
       "주재료": "Barley Flour (200g)",
       "부재료 및 약재": "Barley (30g), Honey (30g), Cinnamon Powder (2g)",
       "주요 효능": "Helps to remove unnecessary moisture from the body, promoting balanced hydration and overall vitality.",
@@ -1165,7 +1165,7 @@
       "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients, promoting balance and vitality through a synergy of botanical actives."
     },
     {
-      "요리명": "Mountain Harmony Tonic",
+      "요리명": "Hawthorn Digestive Fruit Punch",
       "주재료": "Water (1L)",
       "부재료 및 약재": "Mountain Ginseng (30g), Licorice Root (10g), Rice Vinegar, Pear (1/4 piece)",
       "주요 효능": "Promotes digestive balance and harmony, quickly breaks down food in the stomach, and soothes the intestines.",
@@ -1177,7 +1177,7 @@
       "ancient_context": "This traditional tonic recipe is a harmonious blend of herbs and flowers that nourishes the body's vital energies, promoting balance and vitality."
     },
     {
-      "요리명": "Macmun-dong Adaptogenic Tea",
+      "요리명": "Ophiopogon Sweet Rice Punch",
       "주재료": "Rice (200g), Sesame oil (150g)",
       "부재료 및 약재": "Macmun-dong (30g), Sugar (100g), Water (2L)",
       "주요 효능": "The combination of sesame oil's digestive benefits and Macmun-dong's lung-clearing properties harmonizes to improve dry cough and digestion simultaneously.",
@@ -1189,7 +1189,7 @@
       "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and prevent adverse reactions, aligning with the principles of Eastern medicine."
     },
     {
-      "요리명": "Gilkang's Dried Ginger and Honey",
+      "요리명": "Sweetened Bellflower & Pumpkin Glaze",
       "주재료": "Doraji (Gilkang, 200g)",
       "부재료 및 약재": "Honey (100g), Jinpig-garu (5g), Sugar, Jocheong",
       "주요 효능": "Supports respiratory health by soothing a dry cough and protecting the lungs, while also aiding digestion.",
@@ -1201,7 +1201,7 @@
       "ancient_context": "This traditional recipe is a harmonious blend of flower petals and herbs that helps to balance the body's vital energy and promote overall well-being."
     },
     {
-      "요리명": "Serenity Oolong Tea",
+      "요리명": "Calm-Mind Lotus Leaf Tea",
       "주재료": "Water (1L)",
       "부재료 및 약재": "Dried Oolong Leaves (15g), Hawthorn Berries (5g), Jujube Fruits (5g)",
       "주요 효능": "Calms the heart's fiery passion, clarifies the mind, and soothes stress, anxiety, and insomnia.",
@@ -1213,7 +1213,7 @@
       "ancient_context": "This traditional herbal tea recipe is a harmonious blend of flower petals and herbs, designed to regulate the body's vital energies and promote overall well-being."
     },
     {
-      "요리명": "Harmonious Balance Dessert",
+      "요리명": "Poria Red Bean Jelly",
       "주재료": "Adzuki beans (300g), Rice flour (10g)",
       "부재료 및 약재": "Ginseng powder (25g), Sugar, Water (200ml), Salt to taste",
       "주요 효능": "This premium dessert helps maintain hydration balance, soothes digestive issues, and calms the mind for a sense of harmony.",
@@ -1225,7 +1225,7 @@
       "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients, balance yin and yang energies, and promote overall well-being according to ancient Eastern medical principles."
     },
     {
-      "요리명": "Mountain Harmony Tonic",
+      "요리명": "Chinese Yam Sweet Rice Balls",
       "주재료": "Rice Flour (200g)",
       "부재료 및 약재": "Ginseng Powder (30g), Castella Honey, Vinegar, Jujube",
       "주요 효능": "Protects the digestive tract lining, promotes digestion, prevents chronic constipation, and rapidly replenishes energy.",
@@ -1237,7 +1237,7 @@
       "ancient_context": "This traditional K-Food tonic is designed to harmonize the properties of ingredients and balance yin-yang energies, promoting overall well-being."
     },
     {
-      "요리명": "Vitality Tonic with Dandelion",
+      "요리명": "Sweet Violet Herbal Punch",
       "주재료": "Dandelion extract, water",
       "부재료 및 약재": "Dandelion root (10g), honey, watermelon, cantaloupe",
       "주요 효능": "This tonic helps to regulate body heat and soothe skin irritations, promoting overall vitality.",
@@ -1249,7 +1249,7 @@
       "ancient_context": "This traditional tonic recipe is designed to provide clarity and balance the body's energy by combining flower petals and herbal ingredients."
     },
     {
-      "요리명": "Donggulle Millet Wrap",
+      "요리명": "Solomon's Seal Buckwheat Wraps",
       "주재료": "Millet flour (100g), Bok Choy, Carrot",
       "부재료 및 약재": "Donggulle (Hwangjeong, 15g), Jocheong, Salt, Sesame oil",
       "주요 효능": "Relieves dryness in the chest and promotes digestive harmony, while replenishing vitality.",
@@ -1261,7 +1261,7 @@
       "ancient_context": "This traditional K-Food recipe is designed to harmonize the properties of ingredients and balance yin and yang energies, promoting overall wellness."
     },
     {
-      "요리명": "Pre-Meal Adaptogenic Tonic with Rehmannia (Functional Tonic)",
+      "요리명": "Pre-Meal Safflower Rice Wine (Functional)",
       "주재료": "Traditional Korean Liquor (100ml)",
       "부재료 및 약재": "Rehmannia (5g), Angelica (5g), Licorice Root (2g)",
       "주요효능": "Consume a small amount before meals to activate blood circulation, warm the digestive system, and enhance nutrient absorption.",
@@ -1271,7 +1271,7 @@
       "출처": 106
     },
     {
-      "요리명": "Balancing Herbal Tea",
+      "요리명": "Safflower Digestif Tea",
       "주재료": "Water (500ml)",
       "부재료 및 약재": "Dandelion root (3g), Licorice root (1g), Dried Platycodon leaves (1g)",
       "주요효능": "This tea helps to harmonize the digestive system after meals, promoting healthy blood circulation and overall vitality.",
@@ -1281,7 +1281,7 @@
       "출처": 107
     },
     {
-      "요리명": "Traditional Ginseng Tonic",
+      "요리명": "Traditional Roasted Rice Tea (Sungnyung)",
       "주재료": "Ginseng (50g)",
       "부재료 및 약재": "Water (1L)",
       "주요효능": "This tonic helps to warm the stomach after meals, assists digestion, and promotes overall well-being by balancing body heat and flavor.",
@@ -1291,7 +1291,7 @@
       "출처": 108
     },
     {
-      "요리명": "Turmeric Tofu Stew",
+      "요리명": "Astragalus Tofu Doenjang Stew",
       "주재료": "Tofu (200g), Doenjang (50g)",
       "부재료 및 약재": "Turmeric (10g), Jujube (5g), Bitter Melon, Shiitake Mushroom, Green Onion",
       "주요효능": "The combination of turmeric's vitality-boosting properties and doenjang's digestive benefits helps to improve chronic fatigue and alleviate digestive issues.",
@@ -1301,7 +1301,7 @@
       "출처": 109
     },
     {
-      "요리명": "Samsa Mushroom Gochujang Stew",
+      "요리명": "Hawthorn Mushroom Gochujang Stew",
       "주재료": "Shiitake mushrooms (100g), Pork (100g)",
       "부재료 및 약재": "Ginseng (10g), Gochujang (40g), Potato, Zucchini, Green onion, Garlic",
       "주요효능": "The digestive benefits of ginseng and the spicy-sweet flavor of gochujang harmonize to warm the stomach and aid digestion.",
@@ -1311,7 +1311,7 @@
       "출처": 110
     },
     {
-      "요리명": "Mountain Ginseng and Cod Stew",
+      "요리명": "Chinese Yam & Pollock Bean Curd Stew",
       "주재료": "Cod (150g), Korean Beech Leaves (200g)",
       "부재료 및 약재": "Ginseng (15g), Kimchi, Garlic, Ginger, Red Pepper Flakes",
       "주요효능": "This dish helps to maintain overall well-being and bone health by combining the protein-rich Korean Beech Leaves with the rich flavor of cod. The ginseng adds a boost of vitality.",

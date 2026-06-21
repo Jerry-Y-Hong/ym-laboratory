@@ -147,27 +147,37 @@ window.closeGlobalStrategyModal = closeGlobalStrategyModal;
 // 3. 다자간 상생 생태계 관계도 노드 클릭
 const ecoDetailsData = {
   'eco-academia': {
-    title: { ko: '🔬 학술 & 임상 연구망 (Academia & Education)', en: '🔬 Academia & Clinical Research Network', ja: '🔬 学術＆臨床研究ネットワーク', ar: '🔬 شبكة البحث الأكاديمي والسريري' },
+    title: { ko: '🔬 학술 R&D 및 글로벌 교육 연계망 (Academia & Education)', en: '🔬 Academia & Clinical Research Network', ja: '🔬 学術＆臨床研究ネットワーク', ar: '🔬 شبكة البحث الأكاديمي والسريري' },
     desc: {
-      ko: '경희대학교 한의과대학, 한국한의학연구원(KIOM), 대한약선학회 등과 협력하여 7-AXIS 추론 엔진의 학술적/생리학적 효능 검증을 공동 진행하고, 글로벌 인증 아카데미 교육 모델을 개발합니다.',
+      ko: '경희대 F&B R&D, 대구한의대, 원광디지털대 등과 협력하여 쓴맛 저감 향미 마스킹(Taste Masking) 및 곡물 발효 효소 배합 과학화를 연구합니다. 또한, 요리 연구가와 셰프 대상 공동 명의의 "K-Yakseon Practitioner(국제 약선 식단 설계사)" 라이선스 발급 과정을 운영합니다.',
       en: 'Cooperating with Kyung Hee Univ. College of Korean Medicine, Korea Institute of Oriental Medicine (KIOM), and Korean Yakseon Society to validate the academic/physiological efficacy of the 7-AXIS reasoning engine, and develop global certified academy models.',
       ja: '慶熙大学韓医科大学、韓国韓医学研究院（KIOM）、大韓薬膳学会などと協力し、7軸推論エンジンの学術的・生理学的効能の共同検証を行い、グローバル認証アカデミー教育モデルを開発します。',
-      desc: 'التعاون مع كلية الطب الكوري بجامعة كيونغ هي، والمعهد الكوري للطب الكوري (KIOM)، والجمعية الكورية للياكسيون للتحقق من الفعالية الأكاديمية والفسيولوجية لمحرك الاستدلال ذو المحاور السبعة، وتطوير نماذج أكاديمية عالمية معتمدة.'
+      ar: 'التعاون مع كلية الطب الكوري بجامعة كيونغ هي، والمعهد الكوري للطب الكوري (KIOM)، والجمعية الكورية للياكسيون للتحقق من الفعالية الأكاديمية والفسيولوجية لمحرك الاستدلال ذو المحاور السبعة، وتطوير نماذج أكاديمية عالمية معتمدة.'
     }
   },
   'eco-platform': {
-    title: { ko: '🧬 Nuri Lab AI 추론 엔진 (IP SaaS Core)', en: '🧬 Nuri Lab AI Reasoning Engine', ja: '🧬 Nuri Lab AI推論エンジン', ar: '🧬 محرك الذكاء الاصطناعي نوري لاب' },
+    title: {
+      ko: '🧬 Nuri Lab AI 추론 엔진 (원천 특허 15개 청구항 출원)',
+      en: '🧬 Nuri Lab AI Reasoning Engine (15 Patent Claims Filed)',
+      ja: '🧬 Nuri Lab AI推論エンジン (元源特許15の請求項出願)',
+      ar: '🧬 محرك الذكاء الاصطناعي نوري لاب (تم تسجيل 15 بنداً لبراءة الاختراع)'
+    },
     desc: {
-      ko: '본초강목, 황제내경의 전통 한의학 배합 규칙과 현대 생리학 기전을 결합하여, 입력된 개인 체질 및 증상 데이터에 따라 최적의 웰빙 레시피 성분비와 시너지 성미 조합을 실시간 연산하는 핵심 지식재산권(IP)입니다.',
-      en: 'The core intellectual property (IP) combining classical formula rules of Bencao Gangmu/Neijing with modern physiological mechanisms to calculate optimal wellness recipe ratios and synergy taste profiles based on constitutional data in real time.',
+      ko: '전통 약선 원리와 현대 약리 기전을 융합한 핵심 지식재산권(IP)입니다. AI 기반 개인 맞춤형 처방 추천 등 핵심 특허 출원의 15개 독점 청구항에 근거하여 체질별 기질 매핑, 쓴맛 완화 원격 처방, 기상 및 절기 연동 가중치 계산을 실시간 수행합니다.',
+      en: 'The core intellectual property (IP) combining classical formula rules of Bencao Gangmu/Neijing with modern physiological mechanisms, protected under a core patent application with 15 exclusive claims covering custom recommendation, flavor-masking, and weather indexing.',
+      ja: '本草綱목, 黄帝내경의 伝統東洋의학배합규칙과 現代生理학기저를 융합하여 입력된 개인 체질 및 증상 데이터에 따라 최적의 웰니스 레시피 성분비와 시너지 효과를 실시간 연산하는 핵심 지적재산(IP)입니다.',
+      desc: 'الملكية الفكرية الأساسية التي تدمج قواعد التركيبة العشبية مع الآليات الفسيولوجية، والمحمية بموجب طلب براءة اختراع رئيسي يتضمن 15 بنداً (Claims) يحمي محرك التوصية الشخصية بالكامل.'
+    }
+  },
+  /* 'eco-platform_old_broken': {
       ja: '本草綱目、黄帝内経の伝統東洋医学配合規則と現代生理学機序を融合し、入力された個人体質および症状データに従って最適なウェルネスレシピ成分比と相乗効果をリアルタイム演算する核心知的財産（IP）です。',
       desc: 'الملكية الفكرية الأساسية التي تدمج قواعد التركيبة العشبية الكلاسيكية لكتاب بينكاو غانغمو/نيجينغ مع الآليات الفسيولوجية الحديثة لحساب نسب الوصفات المثالية للعافية وملفات تعريف التآزر بناءً على البيانات الدستورية في الوقت الفعلي.'
     }
-  },
+  }, */
   'eco-supply': {
-    title: { ko: '🏭 산지 공급 & GMP 가공망 (Supply Chain)', en: '🏭 Local Supply & GMP Processors', ja: '🏭 産地供給＆GMP加工網', ar: '🏭 الإمدادات المحلية وشبكة معالجة GMP' },
+    title: { ko: '🌲 산지 공급 & GMP 가공망 (Simmani & GMP Chain)', en: '🌲 Local Supply & GMP Processors', ja: '🌲 産地供給＆GMP加工網', ar: '🌲 الإمدادات المحلية وشبكة معالجة GMP' },
     desc: {
-      ko: '전국 12대 지자체 우수 농가 작목반을 통해 고품질 한방 원재료를 안정적으로 수급하고, HACCP/GMP 인증 동결건조 블록 및 저온 감압 농축 추출 시설을 통해 글로벌 검역 기준을 만족하는 분말/액상 소스 성분을 생산합니다.',
+      ko: '전국 야생 산지 심마니 직거래망을 통해 수입 약재와 차별화된 고순도 야생 천연 약재 및 산야초를 공급받습니다. 수급된 원료는 HACCP/GMP 인증 시설에서 Brix 50%+ 저온 감압 농축액 및 영하 40℃ 진공 동결건조 분말(120 Mesh)로 가공되어 검역 부담 없이 글로벌 유통됩니다.',
       en: 'Secures high-quality herbal raw materials stably via 12 local agricultural cooperatives, producing standardized powders/liquid extracts through HACCP/GMP certified freeze-drying and low-temperature vacuum extraction facilities to meet global quarantine standards.',
       ja: '全国12の地方自治体の優秀農家作物クラスターを通じて高品質な東洋医学原料を安定して調達し、HACCP/GMP認証の真空凍結乾燥ブロックおよび低温減圧濃縮抽出施設を通じてグローバル検疫基準を満たす粉末・液状ソースを生産します。',
       desc: 'تأمين المواد الخام العشبية عالية الجودة بشكل مستقر عبر 12 تعاونية زراعية محلية، وإنتاج مساحيق/مستخلصات سائلة موحدة من خلال مرافق تجفيف بالتجميد واستخراج الفراغ منخفض الحرارة المعتمدة من HACCP/GMP لتلبية معايير الحجر الصحي العالمية.'
@@ -183,9 +193,9 @@ const ecoDetailsData = {
     }
   },
   'eco-b2b': {
-    title: { ko: '💼 B2B 프랜차이즈 및 가맹망 (B2B SaaS)', en: '💼 B2B Franchise & Menu Supply Chain', ja: '💼 B2Bフランチャイズ＆メニュー供給網', ar: '💼 فرع B2B لشبكة الامتياز وتوريد القوائم' },
+    title: { ko: '👑 VIP 로얄패밀리 웰니스 치료망 (High-End Centers)', en: '👑 VIP & Royal Family Wellness Network', ja: '👑 VIPロイヤルファミリーウェルネス治療網', ar: '👑 شبكة العافية لكبار الشخصيات والعائلات المالكة' },
     desc: {
-      ko: '글로벌 웰니스 레스토랑, 케어 푸드 가맹망, 리조트 스파 등에 Mila의 표준화 소스 팩과 7-AXIS 식단 처방 SaaS API를 라이선싱하여, 전 세계 어느 지점에서나 동일한 퀄리티의 K-메디푸드 약선 요리를 고객에게 서빙할 수 있도록 가이딩합니다.',
+      ko: '글로벌 웰니스 리조트, 스파, 한방병원 및 VIP 아티스트 번아웃/중독 재활 치료 시설에 누리랩의 7-AXIS 맞춤 식단 처방 API와 표준화 조미 분말 소스를 공급합니다. 세계 최고 부유층에게 프리미엄 한방 양생 치료 가치를 실증 제시하는 핵심 판로입니다.',
       en: 'Licenses Mila\'s standardized sauce packs and 7-AXIS meal formulation SaaS API to global wellness restaurants, care food chains, and spa resorts, guiding them to serve K-Medifood Yakseon dishes with consistent quality worldwide.',
       ja: 'グローバルウェルネスレストラン、ケアフードチェーン、リゾートスパなどにMila의標準化ソースパックと7軸食生活処方SaaS APIをライセンスし、世界中どこでも同一クオリティのK-メディフード薬膳料理を顧客に提供できるようガイドします。',
       desc: 'ترخيص عبوات الصلصات الموحدة من ميلا وواجهة برمجة تطبيقات SaaS لتركيب الوجبات ذات السبعة محاور لمطاعم العافية العالمية وسلاسل الأغذية الصحية ومنتجع السبا، وتوجيههم لتقديم أطباق الكي-ميديفود ياكسيون بجودة متسقة في جميع أنحاء العالم.'
@@ -479,24 +489,26 @@ function updateB2BCalculator() {
   const hasConsulting = consultCheck ? consultCheck.checked : false;
 
   // Real-time text output update
-  const perMonthText = currentLanguage === 'ko' ? ' /월' : (currentLanguage === 'ja' ? ' /月' : (currentLanguage === 'ar' ? ' /شهر' : ' /mo'));
+  const perMonthText = currentLanguage === 'ko' ? ' 건/월' : (currentLanguage === 'ja' ? ' 件/月' : (currentLanguage === 'ar' ? ' وصفة/شهر' : ' recipes/mo'));
   const kgPerMonthText = currentLanguage === 'ko' ? ' kg/월' : (currentLanguage === 'ja' ? ' kg/月' : (currentLanguage === 'ar' ? ' كجم/شهر' : ' kg/mo'));
   document.getElementById('calc-api-val').innerText = apiCalls.toLocaleString() + perMonthText;
   document.getElementById('calc-ing-val').innerText = ingVolume.toLocaleString() + kgPerMonthText;
 
-  // API cost: standard is 50 krw, bulk is 30 krw
+  // Recipe licensing cost: High-end VIP SaaS. Base licensing is ₩1,200,000 (includes up to 10,000 recipes). Extra prescriptions are ₩120/recipe.
   let apiCost = 0;
-  if (apiCalls <= 10000) {
-    apiCost = apiCalls * 50;
-  } else {
-    apiCost = (10000 * 50) + ((apiCalls - 10000) * 30);
+  if (apiCalls > 0) {
+    if (apiCalls <= 10000) {
+      apiCost = 1200000;
+    } else {
+      apiCost = 1200000 + ((apiCalls - 10000) * 120);
+    }
   }
 
-  // Ingredients cost: 20,000 krw per kg
-  const ingCost = ingVolume * 20000;
+  // Ingredients cost: High-margin premium freeze-dried components (₩150,000 per kg) for compounding
+  const ingCost = ingVolume * 150000;
 
-  // Consulting cost: 2,000,000 krw per month (packaged)
-  const consultCost = hasConsulting ? 2000000 : 0;
+  // Consulting cost: Premium VIP R&D Custom custom formula consulting package (₩5,000,000 per month)
+  const consultCost = hasConsulting ? 5000000 : 0;
 
   const subtotal = apiCost + ingCost + consultCost;
 
@@ -590,8 +602,8 @@ function drawSVGChart(totalCost) {
   points.forEach((p) => {
     let label = '';
     if (currentLanguage === 'en' || currentLanguage === 'ar') {
-      if (p.val >= 100000000) {
-        label = (p.val / 1000000).toFixed(0) + 'M';
+      if (p.val >= 1000000000) {
+        label = (p.val / 1000000000).toFixed(1) + 'B';
       } else if (p.val >= 1000000) {
         label = (p.val / 1000000).toFixed(0) + 'M';
       } else if (p.val >= 1000) {
@@ -652,20 +664,24 @@ function drawDonutChart(apiCost, ingCost, consultCost) {
     #3b82f6 ${apiPct + ingPct}% 100%
   )`;
 
+  const apiLabel = currentLanguage === 'ko' ? '처방 알고리즘 라이선싱 (SaaS)' : (currentLanguage === 'ja' ? '処方ライセンス (SaaS)' : (currentLanguage === 'ar' ? 'ترخيص الوصفة (SaaS)' : 'Recipe Licensing (SaaS)'));
+  const ingLabel = currentLanguage === 'ko' ? '처방 연계 컴포넌트 원료 공급' : (currentLanguage === 'ja' ? '処方連動原材料供給' : (currentLanguage === 'ar' ? 'توريد المكونات المرتبطة بالوصفة' : 'Prescription-linked Ingredients Supply'));
+  const consultLabel = currentLanguage === 'ko' ? '독점 R&D 처방 설계 컨설팅' : (currentLanguage === 'ja' ? '独占R&D処方設計コンサルティング' : (currentLanguage === 'ar' ? 'استشارات تصميم وصفة البحث والتطوير' : 'Exclusive R&D Custom Consulting'));
+
   legend.innerHTML = `
     <div style="display:flex; align-items:center; gap:8px; font-size:0.75rem; color:#e2e8f0; margin-bottom:6px;">
       <span style="display:inline-block; width:10px; height:10px; background:var(--primary); border-radius:2px;"></span>
-      <span style="flex:1;">${getTranslation("API SaaS 구독", currentLanguage)}</span>
+      <span style="flex:1;">${apiLabel}</span>
       <strong>${apiPct}%</strong>
     </div>
     <div style="display:flex; align-items:center; gap:8px; font-size:0.75rem; color:#e2e8f0; margin-bottom:6px;">
       <span style="display:inline-block; width:10px; height:10px; background:var(--accent); border-radius:2px;"></span>
-      <span style="flex:1;">${getTranslation("원료/소스 조달", currentLanguage)}</span>
+      <span style="flex:1;">${ingLabel}</span>
       <strong>${ingPct}%</strong>
     </div>
     <div style="display:flex; align-items:center; gap:8px; font-size:0.75rem; color:#e2e8f0;">
       <span style="display:inline-block; width:10px; height:10px; background:#3b82f6; border-radius:2px;"></span>
-      <span style="flex:1;">${getTranslation("R&D 컨설팅", currentLanguage)}</span>
+      <span style="flex:1;">${consultLabel}</span>
       <strong>${consultPct}%</strong>
     </div>
   `;
@@ -702,40 +718,40 @@ function printB2BEstimate() {
         <h3 style="border-bottom:1px solid #cbd5e1; padding-bottom:8px; color:#0f172a;">${getTranslation("1. 서비스 이용조건", currentLanguage)}</h3>
         <table style="width:100%; border-collapse:collapse; margin-top:10px; font-size:0.9rem;">
           <tr style="border-bottom:1px solid #f1f5f9;">
-            <td style="padding:10px 0; font-weight:700; width:220px; color:#334155;">${getTranslation("B2B 약선 추천 API 호출수:", currentLanguage)}</td>
-            <td style="padding:10px 0; color:#0f172a;">${currentLanguage === 'ko' ? '월 ' + parseInt(apiCalls).toLocaleString() + ' 회' : (currentLanguage === 'ja' ? '月 ' + parseInt(apiCalls).toLocaleString() + ' 回' : (currentLanguage === 'ar' ? parseInt(apiCalls).toLocaleString() + ' استدعاء / شهر' : parseInt(apiCalls).toLocaleString() + ' calls / month'))}</td>
+            <td style="padding:10px 0; font-weight:700; width:220px; color:#334155;">${currentLanguage === 'ko' ? '1:1 맞춤형 레시피 처방 건수:' : (currentLanguage === 'ja' ? '1:1適合レシピ処方件数:' : (currentLanguage === 'ar' ? 'عدد وصفات الرعاية الشخصية 1:1:' : '1:1 Custom Recipe Prescriptions:'))}</td>
+            <td style="padding:10px 0; color:#0f172a;">${currentLanguage === 'ko' ? '월 ' + parseInt(apiCalls).toLocaleString() + ' 건' : (currentLanguage === 'ja' ? '月 ' + parseInt(apiCalls).toLocaleString() + ' 件' : (currentLanguage === 'ar' ? parseInt(apiCalls).toLocaleString() + ' وصفة / شهر' : parseInt(apiCalls).toLocaleString() + ' recipes / month'))}</td>
           </tr>
           <tr style="border-bottom:1px solid #f1f5f9;">
-            <td style="padding:10px 0; font-weight:700; color:#334155;">${getTranslation("한방 약리 건식 원료 공급량:", currentLanguage)}</td>
+            <td style="padding:10px 0; font-weight:700; color:#334155;">${currentLanguage === 'ko' ? '처방 연계 고부가 원료 공급량:' : (currentLanguage === 'ja' ? '処方連動高付加価値原料供給量:' : (currentLanguage === 'ar' ? 'حجم إمدادات المكونات المرتبطة بالوصفة:' : 'Prescription-linked Ingredients Supply:'))}</td>
             <td style="padding:10px 0; color:#0f172a;">${currentLanguage === 'ko' ? '월 ' + parseInt(ingVol).toLocaleString() + ' kg' : (currentLanguage === 'ja' ? '月 ' + parseInt(ingVol).toLocaleString() + ' kg' : (currentLanguage === 'ar' ? parseInt(ingVol).toLocaleString() + ' كجم / شهر' : parseInt(ingVol).toLocaleString() + ' kg / month'))}</td>
           </tr>
           <tr style="border-bottom:1px solid #f1f5f9;">
-            <td style="padding:10px 0; font-weight:700; color:#334155;">${getTranslation("커스텀 식단 컨설팅 여부:", currentLanguage)}</td>
-            <td style="padding:10px 0; color:#0f172a;">${hasConsult ? getTranslation('신청 (연간 패키지)', currentLanguage) : getTranslation('미신청', currentLanguage)}</td>
+            <td style="padding:10px 0; font-weight:700; color:#334155;">${currentLanguage === 'ko' ? '독점 R&D 처방 설계 적용 여부:' : (currentLanguage === 'ja' ? '独占R&D処方設計適用の有無:' : (currentLanguage === 'ar' ? 'تطبيق تصميم وصفة البحث والتطوير الحصري:' : 'Exclusive R&D Custom Design:'))}</td>
+            <td style="padding:10px 0; color:#0f172a;">${hasConsult ? (currentLanguage === 'ko' ? '적용 (연간 패키지)' : (currentLanguage === 'ja' ? '適用 (年間パッケージ)' : (currentLanguage === 'ar' ? 'مطبق (حزمة سنوية)' : 'Applied (Annual Package)'))) : (currentLanguage === 'ko' ? '미적용' : (currentLanguage === 'ja' ? '未適用' : (currentLanguage === 'ar' ? 'غير مطبق' : 'Not Applied')))}</td>
           </tr>
         </table>
       </div>
 
       <div style="margin-top:40px;">
-        <h3 style="border-bottom:1px solid #cbd5e1; padding-bottom:8px; color:#0f172a;">${getTranslation("2. 예상 요금 명세 (월간)", currentLanguage)}</h3>
+        <h3 style="border-bottom:1px solid #cbd5e1; padding-bottom:8px; color:#0f172a;">${currentLanguage === 'ko' ? '2. 예상 요금 명세 (월간)' : (currentLanguage === 'ja' ? '2. 予想料金明細 (月間)' : (currentLanguage === 'ar' ? '2. تفاصيل الرسوم المتوقعة (شهرياً)' : '2. Estimated Fee Breakdown (Monthly)'))}</h3>
         <table style="width:100%; border-collapse:collapse; margin-top:10px; font-size:0.9rem; text-align:left;">
           <thead>
             <tr style="background:#f8fafc; border-bottom:2px solid #cbd5e1;">
-              <th style="padding:12px; color:#0f172a;">${getTranslation("항목", currentLanguage)}</th>
-              <th style="padding:12px; text-align:right; color:#0f172a;">${getTranslation("비용 (월)", currentLanguage)}</th>
+              <th style="padding:12px; color:#0f172a;">${currentLanguage === 'ko' ? '항목' : (currentLanguage === 'ja' ? '項目' : (currentLanguage === 'ar' ? 'البند' : 'Item'))}</th>
+              <th style="padding:12px; text-align:right; color:#0f172a;">${currentLanguage === 'ko' ? '비용 (월)' : (currentLanguage === 'ja' ? '費用 (月)' : (currentLanguage === 'ar' ? 'التكلفة (شهرياً)' : 'Cost (Monthly)'))}</th>
             </tr>
           </thead>
           <tbody>
             <tr style="border-bottom:1px solid #f1f5f9;">
-              <td style="padding:12px; color:#334155;">${getTranslation("1. API 엔진 라이선스 비용", currentLanguage)}</td>
+              <td style="padding:12px; color:#334155;">${currentLanguage === 'ko' ? '1. 맞춤 처방 알고리즘 라이선스 비용' : (currentLanguage === 'ja' ? '1. 適合処方アルゴリズムライセンス費用' : (currentLanguage === 'ar' ? '1. تكلفة ترخيص خوارزمية الوصفة المخصصة' : '1. Custom Recipe Algorithm License Fee'))}</td>
               <td style="padding:12px; text-align:right; color:#0f172a;">${apiCost}</td>
             </tr>
             <tr style="border-bottom:1px solid #f1f5f9;">
-              <td style="padding:12px; color:#334155;">${getTranslation("2. 건식 약리 원료 대량 공급 비용", currentLanguage)}</td>
+              <td style="padding:12px; color:#334155;">${currentLanguage === 'ko' ? '2. 처방 매칭 고부가 원재료 공급 비용' : (currentLanguage === 'ja' ? '2. 処方連動高付加価値原料供給費用' : (currentLanguage === 'ar' ? '2. تكلفة توريد المكونات المرتبطة بالوصفة' : '2. Prescription-linked Ingredients Supply Fee'))}</td>
               <td style="padding:12px; text-align:right; color:#0f172a;">${ingCost}</td>
             </tr>
             <tr style="border-bottom:1px solid #f1f5f9;">
-              <td style="padding:12px; color:#334155;">${getTranslation("3. 식단 컨설팅 패키지 (월 분할)", currentLanguage)}</td>
+              <td style="padding:12px; color:#334155;">${currentLanguage === 'ko' ? '3. 독점 R&D 처방 설계 컨설팅 비용 (월 분할)' : (currentLanguage === 'ja' ? '3. 独占R&D処方設計コンサルティング費用 (月割)' : (currentLanguage === 'ar' ? '3. تكلفة استشارات تصميم وصفة البحث والتطوير (موزعة شهرياً)' : '3. Exclusive R&D Custom Consulting Fee (Amortized)'))}</td>
               <td style="padding:12px; text-align:right; color:#0f172a;">${consultCost}</td>
             </tr>
             <tr style="border-bottom:1px solid #f1f5f9; font-weight:600; color:#10b981;">
