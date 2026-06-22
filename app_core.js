@@ -10053,18 +10053,129 @@ window.updateMarketingTargetCount = updateMarketingTargetCount;
 window.loadMarketingTemplate = loadMarketingTemplate;
 window.runMarketingCampaign = runMarketingCampaign;
 
-// ─── 비즈니스 대시보드 (Ecosystem) & 동적 제안서 자동 생성기 ───
+// ─── Sasang Constitution Mini-Quiz Implementation ───
 
-// 1. 생태계 서브 탭 스위칭
+function startMiniQuiz() {
+  quizCurrentIndex = 0;
+  quizAnswers = [];
+  const intro = document.getElementById('quiz-intro-section');
+  const question = document.getElementById('quiz-question-section');
+  const result = document.getElementById('quiz-result-section');
+  if (intro) intro.style.display = 'none';
+  if (question) question.style.display = 'block';
+  if (result) result.style.display = 'none';
+  renderQuizQuestion();
+}
 
+function renderQuizQuestion() {
+  const qNum = document.getElementById('quiz-q-num');
+  const qText = document.getElementById('quiz-q-text');
+  const container = document.getElementById('quiz-options-container');
+  if (!qNum || !qText || !container) return;
 
-// ─── [MODULARIZE] B2B LOGIC MOVED TO app_b2b.js ───
+  const currentQ = quizQuestions[quizCurrentIndex];
+  qNum.innerText = `QUESTION ${quizCurrentIndex + 1} OF ${quizQuestions.length}`;
+  qText.innerText = getTranslation(currentQ.q, currentLanguage);
 
+  container.innerHTML = '';
+  currentQ.options.forEach((opt, idx) => {
+    const btn = document.createElement('button');
+    btn.className = 'btn btn-outline';
+    btn.style.width = '100%';
+    btn.style.textAlign = 'left';
+    btn.style.fontSize = '0.85rem';
+    btn.style.padding = '10px 14px';
+    btn.style.whiteSpace = 'normal';
+    btn.style.wordBreak = 'break-all';
+    btn.innerText = getTranslation(opt.text, currentLanguage);
+    btn.onclick = () => selectQuizOption(opt.type);
+    container.appendChild(btn);
+  });
+}
 
+function selectQuizOption(type) {
+  quizAnswers.push(type);
+  if (quizCurrentIndex < quizQuestions.length - 1) {
+    quizCurrentIndex++;
+    renderQuizQuestion();
+  } else {
+    // Calculate result
+    const counts = {};
+    let maxCount = 0;
+    let resultType = '소음인';
+    quizAnswers.forEach(ans => {
+      counts[ans] = (counts[ans] || 0) + 1;
+      if (counts[ans] > maxCount) {
+        maxCount = counts[ans];
+        resultType = ans;
+      }
+    });
+    detectedConstitutionResult = resultType;
+    showQuizResult();
+  }
+}
 
+function showQuizResult() {
+  const question = document.getElementById('quiz-question-section');
+  const result = document.getElementById('quiz-result-section');
+  const rTitle = document.getElementById('quiz-result-title');
+  const rDesc = document.getElementById('quiz-result-desc');
 
+  if (question) question.style.display = 'none';
+  if (result) result.style.display = 'block';
 
-// ─── [MODULARIZE] PROPOSAL LOGIC MOVED TO app_proposal.js ───
+  if (rTitle) {
+    rTitle.innerText = `${getTranslation('진단 결과', currentLanguage)}: ${getTranslation(detectedConstitutionResult, currentLanguage)}`;
+  }
+  if (rDesc) {
+    let descKey = '';
+    if (detectedConstitutionResult === '소음인') descKey = '소음인 (체온 저하가 잦고 비위 소화기가 약함)';
+    else if (detectedConstitutionResult === '소양인') descKey = '소양인 (열감이 많고 신장/정혈이 부족함)';
+    else if (detectedConstitutionResult === '태음인') descKey = '태음인 (체내 진액이 뭉치기 쉽고 호흡기가 약함)';
+    else if (detectedConstitutionResult === '태양인') descKey = '태양인 (기운이 위로 솟구치기 쉬운 체질)';
+    
+    // Fallback if not found
+    rDesc.innerText = getTranslation(descKey, currentLanguage) || descKey;
+  }
+}
+
+function applyQuizResult() {
+  const currentUser = JSON.parse(localStorage.getItem('nuri_current_subscriber') || 'null');
+  if (currentUser) {
+    currentUser.constitution = detectedConstitutionResult;
+    localStorage.setItem('nuri_current_subscriber', JSON.stringify(currentUser));
+  }
+  
+  // Update UI and trigger reload/refresh
+  const userConstBadge = document.getElementById('user-const-badge');
+  if (userConstBadge) {
+    userConstBadge.innerText = getTranslation(detectedConstitutionResult, currentLanguage);
+  }
+  // Re-run inference and recipes
+  if (typeof runInference === 'function') runInference();
+
+  // Close or reset widget
+  resetMiniQuiz();
+  
+  // Display alert
+  alert(getTranslation('체질 진단 결과가 프로필에 성공적으로 적용되었습니다.', currentLanguage));
+}
+
+function resetMiniQuiz() {
+  quizCurrentIndex = 0;
+  quizAnswers = [];
+  const intro = document.getElementById('quiz-intro-section');
+  const question = document.getElementById('quiz-question-section');
+  const result = document.getElementById('quiz-result-section');
+  if (intro) intro.style.display = 'block';
+  if (question) question.style.display = 'none';
+  if (result) result.style.display = 'none';
+}
+
+window.startMiniQuiz = startMiniQuiz;
+window.selectQuizOption = selectQuizOption;
+window.applyQuizResult = applyQuizResult;
+window.resetMiniQuiz = resetMiniQuiz;
 
 
 
