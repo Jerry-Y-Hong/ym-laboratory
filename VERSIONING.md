@@ -1,32 +1,33 @@
 # 버전 관리 규칙 cleavage
 
-## 현재 버전: v2.10.16
+## 현재 버전: v2.10.17
 
 ## 규칙
 파일을 수정할 때마다 `index.html`의 버전 번호를 올린다.
 
 | 변경 규모 | 예시 | 버전 처리 |
 |---|---|---|
-| 버그 수정, 번역 수정, 소소한 UI 조정 | 약재 번역 오류 수정 | `2.10.16` → `2.10.17` (패치) |
+| 버그 수정, 번역 수정, 소소한 UI 조정 | 약재 번역 오류 수정 | `2.10.17` → `2.10.18` (패치) |
 | 새 기능, 탭 추가, 데이터 추가 | 새 탭 추가 | `2.10.x` → `2.11.0` (마이너) |
 | 전체 구조 변경 | 엔진 교체 | `2.x.x` → `3.0.0` (메이저) |
 
 ## 수정 위치
 `d:\antigravity\mfco-site\index.html` 내 다음 7개 줄:
 ```html
-<link rel="stylesheet" href="style.css?v=2.10.16">
-<script src="engine.js?v=2.10.16"></script>
-<script src="app_core.js?v=2.10.16"></script>
-<script src="app_dashboard.js?v=2.10.16"></script>
-<script src="app_traditional.js?v=2.10.16"></script>
-<script src="app_b2b.js?v=2.10.16"></script>
-<script src="app_proposal_builder.js?v=2.10.16"></script>
-<script src="app_beauty.js?v=2.10.16"></script>
+<link rel="stylesheet" href="style.css?v=2.10.17">
+<script src="engine.js?v=2.10.17"></script>
+<script src="app_core.js?v=2.10.17"></script>
+<script src="app_dashboard.js?v=2.10.17"></script>
+<script src="app_traditional.js?v=2.10.17"></script>
+<script src="app_b2b.js?v=2.10.17"></script>
+<script src="app_proposal_builder.js?v=2.10.17"></script>
+<script src="app_beauty.js?v=2.10.17"></script>
 ```
 
 ## 변경 이력
 | 버전 | 날짜 | 내용 |
 |---|---|---|
+| v2.10.17 | 2026-06-22 | 좌측 상단 워크스페이스 진입 뱃지/버튼을 B2B/관리자 워크스페이스(B2B/Admin Workspace)로 변경 및 다국어 연동 |
 | v2.10.16 | 2026-06-22 | CRM 마케팅 자동화 캠페인 설계기 및 서브패널 헤더/필터 번역 사전 등록 및 영문화 적용 |
 | v2.10.15 | 2026-06-22 | 구독자 & CRM 센터(tab-subscribers) 탭을 최고 관리자(Admin) 외의 계정에는 비노출(Hidden) 처리하는 보안 규칙 보완 |
 | v2.10.14 | 2026-06-22 | 전문가 모드 대시보드 통계 카드 지표 라벨 영문화(Stabilized Unique Natural Ingredients 등) |
