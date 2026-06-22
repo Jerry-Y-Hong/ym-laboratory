@@ -54,7 +54,7 @@
     {
       "id": "trad-03-2",
       "category": "Lactic Acid Bacteria",
-      "name": "Aspergillus oryzae (Hwang-guk-gyun)",
+      "name": "Aspergillus oryzae (Yellow Koji Mold)",
       "english_name": "Aspergillus oryzae",
       "description": "This traditional fermentation and soybean product converts mulberries into amino acids, enhancing the primary substance (myoferment). It activates prebiotics that aid digestion and create a pleasant taste.",
       "ingredients": "Kombucha, rice, optimal cultivation humidity and temperature (28-32°C)",
@@ -71,7 +71,7 @@
     {
       "id": "trad-04",
       "category": "Traditional Folk Cuisine",
-      "name": "Seaweed Oyster Soup (Maesaengi Gulguk)",
+      "name": "Capsosiphon Seaweed & Oyster Soup (Maesaengi Gulguk)",
       "english_name": "Maesaengi Gulguk",
       "description": "A traditional Korean dish from the southern part of Jeollanam-do during winter, a nourishing soup made with tender sea urchin and jelly-like seafood broth from the clean South Sea, is used to replenish energy.",
       "ingredients": "Korean Ginseng: 300 grams  \nGoji Berries: 150 grams  \nCelery Root: 20 grams  \nChopped Garlic: 10 grams  \nSoy Sauce: 1 large tablespoon  \nOlive Oil: 1 small tablespoon  \nFish Soup Base (Salmon or Dashi)",
@@ -107,7 +107,7 @@
     {
       "id": "trad-06",
       "category": "Traditional乡土料理",
-      "name": "Bangpungnamul Haedok Muchim (Wind-dispelling Herb Salad)",
+      "name": "Saposhnikovia Herb Salad (Bangpungnamul Muchim)",
       "english_name": "Bangpungnamul Haedok Muchim",
       "description": "This spring tonic medicinal food, made by blending the leaves of a wind-protecting herb to which the wind has been blocked, is seasoned with fermented soybean paste and wrapped in bamboo leaves.",
       "ingredients": "Green Tea Shoots 200g, Traditional Soy Sauce 1.5 large tablespoons, Hawthorn Berry 1 large tablespoon, Finely Chopped Garlic 1 small tablespoon, Sesame Oil 1 large tablespoon, Stir-Fried Bean Curd 1 small tablespoon",
@@ -143,7 +143,7 @@
     {
       "id": "trad-06-3",
       "category": "Traditional Korean Cuisine",
-      "name": "Gilgyeong Licorice Root (Gamcho) Dorajitang",
+      "name": "Platycodon & Licorice Wellness Decoction (Gilgyeong Gamchotang)",
       "english_name": "Gilgyeong Gamcho Dorajitang",
       "description": "This is a traditional folk remedy for respiratory diseases, especially dry coughs. It relieves the bitter taste of bellflower root and soothes the mind and body.",
       "ingredients": "30g of dried bellflower root, 10g of licorice, 5 jujubes, clean water",
@@ -178,7 +178,7 @@
     {
       "id": "trad-08",
       "category": "Korean Cuisine",
-      "name": "Jinju-Ha Clan Heotjesabab",
+      "name": "Jinju-Ha Clan Ritual-Style Bibimbap (Heotjesabab)",
       "english_name": "Jinju-Ha Clan Hot Pot Rice Bowl",
       "description": "This is a hot pot rice bowl that Jinju-Ha Clan members eat without performing sacrificial rites. It consists of vegetables such as Chinese cabbage, bellflower root, and tofu, along with meat and fish, served over a savory broth made with soy sauce seasoning.",
       "ingredients": [
@@ -206,8 +206,8 @@
     {
       "id": "trad-08-2",
       "category": "Korean cuisine",
-      "name": "Gyeongju Choi-rich Clan Yukgaejang",
-      "english_name": "Gyeongju Choi-rich Clan Yukgaejang",
+      "name": "Gyeongju Choi-rich Clan Spicy Beef Soup (Yukgaejang)",
+      "english_name": "Gyeongju Choi-rich Clan Spicy Beef Soup (Yukgaejang)",
       "description": "This is a traditional Korean dish that was prepared for important guests or during times of famine, where the family would simmer pork and radish to share with neighbors.",
       "ingredients": "400g lean pork belly, 3 large onions, 100g ginger, 100g tangerine peel, soy sauce 2 tablespoons, garlic oil 2 tablespoons, finely chopped green onion 1.5 tablespoons, fermented black beans",
       "steps": [
@@ -266,7 +266,7 @@
     {
       "id": "trad-09-2",
       "category": "Korean Spicy Soybean Paste Soup",
-      "name": "Sansa Maesil Cho-Chili Paste (Gochujang) (Hawthorn Plum Sweet Chili Paste)",
+      "name": "Hawthorn & Green Plum Sweet Chili Paste (Sansa Maesil Gochujang)",
       "english_name": "Sansa Maesil Cho-Gochujang",
       "description": "This premium functional soy sauce is made by blending traditional Korean chili paste with dried mountain yam, honey, and natural sweet tea. It helps digest meat and fish while enhancing the flavor.",
       "ingredients": "Traditional chili paste 4 tablespoons, maesil (dried mountain yam) powder 2 tablespoons, honey 2 tablespoons, natural sweet tea 1.5 tablespoons, minced garlic 1 tablespoon, honey 1 tablespoon",
@@ -283,8 +283,8 @@
     {
       "id": "trad-09-3",
       "category": "Salted Fish Dressing Samulnotto",
-      "name": "Samultang Salted Fish Dressing",
-      "english_name": "Samultang Salted Fish Dressing",
+      "name": "Four-Herbs Tonic (Samultang) Salted Fish Dressing",
+      "english_name": "Four-Herbs Tonic (Samultang) Salted Fish Dressing",
       "description": "Enriches circulation and blood nourishment with Angelica Root, Thousand Gold, Mugwort, and Mountain Yam. A special seasoning for Samulnotto.",
       "ingredients": [
         "2 tablespoons minced fish paste (eel paste), 2 tablespoons eel broth, 2 tablespoons Samulnotta dressing liquid, 1 tablespoon chopped green onion, 1 tablespoon ground ginger, 1 tablespoon chili pepper powder"
@@ -301,8 +301,8 @@
     {
       "id": "trad-10",
       "category": "Traditional Liquor",
-      "name": "Maekmundong Gugija Herbal Wine",
-      "english_name": "Maekmundong Gugija Herbal Wine",
+      "name": "Liriope Tuber & Goji Berry Herbal Wine (Maekmundong Gugija Wine)",
+      "english_name": "Liriope Tuber & Goji Berry Herbal Wine (Maekmundong Gugija Wine)",
       "description": "This traditional recipe combines the medicinal properties of Maekmundong (Liriope Tuber), Guji (Goji Berry), and Daqiu (Jujube) with the beneficial effects of Ginseng, Radix Isatidis (Mountain Yam), and Licorice to create a harmonious blend that soothes and nourishes the lungs.",
       "ingredients": "2kg glutinous rice, 400g traditional koji, 50g prepared Maekmundong, 50g prepared Guji, 30g Daqiu, 5g Radix Isatidis, 1L clean water",
       "steps": [
@@ -319,8 +319,8 @@
     {
       "id": "trad-10-2",
       "category": "Traditional Liquor",
-      "name": "Bongnyeong Tonic Makgeolli",
-      "english_name": "Bongnyeong Tonic Makgeolli",
+      "name": "Poria Tonic Rice Wine (Bokryeong Makgeolli)",
+      "english_name": "Poria Tonic Rice Wine (Bokryeong Makgeolli)",
       "description": "This is a white, smooth tonic sake that enhances circulation and energy flow while detoxifying body moisture and waste. It is made by mixing fermented rice with black fungus powder and traditional koji, then fermenting it in an earthenware jar.",
       "ingredients": "3kg brown rice, 150g black fungus powder, 600g traditional koji, clean water",
       "steps": [
@@ -372,8 +372,8 @@
     {
       "id": "trad-12",
       "category": "Traditional Soy Sauce Dressing",
-      "name": "Traditional Soy-sauce Dallae Dressing",
-      "english_name": "Traditional Soy-sauce Dallae Dressing",
+      "name": "Traditional Soy-sauce Wild Chive (Dallae) Dressing",
+      "english_name": "Traditional Soy-sauce Wild Chive (Dallae) Dressing",
       "description": "This springtime detox and blood circulation improvement sauce is made by infusing traditional Korean soy sauce with a spicy, warm spring season opener.",
       "ingredients": [
         "3 tablespoons aged soy sauce",
@@ -396,8 +396,8 @@
     {
       "id": "kimchi-01",
       "category": "Kimchi Category",
-      "name": "Gamtae (Seaweed) Kimchi",
-      "english_name": "Gamtae (Seaweed) Kimchi",
+      "name": "Gamtae Seaweed Kimchi",
+      "english_name": "Gamtae Seaweed Kimchi",
       "description": "This is a traditional seaweed kimchi made from the gamtae (seaweed), which is harvested in pristine coastal areas during winter. It has a strong marine aroma and enhances both strength and appetite.",
       "ingredients": "300g of fresh gamtae, 100g of radish, 2 garlic cloves, 3 tablespoons of minced fish sauce, 1 tablespoon of finely chopped garlic, 1 small tablespoon of ginger, 2 tablespoons of ground red pepper, 1 cup of soybean paste",
       "steps": [
@@ -414,8 +414,8 @@
     {
       "id": "kimchi-02",
       "category": "Kimchi Category",
-      "name": "Gat Mulkimchi (Leaf Mustard Water Kimchi)",
-      "english_name": "Gat Mulkimchi (Leaf Mustard Water Kimchi)",
+      "name": "Leaf Mustard Water Kimchi (Gat Mulkimchi)",
+      "english_name": "Leaf Mustard Water Kimchi (Gat Mulkimchi)",
       "description": "A leaf mustard water kimchi made with red cabbage and spicy radish, featuring a beautiful autumn/winter color of the bright-colored soup broth and a fragrant, slightly pungent aroma.",
       "ingredients": "Red cabbage 500g, radish 300g, pear half, cilantro 50g, glutinous rice flour 3 tablespoons, garlic 4 cloves, ginger 1/2 tablespoon, salt 2.5 large spoons, water 8 cups",
       "steps": [
@@ -432,8 +432,8 @@
     {
       "id": "kimchi-03",
       "category": "Korean Kimchi",
-      "name": "Gaeseong Bossam Kimchi",
-      "english_name": "Gaeseong Bossam Kimchi",
+      "name": "Gaeseong Wrapped Kimchi (Bossam Kimchi)",
+      "english_name": "Gaeseong Wrapped Kimchi (Bossam Kimchi)",
       "description": "This is a traditional, high-quality royal kimchi from Gaeseong, featuring abundant ingredients such as napa cabbage leaves, garlic, sea cucumber, dried shiitake mushrooms, chestnuts, and pears. It's a special banquet condiment that enhances vitality.",
       "ingredients": "1 large head of shredded napa cabbage, 500g of garlic, 1 whole dried shiitake mushroom, 2 medium-sized dried sea cucumber slices, 3 chestnuts, 1 tablespoon of pears, 50g of water dropwort, 50g of radish, 1 cup of ground red pepper flakes, soy sauce, and shrimp paste broth",
       "steps": [
@@ -450,8 +450,8 @@
     {
       "id": "kimchi-04",
       "category": "Kimchi",
-      "name": "Gegukji Kimchi",
-      "english_name": "Gegukji Kimchi",
+      "name": "Gegukji (Crab and Cabbage Kimchi)",
+      "english_name": "Gegukji (Crab and Cabbage Kimchi)",
       "description": "This is a traditional Korean side dish, known as the representative seafood kimchi of the eastern coastal region of North Chungcheong Province. It is made by adding small fish (like eels) or dried fish broth to seasoned and mashed napa cabbage, radish, garlic, and mountain yam soup.",
       "ingredients": "600g of pickled mustard greens, 300g of aged turnip, 200g of radish, 1 cup of dried fish broth, 3 tablespoons of ground ginger, 2 tablespoons of minced garlic, 2 tablespoons of mountain yam juice",
       "steps": [
@@ -468,8 +468,8 @@
     {
       "id": "kimchi-05",
       "category": "sweet potato stem kimchi",
-      "name": "Gogumajulgi Kimchi (Sweet Potato Stem Kimchi)",
-      "english_name": "Gogumajulgi Kimchi (Sweet Potato Stem Kimchi)",
+      "name": "Sweet Potato Stem Kimchi (Gogumajulgi Kimchi)",
+      "english_name": "Sweet Potato Stem Kimchi (Gogumajulgi Kimchi)",
       "description": "This is a summer specialty Korean side dish, made to be eaten when there's not enough napa cabbage and the weather gets hot. It has sweet potatoes with tender skin that are stuffed with radishes and seasoned with spicy seasonings.",
       "ingredients": "500g sweet potato stems, 100g green onions, 4 tbsp soy sauce, 3 tbsp minced garlic, 1.5 tbsp chopped green onion, 1 small cup ginger, 2 tbsp sesame oil, salt",
       "steps": [
@@ -486,7 +486,7 @@
     {
       "id": "kimchi-06",
       "category": "Korean Lettuce Kimchi",
-      "name": "Godeulppaegi Kimchi (Korean Lettuce Kimchi)",
+      "name": "Korean Lettuce Kimchi (Godeulppaegi Kimchi)",
       "english_name": "Goseolppae Kimchi (Korean Lettuce Kimchi)",
       "description": "This is a premium winter kimchi from the southern region, featuring a unique aroma of lesser yang type and spicy taste. It is seasoned with garlic, radish, and other seasonings.",
       "ingredients": "1 kg Korean lettuce, 100 g cilantro, 1 cup soy sauce, 1/2 cup anchovy paste, 2 tablespoons sesame oil, 3 tablespoons chestnut powder, 1/2 cup diced garlic, 2 tablespoons minced radish, 2 tablespoons minced green onion, 1/2 cup chopped scallions, 2 tablespoons minced garlic, 1/4 cup ground pepper",
@@ -504,8 +504,8 @@
     {
       "id": "kimchi-07",
       "category": "seaweed kimchi",
-      "name": "Gugangtae Kimchi (Gangtai Seaweed Kimchi)",
-      "english_name": "Gugangtae Kimchi (Gangtai Seaweed Kimchi)",
+      "name": "Gangtai Seaweed Kimchi (Gamtae Kimchi)",
+      "english_name": "Gangtai Seaweed Kimchi (Gamtae Kimchi)",
       "description": "This unique seaweed kimchi is a winter specialty from the coastal areas of Quancheng, Gwangju. It is made by gently mixing tender sea lettuce with minced anchovy paste and soy sauce seasoning.",
       "ingredients": "sea lettuce 400g, 2 large spoons of anchovy paste, 1 large spoon of soy sauce, 2 large spoons of chopped garlic, 1 large spoon of ginger, salt",
       "steps": [
@@ -540,7 +540,7 @@
     {
       "id": "kimchi-09",
       "category": "Kkolttugi Mu Kimchi (Baby Octopus Radish Kimchi)",
-      "name": "Kkolttugi Mu Kimchi",
+      "name": "Baby Squid & Radish Kimchi (Kkolttugi Radish Kimchi)",
       "english_name": "Kolttugi Mu Kimchi",
       "description": "A savory and tangy radish kimchi made by mixing fresh octopus, crispy radishes, seasonings, and teas.",
       "ingredients": "300g baby octopus, 500g radish, 40g waterwort, 5 large spoons of soy sauce, 3 large spoons of fish lees, 1.5 large spoons of minced garlic, 1 small spoon of ginger, 2 large spoons of kimchi lees, 1 large pot",
