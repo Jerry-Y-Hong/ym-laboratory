@@ -212,9 +212,10 @@
       "ko": "소식",
       "en_academic": "Food Stagnation Relieving",
       "en_consumer": "Digestive Aid – Break Down & Digest Better",
-      "ja": "消食（しょうしょく）",
+      "ja": "消食 (消化促進)",
       "ar": "تحسين هضم الطعام",
-      "context": "과식으로 인한 식체(食滯) 해소."
+      "context": "과식으로 인한 식체(食滯) 해소.",
+      "en": "Food Stagnation Relieving"
     },
     "행기": {
       "ko": "행기",
@@ -7145,20 +7146,20 @@
     },
     "독활": {
       "ko": "독활",
-      "ja": "ユニーク",
-      "en": "Solitary life",
+      "ja": "ウドの根 (独活)",
+      "en": "Aralia Continentalis Root (Dokwhal)",
       "ar": "الحياة الانفرادية"
     },
     "동과자": {
       "ko": "동과자",
-      "ja": "お菓子",
-      "en": "confectionery",
+      "ja": "トウ간の種 (冬瓜子)",
+      "en": "Winter Melon Seeds",
       "ar": "حلويات"
     },
     "동과피": {
       "ko": "동과피",
-      "ja": "東科皮",
-      "en": "Copper skin",
+      "ja": "トウ간の皮 (冬瓜皮)",
+      "en": "Winter Melon Peel",
       "ar": "الجلد النحاسي"
     },
     "동규자": {
@@ -7175,8 +7176,8 @@
     },
     "두시": {
       "ko": "두시",
-      "en": "two o'clock",
-      "ja": "ドゥシ",
+      "en": "Fermented Black Beans (Dushi)",
+      "ja": "淡豆豉 (ずし)",
       "ar": "الساعة الثانية"
     },
     "두충": {
@@ -7205,9 +7206,9 @@
     },
     "등심초": {
       "ko": "등심초",
-      "en": "rush",
+      "en": "Soft Rush Pith (Juncus Effusus)",
       "ar": "يسرع",
-      "ja": "背中の心"
+      "ja": "イグサの髄 (灯心草)"
     },
     "따뜻한 탕 적합": {
       "ko": "따뜻한 탕 적합",
@@ -7463,8 +7464,8 @@
     },
     "반대해": {
       "ko": "반대해",
-      "ja": "逆に",
-      "en": "I'm against it",
+      "ja": "뚱다하이 (胖大海)",
+      "en": "Malva Nut (Sterculia Seed)",
       "ar": "أنا ضد ذلك"
     },
     "반묘": {
@@ -7805,20 +7806,20 @@
     },
     "별갑": {
       "ko": "별갑",
-      "en": "Softshell Turtle Shell",
+      "en": "Softshell Turtle Shell (Trionycis Carapax)",
       "ar": "درع سلحفاة المياه العذبة",
-      "ja": "鼈甲 (별갑)"
+      "ja": "スッポンの甲羅 (鼈甲)"
     },
     "보간": {
       "ko": "보간",
-      "en": "interpolation",
-      "ja": "補間",
+      "en": "Liver Nourishing (Nourish Liver)",
+      "ja": "補肝 (かんを補う)",
       "ar": "الاستيفاء"
     },
     "보간신": {
       "ko": "보간신",
-      "en": "interpolation scene",
-      "ja": "補間神",
+      "en": "Nourish Liver and Kidney",
+      "ja": "補肝腎 (肝と腎을 補う)",
       "ar": "مشهد الاستيفاء"
     },
     "보골지": {
@@ -7829,21 +7830,21 @@
     },
     "보기건비": {
       "ko": "보기건비",
-      "ja": "ビューの健康",
+      "ja": "補気健脾",
       "ar": "تكلفة المشاهدة",
-      "en": "Viewing cost"
+      "en": "Tonify Qi & Strengthen Spleen"
     },
     "보기승양": {
       "ko": "보기승양",
-      "ja": "ビュー昇陽",
-      "en": "View elevation",
+      "ja": "補気昇陽",
+      "en": "Tonify Qi and Raise Yang",
       "ar": "عرض الارتفاع"
     },
     "보기안신": {
       "ko": "보기안신",
-      "en": "I don't see it",
+      "en": "Tonify Qi & Calm the Mind",
       "ar": "أنا لا أرى ذلك",
-      "ja": "見ていない"
+      "ja": "補気安神"
     },
     "보기양위": {
       "ko": "보기양위",
@@ -7871,20 +7872,20 @@
     },
     "보비건위": {
       "ko": "보비건위",
-      "ja": "ボビー健康",
-      "en": "Bobby Gun",
+      "ja": "補脾健胃",
+      "en": "Strengthen Spleen and Stomach",
       "ar": "بوبي غان"
     },
     "보비양위": {
       "ko": "보비양위",
-      "ja": "ボビー様",
-      "en": "Bobby Yang",
+      "ja": "補脾養胃",
+      "en": "Nourish Spleen & Warm the Stomach",
       "ar": "بوبي يانغ"
     },
     "보비익기": {
       "ko": "보비익기",
-      "ja": "ボビー翼",
-      "en": "Cooking the rice",
+      "ja": "補脾益気",
+      "en": "Strengthen Spleen and Boost Qi",
       "ar": "طبخ الأرز"
     },
     "보비익폐": {
@@ -7895,8 +7896,8 @@
     },
     "보비지사": {
       "ko": "보비지사",
-      "en": "Governor Bobbi",
-      "ja": "ボビー支社",
+      "en": "Strengthen Spleen & Stop Diarrhea",
+      "ja": "補脾止瀉",
       "ar": "الحاكم بوبي"
     },
     "보비화위": {
@@ -7907,14 +7908,14 @@
     },
     "보신강골": {
       "ko": "보신강골",
-      "en": "Bosinganggol",
-      "ja": "ボシンカンゴル",
+      "en": "Tonify Kidney and Strengthen Bones",
+      "ja": "補腎強骨",
       "ar": "بوسينجانجول"
     },
     "보신강근": {
       "ko": "보신강근",
-      "en": "Bosinganggeun",
-      "ja": "ボシンガングン",
+      "en": "Tonify Kidney and Strengthen Sinews",
+      "ja": "補腎強筋",
       "ar": "بوسينجانجيون"
     },
     "보신강요": {
@@ -7925,8 +7926,8 @@
     },
     "보신고정": {
       "ko": "보신고정",
-      "ja": "見た固定",
-      "en": "Report fixed",
+      "ja": "補腎固精",
+      "en": "Tonify Kidney and Consolidate Essence",
       "ar": "تقرير ثابت"
     },
     "보신녕심": {
@@ -7943,8 +7944,8 @@
     },
     "보신안신": {
       "ko": "보신안신",
-      "en": "You don't see it",
-      "ja": "ボシンアンシン",
+      "en": "Tonify Kidney & Calm the Mind",
+      "ja": "補腎安神",
       "ar": "أنت لا ترى ذلك"
     },
     "보신양": {
@@ -7961,8 +7962,8 @@
     },
     "보신익정": {
       "ko": "보신익정",
-      "ja": "ボシンイクジョン",
-      "en": "Bosinikjeong",
+      "ja": "補腎益精",
+      "en": "Tonify Kidney and Benefit Essence",
       "ar": "بوسنيكجيونج"
     },
     "보신익폐": {
@@ -8016,8 +8017,8 @@
     "보중익기": {
       "ko": "보중익기",
       "ar": "بوجونجيكي",
-      "en": "Bojungikgi",
-      "ja": "保重翼"
+      "en": "Tonify the Middle Qi (Bojung-Ikgi)",
+      "ja": "補中益気"
     },
     "보폐": {
       "ko": "보폐",
@@ -8255,14 +8256,14 @@
     },
     "사삼": {
       "ko": "사삼",
-      "ja": "沙参 (トウシャジン)",
-      "en": "Adenophora Root (Deodeok)",
+      "ja": "ツリガネニンジン (沙参)",
+      "en": "Adenophora Root (Ladybell Root)",
       "ar": "جذر أد인وفورا"
     },
     "사상자": {
       "ko": "사상자",
-      "ja": "死傷者",
-      "en": "casualties",
+      "ja": "蛇床子 (じゃしょうし)",
+      "en": "Cnidium Fruit (Cnidii Fructus)",
       "ar": "الضحايا"
     },
     "사수습정음": {
@@ -8309,8 +8310,8 @@
     },
     "사원자": {
       "ko": "사원자",
-      "ja": "寺院",
-      "en": "employee",
+      "ja": "沙苑子 (しゃえんし)",
+      "en": "Flatstem Milkvetch Seed (Astragali Semen)",
       "ar": "موظف"
     },
     "사인": {
@@ -8723,8 +8724,8 @@
     },
     "상륙": {
       "ko": "상륙",
-      "en": "landing",
-      "ja": "着陸",
+      "en": "Poke Root (Phytolaccae Radix)",
+      "ja": "ヤマゴボウの根 (商陸)",
       "ar": "هبوط"
     },
     "상백피": {
@@ -8771,8 +8772,8 @@
     },
     "상표초": {
       "ko": "상표초",
-      "ja": "ブランド秒",
-      "en": "Brand Elementary",
+      "ja": "カマキリの卵鞘 (桑螵蛸)",
+      "en": "Mantis Egg Case (Ootheca Mantidis)",
       "ar": "العلامة التجارية تشو"
     },
     "생강": {
@@ -8807,8 +8808,8 @@
     },
     "생지황": {
       "ko": "생지황",
-      "ja": "生地黄",
-      "en": "Fresh Rehmannia glutinosa",
+      "ja": "生地黄 (しょうじおう)",
+      "en": "Fresh Rehmannia Root (Raw Rehmannia)",
       "ar": "ريهمانيا جلوتينوزا الطازجة"
     },
     "생진": {
@@ -9126,8 +9127,8 @@
     "소목": {
       "ko": "소목",
       "ar": "نجار",
-      "en": "joiner",
-      "ja": "小木"
+      "en": "Sappan Wood (Sappan Lignum)",
+      "ja": "スオウ (蘇木)"
     },
     "소비산결": {
       "ko": "소비산결",
@@ -9167,8 +9168,8 @@
     },
     "소식": {
       "ko": "소식",
-      "en": "tidings",
-      "ja": "ニュース",
+      "en": "Food Stagnation Relieving",
+      "ja": "消食 (消化促進)",
       "ar": "أخبار"
     },
     "소식 작용에 치우침": {
@@ -9180,8 +9181,8 @@
     "소식건위": {
       "ko": "소식건위",
       "ar": "أخبار",
-      "en": "news",
-      "ja": "ニュースの状態"
+      "en": "Relieve Stagnation & Strengthen Stomach",
+      "ja": "消食健胃"
     },
     "소식도체 작용이 증강됨": {
       "ko": "소식도체 작용이 증강됨",
@@ -9299,8 +9300,8 @@
     },
     "소종": {
       "ko": "소종",
-      "en": "souchong",
-      "ja": "ソジョン",
+      "en": "Swelling Reduction (Reduce Swelling)",
+      "ja": "消腫 (はれを引かせる)",
       "ar": "com.souchong"
     },
     "소종발독": {
@@ -9353,9 +9354,9 @@
     },
     "소종해독": {
       "ko": "소종해독",
-      "en": "Sojong deciphering",
+      "en": "Reduce Swelling & Clear Toxins",
       "ar": "فك رموز سوجونغ",
-      "ja": "ソジョンデトックス"
+      "ja": "消腫解毒"
     },
     "소창": {
       "ko": "소창",
@@ -9371,8 +9372,8 @@
     },
     "소풍통락": {
       "ko": "소풍통락",
-      "en": "Picnic tour",
-      "ja": "ピクニックコミュニケーション",
+      "en": "Dispel Wind and Dredge Meridians",
+      "ja": "疏風通絡",
       "ar": "جولة نزهة"
     },
     "소풍해표": {
@@ -9383,8 +9384,8 @@
     },
     "소합향": {
       "ko": "소합향",
-      "en": "Small incense",
-      "ja": "小合香",
+      "en": "Liquidambar Resin (Storax)",
+      "ja": "蘇合香 (そごうこう)",
       "ar": "بخور صغير"
     },
     "소화": {
