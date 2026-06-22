@@ -160,18 +160,18 @@
     {
       "id": "trad-07",
       "category": "Korean Cuisine",
-      "name": "Yean-Yi Clan Soy-sauce Suyuk",
-      "english_name": "Yean-Yi Clan Soy-sauce Suyuk",
-      "description": "This is a premium Korean dish that uses traditional 'sui-ganjang' from the Yean-Yi clan, which has been passed down for over 100 years. The dish features pork cooked in this aged 'sui-ganjang', adding authentic flavor without removing the natural juiciness of the meat.",
-      "ingredients": "Pork belly/shoulder 1kg, aged 'sui-ganjang' 1/2 cup, 1 large bunch of scallions, ginger 1 tablespoon, jujube 5 pieces, licorice 2 slices, rice wine 3 tablespoons",
+      "name": "Yean-Yi Clan Soy-sauce Boiled Pork Slices (Suyuk)",
+      "english_name": "Yean-Yi Clan Soy-sauce Boiled Pork Slices (Suyuk)",
+      "description": "This is a premium Korean dish that uses traditional 'Heritage Master Soy Sauce (Ssi-ganjang)' from the Yean-Yi clan, which has been passed down for over 100 years. The dish features pork cooked in this aged 'Heritage Master Soy Sauce (Ssi-ganjang)', adding authentic flavor without removing the natural juiciness of the meat.",
+      "ingredients": "Pork belly/shoulder 1kg, aged 'Heritage Master Soy Sauce (Ssi-ganjang)' 1/2 cup, 1 large bunch of scallions, ginger 1 tablespoon, jujube 5 pieces, licorice 2 slices, rice wine 3 tablespoons",
       "steps": [
         "Prepare the pork by soaking it in hot water to remove excess fat and then cut into chunks.",
-        "Heat a pot with plenty of water, add 'sui-ganjang', scallions, ginger, jujube, and licorice. Simmer for about 10 minutes before adding the meat.",
+        "Heat a pot with plenty of water, add 'Heritage Master Soy Sauce (Ssi-ganjang)', scallions, ginger, jujube, and licorice. Simmer for about 10 minutes before adding the meat.",
         "Add the pork when it's boiling; cook over low heat until tender, then cover and simmer on low heat for another 40 minutes.",
         "When the pork is shredded easily with a fork, remove it from the pot and slice thinly."
       ],
       "sasang_relation": "Tonic for Taeeum-type and Soeum-type",
-      "wellness_tip": "The deep 'sui-ganjang' fermentation amino acids in the Yean-Yi clan's aged soy sauce help enhance protein digestion, aiding in the absorption of proteins for both weak Yin types and strong Yang types.",
+      "wellness_tip": "The deep 'Heritage Master Soy Sauce (Ssi-ganjang)' fermentation amino acids in the Yean-Yi clan's aged soy sauce help enhance protein digestion, aiding in the absorption of proteins for both weak Yin types and strong Yang types.",
       "bio_synergy": "The rich melatonin content from fermented soy sauce has been shown to prevent fat oxidation in pork fats while regulating insulin sensitivity.",
       "ko_category": "종가음식"
     },
