@@ -15534,5 +15534,11 @@
     "en": "example@gmail.com",
     "ja": "example@gmail.com",
     "ar": "example@gmail.com"
+  },
+  "explore_as_guest_btn": {
+    "ko": "게스트로 바로 둘러보기",
+    "en": "Explore as Guest",
+    "ja": "ゲストとして入室",
+    "ar": "تصفح كضيف"
   }
 }
