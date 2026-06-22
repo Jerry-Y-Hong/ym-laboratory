@@ -593,6 +593,12 @@
       "ja": "全料理",
       "ar": "جميع الأطباق"
     },
+    "화학적 상호작용 검사 결과": {
+      "ko": "화학적 상호작용 검사 결과",
+      "en": "Chemical Interaction Test Results",
+      "ja": "化学的相互作用検査結果",
+      "ar": "نتائج فحص التفاعلات الكيميائية"
+    },
     "주식": {
       "ko": "주식 (밥/죽/면)",
       "en": "Main Dishes (Rice/Porridge/Noodles)",
