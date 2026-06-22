@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
   <!-- FontAwesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="style.css?v=2.10.0">
+  <link rel="stylesheet" href="style.css?v=2.10.1">
 </head>
 <body class="gateway-active">
 <!-- Premium Global Language Selector Bar -->
@@ -105,11 +105,11 @@
             <div style="display:flex; flex-direction:column; gap:16px; margin-bottom: 18px;">
               <div class="control-group" style="display:flex; flex-direction:column; gap:5px;">
                 <label for="sub-name" style="font-size:0.78rem; font-weight:600; color:var(--text-secondary);"><i class="fa-solid fa-user"></i> <span data-i18n="이름 (실명)">이름 (실명)</span></label>
-                <input type="text" id="sub-name" placeholder="홍길동" required style="width:100%; padding:11px 14px; background:rgba(0,0,0,0.35); border:1px solid var(--border-glass); border-radius:8px; color:#fff; outline:none; font-size:0.85rem; box-sizing:border-box;">
+                <input type="text" id="sub-name" placeholder="홍길동" data-i18n-placeholder="sub_name_placeholder" required style="width:100%; padding:11px 14px; background:rgba(0,0,0,0.35); border:1px solid var(--border-glass); border-radius:8px; color:#fff; outline:none; font-size:0.85rem; box-sizing:border-box;">
               </div>
               <div class="control-group" style="display:flex; flex-direction:column; gap:5px;">
                 <label for="sub-email" style="font-size:0.78rem; font-weight:600; color:var(--text-secondary);"><i class="fa-solid fa-envelope"></i> <span data-i18n="이메일 주소">이메일 주소</span></label>
-                <input type="email" id="sub-email" placeholder="example@gmail.com" required style="width:100%; padding:11px 14px; background:rgba(0,0,0,0.35); border:1px solid var(--border-glass); border-radius:8px; color:#fff; outline:none; font-size:0.85rem; box-sizing:border-box;">
+                <input type="email" id="sub-email" placeholder="example@gmail.com" data-i18n-placeholder="sub_email_placeholder" required style="width:100%; padding:11px 14px; background:rgba(0,0,0,0.35); border:1px solid var(--border-glass); border-radius:8px; color:#fff; outline:none; font-size:0.85rem; box-sizing:border-box;">
               </div>
             </div>
             
@@ -2590,13 +2590,13 @@
   </div>
 
   <!-- Core Scripts -->
-  <script src="engine.js?v=2.10.0"></script>
-  <script src="app_core.js?v=2.10.0"></script>
-  <script src="app_dashboard.js?v=2.10.0"></script>
-  <script src="app_traditional.js?v=2.10.0"></script>
-  <script src="app_b2b.js?v=2.10.0"></script>
-  <script src="app_proposal_builder.js?v=2.10.0"></script>
-  <script src="app_beauty.js?v=2.10.0"></script>
+  <script src="engine.js?v=2.10.1"></script>
+  <script src="app_core.js?v=2.10.1"></script>
+  <script src="app_dashboard.js?v=2.10.1"></script>
+  <script src="app_traditional.js?v=2.10.1"></script>
+  <script src="app_b2b.js?v=2.10.1"></script>
+  <script src="app_proposal_builder.js?v=2.10.1"></script>
+  <script src="app_beauty.js?v=2.10.1"></script>
 
   <!-- Guide Modal -->
   <div class="modal-overlay" id="guide-modal" onclick="closeGuideModal()">
