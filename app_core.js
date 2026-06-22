@@ -2378,7 +2378,12 @@ function enterPlatform(persona) {
 
   // Redirect if currently on an expert tab in recipe mode
   const activeTab = document.querySelector('.tab-content.active');
-  if (persona === 'recipe' && activeTab && activeTab.classList.contains('expert-only')) {
+  const currentUser = JSON.parse(localStorage.getItem('nuri_current_subscriber') || 'null');
+  const isAdmin = currentUser && currentUser.role === 'admin';
+
+  if (persona === 'recipe' && activeTab && (activeTab.classList.contains('expert-only') || activeTab.id === 'tab-subscribers')) {
+    switchTab('tab-dashboard');
+  } else if (activeTab && activeTab.id === 'tab-subscribers' && !isAdmin) {
     switchTab('tab-dashboard');
   } else if (activeTab) {
     switchTab(activeTab.id);
@@ -3202,9 +3207,9 @@ async function loadPortalData() {
     exceptionDict = await fetchJson('mfco_exception_dictionary.json');
     
     // 다국어 i18n 번역 파일 및 로컬라이즈 데이터 패치
-    translationDictionary = await fetchJson('translation_dictionary.json?v=2.10.14').catch(() => ({}));
-    recipesDbLocalized = await fetchJson('yakseon_recipes_localized.json?v=2.10.14').catch(() => ({}));
-    traditionalDbLocalized = await fetchJson('yakseon_traditional_encyclopedia_localized.json?v=2.10.14').catch(() => ({}));
+    translationDictionary = await fetchJson('translation_dictionary.json?v=2.10.15').catch(() => ({}));
+    recipesDbLocalized = await fetchJson('yakseon_recipes_localized.json?v=2.10.15').catch(() => ({}));
+    traditionalDbLocalized = await fetchJson('yakseon_traditional_encyclopedia_localized.json?v=2.10.15').catch(() => ({}));
     
     // 신규 자료 로드 (엔진에 이미 적재된 것이 있다면 재사용, 없으면 fetch)
     const baseRecipes = (engine && engine.modules && engine.modules.recipes) 
