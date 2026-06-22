@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
   <!-- FontAwesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="style.css?v=2.10.17">
+  <link rel="stylesheet" href="style.css?v=2.10.18">
 </head>
 <body class="gateway-active">
 <!-- Premium Global Language Selector Bar -->
@@ -832,10 +832,10 @@
 
               <!-- Export Tools (Expert Only) -->
               <div class="expert-only export-control-panel">
-                <h4><i class="fa-solid fa-download"></i> R&D 개발자용 배합 데이터 내보내기 (Export)</h4>
+                <h4 data-i18n="R&D 개발자용 배합 데이터 내보내기 (Export)"><i class="fa-solid fa-download"></i> R&D 개발자용 배합 데이터 내보내기 (Export)</h4>
                 <div style="display: flex; gap: 10px; margin-top:8px;">
-                  <button class="btn btn-outline btn-small" onclick="exportFormula('csv')"><i class="fa-solid fa-file-csv"></i> CSV 배합표 복사</button>
-                  <button class="btn btn-outline btn-small" onclick="exportFormula('json')"><i class="fa-solid fa-file-code"></i> JSON 명세서 복사</button>
+                  <button class="btn btn-outline btn-small" onclick="exportFormula('csv')"><i class="fa-solid fa-file-csv"></i> <span data-i18n="CSV 배합표 복사">CSV 배합표 복사</span></button>
+                  <button class="btn btn-outline btn-small" onclick="exportFormula('json')"><i class="fa-solid fa-file-code"></i> <span data-i18n="JSON 명세서 복사">JSON 명세서 복사</span></button>
                 </div>
               </div>
 
@@ -2595,13 +2595,13 @@
   </div>
 
   <!-- Core Scripts -->
-  <script src="engine.js?v=2.10.17"></script>
-  <script src="app_core.js?v=2.10.17"></script>
-  <script src="app_dashboard.js?v=2.10.17"></script>
-  <script src="app_traditional.js?v=2.10.17"></script>
-  <script src="app_b2b.js?v=2.10.17"></script>
-  <script src="app_proposal_builder.js?v=2.10.17"></script>
-  <script src="app_beauty.js?v=2.10.17"></script>
+  <script src="engine.js?v=2.10.18"></script>
+  <script src="app_core.js?v=2.10.18"></script>
+  <script src="app_dashboard.js?v=2.10.18"></script>
+  <script src="app_traditional.js?v=2.10.18"></script>
+  <script src="app_b2b.js?v=2.10.18"></script>
+  <script src="app_proposal_builder.js?v=2.10.18"></script>
+  <script src="app_beauty.js?v=2.10.18"></script>
 
   <!-- Guide Modal -->
   <div class="modal-overlay" id="guide-modal" onclick="closeGuideModal()">
