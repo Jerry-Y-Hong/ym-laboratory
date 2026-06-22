@@ -1,32 +1,33 @@
 # 버전 관리 규칙
 
-## 현재 버전: v2.10.3
+## 현재 버전: v2.10.4
 
 ## 규칙
 파일을 수정할 때마다 `index.html`의 버전 번호를 올린다.
 
 | 변경 규모 | 예시 | 버전 처리 |
 |---|---|---|
-| 버그 수정, 번역 수정, 소소한 UI 조정 | 약재 번역 오류 수정 | `2.10.3` → `2.10.4` (패치) |
+| 버그 수정, 번역 수정, 소소한 UI 조정 | 약재 번역 오류 수정 | `2.10.4` → `2.10.5` (패치) |
 | 새 기능, 탭 추가, 데이터 추가 | 새 탭 추가 | `2.10.x` → `2.11.0` (마이너) |
 | 전체 구조 변경 | 엔진 교체 | `2.x.x` → `3.0.0` (메이저) |
 
 ## 수정 위치
 `d:\antigravity\mfco-site\index.html` 내 다음 7개 줄:
 ```html
-<link rel="stylesheet" href="style.css?v=2.10.3">
-<script src="engine.js?v=2.10.3"></script>
-<script src="app_core.js?v=2.10.3"></script>
-<script src="app_dashboard.js?v=2.10.3"></script>
-<script src="app_traditional.js?v=2.10.3"></script>
-<script src="app_b2b.js?v=2.10.3"></script>
-<script src="app_proposal_builder.js?v=2.10.3"></script>
-<script src="app_beauty.js?v=2.10.3"></script>
+<link rel="stylesheet" href="style.css?v=2.10.4">
+<script src="engine.js?v=2.10.4"></script>
+<script src="app_core.js?v=2.10.4"></script>
+<script src="app_dashboard.js?v=2.10.4"></script>
+<script src="app_traditional.js?v=2.10.4"></script>
+<script src="app_b2b.js?v=2.10.4"></script>
+<script src="app_proposal_builder.js?v=2.10.4"></script>
+<script src="app_beauty.js?v=2.10.4"></script>
 ```
 
 ## 변경 이력
 | 버전 | 날짜 | 내용 |
 |---|---|---|
+| v2.10.4 | 2026-06-22 | 영어 레시피 및 백과사전 DB 내 한글 발음 직역 표기(Donggulle, Hwangjeong, Jocheong 등)를 고품질 영어 학명/속명으로 일괄 갱신 |
 | v2.10.3 | 2026-06-22 | 게이트웨이 화면에 '게스트로 바로 둘러보기 (Explore as Guest)' 진입 버튼 제공 및 다국어 지원 |
 | v2.10.2 | 2026-06-22 | 다국어 번역 사전(JSON) 호출 시 브라우저 캐시 무효화 파라미터 강제 동기화 (?v=2.10.2) |
 | v2.10.1 | 2026-06-22 | 게이트웨이(웰컴 랜딩) 화면 전체 다국어 번역 지원 및 입력창 플레이스홀더 i18n 처리 |

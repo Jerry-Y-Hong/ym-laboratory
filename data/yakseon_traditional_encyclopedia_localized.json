@@ -89,7 +89,7 @@
     {
       "id": "trad-05",
       "category": "Traditional Folk Food",
-      "name": "Danggui Haemul Pajeon (Angelica Seafood Pancake)",
+      "name": "Angelica Root (Danggui) Haemul Pajeon (Angelica Seafood Pancake)",
       "english_name": "Danggui Haemul Pajeon",
       "description": "This fragrant medicinal herb from the mountainous areas of Gangwon-do, paired with abundant oysters and clams, creates a crispy earthy wellness food.",
       "ingredients": "Five-Ingredient Ginseng Leaf 50g, Side Greens 150g, Oyster Extract 1 fish, Squid Tail 50g, Flour 1 cup, Crushed Wheat Flakes 2 large spoons, Egg 1, Salad Oil/Table Spread",
@@ -143,7 +143,7 @@
     {
       "id": "trad-06-3",
       "category": "Traditional Korean Cuisine",
-      "name": "Gilgyeong Gamcho Dorajitang",
+      "name": "Gilgyeong Licorice Root (Gamcho) Dorajitang",
       "english_name": "Gilgyeong Gamcho Dorajitang",
       "description": "This is a traditional folk remedy for respiratory diseases, especially dry coughs. It relieves the bitter taste of bellflower root and soothes the mind and body.",
       "ingredients": "30g of dried bellflower root, 10g of licorice, 5 jujubes, clean water",
@@ -266,7 +266,7 @@
     {
       "id": "trad-09-2",
       "category": "Korean Spicy Soybean Paste Soup",
-      "name": "Sansa Maesil Cho-Gochujang (Hawthorn Plum Sweet Chili Paste)",
+      "name": "Sansa Maesil Cho-Chili Paste (Gochujang) (Hawthorn Plum Sweet Chili Paste)",
       "english_name": "Sansa Maesil Cho-Gochujang",
       "description": "This premium functional soy sauce is made by blending traditional Korean chili paste with dried mountain yam, honey, and natural sweet tea. It helps digest meat and fish while enhancing the flavor.",
       "ingredients": "Traditional chili paste 4 tablespoons, maesil (dried mountain yam) powder 2 tablespoons, honey 2 tablespoons, natural sweet tea 1.5 tablespoons, minced garlic 1 tablespoon, honey 1 tablespoon",
@@ -354,10 +354,10 @@
     {
       "id": "trad-10-4",
       "category": "Traditional Wine",
-      "name": "Omija Sol잎 Control Sweet Makgeolli (Omija Pine-needle Sweet Makgeolli)",
+      "name": "Schisandra Berry (Omija) Sol잎 Control Sweet Makgeolli (Schisandra Berry (Omija) Pine-needle Sweet Makgeolli)",
       "english_name": "Omija Pine-needle Makgeolli",
       "description": "This sparkling traditional spumoni wine is made by combining five flavors of fermented glutinous rice with natural solvents to absorb the energy that dissipates, and adding chestnut leaves to smooth out the head. It is a healthy traditional sparkling wine.",
-      "ingredients": "2 kg glutinous rice, 80g Omija (Schisandra), 50g pine needles, 400g traditional koji, 3 L clear water",
+      "ingredients": "2 kg glutinous rice, 80g Schisandra Berry (Omija) (Schisandra), 50g pine needles, 400g traditional koji, 3 L clear water",
       "steps": [
         "Rinse and dry the chestnut leaves, then soak them in cold water overnight to extract the pigments.",
         "Soak glutinous rice balls in hot water until they are soft. Add chestnut leaf juice, green tea, and koji powder to a bowl and mix thoroughly.",
@@ -1192,7 +1192,7 @@
         "Rinse the short-grain rice and cook it in broth with pork bone.",
         "Cook the soybean sprouts to a crispy texture, slice the fermented black beans thinly, and lightly stir-fry mugwort and bellflower root in sesame oil.",
         "Marinate lean pork belly (for marinated pork) with thin slices of garlic, sesame oil, and soy sauce.",
-        "Place steamed warm rice on top of the prepared marinated meat, arrange the marinated vegetables around it, and sprinkle a little gochujang and sesame oil over the dish."
+        "Place steamed warm rice on top of the prepared marinated meat, arrange the marinated vegetables around it, and sprinkle a little chili paste and sesame oil over the dish."
       ],
       "sasang_relation": "suitable for all constitutions (general)",
       "wellness_tip": "The high content of vegetable minerals and amino acids in various vegetables and lean meat helps to quickly restore balance between strength and stamina, especially beneficial for those with weak immunity or reduced energy.",
