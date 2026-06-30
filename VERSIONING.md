@@ -1,32 +1,33 @@
 # 버전 관리 규칙 cleavage
 
-## 현재 버전: v2.10.19
+## 현재 버전: v2.10.20
 
 ## 규칙
 파일을 수정할 때마다 `index.html`의 버전 번호를 올린다.
 
 | 변경 규모 | 예시 | 버전 처리 |
 |---|---|---|
-| 버그 수정, 번역 수정, 소소한 UI 조정 | 약재 번역 오류 수정 | `2.10.19` → `2.10.20` (패치) |
+| 버그 수정, 번역 수정, 소소한 UI 조정 | 약재 번역 오류 수정 | `2.10.20` → `2.10.21` (패치) |
 | 새 기능, 탭 추가, 데이터 추가 | 새 탭 추가 | `2.10.x` → `2.11.0` (마이너) |
 | 전체 구조 변경 | 엔진 교체 | `2.x.x` → `3.0.0` (메이저) |
 
 ## 수정 위치
 `d:\antigravity\mfco-site\index.html` 내 다음 7개 줄:
 ```html
-<link rel="stylesheet" href="style.css?v=2.10.19">
-<script src="engine.js?v=2.10.19"></script>
-<script src="app_core.js?v=2.10.19"></script>
-<script src="app_dashboard.js?v=2.10.19"></script>
-<script src="app_traditional.js?v=2.10.19"></script>
-<script src="app_b2b.js?v=2.10.19"></script>
-<script src="app_proposal_builder.js?v=2.10.19"></script>
-<script src="app_beauty.js?v=2.10.19"></script>
+<link rel="stylesheet" href="style.css?v=2.10.20">
+<script src="engine.js?v=2.10.20"></script>
+<script src="app_core.js?v=2.10.20"></script>
+<script src="app_dashboard.js?v=2.10.20"></script>
+<script src="app_traditional.js?v=2.10.20"></script>
+<script src="app_b2b.js?v=2.10.20"></script>
+<script src="app_proposal_builder.js?v=2.10.20"></script>
+<script src="app_beauty.js?v=2.10.20"></script>
 ```
 
 ## 변경 이력
 | 버전 | 날짜 | 내용 |
 |---|---|---|
+| v2.10.20 | 2026-06-30 | 약재 백과사전 다국어 명칭 동기화 검증 완료 및 버전 패치 릴리즈 |
 | v2.10.19 | 2026-06-30 | 약재 백과사전 내 고유명(오갈피, 가시오갈피, 쇠무릎, 투구꽃 뿌리)의 번역 연동 및 백부자의 비정상 기계 번역 교정 |
 | v2.10.18 | 2026-06-22 | 처방 설계실 하단의 R&D 개발자용 배합 데이터 내보내기(Export) 서브 컨트롤 패널의 타이틀 및 복사 버튼 다국어 번역 연동 |
 | v2.10.17 | 2026-06-22 | 좌측 상단 워크스페이스 진입 뱃지/버튼을 B2B/관리자 워크스페이스(B2B/Admin Workspace)로 변경 및 다국어 연동 |
