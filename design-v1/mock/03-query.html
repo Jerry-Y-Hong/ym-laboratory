@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>③ AI 약선 처방실 — YM Laboratory</title>
+<link rel="stylesheet" href="../tokens.css">
+</head>
+<body class="role-b2c">
+
+<header class="topbar">
+  <div class="left"><span class="chip role-b2c">B2C</span><span class="chip">AI 처방실</span></div>
+  <div class="right"><span class="chip">NURI · 3.7</span></div>
+</header>
+
+<section class="shell">
+  <div class="section">
+    <h1>증상을 알려주세요</h1>
+    <p>질문은 텍스트, 음성, 사진 어디로든 괜찮습니다. 다음 처방은 2,400 레시피 + 38 약재 DB에서 골라냅니다.</p>
+    <input style="width:100%;padding:14px;border-radius:10px;background:rgba(255,255,255,0.05);border:1px solid var(--border);color:#fff;margin-top:12px;font-size:15px" placeholder="예) 오래 앉아있으면 손발이 차가워지고 잠이 잘 안 와요.">
+    <div style="margin-top:10px;display:flex;gap:8px;flex-wrap:wrap">
+      <span class="chip">🎤 음성 입력</span>
+      <span class="chip">📷 사진 보내기</span>
+      <span class="chip">🩺 체질 선택 (4종)</span>
+      <span class="chip" style="color:#3b84f6">검색 →</span>
+    </div>
+  </div>
+
+  <!-- 처방 결과 -->
+  <div class="section">
+    <h2>▲ 결과: 손발 냉 + 불면 대응 (SO-EUM 위주)</h2>
+    <div class="grid">
+      <div class="card"><span class="chip role-b2c">약재</span><div class="title">생강 + 대枣</div><div class="meta">난온보허 · 일 2회</div><a class="cta">장바구니</a></div>
+      <div class="card"><span class="chip role-b2c">차</span><div class="title">대枣 인삼차</div><div class="meta">8분 · 취침 전</div><a class="cta">레시피 보기</a></div>
+      <div class="card"><span class="chip role-b2c">식단</span><div class="title">한방 곤약 볶음</div><div class="meta">점심 25분</div><a class="cta">레시피 보기</a></div>
+      <div class="card"><span class="chip role-b2c">행동</span><div class="title">취침 전 족욕</div><div class="meta">15분, 40℃</div></div>
+    </div>
+
+    <h3 style="margin-top:16px">참고 약재</h3>
+    <div class="row-list">
+      <div class="row"><span>👩‍⚕️ 전문가 경고: 임산부·특이체질은 처방전과 다를 수 있음</span><span>자세히 →</span></div>
+      <div class="row"><span>⚠️ 약물 상호작용 가능성: 와파린·고혈압제</span><span>자세히 →</span></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">© 2024 YM Laboratory · NURI Engine</footer>
+</body>
+</html>
