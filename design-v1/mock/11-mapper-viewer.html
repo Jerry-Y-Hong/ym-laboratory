@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>⑪ 매핑 프로세스 뷰어 — YM Laboratory</title>
+<link rel="stylesheet" href="../tokens.css">
+</head>
+<body class="role-b2b">
+
+<header class="topbar">
+  <div class="left"><span class="chip role-b2b">PRO</span><span class="chip">매핑 뷰어</span></div>
+  <div class="right"><span class="chip">실시간</span></div>
+</header>
+
+<section class="shell">
+  <div class="section">
+    <h1>매핑 프로세스 뷰어</h1>
+    <p>원시 입력 → 표준화 → 7축 분류 → 점수화 → 최종 처방. 각 단계 결과를 단계별로 클릭하면 들어가 볼 수 있습니다.</p>
+  </div>
+
+  <div class="section">
+    <h2>현재 처리 중 (실시간)</h2>
+    <div class="row-list">
+      <div class="row"><span>1️⃣ 입력 수신</span><span style="color:#49cda6">✓ 완료</span></div>
+      <div class="row"><span>2️⃣ 표준화</span><span style="color:#49cda6">✓ 완료 (3.1s)</span></div>
+      <div class="row"><span>3️⃣ 7축 분류</span><span style="color:#3b84f6">⚙ 진행 중...</span></div>
+      <div class="row"><span>4️⃣ 점수화</span><span style="color:#6b7390">⏸ 대기</span></div>
+      <div class="row"><span>5️⃣ 최종 처방</span><span style="color:#6b7390">⏸ 대기</span></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>최근 매핑 결과 (로그)</h2>
+    <div class="row-list">
+      <div class="row"><span>14:22 · 처방 #1024</span><span>SO-EUM · 불면 · 점수 87</span></div>
+      <div class="row"><span>14:19 · 처방 #1023</span><span>TAE-EUM · 피로 · 점수 79</span></div>
+      <div class="row"><span>14:14 · 처방 #1022</span><span>AEUM · 위장 · 점수 82</span></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">© 2024 YM Laboratory · NURI for PRO</footer>
+</body>
+</html>
