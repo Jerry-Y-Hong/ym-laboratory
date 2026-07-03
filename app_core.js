@@ -1505,8 +1505,8 @@ function getTranslation(key, lang) {
     "서울특별시 (기본값)": { en: "Seoul (Default)", ja: "ソウル特別市 (デフォルト)", ar: "سيول (افتراضي)" },
     "자동 측정 위치": { en: "Auto-detected Location", ja: "自動測定位置", ar: "الموقع المكتشف تلقائيًا" },
     "위치 미확인": { en: "Location Unverified", ja: "位置未確認", ar: "الموقع غير مؤكد" },
-    "기상 데이터 분석중...": { en: "Analyzing weather...", ja: "기상 데이터 분석중...", ar: "جاري تحليل الطقس..." },
-    "위치 정보 로드 중...": { en: "Loading location...", ja: "위치 정보 로드 중...", ar: "جاري تحميل الموقع..." },
+    "기상 데이터 분석중...": { en: "Analyzing weather...", ja: "天気データを分析中...", ar: "جاري تحليل الطقس..." },
+    "위치 정보 로드 중...": { en: "Loading location...", ja: "位置情報を読み込み中...", ar: "جاري تحميل الموقع..." },
     "날씨": { en: "Weather", ja: "天気", ar: "الطقس" },
     "황제내경, 동의보감, 본초강목 및 농진청 데이터를 기반으로 환자 상태에 맞는 최적의 보양식 처방을 창안합니다.": {
       en: "Based on Huangdi Neijing, Donguibogam, Bencao Gangmu, and RDA standard food data, we formulate the optimal wellness medicinal food recipe tailored to the patient's condition.",
@@ -2119,6 +2119,65 @@ function getLocalizedEncyclopediaItem(item, lang) {
   return item;
 }
 
+
+function applyAutoTranslations(lang) {
+  if (!document.body) return;
+
+  const attrNames = ['placeholder', 'title', 'aria-label'];
+  document.querySelectorAll('body *').forEach(el => {
+    if (!el || !el.tagName) return;
+    if (['SCRIPT', 'STYLE', 'NOSCRIPT', 'TEXTAREA'].includes(el.tagName)) return;
+
+    attrNames.forEach(attr => {
+      const currentValue = el.getAttribute(attr);
+      if (!currentValue) return;
+      const originalKey = el.dataset[`koOriginal${attr.replace(/-([a-z])/g, (_, c) => c.toUpperCase()).replace(/^./, c => c.toUpperCase())}`] || currentValue;
+      if (!el.dataset[`koOriginal${attr.replace(/-([a-z])/g, (_, c) => c.toUpperCase()).replace(/^./, c => c.toUpperCase())}`]) {
+        el.dataset[`koOriginal${attr.replace(/-([a-z])/g, (_, c) => c.toUpperCase()).replace(/^./, c => c.toUpperCase())}`] = currentValue;
+      }
+      const translatedAttr = getTranslation(originalKey.trim(), lang);
+      if (translatedAttr && translatedAttr !== originalKey.trim()) {
+        el.setAttribute(attr, originalKey.replace(originalKey.trim(), translatedAttr));
+      } else if (lang === 'ko') {
+        el.setAttribute(attr, originalKey);
+      }
+    });
+  });
+
+  const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+    acceptNode(node) {
+      const parent = node.parentElement;
+      if (!parent) return NodeFilter.FILTER_REJECT;
+      if (['SCRIPT', 'STYLE', 'NOSCRIPT', 'TEXTAREA'].includes(parent.tagName)) return NodeFilter.FILTER_REJECT;
+      if (!node.nodeValue || !node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+      return NodeFilter.FILTER_ACCEPT;
+    }
+  });
+
+  const textNodes = [];
+  let currentNode;
+  while ((currentNode = walker.nextNode())) {
+    textNodes.push(currentNode);
+  }
+
+  textNodes.forEach(node => {
+    const rawText = node.nodeValue;
+    if (!rawText || !rawText.trim()) return;
+    if (!node.__koOriginalText) {
+      node.__koOriginalText = rawText;
+    }
+    const originalText = node.__koOriginalText;
+    const trimmed = originalText.trim();
+    if (!trimmed) return;
+    const translated = getTranslation(trimmed, lang);
+    if (translated && translated !== trimmed) {
+      node.nodeValue = originalText.replace(trimmed, translated);
+    } else if (lang === 'ko') {
+      node.nodeValue = originalText;
+    }
+  });
+}
+
 function switchLanguage(lang) {
   currentLanguage = lang;
   
@@ -2183,6 +2242,8 @@ function switchLanguage(lang) {
       el.setAttribute('title', translatedTitle);
     }
   });
+
+  applyAutoTranslations(lang);
   
   // Re-run unlockPlatformGateway to translate the welcome card if it's visible
   const currentSub = localStorage.getItem('nuri_current_subscriber');

@@ -3,14 +3,402 @@
 <head>
 <meta charset="utf-8">
 <title>⑬ 전문가 커뮤니티 — YM Laboratory</title>
-<link rel="stylesheet" href="../tokens.css">
+
+
+<style>
+/* === YM Laboratory Design v1 Tokens === */
+:root {
+  /* Color (구독성 개선: 어두운 다크 모드 메인 + 따뜻한 액센트) */
+  --bg-base: #0d172a;          /* 본문 배경 */
+  --bg-card: #11242a;          /* 카드 배경 */
+  --bg-rail: #0a1320;          /* 좌측 rail */
+
+  /* Semantic */
+  --b2c-accent: #3b84f6;       /* 일반 사용자 - 파랑 */
+  --b2c-accent-2: #49cda6;     /* 일반 사용자 보조 - 민트 */
+  --b2b-accent: #65b0d2;       /* 전문가 - 청록 */
+  --admin-accent: #7f7712;     /* 관리자 - 올리브 */
+  --expert-accent: #e2b187;    /* 경영진 - 앰버 */
+
+  --badger-bg: #fb02262;       /* 부제거 */
+
+  /* Text */
+  --text-main: #e2e8f4;
+  --text-sub: #9ba3cf;
+  --text-mute: #6b7390;
+
+  /* Lines */
+  --border: #1r3449;
+  --border-soft: #1d281f;
+
+  /* Radius / Shadow */
+  --radius: 12px;
+  --shadow: 0 4px 12px rgba(0,0,0,0);
+
+  /* Typography (구독성 개선: 본문 16px, 줄간 1.6~1.7) */
+  --fs-display: 28px;
+  --fs-h2: 20px;
+  --fs-h3: 16px;
+  --fs-body: 15px;
+  --fs-small: 13px;
+  --lh-body: 1.6;
+}
+
+/* === Base === */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  color: var(--text-main);
+  background: linear-gradient(180deg, #0c172a 0%, #1d2540 100%);
+  font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Helvetica Neue",
+               "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  min-height: 100vh;
+}
+h1 { font-size: var(--fs-display); letter-spacing: -0.01em; }
+h2 { font-size: var(--fs-h2); margin: 0 0 8px; }
+h3 { font-size: var(--fs-h3); margin: 16px 0 8px; color: #c3d6fa; }
+p { margin: 0 0 12px; color: #d8e1f5; }
+
+/* === Shell === */
+.shell {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+/* === Top Bar (Sticky) === */
+.topbar {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(13, 23, 42, 0.82);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border-soft);
+  padding: 10px 16px;
+  display: flex; justify-content: space-between; align-items: center;
+  font-size: var(--fs-small);
+}
+.topbar .left { display: flex; gap: 8px; align-items: center; }
+.topbar .right { display: flex; gap: 6px; }
+.chip {
+  display: inline-block; padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 11px; letter-spacing: 0.04em;
+  background: rgba(255,255,255,0.08);
+  color: #c0d0f0;
+}
+.chip.role-b2c  { background:#172c45; color:#3b84f6; border:1px solid #2b27d5; }
+.chip.role-b2b  { background:#2a1f42; color:#8cb6ea; border:1px solid #39b272; }
+.chip.role-admin{ background:#373116; color:#d7c812; border:1px solid #2b27d5; }
+.chip.role-exec { background:#421304; color:#e2b187; border:1px solid #b0e012; }
+
+/* === Section Card === */
+.section {
+  background: rgba(16, 23, 42, 0.65);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: var(--shadow);
+}
+.section h2 { color: #fff; }
+
+/* === Grid (구독성 개선: 카드형 더 단단하게) === */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+/* === Card === */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  display: flex; flex-direction: column; gap: 8px;
+}
+.card .title { font-size: 15px; color: #fff; font-weight: 600; }
+.card .meta  { font-size: 13px; color: var(--text-sub); }
+.card .cta {
+  align-self: flex-start;
+  margin-top: 4px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: var(--b2c-accent);
+  color: #fff;
+  font-size: 13px;
+}
+
+/* === Hero CTA === */
+.hero-cta {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #3b84f6, #49cda6);
+  color: #fff; font-weight: 600; font-size: 16px;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(59,132,246,0.3);
+}
+
+/* === List === */
+.row-list { display: flex; flex-direction: column; gap: 6px; }
+.row-list .row {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 10px 12px;
+  background: rgba(255,255,255,0.03);
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+/* === Tab === */
+.tabs {
+  display: flex; gap: 6px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 16px;
+}
+.tab {
+  padding: 8px 14px;
+  font-size: 14px; color: var(--text-sub);
+  border-bottom: 2px solid transparent;
+}
+.tab.active { color: #fff; border-bottom-color: var(--b2c-accent); }
+
+/* === Footer === */
+.footer {
+  text-align: center; padding: 24px 0;
+  font-size: 12px; color: var(--text-mute);
+}
+
+/* === Mobile Narrow === */
+@media (max-width: 700px) {
+  :root { --fs-display: 22px; --fs-h2: 18px; }
+  .shell { padding: 16px 12px; }
+  .grid { grid-template-columns: 1fr; }
+}
+
+
+.page-index-wrap { padding-top: 10px; padding-bottom: 0; position: relative; z-index: 80; }
+.page-index { display:flex; flex-wrap:wrap; gap:8px; align-items:center; padding:0 0 4px; position:relative; z-index:80; }
+.page-index .chip {
+  text-decoration:none; cursor:pointer; font-size:12px; padding:6px 10px;
+  position: relative; z-index: 81; pointer-events: auto;
+}
+.page-index button.chip {
+  appearance:none; -webkit-appearance:none; border-radius:999px; background:rgba(255,255,255,0.08);
+}
+.page-index .chip .num { opacity:.95; font-weight:700; margin-right:4px; }
+</style>
+
+<style>
+/* === YM Laboratory Design v1 Tokens === */
+:root {
+  /* Color (구독성 개선: 어두운 다크 모드 메인 + 따뜻한 액센트) */
+  --bg-base: #0d172a;          /* 본문 배경 */
+  --bg-card: #11242a;          /* 카드 배경 */
+  --bg-rail: #0a1320;          /* 좌측 rail */
+
+  /* Semantic */
+  --b2c-accent: #3b84f6;       /* 일반 사용자 - 파랑 */
+  --b2c-accent-2: #49cda6;     /* 일반 사용자 보조 - 민트 */
+  --b2b-accent: #65b0d2;       /* 전문가 - 청록 */
+  --admin-accent: #7f7712;     /* 관리자 - 올리브 */
+  --expert-accent: #e2b187;    /* 경영진 - 앰버 */
+
+  --badger-bg: #fb02262;       /* 부제거 */
+
+  /* Text */
+  --text-main: #e2e8f4;
+  --text-sub: #9ba3cf;
+  --text-mute: #6b7390;
+
+  /* Lines */
+  --border: #1r3449;
+  --border-soft: #1d281f;
+
+  /* Radius / Shadow */
+  --radius: 12px;
+  --shadow: 0 4px 12px rgba(0,0,0,0);
+
+  /* Typography (구독성 개선: 본문 16px, 줄간 1.6~1.7) */
+  --fs-display: 28px;
+  --fs-h2: 20px;
+  --fs-h3: 16px;
+  --fs-body: 15px;
+  --fs-small: 13px;
+  --lh-body: 1.6;
+}
+
+/* === Base === */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  color: var(--text-main);
+  background: linear-gradient(180deg, #0c172a 0%, #1d2540 100%);
+  font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Helvetica Neue",
+               "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  min-height: 100vh;
+}
+h1 { font-size: var(--fs-display); letter-spacing: -0.01em; }
+h2 { font-size: var(--fs-h2); margin: 0 0 8px; }
+h3 { font-size: var(--fs-h3); margin: 16px 0 8px; color: #c3d6fa; }
+p { margin: 0 0 12px; color: #d8e1f5; }
+
+/* === Shell === */
+.shell {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+/* === Top Bar (Sticky) === */
+.topbar {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(13, 23, 42, 0.82);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border-soft);
+  padding: 10px 16px;
+  display: flex; justify-content: space-between; align-items: center;
+  font-size: var(--fs-small);
+}
+.topbar .left { display: flex; gap: 8px; align-items: center; }
+.topbar .right { display: flex; gap: 6px; }
+.chip {
+  display: inline-block; padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 11px; letter-spacing: 0.04em;
+  background: rgba(255,255,255,0.08);
+  color: #c0d0f0;
+}
+.chip.role-b2c  { background:#172c45; color:#3b84f6; border:1px solid #2b27d5; }
+.chip.role-b2b  { background:#2a1f42; color:#8cb6ea; border:1px solid #39b272; }
+.chip.role-admin{ background:#373116; color:#d7c812; border:1px solid #2b27d5; }
+.chip.role-exec { background:#421304; color:#e2b187; border:1px solid #b0e012; }
+
+/* === Section Card === */
+.section {
+  background: rgba(16, 23, 42, 0.65);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: var(--shadow);
+}
+.section h2 { color: #fff; }
+
+/* === Grid (구독성 개선: 카드형 더 단단하게) === */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+/* === Card === */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  display: flex; flex-direction: column; gap: 8px;
+}
+.card .title { font-size: 15px; color: #fff; font-weight: 600; }
+.card .meta  { font-size: 13px; color: var(--text-sub); }
+.card .cta {
+  align-self: flex-start;
+  margin-top: 4px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: var(--b2c-accent);
+  color: #fff;
+  font-size: 13px;
+}
+
+/* === Hero CTA === */
+.hero-cta {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #3b84f6, #49cda6);
+  color: #fff; font-weight: 600; font-size: 16px;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(59,132,246,0.3);
+}
+
+/* === List === */
+.row-list { display: flex; flex-direction: column; gap: 6px; }
+.row-list .row {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 10px 12px;
+  background: rgba(255,255,255,0.03);
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+/* === Tab === */
+.tabs {
+  display: flex; gap: 6px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 16px;
+}
+.tab {
+  padding: 8px 14px;
+  font-size: 14px; color: var(--text-sub);
+  border-bottom: 2px solid transparent;
+}
+.tab.active { color: #fff; border-bottom-color: var(--b2c-accent); }
+
+/* === Footer === */
+.footer {
+  text-align: center; padding: 24px 0;
+  font-size: 12px; color: var(--text-mute);
+}
+
+/* === Mobile Narrow === */
+@media (max-width: 700px) {
+  :root { --fs-display: 22px; --fs-h2: 18px; }
+  .shell { padding: 16px 12px; }
+  .grid { grid-template-columns: 1fr; }
+}
+
+</style>
 </head>
 <body class="role-b2b">
 
 <header class="topbar">
-  <div class="left"><span class="chip role-b2b">PRO</span><span class="chip">전문가 커뮤니티</span></div>
-  <div class="right"><span class="chip">활성 1,284명</span></div>
+  <div class="left">
+    <span class="chip role-b2b">PRO</span>
+    <span class="chip"><a href="01-landing.html" style="color:inherit;text-decoration:none">← 01 메인랜딩</a></span>
+    <span class="chip">Pro 커뮤니티</span>
+  </div>
+  <div class="right">
+    <span class="chip">KO</span>
+    <span class="chip">EN</span>
+    <span class="chip">JA</span>
+    <span class="chip">AR</span>
+  </div>
 </header>
+
+<div class="shell page-index-wrap">
+  <div class="page-index">
+    <button type="button" class="chip" onclick="window.location.href='01-landing.html'"><span class="num">01</span> 메인랜딩</button>
+    <button type="button" class="chip" onclick="window.location.href='02-dashboard.html'"><span class="num">02</span> 대시보드</button>
+    <button type="button" class="chip" onclick="window.location.href='03-query.html'"><span class="num">03</span> AI 처방실</button>
+    <button type="button" class="chip" onclick="window.location.href='04-recipes-wiki.html'"><span class="num">04</span> 약선 비법서</button>
+    <button type="button" class="chip" onclick="window.location.href='05-culture-wiki.html'"><span class="num">05</span> 약선 문화원</button>
+    <button type="button" class="chip" onclick="window.location.href='06-fermentation.html'"><span class="num">06</span> 전통발효</button>
+    <button type="button" class="chip" onclick="window.location.href='07-feedback.html'"><span class="num">07</span> 피드백</button>
+    <button type="button" class="chip" onclick="window.location.href='08-beauty.html'"><span class="num">08</span> 뷰티 자가진단</button>
+    <button type="button" class="chip" onclick="window.location.href='09-standard-7axis.html'"><span class="num">09</span> 7축 표준</button>
+    <button type="button" class="chip" onclick="window.location.href='10-normalize-exceptions.html'"><span class="num">10</span> 정규화·예외</button>
+    <button type="button" class="chip" onclick="window.location.href='11-mapper-viewer.html'"><span class="num">11</span> 매퍼 뷰어</button>
+    <button type="button" class="chip" onclick="window.location.href='12-rd-builder.html'"><span class="num">12</span> R&D 빌더</button>
+    <button type="button" class="chip" onclick="window.location.href='13-pro-community.html'" style="background: linear-gradient(135deg, #3b84f6, #49cda6); color:#fff; border-color:transparent;"><span class="num">13</span> Pro 커뮤니티</button>
+    <button type="button" class="chip" onclick="window.location.href='14-crm-admin.html'"><span class="num">14</span> CRM 캠페인</button>
+    <button type="button" class="chip" onclick="window.location.href='15-rd-business.html'"><span class="num">15</span> R&D 비즈니스</button>
+    <button type="button" class="chip" onclick="window.location.href='16-mila-beauty.html'"><span class="num">16</span> MILA 뷰티</button>
+    <button type="button" class="chip" onclick="window.location.href='17-mila-shop.html'"><span class="num">17</span> MILA 샵</button>
+  </div>
+</div>
 
 <section class="shell">
   <div class="section">

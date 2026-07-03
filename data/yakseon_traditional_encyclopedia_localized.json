@@ -89,7 +89,7 @@
     {
       "id": "trad-05",
       "category": "Traditional Folk Food",
-      "name": "Angelica Root (Danggui) Haemul Pajeon (Angelica Seafood Pancake)",
+      "name": "Korean Angelica Root Haemul Pajeon (Angelica Seafood Pancake)",
       "english_name": "Danggui Haemul Pajeon",
       "description": "This fragrant medicinal herb from the mountainous areas of Gangwon-do, paired with abundant oysters and clams, creates a crispy earthy wellness food.",
       "ingredients": "Five-Ingredient Ginseng Leaf 50g, Side Greens 150g, Oyster Extract 1 fish, Squid Tail 50g, Flour 1 cup, Crushed Wheat Flakes 2 large spoons, Egg 1, Salad Oil/Table Spread",
@@ -2000,7 +2000,7 @@
       "id": "trad-09",
       "category": "韓国料理店",
       "name": "麦门冬药膳豆豉炖鸡骨汤",
-      "english_name": "Maekmundong Doenjang Paste",
+      "english_name": "Maekmundong Doenjang ペースト",
       "description": "This is a traditional fermented soybean paste made by combining the medicinal ingredients of Maekmundong (麦门冬) and traditional fermented soybean, which reduces the saltiness of the soup while enhancing its respiratory health benefits.",
       "ingredients": "Traditional fermented soybeans 500g, finely ground Maekmundong powder 30g, coarsely ground wheat flour 15g, 2 large spoons of clear rice wine, 1 large spoon of honey",
       "steps": [
@@ -2010,7 +2010,7 @@
         "Store in an airtight container for 2 weeks at room temperature, then use as the base broth for soups."
       ],
       "sasang_relation": "太陰人（テウムイン）に最適",
-      "wellness_tip": "This Maekmundong Doenjang Paste helps strengthen the immune system of people with dry lungs and frequent coughing during autumn/winter, while enhancing the synergistic effect between fermented soybean powder (Maekmundong) and honeysuckle (Maekmundong).",
+      "wellness_tip": "This Maekmundong Doenjang ペースト helps strengthen the immune system of people with dry lungs and frequent coughing during autumn/winter, while enhancing the synergistic effect between fermented soybean powder (Maekmundong) and honeysuckle (Maekmundong).",
       "bio_synergy": "The Maekmundong powder (Maekmundong) in this soup does not break down easily when heated during cooking and stimulates the secretion of mucus in the bronchial glands, helping to alleviate coughing spasms.",
       "ko_category": "한식양념장"
     },
@@ -2088,7 +2088,7 @@
       "id": "trad-10-3",
       "category": "伝統主",
       "name": "高麗人参 活血 複合湯",
-      "english_name": "Ginseng Hwalhyeol Compound Soup",
+      "english_name": "高麗人参 Hwalhyeol Compound Soup",
       "description": "6年根 高麗人参 素質優良手足冷症（手足の冷え）專門 為人 品質優良的草藥膳（薬膳）。",
       "ingredients": "6年根黑參2根、果實香20g、大棗10枚、米飯1公斤、清澈水2升、油脂300g",
       "steps": [
@@ -2573,7 +2573,7 @@
       "id": "kimchi-25",
       "category": "スターミキムチ",
       "name": "水参キムチ",
-      "english_name": "Susam (Fresh Ginseng) Water Kimchi",
+      "english_name": "Susam (Fresh 高麗人参) Water Kimchi",
       "description": "貴重なウェルネス水参（生人参）を主材料とし、セイヨウ、ナシ、大根と一緒に澄んだもち米を注ぎ、香りが良くカッコイイ最高級の伝統漢方健康水キムチです。高麗人参の香りが口の中をいっぱいにします。",
       "ingredients": "スイカ3根、大根200g、きゅうり1個、梨1/2個、セリ30g、ナツメ5粒、もち米3杯、ニンニク3粒、生姜1/2トル、塩2杯、ミネラルウォーター6カップ",
       "steps": [
@@ -2645,7 +2645,7 @@
       "id": "kimchi-29",
       "category": "スターミキムチ",
       "name": "ゴボウキムチ",
-      "english_name": "Ueong Kimchi (Burdock Root Kimchi)",
+      "english_name": "Ueong Kimchi (Burdock 根 Kimchi)",
       "description": "正方形の咀嚼ゴボウの根を細かく切ったり、切って切って沸騰した塩水に軽く茹でた後、コクのある栗の味付けに混ぜて熟成させる慶尚道地方の異色健康キムチです。",
       "ingredients": "ごぼう600g、ほうれん草30g、コチョウ粉4大さじ、アンチョビの煮2大さじ、アンチョビの小餅1大さじ、みじん切りにんにく1.5大さじ、チョチョン1.5大さじ、草汁3大さじ",
       "steps": [
@@ -3185,7 +3185,7 @@
       "id": "trad-12-2",
       "category": "韓国料理店",
       "name": "伝統秘法薬コチュジャン",
-      "english_name": "Traditional Yakgochujang (Stuffed Beef Chili Paste)",
+      "english_name": "Traditional Yakgochujang (Stuffed Beef Chili ペースト)",
       "description": "熟成のコチュジャンにみじん切りの牛肉のヤンジと蜂蜜、果汁、ごま油を贅沢に入れて炒め、味と栄養が非常に優れており、ご飯を煮込んだり、麻をつけて食べるときに使う朝鮮伝統炒め薬線コチュジャンです。",
       "ingredients": "コチュジャン1杯、みじん切りの牛肉（牛肉）100g、ジューシーな大さじ3、蜂蜜2杯、みじん切りにんにく1杯、ごま油2杯、清酒1杯、みじん切り1杯",
       "steps": [
@@ -3275,7 +3275,7 @@
       "id": "trad-12-7",
       "category": "韓国料理店",
       "name": "チョングクジャンチゲ秘法多大機",
-      "english_name": "Cheonggukjang Jjigae Paste",
+      "english_name": "Cheonggukjang Jjigae ペースト",
       "description": "チョングクジャンアルを半分粗く煮てゴチョウガル、クンガンジャン、エビのスープ、生姜汁などと混ぜてチゲを煮たときにすぐに1大さじずつ入れてチョングクジャン特有のビリンネをブロックして濃い味を出す万能秘法味付けです。",
       "ingredients": "生青汁200g、小麦粉3大さじ、朝鮮醤油2大さじ、エビ煮汁1.5大さじ、みじん切りにんにく1.5大さじ、みじん切りの生姜1小さじ、麦油1大さじ",
       "steps": [
@@ -3311,7 +3311,7 @@
       "id": "trad-10-6",
       "category": "伝統主",
       "name": "イ・ガンジュ",
-      "english_name": "Igangju (Pear and Ginger Spirit)",
+      "english_name": "Igangju (Pear and 生姜 Spirit)",
       "description": "朝鮮時代の3大銘酒のひとつに数えられる最高級伝統薬用酒で、全州と黄海道地方の伝統蒸留焼酎に涼しい梨汁と濃厚なジンジャー(薑)、鬱金、シナモン、蜂蜜を入れて醸し出す黄金の明酒です。",
       "ingredients": "米清酒焼酎10L、果汁2L、生姜300g、鬱金100g、シナモン50g、土蜜500g",
       "steps": [
@@ -3720,7 +3720,7 @@
     {
       "id": "trad-10",
       "category": "الخمور التقليدية",
-      "name": "Maekmun-dong Goji berry Baekse Yakju",
+      "name": "Maekmun-dong Goji التوت Baekse Yakju",
       "english_name": "Maekmundong Gugija Herbal Wine",
       "description": "إنه مشروب طبي سري تقليدي ذو مذاق حلو خفيف يتم تحضيره عن طريق تخمير ماكموندونج، الذي ينقي الرئتين، وتوت العليق، الذي يقوي دم الكلى، والعناب مع شعير الأرز اللزج.",
       "ingredients": "2 كجم من الأرز الدبق، 400 جرام من الشعير التقليدي، 50 جرام من الماكريل المجفف، 50 جرام من التوت المجفف، 30 جرام من العناب، 5 جرام من عرق السوس، 3 لتر من الماء النظيف.",
@@ -4314,7 +4314,7 @@
       "id": "kimchi-29",
       "category": "الكيمتشي اللذيذ",
       "name": "الأرقطيون كيمتشي",
-      "english_name": "Ueong Kimchi (Burdock Root Kimchi)",
+      "english_name": "Ueong Kimchi (Burdock الجذر Kimchi)",
       "description": "يتم تحضير هذا الكيمتشي الصحي الفريد من نوعه من منطقة مقاطعة كيونغسانغ عن طريق تقطيع أو تقطيع جذر الأرقطيون المقرمش إلى شرائح رقيقة، ثم سلقه في الماء المملح المغلي، ثم مزجه مع توابل حساء السمك المملح اللذيذ وإنضاجه.",
       "ingredients": "600 جرام من الأرقطيون، 30 جرام من الثوم المعمر، 4 ملاعق كبيرة من مسحوق الفلفل الأحمر، 2 ملاعق كبيرة من صلصة الأنشوجة، 1 ملعقة كبيرة من صلصة سمك الأنشوجة، 1.5 ملعقة كبيرة ثوم مفروم، 1.5 ملعقة كبيرة شراب الحبوب، 3 ملاعق كبيرة من حساء العشب",
       "steps": [
