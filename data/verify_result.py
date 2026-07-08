@@ -4,7 +4,7 @@ import json, sys
 from collections import defaultdict
 sys.stdout.reconfigure(encoding='utf-8')
 
-with open('mfco-site/data/mfco_master_core_db.json', encoding='utf-8') as f:
+with open('data/mfco_master_core_db.json', encoding='utf-8') as f:
     db = json.load(f)
 
 herb_groups = defaultdict(list)

@@ -29,8 +29,8 @@ def update_key_recursive(d, target_key, new_value):
     return False
 
 def run_translation_validation():
-    dict_path = r"d:\antigravity\mfco-site\data\translation_dictionary.json"
-    html_path = r"d:\antigravity\mfco-site\index.html"
+    dict_path = r"d:\antigravity\ym-laboratory\data\translation_dictionary.json"
+    html_path = r"d:\antigravity\ym-laboratory\index.html"
     
     # 1. Load Translation Dictionary
     if not os.path.exists(dict_path):

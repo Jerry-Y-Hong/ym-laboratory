@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>③ AI 약선 처방실 — YM Laboratory</title>
+
+
+<style>
+/* === YM Laboratory Design v1 Tokens === */
+:root {
+  /* Color (구독성 개선: 어두운 다크 모드 메인 + 따뜻한 액센트) */
+  --bg-base: #0d172a;          /* 본문 배경 */
+  --bg-card: #11242a;          /* 카드 배경 */
+  --bg-rail: #0a1320;          /* 좌측 rail */
+
+  /* Semantic */
+  --b2c-accent: #3b84f6;       /* 일반 사용자 - 파랑 */
+  --b2c-accent-2: #49cda6;     /* 일반 사용자 보조 - 민트 */
+  --b2b-accent: #65b0d2;       /* 전문가 - 청록 */
+  --admin-accent: #7f7712;     /* 관리자 - 올리브 */
+  --expert-accent: #e2b187;    /* 경영진 - 앰버 */
+
+  --badger-bg: #fb0262;       /* 부제거 */
+
+  /* Text */
+  --text-main: #e2e8f4;
+  --text-sub: #9ba3cf;
+  --text-mute: #6b7390;
+
+  /* Lines */
+  --border: #1f3449;
+  --border-soft: #1d281f;
+
+  /* Radius / Shadow */
+  --radius: 12px;
+  --shadow: 0 4px 12px rgba(0,0,0,0);
+
+  /* Typography (구독성 개선: 본문 16px, 줄간 1.6~1.7) */
+  --fs-display: 28px;
+  --fs-h2: 20px;
+  --fs-h3: 16px;
+  --fs-body: 15px;
+  --fs-small: 13px;
+  --lh-body: 1.6;
+}
+
+/* === Base === */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  color: var(--text-main);
+  background: linear-gradient(180deg, #0c172a 0%, #1d2540 100%);
+  font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Helvetica Neue",
+               "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  min-height: 100vh;
+}
+h1 { font-size: var(--fs-display); letter-spacing: -0.01em; }
+h2 { font-size: var(--fs-h2); margin: 0 0 8px; }
+h3 { font-size: var(--fs-h3); margin: 16px 0 8px; color: #c3d6fa; }
+p { margin: 0 0 12px; color: #d8e1f5; }
+
+/* === Shell === */
+.shell {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+/* === Top Bar (Sticky) === */
+.topbar {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(13, 23, 42, 0.82);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border-soft);
+  padding: 10px 16px;
+  display: flex; justify-content: space-between; align-items: center;
+  font-size: var(--fs-small);
+}
+.topbar .left { display: flex; gap: 8px; align-items: center; }
+.topbar .right { display: flex; gap: 6px; }
+.chip {
+  display: inline-block; padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 11px; letter-spacing: 0.04em;
+  background: rgba(255,255,255,0.08);
+  color: #c0d0f0;
+}
+.chip.role-b2c  { background:#172c45; color:#3b84f6; border:1px solid #2b27d5; }
+.chip.role-b2b  { background:#2a1f42; color:#8cb6ea; border:1px solid #39b272; }
+.chip.role-admin{ background:#373116; color:#d7c812; border:1px solid #2b27d5; }
+.chip.role-exec { background:#421304; color:#e2b187; border:1px solid #b0e012; }
+
+/* === Section Card === */
+.section {
+  background: rgba(16, 23, 42, 0.65);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: var(--shadow);
+}
+.section h2 { color: #fff; }
+
+/* === Grid (구독성 개선: 카드형 더 단단하게) === */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+/* === Card === */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  display: flex; flex-direction: column; gap: 8px;
+}
+.card .title { font-size: 15px; color: #fff; font-weight: 600; }
+.card .meta  { font-size: 13px; color: var(--text-sub); }
+.card .cta {
+  align-self: flex-start;
+  margin-top: 4px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: var(--b2c-accent);
+  color: #fff;
+  font-size: 13px;
+}
+
+/* === Hero CTA === */
+.hero-cta {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #3b84f6, #49cda6);
+  color: #fff; font-weight: 600; font-size: 16px;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(59,132,246,0.3);
+}
+
+/* === List === */
+.row-list { display: flex; flex-direction: column; gap: 6px; }
+.row-list .row {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 10px 12px;
+  background: rgba(255,255,255,0.03);
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+/* === Tab === */
+.tabs {
+  display: flex; gap: 6px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 16px;
+}
+.tab {
+  padding: 8px 14px;
+  font-size: 14px; color: var(--text-sub);
+  border-bottom: 2px solid transparent;
+}
+.tab.active { color: #fff; border-bottom-color: var(--b2c-accent); }
+
+/* === Footer === */
+.footer {
+  text-align: center; padding: 24px 0;
+  font-size: 12px; color: var(--text-mute);
+}
+
+/* === Mobile Narrow === */
+@media (max-width: 700px) {
+  :root { --fs-display: 22px; --fs-h2: 18px; }
+  .shell { padding: 16px 12px; }
+  .grid { grid-template-columns: 1fr; }
+}
+
+
+.page-index-wrap { padding-top: 10px; padding-bottom: 0; position: relative; z-index: 80; }
+.page-index { display:flex; flex-wrap:wrap; gap:8px; align-items:center; padding:0 0 4px; position:relative; z-index:80; }
+.page-index .chip {
+  text-decoration:none; cursor:pointer; font-size:12px; padding:6px 10px;
+  position: relative; z-index: 81; pointer-events: auto;
+}
+.page-index button.chip {
+  appearance:none; -webkit-appearance:none; border-radius:999px; background:rgba(255,255,255,0.08);
+}
+.page-index .chip .num { opacity:.95; font-weight:700; margin-right:4px; }
+</style>
+
+<style>
+/* === YM Laboratory Design v1 Tokens === */
+:root {
+  /* Color (구독성 개선: 어두운 다크 모드 메인 + 따뜻한 액센트) */
+  --bg-base: #0d172a;          /* 본문 배경 */
+  --bg-card: #11242a;          /* 카드 배경 */
+  --bg-rail: #0a1320;          /* 좌측 rail */
+
+  /* Semantic */
+  --b2c-accent: #3b84f6;       /* 일반 사용자 - 파랑 */
+  --b2c-accent-2: #49cda6;     /* 일반 사용자 보조 - 민트 */
+  --b2b-accent: #65b0d2;       /* 전문가 - 청록 */
+  --admin-accent: #7f7712;     /* 관리자 - 올리브 */
+  --expert-accent: #e2b187;    /* 경영진 - 앰버 */
+
+  --badger-bg: #fb0262;       /* 부제거 */
+
+  /* Text */
+  --text-main: #e2e8f4;
+  --text-sub: #9ba3cf;
+  --text-mute: #6b7390;
+
+  /* Lines */
+  --border: #1f3449;
+  --border-soft: #1d281f;
+
+  /* Radius / Shadow */
+  --radius: 12px;
+  --shadow: 0 4px 12px rgba(0,0,0,0);
+
+  /* Typography (구독성 개선: 본문 16px, 줄간 1.6~1.7) */
+  --fs-display: 28px;
+  --fs-h2: 20px;
+  --fs-h3: 16px;
+  --fs-body: 15px;
+  --fs-small: 13px;
+  --lh-body: 1.6;
+}
+
+/* === Base === */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  color: var(--text-main);
+  background: linear-gradient(180deg, #0c172a 0%, #1d2540 100%);
+  font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Helvetica Neue",
+               "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  min-height: 100vh;
+}
+h1 { font-size: var(--fs-display); letter-spacing: -0.01em; }
+h2 { font-size: var(--fs-h2); margin: 0 0 8px; }
+h3 { font-size: var(--fs-h3); margin: 16px 0 8px; color: #c3d6fa; }
+p { margin: 0 0 12px; color: #d8e1f5; }
+
+/* === Shell === */
+.shell {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+/* === Top Bar (Sticky) === */
+.topbar {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(13, 23, 42, 0.82);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border-soft);
+  padding: 10px 16px;
+  display: flex; justify-content: space-between; align-items: center;
+  font-size: var(--fs-small);
+}
+.topbar .left { display: flex; gap: 8px; align-items: center; }
+.topbar .right { display: flex; gap: 6px; }
+.chip {
+  display: inline-block; padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 11px; letter-spacing: 0.04em;
+  background: rgba(255,255,255,0.08);
+  color: #c0d0f0;
+}
+.chip.role-b2c  { background:#172c45; color:#3b84f6; border:1px solid #2b27d5; }
+.chip.role-b2b  { background:#2a1f42; color:#8cb6ea; border:1px solid #39b272; }
+.chip.role-admin{ background:#373116; color:#d7c812; border:1px solid #2b27d5; }
+.chip.role-exec { background:#421304; color:#e2b187; border:1px solid #b0e012; }
+
+/* === Section Card === */
+.section {
+  background: rgba(16, 23, 42, 0.65);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: var(--shadow);
+}
+.section h2 { color: #fff; }
+
+/* === Grid (구독성 개선: 카드형 더 단단하게) === */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+/* === Card === */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  display: flex; flex-direction: column; gap: 8px;
+}
+.card .title { font-size: 15px; color: #fff; font-weight: 600; }
+.card .meta  { font-size: 13px; color: var(--text-sub); }
+.card .cta {
+  align-self: flex-start;
+  margin-top: 4px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: var(--b2c-accent);
+  color: #fff;
+  font-size: 13px;
+}
+
+/* === Hero CTA === */
+.hero-cta {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #3b84f6, #49cda6);
+  color: #fff; font-weight: 600; font-size: 16px;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(59,132,246,0.3);
+}
+
+/* === List === */
+.row-list { display: flex; flex-direction: column; gap: 6px; }
+.row-list .row {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 10px 12px;
+  background: rgba(255,255,255,0.03);
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+/* === Tab === */
+.tabs {
+  display: flex; gap: 6px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 16px;
+}
+.tab {
+  padding: 8px 14px;
+  font-size: 14px; color: var(--text-sub);
+  border-bottom: 2px solid transparent;
+}
+.tab.active { color: #fff; border-bottom-color: var(--b2c-accent); }
+
+/* === Footer === */
+.footer {
+  text-align: center; padding: 24px 0;
+  font-size: 12px; color: var(--text-mute);
+}
+
+/* === Mobile Narrow === */
+@media (max-width: 700px) {
+  :root { --fs-display: 22px; --fs-h2: 18px; }
+  .shell { padding: 16px 12px; }
+  .grid { grid-template-columns: 1fr; }
+}
+
+.action-chip {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 1px solid var(--border);
+  cursor: pointer;
+}
+.action-chip:hover { filter: brightness(1.08); }
+.action-chip.active {
+  background: linear-gradient(135deg, #3b84f6, #49cda6);
+  color: #fff;
+  border-color: transparent;
+}
+.hidden-file { display:none; }
+.result-section.is-highlight {
+  box-shadow: 0 0 0 2px rgba(73,205,166,.45), 0 0 18px rgba(73,205,166,.18);
+}
+.result-note {
+  margin-top: 12px;
+  font-size: 13px;
+  color: #9fd9c8;
+}
+.result-note strong { color:#fff; }
+
+</style>
+</head>
+<body class="role-b2c">
+
+<header class="topbar">
+  <div class="left">
+    <span class="chip role-b2c">일반 사용자</span>
+    <span class="chip"><a href="01-landing.html" style="color:inherit;text-decoration:none">← 01 메인랜딩</a></span>
+    <span class="chip">AI 처방실</span>
+  </div>
+  <div class="right">
+    <span class="chip">KO</span>
+    <span class="chip">EN</span>
+    <span class="chip">JA</span>
+    <span class="chip">AR</span>
+  </div>
+</header>
+
+<div class="shell page-index-wrap">
+  <div class="page-index">
+    <button type="button" class="chip" onclick="window.location.href='01-landing.html'"><span class="num">01</span> 메인랜딩</button>
+    <button type="button" class="chip" onclick="window.location.href='02-dashboard.html'"><span class="num">02</span> 대시보드</button>
+    <button type="button" class="chip" onclick="window.location.href='03-query.html'" style="background: linear-gradient(135deg, #3b84f6, #49cda6); color:#fff; border-color:transparent;"><span class="num">03</span> AI 처방실</button>
+    <button type="button" class="chip" onclick="window.location.href='04-recipes-wiki.html'"><span class="num">04</span> 약선 비법서</button>
+    <button type="button" class="chip" onclick="window.location.href='05-culture-wiki.html'"><span class="num">05</span> 약선 문화원</button>
+    <button type="button" class="chip" onclick="window.location.href='06-fermentation.html'"><span class="num">06</span> 전통발효</button>
+    <button type="button" class="chip" onclick="window.location.href='07-feedback.html'"><span class="num">07</span> 피드백</button>
+    <button type="button" class="chip" onclick="window.location.href='08-beauty.html'"><span class="num">08</span> 뷰티 자가진단</button>
+    <button type="button" class="chip" onclick="window.location.href='16-mila-beauty.html'"><span class="num">16</span> MILA 뷰티</button>
+    <button type="button" class="chip" onclick="window.location.href='17-mila-shop.html'"><span class="num">17</span> MILA 숍</button>
+  </div>
+</div>
+
+<div class="shell" style="padding-top:0">
+  <div class="section" style="margin-top:12px; padding:14px 18px; background:rgba(255,255,255,0.035)">
+    <div style="display:flex; gap:14px; justify-content:space-between; align-items:center; flex-wrap:wrap;">
+      <div>
+        <span class="chip role-b2c" style="margin-bottom:8px">일반 사용자 흐름</span>
+        <div style="font-weight:700; color:#fff; margin-bottom:4px">지금 보는 메뉴는 해당 역할 기준으로 다시 정리된 화면입니다.</div>
+        <div style="font-size:13px; color:#9ca3b8">체질 진단, 루틴, 발효, 뷰티, 구매 화면만 먼저 보이도록 정리했습니다.</div>
+      </div>
+      <div style="display:flex; gap:8px; flex-wrap:wrap;"><button type="button" class="chip role-b2b" onclick="YMDesignMock.enterRole('expert','09-standard-7axis.html')">7축 기준 보기</button><button type="button" class="chip role-b2b" onclick="YMDesignMock.enterRole('expert','13-pro-community.html')">전문가 협업 보기</button><button type="button" class="chip role-admin" onclick="YMDesignMock.enterRole('admin','14-crm-admin.html')">운영 화면 보기</button></div>
+    </div>
+  </div>
+</div>
+
+<section class="shell">
+  <div class="section" id="symptom-start">
+    <h1>증상 기반 약선 처방 시작</h1>
+    <p>텍스트·음성·사진 중 편한 방식으로 입력하면, 증상 해석부터 체질 흐름 정리, 레시피·원료·상품 제안까지 한 번에 이어지는 약선 처방을 제공합니다.</p>
+    <div id="browse-note" class="result-note" style="display:none; margin-top:10px;">둘러보기에서 증상 입력 구역으로 바로 이동했습니다.</div>
+    <input id="symptom-input" style="width:100%;padding:14px;border-radius:10px;background:rgba(255,255,255,0.05);border:1px solid var(--border);color:#fff;margin-top:12px;font-size:15px" placeholder="예) 오래 앉아있으면 손발이 차가워지고 잠이 잘 안 와요.">
+    <div style="margin-top:10px;display:flex;gap:8px;flex-wrap:wrap">
+      <button type="button" id="voice-btn" class="chip action-chip">🎤 음성 입력</button>
+      <button type="button" id="photo-btn" class="chip action-chip">📷 사진 보내기</button>
+      <button type="button" id="constitution-btn" class="chip action-chip">🩺 체질 선택: 소음</button>
+      <button type="button" id="search-btn" class="chip action-chip" style="color:#3b84f6">검색 →</button>
+      <input id="photo-input" class="hidden-file" type="file" accept="image/*">
+    </div>
+    <div id="result-note" class="result-note">기본 체질은 <strong>소음</strong>으로 설정되어 있습니다.</div>
+  </div>
+
+  <!-- 처방 결과 -->
+  <div class="section result-section" id="result-section">
+    <h2 id="result-title">▲ 결과: 손발 냉 + 불면 대응 (소음(少陰) 위주)</h2>
+    <div class="grid">
+      <div class="card"><span class="chip role-b2c">약재</span><div class="title" id="herb-title">생강 + 대추</div><div class="meta" id="herb-meta">난온보허 · 일 2회</div><a class="cta" href="17-mila-shop.html" data-add-cart="생강 + 대추" data-price="18000" data-go-after-add="17-mila-shop.html">장바구니</a></div>
+      <div class="card"><span class="chip role-b2c">차</span><div class="title" id="tea-title">대추 인삼차</div><div class="meta" id="tea-meta">8분 · 취침 전</div><a class="cta" href="04-recipes-wiki.html">레시피 보기</a></div>
+      <div class="card"><span class="chip role-b2c">식단</span><div class="title" id="meal-title">한방 곤약 볶음</div><div class="meta" id="meal-meta">점심 25분</div><a class="cta" href="04-recipes-wiki.html">레시피 보기</a></div>
+      <div class="card"><span class="chip role-b2c">행동</span><div class="title" id="action-title">취침 전 족욕</div><div class="meta" id="action-meta">15분, 40℃</div></div>
+    </div>
+
+    <h3 style="margin-top:16px">처방 전 확인 사항</h3>
+    <div class="row-list">
+      <div class="row"><span>👩‍⚕️ 전문가 안내: 임산부·특이체질은 제안 루틴이 달라질 수 있음</span><span>자세히 →</span></div>
+      <div class="row"><span>⚠️ 약물 상호작용 가능성: 와파린·고혈압제</span><span>자세히 →</span></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">© 2024 YM Laboratory · NURI 약선 처방</footer>
+<script>
+(function(){
+  const $ = (id) => document.getElementById(id);
+  const input = $('symptom-input');
+  const voiceBtn = $('voice-btn');
+  const photoBtn = $('photo-btn');
+  const photoInput = $('photo-input');
+  const constitutionBtn = $('constitution-btn');
+  const searchBtn = $('search-btn');
+  const resultNote = $('result-note');
+  const resultSection = $('result-section');
+  const resultTitle = $('result-title');
+  const browseNote = $('browse-note');
+  const symptomStart = $('symptom-start');
+  const herbTitle = $('herb-title');
+  const herbMeta = $('herb-meta');
+  const teaTitle = $('tea-title');
+  const teaMeta = $('tea-meta');
+  const mealTitle = $('meal-title');
+  const mealMeta = $('meal-meta');
+  const actionTitle = $('action-title');
+  const actionMeta = $('action-meta');
+
+  const profiles = [
+    {
+      key: '소음',
+      title: '▲ 결과: 손발 냉 + 불면 대응 (소음(少陰) 위주)',
+      herb: ['생강 + 대추', '난온보허 · 일 2회'],
+      tea: ['대추 인삼차', '8분 · 취침 전'],
+      meal: ['한방 곤약 볶음', '점심 25분'],
+      action: ['취침 전 족욕', '15분, 40℃']
+    },
+    {
+      key: '소양',
+      title: '▲ 결과: 상열감 + 갈증 대응 (소양(少陽) 위주)',
+      herb: ['도라지 + 배', '청폐윤조 · 일 2회'],
+      tea: ['도라지 꿀물', '14분 · 오후'],
+      meal: ['메밀 냉채', '점심 18분'],
+      action: ['가벼운 산책', '20분, 저녁']
+    },
+    {
+      key: '태음',
+      title: '▲ 결과: 더부룩함 + 무거움 대응 (태음(太陰) 위주)',
+      herb: ['칡 + 진피', '순환보조 · 일 2회'],
+      tea: ['칡차', '10분 · 식후'],
+      meal: ['한방 냉면', '점심 25분'],
+      action: ['복식호흡', '5분, 식후']
+    },
+    {
+      key: '태양',
+      title: '▲ 결과: 긴장 + 예민함 대응 (태양(太陽) 위주)',
+      herb: ['오미자 + 국화', '진정균형 · 일 2회'],
+      tea: ['오미자 국화차', '7분 · 오후'],
+      meal: ['담백 채소쌈', '저녁 20분'],
+      action: ['목·어깨 이완', '10분, 취침 전']
+    }
+  ];
+
+  let constitutionIndex = 0;
+
+  function renderProfile() {
+    const p = profiles[constitutionIndex];
+    constitutionBtn.textContent = '🩺 체질 선택: ' + p.key;
+    resultNote.innerHTML = '현재 선택 체질은 <strong>' + p.key + '</strong> 입니다.';
+    resultTitle.textContent = p.title;
+    herbTitle.textContent = p.herb[0];
+    herbMeta.textContent = p.herb[1];
+    teaTitle.textContent = p.tea[0];
+    teaMeta.textContent = p.tea[1];
+    mealTitle.textContent = p.meal[0];
+    mealMeta.textContent = p.meal[1];
+    actionTitle.textContent = p.action[0];
+    actionMeta.textContent = p.action[1];
+  }
+
+  function highlightResult() {
+    resultSection.classList.add('is-highlight');
+    resultSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    window.setTimeout(() => resultSection.classList.remove('is-highlight'), 1400);
+  }
+
+  voiceBtn.addEventListener('click', function(){
+    if (!input.value.trim()) {
+      input.value = '오래 앉아있으면 손발이 차가워지고 잠이 잘 안 와요.';
+    }
+    input.focus();
+    voiceBtn.classList.add('active');
+    window.setTimeout(() => voiceBtn.classList.remove('active'), 900);
+    resultNote.innerHTML = '음성 입력 예시가 <strong>텍스트로 반영</strong>되었습니다.';
+  });
+
+  photoBtn.addEventListener('click', function(){
+    photoInput.click();
+  });
+
+  photoInput.addEventListener('change', function(){
+    const file = photoInput.files && photoInput.files[0];
+    if (!file) return;
+    input.value = '사진 업로드: ' + file.name;
+    photoBtn.classList.add('active');
+    resultNote.innerHTML = '사진 <strong>' + file.name + '</strong> 이 선택되었습니다.';
+    highlightResult();
+  });
+
+  constitutionBtn.addEventListener('click', function(){
+    constitutionIndex = (constitutionIndex + 1) % profiles.length;
+    constitutionBtn.classList.add('active');
+    renderProfile();
+    highlightResult();
+    window.setTimeout(() => constitutionBtn.classList.remove('active'), 900);
+  });
+
+  searchBtn.addEventListener('click', function(){
+    if (!input.value.trim()) {
+      input.value = '손발 냉 + 불면';
+    }
+    searchBtn.classList.add('active');
+    resultNote.innerHTML = '입력 증상 <strong>' + input.value + '</strong> 기준으로 결과를 표시했습니다.';
+    highlightResult();
+    window.setTimeout(() => searchBtn.classList.remove('active'), 900);
+  });
+
+  function highlightSection(section) {
+    if (!section) return;
+    const previousTransition = section.style.transition;
+    const previousBoxShadow = section.style.boxShadow;
+    const previousBorderColor = section.style.borderColor;
+    section.style.transition = 'box-shadow 0.25s ease, border-color 0.25s ease';
+    section.style.boxShadow = '0 0 0 2px rgba(73,205,166,0.8), 0 18px 40px rgba(14,21,38,0.45)';
+    section.style.borderColor = 'rgba(73,205,166,0.95)';
+    section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    window.setTimeout(() => {
+      section.style.boxShadow = previousBoxShadow;
+      section.style.borderColor = previousBorderColor;
+      section.style.transition = previousTransition;
+    }, 1800);
+  }
+
+  function applyBrowseHash() {
+    if (window.location.hash !== '#symptom-start' || !browseNote || !symptomStart) return;
+    browseNote.style.display = 'block';
+    browseNote.innerHTML = '둘러보기에서 <strong>증상 입력 구역</strong>으로 바로 이동했습니다.';
+    highlightSection(symptomStart);
+    input.focus();
+  }
+
+  renderProfile();
+  window.addEventListener('load', applyBrowseHash);
+  window.addEventListener('hashchange', applyBrowseHash);
+  applyBrowseHash();
+})();
+</script>
+<script src="mock-common.js"></script>
+</body>
+</html>

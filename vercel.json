@@ -1,11 +1,15 @@
 {
   "version": 2,
-  "name": "mfco-nuri-lab",
+  "name": "ym-laboratory",
   "buildCommand": null,
   "outputDirectory": ".",
   "installCommand": null,
   "framework": null,
   "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    },
     {
       "src": "/data/(.*)",
       "dest": "/data/$1",
@@ -33,6 +37,10 @@
       "headers": {
         "Cache-Control": "public, max-age=3600"
       }
+    },
+    {
+      "src": "/(.*\\.html)",
+      "dest": "/$1"
     },
     {
       "src": "/(.*)",

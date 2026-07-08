@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>① 메인랜딩 — YM Laboratory</title>
+
+
+<style>
+/* === YM Laboratory Design v1 Tokens === */
+:root {
+  /* Color (구독성 개선: 어두운 다크 모드 메인 + 따뜻한 액센트) */
+  --bg-base: #0d172a;          /* 본문 배경 */
+  --bg-card: #11242a;          /* 카드 배경 */
+  --bg-rail: #0a1320;          /* 좌측 rail */
+
+  /* Semantic */
+  --b2c-accent: #3b84f6;       /* 일반 사용자 - 파랑 */
+  --b2c-accent-2: #49cda6;     /* 일반 사용자 보조 - 민트 */
+  --b2b-accent: #65b0d2;       /* 전문가 - 청록 */
+  --admin-accent: #7f7712;     /* 관리자 - 올리브 */
+  --expert-accent: #e2b187;    /* 경영진 - 앰버 */
+
+  --badger-bg: #fb0262;       /* 부제거 */
+
+  /* Text */
+  --text-main: #e2e8f4;
+  --text-sub: #9ba3cf;
+  --text-mute: #6b7390;
+
+  /* Lines */
+  --border: #1f3449;
+  --border-soft: #1d281f;
+
+  /* Radius / Shadow */
+  --radius: 12px;
+  --shadow: 0 4px 12px rgba(0,0,0,0);
+
+  /* Typography (구독성 개선: 본문 16px, 줄간 1.6~1.7) */
+  --fs-display: 28px;
+  --fs-h2: 20px;
+  --fs-h3: 16px;
+  --fs-body: 15px;
+  --fs-small: 13px;
+  --lh-body: 1.6;
+}
+
+/* === Base === */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  color: var(--text-main);
+  background: linear-gradient(180deg, #0c172a 0%, #1d2540 100%);
+  font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Helvetica Neue",
+               "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  min-height: 100vh;
+}
+h1 { font-size: var(--fs-display); letter-spacing: -0.01em; }
+h2 { font-size: var(--fs-h2); margin: 0 0 8px; }
+h3 { font-size: var(--fs-h3); margin: 16px 0 8px; color: #c3d6fa; }
+p { margin: 0 0 12px; color: #d8e1f5; }
+
+/* === Shell === */
+.shell {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+/* === Top Bar (Sticky) === */
+.topbar {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(13, 23, 42, 0.82);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border-soft);
+  padding: 10px 16px;
+  display: flex; justify-content: space-between; align-items: center;
+  font-size: var(--fs-small);
+}
+.topbar .left { display: flex; gap: 8px; align-items: center; }
+.topbar .right { display: flex; gap: 6px; }
+.chip {
+  display: inline-block; padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 11px; letter-spacing: 0.04em;
+  background: rgba(255,255,255,0.08);
+  color: #c0d0f0;
+}
+.chip.role-b2c  { background:#172c45; color:#3b84f6; border:1px solid #2b27d5; }
+.chip.role-b2b  { background:#2a1f42; color:#8cb6ea; border:1px solid #39b272; }
+.chip.role-admin{ background:#373116; color:#d7c812; border:1px solid #2b27d5; }
+.chip.role-exec { background:#421304; color:#e2b187; border:1px solid #b0e012; }
+
+/* === Section Card === */
+.section {
+  background: rgba(16, 23, 42, 0.65);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: var(--shadow);
+}
+.section h2 { color: #fff; }
+
+/* === Grid (구독성 개선: 카드형 더 단단하게) === */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+/* === Card === */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  display: flex; flex-direction: column; gap: 8px;
+}
+.card .title { font-size: 15px; color: #fff; font-weight: 600; }
+.card .meta  { font-size: 13px; color: var(--text-sub); }
+.card .cta {
+  align-self: flex-start;
+  margin-top: 4px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: var(--b2c-accent);
+  color: #fff;
+  font-size: 13px;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  z-index: 2;
+}
+.card .cta:hover, .card .cta:focus-visible { filter: brightness(1.08); outline: 2px solid rgba(73,205,166,0.45); outline-offset: 2px; }
+.card.is-clickable { position: relative; cursor: pointer; }
+.card.is-clickable:hover { border-color: #2f5378; }
+.card.is-clickable > * { position: relative; z-index: 1; }
+
+/* === Hero CTA === */
+.hero-cta {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #3b84f6, #49cda6);
+  color: #fff; font-weight: 600; font-size: 16px;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(59,132,246,0.3);
+  border: 0;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+.hero-cta:hover, .hero-cta:focus-visible { filter: brightness(1.05); outline: 2px solid rgba(73,205,166,0.45); outline-offset: 3px; }
+
+/* === List === */
+.row-list { display: flex; flex-direction: column; gap: 6px; }
+.row-list .row {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 10px 12px;
+  background: rgba(255,255,255,0.03);
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+/* === Tab === */
+.tabs {
+  display: flex; gap: 6px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 16px;
+}
+.tab {
+  padding: 8px 14px;
+  font-size: 14px; color: var(--text-sub);
+  border-bottom: 2px solid transparent;
+}
+.tab.active { color: #fff; border-bottom-color: var(--b2c-accent); }
+
+/* === Footer === */
+.footer {
+  text-align: center; padding: 24px 0;
+  font-size: 12px; color: var(--text-mute);
+}
+
+/* === Mobile Narrow === */
+@media (max-width: 700px) {
+  :root { --fs-display: 22px; --fs-h2: 18px; }
+  .shell { padding: 16px 12px; }
+  .grid { grid-template-columns: 1fr; }
+}
+
+
+.page-index-wrap { padding-top: 10px; padding-bottom: 0; position: relative; z-index: 80; }
+.page-index { display:flex; flex-wrap:wrap; gap:8px; align-items:center; padding:0 0 4px; position:relative; z-index:80; }
+.page-index .chip {
+  text-decoration:none; cursor:pointer; font-size:12px; padding:6px 10px;
+  position: relative; z-index: 81; pointer-events: auto;
+}
+.page-index button.chip {
+  appearance:none; -webkit-appearance:none; border-radius:999px; background:rgba(255,255,255,0.08);
+}
+.page-index .chip .num { opacity:.95; font-weight:700; margin-right:4px; }
+</style>
+
+<style>
+/* === YM Laboratory Design v1 Tokens === */
+:root {
+  /* Color (구독성 개선: 어두운 다크 모드 메인 + 따뜻한 액센트) */
+  --bg-base: #0d172a;          /* 본문 배경 */
+  --bg-card: #11242a;          /* 카드 배경 */
+  --bg-rail: #0a1320;          /* 좌측 rail */
+
+  /* Semantic */
+  --b2c-accent: #3b84f6;       /* 일반 사용자 - 파랑 */
+  --b2c-accent-2: #49cda6;     /* 일반 사용자 보조 - 민트 */
+  --b2b-accent: #65b0d2;       /* 전문가 - 청록 */
+  --admin-accent: #7f7712;     /* 관리자 - 올리브 */
+  --expert-accent: #e2b187;    /* 경영진 - 앰버 */
+
+  --badger-bg: #fb0262;       /* 부제거 */
+
+  /* Text */
+  --text-main: #e2e8f4;
+  --text-sub: #9ba3cf;
+  --text-mute: #6b7390;
+
+  /* Lines */
+  --border: #1f3449;
+  --border-soft: #1d281f;
+
+  /* Radius / Shadow */
+  --radius: 12px;
+  --shadow: 0 4px 12px rgba(0,0,0,0);
+
+  /* Typography (구독성 개선: 본문 16px, 줄간 1.6~1.7) */
+  --fs-display: 28px;
+  --fs-h2: 20px;
+  --fs-h3: 16px;
+  --fs-body: 15px;
+  --fs-small: 13px;
+  --lh-body: 1.6;
+}
+
+/* === Base === */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  color: var(--text-main);
+  background: linear-gradient(180deg, #0c172a 0%, #1d2540 100%);
+  font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Helvetica Neue",
+               "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  min-height: 100vh;
+}
+h1 { font-size: var(--fs-display); letter-spacing: -0.01em; }
+h2 { font-size: var(--fs-h2); margin: 0 0 8px; }
+h3 { font-size: var(--fs-h3); margin: 16px 0 8px; color: #c3d6fa; }
+p { margin: 0 0 12px; color: #d8e1f5; }
+
+/* === Shell === */
+.shell {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+/* === Top Bar (Sticky) === */
+.topbar {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(13, 23, 42, 0.82);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border-soft);
+  padding: 10px 16px;
+  display: flex; justify-content: space-between; align-items: center;
+  font-size: var(--fs-small);
+}
+.topbar .left { display: flex; gap: 8px; align-items: center; }
+.topbar .right { display: flex; gap: 6px; }
+.chip {
+  display: inline-block; padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 11px; letter-spacing: 0.04em;
+  background: rgba(255,255,255,0.08);
+  color: #c0d0f0;
+}
+.chip.role-b2c  { background:#172c45; color:#3b84f6; border:1px solid #2b27d5; }
+.chip.role-b2b  { background:#2a1f42; color:#8cb6ea; border:1px solid #39b272; }
+.chip.role-admin{ background:#373116; color:#d7c812; border:1px solid #2b27d5; }
+.chip.role-exec { background:#421304; color:#e2b187; border:1px solid #b0e012; }
+
+/* === Section Card === */
+.section {
+  background: rgba(16, 23, 42, 0.65);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: var(--shadow);
+}
+.section h2 { color: #fff; }
+
+/* === Grid (구독성 개선: 카드형 더 단단하게) === */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+/* === Card === */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  display: flex; flex-direction: column; gap: 8px;
+}
+.card .title { font-size: 15px; color: #fff; font-weight: 600; }
+.card .meta  { font-size: 13px; color: var(--text-sub); }
+.card .cta {
+  align-self: flex-start;
+  margin-top: 4px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: var(--b2c-accent);
+  color: #fff;
+  font-size: 13px;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  z-index: 2;
+}
+.card .cta:hover, .card .cta:focus-visible { filter: brightness(1.08); outline: 2px solid rgba(73,205,166,0.45); outline-offset: 2px; }
+.card.is-clickable { position: relative; cursor: pointer; }
+.card.is-clickable:hover { border-color: #2f5378; }
+.card.is-clickable > * { position: relative; z-index: 1; }
+
+/* === Hero CTA === */
+.hero-cta {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #3b84f6, #49cda6);
+  color: #fff; font-weight: 600; font-size: 16px;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(59,132,246,0.3);
+  border: 0;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+.hero-cta:hover, .hero-cta:focus-visible { filter: brightness(1.05); outline: 2px solid rgba(73,205,166,0.45); outline-offset: 3px; }
+
+/* === List === */
+.row-list { display: flex; flex-direction: column; gap: 6px; }
+.row-list .row {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 10px 12px;
+  background: rgba(255,255,255,0.03);
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+/* === Tab === */
+.tabs {
+  display: flex; gap: 6px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 16px;
+}
+.tab {
+  padding: 8px 14px;
+  font-size: 14px; color: var(--text-sub);
+  border-bottom: 2px solid transparent;
+}
+.tab.active { color: #fff; border-bottom-color: var(--b2c-accent); }
+
+/* === Footer === */
+.footer {
+  text-align: center; padding: 24px 0;
+  font-size: 12px; color: var(--text-mute);
+}
+
+/* === Mobile Narrow === */
+@media (max-width: 700px) {
+  :root { --fs-display: 22px; --fs-h2: 18px; }
+  .shell { padding: 16px 12px; }
+  .grid { grid-template-columns: 1fr; }
+}
+
+</style>
+</head>
+<body class="role-b2c">
+
+<header class="topbar">
+  <div class="left">
+    <span class="chip role-b2c">일반 사용자</span>
+    <span class="chip role-b2c">NURI · 약선</span>
+    <span class="chip">메인랜딩</span>
+  </div>
+  <div class="right">
+    <span class="chip">KO</span>
+    <span class="chip">EN</span>
+    <span class="chip">JA</span>
+    <span class="chip">AR</span>
+  </div>
+</header>
+
+<div class="shell page-index-wrap">
+  <div class="page-index">
+    <button type="button" class="chip" onclick="window.location.href='01-landing.html'" style="background: linear-gradient(135deg, #3b84f6, #49cda6); color:#fff; border-color:transparent;"><span class="num">01</span> 메인랜딩</button>
+    <button type="button" class="chip" onclick="window.location.href='02-dashboard.html'"><span class="num">02</span> 대시보드</button>
+    <button type="button" class="chip" onclick="window.location.href='03-query.html'"><span class="num">03</span> AI 처방실</button>
+    <button type="button" class="chip" onclick="window.location.href='04-recipes-wiki.html'"><span class="num">04</span> 약선 비법서</button>
+    <button type="button" class="chip" onclick="window.location.href='05-culture-wiki.html'"><span class="num">05</span> 약선 문화원</button>
+    <button type="button" class="chip" onclick="window.location.href='06-fermentation.html'"><span class="num">06</span> 전통발효</button>
+    <button type="button" class="chip" onclick="window.location.href='07-feedback.html'"><span class="num">07</span> 피드백</button>
+    <button type="button" class="chip" onclick="window.location.href='08-beauty.html'"><span class="num">08</span> 뷰티 자가진단</button>
+    <button type="button" class="chip" onclick="window.location.href='16-mila-beauty.html'"><span class="num">16</span> MILA 뷰티</button>
+    <button type="button" class="chip" onclick="window.location.href='17-mila-shop.html'"><span class="num">17</span> MILA 숍</button>
+  </div>
+</div>
+
+<div class="shell" style="padding-top:0">
+  <div class="section" style="margin-top:12px; padding:16px 18px; background:linear-gradient(135deg, rgba(59,132,246,0.10), rgba(73,205,166,0.08)); border:1px solid rgba(73,205,166,0.18)">
+    <div style="display:flex; gap:16px; justify-content:space-between; align-items:center; flex-wrap:wrap;">
+      <div>
+        <span class="chip role-b2c" style="margin-bottom:8px">일반 사용자 시작 화면</span>
+        <div style="font-weight:800; color:#fff; margin-bottom:4px">여기는 소비자용 첫 화면입니다.</div>
+        <div style="font-size:13px; color:#b8c6da">처방 · 루틴 · 발효 · 뷰티 · 구매만 먼저 열리고, 전문가/운영 화면은 아래 별도 진입 버튼이나 접근 가드를 통해서만 들어갑니다.</div>
+      </div>
+      <div style="display:flex; gap:8px; flex-wrap:wrap;"><button type="button" class="chip role-b2b" onclick="YMDesignMock.enterRole('expert','09-standard-7axis.html')">전문가 모드 진입</button><button type="button" class="chip role-admin" onclick="YMDesignMock.enterRole('admin','14-crm-admin.html')">운영자 모드 진입</button></div>
+    </div>
+  </div>
+</div>
+
+<section class="shell">
+  <!-- Hero -->
+  <div class="section hero">
+    <span class="chip role-b2c">NURI · 약선</span>
+    <h1>한국의 약선 경험과 전문가 협업 구조를, <br>한 화면에서 분리해 보여주는 플랫폼</h1>
+    <p>YM Laboratory는 일반 사용자에게는 체질 진단·루틴·구매 흐름을, 전문가와 운영자에게는 기준·검증·협업 흐름을 분리해서 보여줍니다. 이제 어떤 역할로 보는지에 따라 메뉴와 진입 흐름이 달라집니다.</p>
+    <button type="button" class="hero-cta" data-hero-cta onclick="YMDesignMock.enterRole('consumer','02-dashboard.html')">일반 사용자 흐름 시작 →</button>
+  </div>
+
+
+
+  <div class="section">
+    <h2>역할별로 바로 들어가기</h2>
+    <div class="grid">
+      <div class="card is-clickable" onclick="YMDesignMock.enterRole('consumer','02-dashboard.html')" style="border-color:rgba(59,132,246,0.35); box-shadow:0 12px 28px rgba(59,132,246,0.10)">
+        <span class="chip role-b2c" style="margin-bottom:8px">일반 사용자</span>
+        <div class="title">체질 진단 · 루틴 · 구매 흐름</div>
+        <div class="meta">대시보드, AI 처방실, 전통발효, 뷰티, MILA 숍 중심으로 바로 확인합니다.</div>
+        <div class="meta" style="color:#9fd9c8">누구나 바로 이용 가능</div>
+        <button type="button" class="cta" data-role-entry="consumer" onclick="event.stopPropagation(); YMDesignMock.enterRole('consumer','02-dashboard.html')">일반 사용자로 보기 →</button>
+      </div>
+      <div class="card is-clickable" onclick="YMDesignMock.enterRole('expert','09-standard-7axis.html')" style="border-color:rgba(101,176,210,0.38); box-shadow:0 12px 28px rgba(101,176,210,0.12)">
+        <span class="chip role-b2b" style="margin-bottom:8px">전문가</span>
+        <div class="title">기준 · 검증 · 공동연구 흐름</div>
+        <div class="meta">7축 표준, 정규화, 매핑, 공동연구, 전문가 네트워크 중심으로 들어갑니다.</div>
+        <div class="meta" style="color:#8cb6ea">직접 URL 진입 시 접근 가드 표시</div>
+        <button type="button" class="cta" data-role-entry="expert" onclick="event.stopPropagation(); YMDesignMock.enterRole('expert','09-standard-7axis.html')">전문가 화면으로 보기 →</button>
+      </div>
+      <div class="card is-clickable" onclick="YMDesignMock.enterRole('admin','14-crm-admin.html')" style="border-color:rgba(215,200,18,0.30); box-shadow:0 12px 28px rgba(215,200,18,0.10)">
+        <span class="chip role-admin" style="margin-bottom:8px">운영자</span>
+        <div class="title">구독 · VIP · 캠페인 운영 흐름</div>
+        <div class="meta">운영 CRM, 이탈위험 관리, 캠페인 실행, 매출 관리를 전용으로 확인합니다.</div>
+        <div class="meta" style="color:#d7c812">운영 전용 가드 후 진입</div>
+        <button type="button" class="cta" data-role-entry="admin" onclick="event.stopPropagation(); YMDesignMock.enterRole('admin','14-crm-admin.html')">운영자 화면으로 보기 →</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>연구·글로벌 협업 구조</h2>
+    <div class="grid">
+      <div class="card is-clickable" onclick="window.location.href='09-standard-7axis.html'"><span class="chip role-b2b" style="margin-bottom:8px">기준 체계</span><div class="title">국제 협업을 위한 7축 기준</div><div class="meta">체질·증상·원료·조리·계절·주의·근거를 하나의 프레임으로 연결</div><button type="button" class="cta" onclick="event.stopPropagation(); window.location.href='09-standard-7axis.html'">기준 보기 →</button></div>
+      <div class="card is-clickable" onclick="window.location.href='13-pro-community.html'"><span class="chip role-b2b" style="margin-bottom:8px">전문가 네트워크</span><div class="title">전문가·셰프·크리에이터 네트워크</div><div class="meta">약선 전문요리사, 산야초 네트워크, 유튜버 협업 구조를 공개</div><button type="button" class="cta" onclick="event.stopPropagation(); window.location.href='13-pro-community.html'">네트워크 보기 →</button></div>
+      <div class="card is-clickable" onclick="window.location.href='15-rd-business.html'"><span class="chip role-b2b" style="margin-bottom:8px">공동연구·협력</span><div class="title">공동연구 · 글로벌 파트너십</div><div class="meta">대학, 호텔, 커뮤니티, 브랜드와 연결될 수 있는 사업 구조</div><button type="button" class="cta" onclick="event.stopPropagation(); window.location.href='15-rd-business.html'">협력 구조 보기 →</button></div>
+      <div class="card"><span class="chip role-b2b" style="margin-bottom:8px">원료·레시피</span><div class="title">프리미엄 원료와 레시피 연결</div><div class="meta">원료 소싱 → 연구 기준 → 레시피 → 프리미엄 제품으로 이어지는 흐름</div></div>
+    </div>
+  </div>
+
+  <!-- 캐릭터 카드 -->
+  <div class="section">
+    <h2>오늘의 추천</h2>
+    <div class="grid">
+      <div class="card is-clickable" onclick="window.location.href='04-recipes-wiki.html#hanbang-naengmyeon'"><span class="chip role-b2c">소양(少陽)</span><div class="title">한방 냉면</div><div class="meta">열 감추는 식단 · 25분</div><button type="button" class="cta" data-reco-cta="hanbang-naengmyeon" onclick="event.stopPropagation(); window.location.href='04-recipes-wiki.html#hanbang-naengmyeon'">만들기 →</button></div>
+      <div class="card is-clickable" onclick="window.location.href='04-recipes-wiki.html#doraji-honey-water'"><span class="chip role-b2c">태음(太陰)</span><div class="title">도라지 꿀물</div><div class="meta">보윤 · 14kcal · 10분</div><button type="button" class="cta" data-reco-cta="doraji-honey-water" onclick="event.stopPropagation(); window.location.href='04-recipes-wiki.html#doraji-honey-water'">만들기 →</button></div>
+      <div class="card is-clickable" onclick="window.location.href='04-recipes-wiki.html#ginger-jujube-tea'"><span class="chip role-b2c">소음(少陰)</span><div class="title">생강 대추차</div><div class="meta">난온 · 8kcal · 8분</div><button type="button" class="cta" data-reco-cta="ginger-jujube-tea" onclick="event.stopPropagation(); window.location.href='04-recipes-wiki.html#ginger-jujube-tea'">만들기 →</button></div>
+      <div class="card is-clickable" onclick="window.location.href='04-recipes-wiki.html#kudzu-herbal-tonic'"><span class="chip role-b2c">태양(太陽)</span><div class="title">칡 한방 약탕</div><div class="meta">청허 · 30분</div><button type="button" class="cta" data-reco-cta="kudzu-herbal-tonic" onclick="event.stopPropagation(); window.location.href='04-recipes-wiki.html#kudzu-herbal-tonic'">만들기 →</button></div>
+    </div>
+  </div>
+
+  <!-- 카테고리 -->
+  <div class="section">
+    <h2>둘러보기</h2>
+    <div class="grid">
+      <div class="card is-clickable" onclick="window.location.href='03-query.html#symptom-start'"><div class="title">🩺 AI 약선 처방실</div><div class="meta">증상으로 즉시 처방</div><button type="button" class="cta" data-browse-cta="query" onclick="event.stopPropagation(); window.location.href='03-query.html#symptom-start'">바로가기 →</button></div>
+      <div class="card is-clickable" onclick="window.location.href='04-recipes-wiki.html#recipe-explorer'"><div class="title">📖 약선 비법서</div><div class="meta">2,400 레시피 위키</div><button type="button" class="cta" data-browse-cta="recipes" onclick="event.stopPropagation(); window.location.href='04-recipes-wiki.html#recipe-explorer'">바로가기 →</button></div>
+      <div class="card is-clickable" onclick="window.location.href='05-culture-wiki.html#seasonal-spotlight'"><div class="title">🌾 약선 문화원</div><div class="meta">절기·향토음식 백과</div><button type="button" class="cta" data-browse-cta="culture" onclick="event.stopPropagation(); window.location.href='05-culture-wiki.html#seasonal-spotlight'">바로가기 →</button></div>
+      <div class="card is-clickable" onclick="window.location.href='06-fermentation.html#weekly-fermentation'"><div class="title">🍶 전통발효</div><div class="meta">막걸리·장 담그기</div><button type="button" class="cta" data-browse-cta="fermentation" onclick="event.stopPropagation(); window.location.href='06-fermentation.html#weekly-fermentation'">바로가기 →</button></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">© 2024 YM Laboratory · NURI 플랫폼</footer>
+<script src="mock-common.js"></script>
+</body>
+</html>

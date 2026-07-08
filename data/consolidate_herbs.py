@@ -9,7 +9,7 @@ MFCO 약재별 중복/포함 효능어 통합 스크립트
 import json, sys, re
 sys.stdout.reconfigure(encoding='utf-8')
 
-DB_PATH = 'mfco-site/data/mfco_master_core_db.json'
+DB_PATH = 'data/mfco_master_core_db.json'
 
 def is_subterm(shorter, longer):
     """shorter 가 longer 의 하위 개념(포함)인지 판별"""

@@ -1,32 +1,34 @@
 # 버전 관리 규칙 cleavage
 
-## 현재 버전: v2.10.20
+## 현재 버전: v2.10.22
 
 ## 규칙
 파일을 수정할 때마다 `index.html`의 버전 번호를 올린다.
 
 | 변경 규모 | 예시 | 버전 처리 |
 |---|---|---|
-| 버그 수정, 번역 수정, 소소한 UI 조정 | 약재 번역 오류 수정 | `2.10.20` → `2.10.21` (패치) |
+| 버그 수정, 번역 수정, 소소한 UI 조정 | 약재 번역 오류 수정 | `2.10.21` → `2.10.22` (패치) |
 | 새 기능, 탭 추가, 데이터 추가 | 새 탭 추가 | `2.10.x` → `2.11.0` (마이너) |
 | 전체 구조 변경 | 엔진 교체 | `2.x.x` → `3.0.0` (메이저) |
 
 ## 수정 위치
-`d:\antigravity\mfco-site\index.html` 내 다음 7개 줄:
+`d:\antigravity\ym-laboratory\index.html` 내 다음 7개 줄:
 ```html
-<link rel="stylesheet" href="style.css?v=2.10.20">
-<script src="engine.js?v=2.10.20"></script>
-<script src="app_core.js?v=2.10.20"></script>
-<script src="app_dashboard.js?v=2.10.20"></script>
-<script src="app_traditional.js?v=2.10.20"></script>
-<script src="app_b2b.js?v=2.10.20"></script>
-<script src="app_proposal_builder.js?v=2.10.20"></script>
-<script src="app_beauty.js?v=2.10.20"></script>
+<link rel="stylesheet" href="style.css?v=2.10.22">
+<script src="engine.js?v=2.10.22"></script>
+<script src="app_core.js?v=2.10.22"></script>
+<script src="app_dashboard.js?v=2.10.22"></script>
+<script src="app_traditional.js?v=2.10.22"></script>
+<script src="app_b2b.js?v=2.10.22"></script>
+<script src="app_proposal_builder.js?v=2.10.22"></script>
+<script src="app_beauty.js?v=2.10.22"></script>
 ```
 
 ## 변경 이력
 | 버전 | 날짜 | 내용 |
 |---|---|---|
+| v2.10.22 | 2026-07-06 | 다국어 번역 사전 143개 누락 키(게이트웨이·대시보드·R&D·쇼핑·견적서·안내 스크립트 포함) 보강 및 translation_dictionary 캐시 버전 동기화 |
+| v2.10.21 | 2026-07-02 | design(v1): 한국어 mock 17개에서 체질 칩의 영문약자(SO-YANG·SO-EUM·TAE-EUM·AEUM)를 완전 제거하고 한자·한글 단일 표기(소양·少陽 / 소음·少陰 / 태음·太陰 / 태양·太陽)로 통일 |
 | v2.10.20 | 2026-06-30 | 약재 백과사전 다국어 명칭 동기화 검증 완료 및 버전 패치 릴리즈 |
 | v2.10.19 | 2026-06-30 | 약재 백과사전 내 고유명(오갈피, 가시오갈피, 쇠무릎, 투구꽃 뿌리)의 번역 연동 및 백부자의 비정상 기계 번역 교정 |
 | v2.10.18 | 2026-06-22 | 처방 설계실 하단의 R&D 개발자용 배합 데이터 내보내기(Export) 서브 컨트롤 패널의 타이틀 및 복사 버튼 다국어 번역 연동 |

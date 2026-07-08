@@ -10,7 +10,7 @@ import json, sys
 from collections import defaultdict
 sys.stdout.reconfigure(encoding='utf-8')
 
-DB_PATH = 'mfco-site/data/mfco_master_core_db.json'
+DB_PATH = 'data/mfco_master_core_db.json'
 
 # ────────────────────────────────────────────────────
 # 명시적 통합 규칙: {하위어: 상위어(유지할 효능어)}

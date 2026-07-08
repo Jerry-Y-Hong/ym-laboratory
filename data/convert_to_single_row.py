@@ -8,8 +8,8 @@ import json, sys
 from collections import defaultdict, OrderedDict
 sys.stdout.reconfigure(encoding='utf-8')
 
-DB_PATH = 'mfco-site/data/mfco_master_core_db.json'
-OUT_PATH = 'mfco-site/data/mfco_master_core_db.json'
+DB_PATH = 'data/mfco_master_core_db.json'
+OUT_PATH = 'data/mfco_master_core_db.json'
 
 with open(DB_PATH, encoding='utf-8') as f:
     db = json.load(f)

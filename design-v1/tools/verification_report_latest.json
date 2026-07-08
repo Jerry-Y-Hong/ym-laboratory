@@ -1,0 +1,178 @@
+{
+  "generated_at": "2026-07-08T04:21:01.590397Z",
+  "pages_scanned": 17,
+  "errors": [],
+  "warnings": [],
+  "pages": [
+    {
+      "file": "01-landing.html",
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "tabs": 0,
+        "inputs": 0,
+        "onclicks": 41
+      }
+    },
+    {
+      "file": "02-dashboard.html",
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "tabs": 4,
+        "inputs": 0,
+        "onclicks": 13
+      }
+    },
+    {
+      "file": "03-query.html",
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "tabs": 0,
+        "inputs": 2,
+        "onclicks": 13
+      }
+    },
+    {
+      "file": "04-recipes-wiki.html",
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "tabs": 0,
+        "inputs": 0,
+        "onclicks": 13
+      }
+    },
+    {
+      "file": "05-culture-wiki.html",
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "tabs": 0,
+        "inputs": 0,
+        "onclicks": 47
+      }
+    },
+    {
+      "file": "06-fermentation.html",
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "tabs": 0,
+        "inputs": 0,
+        "onclicks": 13
+      }
+    },
+    {
+      "file": "07-feedback.html",
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "tabs": 4,
+        "inputs": 1,
+        "onclicks": 14
+      }
+    },
+    {
+      "file": "08-beauty.html",
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "tabs": 0,
+        "inputs": 0,
+        "onclicks": 13
+      }
+    },
+    {
+      "file": "09-standard-7axis.html",
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "tabs": 0,
+        "inputs": 0,
+        "onclicks": 9
+      }
+    },
+    {
+      "file": "10-normalize-exceptions.html",
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "tabs": 4,
+        "inputs": 0,
+        "onclicks": 10
+      }
+    },
+    {
+      "file": "11-mapper-viewer.html",
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "tabs": 0,
+        "inputs": 0,
+        "onclicks": 10
+      }
+    },
+    {
+      "file": "12-rd-builder.html",
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "tabs": 4,
+        "inputs": 0,
+        "onclicks": 11
+      }
+    },
+    {
+      "file": "13-pro-community.html",
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "tabs": 4,
+        "inputs": 0,
+        "onclicks": 13
+      }
+    },
+    {
+      "file": "14-crm-admin.html",
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "tabs": 5,
+        "inputs": 0,
+        "onclicks": 10
+      }
+    },
+    {
+      "file": "15-rd-business.html",
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "tabs": 4,
+        "inputs": 0,
+        "onclicks": 10
+      }
+    },
+    {
+      "file": "16-mila-beauty.html",
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "tabs": 0,
+        "inputs": 0,
+        "onclicks": 13
+      }
+    },
+    {
+      "file": "17-mila-shop.html",
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "tabs": 0,
+        "inputs": 0,
+        "onclicks": 80
+      }
+    }
+  ]
+}
