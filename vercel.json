@@ -6,6 +6,11 @@
   "installCommand": null,
   "framework": null,
   "routes": [
+        {
+      "src": "/",
+      "dest": "/design-v1/mock/01-landing.html"
+    },
+
     {
       "src": "/api/(.*)",
       "dest": "/api/$1"
