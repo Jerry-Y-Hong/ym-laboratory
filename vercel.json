@@ -5,12 +5,15 @@
   "outputDirectory": ".",
   "installCommand": null,
   "framework": null,
+  "redirects": [
+   {
+    "source": "/",
+    "destination": "/design-v1/mock/01-landing.html",
+    "permanent": false
+  }
+  ],
   "routes": [
-        {
-      "src": "/",
-      "dest": "/design-v1/mock/01-landing.html"
-    },
-
+     
     {
       "src": "/api/(.*)",
       "dest": "/api/$1"
