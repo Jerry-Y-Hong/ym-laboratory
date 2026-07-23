@@ -62,6 +62,25 @@ def session(engine):
     connection.close()
 
 
+@pytest.fixture()
+def client(session):
+    """
+    FastAPI TestClient fixture with overridden DB session.
+    """
+    from fastapi.testclient import TestClient
+    from acpp.main import app
+    from acpp.dependencies.database import get_db_session
+
+    def _override_get_db():
+        yield session
+
+    app.dependency_overrides[get_db_session] = _override_get_db
+    with TestClient(app) as test_client:
+        yield test_client
+    app.dependency_overrides.clear()
+
+
+
 # ── Factory helpers ───────────────────────────────────────────────────
 
 
