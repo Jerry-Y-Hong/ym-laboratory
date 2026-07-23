@@ -36,6 +36,19 @@ class KnowledgeAssetNotFoundError(ACPPException):
         )
 
 
+class ResearchJobNotFoundError(ACPPException):
+    """Raised when a Research Job cannot be found by job_id."""
+
+    def __init__(self, job_id: str) -> None:
+        super().__init__(
+            code="ACPP-ERR-4041",
+            message=f"Research job '{job_id}' not found.",
+            status_code=404,
+            details={"job_id": job_id},
+        )
+
+
+
 class ValidationError(ACPPException):
     """Raised when incoming payload fails business domain validation."""
 

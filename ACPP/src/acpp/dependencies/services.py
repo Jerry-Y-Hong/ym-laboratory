@@ -10,6 +10,7 @@ from sqlalchemy.orm import Session
 from acpp.dependencies.database import get_db_session
 from acpp.services.knowledge_service import KnowledgeService
 from acpp.services.repository_service import RepositoryService
+from acpp.services.research_service import ResearchService
 
 
 def get_knowledge_service(
@@ -24,3 +25,11 @@ def get_repository_service(
 ) -> RepositoryService:
     """Inject RepositoryService instance."""
     return RepositoryService(session)
+
+
+def get_research_service(
+    session: Session = Depends(get_db_session),
+) -> ResearchService:
+    """Inject ResearchService instance."""
+    return ResearchService(session)
+
