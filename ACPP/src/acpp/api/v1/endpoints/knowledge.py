@@ -7,7 +7,10 @@ REST API routes for Knowledge Asset CRUD operations.
 from typing import Optional
 from fastapi import APIRouter, Depends, Query, status
 
-from acpp.dependencies.services import get_knowledge_service
+from acpp.dependencies.services import (
+    get_knowledge_service,
+    get_knowledge_structuring_service,
+)
 from acpp.schemas.common import PaginatedMeta
 from acpp.schemas.knowledge import (
     KnowledgeAssetCreate,
@@ -15,7 +18,12 @@ from acpp.schemas.knowledge import (
     KnowledgeAssetResponse,
     KnowledgeAssetUpdate,
 )
+from acpp.schemas.knowledge_structuring import (
+    KnowledgeStructureRequest,
+    KnowledgeStructureResponse,
+)
 from acpp.services.knowledge_service import KnowledgeService
+from acpp.services.knowledge_structuring_service import KnowledgeStructuringService
 
 router = APIRouter(tags=["Knowledge Asset"])
 
@@ -49,6 +57,20 @@ def list_knowledge_assets(
         items=[KnowledgeAssetResponse.model_validate(item) for item in items],
         meta=meta,
     )
+
+
+@router.post(
+    "/knowledge/structure",
+    response_model=KnowledgeStructureResponse,
+    status_code=status.HTTP_201_CREATED,
+    summary="Structure Raw Research Payload",
+    description="Trigger Knowledge Agent (ACPP-AG-02) to convert raw research data into structured SSOT Knowledge Asset with Q-Code index and vector embedding.",
+)
+def structure_knowledge(
+    payload: KnowledgeStructureRequest,
+    service: KnowledgeStructuringService = Depends(get_knowledge_structuring_service),
+) -> KnowledgeStructureResponse:
+    return service.structure_knowledge(payload)
 
 
 @router.get(
@@ -107,3 +129,4 @@ def delete_knowledge_asset(
 ) -> dict:
     service.delete_asset(id)
     return {"status": "SUCCESS", "message": f"KnowledgeAsset '{id}' deleted successfully."}
+
