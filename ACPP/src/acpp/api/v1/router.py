@@ -10,6 +10,7 @@ from acpp.api.v1.endpoints import (
     health,
     image,
     knowledge,
+    publishing,
     repository,
     research,
     seo,
@@ -25,6 +26,8 @@ api_router.include_router(research.router)
 api_router.include_router(writing.router)
 api_router.include_router(seo.router)
 api_router.include_router(image.router)
+api_router.include_router(publishing.router)
+
 
 
 

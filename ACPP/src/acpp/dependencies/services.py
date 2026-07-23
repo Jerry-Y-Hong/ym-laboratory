@@ -11,6 +11,7 @@ from acpp.dependencies.database import get_db_session
 from acpp.services.image_service import ImageService
 from acpp.services.knowledge_service import KnowledgeService
 from acpp.services.knowledge_structuring_service import KnowledgeStructuringService
+from acpp.services.publishing_service import PublishingService
 from acpp.services.repository_service import RepositoryService
 from acpp.services.research_service import ResearchService
 from acpp.services.seo_service import SEOService
@@ -64,6 +65,14 @@ def get_image_service(
 ) -> ImageService:
     """Inject ImageService instance."""
     return ImageService(session)
+
+
+def get_publishing_service(
+    session: Session = Depends(get_db_session),
+) -> PublishingService:
+    """Inject PublishingService instance."""
+    return PublishingService(session)
+
 
 
 

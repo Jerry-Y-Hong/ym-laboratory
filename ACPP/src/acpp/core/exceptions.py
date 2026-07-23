@@ -84,6 +84,19 @@ class ImageJobNotFoundError(ACPPException):
         )
 
 
+class PublishingJobNotFoundError(ACPPException):
+    """Raised when a Publishing Job cannot be found by job_id."""
+
+    def __init__(self, job_id: str) -> None:
+        super().__init__(
+            code="ACPP-ERR-4045",
+            message=f"Publishing job '{job_id}' not found.",
+            status_code=404,
+            details={"job_id": job_id},
+        )
+
+
+
 
 
 
