@@ -7,6 +7,7 @@ Aggregates all API v1 endpoints into a single router.
 from fastapi import APIRouter
 
 from acpp.api.v1.endpoints import (
+    analytics,
     health,
     image,
     knowledge,
@@ -27,6 +28,8 @@ api_router.include_router(writing.router)
 api_router.include_router(seo.router)
 api_router.include_router(image.router)
 api_router.include_router(publishing.router)
+api_router.include_router(analytics.router)
+
 
 
 

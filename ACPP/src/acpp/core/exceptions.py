@@ -96,6 +96,19 @@ class PublishingJobNotFoundError(ACPPException):
         )
 
 
+class AnalyticsReportNotFoundError(ACPPException):
+    """Raised when an Analytics Report cannot be found for content_asset_id."""
+
+    def __init__(self, content_asset_id: str) -> None:
+        super().__init__(
+            code="ACPP-ERR-4046",
+            message=f"Analytics report for asset '{content_asset_id}' not found.",
+            status_code=404,
+            details={"content_asset_id": content_asset_id},
+        )
+
+
+
 
 
 

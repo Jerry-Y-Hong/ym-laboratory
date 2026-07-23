@@ -8,6 +8,7 @@ from fastapi import Depends
 from sqlalchemy.orm import Session
 
 from acpp.dependencies.database import get_db_session
+from acpp.services.analytics_service import AnalyticsService
 from acpp.services.image_service import ImageService
 from acpp.services.knowledge_service import KnowledgeService
 from acpp.services.knowledge_structuring_service import KnowledgeStructuringService
@@ -72,6 +73,14 @@ def get_publishing_service(
 ) -> PublishingService:
     """Inject PublishingService instance."""
     return PublishingService(session)
+
+
+def get_analytics_service(
+    session: Session = Depends(get_db_session),
+) -> AnalyticsService:
+    """Inject AnalyticsService instance."""
+    return AnalyticsService(session)
+
 
 
 
