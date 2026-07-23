@@ -72,6 +72,19 @@ class SEOJobNotFoundError(ACPPException):
         )
 
 
+class ImageJobNotFoundError(ACPPException):
+    """Raised when an Image Job cannot be found by job_id."""
+
+    def __init__(self, job_id: str) -> None:
+        super().__init__(
+            code="ACPP-ERR-4044",
+            message=f"Image job '{job_id}' not found.",
+            status_code=404,
+            details={"job_id": job_id},
+        )
+
+
+
 
 
 
