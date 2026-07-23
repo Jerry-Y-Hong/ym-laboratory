@@ -12,6 +12,7 @@ from acpp.services.knowledge_service import KnowledgeService
 from acpp.services.knowledge_structuring_service import KnowledgeStructuringService
 from acpp.services.repository_service import RepositoryService
 from acpp.services.research_service import ResearchService
+from acpp.services.seo_service import SEOService
 from acpp.services.writing_service import WritingService
 
 
@@ -48,6 +49,14 @@ def get_writing_service(
 ) -> WritingService:
     """Inject WritingService instance."""
     return WritingService(session)
+
+
+def get_seo_service(
+    session: Session = Depends(get_db_session),
+) -> SEOService:
+    """Inject SEOService instance."""
+    return SEOService(session)
+
 
 
 

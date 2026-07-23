@@ -60,6 +60,19 @@ class WritingJobNotFoundError(ACPPException):
         )
 
 
+class SEOJobNotFoundError(ACPPException):
+    """Raised when an SEO Job cannot be found by job_id."""
+
+    def __init__(self, job_id: str) -> None:
+        super().__init__(
+            code="ACPP-ERR-4043",
+            message=f"SEO job '{job_id}' not found.",
+            status_code=404,
+            details={"job_id": job_id},
+        )
+
+
+
 
 
 class ValidationError(ACPPException):
