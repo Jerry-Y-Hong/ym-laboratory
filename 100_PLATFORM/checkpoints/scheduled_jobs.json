@@ -1,0 +1,34 @@
+[
+  {
+    "job_uuid": "JOB_316addf5969f",
+    "job_name": "RDA_Daily_Full",
+    "mode": "FULL_COLLECTION",
+    "cron_expression": "0 0 * * *",
+    "status": "SCHEDULED",
+    "last_run_time": "2026-07-21T05:23:38.336971+00:00",
+    "next_run_time": "2026-07-21T05:23:38.302404+00:00",
+    "run_history": [
+      {
+        "run_time": "2026-07-21T05:23:38.336971+00:00",
+        "duration_sec": 0.961,
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "job_uuid": "JOB_64621604b190",
+    "job_name": "RDA_Hourly_Inc",
+    "mode": "INCREMENTAL_COLLECTION",
+    "cron_expression": "0 * * * *",
+    "status": "SCHEDULED",
+    "last_run_time": "2026-07-21T05:23:40.592062+00:00",
+    "next_run_time": "2026-07-21T05:23:38.308964+00:00",
+    "run_history": [
+      {
+        "run_time": "2026-07-21T05:23:40.592062+00:00",
+        "duration_sec": 0.811,
+        "status": "PASS"
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "report_id": "REP_MONTHLY_bd4c1af1",
+  "report_type": "MONTHLY",
+  "generated_at": "2026-07-21T05:23:40.538090+00:00",
+  "platform_health_status": "PASS",
+  "statistics": {
+    "total_collected": 100,
+    "total_processed": 100,
+    "new_count": 80,
+    "updated_count": 15,
+    "unchanged_count": 5,
+    "failed_count": 0,
+    "failure_rate_pct": 0.0,
+    "avg_throughput_per_sec": 19.23,
+    "avg_response_time_ms": 120.0,
+    "duration_seconds": 5.2
+  },
+  "summary": {
+    "status": "EXCELLENT",
+    "notes": "MONTHLY Operations Report generated successfully."
+  }
+}

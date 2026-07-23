@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "project_name": "sanYacho",
+  "origin": {
+    "github": "https://github.com/Jerry-Y-Hong/sanYacho",
+    "vercel": "https://vercel.com/your-team/sanYacho",
+    "local": "C:/Users/car13/backup/sanYacho"
+  },
+  "deployment": {
+    "status": "Production",
+    "last_verified": "",
+    "framework": "Next.js"
+  }
+}

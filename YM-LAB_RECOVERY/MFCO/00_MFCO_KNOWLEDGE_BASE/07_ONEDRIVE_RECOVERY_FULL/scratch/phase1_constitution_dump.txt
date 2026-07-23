@@ -1,0 +1,4 @@
+=== Docx: C:\Users\car13\OneDrive\MFCO_MASTER_RECOVERY\01_BASELINE\MFCO_PHASE1_MASTER_CONSTITUTION_v1.0.docx ===
+MFCO PHASE 1 MASTER CONSTITUTION v1.0
+User Expression -> External State -> Internal State -> Root Cause -> Role -> Function -> Ingredient -> Recipe
+MFCO is a user-state-based semantic inference system.

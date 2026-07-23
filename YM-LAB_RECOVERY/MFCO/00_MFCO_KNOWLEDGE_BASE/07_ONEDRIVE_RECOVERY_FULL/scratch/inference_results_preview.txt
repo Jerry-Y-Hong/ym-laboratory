@@ -1,0 +1,292 @@
+==================================================================
+            MFCO SEMANTIC INFERENCE PIPELINE RUN                  
+     (User State + Constitution + Organ + Seasonal Term)          
+==================================================================
+
+=== PHASE 1: Standard Single-State Validation (18 States) ===
+
+--- User State: ST-001 (에너지계) ---
+State Definition: 기력 저하 및 피로
+Inferred Root Cause: RC01 (에너지부족) [Score/Confidence: 0.900]
+Target Functions: 체력회복 (보기·익기), 건비 (비위 기능 강화)
+Matched Yakseon Kit: 기력보강 앰플키트 (Energy Recovery Ampoule Kit) (10ml Liquid Ampoule / 15g Tea bag filter)
+Kit Composition: 황기 (H0001) 40%, 인삼 (H0002) 20%, 백출 (H0004) 20%, 대추 (H0007) 10%, 산약 (H0005) 10%
+Base Recipe: 냉굴탕 (ID: R0049, Main Ingredient: 굴)
+Integrated Premium Franchise Menu Name: MFCO Premium 냉굴탕 (기력보강 앰플키트)
+Combined Ingredients: 생굴, 배, 쪽파, 청양고추  <br> [양념] 물 2컵, 설탕 1+1/2숟갈, 진간장 1/3컵, 식초 5숟갈, 간 마늘 1/2숟갈, 간 생강 1/3숟갈, 고춧가루 2숟갈 + [MFCO 기력보강 앰플키트: 황기 (H0001) 40%, 인삼 (H0002) 20%, 백출 (H0004) 20%, 대추 (H0007) 10%, 산약 (H0005) 10%]
+--------------------------------------------------
+
+--- User State: ST-002 (수면계) ---
+State Definition: 수면 불균형 및 불면
+Inferred Root Cause: RC05 (심신불균형) [Score/Confidence: 0.800]
+Target Functions: 신경안정 (안신·정경), 수면안정 (숙면 지원), 진정 (흥분 완화)
+Matched Yakseon Kit: 안심수면 앰플키트 (Calming & Sleep Ampoule Kit) (10ml Liquid Ampoule)
+Kit Composition: 산조인 (H0025) 40%, 원지 (H0026) 20%, 백자인 (H0059) 20%, 용안육 (H0060) 20%
+Base Recipe: 율무 인살라타 (ID: R0508, Main Ingredient: 율무쌀)
+Integrated Premium Franchise Menu Name: MFCO Premium 율무 인살라타 (안심수면 앰플키트)
+Combined Ingredients: 율무 50g, 방울 토마토 10개, 오이 1/4개, 블랙올리브 4개, 올리브오일 2개, 식초 1 설탕 0.5 소금 약간, 후춧가루 약간 + [MFCO 안심수면 앰플키트: 산조인 (H0025) 40%, 원지 (H0026) 20%, 백자인 (H0059) 20%, 용안육 (H0060) 20%]
+--------------------------------------------------
+
+--- User State: ST-003 (순환계) ---
+State Definition: 말초 순환 저하
+Inferred Root Cause: RC02 (순환정체) [Score/Confidence: 0.900]
+Target Functions: 혈류개선 (활혈·거어), 기순환 (행기·소간), 통락 (경락 소통)
+Matched Yakseon Kit: 순환온기 분말키트 (Circulation & Warmth Powder Kit) (5g Fine Powder / 10g Tea bag filter)
+Kit Composition: 당귀 (H0009) 30%, 천궁 (H0015) 30%, 작약 (H0016) 20%, 계피 (H0027) 20%
+Base Recipe: 민어소금구이 (ID: R0275, Main Ingredient: 민어)
+Integrated Premium Franchise Menu Name: MFCO Premium 민어소금구이 (순환온기 분말키트)
+Combined Ingredients: 민어, 소금, 후춧가루, 다진 파, 다진 마늘, 생강즙, 술, 후춧가루 + [MFCO 순환온기 분말키트: 당귀 (H0009) 30%, 천궁 (H0015) 30%, 작약 (H0016) 20%, 계피 (H0027) 20%]
+--------------------------------------------------
+
+--- User State: ST-004 (체액계) ---
+State Definition: 체내 수분 정체 및 부종
+Inferred Root Cause: RC03 (대사불균형) [Score/Confidence: 0.800]
+Target Functions: 수분배출 (이수·이뇨·부종 관리), 해독 (독성 제거), 소화개선 (화위)
+Matched Yakseon Kit: 대사정화 티백키트 (Metabolic Purifying Tea bag Kit) (15g Extra Large Tea bag filter)
+Kit Composition: 복령 (H0011) 40%, 의이인 (H0056) 30%, 택사 (H0012) 20%, 진피 (H0024) 10%
+Base Recipe: 죽순회 (ID: R0800, Main Ingredient: 죽순)
+Integrated Premium Franchise Menu Name: MFCO Premium 죽순회 (대사정화 티백키트)
+Combined Ingredients: 죽순, 고추장 1TS, 고춧가루 11/2TS, 식초 2TS, 올리고당 2TS, 마늘 1TS, 깨 약간 + [MFCO 대사정화 티백키트: 복령 (H0011) 40%, 의이인 (H0056) 30%, 택사 (H0012) 20%, 진피 (H0024) 10%]
+--------------------------------------------------
+
+--- User State: ST-005 (소화계) ---
+State Definition: 위장 및 장 기능 저하
+Inferred Root Cause: RC03 (대사불균형) [Score/Confidence: 0.800]
+Target Functions: 수분배출 (이수·이뇨·부종 관리), 해독 (독성 제거), 소화개선 (화위)
+Matched Yakseon Kit: 대사정화 티백키트 (Metabolic Purifying Tea bag Kit) (15g Extra Large Tea bag filter)
+Kit Composition: 복령 (H0011) 40%, 의이인 (H0056) 30%, 택사 (H0012) 20%, 진피 (H0024) 10%
+Base Recipe: 새우죽순채 (ID: R0801, Main Ingredient: 죽순)
+Integrated Premium Franchise Menu Name: MFCO Premium 새우죽순채 (대사정화 티백키트)
+Combined Ingredients: 왕새우 2마리, 국수 100g, 미나리(150g) 1줌 숙주(250g) 2줌 죽순(100g) 1줌 치커리 1줌 홍고추 1개, 참기름 1작은술, 소금 1꼬집<br> [소스] 간장 4큰술, 물 2큰술, 식초 2큰술, 설탕 2큰술, 레몬즙 1큰술, 다진 마늘 1큰술, 겨자소스1작은술 + [MFCO 대사정화 티백키트: 복령 (H0011) 40%, 의이인 (H0056) 30%, 택사 (H0012) 20%, 진피 (H0024) 10%]
+--------------------------------------------------
+
+--- User State: ST-006 (피부계) ---
+State Definition: 피부 건조 및 탄력 저하
+Inferred Root Cause: RC04 (회복력저하) [Score/Confidence: 0.700]
+Target Functions: 조직회복 (생기·재생), 혈액보충 (양혈·보혈), 면역조절
+Matched Yakseon Kit: 재생보호 분말키트 (Regenerative & Protective Powder Kit) (8g Concentrated Extract Powder)
+Kit Composition: 숙지황 (H0010) 30%, 구기자 (H0021) 30%, 오미자 (H0022) 20%, 산수유 (H0058) 20%
+Base Recipe: 죽순장아찌 (ID: R0762, Main Ingredient: 죽순)
+Integrated Premium Franchise Menu Name: MFCO Premium 죽순장아찌 (재생보호 분말키트)
+Combined Ingredients: 죽순 쌀뜨물 물 1 진간장 1 식초 0.5 설탕 0.5 소금 약간 + [MFCO 재생보호 분말키트: 숙지황 (H0010) 30%, 구기자 (H0021) 30%, 오미자 (H0022) 20%, 산수유 (H0058) 20%]
+--------------------------------------------------
+
+--- User State: ST-007 (정서계) ---
+State Definition: 스트레스 및 신경 불안정
+Inferred Root Cause: RC05 (심신불균형) [Score/Confidence: 0.900]
+Target Functions: 신경안정 (안신·정경), 수면안정 (숙면 지원), 진정 (흥분 완화)
+Matched Yakseon Kit: 안심수면 앰플키트 (Calming & Sleep Ampoule Kit) (10ml Liquid Ampoule)
+Kit Composition: 산조인 (H0025) 40%, 원지 (H0026) 20%, 백자인 (H0059) 20%, 용안육 (H0060) 20%
+Base Recipe: 율무팥밥 (ID: R0515, Main Ingredient: 율무쌀, 팥)
+Integrated Premium Franchise Menu Name: MFCO Premium 율무팥밥 (안심수면 앰플키트)
+Combined Ingredients: 율무쌀 2컵, 팥 1컵, 멥쌀 1컵 + [MFCO 안심수면 앰플키트: 산조인 (H0025) 40%, 원지 (H0026) 20%, 백자인 (H0059) 20%, 용안육 (H0060) 20%]
+--------------------------------------------------
+
+--- User State: ST-008 (근골격계) ---
+State Definition: 근육 긴장 및 관절 약화
+Inferred Root Cause: RC01 (에너지부족) [Score/Confidence: 0.700]
+Target Functions: 체력회복 (보기·익기), 건비 (비위 기능 강화)
+Matched Yakseon Kit: 기력보강 앰플키트 (Energy Recovery Ampoule Kit) (10ml Liquid Ampoule / 15g Tea bag filter)
+Kit Composition: 황기 (H0001) 40%, 인삼 (H0002) 20%, 백출 (H0004) 20%, 대추 (H0007) 10%, 산약 (H0005) 10%
+Base Recipe: 김국 (ID: R0080, Main Ingredient: 김)
+Integrated Premium Franchise Menu Name: MFCO Premium 김국 (기력보강 앰플키트)
+Combined Ingredients: 물 4컵, 국간장 2큰술 내외, 소금 약간, 김 4~5장, 깨소금, 참기름 약간씩 + [MFCO 기력보강 앰플키트: 황기 (H0001) 40%, 인삼 (H0002) 20%, 백출 (H0004) 20%, 대추 (H0007) 10%, 산약 (H0005) 10%]
+--------------------------------------------------
+
+--- User State: ST-009 (시각·안구계) ---
+State Definition: 안구 건조 및 피로
+Inferred Root Cause: RC02 (순환정체) [Score/Confidence: 0.700]
+Target Functions: 혈류개선 (활혈·거어), 기순환 (행기·소간), 통락 (경락 소통)
+Matched Yakseon Kit: 순환온기 분말키트 (Circulation & Warmth Powder Kit) (5g Fine Powder / 10g Tea bag filter)
+Kit Composition: 당귀 (H0009) 30%, 천궁 (H0015) 30%, 작약 (H0016) 20%, 계피 (H0027) 20%
+Base Recipe: 민어 피시앤칩스 (ID: R0281, Main Ingredient: 민어)
+Integrated Premium Franchise Menu Name: MFCO Premium 민어 피시앤칩스 (순환온기 분말키트)
+Combined Ingredients: 튀김가루 100 g, 탄산수 100 ㎖, 포뜬민어2 장, 카놀라유 적당량, 소금 약간, 후추 약간, 프렌치프라이200 g, 케찹 약간<br> [부재료] 씨겨자 1 작은술, 마요네즈 1/2 컵, 삶은달걀 1/2 개, 다진양파 1 큰술, 다진피클 1 큰술, 파슬리가루 1/2 큰술, 레몬즙 1 작은술, 소금 약간, 후춧가루 약간 + [MFCO 순환온기 분말키트: 당귀 (H0009) 30%, 천궁 (H0015) 30%, 작약 (H0016) 20%, 계피 (H0027) 20%]
+--------------------------------------------------
+
+--- User State: ST-010 (비뇨생식계) ---
+State Definition: 비뇨 배출 이상
+Inferred Root Cause: RC03 (대사불균형) [Score/Confidence: 0.800]
+Target Functions: 수분배출 (이수·이뇨·부종 관리), 해독 (독성 제거), 소화개선 (화위)
+Matched Yakseon Kit: 대사정화 티백키트 (Metabolic Purifying Tea bag Kit) (15g Extra Large Tea bag filter)
+Kit Composition: 복령 (H0011) 40%, 의이인 (H0056) 30%, 택사 (H0012) 20%, 진피 (H0024) 10%
+Base Recipe: 죽순탕 (ID: R0797, Main Ingredient: 죽순)
+Integrated Premium Franchise Menu Name: MFCO Premium 죽순탕 (대사정화 티백키트)
+Combined Ingredients: 마른새우, 죽순통조림, 대파, 마늘, 다시마 작은것 2장, 무 1조각, 순두부 2큰술, 참나물 약간, 참기름, 소금 약간, 후추가루 약간 + [MFCO 대사정화 티백키트: 복령 (H0011) 40%, 의이인 (H0056) 30%, 택사 (H0012) 20%, 진피 (H0024) 10%]
+--------------------------------------------------
+
+--- User State: ST-011 (여성건강계) ---
+State Definition: 여성 호르몬 및 생리 조절
+Inferred Root Cause: RC05 (심신불균형) [Score/Confidence: 0.800]
+Target Functions: 신경안정 (안신·정경), 수면안정 (숙면 지원), 진정 (흥분 완화)
+Matched Yakseon Kit: 안심수면 앰플키트 (Calming & Sleep Ampoule Kit) (10ml Liquid Ampoule)
+Kit Composition: 산조인 (H0025) 40%, 원지 (H0026) 20%, 백자인 (H0059) 20%, 용안육 (H0060) 20%
+Base Recipe: 율무 인살라타 (ID: R0508, Main Ingredient: 율무쌀)
+Integrated Premium Franchise Menu Name: MFCO Premium 율무 인살라타 (안심수면 앰플키트)
+Combined Ingredients: 율무 50g, 방울 토마토 10개, 오이 1/4개, 블랙올리브 4개, 올리브오일 2개, 식초 1 설탕 0.5 소금 약간, 후춧가루 약간 + [MFCO 안심수면 앰플키트: 산조인 (H0025) 40%, 원지 (H0026) 20%, 백자인 (H0059) 20%, 용안육 (H0060) 20%]
+--------------------------------------------------
+
+--- User State: ST-012 (호흡기계) ---
+State Definition: 기침 및 가래
+Inferred Root Cause: RC04 (회복력저하) [Score/Confidence: 0.800]
+Target Functions: 조직회복 (생기·재생), 혈액보충 (양혈·보혈), 면역조절
+Matched Yakseon Kit: 재생보호 분말키트 (Regenerative & Protective Powder Kit) (8g Concentrated Extract Powder)
+Kit Composition: 숙지황 (H0010) 30%, 구기자 (H0021) 30%, 오미자 (H0022) 20%, 산수유 (H0058) 20%
+Base Recipe: 매실장아찌주먹밥 (ID: R0702, Main Ingredient: 매실)
+Integrated Premium Franchise Menu Name: MFCO Premium 매실장아찌주먹밥 (재생보호 분말키트)
+Combined Ingredients: 밥 1+1/2공기, 시판 파래김자반, 매실장아찌, 비닐랩 + [MFCO 재생보호 분말키트: 숙지황 (H0010) 30%, 구기자 (H0021) 30%, 오미자 (H0022) 20%, 산수유 (H0058) 20%]
+--------------------------------------------------
+
+--- User State: ST-013 (면역·회복계) ---
+State Definition: 면역 조절 및 회복 지연
+Inferred Root Cause: RC04 (회복력저하) [Score/Confidence: 0.900]
+Target Functions: 조직회복 (생기·재생), 혈액보충 (양혈·보혈), 면역조절
+Matched Yakseon Kit: 재생보호 분말키트 (Regenerative & Protective Powder Kit) (8g Concentrated Extract Powder)
+Kit Composition: 숙지황 (H0010) 30%, 구기자 (H0021) 30%, 오미자 (H0022) 20%, 산수유 (H0058) 20%
+Base Recipe: 조밥 (ID: R0760, Main Ingredient: 좁쌀)
+Integrated Premium Franchise Menu Name: MFCO Premium 조밥 (재생보호 분말키트)
+Combined Ingredients: 좁쌀 + [MFCO 재생보호 분말키트: 숙지황 (H0010) 30%, 구기자 (H0021) 30%, 오미자 (H0022) 20%, 산수유 (H0058) 20%]
+--------------------------------------------------
+
+--- User State: ST-014 (브레인포그·인지계) ---
+State Definition: 기억력 저하 및 브레인포그
+Inferred Root Cause: RC01 (에너지부족) [Score/Confidence: 0.800]
+Target Functions: 체력회복 (보기·익기), 건비 (비위 기능 강화)
+Matched Yakseon Kit: 기력보강 앰플키트 (Energy Recovery Ampoule Kit) (10ml Liquid Ampoule / 15g Tea bag filter)
+Kit Composition: 황기 (H0001) 40%, 인삼 (H0002) 20%, 백출 (H0004) 20%, 대추 (H0007) 10%, 산약 (H0005) 10%
+Base Recipe: 굴순두부찌개 (ID: R0058, Main Ingredient: 굴)
+Integrated Premium Franchise Menu Name: MFCO Premium 굴순두부찌개 (기력보강 앰플키트)
+Combined Ingredients: 순두부 1봉지, 굴 100g, 양파 ¼개, 호박 20g(⅛개 정도), 청양고추 ½개, 다시마육수(물) 1컵
+참기름 1큰술, 고춧가루 1큰술, 마늘 1큰술, 국간장 1큰술, 소금 약간 + [MFCO 기력보강 앰플키트: 황기 (H0001) 40%, 인삼 (H0002) 20%, 백출 (H0004) 20%, 대추 (H0007) 10%, 산약 (H0005) 10%]
+--------------------------------------------------
+
+--- User State: ST-015 (구강계) ---
+State Definition: 구강 건조 및 염증
+Inferred Root Cause: RC03 (대사불균형) [Score/Confidence: 0.700]
+Target Functions: 수분배출 (이수·이뇨·부종 관리), 해독 (독성 제거), 소화개선 (화위)
+Matched Yakseon Kit: 대사정화 티백키트 (Metabolic Purifying Tea bag Kit) (15g Extra Large Tea bag filter)
+Kit Composition: 복령 (H0011) 40%, 의이인 (H0056) 30%, 택사 (H0012) 20%, 진피 (H0024) 10%
+Base Recipe: 참외 오이무침 (ID: R0802, Main Ingredient: 참외)
+Integrated Premium Franchise Menu Name: MFCO Premium 참외 오이무침 (대사정화 티백키트)
+Combined Ingredients: 참외 1개, 오이 1/2개, 검은깨 1큰술, 소금(약간), 식초 1큰술, 설탕 1큰술, 소금 1작은술 + [MFCO 대사정화 티백키트: 복령 (H0011) 40%, 의이인 (H0056) 30%, 택사 (H0012) 20%, 진피 (H0024) 10%]
+--------------------------------------------------
+
+--- User State: ST-016 (체중계) ---
+State Definition: 급격한 체중 변화
+Inferred Root Cause: RC03 (대사불균형) [Score/Confidence: 0.800]
+Target Functions: 수분배출 (이수·이뇨·부종 관리), 해독 (독성 제거), 소화개선 (화위)
+Matched Yakseon Kit: 대사정화 티백키트 (Metabolic Purifying Tea bag Kit) (15g Extra Large Tea bag filter)
+Kit Composition: 복령 (H0011) 40%, 의이인 (H0056) 30%, 택사 (H0012) 20%, 진피 (H0024) 10%
+Base Recipe: 참외주 (ID: R0803, Main Ingredient: 참외)
+Integrated Premium Franchise Menu Name: MFCO Premium 참외주 (대사정화 티백키트)
+Combined Ingredients: 참외 1kg, 담금주 1.8L, 설탕 1/2컵 + [MFCO 대사정화 티백키트: 복령 (H0011) 40%, 의이인 (H0056) 30%, 택사 (H0012) 20%, 진피 (H0024) 10%]
+--------------------------------------------------
+
+--- User State: ST-017 (체온·열감계) ---
+State Definition: 상열하한 및 오한
+Inferred Root Cause: RC02 (순환정체) [Score/Confidence: 0.800]
+Target Functions: 혈류개선 (활혈·거어), 기순환 (행기·소간), 통락 (경락 소통)
+Matched Yakseon Kit: 순환온기 분말키트 (Circulation & Warmth Powder Kit) (5g Fine Powder / 10g Tea bag filter)
+Kit Composition: 당귀 (H0009) 30%, 천궁 (H0015) 30%, 작약 (H0016) 20%, 계피 (H0027) 20%
+Base Recipe: 민어전 (ID: R0280, Main Ingredient: 민어)
+Integrated Premium Franchise Menu Name: MFCO Premium 민어전 (순환온기 분말키트)
+Combined Ingredients: 냉동 민어(315g) 18~20개, 밀가루 1/2컵, 달걀 3개, 소금 약간, 현미유조금, 후추 약간 <br>[초간장] 간장 1T, 설탕 1/3t, 식초 1/2T, 물 1t <br>[고명] 청·홍고추 1개씩, 쑥갓, 미나리(있으면) 약간 + [MFCO 순환온기 분말키트: 당귀 (H0009) 30%, 천궁 (H0015) 30%, 작약 (H0016) 20%, 계피 (H0027) 20%]
+--------------------------------------------------
+
+--- User State: ST-018 (청각계) ---
+State Definition: 이명 및 이충만감
+Inferred Root Cause: RC02 (순환정체) [Score/Confidence: 0.700]
+Target Functions: 혈류개선 (활혈·거어), 기순환 (행기·소간), 통락 (경락 소통)
+Matched Yakseon Kit: 순환온기 분말키트 (Circulation & Warmth Powder Kit) (5g Fine Powder / 10g Tea bag filter)
+Kit Composition: 당귀 (H0009) 30%, 천궁 (H0015) 30%, 작약 (H0016) 20%, 계피 (H0027) 20%
+Base Recipe: 민어 피시앤칩스 (ID: R0281, Main Ingredient: 민어)
+Integrated Premium Franchise Menu Name: MFCO Premium 민어 피시앤칩스 (순환온기 분말키트)
+Combined Ingredients: 튀김가루 100 g, 탄산수 100 ㎖, 포뜬민어2 장, 카놀라유 적당량, 소금 약간, 후추 약간, 프렌치프라이200 g, 케찹 약간<br> [부재료] 씨겨자 1 작은술, 마요네즈 1/2 컵, 삶은달걀 1/2 개, 다진양파 1 큰술, 다진피클 1 큰술, 파슬리가루 1/2 큰술, 레몬즙 1 작은술, 소금 약간, 후춧가루 약간 + [MFCO 순환온기 분말키트: 당귀 (H0009) 30%, 천궁 (H0015) 30%, 작약 (H0016) 20%, 계피 (H0027) 20%]
+--------------------------------------------------
+
+
+=== PHASE 2: Advanced Multi-Factor Integration Scenarios ===
+
+▶ RUNNING: Scenario A: 소음인(SE) 비장(SPLEEN) 약화 환자의 초여름(2026-06-01) 소화장애 진단
+  Inputs: States=['ST-005'], Constitution=SE, Organ=SPLEEN, Date=2026-06-01
+  Inferred Root Cause: RC03 (대사불균형) [Final Score: 1.558]
+  All Cause Scores:
+    - RC01: 0.000
+    - RC02: 0.000
+    - RC03: 1.558
+    - RC04: 0.000
+    - RC05: 0.000
+  Reasoning Trace Logs:
+    [Trace] Inferred Solar Term from date '2026-06-01': 망종
+    [Trace] State ST-005 matches vulnerability for Constitution SE. Boosting weight by 1 + 0.4 * 0.8 = 1.320
+    [Trace] State ST-005 -> Cause RC03: Base weight 0.8 * State Boost 1.320 = 1.056
+    [Trace] Organ SPLEEN -> Cause RC01: Applying Zang-Fu correction x1.400 (organ vulnerability weight: 0.8)
+    [Trace] Organ SPLEEN -> Cause RC03: Applying Zang-Fu correction x1.475 (organ vulnerability weight: 0.95)
+    [Trace] Solar Term '망종' (여름) -> Cause RC01: Applying seasonal resonance x1.270 (solar term weight: 0.9)
+    [Trace] Recipe candidates filtered by seasonal food category: MEAT
+  Matched Yakseon Kit: 대사정화 티백키트 (Metabolic Purifying Tea bag Kit)
+  Base Recipe: 톳국 (ID: R0943, Main Ingredient: 바닷말, Category: N/A)
+  Upgraded Menu Name: MFCO Premium 톳국 (대사정화 티백키트)
+  Combined Ingredients: 톳 1/2컵, 두부 1모(160g), 쪽파 5개, 청양고추 1개, 참치 액 1t, 다진 마늘 1t, 후추 약간 + [MFCO 대사정화 티백키트: 복령 (H0011) 40%, 의이인 (H0056) 30%, 택사 (H0012) 20%, 진피 (H0024) 10%]
+  Integrated Kitchen Guide:
+1. 두부는 먹기 좋은 크기로 썰어서 준비합니다. 톳은 물에 불리지 않고 바로 끓여도 됩니다<br>2. 청양고추와 홍고추는 어슷 썰고 쪽파도 썰어서 준비합니다. 물의 양은 과 간은 본인 식성에 따라 준비하시면 됩니다 <br>3. 물을 2.5컵 부어준 후에 톳을 먼저 넣고 끓여줍니다.<br>4.  톳이 끓으면 두부를 넣고 한소끔 더 끓여줍니다.<br>5. 끓이면서 생기는 거품은 걷어내줍니다 그래야 더욱 깔끔한 국물을 드실 수 있어요.<br>6. 썰어놓은 쪽파와 청양고추를 넣고 계란물을 돌려가며 부어줍니다.<br>7. 계란물을 부어준 후에 불을 끄고 잠시 젓지 않고 그대로 둡니다 홍고추도 넣어줍니다.<br>8. 대접에 한 대접 가득 떠서 밥 없이 국 한 그릇으로 한 끼 해결할 수 있어요.<br>9. 청양고추를 넣어 칼칼하면서 바다향 가득한 두부 톳국 요즘 같은 날씨에 국한 그릇만 있으면 한기 잘 먹었다 할 수 있어요.
+
+[프렌차이즈 약선 업그레이드 조리법]:
+밥물로 미리 우려내거나 탕류 밑국물로 사용하여 15분 이상 충분히 가열.
+==================================================================
+
+▶ RUNNING: Scenario B: 소음인(SE) 신장(KIDNEY) 약화 환자의 동지(2026-12-22) 냉증 및 혈행장애 진단
+  Inputs: States=['ST-003', 'ST-017'], Constitution=SE, Organ=KIDNEY, Date=2026-12-22
+  Inferred Root Cause: RC02 (순환정체) [Final Score: 2.555]
+  All Cause Scores:
+    - RC01: 0.000
+    - RC02: 2.555
+    - RC03: 0.000
+    - RC04: 0.000
+    - RC05: 0.000
+  Reasoning Trace Logs:
+    [Trace] Inferred Solar Term from date '2026-12-22': 동지
+    [Trace] State ST-003 -> Cause RC02: Base weight 0.9 * State Boost 1.000 = 0.900
+    [Trace] State ST-017 matches vulnerability for Constitution SE. Boosting weight by 1 + 0.4 * 0.9 = 1.360
+    [Trace] State ST-017 -> Cause RC02: Base weight 0.8 * State Boost 1.360 = 1.088
+    [Trace] Organ KIDNEY -> Cause RC01: Applying Zang-Fu correction x1.475 (organ vulnerability weight: 0.95)
+    [Trace] Solar Term '동지' (겨울) -> Cause RC02: Applying seasonal resonance x1.285 (solar term weight: 0.95)
+  Matched Yakseon Kit: 순환온기 분말키트 (Circulation & Warmth Powder Kit)
+  Base Recipe: 장어국 (ID: R0579, Main Ingredient: 뱀장어, Category: N/A)
+  Upgraded Menu Name: MFCO Premium 장어국 (순환온기 분말키트)
+  Combined Ingredients: 손질된 장어 3마리, 참기름 1큰술, 식용유 1큰술, 다진마늘 1큰술, 고추가루 2큰술, 다시마, 멸치육수 6컵, 손질한 콩나물 2줌 새송이버섯 1개, 대파 1대 국간장 3큰술, 후추약간 + [MFCO 순환온기 분말키트: 당귀 (H0009) 30%, 천궁 (H0015) 30%, 작약 (H0016) 20%, 계피 (H0027) 20%]
+  Integrated Kitchen Guide:
+1. 손질된 장어 3마리를 2~3cm길이로 잘라 흐르는 물에 씻어 체에 건져 물기를 빼 줍니다. <br>2. 달군 냄비에 식용유 1큰술, 참기름 1큰술을 두르고 다진마늘 1큰술을 넣고 먼저 볶아 줍니다. <br>3. 고추가루 2큰술을 넣고 타지않게 볶아 주세요. <br>4. 준비한 장어살을 넣고 볶아 줍니다. <br>5. 장어가 익어 탱글하게 살이 말리면 다시마 멸치육수 6컵을 붓고 끓여 줍니다. 국물을 고르게 팔팔 끓여주세요.<br>5. 손질한 콩나물 2줌을 넣고. 새송이버섯 1개를 곱게 채썰어 넣고 끓여 줍니다. <br>6. 국물이 끓으면 국간장 3큰술로 간을 해 줍니다. <br>7. 국물이 고르게 끓으면 어슷썬 대파 1대를 넣고 후추약간으로 마무리간으 봐주세요, 전혀 비리지않고 칼칼한 장어국이 완성입니다.
+
+[프렌차이즈 약선 업그레이드 조리법]:
+조리 시작 시 육수용 티백으로 함께 끓이거나, 볶음/조림 소스에 분말 혼합하여 사용.
+==================================================================
+
+▶ RUNNING: Scenario C: 소양인(SY) 심장(HEART) 상열 환자의 한여름(2026-07-23) 피로 및 스트레스 진단
+  Inputs: States=['ST-001', 'ST-007'], Constitution=SY, Organ=HEART, Date=2026-07-23
+  Inferred Root Cause: RC05 (심신불균형) [Final Score: 1.670]
+  All Cause Scores:
+    - RC01: 1.170
+    - RC02: 0.000
+    - RC03: 0.000
+    - RC04: 0.000
+    - RC05: 1.670
+  Reasoning Trace Logs:
+    [Trace] Inferred Solar Term from date '2026-07-23': 대서
+    [Trace] State ST-001 -> Cause RC01: Base weight 0.9 * State Boost 1.000 = 0.900
+    [Trace] State ST-007 matches vulnerability for Constitution SY. Boosting weight by 1 + 0.4 * 0.7 = 1.280
+    [Trace] State ST-007 -> Cause RC05: Base weight 0.9 * State Boost 1.280 = 1.152
+    [Trace] Organ HEART -> Cause RC05: Applying Zang-Fu correction x1.450 (organ vulnerability weight: 0.9)
+    [Trace] Solar Term '대서' (여름) -> Cause RC01: Applying seasonal resonance x1.300 (solar term weight: 1.0)
+    [Trace] Recipe candidates filtered by seasonal food category: MEAT
+  Matched Yakseon Kit: 안심수면 앰플키트 (Calming & Sleep Ampoule Kit)
+  Base Recipe: 굴국밥 (ID: R0053, Main Ingredient: 굴, 미역, Category: N/A)
+  Upgraded Menu Name: MFCO Premium 굴국밥 (안심수면 앰플키트)
+  Combined Ingredients: 다시마육수 2~3컵, 찬밥 2공기, 굴 100g, 불린 미역 ½컵, 부추 10줄기, 달걀 1개, 청양고추 1개, 대파 약간, 소금, 후추 약간씩 + [MFCO 안심수면 앰플키트: 산조인 (H0025) 40%, 원지 (H0026) 20%, 백자인 (H0059) 20%, 용안육 (H0060) 20%]
+  Integrated Kitchen Guide:
+1. 끓는 물에 다시마를 넣고 5분만 끓인 후 다시마는 건져내세요.<br> 2. 미역은 불려두고 계란은 멍울없이 풀어둬요. <br>3. 부추는 5cm로 잘라두고 청양고추, 대파는 어슷하게 썰어둡니다.<br> 4. 뚝배기에 찬밥과 미역, 굴을 차례로 담고 다시마육수를 부어서 끓여줍니다.<br>5. 끓기 시작하면 달걀을 줄알쳐 넣고, 청양고추와 대파를 넣고 살짝 익혀요.<br>5. 깔끔하게 소금으로 간을 맞춰주세요.
+
+[프렌차이즈 약선 업그레이드 조리법]:
+요리 완성 후 가볍게 섞어 내거나 샐러드 드레싱, 특선 음료에 혼합.
+==================================================================
+

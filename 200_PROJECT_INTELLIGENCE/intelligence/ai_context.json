@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "metadata": {
+    "version": "2.0.0",
+    "phase": "Phase 05",
+    "generated_at": "2026-07-22T12:30:49.634269"
+  },
+  "ai_context": {
+    "project_name": "YM-LAB PROJECT",
+    "current_phase": "Phase 05 : Project Intelligence Layer",
+    "completed_phases": [
+      "Phase 00 Discovery",
+      "Phase 01 Kimchi Master",
+      "Phase 02 Unified KB",
+      "Phase 03 Recovery Baseline",
+      "Phase 04 Asset Management"
+    ],
+    "next_phase": "Phase 06 : Knowledge Engine Construction",
+    "project_identity_reference": "200_PROJECT_INTELLIGENCE/intelligence/project_identity.json",
+    "semantic_summary": "3,524개 파일의 SHA-256 복원 무결성을 보존하며, 14종의 시맨틱 데이터 모델(Property Graphs, Taxonomy, Metadata, Glossary)을 구축하여 AI 에이전트 및 RAG 지식 엔진을 구동하는 지능 레이어.",
+    "working_rules": [
+      "Recovery Baseline outputs are READ ONLY. Never modify catalog.db, MANIFEST.json or RECOVERY_INDEX.md.",
+      "Always generate UTF-8 formatted JSON with 2-space pretty formatting.",
+      "Use clickable file links with file:/// scheme in Markdown.",
+      "Perform empirical log verification after execution and confirm zero side-effects."
+    ],
+    "design_principles": [
+      "Semantic-first: Every entity must contain machine-readable relations, weights, and evidence.",
+      "Zero-Code Scalability: Expand taxonomy and rules via JSON schemas without editing code.",
+      "Uniform Graph Schema: Standardize all graph JSONs with metadata, nodes, edges, statistics, and validation."
+    ],
+    "critical_constraints": [
+      "Zero File Deletion Policy for Recovery Assets",
+      "RECOVERY_INDEX.md Immutable Policy",
+      "Strict Schema Validation for Downstream Phase 06 Compatibility"
+    ],
+    "important_files": [
+      "PROJECT_STATUS.md",
+      "200_PROJECT_INTELLIGENCE/intelligence/project_identity.json",
+      "200_PROJECT_INTELLIGENCE/intelligence/project_graph.json",
+      "200_PROJECT_INTELLIGENCE/intelligence/dependency_graph.json",
+      "200_PROJECT_INTELLIGENCE/intelligence/intelligence_schema.json",
+      "200_PROJECT_INTELLIGENCE/intelligence/intelligence_report.md"
+    ],
+    "project_structure": {
+      "root": "g:/내 드라이브/YM-LAB_PROJECT_",
+      "sub_projects": [
+        "00_MFCO_KNOWLEDGE_BASE",
+        "01_PHASE1_KIMCHI",
+        "100_PLATFORM",
+        "sanYacho",
+        "YM-LAB_RECOVERY",
+        "200_PROJECT_INTELLIGENCE"
+      ]
+    },
+    "core_concepts": [
+      "MFCO",
+      "Q-Code",
+      "Recovery Baseline",
+      "Canonical Asset",
+      "Project Intelligence Layer",
+      "Wasabi"
+    ],
+    "module_summary": {
+      "Recovery": "3,524 files verified baseline catalog (READ ONLY)",
+      "Intelligence": "14 Machine-Readable Semantic Graph & Metadata Assets",
+      "Knowledge_Engine": "Phase 06 RAG Vector Database & Neo4j Graph DB Engine"
+    },
+    "technology_summary": "Python 3, JavaScript (React/Vite), SQLite3, PostgreSQL DDL, SHA-256, JSON Schema v2.0, Vector DB (Planned), Neo4j (Future)"
+  }
+}

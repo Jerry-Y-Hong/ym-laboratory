@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "metadata": {
+    "version": "1.0.0",
+    "phase": "Phase 06",
+    "generated_at": "2026-07-22T12:50:46.313701",
+    "allowed_relation_types": [
+      "contains",
+      "depends_on",
+      "references",
+      "derived_from",
+      "implements",
+      "related_to",
+      "defines",
+      "owns"
+    ]
+  },
+  "relationships": [
+    {
+      "source": "CONCEPT_MFCO",
+      "target": "CONCEPT_QCODE",
+      "relation_type": "defines",
+      "weight": 1.0,
+      "evidence": "00_MFCO_KNOWLEDGE_BASE/07_ONEDRIVE_RECOVERY_FULL/06_DOCUMENT/MFCO_Q_CODE_TRACE_SYSTEM_BLUEPRINT.md"
+    },
+    {
+      "source": "PROJ_PLATFORM",
+      "target": "CONCEPT_NICS",
+      "relation_type": "references",
+      "weight": 0.9,
+      "evidence": "100_PLATFORM/120_DATABASE/repository/raw_repository.py"
+    },
+    {
+      "source": "CONCEPT_MFCO",
+      "target": "PROJ_MFCO",
+      "relation_type": "implements",
+      "weight": 0.95,
+      "evidence": "MFCO_KNOWLEDGE_BASE_DISCOVERY_REPORT.md"
+    },
+    {
+      "source": "PROJ_ENGINE",
+      "target": "PROJ_INTELLIGENCE",
+      "relation_type": "depends_on",
+      "weight": 1.0,
+      "evidence": "200_PROJECT_INTELLIGENCE/intelligence/intelligence_schema.json"
+    },
+    {
+      "source": "PROJ_ENGINE",
+      "target": "CONCEPT_ENGINE",
+      "relation_type": "defines",
+      "weight": 1.0,
+      "evidence": "300_KNOWLEDGE_ENGINE/docs/KNOWLEDGE_ENGINE.md"
+    },
+    {
+      "source": "PROJ_RECOVERY",
+      "target": "PROJ_MFCO",
+      "relation_type": "owns",
+      "weight": 1.0,
+      "evidence": "YM-LAB_RECOVERY/catalog.db"
+    },
+    {
+      "source": "CONCEPT_WASABI",
+      "target": "PROJ_KIMCHI",
+      "relation_type": "related_to",
+      "weight": 0.85,
+      "evidence": "01_PHASE1_KIMCHI/03_INGREDIENT_MASTER/INGREDIENT_MASTER_SPEC.md"
+    },
+    {
+      "source": "PROJ_SANYACHO",
+      "target": "CONCEPT_PIS",
+      "relation_type": "derived_from",
+      "weight": 0.9,
+      "evidence": "sanYacho/MANIFEST.json"
+    },
+    {
+      "source": "PROJ_ENGINE",
+      "target": "PROJ_MFCO",
+      "relation_type": "contains",
+      "weight": 0.95,
+      "evidence": "PROJECT_STATUS.md"
+    }
+  ]
+}

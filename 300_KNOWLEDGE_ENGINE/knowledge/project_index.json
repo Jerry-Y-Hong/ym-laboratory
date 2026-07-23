@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "metadata": {
+    "version": "1.0.0",
+    "phase": "Phase 06",
+    "generated_at": "2026-07-22T12:50:46.313701",
+    "total_modules": 7
+  },
+  "projects": [
+    {
+      "id": "PROJ_MFCO",
+      "name": "MFCO Core Knowledge Base",
+      "path": "00_MFCO_KNOWLEDGE_BASE",
+      "type": "CORE_ONTOLOGY"
+    },
+    {
+      "id": "PROJ_KIMCHI",
+      "name": "Kimchi Master Phase 1",
+      "path": "01_PHASE1_KIMCHI",
+      "type": "DOMAIN_DATASET"
+    },
+    {
+      "id": "PROJ_PLATFORM",
+      "name": "YM-LAB Platform Infrastructure",
+      "path": "100_PLATFORM",
+      "type": "INFRASTRUCTURE"
+    },
+    {
+      "id": "PROJ_INTELLIGENCE",
+      "name": "Project Intelligence Layer",
+      "path": "200_PROJECT_INTELLIGENCE",
+      "type": "SEMANTIC_LAYER"
+    },
+    {
+      "id": "PROJ_ENGINE",
+      "name": "Knowledge Engine Layer",
+      "path": "300_KNOWLEDGE_ENGINE",
+      "type": "KNOWLEDGE_ENGINE"
+    },
+    {
+      "id": "PROJ_SANYACHO",
+      "name": "sanYacho Web App",
+      "path": "sanYacho",
+      "type": "WEB_APPLICATION"
+    },
+    {
+      "id": "PROJ_RECOVERY",
+      "name": "Asset Recovery Storage",
+      "path": "YM-LAB_RECOVERY",
+      "type": "GOVERNANCE_ARCHIVE"
+    }
+  ]
+}

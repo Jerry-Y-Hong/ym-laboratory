@@ -1,0 +1,393 @@
+==================================================================
+        MFCO SEMANTIC INFERENCE PIPELINE RUN (MULTILINGUAL)       
+     (User State + Constitution + Organ + Seasonal Term)          
+==================================================================
+
+▶▶ RUNNING SCENARIO: Scenario A: 소음인(SE) 비장(SPLEEN) 약화 환자의 초여름(2026-06-01) 소화장애 진단
+  Inputs: States=['ST-005'], Constitution=SE, Organ=SPLEEN, Date=2026-06-01
+
+  ---------------- [ Language: KO ] ----------------
+  [User States]
+    - ST-005 | 소화계 (위장 및 장 기능 저하)
+  [Inferred Cause]: RC03 | 대사불균형 [Score: 1.558]
+    Target Functions: 수분배출 (이수·이뇨·부종 관리), 해독 (독성 제거), 소화개선 (화위)
+    Reasoning Trace Logs:
+      * Inferred Solar Term from date '2026-06-01': 망종
+      * State ST-005 matches vulnerability for Constitution SE. Boosting weight by 1 + 0.4 * 0.8 = 1.320
+      * State ST-005 -> Cause RC03: Base weight 0.8 * State Boost 1.320 = 1.056
+      * Organ SPLEEN -> Cause RC01: Applying Zang-Fu correction x1.400 (organ vulnerability weight: 0.8)
+      * Organ SPLEEN -> Cause RC03: Applying Zang-Fu correction x1.475 (organ vulnerability weight: 0.95)
+      * Solar Term '망종' (여름) -> Cause RC01: Applying seasonal resonance x1.270 (solar term weight: 0.9)
+      * Scored Recipe '고사리 차돌박이찌개' (Final Score: 1.90) with bonuses: K03 + TEA (+0.3), Digestive State + Easy Single Meal (+0.6)
+  [Matched Yakseon Kit]
+    Name: 대사정화 티백키트 (Metabolic Purifying Tea bag Kit) (Format: 15g Extra Large Tea bag filter)
+    Composition: 복령 (H0011) 40%, 의이인 (H0056) 30%, 택사 (H0012) 20%, 진피 (H0024) 10%
+    Kitchen Guide: 밥물로 미리 우려내거나 탕류 밑국물로 사용하여 15분 이상 충분히 가열.
+  [Premium Upgraded Recipe]
+    Menu Title: 대사정화 티백키트 고사리 차돌박이찌개
+    Franchise Menu Name: MFCO Premium 고사리 차돌박이찌개 (대사정화 티백키트)
+    Combined Ingredients: 고사리 200g, 감자 2개, 대파 2대, 차돌박이 300g, 물 8컵, 고춧가루 4큰술, 참기름 2큰술, 새우젓 2작은술, 소금 1작은술, 후춧가루 약간, 국간장 4큰술, 청주 2큰술, 마늘(다진 것) 2큰술
+<br>고사리 밑간 양념 (고춧가루 4큰술, 참기름 2큰술, 새우젓 2작은술, 소금 1작은술, 후춧가루 약간)<br>차돌박이 밑간 양념 (국간장 4큰술, 청주 2큰술, 마늘 2큰술) + [MFCO 대사정화 티백키트: 복령 (H0011) 40%, 의이인 (H0056) 30%, 택사 (H0012) 20%, 진피 (H0024) 10%]
+    Integrated Kitchen Instructions:
+1. 고사리는 끓는 물에 소금을 약간만 넣고 살짝 데쳐 건진 뒤 찬물에 담갔다 건져 물기를 꼭 짠다. 줄기 끝 부분은 잘라내고 3등분한다.<br>2. 감자는 껍질을 벗겨 4등분한 뒤 반달썰기하고 대파는 5cm 정도의 길이로 자른다.<br>3. 볼에 분량의 밑간 양념을 섞은 뒤 고사리, 감자, 대파를 넣고 버무려 20분 정도 재워둔다.<br>4. 볼에 차돌박이와 국간장, 청주, 다진 마늘을 넣고 버무려 밑간 한다.<br>5. 팬에 참기름을 두르고 센불에서 차돌박이를 볶다 양념한 고사리, 감자, 대파를 넣고 약불에서 타지 않게 볶는다.<br>6. 물 8컵을 붓고 센불에서 끓이다 약불로 줄여 감자가 익을 때까지 끓인다.
+
+[프렌차이즈 약선 업그레이드 조리법]:
+밥물로 미리 우려내거나 탕류 밑국물로 사용하여 15분 이상 충분히 가열.
+  [Composed Meal Set (5-Bansang)]
+    Set Title: MFCO 대사정화 티백키트 맞춤형 5반상 웰니스 식단
+    * STAPLE: 녹두찹쌀죽 (녹두, 찹쌀) | Na: 3.0mg, Fat: 2.5g
+    * SOUP_STEW: 가지탕수 (가지) | Na: 73.0mg, Fat: 1.6g
+    * MAIN_SIDE: 김전 (김) | Na: 72.0mg, Fat: 0.2g
+    * SUB_SIDE: 가지나물 (가지) | Na: 4.0mg, Fat: 0.1g
+    * PRE_MEAL_TEA: 사과차 (사과) | Na: 25.5mg, Fat: 2.1g
+    * POST_MEAL_TEA: 고사리 차돌박이찌개 (고사리) | Na: 9.5mg, Fat: 1.6g
+    * TOTAL NUTRIENTS -> Calories: 994.5kcal, Protein: 62.1g, Fat: 8.0g, Sodium: 187.0mg
+
+  ---------------- [ Language: EN ] ----------------
+  [User States]
+    - ST-005 | Digestive System (Gastrointestinal hypofunction)
+  [Inferred Cause]: RC03 | Metabolic Imbalance [Score: 1.558]
+    Target Functions: Water Elimination (Diuresis & Edema Management), Detoxification (Toxin Removal), Digestion Improvement (Harmonize Stomach)
+    Reasoning Trace Logs:
+      * Inferred Solar Term from date '2026-06-01': Mangjong
+      * State ST-005 matches vulnerability for Constitution So-Eum. Boosting weight by 1 + 0.4 * 0.8 = 1.320
+      * State ST-005 -> Cause RC03: Base weight 0.8 * State Boost 1.320 = 1.056
+      * Organ Spleen -> Cause RC01: Applying Zang-Fu correction x1.400 (organ vulnerability weight: 0.8)
+      * Organ Spleen -> Cause RC03: Applying Zang-Fu correction x1.475 (organ vulnerability weight: 0.95)
+      * Solar Term 'Mangjong' (Summer) -> Cause RC01: Applying seasonal resonance x1.270 (solar term weight: 0.9)
+      * [EN Translate] Scored Recipe '고사리 차돌박이찌개' (Final Score: 1.90) with bonuses: K03 + Tae-EumA (+0.3), Digestive State + Easy Single Meal (+0.6)
+  [Matched Yakseon Kit]
+    Name: 대사정화 티백키트 (Metabolic Purifying Tea bag Kit) (Format: 15g Extra Large Tea bag filter)
+    Composition: Poria (H0011) 40%, Coix Seed (H0056) 30%, Alisma Rhizome (H0012) 20%, Tangerine Peel (H0024) 10%
+    Kitchen Guide: Pre-brew with rice water or use as a soup stock and heat sufficiently for more than 15 minutes.
+  [Premium Upgraded Recipe]
+    Menu Title: [EN Translate] Metabolic Purifying Tea bag Kit 고사리 차돌박이찌개
+    Franchise Menu Name: [EN Translate] MFCO Premium 고사리 차돌박이찌개 (Metabolic Purifying Tea bag Kit)
+    Combined Ingredients: [EN Translate] 고사리 200g, 감자 2개, Green Onion 2대, 차돌박이 300g, 물 8컵, 고춧가루 4큰술, Sesame Oil 2 tbsp, 새우젓 2작은술, 소금 1작은술, 후춧가루 약간, Soup Soy Sauce 4큰술, 청주 2 tbsp, 마늘(다진 것) 2 tbsp
+<br>[EN Translate] 고사리 밑간 양념 (고춧가루 4큰술, Sesame Oil 2 tbsp, 새우젓 2작은술, 소금 1작은술, 후춧가루 약간)<br>[EN Translate] 차돌박이 밑간 양념 (Soup Soy Sauce 4큰술, 청주 2 tbsp, 마늘 2 tbsp) + [MFCO Metabolic Purifying Tea bag Kit: Poria (H0011) 40%, Coix Seed (H0056) 30%, Alisma Rhizome (H0012) 20%, Tangerine Peel (H0024) 10%]
+    Integrated Kitchen Instructions:
+1. [EN Translate] 고사리는 끓는 물에 소금을 약간만 넣고 살짝 데쳐 건진 뒤 찬물에 담갔다 건져 물기를 꼭 짠다. 줄기 끝 부분은 잘라내고 3등분한다.<br>2. [EN Translate] 감자는 껍질을 벗겨 4등분한 뒤 반달썰기하고 Green Onion는 5cm 정도의 길이로 자른다.<br>3. [EN Translate] 볼에 분량의 밑간 양념을 섞은 뒤 고사리, 감자, Green Onion를 넣고 버무려 20분 정도 재워둔다.<br>4. [EN Translate] 볼에 차돌박이와 Soup Soy Sauce, 청주, Minced Garlic을 넣고 버무려 밑간 한다.<br>5. [EN Translate] 팬에 Sesame Oil을 두르고 센불에서 차돌박이를 볶다 양념한 고사리, 감자, Green Onion를 넣고 약불에서 타지 않게 볶는다.<br>6. [EN Translate] 물 8컵을 붓고 센불에서 끓이다 약불로 줄여 감자가 익을 때까지 끓인다.
+
+[Yakseon Upgrade Instructions]:
+
+Pre-brew with rice water or use as a soup stock and heat sufficiently for more than 15 minutes.
+  [Composed Meal Set (5-Bansang)]
+    Set Title: [EN Translate] MFCO Metabolic Purifying Tea bag Kit 맞춤형 5반상 웰니스 식단
+    * STAPLE: 녹두찹쌀죽 (녹두, 찹쌀) | Na: 3.0mg, Fat: 2.5g
+    * SOUP_STEW: 가지탕수 (가지) | Na: 73.0mg, Fat: 1.6g
+    * MAIN_SIDE: 김전 (김) | Na: 72.0mg, Fat: 0.2g
+    * SUB_SIDE: 가지나물 (가지) | Na: 4.0mg, Fat: 0.1g
+    * PRE_MEAL_TEA: 사과차 (사과) | Na: 25.5mg, Fat: 2.1g
+    * POST_MEAL_TEA: 고사리 차돌박이찌개 (고사리) | Na: 9.5mg, Fat: 1.6g
+    * TOTAL NUTRIENTS -> Calories: 994.5kcal, Protein: 62.1g, Fat: 8.0g, Sodium: 187.0mg
+
+  ---------------- [ Language: ES ] ----------------
+  [User States]
+    - ST-005 | Sistema Digestivo (Hipofunción gastrointestinal)
+  [Inferred Cause]: RC03 | Desequilibrio Metabólico [Score: 1.558]
+    Target Functions: Eliminación de Agua (Diuresis y Manejo de Edema), Desintoxicación (Eliminación de Toxinas), Mejora de la Digestión (Armonizar Estómago)
+    Reasoning Trace Logs:
+      * Término solar inferido a partir de la fecha '2026-06-01': Mangjong
+      * El estado ST-005 coincide con la vulnerabilidad de la constitución So-Eum. Aumentando peso por 1 + 0.4 * 0.8 = 1.320
+      * Estado ST-005 -> Causa RC03: Peso base 0.8 * Aumento de estado 1.320 = 1.056
+      * Órgano Bazo -> Causa RC01: Aplicando corrección Zang-Fu x1.400 (peso de vulnerabilidad del órgano: 0.8)
+      * Órgano Bazo -> Causa RC03: Aplicando corrección Zang-Fu x1.475 (peso de vulnerabilidad del órgano: 0.95)
+      * Término solar 'Mangjong' (Verano) -> Causa RC01: Aplicando resonancia estacional x1.270 (peso del término solar: 0.9)
+      * [ES Translate] Scored Recipe '고사리 차돌박이찌개' (Final Score: 1.90) with bonuses: K03 + Tae-EumA (+0.3), Digestive State + Easy Single Meal (+0.6)
+  [Matched Yakseon Kit]
+    Name: 대사정화 티백키트 (Metabolic Purifying Tea bag Kit) (Format: 15g Extra Large Tea bag filter)
+    Composition: Poria (H0011) 40%, Lágrima de Job (H0056) 30%, Alisma (H0012) 20%, Piel de Mandarina (H0024) 10%
+    Kitchen Guide: Prepare previamente con agua de arroz o úselo como caldo de sopa y caliente lo suficiente durante más de 15 minutos.
+  [Premium Upgraded Recipe]
+    Menu Title: [ES Translate] Kit de Bolsa de Té Depurativa Metabólica 고사리 차돌박이찌개
+    Franchise Menu Name: [ES Translate] MFCO Premium 고사리 차돌박이찌개 (Kit de Bolsa de Té Depurativa Metabólica)
+    Combined Ingredients: [ES Translate] 고사리 200g, 감자 2개, Cebolleta 2대, 차돌박이 300g, 물 8컵, 고춧가루 4큰술, Aceite de Sésamo 2 cucharadas, 새우젓 2작은술, 소금 1작은술, 후춧가루 약간, Salsa de Soja para Sopa 4큰술, 청주 2 cucharadas, 마늘(다진 것) 2 cucharadas
+<br>[ES Translate] 고사리 밑간 양념 (고춧가루 4큰술, Aceite de Sésamo 2 cucharadas, 새우젓 2작은술, 소금 1작은술, 후춧가루 약간)<br>[ES Translate] 차돌박이 밑간 양념 (Salsa de Soja para Sopa 4큰술, 청주 2 cucharadas, 마늘 2 cucharadas) + [MFCO Kit de Bolsa de Té Depurativa Metabólica: Poria (H0011) 40%, Lágrima de Job (H0056) 30%, Alisma (H0012) 20%, Piel de Mandarina (H0024) 10%]
+    Integrated Kitchen Instructions:
+1. [ES Translate] 고사리는 끓는 물에 소금을 약간만 넣고 살짝 데쳐 건진 뒤 찬물에 담갔다 건져 물기를 꼭 짠다. 줄기 끝 부분은 잘라내고 3등분한다.<br>2. [ES Translate] 감자는 껍질을 벗겨 4등분한 뒤 반달썰기하고 Cebolleta는 5cm 정도의 길이로 자른다.<br>3. [ES Translate] 볼에 분량의 밑간 양념을 섞은 뒤 고사리, 감자, Cebolleta를 넣고 버무려 20분 정도 재워둔다.<br>4. [ES Translate] 볼에 차돌박이와 Salsa de Soja para Sopa, 청주, Ajo Picado을 넣고 버무려 밑간 한다.<br>5. [ES Translate] 팬에 Aceite de Sésamo을 두르고 센불에서 차돌박이를 볶다 양념한 고사리, 감자, Cebolleta를 넣고 약불에서 타지 않게 볶는다.<br>6. [ES Translate] 물 8컵을 붓고 센불에서 끓이다 약불로 줄여 감자가 익을 때까지 끓인다.
+
+[Instrucciones de Mejora de Yakseon]:
+
+Prepare previamente con agua de arroz o úselo como caldo de sopa y caliente lo suficiente durante más de 15 minutos.
+  [Composed Meal Set (5-Bansang)]
+    Set Title: [ES Translate] MFCO Kit de Bolsa de Té Depurativa Metabólica 맞춤형 5반상 웰니스 식단
+    * STAPLE: 녹두찹쌀죽 (녹두, 찹쌀) | Na: 3.0mg, Fat: 2.5g
+    * SOUP_STEW: 가지탕수 (가지) | Na: 73.0mg, Fat: 1.6g
+    * MAIN_SIDE: 김전 (김) | Na: 72.0mg, Fat: 0.2g
+    * SUB_SIDE: 가지나물 (가지) | Na: 4.0mg, Fat: 0.1g
+    * PRE_MEAL_TEA: 사과차 (사과) | Na: 25.5mg, Fat: 2.1g
+    * POST_MEAL_TEA: 고사리 차돌박이찌개 (고사리) | Na: 9.5mg, Fat: 1.6g
+    * TOTAL NUTRIENTS -> Calories: 994.5kcal, Protein: 62.1g, Fat: 8.0g, Sodium: 187.0mg
+
+  ---------------- [ Language: DE ] ----------------
+  [User States]
+    - ST-005 | Verdauungssystem (Magen-Darm-Unterfunktion)
+  [Inferred Cause]: RC03 | Stoffwechselungleichgewicht [Score: 1.558]
+    Target Functions: Wasserelimination (Diurese & Ödemmanagement), Entgiftung (Toxinentfernung), Verdauungsverbesserung (Magen harmonisieren)
+    Reasoning Trace Logs:
+      * Aus dem Datum '2026-06-01' abgeleitetes Solar-Term: Mangjong
+      * Zustand ST-005 entspricht der Anfälligkeit für Konstitution So-Eum. Gewicht wird erhöht um 1 + 0.4 * 0.8 = 1.320
+      * Zustand ST-005 -> Ursache RC03: Basisgewicht 0.8 * Zustands-Boost 1.320 = 1.056
+      * Organ Milz -> Ursache RC01: Zang-Fu-Korrektur anwenden x1.400 (Gewicht der Organanfälligkeit: 0.8)
+      * Organ Milz -> Ursache RC03: Zang-Fu-Korrektur anwenden x1.475 (Gewicht der Organanfälligkeit: 0.95)
+      * Solar-Term 'Mangjong' (Sommer) -> Ursache RC01: Saisonalen Resonanzeffekt anwenden x1.270 (Gewicht des Solar-Terms: 0.9)
+      * [DE Translate] Scored Recipe '고사리 차돌박이찌개' (Final Score: 1.90) with bonuses: K03 + Tae-EumA (+0.3), Digestive State + Easy Single Meal (+0.6)
+  [Matched Yakseon Kit]
+    Name: 대사정화 티백키트 (Metabolic Purifying Tea bag Kit) (Format: 15g Extra Large Tea bag filter)
+    Composition: Poria (H0011) 40%, Hiobsträne (H0056) 30%, Froschlöffel (H0012) 20%, Mandarinenschale (H0024) 10%
+    Kitchen Guide: Mit Reiswasser vorbrühen oder als Suppenbrühe verwenden und ausreichend für mehr als 15 Minuten erhitzen.
+  [Premium Upgraded Recipe]
+    Menu Title: [DE Translate] Stoffwechselreinigungs-Teebeutelkit 고사리 차돌박이찌개
+    Franchise Menu Name: [DE Translate] MFCO Premium 고사리 차돌박이찌개 (Stoffwechselreinigungs-Teebeutelkit)
+    Combined Ingredients: [DE Translate] 고사리 200g, 감자 2개, Frühlingszwiebel 2대, 차돌박이 300g, 물 8컵, 고춧가루 4큰술, Sesamöl 2 EL, 새우젓 2작은술, 소금 1작은술, 후춧가루 약간, Suppen-Sojasauce 4큰술, 청주 2 EL, 마늘(다진 것) 2 EL
+<br>[DE Translate] 고사리 밑간 양념 (고춧가루 4큰술, Sesamöl 2 EL, 새우젓 2작은술, 소금 1작은술, 후춧가루 약간)<br>[DE Translate] 차돌박이 밑간 양념 (Suppen-Sojasauce 4큰술, 청주 2 EL, 마늘 2 EL) + [MFCO Stoffwechselreinigungs-Teebeutelkit: Poria (H0011) 40%, Hiobsträne (H0056) 30%, Froschlöffel (H0012) 20%, Mandarinenschale (H0024) 10%]
+    Integrated Kitchen Instructions:
+1. [DE Translate] 고사리는 끓는 물에 소금을 약간만 넣고 살짝 데쳐 건진 뒤 찬물에 담갔다 건져 물기를 꼭 짠다. 줄기 끝 부분은 잘라내고 3등분한다.<br>2. [DE Translate] 감자는 껍질을 벗겨 4등분한 뒤 반달썰기하고 Frühlingszwiebel는 5cm 정도의 길이로 자른다.<br>3. [DE Translate] 볼에 분량의 밑간 양념을 섞은 뒤 고사리, 감자, Frühlingszwiebel를 넣고 버무려 20분 정도 재워둔다.<br>4. [DE Translate] 볼에 차돌박이와 Suppen-Sojasauce, 청주, Gehackter Knoblauch을 넣고 버무려 밑간 한다.<br>5. [DE Translate] 팬에 Sesamöl을 두르고 센불에서 차돌박이를 볶다 양념한 고사리, 감자, Frühlingszwiebel를 넣고 약불에서 타지 않게 볶는다.<br>6. [DE Translate] 물 8컵을 붓고 센불에서 끓이다 약불로 줄여 감자가 익을 때까지 끓인다.
+
+[Yakseon Upgrade Anleitung]:
+
+Mit Reiswasser vorbrühen oder als Suppenbrühe verwenden und ausreichend für mehr als 15 Minuten erhitzen.
+  [Composed Meal Set (5-Bansang)]
+    Set Title: [DE Translate] MFCO Stoffwechselreinigungs-Teebeutelkit 맞춤형 5반상 웰니스 식단
+    * STAPLE: 녹두찹쌀죽 (녹두, 찹쌀) | Na: 3.0mg, Fat: 2.5g
+    * SOUP_STEW: 가지탕수 (가지) | Na: 73.0mg, Fat: 1.6g
+    * MAIN_SIDE: 김전 (김) | Na: 72.0mg, Fat: 0.2g
+    * SUB_SIDE: 가지나물 (가지) | Na: 4.0mg, Fat: 0.1g
+    * PRE_MEAL_TEA: 사과차 (사과) | Na: 25.5mg, Fat: 2.1g
+    * POST_MEAL_TEA: 고사리 차돌박이찌개 (고사리) | Na: 9.5mg, Fat: 1.6g
+    * TOTAL NUTRIENTS -> Calories: 994.5kcal, Protein: 62.1g, Fat: 8.0g, Sodium: 187.0mg
+
+  ---------------- [ Language: AR ] ----------------
+  [User States]
+    - ST-005 | الجهاز الهضمي (ضعف وظائف المعدة والأمعاء)
+  [Inferred Cause]: RC03 | خلل في التمثيل الغذائي [Score: 1.558]
+    Target Functions: تصريف المياه (إدرار البول وإدارة الوذمة)، إزالة السموم (إزالة السموم)، تحسين الهضم (تهدئة المعدة)
+    Reasoning Trace Logs:
+      * الرمز الشمسي المستنتج من التاريخ '2026-06-01': مانغجونغ
+      * الحالة ST-005 تطابق الحساسية للبنية الجسدية سو-أوم. زيادة الوزن بمقدار 1 + 0.4 * 0.8 = 1.320
+      * الحالة ST-005 -> السبب RC03: الوزن الأساسي 0.8 * زيادة الحالة 1.320 = 1.056
+      * العضو الطحال -> السبب RC01: تطبيق تصحيح زانغ-فو x1.400 (وزن حساسية العضو: 0.8)
+      * العضو الطحال -> السبب RC03: تطبيق تصحيح زانغ-فو x1.475 (وزن حساسية العضو: 0.95)
+      * الرمز الشمسي 'مانغجونغ' (الصيف) -> السبب RC01: تطبيق الرنين الموسمي x1.270 (وزن الرمز الشمسي: 0.9)
+      * [AR Translate] Scored Recipe '고사리 차돌박이찌개' (Final Score: 1.90) with bonuses: K03 + تاي-أومA (+0.3), Digestive State + Easy Single Meal (+0.6)
+  [Matched Yakseon Kit]
+    Name: 대사정화 티백키트 (Metabolic Purifying Tea bag Kit) (Format: 15g Extra Large Tea bag filter)
+    Composition: بوريا (H0011) 40%, عشب الحبوب (H0056) 30%, أليسما (H0012) 20%, قشر اليوسفي (H0024) 10%
+    Kitchen Guide: يُحضر مسبقًا بماء الأرز أو يُستخدم كمرق حساء ويُسخن جيدًا لأكثر من 15 دقيقة.
+  [Premium Upgraded Recipe]
+    Menu Title: [AR Translate] مجموعة أكياس شاي تنقية التمثيل الغذائي 고사리 차돌박이찌개
+    Franchise Menu Name: [AR Translate] MFCO Premium 고사리 차돌박이찌개 (مجموعة أكياس شاي تنقية التمثيل الغذائي)
+    Combined Ingredients: [AR Translate] 고사리 200g, 감자 2개, بصل أخضر 2대, 차돌박이 300g, 물 8컵, 고춧가루 4큰술, زيت السمسم ملعقتين كبيرتين, 새우젓 2작은술, 소금 1작은술, 후춧가루 약간, صلصة صويا الحساء 4큰술, 청주 ملعقتين كبيرتين, 마늘(다진 것) ملعقتين كبيرتين
+<br>[AR Translate] 고사리 밑간 양념 (고춧가루 4큰술, زيت السمسم ملعقتين كبيرتين, 새우젓 2작은술, 소금 1작은술, 후춧가루 약간)<br>[AR Translate] 차돌박이 밑간 양념 (صلصة صويا الحساء 4큰술, 청주 ملعقتين كبيرتين, 마늘 ملعقتين كبيرتين) + [MFCO مجموعة أكياس شاي تنقية التمثيل الغذائي: بوريا (H0011) 40%, عشب الحبوب (H0056) 30%, أليسما (H0012) 20%, قشر اليوسفي (H0024) 10%]
+    Integrated Kitchen Instructions:
+1. [AR Translate] 고사리는 끓는 물에 소금을 약간만 넣고 살짝 데쳐 건진 뒤 찬물에 담갔다 건져 물기를 꼭 짠다. 줄기 끝 부분은 잘라내고 3등분한다.<br>2. [AR Translate] 감자는 껍질을 벗겨 4등분한 뒤 반달썰기하고 بصل أخضر는 5cm 정도의 길이로 자른다.<br>3. [AR Translate] 볼에 분량의 밑간 양념을 섞은 뒤 고사리, 감자, بصل أخضر를 넣고 버무려 20분 정도 재워둔다.<br>4. [AR Translate] 볼에 차돌박이와 صلصة صويا الحساء, 청주, ثوم مفروم을 넣고 버무려 밑간 한다.<br>5. [AR Translate] 팬에 زيت السمسم을 두르고 센불에서 차돌박이를 볶다 양념한 고사리, 감자, بصل أخضر를 넣고 약불에서 타지 않게 볶는다.<br>6. [AR Translate] 물 8컵을 붓고 센불에서 끓이다 약불로 줄여 감자가 익을 때까지 끓인다.
+
+[تعليمات ترقية ياكسيون]:
+
+يُحضر مسبقًا بماء الأرز أو يُستخدم كمرق حساء ويُسخن جيدًا لأكثر من 15 دقيقة.
+  [Composed Meal Set (5-Bansang)]
+    Set Title: [AR Translate] MFCO مجموعة أكياس شاي تنقية التمثيل الغذائي 맞춤형 5반상 웰니스 식단
+    * STAPLE: 녹두찹쌀죽 (녹두, 찹쌀) | Na: 3.0mg, Fat: 2.5g
+    * SOUP_STEW: 가지탕수 (가지) | Na: 73.0mg, Fat: 1.6g
+    * MAIN_SIDE: 김전 (김) | Na: 72.0mg, Fat: 0.2g
+    * SUB_SIDE: 가지나물 (가지) | Na: 4.0mg, Fat: 0.1g
+    * PRE_MEAL_TEA: 사과차 (사과) | Na: 25.5mg, Fat: 2.1g
+    * POST_MEAL_TEA: 고사리 차돌박이찌개 (고사리) | Na: 9.5mg, Fat: 1.6g
+    * TOTAL NUTRIENTS -> Calories: 994.5kcal, Protein: 62.1g, Fat: 8.0g, Sodium: 187.0mg
+
+======================================================================
+
+▶▶ RUNNING SCENARIO: Scenario B: 소음인(SE) 신장(KIDNEY) 약화 환자의 동지(2026-12-22) 냉증 및 혈행장애 진단
+  Inputs: States=['ST-003', 'ST-017'], Constitution=SE, Organ=KIDNEY, Date=2026-12-22
+
+  ---------------- [ Language: KO ] ----------------
+  [User States]
+    - ST-003 | 순환계 (말초 순환 저하)
+    - ST-017 | 체온·열감계 (상열하한 및 오한)
+  [Inferred Cause]: RC02 | 순환정체 [Score: 2.555]
+    Target Functions: 혈류개선 (활혈·거어), 기순환 (행기·소간), 통락 (경락 소통)
+    Reasoning Trace Logs:
+      * Inferred Solar Term from date '2026-12-22': 동지
+      * State ST-003 -> Cause RC02: Base weight 0.9 * State Boost 1.000 = 0.900
+      * State ST-017 matches vulnerability for Constitution SE. Boosting weight by 1 + 0.4 * 0.9 = 1.360
+      * State ST-017 -> Cause RC02: Base weight 0.8 * State Boost 1.360 = 1.088
+      * Organ KIDNEY -> Cause RC01: Applying Zang-Fu correction x1.475 (organ vulnerability weight: 0.95)
+      * Solar Term '동지' (겨울) -> Cause RC02: Applying seasonal resonance x1.285 (solar term weight: 0.95)
+      * Scored Recipe '가오리조림' (Final Score: 1.70) with bonuses: K02 + SIDE_DISH (+0.4), RAW-Efficacy Synergy (Aroma/Nervous) (+0.3)
+  [Matched Yakseon Kit]
+    Name: 순환온기 분말키트 (Circulation & Warmth Powder Kit) (Format: 5g Fine Powder / 10g Tea bag filter)
+    Composition: 당귀 (H0009) 30%, 천궁 (H0015) 30%, 작약 (H0016) 20%, 계피 (H0027) 20%
+    Kitchen Guide: 조리 시작 시 육수용 티백으로 함께 끓이거나, 볶음/조림 소스에 분말 혼합하여 사용.
+  [Premium Upgraded Recipe]
+    Menu Title: 순환온기 분말키트 가오리조림
+    Franchise Menu Name: MFCO Premium 가오리조림 (순환온기 분말키트)
+    Combined Ingredients: 가오리, 간장, 고춧가루, 설탕, 맛술, 양파, 고추, 대파, 무, 마늘, 생강 + [MFCO 순환온기 분말키트: 당귀 (H0009) 30%, 천궁 (H0015) 30%, 작약 (H0016) 20%, 계피 (H0027) 20%]
+    Integrated Kitchen Instructions:
+1. 가오리를 깨끗하게 손질하여 큼직하게 토막을 낸다. 이때, 가오리는 생가오리를 쓰거나 꼬들꼬들한 맛을 살리려면 하루에서 사흘 정도 말린다. <br>2. 간장, 고춧가루, 설탕, 맛술 등을 넣어 양념장을 준비한다. 양파는 채 썰고, 고추와 대파는 어슷하게 썬다. 무도 납작하게 썰어둔다. 마늘과 생강은 다져서 준비한다. <br>3. 달구어진 냄비에 무를 깔고 손질한 가오리를 넣은 뒤 양념장과 준비한 재료를 마저 넣어 조린다.
+
+[프렌차이즈 약선 업그레이드 조리법]:
+조리 시작 시 육수용 티백으로 함께 끓이거나, 볶음/조림 소스에 분말 혼합하여 사용.
+  [Composed Meal Set (5-Bansang)]
+    Set Title: MFCO 순환온기 분말키트 맞춤형 5반상 웰니스 식단
+    * STAPLE: 가자미식해 (가자미) | Na: 123.0mg, Fat: 4.6g
+    * SOUP_STEW: 가지탕수 (가지) | Na: 73.0mg, Fat: 1.6g
+    * MAIN_SIDE: 가오리조림 (가오리) | Na: 8.0mg, Fat: 3.1g
+    * SUB_SIDE: 가오리무침 (가오리) | Na: 12.5mg, Fat: 0.5g
+    * PRE_MEAL_TEA: 대추생강차 (대추) | Na: 4.5mg, Fat: 1.0g
+    * POST_MEAL_TEA: 곶감차 (곶감) | Na: 1.0mg, Fat: 0.7g
+    * TOTAL NUTRIENTS -> Calories: 1292.5kcal, Protein: 63.6g, Fat: 11.6g, Sodium: 222.0mg
+
+  ---------------- [ Language: EN ] ----------------
+  [User States]
+    - ST-003 | Circulation System (Decreased peripheral circulation)
+    - ST-017 | Body Temperature System (Upper body heat, lower body cold, and chills)
+  [Inferred Cause]: RC02 | Circulation Stagnation [Score: 2.555]
+    Target Functions: Blood Flow Improvement (Promote Blood Circulation), Qi Circulation (Regulate Qi), Meridian Clearing (Clear Meridians)
+    Reasoning Trace Logs:
+      * Inferred Solar Term from date '2026-12-22': Dongji
+      * State ST-003 -> Cause RC02: Base weight 0.9 * State Boost 1.000 = 0.900
+      * State ST-017 matches vulnerability for Constitution So-Eum. Boosting weight by 1 + 0.4 * 0.9 = 1.360
+      * State ST-017 -> Cause RC02: Base weight 0.8 * State Boost 1.360 = 1.088
+      * Organ Kidney -> Cause RC01: Applying Zang-Fu correction x1.475 (organ vulnerability weight: 0.95)
+      * Solar Term 'Dongji' (Winter) -> Cause RC02: Applying seasonal resonance x1.285 (solar term weight: 0.95)
+      * [EN Translate] Scored Recipe '가오리조림' (Final Score: 1.70) with bonuses: K02 + SIDE_DISH (+0.4), RAW-Efficacy Synergy (Aroma/Nervous) (+0.3)
+  [Matched Yakseon Kit]
+    Name: 순환온기 분말키트 (Circulation & Warmth Powder Kit) (Format: 5g Fine Powder / 10g Tea bag filter)
+    Composition: Angelica Root (H0009) 30%, Cnidium Rhizome (H0015) 30%, Peony Root (H0016) 20%, Cinnamon (H0027) 20%
+    Kitchen Guide: Boil together with a tea bag for broth at the start of cooking, or mix powder into the stir-fry/braising sauce.
+  [Premium Upgraded Recipe]
+    Menu Title: [EN Translate] Circulation & Warmth Powder Kit 가오리조림
+    Franchise Menu Name: [EN Translate] MFCO Premium 가오리조림 (Circulation & Warmth Powder Kit)
+    Combined Ingredients: [EN Translate] 가오리, 간장, 고춧가루, 설탕, 맛술, 양파, 고추, Green Onion, 무, 마늘, 생강 + [MFCO Circulation & Warmth Powder Kit: Angelica Root (H0009) 30%, Cnidium Rhizome (H0015) 30%, Peony Root (H0016) 20%, Cinnamon (H0027) 20%]
+    Integrated Kitchen Instructions:
+1. [EN Translate] 가오리를 깨끗하게 손질하여 큼직하게 토막을 낸다. 이때, 가오리는 생가오리를 쓰거나 꼬들꼬들한 맛을 살리려면 하루에서 사흘 정도 말린다. <br>2. [EN Translate] 간장, 고춧가루, 설탕, 맛술 등을 넣어 양념장을 준비한다. 양파는 채 썰고, 고추와 Green Onion는 어슷하게 썬다. 무도 납작하게 썰어둔다. 마늘과 생강은 다져서 준비한다. <br>3. [EN Translate] 달구어진 냄비에 무를 깔고 손질한 가오리를 넣은 뒤 양념장과 준비한 재료를 마저 넣어 조린다.
+
+[Yakseon Upgrade Instructions]:
+
+Boil together with a tea bag for broth at the start of cooking, or mix powder into the stir-fry/braising sauce.
+  [Composed Meal Set (5-Bansang)]
+    Set Title: [EN Translate] MFCO Circulation & Warmth Powder Kit 맞춤형 5반상 웰니스 식단
+    * STAPLE: 가자미식해 (가자미) | Na: 123.0mg, Fat: 4.6g
+    * SOUP_STEW: 가지탕수 (가지) | Na: 73.0mg, Fat: 1.6g
+    * MAIN_SIDE: 가오리조림 (가오리) | Na: 8.0mg, Fat: 3.1g
+    * SUB_SIDE: 가오리무침 (가오리) | Na: 12.5mg, Fat: 0.5g
+    * PRE_MEAL_TEA: 대추생강차 (Jujube) | Na: 4.5mg, Fat: 1.0g
+    * POST_MEAL_TEA: 곶감차 (곶감) | Na: 1.0mg, Fat: 0.7g
+    * TOTAL NUTRIENTS -> Calories: 1292.5kcal, Protein: 63.6g, Fat: 11.6g, Sodium: 222.0mg
+
+  ---------------- [ Language: ES ] ----------------
+  [User States]
+    - ST-003 | Sistema de Circulación (Disminución de la circulación periférica)
+    - ST-017 | Sistema de Temperatura (Calor superior, frío inferior y escalofríos)
+  [Inferred Cause]: RC02 | Estancamiento de Circulación [Score: 2.555]
+    Target Functions: Mejora del Flujo Sanguíneo (Promover Circulación Sanguínea), Circulación de Qi (Regular Qi), Apertura de Meridianos (Despejar Meridianos)
+    Reasoning Trace Logs:
+      * Término solar inferido a partir de la fecha '2026-12-22': Dongji
+      * Estado ST-003 -> Causa RC02: Peso base 0.9 * Aumento de estado 1.000 = 0.900
+      * El estado ST-017 coincide con la vulnerabilidad de la constitución So-Eum. Aumentando peso por 1 + 0.4 * 0.9 = 1.360
+      * Estado ST-017 -> Causa RC02: Peso base 0.8 * Aumento de estado 1.360 = 1.088
+      * Órgano Riñón -> Causa RC01: Aplicando corrección Zang-Fu x1.475 (peso de vulnerabilidad del órgano: 0.95)
+      * Término solar 'Dongji' (Invierno) -> Causa RC02: Aplicando resonancia estacional x1.285 (peso del término solar: 0.95)
+      * [ES Translate] Scored Recipe '가오리조림' (Final Score: 1.70) with bonuses: K02 + SIDE_DISH (+0.4), RAW-Efficacy Synergy (Aroma/Nervous) (+0.3)
+  [Matched Yakseon Kit]
+    Name: 순환온기 분말키트 (Circulation & Warmth Powder Kit) (Format: 5g Fine Powder / 10g Tea bag filter)
+    Composition: Angélica (H0009) 30%, Cnidio (H0015) 30%, Peonía (H0016) 20%, Canela (H0027) 20%
+    Kitchen Guide: Hierva junto con una bolsa de té para caldo al comienzo de la cocción, o mezcle el polvo en la salsa para saltear/estofar.
+  [Premium Upgraded Recipe]
+    Menu Title: [ES Translate] Kit de Polvo de Circulación y Calidez 가오리조림
+    Franchise Menu Name: [ES Translate] MFCO Premium 가오리조림 (Kit de Polvo de Circulación y Calidez)
+    Combined Ingredients: [ES Translate] 가오리, 간장, 고춧가루, 설탕, 맛술, 양파, 고추, Cebolleta, 무, 마늘, 생강 + [MFCO Kit de Polvo de Circulación y Calidez: Angélica (H0009) 30%, Cnidio (H0015) 30%, Peonía (H0016) 20%, Canela (H0027) 20%]
+    Integrated Kitchen Instructions:
+1. [ES Translate] 가오리를 깨끗하게 손질하여 큼직하게 토막을 낸다. 이때, 가오리는 생가오리를 쓰거나 꼬들꼬들한 맛을 살리려면 하루에서 사흘 정도 말린다. <br>2. [ES Translate] 간장, 고춧가루, 설탕, 맛술 등을 넣어 양념장을 준비한다. 양파는 채 썰고, 고추와 Cebolleta는 어슷하게 썬다. 무도 납작하게 썰어둔다. 마늘과 생강은 다져서 준비한다. <br>3. [ES Translate] 달구어진 냄비에 무를 깔고 손질한 가오리를 넣은 뒤 양념장과 준비한 재료를 마저 넣어 조린다.
+
+[Instrucciones de Mejora de Yakseon]:
+
+Hierva junto con una bolsa de té para caldo al comienzo de la cocción, o mezcle el polvo en la salsa para saltear/estofar.
+  [Composed Meal Set (5-Bansang)]
+    Set Title: [ES Translate] MFCO Kit de Polvo de Circulación y Calidez 맞춤형 5반상 웰니스 식단
+    * STAPLE: 가자미식해 (가자미) | Na: 123.0mg, Fat: 4.6g
+    * SOUP_STEW: 가지탕수 (가지) | Na: 73.0mg, Fat: 1.6g
+    * MAIN_SIDE: 가오리조림 (가오리) | Na: 8.0mg, Fat: 3.1g
+    * SUB_SIDE: 가오리무침 (가오리) | Na: 12.5mg, Fat: 0.5g
+    * PRE_MEAL_TEA: 대추생강차 (Azufaifa) | Na: 4.5mg, Fat: 1.0g
+    * POST_MEAL_TEA: 곶감차 (곶감) | Na: 1.0mg, Fat: 0.7g
+    * TOTAL NUTRIENTS -> Calories: 1292.5kcal, Protein: 63.6g, Fat: 11.6g, Sodium: 222.0mg
+
+  ---------------- [ Language: DE ] ----------------
+  [User States]
+    - ST-003 | Zirkulationssystem (Verminderte periphere Zirkulation)
+    - ST-017 | Temperatursystem (Oberkörperhitze, Unterkörperkälte und Frösteln)
+  [Inferred Cause]: RC02 | Zirkulationsstauung [Score: 2.555]
+    Target Functions: Durchblutungsverbesserung (Blutzirkulation fördern), Qi-Zirkulation (Qi regulieren), Meridianöffnung (Meridiane befreien)
+    Reasoning Trace Logs:
+      * Aus dem Datum '2026-12-22' abgeleitetes Solar-Term: Dongji
+      * Zustand ST-003 -> Ursache RC02: Basisgewicht 0.9 * Zustands-Boost 1.000 = 0.900
+      * Zustand ST-017 entspricht der Anfälligkeit für Konstitution So-Eum. Gewicht wird erhöht um 1 + 0.4 * 0.9 = 1.360
+      * Zustand ST-017 -> Ursache RC02: Basisgewicht 0.8 * Zustands-Boost 1.360 = 1.088
+      * Organ Niere -> Ursache RC01: Zang-Fu-Korrektur anwenden x1.475 (Gewicht der Organanfälligkeit: 0.95)
+      * Solar-Term 'Dongji' (Winter) -> Ursache RC02: Saisonalen Resonanzeffekt anwenden x1.285 (Gewicht des Solar-Terms: 0.95)
+      * [DE Translate] Scored Recipe '가오리조림' (Final Score: 1.70) with bonuses: K02 + SIDE_DISH (+0.4), RAW-Efficacy Synergy (Aroma/Nervous) (+0.3)
+  [Matched Yakseon Kit]
+    Name: 순환온기 분말키트 (Circulation & Warmth Powder Kit) (Format: 5g Fine Powder / 10g Tea bag filter)
+    Composition: Engelwurz (H0009) 30%, Cnidium-Rhizom (H0015) 30%, Pfingstrosenwurzel (H0016) 20%, Zimt (H0027) 20%
+    Kitchen Guide: Kochen Sie zu Beginn des Garvorgangs zusammen mit einem Teebeutel für die Brühe, oder mischen Sie Pulver in die Rühr-/Schmorsoße.
+  [Premium Upgraded Recipe]
+    Menu Title: [DE Translate] Zirkulations- und Wärme-Pulverkit 가오리조림
+    Franchise Menu Name: [DE Translate] MFCO Premium 가오리조림 (Zirkulations- und Wärme-Pulverkit)
+    Combined Ingredients: [DE Translate] 가오리, 간장, 고춧가루, 설탕, 맛술, 양파, 고추, Frühlingszwiebel, 무, 마늘, 생강 + [MFCO Zirkulations- und Wärme-Pulverkit: Engelwurz (H0009) 30%, Cnidium-Rhizom (H0015) 30%, Pfingstrosenwurzel (H0016) 20%, Zimt (H0027) 20%]
+    Integrated Kitchen Instructions:
+1. [DE Translate] 가오리를 깨끗하게 손질하여 큼직하게 토막을 낸다. 이때, 가오리는 생가오리를 쓰거나 꼬들꼬들한 맛을 살리려면 하루에서 사흘 정도 말린다. <br>2. [DE Translate] 간장, 고춧가루, 설탕, 맛술 등을 넣어 양념장을 준비한다. 양파는 채 썰고, 고추와 Frühlingszwiebel는 어슷하게 썬다. 무도 납작하게 썰어둔다. 마늘과 생강은 다져서 준비한다. <br>3. [DE Translate] 달구어진 냄비에 무를 깔고 손질한 가오리를 넣은 뒤 양념장과 준비한 재료를 마저 넣어 조린다.
+
+[Yakseon Upgrade Anleitung]:
+
+Kochen Sie zu Beginn des Garvorgangs zusammen mit einem Teebeutel für die Brühe, oder mischen Sie Pulver in die Rühr-/Schmorsoße.
+  [Composed Meal Set (5-Bansang)]
+    Set Title: [DE Translate] MFCO Zirkulations- und Wärme-Pulverkit 맞춤형 5반상 웰니스 식단
+    * STAPLE: 가자미식해 (가자미) | Na: 123.0mg, Fat: 4.6g
+    * SOUP_STEW: 가지탕수 (가지) | Na: 73.0mg, Fat: 1.6g
+    * MAIN_SIDE: 가오리조림 (가오리) | Na: 8.0mg, Fat: 3.1g
+    * SUB_SIDE: 가오리무침 (가오리) | Na: 12.5mg, Fat: 0.5g
+    * PRE_MEAL_TEA: 대추생강차 (Jujube) | Na: 4.5mg, Fat: 1.0g
+    * POST_MEAL_TEA: 곶감차 (곶감) | Na: 1.0mg, Fat: 0.7g
+    * TOTAL NUTRIENTS -> Calories: 1292.5kcal, Protein: 63.6g, Fat: 11.6g, Sodium: 222.0mg
+
+  ---------------- [ Language: AR ] ----------------
+  [User States]
+    - ST-003 | نظام الدورة الدموية (انخفاض الدورة الدموية الطرفية)
+    - ST-017 | نظام حرارة الجسم (حرارة في الجزء العلوي، برودة في الجزء السفلي وقشعريرة)
+  [Inferred Cause]: RC02 | ركود الدورة الدموية [Score: 2.555]
+    Target Functions: تحسين تدفق الدم (نشاط الدورة الدموية)، دورة الطاقة (تنظيم تشي)، فتح المسارات (تسليك القنوات)
+    Reasoning Trace Logs:
+      * الرمز الشمسي المستنتج من التاريخ '2026-12-22': دونغجي
+      * الحالة ST-003 -> السبب RC02: الوزن الأساسي 0.9 * زيادة الحالة 1.000 = 0.900
+      * الحالة ST-017 تطابق الحساسية للبنية الجسدية سو-أوم. زيادة الوزن بمقدار 1 + 0.4 * 0.9 = 1.360
+      * الحالة ST-017 -> السبب RC02: الوزن الأساسي 0.8 * زيادة الحالة 1.360 = 1.088
+      * العضو الكلية -> السبب RC01: تطبيق تصحيح زانغ-فو x1.475 (وزن حساسية العضو: 0.95)
+      * الرمز الشمسي 'دونغجي' (الشتاء) -> السبب RC02: تطبيق الرنين الموسمي x1.285 (وزن الرمز الشمسي: 0.95)
+      * [AR Translate] Scored Recipe '가오리조림' (Final Score: 1.70) with bonuses: K02 + SIDE_DISH (+0.4), RAW-Efficacy Synergy (Aroma/Nervous) (+0.3)
+  [Matched Yakseon Kit]
+    Name: 순환온기 분말키트 (Circulation & Warmth Powder Kit) (Format: 5g Fine Powder / 10g Tea bag filter)
+    Composition: حشيشة الملاك (H0009) 30%, سنيديوم (H0015) 30%, جذر الفاوانيا (H0016) 20%, قرفة (H0027) 20%
+    Kitchen Guide: يُغلى مع كيس شاي للمرق في بداية الطهي، أو يخلط المسحوق في صلصة القلي/الطهي ببطء.
+  [Premium Upgraded Recipe]
+    Menu Title: [AR Translate] مجموعة مسحوق الدورة الدموية والدفء 가오리조림
+    Franchise Menu Name: [AR Translate] MFCO Premium 가오리조림 (مجموعة مسحوق الدورة الدموية والدفء)
+    Combined Ingredients: [AR Translate] 가오리, 간장, 고춧가루, 설탕, 맛술, 양파, 고추, بصل أخضر, 무, 마늘, 생강 + [MFCO مجموعة مسحوق الدورة الدموية والدفء: حشيشة الملاك (H0009) 30%, سنيديوم (H0015) 30%, جذر الفاوانيا (H0016) 20%, قرفة (H0027) 20%]
+    Integrated Kitchen Instructions:
+1. [AR Translate] 가오리를 깨끗하게 손질하여 큼직하게 토막을 낸다. 이때, 가오리는 생가오리를 쓰거나 꼬들꼬들한 맛을 살리려면 하루에서 사흘 정도 말린다. <br>2. [AR Translate] 간장, 고춧가루, 설탕, 맛술 등을 넣어 양념장을 준비한다. 양파는 채 썰고, 고추와 بصل أخضر는 어슷하게 썬다. 무도 납작하게 썰어둔다. 마늘과 생강은 다져서 준비한다. <br>3. [AR Translate] 달구어진 냄비에 무를 깔고 손질한 가오리를 넣은 뒤 양념장과 준비한 재료를 마저 넣어 조린다.
+
+[تعليمات ترقية ياكسيون]:
+
+يُغلى مع كيس شاي للمرق في بداية الطهي، أو يخلط المسحوق في صلصة القلي/الطهي ببطء.
+  [Composed Meal Set (5-Bansang)]
+    Set Title: [AR Translate] MFCO مجموعة مسحوق الدورة الدموية والدفء 맞춤형 5반상 웰니스 식단
+    * STAPLE: 가자미식해 (가자미) | Na: 123.0mg, Fat: 4.6g
+    * SOUP_STEW: 가지탕수 (가지) | Na: 73.0mg, Fat: 1.6g
+    * MAIN_SIDE: 가오리조림 (가오리) | Na: 8.0mg, Fat: 3.1g
+    * SUB_SIDE: 가오리무침 (가오리) | Na: 12.5mg, Fat: 0.5g
+    * PRE_MEAL_TEA: 대추생강차 (عناب) | Na: 4.5mg, Fat: 1.0g
+    * POST_MEAL_TEA: 곶감차 (곶감) | Na: 1.0mg, Fat: 0.7g
+    * TOTAL NUTRIENTS -> Calories: 1292.5kcal, Protein: 63.6g, Fat: 11.6g, Sodium: 222.0mg
+
+======================================================================
+

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "metadata": {
+    "version": "1.0.0",
+    "phase": "Phase 07",
+    "generated_at": "2026-07-22T13:03:56.230426"
+  },
+  "capabilities": {
+    "AGENT_DOC": [
+      "markdown_indexing",
+      "template_validation",
+      "header_formatting"
+    ],
+    "AGENT_DEV": [
+      "python_scripting",
+      "json_generation",
+      "builder_creation"
+    ],
+    "AGENT_QA": [
+      "verification_execution",
+      "reproducibility_testing",
+      "log_extraction"
+    ],
+    "AGENT_ARCH": [
+      "schema_design",
+      "layer_structuring",
+      "dependency_analysis"
+    ]
+  }
+}

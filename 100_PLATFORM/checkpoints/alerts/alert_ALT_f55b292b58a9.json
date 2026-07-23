@@ -1,0 +1,10 @@
+{
+  "alert_id": "ALT_f55b292b58a9",
+  "alert_type": "COLLECTION_FAIL",
+  "severity": "WARNING",
+  "title": "Rate Limit Warning",
+  "description": "Slow API response detected",
+  "triggered_at": "2026-07-21T05:23:41.511397+00:00",
+  "status": "OPEN",
+  "metadata": {}
+}

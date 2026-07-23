@@ -1,0 +1,14 @@
+{
+  "alert_id": "ALT_cfe28c5f798b",
+  "alert_type": "RETRY_EXCEEDED",
+  "severity": "CRITICAL",
+  "title": "Retry Limit Exceeded in <lambda>",
+  "description": "Operation failed after 2 retry attempts: division by zero",
+  "triggered_at": "2026-07-21T05:15:19.374015+00:00",
+  "status": "OPEN",
+  "metadata": {
+    "func_name": "<lambda>",
+    "attempts": 3,
+    "last_error": "division by zero"
+  }
+}

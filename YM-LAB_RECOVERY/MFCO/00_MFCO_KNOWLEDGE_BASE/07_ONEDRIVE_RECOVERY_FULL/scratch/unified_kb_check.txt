@@ -1,0 +1,54 @@
+Sheets in Unified KB: ['INGREDIENT_MASTER', 'RECIPE_MASTER', 'YAKSEON_KIT_MASTER']
+
+=== Sheet: INGREDIENT_MASTER, Shape: (214, 13) ===
+Columns: ['INGREDIENT_ID', 'INGREDIENT_NAME', 'LATIN_NAME', 'ENGLISH_NAME', 'CATEGORY', 'ACTIVE_COMPOUNDS', 'FIVE_ELEMENTS', 'ENERGY_PROPERTY', 'TASTE_PROPERTY', 'PRIMARY_SF_ID', 'SECONDARY_SF_ID', 'TERTIARY_SF_ID', 'VERIFICATION_GRADE']
+Sample 3 rows:
+  INGREDIENT_ID INGREDIENT_NAME               LATIN_NAME     ENGLISH_NAME   CATEGORY                                  ACTIVE_COMPOUNDS FIVE_ELEMENTS ENERGY_PROPERTY                 TASTE_PROPERTY PRIMARY_SF_ID SECONDARY_SF_ID TERTIARY_SF_ID VERIFICATION_GRADE
+0         H0001              황기  Astragalus membranaceus   Milkvetch Root  HERB (약재)         Astragaloside IV, Calycosin, Formononetin     토 (Earth)        온 (Warm)                      감 (Sweet)         SF012           SF012          SF013                  A
+1         H0002              인삼            Panax ginseng   Korean Ginseng  HERB (약재)  Ginsenoside Rg1, Ginsenoside Rb1, Ginsenoside Rc     토 (Earth)        온 (Warm)  감·미고 (Sweet, Slightly Bitter)         SF012           SF021          SF017                  A
+2         H0003              당삼      Codonopsis pilosula  Codonopsis Root  HERB (약재)                 Lobetyolin, Syringin, Codonopsine     토 (Earth)     평 (Neutral)                      감 (Sweet)         SF012           SF021          SF022                  A
+
+Category distribution:
+CATEGORY
+HERB (약재)          103
+VEGETABLE (채소류)     34
+FISH (생선류)          28
+GRAIN (곡류)          21
+FRUIT (과일류)         13
+MEAT (육류)           11
+OTHER                4
+
+=== Sheet: RECIPE_MASTER, Shape: (1000, 14) ===
+Columns: ['RECIPE_ID', 'RECIPE_NAME', 'MAIN_INGREDIENT', 'INGREDIENT_CATEGORY', 'MENU_COMPONENT', 'TARGET_TIER', 'MEAL_FORMAT', 'BASE_INGREDIENTS', 'COOKING_METHOD', 'COOKING_DESCRIPTION', 'DESCRIPTION', 'URL', 'UPGRADABLE', 'MATCHED_YAKSEON_KIT_ID']
+Sample 3 rows:
+  RECIPE_ID RECIPE_NAME MAIN_INGREDIENT INGREDIENT_CATEGORY     MENU_COMPONENT TARGET_TIER        MEAL_FORMAT                                                          BASE_INGREDIENTS                                                                                                                                                                                                                                                                                                                                          COOKING_METHOD                            COOKING_DESCRIPTION            DESCRIPTION                                                                         URL UPGRADABLE MATCHED_YAKSEON_KIT_ID
+0     R0001       가오리조림             가오리                FISH  MAIN_SIDE (메인 부식)     GENERAL         BANSANG_10                              가오리, 간장, 고춧가루, 설탕, 맛술, 양파, 고추, 대파, 무, 마늘, 생강                                                                                                         1. 가오리를 깨끗하게 손질하여 큼직하게 토막을 낸다. 이때, 가오리는 생가오리를 쓰거나 꼬들꼬들한 맛을 살리려면 하루에서 사흘 정도 말린다. <br>2. 간장, 고춧가루, 설탕, 맛술 등을 넣어 양념장을 준비한다. 양파는 채 썰고, 고추와 대파는 어슷하게 썬다. 무도 납작하게 썰어둔다. 마늘과 생강은 다져서 준비한다. <br>3. 달구어진 냄비에 무를 깔고 손질한 가오리를 넣은 뒤 양념장과 준비한 재료를 마저 넣어 조린다.  가오리조림은 살이 부드럽고 뼈 또한 딱딱하지 않아, 뼈째 맛볼 수 있는 요리이다.   가오리를 양념과 함께 조린 음식이다.  https://terms.naver.com/entry.nhn?docId=3405698&cid=40942&categoryId=37404        Yes                    K02
+1     R0002       가오리무침             가오리                FISH   SUB_SIDE (보조 부식)     GENERAL          BANSANG_5                                               가오리, 미나리, 밤, 당근, 풋고추, 붉은 고추  1. 가오리는 껍질을 벗겨서 결 반대로 썬다. 손질한 가오리를 막걸리를 새콤달콤할 정도로 넣어 삭히는데, 여름에는 약 40분 정도, 겨울은 4시간 정도 담가 놓으면 된다. 가오리조림은 살이 부드럽고 뼈 또한 딱딱하지 않아, 뼈째 맛볼 수 있는 요리이다. <br> 2. 미나리는 3㎝ 길이로 썰고, 밤은 넓적하게 썰어놓는다. 당근은 어슷 썰고, 풋고추 길게 채 썰고, 붉은 고추는 잘게 썰어 놓는다.<br>3.  가오리무침을 하기 하루 전에 양념을 만들어 놓는데, 배즙이 나오도록 배를 넣고 무친다. <br>4. 양념에 손질해 놓은 가오리와 채소를 넣고 버무린다. <br>5. 마지막에 식초와 통깨를 약간 넣는다.           가오리무침의 양념은 하루 전에 만들어야 색이 곱고 맛이 좋아진다.   가오리를 양념과 함께 조린 음식이다.  https://terms.naver.com/entry.nhn?docId=1261321&cid=40942&categoryId=32136        Yes                    K02
+2     R0003      가오리매운탕             가오리                FISH     SOUP_STEW (탕류)     GENERAL  SPECIAL_SIGNATURE  가오리(간재미) 1개 육수티백 2개 된장 0.5~1T 고춧가루 5T 다진마늘 2T 다시다 1T 고추 2T 무 적당량 미나리 적당량                                                                                                                                                                                                           1. 냄비에 물을 넣고 육수티백2, 다진마늘1,된장 0.5, 고춧가루5 넣고 끓입니다. <br> 2. 손질한 가오리, 무도 넣어주고 고추도 넣어주고 다시다로 간 맞춰주세요. <br>3. 미나리랑 파도 썰어 넣어줍니다. <br>4. 보글보글 끓여주면 완성                                            NaN  얼큰하고 담백하고 깔끔한 가오리 매운탕                                  https://www.10000recipe.com/recipe/6865051        Yes                    K01
+
+Menu Component distribution:
+MENU_COMPONENT
+SUB_SIDE (보조 부식)     548
+STAPLE (주식)          174
+MAIN_SIDE (메인 부식)    149
+SOUP_STEW (탕류)       129
+
+Target Tier distribution:
+TARGET_TIER
+GENERAL    929
+TONIC       71
+
+Meal Format distribution:
+MEAL_FORMAT
+BANSANG_5            632
+BANSANG_10           319
+SPECIAL_SIGNATURE     49
+
+=== Sheet: YAKSEON_KIT_MASTER, Shape: (5, 10) ===
+Columns: ['KIT_ID', 'KIT_NAME', 'TARGET_ROOT_CAUSE_ID', 'TARGET_ROOT_CAUSE', 'TARGET_STANDARD_FUNCTION_IDS', 'TARGET_STANDARD_FUNCTIONS', 'COMPOSITION', 'DOSAGE_FORMAT', 'FRANCHISE_KITCHEN_GUIDE', 'DESCRIPTION']
+Sample 3 rows:
+  KIT_ID                                     KIT_NAME TARGET_ROOT_CAUSE_ID TARGET_ROOT_CAUSE TARGET_STANDARD_FUNCTION_IDS                  TARGET_STANDARD_FUNCTIONS                                                                     COMPOSITION                             DOSAGE_FORMAT                          FRANCHISE_KITCHEN_GUIDE                                                             DESCRIPTION
+0    K01      기력보강 앰플키트 (Energy Recovery Ampoule Kit)                 RC01             에너지부족                 SF012, SF022                체력회복 (보기·익기), 건비 (비위 기능 강화)  황기 (H0001) 40%, 인삼 (H0002) 20%, 백출 (H0004) 20%, 대추 (H0007) 10%, 산약 (H0005) 10%  10ml Liquid Ampoule / 15g Tea bag filter         조리 단계 후반 5분 전에 키트(티백/앰플)를 투입하여 유효성분 우려냄.  기력 저하, 만성 피로, 소화 및 기혈 회복을 위한 고품격 보기 건비 키트. 삼계탕, 갈비탕 등 고기 육수 요리에 적극 추천.
+1    K02  순환온기 분말키트 (Circulation & Warmth Powder Kit)                 RC02              순환정체          SF007, SF008, SF009      혈류개선 (활혈·거어), 기순환 (행기·소간), 통락 (경락 소통)                  당귀 (H0009) 30%, 천궁 (H0015) 30%, 작약 (H0016) 20%, 계피 (H0027) 20%       5g Fine Powder / 10g Tea bag filter  조리 시작 시 육수용 티백으로 함께 끓이거나, 볶음/조림 소스에 분말 혼합하여 사용.               말초 냉증, 혈행 저하, 신체 순환 장애를 겪는 고객용 순환 촉진 키트. 조림, 볶음, 전골류에 최적.
+2    K03  대사정화 티백키트 (Metabolic Purifying Tea bag Kit)                 RC03             대사불균형          SF003, SF002, SF020  수분배출 (이수·이뇨·부종 관리), 해독 (독성 제거), 소화개선 (화위)                 복령 (H0011) 40%, 의이인 (H0056) 30%, 택사 (H0012) 20%, 진피 (H0024) 10%            15g Extra Large Tea bag filter         밥물로 미리 우려내거나 탕류 밑국물로 사용하여 15분 이상 충분히 가열.      체내 수분 정체, 잦은 부종, 소화불량 및 대사 정체를 해결하기 위한 정화 키트. 나물무침용 물, 탕류 베이스로 적합.
+

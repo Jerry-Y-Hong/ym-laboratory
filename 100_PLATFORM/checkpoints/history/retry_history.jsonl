@@ -1,0 +1,4 @@
+{"timestamp": "2026-07-21T05:23:39.369812+00:00", "func_name": "failing_target", "attempt": 1, "max_retries": 2, "error_type": "ConnectionError", "error_message": "Simulated API Timeout (429 Rate Limit)", "base_delay_sec": 1.0}
+{"timestamp": "2026-07-21T05:23:40.387577+00:00", "func_name": "<lambda>", "attempt": 1, "max_retries": 2, "error_type": "ZeroDivisionError", "error_message": "division by zero", "base_delay_sec": 0.01}
+{"timestamp": "2026-07-21T05:23:40.414113+00:00", "func_name": "<lambda>", "attempt": 2, "max_retries": 2, "error_type": "ZeroDivisionError", "error_message": "division by zero", "base_delay_sec": 0.01}
+{"timestamp": "2026-07-21T05:23:40.459825+00:00", "func_name": "<lambda>", "attempt": 3, "max_retries": 2, "error_type": "ZeroDivisionError", "error_message": "division by zero", "base_delay_sec": 0.01}

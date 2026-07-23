@@ -1,0 +1,19 @@
+=== Docx: C:\Users\car13\OneDrive\MFCO_MASTER_RECOVERY\06_DOCUMENT\006_HISTORY\MFCO_PHASE2_CORE_ARCHITECTURE_DRAFT_v0_1.docx ===
+MFCO PHASE 2 CORE ARCHITECTURE DRAFT
+MFCO Phase 2 구축 진행 중간본 (Draft History Document)
+0400A_STATE_MEDICAL_VALIDATION_MASTER
+본 섹션은 현재 대화에서 정의된 구조의 초안 영역입니다. 추후 상세 State, Cause, Symptom, Function, Role, Herb 매핑 데이터가 확장될 예정입니다.
+0400A.1_PRIMARY_STATE_RELATION_MAP
+본 섹션은 현재 대화에서 정의된 구조의 초안 영역입니다. 추후 상세 State, Cause, Symptom, Function, Role, Herb 매핑 데이터가 확장될 예정입니다.
+0400A.2_CAUSE_MASTER
+본 섹션은 현재 대화에서 정의된 구조의 초안 영역입니다. 추후 상세 State, Cause, Symptom, Function, Role, Herb 매핑 데이터가 확장될 예정입니다.
+0400A.3_SYMPTOM_MASTER
+본 섹션은 현재 대화에서 정의된 구조의 초안 영역입니다. 추후 상세 State, Cause, Symptom, Function, Role, Herb 매핑 데이터가 확장될 예정입니다.
+0400B_HUMAN_STATE_INFERENCE_ENGINE
+본 섹션은 현재 대화에서 정의된 구조의 초안 영역입니다. 추후 상세 State, Cause, Symptom, Function, Role, Herb 매핑 데이터가 확장될 예정입니다.
+0400C_FUNCTION_DISTRIBUTION_MASTER
+본 섹션은 현재 대화에서 정의된 구조의 초안 영역입니다. 추후 상세 State, Cause, Symptom, Function, Role, Herb 매핑 데이터가 확장될 예정입니다.
+0401_ROLE_DEFINITION_MASTER
+본 섹션은 현재 대화에서 정의된 구조의 초안 영역입니다. 추후 상세 State, Cause, Symptom, Function, Role, Herb 매핑 데이터가 확장될 예정입니다.
+0402_ROLE_RULE_MASTER v0.1
+본 섹션은 현재 대화에서 정의된 구조의 초안 영역입니다. 추후 상세 State, Cause, Symptom, Function, Role, Herb 매핑 데이터가 확장될 예정입니다.

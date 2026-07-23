@@ -1,0 +1,212 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "g:/내 드라이브/YM-LAB_PROJECT_/YM-LAB_RECOVERY/schema/asset_inventory.schema.json",
+  "title": "YMLabAssetInventorySchema",
+  "description": "JSON Schema for YM-LAB_RECOVERY Asset Inventory (Version 2.0.0), designed for Phase 05 Project Intelligence Layer & AI Automation.",
+  "type": "object",
+  "version": "2.0.0",
+  "required": [
+    "$schema",
+    "meta",
+    "summary",
+    "assets"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "format": "uri",
+      "description": "JSON Schema reference URI"
+    },
+    "meta": {
+      "type": "object",
+      "description": "Inventory generation metadata and system specifications",
+      "required": [
+        "version",
+        "phase",
+        "target_layer",
+        "generated_at",
+        "total_records",
+        "extensible"
+      ],
+      "properties": {
+        "version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+          "description": "Semantic versioning tag (e.g., 2.0.0)"
+        },
+        "phase": {
+          "type": "string",
+          "description": "Current execution phase identifier (e.g., Phase 04-03)"
+        },
+        "target_layer": {
+          "type": "string",
+          "description": "Target downstream AI/Automation ingestion layer"
+        },
+        "generated_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO 8601 UTC timestamp of inventory generation"
+        },
+        "total_records": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Total cataloged file count"
+        },
+        "extensible": {
+          "type": "boolean",
+          "description": "Flag indicating schema forward-compatibility"
+        }
+      },
+      "additionalProperties": true
+    },
+    "summary": {
+      "type": "object",
+      "description": "Aggregated storage metrics and classification totals",
+      "required": [
+        "total_files",
+        "total_size_bytes",
+        "total_size_mb",
+        "total_duplicates",
+        "total_unclassified_candidates",
+        "total_vendor_files",
+        "total_core_project_assets"
+      ],
+      "properties": {
+        "total_files": { "type": "integer", "minimum": 0 },
+        "total_size_bytes": { "type": "integer", "minimum": 0 },
+        "total_size_mb": { "type": "number", "minimum": 0.0 },
+        "total_duplicates": { "type": "integer", "minimum": 0 },
+        "total_unclassified_candidates": { "type": "integer", "minimum": 0 },
+        "total_vendor_files": { "type": "integer", "minimum": 0 },
+        "total_core_project_assets": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": true
+    },
+    "assets": {
+      "type": "array",
+      "description": "Detailed list of cataloged asset entries",
+      "items": {
+        "type": "object",
+        "required": [
+          "uid",
+          "filename",
+          "extension",
+          "size_bytes",
+          "sha256",
+          "source_path",
+          "recovery_path",
+          "copied_at",
+          "legacy_classification",
+          "refined_classification",
+          "duplicate_info"
+        ],
+        "properties": {
+          "uid": {
+            "type": "string",
+            "description": "Unique UUID-v5 asset identifier"
+          },
+          "filename": {
+            "type": "string",
+            "description": "Base filename including extension"
+          },
+          "extension": {
+            "type": "string",
+            "description": "File extension (e.g., .xlsx, .json, .py)"
+          },
+          "size_bytes": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Exact file size in bytes"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-fA-F0-9]{64}$",
+            "description": "SHA-256 cryptographic hash"
+          },
+          "source_path": {
+            "type": "string",
+            "description": "Absolute source file path"
+          },
+          "recovery_path": {
+            "type": "string",
+            "description": "Absolute recovery storage path"
+          },
+          "copied_at": {
+            "type": "string",
+            "description": "ISO timestamp of baseline copy operation"
+          },
+          "legacy_classification": {
+            "type": "string",
+            "description": "Original project label in catalog.db"
+          },
+          "refined_classification": {
+            "type": "object",
+            "required": [
+              "project_id",
+              "category",
+              "description",
+              "confidence",
+              "is_unclassified_candidate",
+              "suggested_target_path"
+            ],
+            "properties": {
+              "project_id": {
+                "type": "string",
+                "description": "Refined project category ID (e.g., MFCO_CORE, PLATFORM, SANYACHO)"
+              },
+              "category": {
+                "type": "string",
+                "description": "Functional asset category label"
+              },
+              "description": {
+                "type": "string",
+                "description": "Human and AI readable asset description"
+              },
+              "confidence": {
+                "type": "number",
+                "minimum": 0.0,
+                "maximum": 1.0,
+                "description": "Classification confidence score"
+              },
+              "is_unclassified_candidate": {
+                "type": "boolean",
+                "description": "Flag for legacy misclassified items requiring review"
+              },
+              "suggested_target_path": {
+                "type": "string",
+                "description": "Target path recommendation for future Phase 05 reorganization"
+              }
+            },
+            "additionalProperties": true
+          },
+          "duplicate_info": {
+            "type": "object",
+            "required": [
+              "is_duplicate",
+              "duplicate_of",
+              "duplicate_type"
+            ],
+            "properties": {
+              "is_duplicate": {
+                "type": "boolean",
+                "description": "True if identical SHA-256 exists elsewhere"
+              },
+              "duplicate_of": {
+                "type": ["string", "null"],
+                "description": "Original canonical path of identical asset"
+              },
+              "duplicate_type": {
+                "type": "string",
+                "enum": ["EXACT_HASH_MATCH", "NONE"],
+                "description": "Duplicate matching category"
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "metadata": {
+    "version": "1.0.0",
+    "phase": "Phase 06",
+    "generated_at": "2026-07-22T12:50:46.313701",
+    "notice": "Metadata registry only. Actual vector float arrays are NOT stored in JSON."
+  },
+  "registry": [
+    {
+      "provider": "OpenAI / Gemini",
+      "model": "text-embedding-3-small",
+      "version": "v1.0",
+      "dimension": 1536,
+      "chunk_count": 187,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "created_time": "2026-07-22T12:50:46.313701",
+      "updated_time": "2026-07-22T12:50:46.313701"
+    }
+  ]
+}

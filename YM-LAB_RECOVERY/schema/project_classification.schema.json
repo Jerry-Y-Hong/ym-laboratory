@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "g:/내 드라이브/YM-LAB_PROJECT_/YM-LAB_RECOVERY/schema/project_classification.schema.json",
+  "title": "YMLabProjectClassificationSchema",
+  "description": "JSON Schema for Extensible Project Classification Taxonomy & Matching Rules Engine (Version 2.0.0), designed for Phase 05 Project Intelligence Layer & AI Automation.",
+  "type": "object",
+  "version": "2.0.0",
+  "required": [
+    "$schema",
+    "meta",
+    "project_taxonomy",
+    "classification_rules"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "format": "uri",
+      "description": "JSON Schema reference URI"
+    },
+    "meta": {
+      "type": "object",
+      "description": "Classification metadata and engine configuration",
+      "required": [
+        "version",
+        "phase",
+        "target_layer",
+        "generated_at",
+        "extensible_taxonomy"
+      ],
+      "properties": {
+        "version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+          "description": "Semantic version tag (e.g., 2.0.0)"
+        },
+        "phase": {
+          "type": "string",
+          "description": "Current execution phase identifier (e.g., Phase 04-03)"
+        },
+        "target_layer": {
+          "type": "string",
+          "description": "Target downstream AI/Automation ingestion layer"
+        },
+        "generated_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO 8601 UTC timestamp of taxonomy generation"
+        },
+        "extensible_taxonomy": {
+          "type": "boolean",
+          "description": "Enables zero-code dynamic project registration"
+        }
+      },
+      "additionalProperties": true
+    },
+    "project_taxonomy": {
+      "type": "object",
+      "description": "Dictionary of registered project domains and asset metrics",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "display_name",
+          "description",
+          "status",
+          "total_files",
+          "total_size_bytes",
+          "total_size_mb"
+        ],
+        "properties": {
+          "display_name": {
+            "type": "string",
+            "description": "Human-readable project title"
+          },
+          "description": {
+            "type": "string",
+            "description": "Detailed project scope description"
+          },
+          "status": {
+            "type": "string",
+            "description": "Current lifecycle status (e.g., ACTIVE_PRODUCTION, LEGACY_ARCHIVE, TEMPORARY)"
+          },
+          "total_files": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Total files categorized under this project"
+          },
+          "total_size_bytes": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Total aggregated file size in bytes"
+          },
+          "total_size_mb": {
+            "type": "number",
+            "minimum": 0.0,
+            "description": "Total aggregated file size in megabytes"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "classification_rules": {
+      "type": "array",
+      "description": "Ordered rule engine array for automatic classification",
+      "items": {
+        "type": "object",
+        "required": [
+          "rule_id",
+          "match_pattern",
+          "target_project",
+          "priority"
+        ],
+        "properties": {
+          "rule_id": {
+            "type": "string",
+            "description": "Unique rule identifier (e.g., R01_CORE_KB)"
+          },
+          "match_pattern": {
+            "type": "string",
+            "description": "Glob or Regex pattern for matching source paths"
+          },
+          "target_project": {
+            "type": "string",
+            "description": "Target project_id to assign on match"
+          },
+          "priority": {
+            "type": "integer",
+            "description": "Rule evaluation priority (higher integer evaluated first)"
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

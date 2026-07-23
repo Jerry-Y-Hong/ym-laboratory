@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "recovery_name": "YM-LAB_RECOVERY",
+  "description": "MFCO, NICS_DATA, sanYacho 프로젝트 자산 통합 복원 저장소",
+  "created_at": "",
+  "last_updated": "2026-07-21T15:49:54.241274",
+  "projects": {
+    "MFCO": {
+      "description": "Master Functional Core Ontology - 기능성 원료 온톨로지",
+      "source_roots": [],
+      "recovery_path": "MFCO/",
+      "status": "DISCOVERED",
+      "file_count": 3522
+    },
+    "NICS_DATA": {
+      "description": "농식품올바로(NICS) 데이터셋",
+      "source_roots": [],
+      "recovery_path": "NICS_DATA/",
+      "status": "DISCOVERED",
+      "file_count": 1
+    },
+    "sanYacho": {
+      "description": "산야초 웹 프로젝트",
+      "origin": {
+        "github": "https://github.com/Jerry-Y-Hong/sanYacho",
+        "vercel": "",
+        "local": ""
+      },
+      "deployment": {
+        "status": "Production",
+        "last_verified": "",
+        "framework": ""
+      },
+      "recovery_path": "sanYacho/",
+      "status": "DISCOVERED",
+      "file_count": 1
+    }
+  },
+  "statistics": {
+    "total_files_discovered": 3524,
+    "total_files_copied": 3524,
+    "total_duplicates": 154,
+    "total_size_bytes": 99990610
+  }
+}

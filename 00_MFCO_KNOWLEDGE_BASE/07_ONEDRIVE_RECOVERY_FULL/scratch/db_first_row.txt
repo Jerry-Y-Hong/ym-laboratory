@@ -1,0 +1,210 @@
+=== Column names at index 0 ===
+Index 0: DB10.2
+색인
+Index 1: 10개정 
+책자
+색인
+Index 2: 식품군
+Index 3: 식품명
+Index 4: 출처
+Index 5: 에너지
+Index 6: 수분
+Index 7: 단백질
+Index 8: 지방 
+Index 9: 회분
+Index 10: 탄수화물
+Index 11: 당류
+Index 12: 자당
+Index 13: 포도당
+Index 14: 과당
+Index 15: 유당
+Index 16: 맥아당
+Index 17: 갈락토오스
+Index 18: 총 
+식이섬유
+Index 19: 수용성 
+식이섬유
+Index 20: 불용성 
+식이섬유
+Index 21: 칼슘
+Index 22: 철
+Index 23: 마그네슘
+Index 24: 인
+Index 25: 칼륨
+Index 26: 나트륨
+Index 27: 아연
+Index 28: 구리
+Index 29: 망간
+Index 30: 셀레늄
+Index 31: 몰리브덴
+Index 32: 요오드
+Index 33: 비타민 A
+Index 34: 레티놀
+Index 35: 베타카로틴
+Index 36: 티아민
+Index 37: 리보플라빈
+Index 38: 니아신
+Index 39: 니아신당량(NE)
+Index 40: 니코틴산 
+Index 41: 니코틴아미드
+Index 42: 판토텐산
+Index 43: 비타민 B6
+Index 44: 피리독신
+Index 45: 비오틴
+Index 46: 엽산_
+엽산당량
+Index 47: 엽산_
+식품 엽산
+Index 48: 엽산_
+합성 엽산
+Index 49: 비타민 B12
+Index 50: 비타민 C
+Index 51: 비타민 D
+Index 52: 비타민 D2 
+Index 53: 비타민 D3
+Index 54: 비타민 E
+Index 55: 알파 
+토코페롤
+Index 56: 베타 
+토코페롤
+Index 57: 감마 
+토코페롤
+Index 58: 델타 
+토코페롤
+Index 59: 알파 
+토코트리에놀
+Index 60: 베타 
+토코트리에놀
+Index 61: 감마 
+토코트리에놀
+Index 62: 델타 
+토코트리에놀
+Index 63: 비타민 K
+Index 64: 비타민 K1
+Index 65: 비타민 K2
+Index 66: 총 아미노산
+Index 67: 총 필수
+아미노산
+Index 68: 이소류신
+Index 69: 류신
+Index 70: 라이신
+Index 71: 메티오닌
+Index 72: 페닐알라닌
+Index 73: 트레오닌
+Index 74: 트립토판
+Index 75: 발린
+Index 76: 히스티딘
+Index 77: 아르기닌
+Index 78: 티로신
+Index 79: 시스테인
+Index 80: 알라닌
+Index 81: 아스파르트산
+Index 82: 글루탐산
+Index 83: 글라이신
+Index 84: 프롤린
+Index 85: 세린
+Index 86: 타우린
+Index 87: nan
+Index 88: 총 지방산
+Index 89: 총 필수
+지방산
+Index 90: 총 포화
+지방산
+Index 91: 부티르산
+(4:0)
+Index 92: 카프로산
+(6:0)
+Index 93: 카프릴산
+(8:0)
+Index 94: 카프르산
+(10:0)
+Index 95: 라우르산
+(12:0)
+Index 96: 트라이데칸산
+(13:0)
+Index 97: 미리스트산
+(14:0)
+Index 98: 펜타데칸산
+(15:0)
+Index 99: 팔미트산
+(16:0)
+Index 100: 헵타데칸산
+(17:0)
+Index 101: 스테아르산
+(18:0)
+Index 102: 아라키드산
+(20:0)
+Index 103: 헨에이코산산
+(21:0)
+Index 104: 베헨산
+(22:0)
+Index 105: 트리코산산
+(23:0)
+Index 106: 리그노세르산
+(24:0)
+Index 107: 총 불포화
+지방산
+Index 108: 총 단일
+불포화지방산
+Index 109: 미리스톨레산
+(14:1)
+Index 110: 팔미톨레산
+(16:1)
+Index 111: 헵타데센산
+(17:1)
+Index 112: 올레산
+(18:1(n-9))
+Index 113: 박센산
+(18:1(n-7))
+Index 114: 가돌레산
+(20:1)
+Index 115: 에루크산
+(22:1)
+Index 116: 네르본산
+(24:1)
+Index 117: 총 다가
+불포화지방산
+Index 118: 리놀레산
+(18:2(n-6))
+Index 119: 알파 
+리놀렌산
+(18:3 (n-3))
+Index 120: 감마 
+리놀렌산
+(18:3 (n-6))
+Index 121: 에이코사
+디에노산
+(20:2(n-6))
+Index 122: 디호모
+리놀렌산
+(20:3(n-3))
+Index 123: 에이코사
+트리에노산
+(20:3(n-6))
+Index 124: 아라키돈산
+(20:4(n-6))
+Index 125: 에이코사
+펜타에노산
+(20:5(n-3))
+Index 126: 도코사
+디에노산(22:2)
+Index 127: 도코사
+펜타에노산
+(22:5(n-3))
+Index 128: 도코사
+헥사에노산
+(22:6(n-3))
+Index 129: 오메가3 
+지방산
+Index 130: 오메가6 
+지방산
+Index 131: 총 트랜스
+지방산
+Index 132: 트랜스 
+올레산(18:1(n-9)t)
+Index 133: 트랜스 
+리놀레산(18:2t)
+Index 134: 트랜스 
+리놀렌산(18:3t)
+Index 135: nan
+Index 136: nan

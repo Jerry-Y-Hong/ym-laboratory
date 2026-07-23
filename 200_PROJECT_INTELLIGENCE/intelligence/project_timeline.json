@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "metadata": {
+    "version": "2.0.0",
+    "phase": "Phase 05",
+    "generated_at": "2026-07-22T12:30:49.634269"
+  },
+  "timeline": [
+    {
+      "phase": "Phase 00",
+      "name": "Knowledge Base Discovery",
+      "status": "COMPLETED",
+      "target": "Initial Workspace & MFCO Asset Audit",
+      "evidence": "MFCO_KNOWLEDGE_BASE_DISCOVERY_REPORT.md"
+    },
+    {
+      "phase": "Phase 01",
+      "name": "Kimchi Master Dataset",
+      "status": "COMPLETED",
+      "target": "Fermented Food Ingredient & Recipe Specs",
+      "evidence": "01_PHASE1_KIMCHI/03_INGREDIENT_MASTER/INGREDIENT_MASTER_SPEC.md"
+    },
+    {
+      "phase": "Phase 02",
+      "name": "Master Knowledge Base Consolidation",
+      "status": "COMPLETED",
+      "target": "Unified Excel & Dictionary Setup",
+      "evidence": "YM-LAB_RECOVERY/MFCO/00_MFCO_KNOWLEDGE_BASE/02_UNIFIED_KNOWLEDGE_EXCEL/M04-00_UNIFIED_KNOWLEDGE_BASE.xlsx"
+    },
+    {
+      "phase": "Phase 03",
+      "name": "Recovery Baseline Integration",
+      "status": "COMPLETED",
+      "target": "SHA-256 catalog.db & MANIFEST Generation",
+      "evidence": "YM-LAB_RECOVERY/catalog.db"
+    },
+    {
+      "phase": "Phase 04",
+      "name": "Recovery Asset Management Upgrade",
+      "status": "COMPLETED",
+      "target": "Dual Taxonomy & JSON Schema v2.0",
+      "evidence": "YM-LAB_RECOVERY/asset_inventory.json"
+    },
+    {
+      "phase": "Phase 05",
+      "name": "Project Intelligence Layer",
+      "status": "ACTIVE_COMPLETED",
+      "target": "14 Machine-Readable Graph & Identity Assets",
+      "evidence": "200_PROJECT_INTELLIGENCE/intelligence/intelligence_report.md"
+    },
+    {
+      "phase": "Phase 06",
+      "name": "Knowledge Engine Construction",
+      "status": "PLANNED",
+      "target": "RAG Vector Search & Neo4j Graph DB",
+      "evidence": "PROJECT_STATUS.md"
+    },
+    {
+      "phase": "Phase 07",
+      "name": "AI Pipeline Automation",
+      "status": "PLANNED",
+      "target": "CI/CD Automation & Watchdog Tasks",
+      "evidence": "PROJECT_STATUS.md"
+    },
+    {
+      "phase": "Phase 08",
+      "name": "Autonomous Agent Ops & Commercial",
+      "status": "PLANNED",
+      "target": "Autonomous Agentic Operations",
+      "evidence": "PROJECT_STATUS.md"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "meta": {
+    "version": "1.0.0",
+    "phase": "Phase 05",
+    "catalog_title": "YM-LAB Standard Project Metadata Directory",
+    "generated_at": "2026-07-22T12:17:46+09:00",
+    "total_projects": 7
+  },
+  "projects": {
+    "MFCO": {
+      "project_id": "MFCO",
+      "name": "Master Functional Core Ontology",
+      "description": "기능성 원료 및 한의학 식재료 온톨로지 마스터 데이터베이스 및 사전",
+      "version": "1.2.0",
+      "status": "ACTIVE_PRODUCTION",
+      "owner": "YM-LAB Ontology Team",
+      "category": "Core Knowledge Base & Ontology",
+      "tags": ["ontology", "mfco", "nutrition", "haccp", "q-code", "recipe", "term-dictionary"],
+      "dependencies": ["PLATFORM", "NICS_DATA"],
+      "repository_path": "00_MFCO_KNOWLEDGE_BASE/",
+      "file_count": 17,
+      "size_mb": 10.35
+    },
+    "SANYACHO": {
+      "project_id": "SANYACHO",
+      "name": "sanYacho Wild Plant Web App",
+      "description": "산야초 효능 및 약선 식재료 탐색 독립 웹 서비스",
+      "version": "1.0.0",
+      "status": "PRODUCTION",
+      "owner": "YM-LAB Web Dev Team",
+      "category": "Standalone Web Application",
+      "tags": ["sanyacho", "nextjs", "vercel", "wild-plants", "herb-db"],
+      "dependencies": ["RECOVERY"],
+      "repository_url": "https://github.com/Jerry-Y-Hong/sanYacho",
+      "repository_path": "sanYacho/",
+      "file_count": 1,
+      "size_mb": 0.001
+    },
+    "NICS_DATA": {
+      "project_id": "NICS_DATA",
+      "name": "농식품올바로 (NICS) Open Data",
+      "description": "농식품올바로 식품 영양 성분 및 HACCP 안전 공공 데이터 수집 모듈",
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "owner": "YM-LAB Data Engineering Team",
+      "category": "External Open Data Pipeline",
+      "tags": ["nics", "food-safety", "haccp", "open-api", "raw-repository"],
+      "dependencies": ["PLATFORM"],
+      "repository_path": "100_PLATFORM/120_DATABASE/repository/raw_repository.py",
+      "file_count": 1,
+      "size_mb": 0.005
+    },
+    "PLATFORM": {
+      "project_id": "PLATFORM",
+      "name": "YM-LAB Core Platform Infrastructure",
+      "description": "데이터베이스 DDL 스키마, 표준 레포지토리 및 수집 상태 체크포인트 모듈",
+      "version": "2.0.0",
+      "status": "INFRASTRUCTURE",
+      "owner": "YM-LAB Platform Team",
+      "category": "Core Infrastructure & DB Schema",
+      "tags": ["platform", "database-schema", "sql", "repository-pattern", "checkpoints"],
+      "dependencies": [],
+      "repository_path": "100_PLATFORM/",
+      "file_count": 5,
+      "size_mb": 0.02
+    },
+    "RECOVERY": {
+      "project_id": "RECOVERY",
+      "name": "YM-LAB Integrated Asset Recovery Storage",
+      "description": "SHA-256 해시 기반 무결성 보존 및 3,524건 전수 자산 복원 관리 저장소",
+      "version": "2.0.0",
+      "status": "VERIFIED_BASELINE",
+      "owner": "YM-LAB Architecture Team",
+      "category": "Asset Governance & Integrity Archive",
+      "tags": ["recovery", "catalog-db", "manifest", "sha256", "verification", "asset-inventory"],
+      "dependencies": ["ALL_PROJECTS"],
+      "repository_path": "YM-LAB_RECOVERY/",
+      "file_count": 3524,
+      "size_mb": 95.36
+    },
+    "KIMCHI": {
+      "project_id": "KIMCHI",
+      "name": "Kimchi Master Phase 1 Dataset",
+      "description": "전통 김치 원재료 마스터 및 조합 레시피 표준화 규격",
+      "version": "1.0.0",
+      "status": "PHASE_1_COMPLETE",
+      "owner": "YM-LAB Domain Research Team",
+      "category": "Fermented Food Sub-Domain",
+      "tags": ["kimchi", "fermentation", "ingredient-master", "recipe-master", "phase1"],
+      "dependencies": ["MFCO"],
+      "repository_path": "01_PHASE1_KIMCHI/",
+      "file_count": 2,
+      "size_mb": 0.007
+    },
+    "MFCO_WEBSITE": {
+      "project_id": "MFCO_WEBSITE",
+      "name": "MFCO Web Application (React/Vite)",
+      "description": "MFCO 온톨로지 기반 프론트엔드 대화형 서비스 코드베이스",
+      "version": "1.0.0",
+      "status": "FRONTEND_APP",
+      "owner": "YM-LAB Frontend Team",
+      "category": "Web Frontend Application",
+      "tags": ["react", "vite", "mfco-website", "inference-engine", "ui-components"],
+      "dependencies": ["MFCO"],
+      "repository_path": "07_ONEDRIVE_RECOVERY_FULL/mfco-website/",
+      "file_count": 26,
+      "size_mb": 0.28
+    }
+  }
+}

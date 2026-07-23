@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "metadata": {
+    "version": "2.0.0",
+    "phase": "Phase 05",
+    "generated_at": "2026-07-22T12:30:49.634269",
+    "graph_type": "Dependency Network Matrix"
+  },
+  "nodes": [
+    {
+      "id": "MFCO",
+      "label": "MFCO Core KB"
+    },
+    {
+      "id": "Platform",
+      "label": "Platform Infrastructure"
+    },
+    {
+      "id": "NICS_DATA",
+      "label": "NICS Open Data"
+    },
+    {
+      "id": "Website",
+      "label": "MFCO Web Application"
+    },
+    {
+      "id": "Kimchi",
+      "label": "Kimchi Phase 1 Master"
+    },
+    {
+      "id": "Recovery",
+      "label": "Recovery Archive"
+    }
+  ],
+  "edges": [
+    {
+      "source": "NICS_DATA",
+      "target": "Platform",
+      "relation": "FEEDS_RAW_DATA",
+      "dependency_type": "hard",
+      "direction": "FORWARD",
+      "weight": 0.85,
+      "evidence": "100_PLATFORM/120_DATABASE/repository/raw_repository.py",
+      "confidence": 1.0
+    },
+    {
+      "source": "Platform",
+      "target": "MFCO",
+      "relation": "PROVIDES_SCHEMA",
+      "dependency_type": "hard",
+      "direction": "FORWARD",
+      "weight": 0.9,
+      "evidence": "100_PLATFORM/120_DATABASE/schema/02_STANDARD_LAYER.sql",
+      "confidence": 1.0
+    },
+    {
+      "source": "Platform",
+      "target": "MFCO",
+      "relation": "PROVIDES_REPOSITORY",
+      "dependency_type": "soft",
+      "direction": "FORWARD",
+      "weight": 0.8,
+      "evidence": "100_PLATFORM/120_DATABASE/repository/standard_repository.py",
+      "confidence": 1.0
+    },
+    {
+      "source": "Kimchi",
+      "target": "MFCO",
+      "relation": "SUBDOMAIN_SPEC",
+      "dependency_type": "reference",
+      "direction": "FORWARD",
+      "weight": 0.75,
+      "evidence": "01_PHASE1_KIMCHI/03_INGREDIENT_MASTER/INGREDIENT_MASTER_SPEC.md",
+      "confidence": 0.9
+    },
+    {
+      "source": "MFCO",
+      "target": "Website",
+      "relation": "SERIALIZES_TO",
+      "dependency_type": "generated",
+      "direction": "FORWARD",
+      "weight": 0.95,
+      "evidence": "07_ONEDRIVE_RECOVERY_FULL/mfco-website/src/data/mfcoData.json",
+      "confidence": 1.0
+    },
+    {
+      "source": "MFCO",
+      "target": "Website",
+      "relation": "PROVIDES_INFERENCE_HELPER",
+      "dependency_type": "derived",
+      "direction": "FORWARD",
+      "weight": 0.9,
+      "evidence": "07_ONEDRIVE_RECOVERY_FULL/mfco-website/src/utils/mfcoInference.js",
+      "confidence": 1.0
+    },
+    {
+      "source": "Recovery",
+      "target": "MFCO",
+      "relation": "CATALOG_TRACKING",
+      "dependency_type": "hard",
+      "direction": "FORWARD",
+      "weight": 1.0,
+      "evidence": "YM-LAB_RECOVERY/catalog.db",
+      "confidence": 1.0
+    }
+  ],
+  "statistics": {
+    "node_count": 6,
+    "edge_count": 7,
+    "hard_dependencies": 3,
+    "soft_dependencies": 1,
+    "derived_dependencies": 1,
+    "generated_dependencies": 1,
+    "reference_dependencies": 1
+  },
+  "validation": {
+    "is_dag": true,
+    "has_orphans": false,
+    "valid_schema": true
+  }
+}

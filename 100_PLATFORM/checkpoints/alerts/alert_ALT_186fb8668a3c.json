@@ -1,0 +1,10 @@
+{
+  "alert_id": "ALT_186fb8668a3c",
+  "alert_type": "API_FAILURE",
+  "severity": "CRITICAL",
+  "title": "OpenAPI Endpoint Down",
+  "description": "503 Service Unavailable",
+  "triggered_at": "2026-07-21T05:15:19.433008+00:00",
+  "status": "OPEN",
+  "metadata": {}
+}

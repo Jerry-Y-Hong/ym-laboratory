@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "metadata": {
+    "version": "1.0.0",
+    "phase": "Phase 06",
+    "generated_at": "2026-07-22T12:50:46.313701"
+  },
+  "edges": [
+    {
+      "source": "CONCEPT_MFCO",
+      "target": "CONCEPT_QCODE",
+      "relation_type": "defines",
+      "weight": 1.0
+    },
+    {
+      "source": "CONCEPT_ENGINE",
+      "target": "CONCEPT_INTELLIGENCE",
+      "relation_type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "CONCEPT_ENGINE",
+      "target": "CONCEPT_MFCO",
+      "relation_type": "references",
+      "weight": 0.95
+    },
+    {
+      "source": "CONCEPT_RECOVERY",
+      "target": "CONCEPT_MFCO",
+      "relation_type": "owns",
+      "weight": 1.0
+    },
+    {
+      "source": "CONCEPT_WASABI",
+      "target": "CONCEPT_MFCO",
+      "relation_type": "related_to",
+      "weight": 0.85
+    },
+    {
+      "source": "CONCEPT_PIS",
+      "target": "CONCEPT_WASABI",
+      "relation_type": "derived_from",
+      "weight": 0.9
+    },
+    {
+      "source": "CONCEPT_NICS",
+      "target": "CONCEPT_MFCO",
+      "relation_type": "references",
+      "weight": 0.9
+    },
+    {
+      "source": "CONCEPT_INTELLIGENCE",
+      "target": "CONCEPT_RECOVERY",
+      "relation_type": "depends_on",
+      "weight": 1.0
+    }
+  ]
+}

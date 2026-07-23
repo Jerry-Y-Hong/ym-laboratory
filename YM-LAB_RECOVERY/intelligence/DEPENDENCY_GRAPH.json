@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "meta": {
+    "version": "1.0.0",
+    "phase": "Phase 05",
+    "graph_name": "YM-LAB Cross-Project Dependency & Shared Asset Matrix",
+    "generated_at": "2026-07-22T12:17:40+09:00",
+    "total_dependencies": 12,
+    "shared_modules_count": 4,
+    "shared_data_count": 5
+  },
+  "dependencies": [
+    {
+      "dependency_id": "DEP_NICS_PLATFORM_01",
+      "type": "DATA_FLOW",
+      "source_project": "NICS_DATA",
+      "target_project": "PLATFORM",
+      "shared_asset": "raw_repository.py",
+      "asset_path": "100_PLATFORM/120_DATABASE/repository/raw_repository.py",
+      "description": "농식품올바로 수집 데이터를 Platform Raw Repository 레이어로 수집/전송"
+    },
+    {
+      "dependency_id": "DEP_PLATFORM_MFCO_01",
+      "type": "SCHEMA_DEFINITION",
+      "source_project": "PLATFORM",
+      "target_project": "MFCO",
+      "shared_asset": "02_STANDARD_LAYER.sql",
+      "asset_path": "100_PLATFORM/120_DATABASE/schema/02_STANDARD_LAYER.sql",
+      "description": "Platform의 표준 DDL 테이블 정의가 MFCO 온톨로지 영속화 레이어의 스키마 기반 제공"
+    },
+    {
+      "dependency_id": "DEP_PLATFORM_MFCO_02",
+      "type": "CODE_MODULE",
+      "source_project": "PLATFORM",
+      "target_project": "MFCO",
+      "shared_asset": "standard_repository.py",
+      "asset_path": "100_PLATFORM/120_DATABASE/repository/standard_repository.py",
+      "description": "Platform 표준 레포지토리 모듈을 통한 MFCO 데이터 CRUD 오퍼레이션 수행"
+    },
+    {
+      "dependency_id": "DEP_KIMCHI_MFCO_01",
+      "type": "DATA_SPEC",
+      "source_project": "KIMCHI",
+      "target_project": "MFCO",
+      "shared_asset": "INGREDIENT_MASTER_SPEC.md",
+      "asset_path": "01_PHASE1_KIMCHI/03_INGREDIENT_MASTER/INGREDIENT_MASTER_SPEC.md",
+      "description": "Kimchi Phase 1 원재료 마스터 규격이 MFCO 원재료 온톨로지의 서브 도메인 사양으로 참조됨"
+    },
+    {
+      "dependency_id": "DEP_KIMCHI_MFCO_02",
+      "type": "DATA_SPEC",
+      "source_project": "KIMCHI",
+      "target_project": "MFCO",
+      "shared_asset": "RECIPE_MASTER_SPEC.md",
+      "asset_path": "01_PHASE1_KIMCHI/04_RECIPE_MASTER/RECIPE_MASTER_SPEC.md",
+      "description": "Kimchi Phase 1 레시피 마스터 규격이 MFCO 조합 레시피 온톨로지의 서브 도메인 사양으로 참조됨"
+    },
+    {
+      "dependency_id": "DEP_MFCO_WEBSITE_01",
+      "type": "DATA_EXCLUSION_FEED",
+      "source_project": "MFCO",
+      "target_project": "MFCO_WEBSITE",
+      "shared_asset": "mfcoData.json",
+      "asset_path": "07_ONEDRIVE_RECOVERY_FULL/mfco-website/src/data/mfcoData.json",
+      "description": "MFCO 마스터 데이터셋이 정적 JSON으로 직렬화되어 MFCO 프론트엔드 앱 데이터로 탑재"
+    },
+    {
+      "dependency_id": "DEP_MFCO_WEBSITE_02",
+      "type": "CODE_MODULE",
+      "source_project": "MFCO",
+      "target_project": "MFCO_WEBSITE",
+      "shared_asset": "mfcoInference.js",
+      "asset_path": "07_ONEDRIVE_RECOVERY_FULL/mfco-website/src/utils/mfcoInference.js",
+      "description": "MFCO 온톨로지 추론 로직 헬퍼 모듈이 프론트엔드 소비자/전문가 페이지에 활용됨"
+    },
+    {
+      "dependency_id": "DEP_RECOVERY_ALL_01",
+      "type": "CATALOG_INTEGRITY",
+      "source_project": "RECOVERY",
+      "target_project": "ALL_PROJECTS",
+      "shared_asset": "catalog.db",
+      "asset_path": "YM-LAB_RECOVERY/catalog.db",
+      "description": "Recovery 저장소의 SHA-256 catalog.db가 YM-LAB 전체 3,524개 자산의 무결성을 추적 관리"
+    },
+    {
+      "dependency_id": "DEP_RECOVERY_ALL_02",
+      "type": "SCHEMA_TAXONOMY",
+      "source_project": "RECOVERY",
+      "target_project": "ALL_PROJECTS",
+      "shared_asset": "project_classification.json",
+      "asset_path": "YM-LAB_RECOVERY/project_classification.json",
+      "description": "Phase 04-03 자산 분류 규칙 스키마가 전체 프로젝트 자산의 소속을 동적으로 매핑"
+    }
+  ],
+  "shared_resources": {
+    "modules": [
+      { "name": "standard_repository.py", "owner": "PLATFORM", "consumers": ["MFCO", "NICS_DATA"] },
+      { "name": "raw_repository.py", "owner": "PLATFORM", "consumers": ["NICS_DATA"] },
+      { "name": "mfcoInference.js", "owner": "MFCO", "consumers": ["MFCO_WEBSITE"] },
+      { "name": "verify_consolidation.py", "owner": "RECOVERY", "consumers": ["ALL_PROJECTS"] }
+    ],
+    "datasets": [
+      { "name": "M04-00_UNIFIED_KNOWLEDGE_BASE.xlsx", "owner": "MFCO", "consumers": ["Website", "Kimchi"] },
+      { "name": "mfcoData.json", "owner": "MFCO", "consumers": ["MFCO_WEBSITE"] },
+      { "name": "02_STANDARD_LAYER.sql", "owner": "PLATFORM", "consumers": ["MFCO"] }
+    ]
+  }
+}

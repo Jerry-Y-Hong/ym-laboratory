@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "metadata": {
+    "version": "2.0.0",
+    "phase": "Phase 05",
+    "generated_at": "2026-07-22T12:30:49.634269",
+    "graph_type": "Semantic Concept Flow Graph"
+  },
+  "nodes": [
+    {
+      "id": "MFCO",
+      "label": "Master Functional Core Ontology",
+      "type": "CONCEPT_ROOT"
+    },
+    {
+      "id": "Ontology",
+      "label": "Domain Knowledge Model",
+      "type": "CONCEPT_MODEL"
+    },
+    {
+      "id": "Knowledge_Base",
+      "label": "Unified Persistence KB",
+      "type": "CONCEPT_STORAGE"
+    },
+    {
+      "id": "Inference",
+      "label": "Compatibility & Synergy Logic",
+      "type": "CONCEPT_LOGIC"
+    },
+    {
+      "id": "Recipe_Engine",
+      "label": "YakSeon Recipe Generator",
+      "type": "CONCEPT_ENGINE"
+    },
+    {
+      "id": "Commercial_Platform",
+      "label": "B2C/B2B Deployment",
+      "type": "CONCEPT_APPLICATION"
+    }
+  ],
+  "edges": [
+    {
+      "source": "MFCO",
+      "target": "Ontology",
+      "relation": "implements",
+      "direction": "FORWARD",
+      "weight": 0.95,
+      "evidence": "MFCO_KNOWLEDGE_BASE_DISCOVERY_REPORT.md",
+      "confidence": 1.0
+    },
+    {
+      "source": "Ontology",
+      "target": "Knowledge_Base",
+      "relation": "persists_to",
+      "direction": "FORWARD",
+      "weight": 0.9,
+      "evidence": "YM-LAB_RECOVERY/MFCO/00_MFCO_KNOWLEDGE_BASE/02_UNIFIED_KNOWLEDGE_EXCEL/M04-00_UNIFIED_KNOWLEDGE_BASE.xlsx",
+      "confidence": 1.0
+    },
+    {
+      "source": "Knowledge_Base",
+      "target": "Inference",
+      "relation": "feeds_data_to",
+      "direction": "FORWARD",
+      "weight": 0.92,
+      "evidence": "07_ONEDRIVE_RECOVERY_FULL/mfco-website/src/utils/mfcoInference.js",
+      "confidence": 1.0
+    },
+    {
+      "source": "Inference",
+      "target": "Recipe_Engine",
+      "relation": "drives",
+      "direction": "FORWARD",
+      "weight": 0.88,
+      "evidence": "01_PHASE1_KIMCHI/04_RECIPE_MASTER/RECIPE_MASTER_SPEC.md",
+      "confidence": 0.9
+    },
+    {
+      "source": "Recipe_Engine",
+      "target": "Commercial_Platform",
+      "relation": "deploys_on",
+      "direction": "FORWARD",
+      "weight": 0.95,
+      "evidence": "sanYacho/MANIFEST.json",
+      "confidence": 1.0
+    }
+  ],
+  "statistics": {
+    "node_count": 6,
+    "edge_count": 5,
+    "graph_density": 0.33
+  },
+  "validation": {
+    "is_dag": true,
+    "has_orphans": false,
+    "valid_schema": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "metadata": {
+    "version": "1.0.0",
+    "phase": "Phase 07",
+    "generated_at": "2026-07-22T13:03:56.230426"
+  },
+  "rules": {
+    "human_approval_required": [
+      "ARCHITECTURE_CHANGE",
+      "RULE_CHANGE",
+      "NAMING_CHANGE",
+      "FOLDER_CHANGE",
+      "FILE_DELETION",
+      "READ_ONLY_EDIT"
+    ],
+    "autonomous_execution_allowed": [
+      "DOC_CREATION",
+      "DOC_CLEANUP",
+      "LINK_FIX",
+      "STRUCTURE_VALIDATION",
+      "DUPLICATE_REMOVAL",
+      "REPORT_GENERATION"
+    ]
+  }
+}

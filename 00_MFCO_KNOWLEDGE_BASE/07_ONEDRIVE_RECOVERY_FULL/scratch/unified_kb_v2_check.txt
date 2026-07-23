@@ -1,0 +1,38 @@
+Sheets in Unified KB v2.0: ['INGREDIENT_MASTER', 'RECIPE_MASTER', 'YAKSEON_KIT_MASTER']
+
+=== INGREDIENT_MASTER Shape: (214, 19) ===
+Columns: ['INGREDIENT_ID', 'INGREDIENT_NAME', 'LATIN_NAME', 'ENGLISH_NAME', 'CATEGORY', 'ACTIVE_COMPOUNDS', 'FIVE_ELEMENTS', 'ENERGY_PROPERTY', 'TASTE_PROPERTY', 'PRIMARY_SF_ID', 'SECONDARY_SF_ID', 'TERTIARY_SF_ID', 'VERIFICATION_GRADE', 'CALORIES_KCAL', 'WATER_G', 'PROTEIN_G', 'FAT_G', 'CARBOHYDRATE_G', 'SODIUM_MG']
+
+=== Sample Food Ingredients (Matched from National Database) ===
+INGREDIENT_ID INGREDIENT_NAME                                                    LATIN_NAME        CATEGORY  CALORIES_KCAL  PROTEIN_G  FAT_G  CARBOHYDRATE_G  SODIUM_MG
+ K0070010000a             가오리                                              Gymnura japonica      FISH (생선류)             80      17.30   0.70            0.00          0
+ K0080000000a             가자미                                                   Cibus 가자미ae      FISH (생선류)            129      22.10   3.70            0.30        230
+ F0030000000a              가지                                          Solanum melongena L. VEGETABLE (채소류)             19       1.13   0.03            4.36          0
+        I0001           검은 참깨                                                 Cibus 검은 참깨ae      GRAIN (곡류)              0       0.00   0.00            0.00          0
+ F010000B090a               게                                           Raphanus sativus L.      FISH (생선류)             57       2.84   0.20           12.43          9
+ O0020000001a             결명자                                                   Cibus 결명자ae VEGETABLE (채소류)            390      19.07   6.57           63.78          6
+ O0030000005a              계피                                                    Cibus 계피ae           OTHER            357       0.00   1.40           89.00          5
+ F0160000000a             고사리 Pteridium aquilinum var. latiusculum (Desv.) Underw. ex Hell. VEGETABLE (채소류)             22       2.90   0.17            3.80          0
+ F0260000000a              국화                               Chrysanthemum morifolium Ramat. VEGETABLE (채소류)             25       1.40   0.00            6.50          2
+ F048000B140a               굴                    Polygonatum odoratum var. pluriflorum Ohwi      FISH (생선류)             52       3.40   0.20           11.70          9
+ A001001A010a              귀리                                               Avena sativa L.      GRAIN (곡류)            388       9.88   8.84           68.03          3
+        I0002             귤껍질                                                   Cibus 귤껍질ae     FRUIT (과일류)              0       0.00   0.00            0.00          0
+ F0270000000a              근대                                   Beta vulgaris var. cicla L. VEGETABLE (채소류)             18       1.78   0.20            3.28        173
+ L0030090000a               김                                               Porphyra tenera       MEAT (육류)             12       3.30   0.40            2.00        144
+ K4060000000a              꼬막                                            Tegillarca granosa      FISH (생선류)             63      12.60   0.30            1.60          0
+
+=== Sample Herbs (Matched from National Database) ===
+INGREDIENT_ID INGREDIENT_NAME                                    LATIN_NAME  CALORIES_KCAL  PROTEIN_G  FAT_G  CARBOHYDRATE_G  SODIUM_MG
+        H0001              황기                       Astragalus membranaceus              0       0.00   0.00            0.00          0
+        H0002              인삼                     Panax ginseng C. A. Meyer            316      15.70   0.50           69.80          0
+        H0003              당삼                           Codonopsis pilosula              0       0.00   0.00            0.00          0
+        H0004              백출                     Atractylodes macrocephala              0       0.00   0.00            0.00          0
+        H0005              산약                            Dioscorea opposita              0       0.00   0.00            0.00          0
+        H0006              감초                         Glycyrrhiza uralensis              0       0.00   0.00            0.00          0
+        H0007              대추                          Ziziphus jujuba Mill            276       3.73   0.25           72.57          2
+        H0008             태자삼                  Pseudostellaria heterophylla              0       0.00   0.00            0.00          0
+        H0009              당귀 Angelica acutiloba (Siebold & Zucc.) Kitagawa             43       3.20   0.40            8.80          3
+        H0010             숙지황                 Rehmannia glutinosa preparata              0       0.00   0.00            0.00          0
+
+Total foods with standard national code (e.g. K008...): 81
+Total foods with fallback codes (I0001...): 18

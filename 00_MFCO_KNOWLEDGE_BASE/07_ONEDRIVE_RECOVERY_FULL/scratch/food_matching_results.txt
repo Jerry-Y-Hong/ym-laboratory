@@ -1,0 +1,76 @@
+=== FOOD INGREDIENT MATCHING REPORT ===
+Total Unique Ingredients: 121
+Matched: 104
+Unmatched: 17
+
+=== MATCHED INGREDIENTS SAMPLES (First 50) ===
+Recipe_Ing       Matched_Name         Code                                             English                                                         Latin
+       가오리     가오리, 나비가오리, 생것 K0070010000a                             Ray, Butterfly ray, Raw                                              Gymnura japonica
+       가자미            가자미, 생것 K0080000000a                                       Flounder, Raw                                                           NaN
+        가지             가지, 생것 F0030000000a                                 Eggplant(Gaji), Raw                                          Solanum melongena L.
+        강황             강황, 가루 R0720000005a                                    Turmeric, Powder                                             Curcuma aromatica
+         게            게걸무, 생것 F010000B090a                           Radish, Gegeol, Root, Raw                                           Raphanus sativus L.
+       결명자          결명자차, 말린것 O0020000001a                 Sickle senna(Senna tora) tea, Dried                                                           NaN
+        계피            계피차, 가루 O0030000005a                                Cinnamon tea, Powder                                                           NaN
+       고사리            고사리, 생것 F0160000000a                                Bracken(Gosari), Raw Pteridium aquilinum var. latiusculum (Desv.) Underw. ex Hell.
+        곶감         감, 곶감, 말린것 H0060000001a                                    Persimmon, Dried                                         Diospyros kaki Thunb.
+       구기자    구기자, 순, 재래종, 생것 F224001B110a Chinese Matrimony Vine, Young leaf bud, Native, Raw                                        Lycium chinense Mill. 
+        국화            국화꽃, 생것 F0260000000a                          Chrysanthemum, Flower, Raw                               Chrysanthemum morifolium Ramat.
+         굴         둥굴레, 잎, 생것 F048000B140a                           Solomon´s seal, Leaf, Raw                   Polygonatum odoratum var. pluriflorum Ohwi 
+        귀리    귀리, 겉귀리, 도정, 생것 A001001A010a                  Oat(Gwiri), Covered, Polished, Raw                                               Avena sativa L.
+         귤    귤, 만감류, 레드향, 생것 H0100140000a                               Tangor, Redhyang, Raw                                                 Citrus hybrid
+        근대             근대, 생것 F0270000000a                                 Chard(Geundae), Raw                                   Beta vulgaris var. cicla L.
+         김          김, 참김, 생것 L0030090000a                                  Laver product, Raw                                               Porphyra tenera
+        꼬막             꼬막, 생것 K4060000000a                           Granulated ark shell, Raw                                            Tegillarca granosa
+       꿩고기        꿩고기, 숫꿩, 생것 I0070010000a                           Meat, Pheasant, Male, Raw                                           Phasianus colchicus
+        낙지             낙지, 생것 K6080000000a                                Whiparm octopus, Raw                                            Octopus variabilis
+        녹두            녹두, 말린것 D0020000001a                              Mungbean(Nokdu), Dried                                  Vigna radiata (L.) R.Wilczek
+        농어             농어, 생것 K0330000000a                                Common sea bass, Raw                                         Lateolabrax japonicus
+       누룽지                누룽지 A0130000089a                      Scorched rice(Nurungji), White                                                           NaN
+       다시마            다시마, 생것 L0050000000a                                     Brown Kelp, Raw                                            Laminaria japonica
+        달걀             달걀, 생것 J0030000000a                            Egg(Dalgyal), Whole, Raw                                      Gallus gallus domesticus
+        대구             대구, 생것 K0440000000a                                    Pacific cod, Raw                                           Gadus macrocephalus
+        대추             대추, 생것 H0160000000a                                 Jujube(Daechu), Raw                                         Ziziphus jujuba Mill 
+        대합       대합, 북방대합, 생것 K4100010000a                             Sakhalin surf-clam, Raw                                   Pseudocardium sachalinensis
+      돼지고기      돼지고기, 살코기, 생것 I014000D150a                                Pork meat, Lean, Raw                                         Sus scrofa domesticus
+        두릅        두릅, 땅두릅, 생것 F0470010000a                            Manchurian angelica, Raw                                         Aralia cordata Thunb.
+        두부                 두부 D0150000009a                                          Tofu, Firm                                                           NaN
+       둥굴레         둥굴레, 잎, 생것 F048000B140a                           Solomon´s seal, Leaf, Raw                   Polygonatum odoratum var. pluriflorum Ohwi 
+        들깨          들깨, 싹, 생것 F207000B120a                                Perilla, Sprout, Raw             Perilla frutescens var. japonica (Hassk.) H. Hara
+         마            고구마, 생것 B0060000000a                           Sweet potato(Goguma), Raw                                              Ipomoea batatas 
+        마늘             마늘, 생것 F053000B060a                                 Garlic(Maneul), Raw                                             Allium sativum L.
+        매실             매실, 생것 H0290000000a                       Japanese apricot(Maesil), Raw                         Prunus mume (Siebold) Siebold & Zucc.
+        머위             머위, 생것 F0620000000a                      Butterbur(Meowi), Petiole, Raw                  Petasites japonicus (Siebold & Zucc.) Maxim.
+        메기             메기, 생것 K0650000000a                                       Cat fish, Raw                                                Silurus asotus
+        메밀         메밀, 도정, 생것 A004000A010a                     Buckwheat(Memil), Polished, Raw                                   Fagopyrum esculentum Moench
+        멥쌀        멥쌀, 배아미, 생것 A0080000010a                 Rice(Ssal), White, With embryo, Raw                                               Oryza sativa L.
+        모과             모과, 생것 H0350000000a                                 Chinese quince, Raw                                   Chaenoleles sinensis Koehne
+      목이버섯           목이버섯, 생것 G0080000000a               Wood ear mushroom(Mok-i-beoseot), Raw                     Auricularia auricula-judae (Bull.) Wettst
+         무         율무, 도정, 생것 A034000A010a                   Job's tears(Yulmu), Polished, Raw                             Coix lacryma-jobi L. var. may-uen
+        문어             문어, 생것 K6110000000a                                  Giant octopus, Raw                                         Enteroctopus dofleini
+       미나리      미나리, 돌미나리, 생것 F0770020000a                   Water dropwort(Minari), Wild, Raw                                Oenanthe javanica (Blume) DC. 
+        미역       취나물, 미역취, 생것 F1770020000a                                Asian goldenrod, Raw             Solidago virgaurea subsp. asiatica Kitam. ex Hara
+       민들레            민들레, 생것 F0780000000a                           Dandelion(Mindeulle), Raw                           Taraxacum platycarpum H. Dahlstedt 
+        민어             민어, 생것 K0790000000a                                  Brown croaker, Raw                                               Miichthys miiuy
+         밤 고구마, 분질(밤) 고구마, 생것 B0060150000a        Sweet potato(Goguma), Dry and firm type, Raw                                              Ipomoea batatas 
+         배        멥쌀, 배아미, 생것 A0080000010a                 Rice(Ssal), White, With embryo, Raw                                               Oryza sativa L.
+        배추    꽃양배추(콜리플라워), 생것 F0300000000a                                    Cauliflower, Raw                           Brassica oleracea var. botrytis L. 
+
+=== UNMATCHED INGREDIENTS ===
+검은 참깨
+귤껍질
+닭고기-(흰 수탉)
+돌아욱
+돼지 껍데기
+돼지족
+맥문동
+메추라기 고기
+미꾸라지
+바닷말
+산초나무 열매
+약쑥
+율무쌀
+좁쌀
+황기
+흰 참깨
+흰콩

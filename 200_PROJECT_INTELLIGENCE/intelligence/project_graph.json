@@ -1,0 +1,216 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "metadata": {
+    "version": "2.0.0",
+    "phase": "Phase 05",
+    "generated_at": "2026-07-22T12:30:49.634269",
+    "graph_type": "Sub-Project Topology Directed Graph"
+  },
+  "nodes": [
+    {
+      "id": "YM-LAB",
+      "label": "YM-LAB Ecosystem",
+      "type": "ROOT_ECOSYSTEM"
+    },
+    {
+      "id": "MFCO",
+      "label": "Master Functional Core Ontology",
+      "type": "CORE_ONTOLOGY"
+    },
+    {
+      "id": "sanYacho",
+      "label": "sanYacho Wild Plant Web App",
+      "type": "STANDALONE_APP"
+    },
+    {
+      "id": "NICS_DATA",
+      "label": "농식품올바로 (NICS) Data",
+      "type": "OPEN_DATASET"
+    },
+    {
+      "id": "Platform",
+      "label": "YM-LAB Platform Infrastructure",
+      "type": "INFRASTRUCTURE"
+    },
+    {
+      "id": "Recovery",
+      "label": "YM-LAB Asset Recovery Storage",
+      "type": "RECOVERY_CATALOG"
+    },
+    {
+      "id": "Kimchi",
+      "label": "Kimchi Master Phase 1",
+      "type": "DOMAIN_DATASET"
+    },
+    {
+      "id": "Website",
+      "label": "MFCO Web Application (React/Vite)",
+      "type": "FRONTEND_APP"
+    }
+  ],
+  "edges": [
+    {
+      "source": "YM-LAB",
+      "target": "MFCO",
+      "relation": "CONTAINS",
+      "direction": "FORWARD",
+      "weight": 1.0,
+      "evidence": "PROJECT_STATUS.md",
+      "confidence": 1.0
+    },
+    {
+      "source": "YM-LAB",
+      "target": "sanYacho",
+      "relation": "CONTAINS",
+      "direction": "FORWARD",
+      "weight": 1.0,
+      "evidence": "PROJECT_STATUS.md",
+      "confidence": 1.0
+    },
+    {
+      "source": "YM-LAB",
+      "target": "NICS_DATA",
+      "relation": "CONTAINS",
+      "direction": "FORWARD",
+      "weight": 1.0,
+      "evidence": "PROJECT_STATUS.md",
+      "confidence": 1.0
+    },
+    {
+      "source": "YM-LAB",
+      "target": "Platform",
+      "relation": "CONTAINS",
+      "direction": "FORWARD",
+      "weight": 1.0,
+      "evidence": "PROJECT_STATUS.md",
+      "confidence": 1.0
+    },
+    {
+      "source": "YM-LAB",
+      "target": "Recovery",
+      "relation": "CONTAINS",
+      "direction": "FORWARD",
+      "weight": 1.0,
+      "evidence": "PROJECT_STATUS.md",
+      "confidence": 1.0
+    },
+    {
+      "source": "YM-LAB",
+      "target": "Kimchi",
+      "relation": "CONTAINS",
+      "direction": "FORWARD",
+      "weight": 1.0,
+      "evidence": "PROJECT_STATUS.md",
+      "confidence": 1.0
+    },
+    {
+      "source": "YM-LAB",
+      "target": "Website",
+      "relation": "CONTAINS",
+      "direction": "FORWARD",
+      "weight": 1.0,
+      "evidence": "PROJECT_STATUS.md",
+      "confidence": 1.0
+    },
+    {
+      "source": "NICS_DATA",
+      "target": "Platform",
+      "relation": "FEEDS_RAW_DATA",
+      "direction": "FORWARD",
+      "weight": 0.85,
+      "evidence": "100_PLATFORM/120_DATABASE/repository/raw_repository.py",
+      "confidence": 1.0
+    },
+    {
+      "source": "Platform",
+      "target": "MFCO",
+      "relation": "PROVIDES_STANDARD_SCHEMA",
+      "direction": "FORWARD",
+      "weight": 0.9,
+      "evidence": "100_PLATFORM/120_DATABASE/schema/02_STANDARD_LAYER.sql",
+      "confidence": 1.0
+    },
+    {
+      "source": "MFCO",
+      "target": "Website",
+      "relation": "PROVIDES_ONTOLOGY_DATA",
+      "direction": "FORWARD",
+      "weight": 0.95,
+      "evidence": "07_ONEDRIVE_RECOVERY_FULL/mfco-website/src/data/mfcoData.json",
+      "confidence": 1.0
+    },
+    {
+      "source": "MFCO",
+      "target": "Kimchi",
+      "relation": "INCLUDES_SUBDOMAIN",
+      "direction": "FORWARD",
+      "weight": 0.88,
+      "evidence": "01_PHASE1_KIMCHI/03_INGREDIENT_MASTER/INGREDIENT_MASTER_SPEC.md",
+      "confidence": 0.9
+    },
+    {
+      "source": "Recovery",
+      "target": "MFCO",
+      "relation": "INDEXES_AND_PRESERVES",
+      "direction": "FORWARD",
+      "weight": 1.0,
+      "evidence": "YM-LAB_RECOVERY/catalog.db",
+      "confidence": 1.0
+    },
+    {
+      "source": "Recovery",
+      "target": "sanYacho",
+      "relation": "INDEXES_AND_PRESERVES",
+      "direction": "FORWARD",
+      "weight": 1.0,
+      "evidence": "YM-LAB_RECOVERY/catalog.db",
+      "confidence": 1.0
+    },
+    {
+      "source": "Recovery",
+      "target": "NICS_DATA",
+      "relation": "INDEXES_AND_PRESERVES",
+      "direction": "FORWARD",
+      "weight": 1.0,
+      "evidence": "YM-LAB_RECOVERY/catalog.db",
+      "confidence": 1.0
+    },
+    {
+      "source": "Recovery",
+      "target": "Platform",
+      "relation": "INDEXES_AND_PRESERVES",
+      "direction": "FORWARD",
+      "weight": 1.0,
+      "evidence": "YM-LAB_RECOVERY/catalog.db",
+      "confidence": 1.0
+    },
+    {
+      "source": "Recovery",
+      "target": "Kimchi",
+      "relation": "INDEXES_AND_PRESERVES",
+      "direction": "FORWARD",
+      "weight": 1.0,
+      "evidence": "YM-LAB_RECOVERY/catalog.db",
+      "confidence": 1.0
+    },
+    {
+      "source": "Recovery",
+      "target": "Website",
+      "relation": "INDEXES_AND_PRESERVES",
+      "direction": "FORWARD",
+      "weight": 1.0,
+      "evidence": "YM-LAB_RECOVERY/catalog.db",
+      "confidence": 1.0
+    }
+  ],
+  "statistics": {
+    "node_count": 8,
+    "edge_count": 17,
+    "graph_density": 0.303
+  },
+  "validation": {
+    "is_dag": false,
+    "has_orphans": false,
+    "valid_schema": true
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "metadata": {
+    "version": "2.0.0",
+    "phase": "Phase 05",
+    "generated_at": "2026-07-22T12:30:49.634269"
+  },
+  "technology_stack": {
+    "languages": [
+      {
+        "name": "Python",
+        "version": "3.11+",
+        "usage": "ETL, Data Analytics, SQLite Integrity",
+        "status": "Current",
+        "evidence": "YM-LAB_RECOVERY/verify_consolidation.py"
+      },
+      {
+        "name": "JavaScript",
+        "version": "ES6+",
+        "usage": "Frontend Logic, Inference Engine",
+        "status": "Current",
+        "evidence": "07_ONEDRIVE_RECOVERY_FULL/mfco-website/src/utils/mfcoInference.js"
+      },
+      {
+        "name": "TypeScript",
+        "version": "5.0+",
+        "usage": "Web App Type Definitions",
+        "status": "Current",
+        "evidence": "07_ONEDRIVE_RECOVERY_FULL/mfco-website/node_modules/"
+      },
+      {
+        "name": "SQL",
+        "version": "ANSI SQL",
+        "usage": "Database Schema DDL",
+        "status": "Current",
+        "evidence": "100_PLATFORM/120_DATABASE/schema/02_STANDARD_LAYER.sql"
+      },
+      {
+        "name": "HTML5 / CSS3",
+        "version": "W3C Standard",
+        "usage": "Web Application Layout & Styling",
+        "status": "Current",
+        "evidence": "07_ONEDRIVE_RECOVERY_FULL/mfco-website/index.html"
+      },
+      {
+        "name": "JSON / JSONX",
+        "version": "Draft 2020-12",
+        "usage": "Metadata, Catalogs, Graph Schemas",
+        "status": "Current",
+        "evidence": "YM-LAB_RECOVERY/schema/asset_inventory.schema.json"
+      },
+      {
+        "name": "Markdown",
+        "version": "GFM",
+        "usage": "Documentation & AI Context Payloads",
+        "status": "Current",
+        "evidence": "PROJECT_STATUS.md"
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "React",
+        "version": "18.x",
+        "usage": "MFCO Web Application Framework",
+        "status": "Current",
+        "evidence": "07_ONEDRIVE_RECOVERY_FULL/mfco-website/package.json"
+      },
+      {
+        "name": "Vite",
+        "version": "5.x",
+        "usage": "Frontend Build Tool & Dev Server",
+        "status": "Current",
+        "evidence": "07_ONEDRIVE_RECOVERY_FULL/mfco-website/vite.config.js"
+      },
+      {
+        "name": "Next.js",
+        "version": "14.x",
+        "usage": "sanYacho Web Service Framework",
+        "status": "Current",
+        "evidence": "sanYacho/MANIFEST.json"
+      }
+    ],
+    "libraries": [
+      {
+        "name": "sqlite3",
+        "type": "Python Standard",
+        "usage": "catalog.db Query Engine",
+        "status": "Current",
+        "evidence": "YM-LAB_RECOVERY/catalog.db"
+      },
+      {
+        "name": "hashlib",
+        "type": "Python Standard",
+        "usage": "SHA-256 File Hash Computation",
+        "status": "Current",
+        "evidence": "YM-LAB_RECOVERY/verify_consolidation.py"
+      }
+    ],
+    "databases": [
+      {
+        "name": "SQLite3",
+        "type": "Relational File Database",
+        "usage": "YM-LAB_RECOVERY/catalog.db",
+        "status": "Current",
+        "evidence": "YM-LAB_RECOVERY/catalog.db"
+      },
+      {
+        "name": "PostgreSQL",
+        "type": "Relational Enterprise DB",
+        "usage": "02_STANDARD_LAYER.sql DDL Target",
+        "status": "Current",
+        "evidence": "100_PLATFORM/120_DATABASE/schema/02_STANDARD_LAYER.sql"
+      },
+      {
+        "name": "Vector Database (ChromaDB / Pinecone)",
+        "type": "Vector DB",
+        "usage": "Phase 06 RAG Indexing Target",
+        "status": "Planned",
+        "evidence": "YM-LAB_RECOVERY/recovery_improvement.md"
+      },
+      {
+        "name": "Neo4j Property Graph DB",
+        "type": "Graph DB",
+        "usage": "Phase 06 Property Network Target",
+        "status": "Future",
+        "evidence": "200_PROJECT_INTELLIGENCE/intelligence/intelligence_schema.json"
+      }
+    ],
+    "ai_technologies": [
+      {
+        "name": "Gemini 3.6 Flash",
+        "type": "LLM Model",
+        "usage": "Codebase Analysis & Intelligence Generation",
+        "status": "Current",
+        "evidence": "PROJECT_STATUS.md"
+      },
+      {
+        "name": "RAG (Retrieval-Augmented Generation)",
+        "type": "Architecture",
+        "usage": "Phase 06 Knowledge Search",
+        "status": "Planned",
+        "evidence": "200_PROJECT_INTELLIGENCE/intelligence/intelligence_report.md"
+      },
+      {
+        "name": "Autonomous Agent Engine",
+        "type": "Agent Framework",
+        "usage": "Phase 08 Self-Healing Infrastructure",
+        "status": "Future",
+        "evidence": "200_PROJECT_INTELLIGENCE/intelligence/project_identity.json"
+      }
+    ],
+    "dev_tools": [
+      {
+        "name": "Git",
+        "type": "Version Control",
+        "usage": "Repository History",
+        "status": "Current",
+        "evidence": "PROJECT_STATUS.md"
+      },
+      {
+        "name": "PowerShell",
+        "type": "Terminal Shell",
+        "usage": "Script Execution",
+        "status": "Current",
+        "evidence": "PROJECT_STATUS.md"
+      },
+      {
+        "name": "npm",
+        "type": "Package Manager",
+        "usage": "Node Dependencies",
+        "status": "Current",
+        "evidence": "07_ONEDRIVE_RECOVERY_FULL/mfco-website/package.json"
+      }
+    ],
+    "infrastructure": [
+      {
+        "name": "Vercel",
+        "type": "Cloud Hosting",
+        "usage": "sanYacho Web Production Deployment",
+        "status": "Current",
+        "evidence": "sanYacho/MANIFEST.json"
+      },
+      {
+        "name": "Google Drive",
+        "type": "Workspace Storage",
+        "usage": "YM-LAB Workspace Storage",
+        "status": "Current",
+        "evidence": "PROJECT_STATUS.md"
+      }
+    ]
+  }
+}

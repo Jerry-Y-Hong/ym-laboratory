@@ -1,0 +1,18 @@
+{
+  "dataset_name": "RDA_NATIONAL_FOOD_DATASET",
+  "collector_version": "3.1.0",
+  "schema_version": "1.0.0",
+  "dataset_hash": "SHA256:7830c12ad38b2262129d2a38efcc54cdd03204675b2115bfeaf767efd2ce88d0",
+  "record_count": 5,
+  "total_pages": 1,
+  "total_items": 5,
+  "source_id": "RDA_FOOD_API",
+  "provider": "농촌진흥청",
+  "api_name": "농식품올바로",
+  "endpoint": "food/detail",
+  "collection_mode": "incremental",
+  "resume_enabled": true,
+  "build": "20260721",
+  "last_sync_time": "2026-07-21T05:23:41.389032+00:00",
+  "last_successful_page": 1
+}

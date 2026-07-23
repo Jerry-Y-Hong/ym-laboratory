@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "meta": {
+    "version": "1.0.0",
+    "phase": "Phase 05",
+    "graph_name": "YM-LAB Master Project Relationship Graph",
+    "graph_type": "Directed Acyclic Graph (DAG) & Property Graph",
+    "generated_at": "2026-07-22T12:17:30+09:00",
+    "node_count": 8,
+    "edge_count": 17,
+    "compatible_formats": ["Neo4j", "NetworkX", "GraphML", "RAG Graph Index"]
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "YM-LAB",
+        "label": "YM-LAB Ecosystem",
+        "type": "ROOT_ECOSYSTEM",
+        "description": "YM-LAB 통합 연구개발 및 도메인 지식 생태계 최상위 루트",
+        "properties": {
+          "status": "ACTIVE",
+          "root_path": "g:/내 드라이브/YM-LAB_PROJECT_"
+        }
+      },
+      {
+        "id": "MFCO",
+        "label": "Master Functional Core Ontology",
+        "type": "CORE_ONTOLOGY_PROJECT",
+        "description": "기능성 원료 및 식약처/한의학 통합 구조화 온톨로지 핵심 자산",
+        "properties": {
+          "status": "ACTIVE_PRODUCTION",
+          "file_count": 17,
+          "size_mb": 10.35
+        }
+      },
+      {
+        "id": "sanYacho",
+        "label": "sanYacho Wild Plant Web App",
+        "type": "STANDALONE_WEB_APP",
+        "description": "산야초 웹 서비스 레포지토리 (Next.js / Vercel 배포)",
+        "properties": {
+          "status": "PRODUCTION",
+          "file_count": 1,
+          "repository": "https://github.com/Jerry-Y-Hong/sanYacho"
+        }
+      },
+      {
+        "id": "NICS_DATA",
+        "label": "농식품올바로 (NICS) Food Safety Data",
+        "type": "OPEN_DATASET",
+        "description": "농식품올바로 식품 안전, 성분 및 식품 영양 데이터셋",
+        "properties": {
+          "status": "ACTIVE",
+          "file_count": 1,
+          "source_agency": "농촌진흥청 / 식품의약품안전처"
+        }
+      },
+      {
+        "id": "Platform",
+        "label": "YM-LAB Core Platform Infrastructure",
+        "type": "INFRASTRUCTURE_ENGINE",
+        "description": "YM-LAB 데이터베이스 DDL 스키마, 레포지토리 레이어 및 수집 상태 체크포인트",
+        "properties": {
+          "status": "INFRASTRUCTURE",
+          "file_count": 5,
+          "db_layer": "Standard & Raw Layer"
+        }
+      },
+      {
+        "id": "Recovery",
+        "label": "YM-LAB Integrated Asset Recovery Storage",
+        "type": "RECOVERY_ARCHIVE_CATALOG",
+        "description": "SHA-256 해시 기반 무결성 보존 및 3,524건 자산 통합 관리 저장소",
+        "properties": {
+          "status": "VERIFIED_BASELINE",
+          "total_files": 3524,
+          "total_size_mb": 95.36
+        }
+      },
+      {
+        "id": "Kimchi",
+        "label": "Kimchi Master Phase 1 Dataset",
+        "type": "DOMAIN_SPECIFIC_DATASET",
+        "description": "김치 원재료 마스터 및 레시피 표준 규격 자산",
+        "properties": {
+          "status": "PHASE_1_COMPLETE",
+          "file_count": 2
+        }
+      },
+      {
+        "id": "Website",
+        "label": "MFCO Web Application (React/Vite)",
+        "type": "FRONTEND_APPLICATION",
+        "description": "MFCO 프론트엔드 웹 서비스 코드베이스 (src, pages, components, data)",
+        "properties": {
+          "status": "FRONTEND_APP",
+          "file_count": 26,
+          "tech_stack": "React, Vite, CSS Modules"
+        }
+      }
+    ],
+    "edges": [
+      { "source": "YM-LAB", "target": "MFCO", "relation": "CONTAINS", "weight": 1.0 },
+      { "source": "YM-LAB", "target": "sanYacho", "relation": "CONTAINS", "weight": 1.0 },
+      { "source": "YM-LAB", "target": "NICS_DATA", "relation": "CONTAINS", "weight": 1.0 },
+      { "source": "YM-LAB", "target": "Platform", "relation": "CONTAINS", "weight": 1.0 },
+      { "source": "YM-LAB", "target": "Recovery", "relation": "CONTAINS", "weight": 1.0 },
+      { "source": "YM-LAB", "target": "Kimchi", "relation": "CONTAINS", "weight": 1.0 },
+      { "source": "YM-LAB", "target": "Website", "relation": "CONTAINS", "weight": 1.0 },
+
+      { "source": "NICS_DATA", "target": "Platform", "relation": "FEEDS_RAW_DATA", "description": "NICS 수집 데이터를 Platform raw_repository에 적재" },
+      { "source": "Platform", "target": "MFCO", "relation": "PROVIDES_STANDARD_SCHEMA", "description": "Platform 02_STANDARD_LAYER.sql이 MFCO 표준 테이블 구조 제공" },
+      { "source": "MFCO", "target": "Website", "relation": "PROVIDES_ONTOLOGY_DATA", "description": "MFCO 온톨로지 데이터(mfcoData.json)를 Website에 공급" },
+      { "source": "MFCO", "target": "Kimchi", "relation": "INCLUDES_SUBDOMAIN", "description": "Kimchi 원재료/레시피 규격이 MFCO 하위 온톨로지에 포함" },
+
+      { "source": "Recovery", "target": "MFCO", "relation": "INDEXES_AND_PRESERVES", "description": "SHA-256 catalog.db로 MFCO 자산 통합 관리" },
+      { "source": "Recovery", "target": "sanYacho", "relation": "INDEXES_AND_PRESERVES", "description": "sanYacho 매니페스트 통합 관리" },
+      { "source": "Recovery", "target": "NICS_DATA", "relation": "INDEXES_AND_PRESERVES", "description": "NICS 레포지토리 자산 통합 관리" },
+      { "source": "Recovery", "target": "Platform", "relation": "INDEXES_AND_PRESERVES", "description": "Platform DDL 및 레포지토리 자산 통합 관리" },
+      { "source": "Recovery", "target": "Kimchi", "relation": "INDEXES_AND_PRESERVES", "description": "Kimchi 마스터 명세서 통합 관리" },
+      { "source": "Recovery", "target": "Website", "relation": "INDEXES_AND_PRESERVES", "description": "MFCO 웹 앱 소스 및 모듈 자산 통합 관리" }
+    ]
+  }
+}

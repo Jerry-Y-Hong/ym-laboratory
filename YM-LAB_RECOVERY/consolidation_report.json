@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-07-21T15:49:54.221039",
+  "summary": {
+    "total_files_in_db": 3524,
+    "total_copied": 3524,
+    "total_duplicates": 154,
+    "total_errors": 0,
+    "total_size_bytes": 99990610,
+    "total_size_mb": 95.36
+  },
+  "per_project": {
+    "MFCO": {
+      "copied": 3522,
+      "duplicates": 154,
+      "errors": 0,
+      "skipped": 0
+    },
+    "NICS_DATA": {
+      "copied": 1,
+      "duplicates": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "sanYacho": {
+      "copied": 1,
+      "duplicates": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  }
+}

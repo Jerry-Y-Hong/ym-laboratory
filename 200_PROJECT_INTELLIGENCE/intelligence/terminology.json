@@ -1,0 +1,442 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "metadata": {
+    "version": "2.0.0",
+    "phase": "Phase 05",
+    "generated_at": "2026-07-22T12:30:49.634269",
+    "total_terms": 15
+  },
+  "terminology": [
+    {
+      "term": "MFCO",
+      "preferred_term": "Master Functional Core Ontology",
+      "definition": "식약처 기능성 원료, 동의보감 한의학 식재료, 영양성분을 Q-Code 기반으로 정규화한 마스터 온톨로지.",
+      "aliases": [
+        "Master Core Ontology",
+        "MFCO KB",
+        "기능성 온톨로지"
+      ],
+      "deprecated_aliases": [
+        "MFCO Draft v0",
+        "Old Functional Index"
+      ],
+      "translation": {
+        "en": "Master Functional Core Ontology",
+        "ko": "주요 기능성 핵심 온톨로지"
+      },
+      "category": "Core Ontology",
+      "confidence": 1.0,
+      "status": "Current",
+      "evidence": "MFCO_KNOWLEDGE_BASE_DISCOVERY_REPORT.md",
+      "related_documents": [
+        "MFCO_KNOWLEDGE_BASE_DISCOVERY_REPORT.md"
+      ],
+      "related_technologies": [
+        "SQL",
+        "Q-Code",
+        "JSON"
+      ],
+      "related_concepts": [
+        "Ontology",
+        "Q-Code",
+        "Inference Engine"
+      ]
+    },
+    {
+      "term": "YM-LAB",
+      "preferred_term": "YM-LAB Ecosystem",
+      "definition": "식품, 바이오, 한의학, IT 기술을 결합하여 영양 및 약선 융합 지식을 생성하는 최상위 연구 개발 생태계.",
+      "aliases": [
+        "YM-LAB PROJECT",
+        "YM Laboratory",
+        "YM Lab"
+      ],
+      "deprecated_aliases": [],
+      "translation": {
+        "en": "YM Laboratory Ecosystem",
+        "ko": "YM-LAB 융합 지식 생태계"
+      },
+      "category": "Ecosystem",
+      "confidence": 1.0,
+      "status": "Current",
+      "evidence": "PROJECT_STATUS.md",
+      "related_documents": [
+        "PROJECT_STATUS.md"
+      ],
+      "related_technologies": [
+        "Python",
+        "JSON Schema",
+        "Git"
+      ],
+      "related_concepts": [
+        "Project Intelligence",
+        "AI Context"
+      ]
+    },
+    {
+      "term": "Recovery",
+      "preferred_term": "YM-LAB Integrated Asset Recovery Storage",
+      "definition": "YM-LAB 산하 전 프로젝트 자산(3,524개)을 SHA-256 해시로 보존하고 catalog.db로 무결성을 유지하는 자산 관리 저장소.",
+      "aliases": [
+        "YM-LAB_RECOVERY",
+        "Recovery Storage",
+        "Baseline Archive"
+      ],
+      "deprecated_aliases": [],
+      "translation": {
+        "en": "Asset Recovery Storage",
+        "ko": "통합 자산 복원 저장소"
+      },
+      "category": "Governance Archive",
+      "confidence": 1.0,
+      "status": "Current",
+      "evidence": "YM-LAB_RECOVERY/catalog.db",
+      "related_documents": [
+        "YM-LAB_RECOVERY/RECOVERY_INDEX.md",
+        "YM-LAB_RECOVERY/asset_inventory.json"
+      ],
+      "related_technologies": [
+        "SHA-256",
+        "SQLite3",
+        "Python"
+      ],
+      "related_concepts": [
+        "Baseline Preservation",
+        "Canonical Asset"
+      ]
+    },
+    {
+      "term": "Ontology",
+      "preferred_term": "Domain Knowledge Graph Ontology",
+      "definition": "식재료, 기능 성분, 질환 효능, 레시피 간 복합적 관계를 컴퓨터가 이해할 수 있는 그래프 및 인덱스로 표현하는 형식 지식 체계.",
+      "aliases": [
+        "지식 온톨로지",
+        "도메인 온톨로지",
+        "Knowledge Graph"
+      ],
+      "deprecated_aliases": [],
+      "translation": {
+        "en": "Domain Knowledge Ontology",
+        "ko": "도메인 지식 온톨로지"
+      },
+      "category": "Knowledge Modeling",
+      "confidence": 1.0,
+      "status": "Current",
+      "evidence": "MFCO_KNOWLEDGE_BASE_DISCOVERY_REPORT.md",
+      "related_documents": [
+        "MFCO_KNOWLEDGE_BASE_DISCOVERY_REPORT.md"
+      ],
+      "related_technologies": [
+        "Q-Code",
+        "JSON",
+        "SQL"
+      ],
+      "related_concepts": [
+        "Inference",
+        "Term Dictionary"
+      ]
+    },
+    {
+      "term": "Knowledge Engine",
+      "preferred_term": "Phase 06 Semantic Knowledge Engine",
+      "definition": "구조화된 MFCO 온톨로지와 비구조화 문서를 결합하여 고차원 시맨틱 질의와 레시피 추천을 수행하는 지식 추론 엔진.",
+      "aliases": [
+        "지식 엔진",
+        "지식 추론 파이프라인"
+      ],
+      "deprecated_aliases": [],
+      "translation": {
+        "en": "Semantic Knowledge Engine",
+        "ko": "시맨틱 지식 추론 엔진"
+      },
+      "category": "AI Pipeline",
+      "confidence": 0.9,
+      "status": "Planned",
+      "evidence": "PROJECT_STATUS.md",
+      "related_documents": [
+        "PROJECT_STATUS.md"
+      ],
+      "related_technologies": [
+        "RAG",
+        "Vector DB"
+      ],
+      "related_concepts": [
+        "Inference Engine",
+        "Recipe Engine"
+      ]
+    },
+    {
+      "term": "Story Engine",
+      "preferred_term": "Personalized Storytelling Engine",
+      "definition": "개인화된 건강 상태 및 약선 레시피에 맞춰 맞춤형 스토리텔링 컨텐츠를 생성하는 스토리 생성 파이프라인.",
+      "aliases": [
+        "스토리텔링 엔진"
+      ],
+      "deprecated_aliases": [],
+      "translation": {
+        "en": "Storytelling Engine",
+        "ko": "맞춤형 스토리 엔진"
+      },
+      "category": "Content Engine",
+      "confidence": 0.85,
+      "status": "Planned",
+      "evidence": "AUTOMATED_MARKET_FEASIBILITY_ENGINE_SPEC.md",
+      "related_documents": [
+        "AUTOMATED_MARKET_FEASIBILITY_ENGINE_SPEC.md"
+      ],
+      "related_technologies": [
+        "LLM Generation"
+      ],
+      "related_concepts": [
+        "Commercial Platform"
+      ]
+    },
+    {
+      "term": "Automation",
+      "preferred_term": "Phase 07 AI Automation Pipeline",
+      "definition": "자산 발견, 무결성 검증, 스키마 변환 및 빌드 파이프라인을 인간의 개입 없이 자율 실행하는 자동화 인프라.",
+      "aliases": [
+        "AI Automation",
+        "CI/CD Automation"
+      ],
+      "deprecated_aliases": [],
+      "translation": {
+        "en": "AI Automation Pipeline",
+        "ko": "AI 파이프라인 자동화"
+      },
+      "category": "Automation",
+      "confidence": 0.9,
+      "status": "Planned",
+      "evidence": "YM-LAB_RECOVERY/recovery_improvement.md",
+      "related_documents": [
+        "YM-LAB_RECOVERY/recovery_improvement.md"
+      ],
+      "related_technologies": [
+        "Python Scripts"
+      ],
+      "related_concepts": [
+        "Task Graph"
+      ]
+    },
+    {
+      "term": "AI Context",
+      "preferred_term": "AI Agent Session Context Payload",
+      "definition": "AI 코딩 에이전트가 새로운 작업 세션에 진입할 때 프로젝트 구조, 용어, 개발 규칙을 즉각 파악하도록 돕는 인-메모리 시맨틱 페이로드.",
+      "aliases": [
+        "Context Payload",
+        "Agent Briefing"
+      ],
+      "deprecated_aliases": [],
+      "translation": {
+        "en": "AI Session Context Payload",
+        "ko": "AI 에이전트 세션 페이로드"
+      },
+      "category": "Agent Memory",
+      "confidence": 1.0,
+      "status": "Current",
+      "evidence": "200_PROJECT_INTELLIGENCE/intelligence/AI_CONTEXT.md",
+      "related_documents": [
+        "200_PROJECT_INTELLIGENCE/intelligence/AI_CONTEXT.md"
+      ],
+      "related_technologies": [
+        "JSON",
+        "Markdown"
+      ],
+      "related_concepts": [
+        "Agent Pairing"
+      ]
+    },
+    {
+      "term": "PIS",
+      "preferred_term": "Plant Intelligence System",
+      "definition": "산야초 및 약용 식물의 생육, 효능, 유효 성분 데이터를 시맨틱하게 수집 분석하는 식물 지식 시스템.",
+      "aliases": [
+        "식물 지식 시스템"
+      ],
+      "deprecated_aliases": [],
+      "translation": {
+        "en": "Plant Intelligence System",
+        "ko": "식물 지식 정보 시스템"
+      },
+      "category": "Domain System",
+      "confidence": 0.9,
+      "status": "Current",
+      "evidence": "sanYacho/MANIFEST.json",
+      "related_documents": [
+        "sanYacho/MANIFEST.json"
+      ],
+      "related_technologies": [
+        "Next.js"
+      ],
+      "related_concepts": [
+        "Smart Farm",
+        "Wasabi"
+      ]
+    },
+    {
+      "term": "Smart Farm",
+      "preferred_term": "Precision Agritech Smart Farm",
+      "definition": "고기능성 산야초 및 고부가가치 식물을 정밀 제어 환경에서 재배하는 ICT 스마트 융합 재배 시설.",
+      "aliases": [
+        "스마트팜"
+      ],
+      "deprecated_aliases": [],
+      "translation": {
+        "en": "Precision Smart Farm",
+        "ko": "정밀 스마트팜 인프라"
+      },
+      "category": "Hardware Infrastructure",
+      "confidence": 0.9,
+      "status": "Current",
+      "evidence": "sanYacho/MANIFEST.json",
+      "related_documents": [
+        "sanYacho/MANIFEST.json"
+      ],
+      "related_technologies": [
+        "IoT"
+      ],
+      "related_concepts": [
+        "PIS",
+        "Wasabi"
+      ]
+    },
+    {
+      "term": "Wasabi",
+      "preferred_term": "Wasabia Japonica Functional Master",
+      "definition": "Wasabia japonica. YM-LAB의 주요 고부가가치 기능성 식물 연구 대상 및 원재료 마스터 도메인.",
+      "aliases": [
+        "고추냉이",
+        "와사비 원재료"
+      ],
+      "deprecated_aliases": [],
+      "translation": {
+        "en": "Wasabia Japonica Master",
+        "ko": "와사비 기능성 마스터"
+      },
+      "category": "Ingredient Master",
+      "confidence": 1.0,
+      "status": "Current",
+      "evidence": "01_PHASE1_KIMCHI/03_INGREDIENT_MASTER/INGREDIENT_MASTER_SPEC.md",
+      "related_documents": [
+        "01_PHASE1_KIMCHI/03_INGREDIENT_MASTER/INGREDIENT_MASTER_SPEC.md"
+      ],
+      "related_technologies": [
+        "Phytochemical Index"
+      ],
+      "related_concepts": [
+        "Smart Farm",
+        "MFCO"
+      ]
+    },
+    {
+      "term": "Vector DB",
+      "preferred_term": "High-Dimensional Vector Database",
+      "definition": "문서, 온톨로지 코드, 도메인 지식을 고차원 임베딩 벡터로 전환하여 고속 유사도 검색을 지원하는 데이터베이스.",
+      "aliases": [
+        "벡터 데이터베이스"
+      ],
+      "deprecated_aliases": [],
+      "translation": {
+        "en": "Vector Database",
+        "ko": "시맨틱 벡터 데이터베이스"
+      },
+      "category": "Database",
+      "confidence": 0.95,
+      "status": "Planned",
+      "evidence": "YM-LAB_RECOVERY/recovery_improvement.md",
+      "related_documents": [
+        "YM-LAB_RECOVERY/recovery_improvement.md"
+      ],
+      "related_technologies": [
+        "ChromaDB",
+        "Pinecone"
+      ],
+      "related_concepts": [
+        "RAG",
+        "Knowledge Engine"
+      ]
+    },
+    {
+      "term": "Q-Code",
+      "preferred_term": "MFCO Q-Code Semantic Identifier",
+      "definition": "MFCO 온톨로지 내 원재료(Q-ING), 기능그룹(Q-FNC), 레시피(Q-RCP)에 부여되는 고유 식별 시맨틱 인덱스 코드.",
+      "aliases": [
+        "QCode"
+      ],
+      "deprecated_aliases": [],
+      "translation": {
+        "en": "Q-Code Identifier",
+        "ko": "Q-코드 시맨틱 식별자"
+      },
+      "category": "Identifier",
+      "confidence": 1.0,
+      "status": "Current",
+      "evidence": "00_MFCO_KNOWLEDGE_BASE/07_ONEDRIVE_RECOVERY_FULL/06_DOCUMENT/MFCO_Q_CODE_TRACE_SYSTEM_BLUEPRINT.md",
+      "related_documents": [
+        "00_MFCO_KNOWLEDGE_BASE/07_ONEDRIVE_RECOVERY_FULL/06_DOCUMENT/MFCO_Q_CODE_TRACE_SYSTEM_BLUEPRINT.md"
+      ],
+      "related_technologies": [
+        "Semantic Identifier"
+      ],
+      "related_concepts": [
+        "MFCO",
+        "Ontology"
+      ]
+    },
+    {
+      "term": "sanYacho",
+      "preferred_term": "sanYacho Production Web App",
+      "definition": "산야초. 한의학 식재료 탐색 및 약선 레시피 서비스를 제공하는 Vercel 기반 프로덕션 웹 애플리케이션.",
+      "aliases": [
+        "산야초 웹"
+      ],
+      "deprecated_aliases": [],
+      "translation": {
+        "en": "sanYacho Web App",
+        "ko": "산야초 프로덕션 웹"
+      },
+      "category": "Web Application",
+      "confidence": 1.0,
+      "status": "Current",
+      "evidence": "sanYacho/MANIFEST.json",
+      "related_documents": [
+        "sanYacho/MANIFEST.json"
+      ],
+      "related_technologies": [
+        "Next.js",
+        "Vercel"
+      ],
+      "related_concepts": [
+        "Commercial Platform",
+        "PIS"
+      ]
+    },
+    {
+      "term": "NICS",
+      "preferred_term": "National Agricultural Food Safety Data (NICS)",
+      "definition": "농식품올바로. 농촌진흥청 국가 표준 식품 성분표 및 식약처 식품 안전 공공 데이터베이스.",
+      "aliases": [
+        "농식품올바로"
+      ],
+      "deprecated_aliases": [],
+      "translation": {
+        "en": "NICS Open Data",
+        "ko": "농식품올바로 공공데이터"
+      },
+      "category": "Open Dataset",
+      "confidence": 1.0,
+      "status": "Current",
+      "evidence": "100_PLATFORM/120_DATABASE/repository/raw_repository.py",
+      "related_documents": [
+        "100_PLATFORM/120_DATABASE/repository/raw_repository.py"
+      ],
+      "related_technologies": [
+        "REST API"
+      ],
+      "related_concepts": [
+        "NICS_DATA",
+        "Platform"
+      ]
+    }
+  ]
+}

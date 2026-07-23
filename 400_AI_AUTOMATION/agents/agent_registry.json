@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "metadata": {
+    "version": "1.0.0",
+    "phase": "Phase 07",
+    "generated_at": "2026-07-22T13:03:56.230426",
+    "total_agents": 10
+  },
+  "agents": [
+    {
+      "id": "AGENT_DOC",
+      "name": "Documentation Agent",
+      "role": "DOCUMENTATION",
+      "status": "READY"
+    },
+    {
+      "id": "AGENT_RES",
+      "name": "Research Agent",
+      "role": "RESEARCH",
+      "status": "READY"
+    },
+    {
+      "id": "AGENT_ARCH",
+      "name": "Architecture Agent",
+      "role": "ARCHITECTURE",
+      "status": "READY"
+    },
+    {
+      "id": "AGENT_DEV",
+      "name": "Coding Agent",
+      "role": "DEVELOPMENT",
+      "status": "READY"
+    },
+    {
+      "id": "AGENT_QA",
+      "name": "QA Agent",
+      "role": "QUALITY_ASSURANCE",
+      "status": "READY"
+    },
+    {
+      "id": "AGENT_DB",
+      "name": "Database Agent",
+      "role": "DATABASE_ADMIN",
+      "status": "READY"
+    },
+    {
+      "id": "AGENT_CNT",
+      "name": "Content Agent",
+      "role": "CONTENT_CREATION",
+      "status": "READY"
+    },
+    {
+      "id": "AGENT_DSG",
+      "name": "Design Agent",
+      "role": "DESIGN_SYSTEM",
+      "status": "READY"
+    },
+    {
+      "id": "AGENT_TRN",
+      "name": "Translation Agent",
+      "role": "TRANSLATION",
+      "status": "READY"
+    },
+    {
+      "id": "AGENT_REV",
+      "name": "Review Agent",
+      "role": "REVIEW_GOVERNANCE",
+      "status": "READY"
+    }
+  ]
+}

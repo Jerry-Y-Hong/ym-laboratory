@@ -1,0 +1,11 @@
+Sheets in draft: ['MASTER_CORE_DB_CLEANSED']
+
+Sheet: MASTER_CORE_DB_CLEANSED, Shape: (1793, 11)
+Columns: ['식재료/약재', '원본효능', '표준기능', '생리작용', '작용기전', '연결질환', '조리권장', 'Flavor', '설명', 'MFCO_표준기능', 'MFCO_Exception']
+Head:
+  식재료/약재  원본효능         표준기능                          생리작용                   작용기전        연결질환      조리권장         Flavor                         설명    MFCO_표준기능 MFCO_Exception
+0    오가피   강근골         근골강화       Bone metabolism support  Osteoblast activation   관절약화, 골감소  장시간 탕 적합    deep earthy            근골을 튼튼하게 해 주는 것         근골강화            NaN
+1    오가피  강근장골  근력강화 + 골격강화                           NaN                    NaN         NaN       NaN            NaN  뼈를 튼튼하고 건강하게 하여 장성하게 하는 것  근력강화 + 골격강화            NaN
+2    오가피   거풍습       신경염증조절  Neuroinflammation modulation       COX-2 inhibition   신경통, 류마티스     온탕 적합   warm pungent             풍습(風濕)을 제거하는 것          기순환           통증완화
+3    오가피  거풍제습       신경염증조절  Neuroinflammation modulation       COX-2 inhibition   신경통, 류마티스     온탕 적합   warm pungent    풍(風)을 제거하고 습(濕)을 제거하는 것          기순환           통증완화
+4    오가피   보간신          간보호              Hepatoprotective          ROS reduction  지방간, 간기능저하    추출탕 적합  earthy bitter             간신(肝腎)을 보충하는 것          간보호           신장보호

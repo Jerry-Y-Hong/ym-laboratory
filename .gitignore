@@ -1,28 +1,32 @@
-# OS
-.DS_Store
-Thumbs.db
-desktop.ini
+# Python / Virtualenv
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+*.db
+*.sqlite3
 
-# Editor
-.vscode/
-*.suo
-*.user
-
-# Node (vercel CLI 등)
+# Node.js
 node_modules/
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Backup files
-*.bak
-*.backup
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
 
-# Temp
-*.tmp
-*.temp
+# Environments & secrets
+.env
+*.env
 
-# Dev scratch / debug files
-scratch/
-app_check.js
-app.js.bak
-
-.vercel
+# Build artifacts
+dist/
+build/
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/

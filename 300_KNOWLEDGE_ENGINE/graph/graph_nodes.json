@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "metadata": {
+    "version": "1.0.0",
+    "phase": "Phase 06",
+    "generated_at": "2026-07-22T12:50:46.313701"
+  },
+  "nodes": [
+    {
+      "id": "CONCEPT_MFCO",
+      "label": "Concept",
+      "attributes": {
+        "name": "Master Functional Core Ontology",
+        "type": "CORE_ONTOLOGY"
+      }
+    },
+    {
+      "id": "CONCEPT_WASABI",
+      "label": "Concept",
+      "attributes": {
+        "name": "Wasabia Japonica Master",
+        "type": "DOMAIN_DATASET"
+      }
+    },
+    {
+      "id": "CONCEPT_RECOVERY",
+      "label": "Concept",
+      "attributes": {
+        "name": "Asset Recovery Storage",
+        "type": "GOVERNANCE_ARCHIVE"
+      }
+    },
+    {
+      "id": "CONCEPT_QCODE",
+      "label": "Concept",
+      "attributes": {
+        "name": "Q-Code Identifier",
+        "type": "IDENTIFIER"
+      }
+    },
+    {
+      "id": "CONCEPT_INTELLIGENCE",
+      "label": "Concept",
+      "attributes": {
+        "name": "Project Intelligence Layer",
+        "type": "SEMANTIC_LAYER"
+      }
+    },
+    {
+      "id": "CONCEPT_PIS",
+      "label": "Concept",
+      "attributes": {
+        "name": "Plant Intelligence System",
+        "type": "WEB_APPLICATION"
+      }
+    },
+    {
+      "id": "CONCEPT_NICS",
+      "label": "Concept",
+      "attributes": {
+        "name": "National Food Safety Data",
+        "type": "OPEN_DATASET"
+      }
+    },
+    {
+      "id": "CONCEPT_ENGINE",
+      "label": "Concept",
+      "attributes": {
+        "name": "Knowledge Engine Construction",
+        "type": "KNOWLEDGE_ENGINE"
+      }
+    }
+  ]
+}

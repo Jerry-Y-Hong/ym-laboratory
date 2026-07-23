@@ -1,0 +1,454 @@
+openapi: 3.1.0
+info:
+  title: Global Kimchi AI Knowledge Platform API
+  description: |
+    세계 최고 수준의 AI 기반 글로벌 김치 지식 플랫폼 OpenAPI 3.1.0 스펙 문서입니다.
+    SSOT Master Data, I18N 확장, AI Engine (Configuration & Execution), Publishing Queue 및 System API를 포함합니다.
+  version: 1.0.0
+  contact:
+    name: YM-LAB Architecture Team
+    email: architecture@ym-lab.com
+
+servers:
+  - url: https://api.kimchi-knowledge.org/api/v1
+    description: Production Server
+  - url: https://staging-api.kimchi-knowledge.org/api/v1
+    description: Staging Server
+
+security:
+  - BearerAuth: []
+  - ApiKeyAuth: []
+
+paths:
+  # ===========================================================================
+  # 1. MASTER API
+  # ===========================================================================
+  /kimchis:
+    get:
+      summary: 김치 Master 목록 조회 (Paginated)
+      tags: [1. MASTER API - Kimchi]
+      parameters:
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 20
+        - name: category_id
+          in: query
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: 김치 Master 목록 반환 성공
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/KimchiMasterListResponse'
+
+    post:
+      summary: 신규 김치 Master 등록 (SSOT)
+      tags: [1. MASTER API - Kimchi]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateKimchiMasterRequest'
+      responses:
+        '201':
+          description: 김치 Master 등록 완료
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/KimchiMasterSingleResponse'
+
+  /kimchis/{kimchi_id}:
+    get:
+      summary: 특정 김치 Master 단건 상세 조회
+      tags: [1. MASTER API - Kimchi]
+      parameters:
+        - name: kimchi_id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: 김치 Master 상세 조회 성공
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/KimchiMasterSingleResponse'
+
+  /ingredients:
+    get:
+      summary: 식재료 Master 목록 조회
+      tags: [1. MASTER API - Ingredient]
+      responses:
+        '200':
+          description: 식재료 Master 목록 반환 성공
+
+  /recipes:
+    get:
+      summary: 레시피 Master 목록 조회
+      tags: [1. MASTER API - Recipe]
+      responses:
+        '200':
+          description: 레시피 Master 목록 반환 성공
+
+  # ===========================================================================
+  # 2. I18N API
+  # ===========================================================================
+  /kimchis/{kimchi_id}/i18n/{language_code}:
+    get:
+      summary: 특정 언어별 김치 번역 정보 조회
+      tags: [2. I18N API]
+      parameters:
+        - name: kimchi_id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+        - name: language_code
+          in: path
+          required: true
+          schema:
+            type: string
+            example: 'en'
+      responses:
+        '200':
+          description: 언어별 번역 정보 반환
+    put:
+      summary: 특정 언어별 김치 번역 정보 등록/수정
+      tags: [2. I18N API]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                  example: 'Napa Cabbage Kimchi (Baechu-kimchi)'
+                summary:
+                  type: string
+                  example: 'Traditional fermented cabbage kimchi with rich chili paste.'
+      responses:
+        '200':
+          description: 번역 저장 완료
+
+  # ===========================================================================
+  # 3. CONTENT API
+  # ===========================================================================
+  /contents:
+    get:
+      summary: 생성된 콘텐츠 목록 조회 및 검색
+      tags: [3. CONTENT API]
+      parameters:
+        - name: status
+          in: query
+          schema:
+            type: string
+            enum: [DRAFT, REVIEW, SCHEDULED, PUBLISHED, ARCHIVED]
+        - name: content_type
+          in: query
+          schema:
+            type: string
+            enum: [BLOG, YOUTUBE_SHORT, YOUTUBE_LONG, EDUCATION, SNS, NEWSLETTER, EBOOK]
+      responses:
+        '200':
+          description: 콘텐츠 목록 반환 성공
+    post:
+      summary: 수동 또는 외부 트리거에 의한 콘텐츠 생성 요청
+      tags: [3. CONTENT API]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateContentRequest'
+      responses:
+        '202':
+          description: 콘텐츠 생성 요청 수락됨 (비동기 처리)
+
+  /contents/{content_id}:
+    get:
+      summary: 콘텐츠 상세 (Master + Body + References) 조회
+      tags: [3. CONTENT API]
+      parameters:
+        - name: content_id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: 콘텐츠 상세 반환 성공
+
+  # ===========================================================================
+  # 4. AI_ENGINE API
+  # ===========================================================================
+  /ai/generate:
+    post:
+      summary: AI_ENGINE 콘텐츠 생성 파이프라인 즉시 실행
+      tags: [4. AI_ENGINE API]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AIGenerateExecutionRequest'
+      responses:
+        '200':
+          description: AI 콘텐츠 생성 및 Validation 완료
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AIGenerateExecutionResponse'
+
+  /ai/validate:
+    post:
+      summary: 생성된 AI 콘텐츠 통합 검증 (Validator 6대 항목)
+      tags: [4. AI_ENGINE API]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                content_body_markdown:
+                  type: string
+                output_schema:
+                  type: object
+      responses:
+        '200':
+          description: Validator 검증 결과 리포트
+
+  /ai/prompt-preview:
+    post:
+      summary: Prompt Builder 사전 프롬프트 조립 프리뷰
+      tags: [4. AI_ENGINE API]
+      responses:
+        '200':
+          description: 조립된 Prompt Preview 반환
+
+  /ai/rule-check:
+    post:
+      summary: Rule Engine Master 데이터 조합 조건 미리 검사
+      tags: [4. AI_ENGINE API]
+      responses:
+        '200':
+          description: Rule 만족 여부 반환
+
+  # ===========================================================================
+  # 5. PUBLISHING API
+  # ===========================================================================
+  /publishing/publish:
+    post:
+      summary: 콘텐츠 멀티채널 즉시 발행 요청 (Publishing Queue 진입)
+      tags: [5. PUBLISHING API]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                content_id:
+                  type: string
+                  format: uuid
+                target_channels:
+                  type: array
+                  items:
+                    type: string
+                    example: 'WORDPRESS_BLOG'
+      responses:
+        '202':
+          description: Publishing Queue 등록 완료
+
+  /publishing/schedule:
+    post:
+      summary: 콘텐츠 예약 발행 설정
+      tags: [5. PUBLISHING API]
+      responses:
+        '200':
+          description: 예약 설정 완료
+
+  /publishing/retry/{publishing_id}:
+    post:
+      summary: 실패한 퍼블리싱 작업 재시도 (Retry)
+      tags: [5. PUBLISHING API]
+      responses:
+        '200':
+          description: 재시도 디스패치 완료
+
+  /publishing/logs:
+    get:
+      summary: 퍼블리싱 실행 이력 로그 조회 (`PUBLISHING_LOG`)
+      tags: [5. PUBLISHING API]
+      responses:
+        '200':
+          description: 퍼블리싱 이력 반환
+
+  # ===========================================================================
+  # 6. SYSTEM API
+  # ===========================================================================
+  /system/health:
+    get:
+      summary: 시스템 헬스 체크 및 DB/AI 연결 상태 확인
+      tags: [6. SYSTEM API]
+      security: []
+      responses:
+        '200':
+          description: System Healthy
+
+  /system/version:
+    get:
+      summary: 플랫폼 아키텍처 및 API 버전 조회
+      tags: [6. SYSTEM API]
+      security: []
+      responses:
+        '200':
+          description: Current Architecture Version (v1.0.0 FROZEN)
+
+  /system/metrics:
+    get:
+      summary: 시스템 텔레메트리 메트릭 조회 (Reserved Monitoring 연계)
+      tags: [6. SYSTEM API]
+      responses:
+        '200':
+          description: Metrics Returned
+
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-API-KEY
+
+  schemas:
+    KimchiMasterSingleResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        code:
+          type: string
+          example: 'OK'
+        data:
+          $ref: '#/components/schemas/KimchiMasterDto'
+
+    KimchiMasterListResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        code:
+          type: string
+          example: 'OK'
+        data:
+          type: array
+          items:
+            $ref: '#/components/schemas/KimchiMasterDto'
+
+    KimchiMasterDto:
+      type: object
+      properties:
+        kimchi_id:
+          type: string
+          format: uuid
+        kimchi_code:
+          type: string
+          example: 'KIMCHI_PO GI_01'
+        spiciness_level:
+          type: integer
+          example: 3
+        salinity_level:
+          type: integer
+          example: 2
+        origin_region:
+          type: string
+          example: 'Jeolla-do'
+        seasonality:
+          type: string
+          example: 'WINTER'
+
+    CreateKimchiMasterRequest:
+      type: object
+      required: [kimchi_code, category_id]
+      properties:
+        kimchi_code:
+          type: string
+        category_id:
+          type: string
+          format: uuid
+        spiciness_level:
+          type: integer
+        salinity_level:
+          type: integer
+
+    CreateContentRequest:
+      type: object
+      required: [content_type, target_kimchi_id, template_id, language_code]
+      properties:
+        content_type:
+          type: string
+          example: 'BLOG'
+        target_kimchi_id:
+          type: string
+          format: uuid
+        template_id:
+          type: string
+          format: uuid
+        language_code:
+          type: string
+          example: 'en'
+
+    AIGenerateExecutionRequest:
+      type: object
+      required: [target_kimchi_id, template_id, language_code]
+      properties:
+        target_kimchi_id:
+          type: string
+          format: uuid
+        template_id:
+          type: string
+          format: uuid
+        language_code:
+          type: string
+          example: 'en'
+        llm_provider:
+          type: string
+          example: 'gemini-1.5-pro'
+
+    AIGenerateExecutionResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        content_id:
+          type: string
+          format: uuid
+        generated_title:
+          type: string
+        validation_passed:
+          type: boolean
+          example: true

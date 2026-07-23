@@ -1,0 +1,22 @@
+{
+  "report_id": "REP_DAILY_4c288462",
+  "report_type": "DAILY",
+  "generated_at": "2026-07-21T05:23:41.419903+00:00",
+  "platform_health_status": "PASS",
+  "statistics": {
+    "total_collected": 5,
+    "total_processed": 5,
+    "new_count": 5,
+    "updated_count": 0,
+    "unchanged_count": 0,
+    "failed_count": 0,
+    "failure_rate_pct": 0.0,
+    "avg_throughput_per_sec": 6.17,
+    "avg_response_time_ms": 120.0,
+    "duration_seconds": 0.811
+  },
+  "summary": {
+    "status": "EXCELLENT",
+    "notes": "DAILY Operations Report generated successfully."
+  }
+}

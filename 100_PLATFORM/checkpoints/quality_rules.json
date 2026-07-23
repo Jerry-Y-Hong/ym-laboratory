@@ -1,0 +1,24 @@
+{
+  "required_food_fields": [
+    "food_code",
+    "food_name_ko",
+    "category_code",
+    "origin_source"
+  ],
+  "valid_categories": [
+    "CAT_GENERIC",
+    "CAT_KIMCHI",
+    "CAT_VEGETABLE",
+    "CAT_GRAIN",
+    "CAT_MEAT",
+    "CAT_SEAFOOD"
+  ],
+  "valid_sources": [
+    "RDA_NONGSARO",
+    "RDA_AGRICULTURAL_SCIENCE_OPENAPI",
+    "MFDS",
+    "USDA"
+  ],
+  "max_code_length": 50,
+  "max_name_length": 200
+}

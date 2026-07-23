@@ -1,0 +1,150 @@
+{
+  "": "g:/내 드라이브/YM-LAB_PROJECT_/YM-LAB_RECOVERY/schema/project_classification.schema.json",
+  "meta": {
+    "version": "2.0.0",
+    "phase": "Phase 04-03",
+    "target_layer": "Phase 05 Project Intelligence Layer & AI Automation",
+    "generated_at": "2026-07-22T12:12:12.891778",
+    "extensible_taxonomy": true
+  },
+  "project_taxonomy": {
+    "MFCO_CORE": {
+      "display_name": "MFCO Core Knowledge Base",
+      "description": "Master Functional Core Ontology 표준 데이터셋 및 마스터 색인",
+      "status": "ACTIVE_PRODUCTION",
+      "total_files": 17,
+      "total_size_bytes": 3002635,
+      "total_size_mb": 2.8635
+    },
+    "MFCO_LEGACY_ONEDRIVE": {
+      "display_name": "OneDrive Recovery Full (Legacy MFCO)",
+      "description": "OneDrive 복원 루트 내 직결 레거시 MFCO 자산 파일",
+      "status": "LEGACY_ARCHIVE",
+      "total_files": 56,
+      "total_size_bytes": 19900968,
+      "total_size_mb": 18.979
+    },
+    "SANYACHO": {
+      "display_name": "sanYacho Wild Plant Web App",
+      "description": "산야초 웹 서비스 레포지토리 (Next.js / Vercel)",
+      "status": "PRODUCTION",
+      "total_files": 1,
+      "total_size_bytes": 341,
+      "total_size_mb": 0.0003
+    },
+    "NICS_DATA": {
+      "display_name": "농식품올바로 (NICS) Data",
+      "description": "농식품올바로 식품 안전 및 영양 데이터셋",
+      "status": "ACTIVE",
+      "total_files": 0,
+      "total_size_bytes": 0,
+      "total_size_mb": 0.0
+    },
+    "PLATFORM": {
+      "display_name": "YM-LAB Core Platform Infrastructure",
+      "description": "YM-LAB 데이터베이스 스키마, 레포지토리 및 체크포인트",
+      "status": "INFRASTRUCTURE",
+      "total_files": 5,
+      "total_size_bytes": 9236,
+      "total_size_mb": 0.0088
+    },
+    "KIMCHI": {
+      "display_name": "Kimchi Master Phase 1",
+      "description": "김치 원재료 및 레시피 마스터 규격",
+      "status": "PHASE_1_COMPLETE",
+      "total_files": 2,
+      "total_size_bytes": 35836,
+      "total_size_mb": 0.0342
+    },
+    "MFCO_WEBSITE": {
+      "display_name": "MFCO Web Application (React/Vite)",
+      "description": "MFCO 웹 프론트엔드 코드베이스 (node_modules 제외)",
+      "status": "FRONTEND_APP",
+      "total_files": 26,
+      "total_size_bytes": 6226148,
+      "total_size_mb": 5.9377
+    },
+    "SCRATCH": {
+      "display_name": "Scratch & Temporary Analysis Scripts",
+      "description": "임시 분석, 데이터 점검 및 스크래치 로그 파일",
+      "status": "TEMPORARY",
+      "total_files": 35,
+      "total_size_bytes": 161763,
+      "total_size_mb": 0.1543
+    },
+    "BACKUP_ARCHIVE": {
+      "display_name": "Backup Archives (00_BACKUP)",
+      "description": "과거 버전 백업 디렉터리 자산",
+      "status": "ARCHIVE",
+      "total_files": 43,
+      "total_size_bytes": 18896351,
+      "total_size_mb": 18.021
+    },
+    "VENDOR_DEPENDENCIES": {
+      "display_name": "Node Modules Vendor Dependencies",
+      "description": "웹 프로젝트 외부 노드 모듈 의존성 자산",
+      "status": "VENDOR",
+      "total_files": 3337,
+      "total_size_bytes": 51529708,
+      "total_size_mb": 49.1426
+    },
+    "ROOT_REPORTS": {
+      "display_name": "Root Project Reports & Search Logs",
+      "description": "프로젝트 루트 생성 보고서 및 탐색 결과 파일",
+      "status": "DOCUMENTATION",
+      "total_files": 2,
+      "total_size_bytes": 227624,
+      "total_size_mb": 0.2171
+    }
+  },
+  "classification_rules": [
+    {
+      "rule_id": "R01_CORE_KB",
+      "match_pattern": "00_MFCO_KNOWLEDGE_BASE/0[1-6]_*",
+      "target_project": "MFCO_CORE",
+      "priority": 100
+    },
+    {
+      "rule_id": "R02_VENDOR",
+      "match_pattern": "**/node_modules/**",
+      "target_project": "VENDOR_DEPENDENCIES",
+      "priority": 95
+    },
+    {
+      "rule_id": "R03_SCRATCH",
+      "match_pattern": "**/scratch/**",
+      "target_project": "SCRATCH",
+      "priority": 90
+    },
+    {
+      "rule_id": "R04_BACKUP",
+      "match_pattern": "**/00_BACKUP/**",
+      "target_project": "BACKUP_ARCHIVE",
+      "priority": 85
+    },
+    {
+      "rule_id": "R05_MFCO_WEBSITE",
+      "match_pattern": "**/mfco-website/**",
+      "target_project": "MFCO_WEBSITE",
+      "priority": 80
+    },
+    {
+      "rule_id": "R06_PLATFORM",
+      "match_pattern": "100_PLATFORM/**",
+      "target_project": "PLATFORM",
+      "priority": 75
+    },
+    {
+      "rule_id": "R07_KIMCHI",
+      "match_pattern": "01_PHASE1_KIMCHI/**",
+      "target_project": "KIMCHI",
+      "priority": 70
+    },
+    {
+      "rule_id": "R08_SANYACHO",
+      "match_pattern": "sanYacho/**",
+      "target_project": "SANYACHO",
+      "priority": 65
+    }
+  ]
+}

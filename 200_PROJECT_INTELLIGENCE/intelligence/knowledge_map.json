@@ -1,0 +1,152 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "metadata": {
+    "version": "2.0.0",
+    "phase": "Phase 05",
+    "generated_at": "2026-07-22T12:30:49.634269",
+    "graph_type": "Unified Semantic Knowledge Network"
+  },
+  "nodes": [
+    {
+      "id": "DOC_PROJECT_STATUS",
+      "label": "PROJECT_STATUS.md",
+      "node_type": "Document"
+    },
+    {
+      "id": "DOC_RECOVERY_INDEX",
+      "label": "RECOVERY_INDEX.md",
+      "node_type": "Document"
+    },
+    {
+      "id": "CONCEPT_MFCO",
+      "label": "MFCO Q-Code Ontology",
+      "node_type": "Concept"
+    },
+    {
+      "id": "CONCEPT_RECOVERY",
+      "label": "SHA-256 Baseline Integrity",
+      "node_type": "Concept"
+    },
+    {
+      "id": "MODULE_INTELLIGENCE",
+      "label": "Project Intelligence Layer",
+      "node_type": "Module"
+    },
+    {
+      "id": "MODULE_RECOVERY",
+      "label": "Recovery Storage",
+      "node_type": "Module"
+    },
+    {
+      "id": "TECH_PYTHON",
+      "label": "Python 3 & SQLite3",
+      "node_type": "Technology"
+    },
+    {
+      "id": "TECH_JSON_SCHEMA",
+      "label": "JSON Schema Draft 2020-12",
+      "node_type": "Technology"
+    },
+    {
+      "id": "TASK_P05",
+      "label": "Phase 05 Intelligence Task",
+      "node_type": "Task"
+    },
+    {
+      "id": "OUTPUT_INTELLIGENCE",
+      "label": "14 Intelligence Assets",
+      "node_type": "Output"
+    }
+  ],
+  "edges": [
+    {
+      "source": "DOC_PROJECT_STATUS",
+      "target": "CONCEPT_MFCO",
+      "relation": "defines",
+      "direction": "FORWARD",
+      "weight": 0.95,
+      "evidence": "PROJECT_STATUS.md",
+      "confidence": 1.0
+    },
+    {
+      "source": "DOC_RECOVERY_INDEX",
+      "target": "CONCEPT_RECOVERY",
+      "relation": "defines",
+      "direction": "FORWARD",
+      "weight": 0.95,
+      "evidence": "YM-LAB_RECOVERY/RECOVERY_INDEX.md",
+      "confidence": 1.0
+    },
+    {
+      "source": "CONCEPT_MFCO",
+      "target": "MODULE_INTELLIGENCE",
+      "relation": "implements",
+      "direction": "FORWARD",
+      "weight": 0.9,
+      "evidence": "200_PROJECT_INTELLIGENCE/intelligence/project_graph.json",
+      "confidence": 1.0
+    },
+    {
+      "source": "CONCEPT_RECOVERY",
+      "target": "MODULE_RECOVERY",
+      "relation": "implements",
+      "direction": "FORWARD",
+      "weight": 0.9,
+      "evidence": "YM-LAB_RECOVERY/asset_inventory.json",
+      "confidence": 1.0
+    },
+    {
+      "source": "MODULE_INTELLIGENCE",
+      "target": "TECH_JSON_SCHEMA",
+      "relation": "uses",
+      "direction": "FORWARD",
+      "weight": 0.85,
+      "evidence": "200_PROJECT_INTELLIGENCE/intelligence/intelligence_schema.json",
+      "confidence": 1.0
+    },
+    {
+      "source": "MODULE_RECOVERY",
+      "target": "TECH_PYTHON",
+      "relation": "uses",
+      "direction": "FORWARD",
+      "weight": 0.85,
+      "evidence": "YM-LAB_RECOVERY/verify_consolidation.py",
+      "confidence": 1.0
+    },
+    {
+      "source": "TASK_P05",
+      "target": "MODULE_INTELLIGENCE",
+      "relation": "depends_on",
+      "direction": "FORWARD",
+      "weight": 1.0,
+      "evidence": "200_PROJECT_INTELLIGENCE/intelligence/task_graph.json",
+      "confidence": 1.0
+    },
+    {
+      "source": "TASK_P05",
+      "target": "OUTPUT_INTELLIGENCE",
+      "relation": "produces",
+      "direction": "FORWARD",
+      "weight": 1.0,
+      "evidence": "200_PROJECT_INTELLIGENCE/intelligence/intelligence_report.md",
+      "confidence": 1.0
+    }
+  ],
+  "statistics": {
+    "node_count": 10,
+    "edge_count": 8,
+    "node_types_count": {
+      "Document": 2,
+      "Concept": 2,
+      "Module": 2,
+      "Technology": 2,
+      "Task": 1,
+      "Output": 1
+    }
+  },
+  "validation": {
+    "is_dag": true,
+    "has_orphans": false,
+    "valid_schema": true
+  }
+}

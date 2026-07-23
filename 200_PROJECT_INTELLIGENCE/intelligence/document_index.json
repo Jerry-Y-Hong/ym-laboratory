@@ -1,0 +1,334 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "meta": {
+    "version": "1.0.0",
+    "phase": "Phase 05",
+    "generated_at": "2026-07-22T12:30:49.634269",
+    "total_documents": 19
+  },
+  "documents": [
+    {
+      "doc_id": "DOC_01",
+      "title": "PROJECT_STATUS.md",
+      "path": "PROJECT_STATUS.md",
+      "purpose": "YM-LAB 프로젝트 전체 완료 이력 및 단계별 상태 통합 관리",
+      "category": "Master Governance",
+      "module": "Project Intelligence",
+      "related_documents": [
+        "YM-LAB_RECOVERY/RECOVERY_INDEX.md",
+        "200_PROJECT_INTELLIGENCE/intelligence/intelligence_report.md"
+      ],
+      "related_technologies": [
+        "Markdown",
+        "Git"
+      ],
+      "status": "ACTIVE",
+      "importance": "CRITICAL"
+    },
+    {
+      "doc_id": "DOC_02",
+      "title": "RECOVERY_INDEX.md",
+      "path": "YM-LAB_RECOVERY/RECOVERY_INDEX.md",
+      "purpose": "Recovery 저장소 3,524개 파일 마스터 탐색 인덱스 및 모듈 가이드 (Read-Only)",
+      "category": "Asset Index",
+      "module": "Recovery",
+      "related_documents": [
+        "YM-LAB_RECOVERY/asset_inventory.json",
+        "YM-LAB_RECOVERY/duplicate_report.md"
+      ],
+      "related_technologies": [
+        "SHA-256",
+        "SQLite"
+      ],
+      "status": "ACTIVE",
+      "importance": "HIGH"
+    },
+    {
+      "doc_id": "DOC_03",
+      "title": "asset_inventory.json",
+      "path": "YM-LAB_RECOVERY/asset_inventory.json",
+      "purpose": "3,524개 복원 자산의 SHA-256 해시 및 Dual Classification 전수 메타데이터",
+      "category": "Asset Inventory",
+      "module": "Recovery",
+      "related_documents": [
+        "YM-LAB_RECOVERY/schema/asset_inventory.schema.json",
+        "YM-LAB_RECOVERY/project_classification.json"
+      ],
+      "related_technologies": [
+        "JSON Schema v2.0",
+        "SHA-256"
+      ],
+      "status": "ACTIVE",
+      "importance": "CRITICAL"
+    },
+    {
+      "doc_id": "DOC_04",
+      "title": "asset_inventory.schema.json",
+      "path": "YM-LAB_RECOVERY/schema/asset_inventory.schema.json",
+      "purpose": "Asset Inventory 정식 JSON Schema Draft 2020-12 사양 정의",
+      "category": "Schema Specification",
+      "module": "Recovery",
+      "related_documents": [
+        "YM-LAB_RECOVERY/asset_inventory.json"
+      ],
+      "related_technologies": [
+        "JSON Schema Draft 2020-12"
+      ],
+      "status": "ACTIVE",
+      "importance": "HIGH"
+    },
+    {
+      "doc_id": "DOC_05",
+      "title": "project_classification.json",
+      "path": "YM-LAB_RECOVERY/project_classification.json",
+      "purpose": "유연한 프로젝트 정규식 분류 엔진 및 프로젝트 별 텍사노미 사양",
+      "category": "Taxonomy Specification",
+      "module": "Recovery",
+      "related_documents": [
+        "YM-LAB_RECOVERY/schema/project_classification.schema.json",
+        "YM-LAB_RECOVERY/unknown_asset_report.md"
+      ],
+      "related_technologies": [
+        "Regex Engine",
+        "JSON Schema"
+      ],
+      "status": "ACTIVE",
+      "importance": "HIGH"
+    },
+    {
+      "doc_id": "DOC_06",
+      "title": "duplicate_report.md",
+      "path": "YM-LAB_RECOVERY/duplicate_report.md",
+      "purpose": "154건 중복 자산의 SHA-256 매칭 원본 추적 및 용량 분석 보고서",
+      "category": "Audit Report",
+      "module": "Recovery",
+      "related_documents": [
+        "YM-LAB_RECOVERY/asset_inventory.json"
+      ],
+      "related_technologies": [
+        "SHA-256 Exact Matching"
+      ],
+      "status": "ACTIVE",
+      "importance": "MEDIUM"
+    },
+    {
+      "doc_id": "DOC_07",
+      "title": "unknown_asset_report.md",
+      "path": "YM-LAB_RECOVERY/unknown_asset_report.md",
+      "purpose": "단일 키워드 오분류 108건 원인 규명 및 4대 그룹 재분류 제안 보고서",
+      "category": "Audit Report",
+      "module": "Recovery",
+      "related_documents": [
+        "YM-LAB_RECOVERY/project_classification.json"
+      ],
+      "related_technologies": [
+        "Path Depth Analysis"
+      ],
+      "status": "ACTIVE",
+      "importance": "MEDIUM"
+    },
+    {
+      "doc_id": "DOC_08",
+      "title": "recovery_improvement.md",
+      "path": "YM-LAB_RECOVERY/recovery_improvement.md",
+      "purpose": "단기(Phase 4), 중기(Phase 5), 장기(Phase 6+) 3단계 로드맵 수립",
+      "category": "Roadmap Specification",
+      "module": "Recovery",
+      "related_documents": [
+        "YM-LAB_RECOVERY/RECOVERY_INDEX.md"
+      ],
+      "related_technologies": [
+        "Architecture Roadmap"
+      ],
+      "status": "ACTIVE",
+      "importance": "HIGH"
+    },
+    {
+      "doc_id": "DOC_09",
+      "title": "MFCO_KNOWLEDGE_BASE_DISCOVERY_REPORT.md",
+      "path": "MFCO_KNOWLEDGE_BASE_DISCOVERY_REPORT.md",
+      "purpose": "MFCO 온톨로지 지식베이스 초기 발견 및 전수 조사 보고서",
+      "category": "Domain Discovery",
+      "module": "Knowledge Engine",
+      "related_documents": [
+        "YM-LAB_RECOVERY/MFCO/00_MFCO_KNOWLEDGE_BASE/02_UNIFIED_KNOWLEDGE_EXCEL/M04-00_UNIFIED_KNOWLEDGE_BASE.xlsx"
+      ],
+      "related_technologies": [
+        "Ontology Discovery"
+      ],
+      "status": "ARCHIVE",
+      "importance": "HIGH"
+    },
+    {
+      "doc_id": "DOC_10",
+      "title": "02_STANDARD_LAYER.sql",
+      "path": "100_PLATFORM/120_DATABASE/schema/02_STANDARD_LAYER.sql",
+      "purpose": "YM-LAB 플랫폼 데이터베이스 표준 테이블 DDL 정의",
+      "category": "Database Schema",
+      "module": "Platform",
+      "related_documents": [
+        "100_PLATFORM/120_DATABASE/repository/standard_repository.py"
+      ],
+      "related_technologies": [
+        "SQL",
+        "PostgreSQL",
+        "SQLite"
+      ],
+      "status": "ACTIVE",
+      "importance": "CRITICAL"
+    },
+    {
+      "doc_id": "DOC_11",
+      "title": "standard_repository.py",
+      "path": "100_PLATFORM/120_DATABASE/repository/standard_repository.py",
+      "purpose": "표준 레이어 데이터 접근 파이썬 레포지토리 객체",
+      "category": "Core Codebase",
+      "module": "Platform",
+      "related_documents": [
+        "100_PLATFORM/120_DATABASE/schema/02_STANDARD_LAYER.sql"
+      ],
+      "related_technologies": [
+        "Python 3",
+        "Repository Pattern"
+      ],
+      "status": "ACTIVE",
+      "importance": "HIGH"
+    },
+    {
+      "doc_id": "DOC_12",
+      "title": "raw_repository.py",
+      "path": "100_PLATFORM/120_DATABASE/repository/raw_repository.py",
+      "purpose": "NICS 농식품올바로 수집 원천 데이터 접근 레포지토리",
+      "category": "Core Codebase",
+      "module": "Platform",
+      "related_documents": [
+        "100_PLATFORM/120_DATABASE/schema/02_STANDARD_LAYER.sql"
+      ],
+      "related_technologies": [
+        "Python 3",
+        "ETL Pipeline"
+      ],
+      "status": "ACTIVE",
+      "importance": "HIGH"
+    },
+    {
+      "doc_id": "DOC_13",
+      "title": "INGREDIENT_MASTER_SPEC.md",
+      "path": "01_PHASE1_KIMCHI/03_INGREDIENT_MASTER/INGREDIENT_MASTER_SPEC.md",
+      "purpose": "Phase 1 김치 원재료 마스터 항목 및 화학 성분 규격서",
+      "category": "Domain Specification",
+      "module": "Kimchi",
+      "related_documents": [
+        "01_PHASE1_KIMCHI/04_RECIPE_MASTER/RECIPE_MASTER_SPEC.md"
+      ],
+      "related_technologies": [
+        "Nutrient Mapping"
+      ],
+      "status": "ACTIVE",
+      "importance": "HIGH"
+    },
+    {
+      "doc_id": "DOC_14",
+      "title": "RECIPE_MASTER_SPEC.md",
+      "path": "01_PHASE1_KIMCHI/04_RECIPE_MASTER/RECIPE_MASTER_SPEC.md",
+      "purpose": "Phase 1 김치 레시피 조합 및 가공 표준 규격서",
+      "category": "Domain Specification",
+      "module": "Kimchi",
+      "related_documents": [
+        "01_PHASE1_KIMCHI/03_INGREDIENT_MASTER/INGREDIENT_MASTER_SPEC.md"
+      ],
+      "related_technologies": [
+        "Recipe Engine"
+      ],
+      "status": "ACTIVE",
+      "importance": "HIGH"
+    },
+    {
+      "doc_id": "DOC_15",
+      "title": "AUTOMATED_MARKET_FEASIBILITY_ENGINE_SPEC.md",
+      "path": "00_MFCO_KNOWLEDGE_BASE/07_ONEDRIVE_RECOVERY_FULL/06_DOCUMENT/AUTOMATED_MARKET_FEASIBILITY_ENGINE_SPEC.md",
+      "purpose": "자동화 시장 타당성 분석 엔진 설계 블루프린트",
+      "category": "Engine Specification",
+      "module": "Commercial",
+      "related_documents": [
+        "00_MFCO_KNOWLEDGE_BASE/07_ONEDRIVE_RECOVERY_FULL/06_DOCUMENT/MFCO_Q_CODE_TRACE_SYSTEM_BLUEPRINT.md"
+      ],
+      "related_technologies": [
+        "Market Feasibility AI"
+      ],
+      "status": "DRAFT",
+      "importance": "MEDIUM"
+    },
+    {
+      "doc_id": "DOC_16",
+      "title": "App.jsx",
+      "path": "00_MFCO_KNOWLEDGE_BASE/07_ONEDRIVE_RECOVERY_FULL/mfco-website/src/App.jsx",
+      "purpose": "MFCO 웹 애플리케이션 메인 React 컴포넌트 및 라우팅",
+      "category": "Frontend Application",
+      "module": "Website",
+      "related_documents": [
+        "07_ONEDRIVE_RECOVERY_FULL/mfco-website/src/data/mfcoData.json",
+        "07_ONEDRIVE_RECOVERY_FULL/mfco-website/src/utils/mfcoInference.js"
+      ],
+      "related_technologies": [
+        "React",
+        "Vite",
+        "JavaScript"
+      ],
+      "status": "ACTIVE",
+      "importance": "HIGH"
+    },
+    {
+      "doc_id": "DOC_17",
+      "title": "mfcoData.json",
+      "path": "00_MFCO_KNOWLEDGE_BASE/07_ONEDRIVE_RECOVERY_FULL/mfco-website/src/data/mfcoData.json",
+      "purpose": "웹 서비스용 MFCO 온톨로지 데이터 정적 직렬화 파일",
+      "category": "Data Asset",
+      "module": "Website",
+      "related_documents": [
+        "07_ONEDRIVE_RECOVERY_FULL/mfco-website/src/utils/mfcoInference.js"
+      ],
+      "related_technologies": [
+        "JSON",
+        "Ontology Data Dump"
+      ],
+      "status": "ACTIVE",
+      "importance": "CRITICAL"
+    },
+    {
+      "doc_id": "DOC_18",
+      "title": "mfcoInference.js",
+      "path": "00_MFCO_KNOWLEDGE_BASE/07_ONEDRIVE_RECOVERY_FULL/mfco-website/src/utils/mfcoInference.js",
+      "purpose": "온톨로지 기반 약선 효능 및 식재료 궁합 추론 유틸리티 모듈",
+      "category": "Inference Module",
+      "module": "Website",
+      "related_documents": [
+        "07_ONEDRIVE_RECOVERY_FULL/mfco-website/src/data/mfcoData.json",
+        "07_ONEDRIVE_RECOVERY_FULL/mfco-website/src/App.jsx"
+      ],
+      "related_technologies": [
+        "JavaScript",
+        "Inference Algorithm"
+      ],
+      "status": "ACTIVE",
+      "importance": "HIGH"
+    },
+    {
+      "doc_id": "DOC_19",
+      "title": "sanYacho MANIFEST.json",
+      "path": "sanYacho/MANIFEST.json",
+      "purpose": "산야초 웹 프로젝트 독립 매니페스트 설정 파일",
+      "category": "Application Manifest",
+      "module": "Commercial",
+      "related_documents": [
+        "YM-LAB_RECOVERY/MANIFEST.json"
+      ],
+      "related_technologies": [
+        "Next.js",
+        "Vercel"
+      ],
+      "status": "ACTIVE",
+      "importance": "MEDIUM"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "metadata": {
+    "version": "2.0.0",
+    "phase": "Phase 05",
+    "generated_at": "2026-07-22T12:30:49.634269",
+    "graph_type": "Workflow Task Progression Graph"
+  },
+  "nodes": [
+    {
+      "id": "T01_RECOVERY",
+      "label": "Recovery Baseline Integration",
+      "phase": "Phase 03",
+      "status": "COMPLETED"
+    },
+    {
+      "id": "T02_INVENTORY",
+      "label": "Asset Inventory Construction",
+      "phase": "Phase 04-01",
+      "status": "COMPLETED"
+    },
+    {
+      "id": "T03_CLASSIFICATION",
+      "label": "Taxonomy & Schema Definition",
+      "phase": "Phase 04-03",
+      "status": "COMPLETED"
+    },
+    {
+      "id": "T04_INTELLIGENCE",
+      "label": "Project Intelligence Layer",
+      "phase": "Phase 05",
+      "status": "COMPLETED"
+    },
+    {
+      "id": "T05_KNOWLEDGE_ENGINE",
+      "label": "Knowledge Engine & RAG Index",
+      "phase": "Phase 06",
+      "status": "PLANNED"
+    },
+    {
+      "id": "T06_AUTOMATION",
+      "label": "Pipeline & CI/CD Automation",
+      "phase": "Phase 07",
+      "status": "PLANNED"
+    },
+    {
+      "id": "T07_AI_AGENT",
+      "label": "Autonomous Agentic Operations",
+      "phase": "Phase 08",
+      "status": "PLANNED"
+    }
+  ],
+  "edges": [
+    {
+      "source": "T01_RECOVERY",
+      "target": "T02_INVENTORY",
+      "relation": "TRIGGERS",
+      "direction": "FORWARD",
+      "weight": 1.0,
+      "evidence": "YM-LAB_RECOVERY/catalog.db",
+      "confidence": 1.0
+    },
+    {
+      "source": "T02_INVENTORY",
+      "target": "T03_CLASSIFICATION",
+      "relation": "FEEDS_INTO",
+      "direction": "FORWARD",
+      "weight": 1.0,
+      "evidence": "YM-LAB_RECOVERY/asset_inventory.json",
+      "confidence": 1.0
+    },
+    {
+      "source": "T03_CLASSIFICATION",
+      "target": "T04_INTELLIGENCE",
+      "relation": "ENABLES",
+      "direction": "FORWARD",
+      "weight": 1.0,
+      "evidence": "YM-LAB_RECOVERY/project_classification.json",
+      "confidence": 1.0
+    },
+    {
+      "source": "T04_INTELLIGENCE",
+      "target": "T05_KNOWLEDGE_ENGINE",
+      "relation": "PREPARES_SEMANTICS",
+      "direction": "FORWARD",
+      "weight": 1.0,
+      "evidence": "200_PROJECT_INTELLIGENCE/intelligence/intelligence_schema.json",
+      "confidence": 1.0
+    },
+    {
+      "source": "T05_KNOWLEDGE_ENGINE",
+      "target": "T06_AUTOMATION",
+      "relation": "FEEDS_ENGINE",
+      "direction": "FORWARD",
+      "weight": 1.0,
+      "evidence": "YM-LAB_RECOVERY/recovery_improvement.md",
+      "confidence": 0.9
+    },
+    {
+      "source": "T06_AUTOMATION",
+      "target": "T07_AI_AGENT",
+      "relation": "EMPOWERS_AGENT",
+      "direction": "FORWARD",
+      "weight": 1.0,
+      "evidence": "200_PROJECT_INTELLIGENCE/intelligence/project_identity.json",
+      "confidence": 0.85
+    }
+  ],
+  "statistics": {
+    "node_count": 7,
+    "edge_count": 6,
+    "graph_density": 0.286
+  },
+  "validation": {
+    "is_dag": true,
+    "has_orphans": false,
+    "valid_schema": true
+  }
+}

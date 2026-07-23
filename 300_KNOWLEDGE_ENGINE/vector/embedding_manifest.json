@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "metadata": {
+    "version": "1.0.0",
+    "phase": "Phase 06",
+    "generated_at": "2026-07-22T12:50:46.313701"
+  },
+  "manifest": {
+    "chunk_index_file": "300_KNOWLEDGE_ENGINE/vector/chunk_index.json",
+    "embedding_registry_file": "300_KNOWLEDGE_ENGINE/knowledge/embedding_registry.json",
+    "vector_store_type": "ChromaDB / Pinecone",
+    "distance_metric": "Cosine Similarity",
+    "status": "METADATA_MANIFEST_VERIFIED"
+  }
+}

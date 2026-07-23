@@ -1,0 +1,66 @@
+{
+  "report_id": "QAR_c6fa667cad",
+  "generated_at": "2026-07-21T05:35:31.304708+00:00",
+  "summary": {
+    "quality_score": 100.0,
+    "overall_status": "EXCELLENT",
+    "total_errors_detected": 0
+  },
+  "detail": {
+    "schema_validation": {
+      "total_evaluated": 2,
+      "valid_count": 2,
+      "invalid_count": 0,
+      "valid_rate_pct": 100.0,
+      "errors": []
+    },
+    "integrity_check": {
+      "valid": true,
+      "evaluated_count": 2,
+      "corrupted_count": 0,
+      "integrity_rate_pct": 100.0,
+      "corrupted_details": []
+    },
+    "duplicate_detection": {
+      "valid": true,
+      "total_records": 2,
+      "duplicate_code_count": 0,
+      "duplicate_hash_count": 0,
+      "total_duplicates": 0,
+      "duplicate_rate_pct": 0.0,
+      "duplicate_code_details": [],
+      "duplicate_hash_details": []
+    },
+    "missing_analysis": {
+      "valid": true,
+      "total_records": 2,
+      "missing_fields_count": 0,
+      "missing_rate_pct": 0.0,
+      "missing_by_field": {
+        "food_name_ko": 0,
+        "category_code": 0,
+        "raw_id": 0
+      }
+    },
+    "referential_integrity": {
+      "valid": true,
+      "violations_count": 0,
+      "violations": []
+    },
+    "outlier_detection": {
+      "valid": true,
+      "outlier_count": 0,
+      "anomalies": [],
+      "metrics": {
+        "avg_response_time_ms": 120.0,
+        "batch_volume": 10,
+        "retry_rate_pct": 0.0,
+        "failure_rate_pct": 0.0
+      }
+    }
+  },
+  "error_list": [],
+  "recommendation": [
+    "Data quality is EXCELLENT. Platform ready for MFCO domain inference ingestion."
+  ]
+}

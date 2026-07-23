@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "metadata": {
+    "version": "2.0.0",
+    "phase": "Phase 05",
+    "generated_at": "2026-07-22T12:30:49.634269",
+    "graph_type": "Module Relationship Directed Matrix"
+  },
+  "nodes": [
+    {
+      "id": "Recovery",
+      "label": "Recovery Module",
+      "layer": "Infrastructure & Governance"
+    },
+    {
+      "id": "Project_Intelligence",
+      "label": "Project Intelligence Layer",
+      "layer": "Semantic Graph Layer"
+    },
+    {
+      "id": "Knowledge_Engine",
+      "label": "Knowledge Engine (Phase 06)",
+      "layer": "Reasoning & Vector Layer"
+    },
+    {
+      "id": "Automation",
+      "label": "Automation Pipeline (Phase 07)",
+      "layer": "Pipeline Orchestration"
+    },
+    {
+      "id": "Agent",
+      "label": "Autonomous Agent (Phase 08)",
+      "layer": "Autonomous Agentic Ops"
+    },
+    {
+      "id": "Commercial",
+      "label": "Commercial Platform",
+      "layer": "B2C/B2B Application"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Recovery",
+      "target": "Project_Intelligence",
+      "relation": "PROVIDES_ASSET_INVENTORY",
+      "direction": "DOWNSTREAM",
+      "weight": 1.0,
+      "evidence": "YM-LAB_RECOVERY/asset_inventory.json",
+      "confidence": 1.0
+    },
+    {
+      "source": "Project_Intelligence",
+      "target": "Knowledge_Engine",
+      "relation": "PROVIDES_SEMANTIC_MODEL",
+      "direction": "DOWNSTREAM",
+      "weight": 1.0,
+      "evidence": "200_PROJECT_INTELLIGENCE/intelligence/intelligence_schema.json",
+      "confidence": 1.0
+    },
+    {
+      "source": "Knowledge_Engine",
+      "target": "Automation",
+      "relation": "PROVIDES_REASONING_PIPELINE",
+      "direction": "DOWNSTREAM",
+      "weight": 0.9,
+      "evidence": "200_PROJECT_INTELLIGENCE/intelligence/task_graph.json",
+      "confidence": 0.9
+    },
+    {
+      "source": "Automation",
+      "target": "Agent",
+      "relation": "PROVIDES_EXECUTABLE_TASKS",
+      "direction": "DOWNSTREAM",
+      "weight": 0.9,
+      "evidence": "YM-LAB_RECOVERY/recovery_improvement.md",
+      "confidence": 0.85
+    },
+    {
+      "source": "Agent",
+      "target": "Commercial",
+      "relation": "PROVIDES_AUTONOMOUS_OPERATIONS",
+      "direction": "DOWNSTREAM",
+      "weight": 0.85,
+      "evidence": "200_PROJECT_INTELLIGENCE/intelligence/project_identity.json",
+      "confidence": 0.85
+    }
+  ],
+  "statistics": {
+    "node_count": 6,
+    "edge_count": 5,
+    "graph_density": 0.33
+  },
+  "validation": {
+    "is_dag": true,
+    "has_orphans": false,
+    "valid_schema": true
+  }
+}

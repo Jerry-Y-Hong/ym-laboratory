@@ -1,0 +1,207 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "metadata": {
+    "version": "1.0.0",
+    "phase": "Phase 06",
+    "generated_at": "2026-07-22T12:50:46.313701",
+    "total_concepts": 8
+  },
+  "concepts": [
+    {
+      "concept_id": "CONCEPT_MFCO",
+      "name": "Master Functional Core Ontology",
+      "aliases": [
+        "MFCO",
+        "Functional Core Ontology",
+        "기능성 온톨로지"
+      ],
+      "keywords": [
+        "ontology",
+        "q-code",
+        "nutrition",
+        "yakseon",
+        "functional ingredient"
+      ],
+      "tags": [
+        "core",
+        "ontology",
+        "domain"
+      ],
+      "definition": "식약처 기능성 원료, 한의학 식재료, 영양성분을 정규화한 마스터 온톨로지 지식 체계.",
+      "references": [
+        "00_MFCO_KNOWLEDGE_BASE/07_ONEDRIVE_RECOVERY_FULL/06_DOCUMENT/MFCO_KNOWLEDGE_BASE_DISCOVERY_REPORT.md"
+      ]
+    },
+    {
+      "concept_id": "CONCEPT_WASABI",
+      "name": "Wasabia Japonica Functional Master",
+      "aliases": [
+        "Wasabi",
+        "고추냉이",
+        "와사비 원재료"
+      ],
+      "keywords": [
+        "wasabi",
+        "isothiocyanate",
+        "phytochemical",
+        "smart farm"
+      ],
+      "tags": [
+        "ingredient",
+        "master",
+        "phytochemical"
+      ],
+      "definition": "Wasabia japonica 식생 및 유효 성분(Isothiocyanate) 기반 기능성 마스터 도메인.",
+      "references": [
+        "01_PHASE1_KIMCHI/03_INGREDIENT_MASTER/INGREDIENT_MASTER_SPEC.md"
+      ]
+    },
+    {
+      "concept_id": "CONCEPT_RECOVERY",
+      "name": "Asset Recovery Storage & Baseline",
+      "aliases": [
+        "YM-LAB_RECOVERY",
+        "Recovery Baseline",
+        "Asset Archive"
+      ],
+      "keywords": [
+        "recovery",
+        "catalog",
+        "sha256",
+        "sqlite",
+        "baseline"
+      ],
+      "tags": [
+        "governance",
+        "baseline",
+        "archive"
+      ],
+      "definition": "3,524개 YM-LAB 복원 자산의 SHA-256 해시 및 catalog.db 기반 무결성 보존 저장소.",
+      "references": [
+        "YM-LAB_RECOVERY/asset_inventory.json"
+      ]
+    },
+    {
+      "concept_id": "CONCEPT_QCODE",
+      "name": "MFCO Q-Code Semantic Identifier",
+      "aliases": [
+        "Q-Code",
+        "QCode",
+        "Semantic Index Code"
+      ],
+      "keywords": [
+        "q-code",
+        "q-ing",
+        "q-fnc",
+        "q-rcp",
+        "identifier"
+      ],
+      "tags": [
+        "identifier",
+        "ontology",
+        "standard"
+      ],
+      "definition": "MFCO 온톨로지 원재료(Q-ING), 기능그룹(Q-FNC), 레시피(Q-RCP)에 부여되는 고유 시맨틱 코드.",
+      "references": [
+        "00_MFCO_KNOWLEDGE_BASE/07_ONEDRIVE_RECOVERY_FULL/06_DOCUMENT/MFCO_Q_CODE_TRACE_SYSTEM_BLUEPRINT.md"
+      ]
+    },
+    {
+      "concept_id": "CONCEPT_INTELLIGENCE",
+      "name": "Project Intelligence Layer",
+      "aliases": [
+        "Project Intelligence",
+        "Phase 05 Layer",
+        "Semantic Layer"
+      ],
+      "keywords": [
+        "intelligence",
+        "property graph",
+        "machine readable",
+        "dna"
+      ],
+      "tags": [
+        "intelligence",
+        "phase05",
+        "graph"
+      ],
+      "definition": "프로젝트 전체 구조와 관계를 컴퓨터 및 AI 에이전트가 추론할 수 있는 시맨틱 인텔리전스 레이어.",
+      "references": [
+        "200_PROJECT_INTELLIGENCE/intelligence/project_identity.json"
+      ]
+    },
+    {
+      "concept_id": "CONCEPT_PIS",
+      "name": "Plant Intelligence System",
+      "aliases": [
+        "PIS",
+        "식물 지식 시스템"
+      ],
+      "keywords": [
+        "pis",
+        "plant",
+        "agritech",
+        "sanyacho",
+        "phytochemical"
+      ],
+      "tags": [
+        "domain",
+        "agritech",
+        "pis"
+      ],
+      "definition": "산야초 및 약용 식물의 생육, 효능, 성분을 분석하는 식물 지식 시스템.",
+      "references": [
+        "sanYacho/MANIFEST.json"
+      ]
+    },
+    {
+      "concept_id": "CONCEPT_NICS",
+      "name": "National Agricultural Food Safety Data",
+      "aliases": [
+        "NICS",
+        "농식품올바로",
+        "NICS Data"
+      ],
+      "keywords": [
+        "nics",
+        "open data",
+        "food composition",
+        "rda"
+      ],
+      "tags": [
+        "data",
+        "open_data",
+        "nics"
+      ],
+      "definition": "농촌진흥청 국가 표준 식품 성분표 및 식약처 공공 데이터베이스.",
+      "references": [
+        "100_PLATFORM/120_DATABASE/repository/raw_repository.py"
+      ]
+    },
+    {
+      "concept_id": "CONCEPT_ENGINE",
+      "name": "Knowledge Engine Construction",
+      "aliases": [
+        "Knowledge Engine",
+        "Phase 06 Engine",
+        "Semantic Engine"
+      ],
+      "keywords": [
+        "knowledge engine",
+        "rag",
+        "vector",
+        "graph",
+        "hybrid search"
+      ],
+      "tags": [
+        "engine",
+        "phase06",
+        "infrastructure"
+      ],
+      "definition": "프로젝트 전반의 의미 검색, 시맨틱 그래프, RAG 연동을 지원하는 지식 엔진 인프라.",
+      "references": [
+        "300_KNOWLEDGE_ENGINE/docs/KNOWLEDGE_ENGINE.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "alert_id": "ALT_a8c8b395e3fe",
+  "alert_type": "HASH_INTEGRITY_FAIL",
+  "severity": "CRITICAL",
+  "title": "RAW Hash Mismatch",
+  "description": "Corrupted raw payload hash",
+  "triggered_at": "2026-07-21T05:15:19.437631+00:00",
+  "status": "OPEN",
+  "metadata": {}
+}

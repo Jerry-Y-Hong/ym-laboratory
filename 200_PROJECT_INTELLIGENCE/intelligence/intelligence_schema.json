@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "g:/내 드라이브/YM-LAB_PROJECT_/200_PROJECT_INTELLIGENCE/intelligence/intelligence_schema.json",
+  "title": "YMLabIntelligenceLayerMasterSchema",
+  "description": "Master JSON Schema for YM-LAB Project Intelligence Layer Entities, Graph Models, Metadata & Validation Rules (v2.0.0).",
+  "type": "object",
+  "schema_version": "2.0.0",
+  "semantic_version": "2.0.0",
+  "compatible_phase": "Phase 05 Project Intelligence Layer & Phase 06 Knowledge Engine",
+  "compatible_ai": [
+    "Antigravity Advanced Agentic Coding Engine",
+    "Gemini 3.6 Flash",
+    "GPT-4o",
+    "Claude 3.5 Sonnet"
+  ],
+  "validation_rules": [
+    "All graph JSON files MUST include metadata, nodes, edges, statistics, validation root keys.",
+    "All edges MUST include source, target, relation, direction, weight, evidence, confidence fields.",
+    "All technology entries MUST include status (Current, Planned, Future) supported by project evidence.",
+    "All terminology entries MUST include preferred_term, confidence, status, evidence fields."
+  ],
+  "required": [
+    "$schema",
+    "meta",
+    "entity_types",
+    "graph_model"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "format": "uri"
+    },
+    "meta": {
+      "type": "object",
+      "required": [
+        "version",
+        "phase",
+        "generated_at"
+      ],
+      "properties": {
+        "version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+        },
+        "phase": {
+          "type": "string"
+        },
+        "generated_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "entity_types": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "description"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "graph_model": {
+      "type": "object",
+      "required": [
+        "node_types",
+        "edge_relations"
+      ],
+      "properties": {
+        "node_types": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "edge_relations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "entity_types": [
+    {
+      "name": "ProjectIdentity",
+      "description": "YM-LAB permanent DNA, mission, principles and AI rules"
+    },
+    {
+      "name": "DocumentIndex",
+      "description": "Extracted document metadata and cross-references"
+    },
+    {
+      "name": "TerminologyEntry",
+      "description": "Domain term definitions, aliases and concepts"
+    },
+    {
+      "name": "ConceptFlow",
+      "description": "Semantic progression step in knowledge domain"
+    },
+    {
+      "name": "ProjectNode",
+      "description": "Sub-project entity in ecosystem graph"
+    },
+    {
+      "name": "DependencyRelation",
+      "description": "Directed data or code dependency"
+    },
+    {
+      "name": "TechnologyItem",
+      "description": "Language, framework or tool entry with status"
+    },
+    {
+      "name": "WorkflowTask",
+      "description": "Phase execution task node"
+    }
+  ],
+  "graph_model": {
+    "node_types": [
+      "ROOT_ECOSYSTEM",
+      "CORE_ONTOLOGY",
+      "STANDALONE_APP",
+      "OPEN_DATASET",
+      "INFRASTRUCTURE",
+      "RECOVERY_CATALOG",
+      "DOMAIN_DATASET",
+      "FRONTEND_APP"
+    ],
+    "edge_relations": [
+      "CONTAINS",
+      "FEEDS_RAW_DATA",
+      "PROVIDES_STANDARD_SCHEMA",
+      "PROVIDES_ONTOLOGY_DATA",
+      "INCLUDES_SUBDOMAIN",
+      "INDEXES_AND_PRESERVES",
+      "implements",
+      "persists_to",
+      "feeds_data_to",
+      "drives",
+      "deploys_on",
+      "uses",
+      "defines",
+      "depends_on",
+      "references",
+      "produces"
+    ]
+  }
+}
